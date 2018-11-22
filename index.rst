@@ -8,7 +8,7 @@ Contents
     
     About
     Install
-    Reference Manual
+    Reference Manual <Reference Manual.md>
     User Guides and How-to
         Printing Drawings
     Other
