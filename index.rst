@@ -4,7 +4,7 @@ LibreCAD User Manual
 Contents
 ^^^^^^^^
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
     
     About <About.md>
     Install <Install.md>
