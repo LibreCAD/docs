@@ -4,12 +4,17 @@ LibreCAD User Manual
 ====================
 
 Contents:
-
-LibreCAD ver2.1.x
 .. toctree::
-  :maxdepth: 3
-  
+   :maxdepth: 3
+
+Indices and Tables
+==================
+
+:ref:'genindex'
+:ref:'modindex'
+
 * About
+   LibreCAD ver2.1.x
 * Install
 * Reference Manual
     * Menu
