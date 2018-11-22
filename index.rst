@@ -6,9 +6,9 @@ Contents
 .. toctree::
     :maxdepth: 3
     
-    About <About.md>
-    Install <Install.md>
-    Reference Manual <Reference Manual.md>
-    User Guides and How-to <How-to.md>
-    Other <Other.md>
+    About </manual/About.md>
+    Install </manual/Install.md>
+    Reference Manual </manual/Reference Manual.md>
+    User Guides and How-to </manual/How-to.md>
+    Other </manual/Other.md>
  
