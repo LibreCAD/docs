@@ -37,21 +37,21 @@ The drawing tools are used to create and modify entities such as lines, circles,
 **Tangential 2 Circles, Radius**|||Draw a circle tangential to two circles with a given radius.
 **Tangential, 2 Circles, 1 Point**|||Draw a circle tangential to two existing circles and assigning a centre point to establish the radius.
 **Tangential, 2 Points**|||Draw a circle tangential to an existing circle and define the diameter and placement by assigning two points on the circumference.
-|**Tangential, 2 Circles, Radius**|||Draw a circle tangential to two existing circles with a given radius.
-|**Tangential, 3 Circles**|||Draw a circle tangential to three existing circles and/or lines.
+**Tangential, 2 Circles, Radius**|||Draw a circle tangential to two existing circles with a given radius.
+**Tangential, 3 Circles**|||Draw a circle tangential to three existing circles and/or lines.
 
-|**_Curve_**|||
-|-----|-----|-----|-----
-|**Center, Point, Angles**|||Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc.
-|**3 Points**|||Draw a curve (arc) by assigning three points on the circumference of the arc defining the start position, a point on the circumference and end position of the arc.
-|**Concentric**|||Draw a curve (arc) concentric, with the same centre point, to an existing curve (arc) with a defined offset.(*)
-|**Arc Tangential**|||Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg).
+**_Curve_**|||
+-----|-----|-----|-----
+**Center, Point, Angles**|||Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc.
+**3 Points**|||Draw a curve (arc) by assigning three points on the circumference of the arc defining the start position, a point on the circumference and end position of the arc.
+**Concentric**|||Draw a curve (arc) concentric, with the same centre point, to an existing curve (arc) with a defined offset.(*)
+**Arc Tangential**|||Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg).
 
-|**_Ellipse_**|||
-|-----|-----|-----|-----
-|**Ellipse (Axis)**|||Draw an ellipse by assigning a centre point, a point on the circumference of major access and a point on the circumference the minor access.
-|**Ellipse Arc (Axis)**|||N/A
-|**Ellipse Foci Point**|||Draw an ellipse by assigning two foci points and a point  on the circumference.
+**_Ellipse_**|||
+-----|-----|-----|-----
+**Ellipse (Axis)**|||Draw an ellipse by assigning a centre point, a point on the circumference of major access and a point on the circumference the minor access.
+**Ellipse Arc (Axis)**|||N/A
+**Ellipse Foci Point**|||Draw an ellipse by assigning two foci points and a point  on the circumference.
 |**Ellipse 4 Point**|||Draw an ellipse assigning four points on the circumference.
 |**Ellipse Center and 3 Points**|||Draw an ellipse by assigning a centre point three points on the circumference.
 |**Ellipse Inscribed**||| Draw a Ellipse constrained by four existing non-parallel line segments.
