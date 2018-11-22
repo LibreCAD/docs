@@ -12,4 +12,4 @@
 
 [Printing Guide](./howto/PrintingGuide.md)
 
-[## Other ##](./Other.md)
+[# Other #](./Other.md)
