@@ -21,10 +21,10 @@ To print a drawing without a drawing border / title block template or a specific
 
 To print a drawing without a drawing border / title block template but to a specific scale requires a couple of additional steps.  With a drawing opened in LibreCAD:
 1. Select File -> Print Preview or click the ‘Print Preview’ icon.
-1. Set or confirm the paper layout for the current drawing:
-a) Select Options -> Current Drawing Preferences.
-b) Set format as desired, e.g. A4, Landscape, and click ‘OK’
-c) The page is represented by the shadowed rectangle in the print preview.
+2. Set or confirm the paper layout for the current drawing:
+    a) Select Options -> Current Drawing Preferences.
+    b) Set format as desired, e.g. A4, Landscape, and click ‘OK’
+    c) The page is represented by the shadowed rectangle in the print preview.
 3) Click the ‘Fit to Page’ button on the tool bar.  This establish the largest scale the can be used for the paper size defined in step 2 above.
 4) Select the desired scaled from the drop-down box on the toolbar.
 5) Click the ‘Center to Page’ icon from the toolbar.  
@@ -32,12 +32,15 @@ c) The page is represented by the shadowed rectangle in the print preview.
 7) Select File -> Print or click the ‘Print’ icon.
 8) Select the printer on the Print dialogue and confirm the properties by clicking the ‘Properties’ button.  Adjust the properties if necessary and then click ‘OK’.
 9) Click the ‘Print’ button.
-Printing to Scale with a Border and Title Block
+
+## Printing to Scale with a Border and Title Block
+
 To print a drawing with a drawing border / title block template, but to a specific scale requires several steps:
-    • Starts with a drawing drawn full scale (1:1),
-    • Select the paper size for the print and adjust the drawing scale to suit,
-    • Insert the page border and title block,
-    • Print.
+* Starts with a drawing drawn full scale (1:1),
+* Select the paper size for the print and adjust the drawing scale to suit,
+* Insert the page border and title block,
+* Print.
+
 Specifically, the process is as follows.  Starting with a full-scale (1:1) drawing:
     1) Open the drawing file to be printed and select File -> Print Preview or click the ‘Print Preview’ icon.  The page is represented by the shadowed rectangle in the print preview.  Zoom out if necessary.
     2) Set or confirm the paper layout for the current drawing:
