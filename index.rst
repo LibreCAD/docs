@@ -8,6 +8,6 @@ LibreCAD ver2.1.x
 * About
 * Install
 * Reference Manual
-** Tools
+    * Tools
 * User Guides and How-to
 * More
