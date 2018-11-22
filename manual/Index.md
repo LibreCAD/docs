@@ -1,4 +1,4 @@
-## [About LibreCAD**](./About.md) ##
+## [About LibreCAD](./About.md) ##
 
 ## Reference Manual ##
 
