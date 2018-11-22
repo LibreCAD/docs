@@ -1,7 +1,7 @@
 [**About LibreCAD**](./About.md)
 
-Reference Manual
-================
+##Reference Manual##
+
 [Installation](./reference/Install.md)
 
 [The Coordinate system](./reference/Coordinates.md)
