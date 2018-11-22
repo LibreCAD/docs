@@ -74,46 +74,46 @@ The drawing tools are used to create and modify entities such as lines, circles,
 
 |**_Select_**||||
 |-----|-----|-----|-----|
-|**Select Entity**|||Select, or deselect, one or more entities (default cursor action).
-|**Select Window**|||Select one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L) (default cursor "drag" action).
-|**Deselect Window**|||Deselect one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L).
-|**(De-)Select Contour**|||Select or deselected entities connected by shared points.
-|**Select Intersected Entities**|||Select on or more entities crossed by selection line.
-|**Deselect Intersected Entities**|||Deselect on or more entities crossed by selection line.
-|**(De-)Select Layer**|||Select or deselected all entities on the layer of the selected entity.
-|**Select All**|||Select all entities on visible layers ([Ctrl]-[A]).
-|**Deselect all**||| Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc] action).
-|**Invert Selection**|||Select all un-selected entities will deselecting all selected entities.
+**Select Entity**|||Select, or deselect, one or more entities (default cursor action).
+**Select Window**|||Select one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L) (default cursor "drag" action).
+**Deselect Window**|||Deselect one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L).
+**(De-)Select Contour**|||Select or deselected entities connected by shared points.
+**Select Intersected Entities**|||Select on or more entities crossed by selection line.
+**Deselect Intersected Entities**|||Deselect on or more entities crossed by selection line.
+**(De-)Select Layer**|||Select or deselected all entities on the layer of the selected entity.
+**Select All**|||Select all entities on visible layers ([Ctrl]-[A]).
+**Deselect all**||| Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc] action).
+**Invert Selection**|||Select all un-selected entities will deselecting all selected entities.
 
 |**_Dimension_**||||
 |-----|-----|-----|-----|
-|**Aligned**|||Apply dimension lines and text aligned to an existing entity by selecting start and end points on a line segment and placement point for the text.
-|**Linear**|||Apply dimension lines and text at an defined angle to an entity by selecting start and end points on a line segment and placement point for the text.
-|**Horizontal**|||Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.
-|**Vertical**|||Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.
-|**Radial**|||Apply dimension lines and text a circle's or arc's radius by selecting entity and placement point for the text.
-|**Diametric**|||Apply dimension lines and text a circle's or arc's diameter by selecting entity and placement point for the text.
-|**Angular**|||Apply angular dimension by selecting two existing non-parallel line segments and placement point for the text.
-|**Leader**|||Draw a text leader by by selecting start (arrow location), intermediate and end points.
+**Aligned**|||Apply dimension lines and text aligned to an existing entity by selecting start and end points on a line segment and placement point for the text.
+**Linear**|||Apply dimension lines and text at an defined angle to an entity by selecting start and end points on a line segment and placement point for the text.
+**Horizontal**|||Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.
+**Vertical**|||Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.
+**Radial**|||Apply dimension lines and text a circle's or arc's radius by selecting entity and placement point for the text.
+**Diametric**|||Apply dimension lines and text a circle's or arc's diameter by selecting entity and placement point for the text.
+**Angular**|||Apply angular dimension by selecting two existing non-parallel line segments and placement point for the text.
+**Leader**|||Draw a text leader by by selecting start (arrow location), intermediate and end points.
 
 |**_Modify_**||||
 |-----|-----|-----|-----|
-|**Attributes**|||Modify the common attributes of **''one or more**'' selected entities, including Layer, Pen color, Pen width, and Pen Line type.
-|**Delete**||| Mark one or more entities to be deleted, press [Enter] to complete operation.
-|**Delete selected**|||Delete one or more selected entities.
-|**Delete Freehand**|||Delete segment within a polyline define by two points. (Use "Snap on Entity" to place points.)
-|**Move / Copy**|||Move a selected entity by defining a reference point and a relative target point. Optionally keep the original entity (Copy), create mulitple copies and / or alter attributes and layer.
-|**Revert direction**|||Swap start and end points of one or more selected entities.
-|**Rotate**|||Rotate a selected entity around a rotation point, moving the entity from a reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer.
-|**Scale**|||Increase or decrease the size of a selected entity from a reference point by a defined factor for both axis.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer.
-|**Mirror**|||Create a mirror image of a selected entity around an axis defined by two points.  Optionally keep the original entity and / or alter attributes and layer.
-|**Move and Rotate**|||Move a selected entity by defining a reference point and a relative target point and rotataing the entity at a given angle.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer.
-|**Rotate Two**|||Rotate a selected entity around an absolute rotation point, while rotating the entity around a relative reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer.
-|**Stretch**|||Move a selected portion of a drawing by defining a reference point and a relative target point.
-|**Bevel**|||Create a sloping edge between two intersecting line segments with defined by a setback on each segment.
-|**Fillet**|||Create a rounded edge between two intersecting line segments with defined radius.
-|**Explode Text into Letters**|||Separate a string of text into individual character entities.
-|**Explode**|||Separate one or more selected blocks into individual entities.
+**Attributes**|||Modify the common attributes of **''one or more**'' selected entities, including Layer, Pen color, Pen width, and Pen Line type.
+**Delete**||| Mark one or more entities to be deleted, press [Enter] to complete operation.
+**Delete selected**|||Delete one or more selected entities.
+**Delete Freehand**|||Delete segment within a polyline define by two points. (Use "Snap on Entity" to place points.)
+**Move / Copy**|||Move a selected entity by defining a reference point and a relative target point. Optionally keep the original entity (Copy), create mulitple copies and / or alter attributes and layer.
+**Revert direction**|||Swap start and end points of one or more selected entities.
+**Rotate**|||Rotate a selected entity around a rotation point, moving the entity from a reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer.
+**Scale**|||Increase or decrease the size of a selected entity from a reference point by a defined factor for both axis.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer.
+**Mirror**|||Create a mirror image of a selected entity around an axis defined by two points.  Optionally keep the original entity and / or alter attributes and layer.
+**Move and Rotate**|||Move a selected entity by defining a reference point and a relative target point and rotataing the entity at a given angle.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer.
+**Rotate Two**|||Rotate a selected entity around an absolute rotation point, while rotating the entity around a relative reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer.
+**Stretch**|||Move a selected portion of a drawing by defining a reference point and a relative target point.
+**Bevel**|||Create a sloping edge between two intersecting line segments with defined by a setback on each segment.
+**Fillet**|||Create a rounded edge between two intersecting line segments with defined radius.
+**Explode Text into Letters**|||Separate a string of text into individual character entities.
+**Explode**|||Separate one or more selected blocks into individual entities.
 
 |**_Info_**||||
 |-----|-----|-----|-----|
@@ -124,7 +124,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 **Total length of selected entities**|||Provides total length of one or more selected entities (length of line segment, circle circimference, etc).
 **Polygonal Area**|||Provides area of polygon defined by three or more specified points.
 
-|**_Miscellaneous_**|||
+|**_Miscellaneous_**||||
 |-----|-----|-----|-----|
 **MText**|||Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set.
 **Text**|||Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set.
