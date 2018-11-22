@@ -40,7 +40,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Tangential, 2 Circles, Radius**|||Draw a circle tangential to two existing circles with a given radius.|
 |**Tangential, 3 Circles**|||Draw a circle tangential to three existing circles and/or lines.|
 
-|**_curve_**||||
+|**_Curve_**||||
 |-----|-----|-----|-----|
 |**Center, Point, Angles**|||Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc.|
 |**3 Points**|||Draw a curve (arc) by assigning three points on the circumference of the arc defining the start position, a point on the circumference and end position of the arc.|
@@ -55,11 +55,13 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Ellipse 4 Point**|||Draw an ellipse assigning four points on the circumference.|
 |**Ellipse Center and 3 Points**|||Draw an ellipse by assigning a centre point three points on the circumference.|
 |**Ellipse Inscribed**||| Draw a Ellipse constrained by four existing non-parallel line segments.|
-|**spline **||||
+
+|**_Spline_**||||
 |-----|-----|-----|-----|
 |**Spline**|||Draw an open or closed spline (curve) by assigning control points and a given degree of freedom (1 - 3).|
 |**Spline through points**|||Draw an open or closed spline (curve) by defining points on the spline.|
-|**polyline **||||
+
+|**_Polyline_**||||
 |-----|-----|-----|-----|
 |**Polyline**|||Draw an open or closed continuous line consisting of one or more straight line or arc segments defined by endpoints and / or radius or angle for arcs.|
 |**Add node**|||Add node to existing polyline. (Use "Snap on Entity" to place new node on segment.)|
