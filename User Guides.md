@@ -21,8 +21,8 @@ c) The page is represented by the shadowed rectangle in the print preview.
 ## Printing to Scale
 
 To print a drawing without a drawing border / title block template but to a specific scale requires a couple of additional steps.  With a drawing opened in LibreCAD:
-1) Select File -> Print Preview or click the ‘Print Preview’ icon.
-2) Set or confirm the paper layout for the current drawing:
+1. Select File -> Print Preview or click the ‘Print Preview’ icon.
+1. Set or confirm the paper layout for the current drawing:
 a) Select Options -> Current Drawing Preferences.
 b) Set format as desired, e.g. A4, Landscape, and click ‘OK’
 c) The page is represented by the shadowed rectangle in the print preview.
@@ -86,3 +86,4 @@ Specifically, the process is as follows.  Starting with a full-scale (1:1) drawi
         c) Click the ‘Center to Page’ icon.
     6) Select File -> Print or click the ‘Print’ icon.
     7) Select the printer on the Print dialogue and confirm the properties by clicking the ‘Properties’ button.  Adjust the properties if necessary and then click ‘OK’.
+8 Click the ‘Print’ button.
