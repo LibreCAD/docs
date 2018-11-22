@@ -5,4 +5,4 @@ Reference Manual
 
 How-To's
 ========
-[Printing Guide](./howto/Printing Guide.md)
+[Printing Guide](./how-to/Printing Guide.md)
