@@ -6,11 +6,9 @@ Contents
 .. toctree::
    :maxdepth: 3
     About
-    ^^^^^
     Install
-    ^^^^^^^
     Reference Manual
-    ^^^^^^^^^^^^^^^^
+    
         Menu
             File
             Options
