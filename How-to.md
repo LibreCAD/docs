@@ -1,3 +1,4 @@
-LibreCAD How-To Guides...
+LibreCAD How-To Guides
+======================
 
 Printing Drawings <Printing Guide.md>
