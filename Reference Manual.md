@@ -24,6 +24,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Polygon (Cen,Cor)**|||Draw a polygon with a given number of sides assigning the centre point and point of one vertex.|
 |**Polygon (Cen,Tan)**|||Draw a polygon with a given number of sides assigning the centre point and point of the centre of one side. |
 |**Polygon (Cor,Cor)**|||Draw a polygon with a given number of sides assigning the two points of one side.|
+
 |**circle**||||
 |-----|-----|-----|-----|
 |**Centre, Point**|||Draw a circle with a given radius by assigning a centre point and a point on the circumference.|
