@@ -6,7 +6,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 
 |**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
-|**line**||||
+|**Line**|
 |**2 points**|||Draw a line between two assigned points.|
 |**Angle**|||Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle.|
 |**Horizontal**|||Draw a horizontal line from an assigned point defining the start, middle or end of the line and with an assigned length.|
