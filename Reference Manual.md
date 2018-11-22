@@ -1,6 +1,18 @@
 Reference Manual
 ================
-## Tools menu ##
+
+ ##Menu##
+    File
+    Options
+    Edit
+    View
+    Plugins
+    Tools
+    Widgets
+    Drawings
+    Help
+    
+## Tools ##
 
 The drawing tools are used to create and modify entities such as lines, circles, etc in a drawing... yada, yada, yada
 
