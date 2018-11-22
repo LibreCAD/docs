@@ -1,6 +1,6 @@
 Reference Manual
 ================
-[Installation](.reference/Install.md)
+[Installation](./reference/Install.md)
 
 [Tools](./reference/Tools.md)
 
