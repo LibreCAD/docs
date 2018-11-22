@@ -2,14 +2,23 @@ Reference Manual
 ================
 
  ##Menu##
+ 
     File
+    
     Options
+    
     Edit
+    
     View
+    
     Plugins
+    
     Tools
+    
     Widgets
+    
     Drawings
+    
     Help
     
 ## Tools ##
