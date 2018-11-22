@@ -1,7 +1,7 @@
 Reference Manual
 ================
 
-== Menu ==
+## Menu ##
 * File
 * Options
 * Edit
@@ -12,7 +12,7 @@ Reference Manual
 * Drawings
 * Help
     
-## Tools ##
+### Tools ###
 
 The drawing tools are used to create and modify entities such as lines, circles, etc in a drawing... yada, yada, yada
 
@@ -54,92 +54,92 @@ The drawing tools are used to create and modify entities such as lines, circles,
 
 |**_Curve_**||||
 |-----|-----|-----|-----|
-**Center, Point, Angles**|||Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc.
-**3 Points**|||Draw a curve (arc) by assigning three points on the circumference of the arc defining the start position, a point on the circumference and end position of the arc.
-**Concentric**|||Draw a curve (arc) concentric, with the same centre point, to an existing curve (arc) with a defined offset.(*)
-**Arc Tangential**|||Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg).
+|**Center, Point, Angles**|||Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc.|
+|**3 Points**|||Draw a curve (arc) by assigning three points on the circumference of the arc defining the start position, a point on the circumference and end position of the arc.|
+|**Concentric**|||Draw a curve (arc) concentric, with the same centre point, to an existing curve (arc) with a defined offset.(*)|
+|**Arc Tangential**|||Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg).|
 
 |**_Ellipse_**||||
 |-----|-----|-----|-----|
-**Ellipse (Axis)**|||Draw an ellipse by assigning a centre point, a point on the circumference of major access and a point on the circumference the minor access.
-**Ellipse Arc (Axis)**|||N/A
-**Ellipse Foci Point**|||Draw an ellipse by assigning two foci points and a point  on the circumference.
-**Ellipse 4 Point**|||Draw an ellipse assigning four points on the circumference.
-**Ellipse Center and 3 Points**|||Draw an ellipse by assigning a centre point three points on the circumference.
-**Ellipse Inscribed**||| Draw a Ellipse constrained by four existing non-parallel line segments.
+|**Ellipse (Axis)**|||Draw an ellipse by assigning a centre point, a point on the circumference of major access and a point on the circumference the minor access.|
+|**Ellipse Arc (Axis)**|||N/A|
+|**Ellipse Foci Point**|||Draw an ellipse by assigning two foci points and a point  on the circumference.|
+|**Ellipse 4 Point**|||Draw an ellipse assigning four points on the circumference.|
+|**Ellipse Center and 3 Points**|||Draw an ellipse by assigning a centre point three points on the circumference.|
+|**Ellipse Inscribed**||| Draw a Ellipse constrained by four existing non-parallel line segments.|
 
 |**_Spline_**||||
 |-----|-----|-----|-----|
-**Spline**|||Draw an open or closed spline (curve) by assigning control points and a given degree of freedom (1 - 3).
-**Spline through points**|||Draw an open or closed spline (curve) by defining points on the spline.
+|**Spline**|||Draw an open or closed spline (curve) by assigning control points and a given degree of freedom (1 - 3).|
+|**Spline through points**|||Draw an open or closed spline (curve) by defining points on the spline.|
 
 |**_Polyline_**||||
 |-----|-----|-----|-----|
-|**Polyline**|||Draw an open or closed continuous line consisting of one or more straight line or arc segments defined by endpoints and / or radius or angle for arcs.
-|**Add node**|||Add node to existing polyline. (Use "Snap on Entity" to place new node on segment.)
-|**Append node**|||Add one or more segments to an existing polyline by selecting polyine and adding new node endpoint.
-|**Delete node**|||Delete selected node of an existing polyline.
-|**Delete between two nodes**|||Delete one or more nodes between selected nodes of an existing polyline.
-|**Trim segments**|||Extend two seperate non-parallel segments of an existing polyline to intersect at a new node.
-|**Create Equidistant Polylines**|||Draw a given number of polylines parallel to a selected existing polyline with a given distance between lines.
-|**Create Polyline from Existing Segments**|||Create polyline from two or more existing seperate line or arc segments forming a continuous line.
+|**Polyline**|||Draw an open or closed continuous line consisting of one or more straight line or arc segments defined by endpoints and / or radius or angle for arcs.|
+|**Add node**|||Add node to existing polyline. (Use "Snap on Entity" to place new node on segment.)|
+|**Append node**|||Add one or more segments to an existing polyline by selecting polyine and adding new node endpoint.|
+|**Delete node**|||Delete selected node of an existing polyline.|
+|**Delete between two nodes**|||Delete one or more nodes between selected nodes of an existing polyline.|
+|**Trim segments**|||Extend two seperate non-parallel segments of an existing polyline to intersect at a new node.|
+|**Create Equidistant Polylines**|||Draw a given number of polylines parallel to a selected existing polyline with a given distance between lines.|
+|**Create Polyline from Existing Segments**|||Create polyline from two or more existing seperate line or arc segments forming a continuous line.|
 
 |**_Select_**||||
 |-----|-----|-----|-----|
-**Select Entity**|||Select, or deselect, one or more entities (default cursor action).
-**Select Window**|||Select one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L) (default cursor "drag" action).
-**Deselect Window**|||Deselect one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L).
-**(De-)Select Contour**|||Select or deselected entities connected by shared points.
-**Select Intersected Entities**|||Select on or more entities crossed by selection line.
-**Deselect Intersected Entities**|||Deselect on or more entities crossed by selection line.
-**(De-)Select Layer**|||Select or deselected all entities on the layer of the selected entity.
-**Select All**|||Select all entities on visible layers ([Ctrl]-[A]).
-**Deselect all**||| Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc] action).
-**Invert Selection**|||Select all un-selected entities will deselecting all selected entities.
+|**Select Entity**|||Select, or deselect, one or more entities (default cursor action).|
+|**Select Window**|||Select one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L) (default cursor "drag" action).|
+|**Deselect Window**|||Deselect one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L).|
+|**(De-)Select Contour**|||Select or deselected entities connected by shared points.|
+|**Select Intersected Entities**|||Select on or more entities crossed by selection line.|
+|**Deselect Intersected Entities**|||Deselect on or more entities crossed by selection line.|
+|**(De-)Select Layer**|||Select or deselected all entities on the layer of the selected entity.|
+|**Select All**|||Select all entities on visible layers ([Ctrl]-[A]).|
+|**Deselect all**||| Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc] action).|
+|**Invert Selection**|||Select all un-selected entities will deselecting all selected entities.|
 
 |**_Dimension_**||||
 |-----|-----|-----|-----|
-**Aligned**|||Apply dimension lines and text aligned to an existing entity by selecting start and end points on a line segment and placement point for the text.
-**Linear**|||Apply dimension lines and text at an defined angle to an entity by selecting start and end points on a line segment and placement point for the text.
-**Horizontal**|||Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.
-**Vertical**|||Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.
-**Radial**|||Apply dimension lines and text a circle's or arc's radius by selecting entity and placement point for the text.
-**Diametric**|||Apply dimension lines and text a circle's or arc's diameter by selecting entity and placement point for the text.
-**Angular**|||Apply angular dimension by selecting two existing non-parallel line segments and placement point for the text.
-**Leader**|||Draw a text leader by by selecting start (arrow location), intermediate and end points.
+|**Aligned**|||Apply dimension lines and text aligned to an existing entity by selecting start and end points on a line segment and placement point for the text.|
+|**Linear**|||Apply dimension lines and text at an defined angle to an entity by selecting start and end points on a line segment and placement point for the text.|
+|**Horizontal**|||Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.|
+|**Vertical**|||Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.|
+|**Radial**|||Apply dimension lines and text a circle's or arc's radius by selecting entity and placement point for the text.|
+|**Diametric**|||Apply dimension lines and text a circle's or arc's diameter by selecting entity and placement point for the text.|
+|**Angular**|||Apply angular dimension by selecting two existing non-parallel line segments and placement point for the text.|
+|**Leader**|||Draw a text leader by by selecting start (arrow location), intermediate and end points.|
 
 |**_Modify_**||||
 |-----|-----|-----|-----|
-**Attributes**|||Modify the common attributes of **''one or more**'' selected entities, including Layer, Pen color, Pen width, and Pen Line type.
-**Delete**||| Mark one or more entities to be deleted, press [Enter] to complete operation.
-**Delete selected**|||Delete one or more selected entities.
-**Delete Freehand**|||Delete segment within a polyline define by two points. (Use "Snap on Entity" to place points.)
-**Move / Copy**|||Move a selected entity by defining a reference point and a relative target point. Optionally keep the original entity (Copy), create mulitple copies and / or alter attributes and layer.
-**Revert direction**|||Swap start and end points of one or more selected entities.
-**Rotate**|||Rotate a selected entity around a rotation point, moving the entity from a reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer.
-**Scale**|||Increase or decrease the size of a selected entity from a reference point by a defined factor for both axis.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer.
-**Mirror**|||Create a mirror image of a selected entity around an axis defined by two points.  Optionally keep the original entity and / or alter attributes and layer.
-**Move and Rotate**|||Move a selected entity by defining a reference point and a relative target point and rotataing the entity at a given angle.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer.
-**Rotate Two**|||Rotate a selected entity around an absolute rotation point, while rotating the entity around a relative reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer.
-**Stretch**|||Move a selected portion of a drawing by defining a reference point and a relative target point.
-**Bevel**|||Create a sloping edge between two intersecting line segments with defined by a setback on each segment.
-**Fillet**|||Create a rounded edge between two intersecting line segments with defined radius.
-**Explode Text into Letters**|||Separate a string of text into individual character entities.
-**Explode**|||Separate one or more selected blocks into individual entities.
+|**Attributes**|||Modify the common attributes of **''one or more**'' selected entities, including Layer, Pen color, Pen width, and Pen Line type.|
+|**Delete**||| Mark one or more entities to be deleted, press [Enter] to complete operation.|
+|**Delete selected**|||Delete one or more selected entities.|
+|**Delete Freehand**|||Delete segment within a polyline define by two points. (Use "Snap on Entity" to place points.)|
+|**Move / Copy**|||Move a selected entity by defining a reference point and a relative target point. Optionally keep the original entity (Copy), create mulitple copies and / or alter attributes and layer.|
+|**Revert direction**|||Swap start and end points of one or more selected entities.|
+|**Rotate**|||Rotate a selected entity around a rotation point, moving the entity from a reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer.|
+|**Scale**|||Increase or decrease the size of a selected entity from a reference point by a defined factor for both axis.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer.|
+|**Mirror**|||Create a mirror image of a selected entity around an axis defined by two points.  Optionally keep the original entity and / or alter attributes and layer.|
+|**Move and Rotate**|||Move a selected entity by defining a reference point and a relative target point and rotataing the entity at a given angle.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer.|
+|**Rotate Two**|||Rotate a selected entity around an absolute rotation point, while rotating the entity around a relative reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer.|
+|**Stretch**|||Move a selected portion of a drawing by defining a reference point and a relative target point.|
+|**Bevel**|||Create a sloping edge between two intersecting line segments with defined by a setback on each segment.|
+|**Fillet**|||Create a rounded edge between two intersecting line segments with defined radius.|
+|**Explode Text into Letters**|||Separate a string of text into individual character entities.|
+|**Explode**|||Separate one or more selected blocks into individual entities.|
 
 |**_Info_**||||
 |-----|-----|-----|-----|
-**Point inside contour**|||Provides indication of point being inside or outside of the selected ''closed'' contour (polygon, circle, ployline, etc).
-**Distance Point to Point**|||Provides distance, cartesian and polar coordinates between two specified points.
-**Distance Entity to Point**|||Provides shortest distance selected entity and specified point.
-**Angle between two lines**|||Provides angle between two selected line segments, measured counter-clockwise.
-**Total length of selected entities**|||Provides total length of one or more selected entities (length of line segment, circle circimference, etc).
-**Polygonal Area**|||Provides area of polygon defined by three or more specified points.
+|**Point inside contour**|||Provides indication of point being inside or outside of the selected ''closed'' contour (polygon, circle, ployline, etc).|
+|**Distance Point to Point**|||Provides distance, cartesian and polar coordinates between two specified points.|
+|**Distance Entity to Point**|||Provides shortest distance selected entity and specified point.|
+|**Angle between two lines**|||Provides angle between two selected line segments, measured counter-clockwise.|
+|**Total length of selected entities**|||Provides total length of one or more selected entities (length of line segment, circle circimference, etc).|
+|**Polygonal Area**|||Provides area of polygon defined by three or more specified points.|
 
 |**_Miscellaneous_**||||
 |-----|-----|-----|-----|
-**MText**|||Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set.
-**Text**|||Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set.
-**Hatch**|||Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern or a solid fill.  Optionally define scale and angle.
-**Insert Image**|||Insert an image, bitmapped or vector, at a specified point.  Optionally define angle, scale factor and DPI.
-**Points**|||Draw a point at the assigned coordinates.
+|**MText**|||Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set.|
+|**Text**|||Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set.|
+|**Hatch**|||Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern or a solid fill.  Optionally define scale and angle.|
+|**Insert Image**|||Insert an image, bitmapped or vector, at a specified point.  Optionally define angle, scale factor and DPI.|
+|**Points**|||Draw a point at the assigned coordinates.|
