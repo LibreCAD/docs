@@ -4,45 +4,44 @@ Reference Manual
 
 The drawing tools are used to create and modify entities such as lines, circles, etc in a drawing... yada, yada, yada
 
-**Tool**|**Icon**|**Menu Path**|**Description**
------|-----|-----|-----
-**_Line_**|||
-**2 points**|||Draw a line between two assigned points.
-**Angle**|||Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle.
-**Horizontal**|||Draw a horizontal line from an assigned point defining the start, middle or end of the line and with an assigned length.
-**Vertical**|||Draw a vertical line from an assigned point defining the start, middle or end of the line and with an assigned length.
-**Freehand Line**|||Draw a non-geometric line.
-**Parallel through point**|||Draw a given number of lines parallel to a selected existing line through an assigned point.
-**Parallel**|||Draw a given number of lines parallel to a selected existing line with a given distance between lines.
-**Rectangle**|||Draw a rectagle by assigning the points of two diagonally opposite corners. 
-**Bisector**|||Draw a given number of lines bisecting two existing non-parallel lines (e.g. at an angle to each other with or without a common point). 
-**Tangent (P,C)**|||Draw a line from an assigned point tangent to an existing circle.
-**Tangent (C,C)**|||Draw a line tangent to two existing circles.
-**Tangent Orthogonal**|||Draw a line tangent to an existing circle and perpendicular to an existing line.
-**Orthogonal**|||Draw a line of a given length perpendicular to an existing line placing the centre at an assigned point.
-**Relative Angle**|||Draw a line with a given length and at a given angle relative to an existing line placing the centre of the line at an assigned point.
-**Polygon (Cen,Cor)**|||Draw a polygon with a given number of sides assigning the centre point and point of one vertex.
-**Polygon (Cen,Tan)**|||Draw a polygon with a given number of sides assigning the centre point and point of the centre of one side. 
-**Polygon (Cor,Cor)**|||Draw a polygon with a given number of sides assigning the two points of one side.
+|**Tool**|**Icon**|**Menu Path**|**Description**|
+|-----|-----|-----|-----|
+|**_Line_**||||
+|**2 points**|||Draw a line between two assigned points.|
+|**Angle**|||Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle.|
+|**Horizontal**|||Draw a horizontal line from an assigned point defining the start, middle or end of the line and with an assigned length.|
+|**Vertical**|||Draw a vertical line from an assigned point defining the start, middle or end of the line and with an assigned length.|
+|**Freehand Line**|||Draw a non-geometric line.|
+|**Parallel through point**|||Draw a given number of lines parallel to a selected existing line through an assigned point.|
+|**Parallel**|||Draw a given number of lines parallel to a selected existing line with a given distance between lines.|
+|**Rectangle**|||Draw a rectagle by assigning the points of two diagonally opposite corners.|
+|**Bisector**|||Draw a given number of lines bisecting two existing non-parallel lines (e.g. at an angle to each other with or without a common point).|
+|**Tangent (P,C)**|||Draw a line from an assigned point tangent to an existing circle.|
+|**Tangent (C,C)**|||Draw a line tangent to two existing circles.|
+|**Tangent Orthogonal**|||Draw a line tangent to an existing circle and perpendicular to an existing line.|
+|**Orthogonal**|||Draw a line of a given length perpendicular to an existing line placing the centre at an assigned point.|
+|**Relative Angle**|||Draw a line with a given length and at a given angle relative to an existing line placing the centre of the line at an assigned point.|
+|**Polygon (Cen,Cor)**|||Draw a polygon with a given number of sides assigning the centre point and point of one vertex.|
+|**Polygon (Cen,Tan)**|||Draw a polygon with a given number of sides assigning the centre point and point of the centre of one side.|
+|**Polygon (Cor,Cor)**|||Draw a polygon with a given number of sides assigning the two points of one side.|
 
+|**_Circle_**||||
+|-----|-----|-----|-----|
+|**Centre, Point**|||Draw a circle with a given radius by assigning a centre point and a point on the circumference.|
+|**Centre, Radius**|||Draw a circle with a given radius centred at an assigned point.|
+|**2 Points**|||Draw a circle with a given diameter by assigning two opposite points on the circumference.|
+|**2 Points, Radius**|||Draw a circle with two points on the circumference and with an assigned radius.|
+|**3 Points**|||Draw a circle assigning three points on the circumference.|
+|**Concentric**|||Draw a circle concentric, with the same centre point, to an existing circle.|
+|**Circle Inscribed**|||Draw a circle inside an existing polygon of four sides or more.|
+|**Tangential 2 Circles, Radius**|||Draw a circle tangential to two circles with a given radius.|
+|**Tangential, 2 Circles, 1 Point**|||Draw a circle tangential to two existing circles and assigning a centre point to establish the radius.|
+|**Tangential, 2 Points**|||Draw a circle tangential to an existing circle and define the diameter and placement by assigning two points on the circumference.|
+|**Tangential, 2 Circles, Radius**|||Draw a circle tangential to two existing circles with a given radius.|
+|**Tangential, 3 Circles**|||Draw a circle tangential to three existing circles and/or lines.|
 
-**_Circle_**|||
------|-----|-----|-----
-**Centre, Point**|||Draw a circle with a given radius by assigning a centre point and a point on the circumference.
-**Centre, Radius**|||Draw a circle with a given radius centred at an assigned point.
-**2 Points**|||Draw a circle with a given diameter by assigning two opposite points on the circumference.
-**2 Points, Radius**|||Draw a circle with two points on the circumference and with an assigned radius. 
-**3 Points**|||Draw a circle assigning three points on the circumference.
-**Concentric**|||Draw a circle concentric, with the same centre point, to an existing circle.
-**Circle Inscribed**|||Draw a circle inside an existing polygon of four sides or more.
-**Tangential 2 Circles, Radius**|||Draw a circle tangential to two circles with a given radius.
-**Tangential, 2 Circles, 1 Point**|||Draw a circle tangential to two existing circles and assigning a centre point to establish the radius.
-**Tangential, 2 Points**|||Draw a circle tangential to an existing circle and define the diameter and placement by assigning two points on the circumference.
-**Tangential, 2 Circles, Radius**|||Draw a circle tangential to two existing circles with a given radius.
-**Tangential, 3 Circles**|||Draw a circle tangential to three existing circles and/or lines.
-
-**_Curve_**|||
------|-----|-----|-----
+|**_Curve_**||||
+|-----|-----|-----|-----|
 **Center, Point, Angles**|||Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc.
 **3 Points**|||Draw a curve (arc) by assigning three points on the circumference of the arc defining the start position, a point on the circumference and end position of the arc.
 **Concentric**|||Draw a curve (arc) concentric, with the same centre point, to an existing curve (arc) with a defined offset.(*)
