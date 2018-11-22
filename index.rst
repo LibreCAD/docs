@@ -4,10 +4,9 @@ LibreCAD User Manual
 Contents
 ^^^^^^^^
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
 About
-   LibreCAD ver2.1.x
 Install
 Reference Manual
    Menu
