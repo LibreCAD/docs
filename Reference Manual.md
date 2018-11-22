@@ -1,7 +1,7 @@
 Reference Manual
 ================
 
- ##Menu##
+## Menu ##
 File
 Options
 Edit
