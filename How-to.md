@@ -1,4 +1,4 @@
 LibreCAD How-To Guides
 ======================
 
-![Printing Drawings] (./Printing Guide.md)
+[Printing Drawings] (./Printing Guide.md)
