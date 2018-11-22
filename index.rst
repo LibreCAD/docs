@@ -6,8 +6,11 @@ Contents
 .. toctree::
    :maxdepth: 3
     About
+    ^^^^^
     Install
+    ^^^^^^^
     Reference Manual
+    ^^^^^^^^^^^^^^^^
         Menu
             File
             Options
@@ -19,9 +22,10 @@ Contents
             Drawings
             Help
     User Guides and How-to
+    ^^^^^^^^^^^^^^^^^^^^^^
         Printing Drawings
     Other
-
-
+    ^^^^^
+    
 Indices and Tables
 ==================
