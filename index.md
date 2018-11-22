@@ -20,10 +20,9 @@ Contents
             Drawings
             Help
     User Guides and How-to
-    ^^^^^^^^^^^^^^^^^^^^^^
         Printing Drawings
     Other
-    ^^^^^
+    
     
 Indices and Tables
 ==================
