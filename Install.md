@@ -1,5 +1,5 @@
-Installation Instruction
-========================
+Installation Instructions
+=========================
 
 * Windows
 * MacOS
