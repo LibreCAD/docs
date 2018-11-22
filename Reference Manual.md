@@ -47,22 +47,22 @@ The drawing tools are used to create and modify entities such as lines, circles,
 **Concentric**|||Draw a curve (arc) concentric, with the same centre point, to an existing curve (arc) with a defined offset.(*)
 **Arc Tangential**|||Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg).
 
-**_Ellipse_**|||
------|-----|-----|-----
+|**_Ellipse_**||||
+|-----|-----|-----|-----|
 **Ellipse (Axis)**|||Draw an ellipse by assigning a centre point, a point on the circumference of major access and a point on the circumference the minor access.
 **Ellipse Arc (Axis)**|||N/A
 **Ellipse Foci Point**|||Draw an ellipse by assigning two foci points and a point  on the circumference.
-|**Ellipse 4 Point**|||Draw an ellipse assigning four points on the circumference.
-|**Ellipse Center and 3 Points**|||Draw an ellipse by assigning a centre point three points on the circumference.
-|**Ellipse Inscribed**||| Draw a Ellipse constrained by four existing non-parallel line segments.
+**Ellipse 4 Point**|||Draw an ellipse assigning four points on the circumference.
+**Ellipse Center and 3 Points**|||Draw an ellipse by assigning a centre point three points on the circumference.
+**Ellipse Inscribed**||| Draw a Ellipse constrained by four existing non-parallel line segments.
 
-|**_Spline_**|||
-|-----|-----|-----|-----
-|**Spline**|||Draw an open or closed spline (curve) by assigning control points and a given degree of freedom (1 - 3).
-|**Spline through points**|||Draw an open or closed spline (curve) by defining points on the spline.
+|**_Spline_**||||
+|-----|-----|-----|-----|
+**Spline**|||Draw an open or closed spline (curve) by assigning control points and a given degree of freedom (1 - 3).
+**Spline through points**|||Draw an open or closed spline (curve) by defining points on the spline.
 
-|**_Polyline_**|||
-|-----|-----|-----|-----
+|**_Polyline_**||||
+|-----|-----|-----|-----|
 |**Polyline**|||Draw an open or closed continuous line consisting of one or more straight line or arc segments defined by endpoints and / or radius or angle for arcs.
 |**Add node**|||Add node to existing polyline. (Use "Snap on Entity" to place new node on segment.)
 |**Append node**|||Add one or more segments to an existing polyline by selecting polyine and adding new node endpoint.
@@ -72,8 +72,8 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Create Equidistant Polylines**|||Draw a given number of polylines parallel to a selected existing polyline with a given distance between lines.
 |**Create Polyline from Existing Segments**|||Create polyline from two or more existing seperate line or arc segments forming a continuous line.
 
-|**_Select_**|||
-|-----|-----|-----|-----
+|**_Select_**||||
+|-----|-----|-----|-----|
 |**Select Entity**|||Select, or deselect, one or more entities (default cursor action).
 |**Select Window**|||Select one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L) (default cursor "drag" action).
 |**Deselect Window**|||Deselect one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L).
@@ -85,8 +85,8 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Deselect all**||| Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc] action).
 |**Invert Selection**|||Select all un-selected entities will deselecting all selected entities.
 
-|**_Dimension_**|||
-|-----|-----|-----|-----
+|**_Dimension_**||||
+|-----|-----|-----|-----|
 |**Aligned**|||Apply dimension lines and text aligned to an existing entity by selecting start and end points on a line segment and placement point for the text.
 |**Linear**|||Apply dimension lines and text at an defined angle to an entity by selecting start and end points on a line segment and placement point for the text.
 |**Horizontal**|||Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.
@@ -96,8 +96,8 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Angular**|||Apply angular dimension by selecting two existing non-parallel line segments and placement point for the text.
 |**Leader**|||Draw a text leader by by selecting start (arrow location), intermediate and end points.
 
-|**_Modify_**|||
-|-----|-----|-----|-----
+|**_Modify_**||||
+|-----|-----|-----|-----|
 |**Attributes**|||Modify the common attributes of **''one or more**'' selected entities, including Layer, Pen color, Pen width, and Pen Line type.
 |**Delete**||| Mark one or more entities to be deleted, press [Enter] to complete operation.
 |**Delete selected**|||Delete one or more selected entities.
@@ -115,17 +115,17 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Explode Text into Letters**|||Separate a string of text into individual character entities.
 |**Explode**|||Separate one or more selected blocks into individual entities.
 
-|**_Info_**|||
-|-----|-----|-----|-----
-|**Point inside contour**|||Provides indication of point being inside or outside of the selected ''closed'' contour (polygon, circle, ployline, etc).
-|**Distance Point to Point**|||Provides distance, cartesian and polar coordinates between two specified points.
-|**Distance Entity to Point**|||Provides shortest distance selected entity and specified point.
-|**Angle between two lines**|||Provides angle between two selected line segments, measured counter-clockwise.
-|**Total length of selected entities**|||Provides total length of one or more selected entities (length of line segment, circle circimference, etc).
-|**Polygonal Area**|||Provides area of polygon defined by three or more specified points.
+|**_Info_**||||
+|-----|-----|-----|-----|
+**Point inside contour**|||Provides indication of point being inside or outside of the selected ''closed'' contour (polygon, circle, ployline, etc).
+**Distance Point to Point**|||Provides distance, cartesian and polar coordinates between two specified points.
+**Distance Entity to Point**|||Provides shortest distance selected entity and specified point.
+**Angle between two lines**|||Provides angle between two selected line segments, measured counter-clockwise.
+**Total length of selected entities**|||Provides total length of one or more selected entities (length of line segment, circle circimference, etc).
+**Polygonal Area**|||Provides area of polygon defined by three or more specified points.
 
-**_Miscellaneous_**||
------|-----|-----|-----
+|**_Miscellaneous_**|||
+|-----|-----|-----|-----|
 **MText**|||Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set.
 **Text**|||Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set.
 **Hatch**|||Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern or a solid fill.  Optionally define scale and angle.
