@@ -1,6 +1,6 @@
 [**About LibreCAD**](./About.md)
 
-##Reference Manual##
+## Reference Manual ##
 
 [Installation](./reference/Install.md)
 
@@ -8,8 +8,8 @@
 
 [Tools](./reference/Tools.md)
 
-How-To's
-========
+## How-To's ##
+
 [Printing Guide](./howto/PrintingGuide.md)
 
-[**Other**](./Other.md)
+[## Other ##](./Other.md)
