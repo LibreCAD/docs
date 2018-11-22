@@ -6,7 +6,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 
 |**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
-|**Line**|
+|**_Line_**||||
 |**2 points**|||Draw a line between two assigned points.|
 |**Angle**|||Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle.|
 |**Horizontal**|||Draw a horizontal line from an assigned point defining the start, middle or end of the line and with an assigned length.|
@@ -25,7 +25,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Polygon (Cen,Tan)**|||Draw a polygon with a given number of sides assigning the centre point and point of the centre of one side. |
 |**Polygon (Cor,Cor)**|||Draw a polygon with a given number of sides assigning the two points of one side.|
 
-|**circle**||||
+|**_Circle_**||||
 |-----|-----|-----|-----|
 |**Centre, Point**|||Draw a circle with a given radius by assigning a centre point and a point on the circumference.|
 |**Centre, Radius**|||Draw a circle with a given radius centred at an assigned point.|
@@ -39,13 +39,15 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Tangential, 2 Points**|||Draw a circle tangential to an existing circle and define the diameter and placement by assigning two points on the circumference.|
 |**Tangential, 2 Circles, Radius**|||Draw a circle tangential to two existing circles with a given radius.|
 |**Tangential, 3 Circles**|||Draw a circle tangential to three existing circles and/or lines.|
-|**curve**||||
+
+|**_curve_**||||
 |-----|-----|-----|-----|
 |**Center, Point, Angles**|||Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc.|
 |**3 Points**|||Draw a curve (arc) by assigning three points on the circumference of the arc defining the start position, a point on the circumference and end position of the arc.|
 |**Concentric**|||Draw a curve (arc) concentric, with the same centre point, to an existing curve (arc) with a defined offset.(*)|
 |**Arc Tangential**|||Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg).|
-|**ellipse **||||
+
+|**_Ellipse_**||||
 |-----|-----|-----|-----|
 |**Ellipse (Axis)**|||Draw an ellipse by assigning a centre point, a point on the circumference of major access and a point on the circumference the minor access.|
 |**Ellipse Arc (Axis)**|||N/A|
@@ -67,7 +69,8 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Trim segments**|||Extend two seperate non-parallel segments of an existing polyline to intersect at a new node.|
 |**Create Equidistant Polylines**|||Draw a given number of polylines parallel to a selected existing polyline with a given distance between lines.|
 |**Create Polyline from Existing Segments**|||Create polyline from two or more existing seperate line or arc segments forming a continuous line.|
-|**select **||||
+
+|**_Select_**||||
 |-----|-----|-----|-----|
 |**Select Entity**|||Select, or deselect, one or more entities (default cursor action).|
 |**Select Window**|||Select one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L) (default cursor "drag" action).|
@@ -79,7 +82,8 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Select All**|||Select all entities on visible layers ([Ctrl]-[A]).|
 |**Deselect all**||| Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc] action).|
 |**Invert Selection**|||Select all un-selected entities will deselecting all selected entities.|
-|**dimension **||||
+
+|**_Dimension_**||||
 |-----|-----|-----|-----|
 |**Aligned**|||Apply dimension lines and text aligned to an existing entity by selecting start and end points on a line segment and placement point for the text.|
 |**Linear**|||Apply dimension lines and text at an defined angle to an entity by selecting start and end points on a line segment and placement point for the text.|
@@ -89,7 +93,8 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Diametric**|||Apply dimension lines and text a circle's or arc's diameter by selecting entity and placement point for the text.|
 |**Angular**|||Apply angular dimension by selecting two existing non-parallel line segments and placement point for the text.|
 |**Leader**|||Draw a text leader by by selecting start (arrow location), intermediate and end points.|
-|**modify **||||
+
+|**_Modify_**||||
 |-----|-----|-----|-----|
 |**Attributes**|||Modify the common attributes of **''one or more**'' selected entities, including Layer, Pen color, Pen width, and Pen Line type.|
 |**Delete**||| Mark one or more entities to be deleted, press [Enter] to complete operation.|
@@ -107,7 +112,8 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Fillet**|||Create a rounded edge between two intersecting line segments with defined radius.|
 |**Explode Text into Letters**|||Separate a string of text into individual character entities.|
 |**Explode**|||Separate one or more selected blocks into individual entities.|
-|**info **||||
+
+|**_Info_**||||
 |-----|-----|-----|-----|
 |**Point inside contour**|||Provides indication of point being inside or outside of the selected ''closed'' contour (polygon, circle, ployline, etc).|
 |**Distance Point to Point**|||Provides distance, cartesian and polar coordinates between two specified points.|
@@ -115,7 +121,8 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Angle between two lines**|||Provides angle between two selected line segments, measured counter-clockwise.|
 |**Total length of selected entities**|||Provides total length of one or more selected entities (length of line segment, circle circimference, etc).|
 |**Polygonal Area**|||Provides area of polygon defined by three or more specified points.|
-|**misc **||||
+
+|**_Miscellaneous_**||||
 |-----|-----|-----|-----|
 |**MText**|||Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set.|
 |**Text**|||Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set.|
