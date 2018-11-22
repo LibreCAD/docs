@@ -1,4 +1,4 @@
 How-to Guides
 =============
 
-[Printing Drawings] (./how-to/Printing Guide.md)
+[Printing Drawings] (./Printing Guide.md)
