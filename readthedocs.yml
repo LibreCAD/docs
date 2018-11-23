@@ -9,14 +9,5 @@ build:
 
 # No extra formats required
 formats:
- #   - epub
- #   - pdf
-
-#site_name: LibreCAD User Documentation
-
-#nav:
-#    - Home: ./manual/Index.md
-#theme: readthedocs
-
-#docs_dir: /manual/
-#site_dir: /html/
+#    - epub
+#    - pdf
