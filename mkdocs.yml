@@ -1,10 +1,10 @@
 site_name: LibreCAD User Documentation
 
 nav:
-- About: '/manual/About.md'
-- Reference: '/manual/refTools.md'
+- About: 'About.md'
+- Reference: 'refTools.md'
     
 theme: readthedocs
 
-#docs_dir: /manual/
+docs_dir: manual
 #site_dir: /html/
