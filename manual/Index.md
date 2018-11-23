@@ -2,14 +2,14 @@
 
 ## Reference Manual ##
 
-#### [Installation](./manual/reference/Install.md) ####
+#### [Installation](./reference/Install.md) ####
 
-#### [The Coordinate system](./manual/reference/Coordinates.md) ####
+#### [The Coordinate system](./reference/Coordinates.md) ####
 
-#### [Tools](./manual/reference/Tools.md) ####
+#### [Tools](./reference/Tools.md) ####
 
 ## User Guides ##
 
-#### [Printing Guide](./manual/howto/PrintingGuide.md) ####
+#### [Printing Guide](./howto/PrintingGuide.md) ####
 
-## [Appendices:](./manual/Other.md) ##
+## [Appendices:](./Other.md) ##
