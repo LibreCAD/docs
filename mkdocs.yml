@@ -5,19 +5,6 @@ site_author: LibreCAD Document Team
 
 repo_url: https://github.com/GSStnb/docs
 repo_name: GitHub
-edit_uri: ""
 
 nav:
     - Home: ./Manual/Index.md
-    - Reference Manual:
-        - Installation: ./Manual/reference/Install.md
-        - Configuration: ./Manual/reference/configuration.md
-    - User Guide:
-        - Printing: h./Manual/owto/PrintingGuide.md
-     - Appendices:
-        - Fonts: 
-        - Release Notes: ./Manual/other/release-notes.md
-        - Contributing: ./Manual/other/contributing.md
-        - License: ./Manual/other/license.md
-
-docs_dir: /manual/
