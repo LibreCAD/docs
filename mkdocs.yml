@@ -9,9 +9,9 @@ nav:
     - 'Tools': 'refTools.md'
 - Users Guides:
     - 'Printing Guide': ./howto/PrintingGuide.md
-- Appendices:
-    - Fonts
-    - Contributing
+#- Appendices:
+#    - Fonts
+#    - Contributing
 #    - 
 #    - 
     
