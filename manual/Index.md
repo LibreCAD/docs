@@ -1,15 +1,15 @@
-## [About LibreCAD](./About.md) ##
+## [About LibreCAD](./About) ##
 
 ## Reference Manual ##
 
-#### [Installation](./reference/Install.md) ####
+#### [Installation](./reference/Install) ####
 
-#### [The Coordinate system](./reference/Coordinates.md) ####
+#### [The Coordinate system](./reference/Coordinates) ####
 
-#### [Tools](./reference/Tools.md) ####
+#### [Tools](./reference/Tools) ####
 
 ## User Guides ##
 
-#### [Printing Guide](./howto/PrintingGuide.md) ####
+#### [Printing Guide](./howto/PrintingGuide) ####
 
-## [Appendices:](./Other.md) ##
+## [Appendices:](./Other) ##
