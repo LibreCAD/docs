@@ -10,14 +10,14 @@ edit_uri: ""
 nav:
     - Home: ./Manual/Index.md
     - Reference Manual:
-        - Installation: reference/Install.md
-        - Configuration: reference/configuration.md
+        - Installation: ./Manual/reference/Install.md
+        - Configuration: ./Manual/reference/configuration.md
     - User Guide:
-        - Printing: howto/PrintingGuide.md
+        - Printing: h./Manual/owto/PrintingGuide.md
      - Appendices:
         - Fonts: 
-        - Release Notes: other/release-notes.md
-        - Contributing: other/contributing.md
-        - License: other/license.md
+        - Release Notes: ./Manual/other/release-notes.md
+        - Contributing: ./Manual/other/contributing.md
+        - License: ./Manual/other/license.md
 
 docs_dir: /manual/
