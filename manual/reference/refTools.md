@@ -1,6 +1,3 @@
-Reference Manual
-================
-
 ## Menu ##
 * File
 * Options
@@ -16,9 +13,9 @@ Reference Manual
 
 The drawing tools are used to create and modify entities such as lines, circles, etc in a drawing... yada, yada, yada
 
+### Line ###
 |**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
-|**_Line_**||||
 |**2 points**|||Draw a line between two assigned points.|
 |**Angle**|||Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle.|
 |**Horizontal**|||Draw a horizontal line from an assigned point defining the start, middle or end of the line and with an assigned length.|
@@ -37,7 +34,8 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Polygon (Cen,Tan)**|||Draw a polygon with a given number of sides assigning the centre point and point of the centre of one side.|
 |**Polygon (Cor,Cor)**|||Draw a polygon with a given number of sides assigning the two points of one side.|
 
-|**_Circle_**||||
+## Circle ###
+|**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
 |**Centre, Point**|||Draw a circle with a given radius by assigning a centre point and a point on the circumference.|
 |**Centre, Radius**|||Draw a circle with a given radius centred at an assigned point.|
