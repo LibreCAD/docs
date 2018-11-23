@@ -3,7 +3,7 @@ site_name: LibreCAD User Documentation
 nav:
 - 'Home': 'index.md'
 #- License:
-- Reference:
+- 'Reference':
     - 'Installation': './reference/refInstall.md'
     - 'The Coordinate system': './reference/refCoordinates.md'
     - 'Tools': './reference/refTools.md'
