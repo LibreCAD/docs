@@ -13,7 +13,7 @@
 
 The drawing tools are used to create and modify entities such as lines, circles, etc in a drawing... yada, yada, yada
 
-### Line ###
+#### Line ####
 |**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
 |**2 points**|||Draw a line between two assigned points.|
@@ -34,7 +34,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Polygon (Cen,Tan)**|||Draw a polygon with a given number of sides assigning the centre point and point of the centre of one side.|
 |**Polygon (Cor,Cor)**|||Draw a polygon with a given number of sides assigning the two points of one side.|
 
-## Circle ###
+#### Circle ####
 |**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
 |**Centre, Point**|||Draw a circle with a given radius by assigning a centre point and a point on the circumference.|
@@ -50,7 +50,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Tangential, 2 Circles, Radius**|||Draw a circle tangential to two existing circles with a given radius.|
 |**Tangential, 3 Circles**|||Draw a circle tangential to three existing circles and/or lines.|
 
-### Curve ###
+#### Curve ####
 |**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
 |**Center, Point, Angles**|||Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc.|
@@ -58,7 +58,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Concentric**|||Draw a curve (arc) concentric, with the same centre point, to an existing curve (arc) with a defined offset.(*)|
 |**Arc Tangential**|||Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg).|
 
-### Ellipse ###
+#### Ellipse ####
 |**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
 |**Ellipse (Axis)**|||Draw an ellipse by assigning a centre point, a point on the circumference of major access and a point on the circumference the minor access.|
@@ -68,13 +68,13 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Ellipse Center and 3 Points**|||Draw an ellipse by assigning a centre point three points on the circumference.|
 |**Ellipse Inscribed**||| Draw a Ellipse constrained by four existing non-parallel line segments.|
 
-### Spline ###
+#### Spline ####
 |**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
 |**Spline**|||Draw an open or closed spline (curve) by assigning control points and a given degree of freedom (1 - 3).|
 |**Spline through points**|||Draw an open or closed spline (curve) by defining points on the spline.|
 
-### Polyline ###
+#### Polyline ####
 |**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
 |**Polyline**|||Draw an open or closed continuous line consisting of one or more straight line or arc segments defined by endpoints and / or radius or angle for arcs.|
@@ -86,7 +86,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Create Equidistant Polylines**|||Draw a given number of polylines parallel to a selected existing polyline with a given distance between lines.|
 |**Create Polyline from Existing Segments**|||Create polyline from two or more existing seperate line or arc segments forming a continuous line.|
 
-### Select ###
+#### Select ####
 |**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
 |**Select Entity**|||Select, or deselect, one or more entities (default cursor action).|
@@ -100,7 +100,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Deselect all**||| Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc] action).|
 |**Invert Selection**|||Select all un-selected entities will deselecting all selected entities.|
 
-### Dimension ###
+#### Dimension ####
 |**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
 |**Aligned**|||Apply dimension lines and text aligned to an existing entity by selecting start and end points on a line segment and placement point for the text.|
@@ -112,7 +112,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Angular**|||Apply angular dimension by selecting two existing non-parallel line segments and placement point for the text.|
 |**Leader**|||Draw a text leader by by selecting start (arrow location), intermediate and end points.|
 
-### Modify ###
+#### Modify ####
 |**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
 |**Attributes**|||Modify the common attributes of **''one or more**'' selected entities, including Layer, Pen color, Pen width, and Pen Line type.|
@@ -132,7 +132,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Explode Text into Letters**|||Separate a string of text into individual character entities.|
 |**Explode**|||Separate one or more selected blocks into individual entities.|
 
-### Info ###
+#### Info ####
 |**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
 |**Point inside contour**|||Provides indication of point being inside or outside of the selected ''closed'' contour (polygon, circle, ployline, etc).|
@@ -142,7 +142,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 |**Total length of selected entities**|||Provides total length of one or more selected entities (length of line segment, circle circimference, etc).|
 |**Polygonal Area**|||Provides area of polygon defined by three or more specified points.|
 
-### Miscellaneous ###
+#### Miscellaneous ####
 |**Tool**|**Icon**|**Menu Path**|**Description**|
 |-----|-----|-----|-----|
 |**MText**|||Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set.|
