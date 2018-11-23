@@ -4,13 +4,13 @@ nav:
 - 'Home': 'index.md'
 #- 'License':
 - Reference:
-    - 'Installation': ./reference/Install.md
-    - 'The Coordinate system': ./reference/Coordinates.md
-    - 'Tools': 'refTools.md'
+    - 'Installation': ./reference/refInstall.md
+    - 'The Coordinate system': ./reference/refCoordinates.md
+    - 'Tools': /reference/refTools.md
 - Users Guides:
     - 'Printing Guide': ./howto/PrintingGuide.md
-#- Appendices:
-#    - Fonts
+- Appendices:
+    - 'Fonts': ./appndices/appFonts.md
 #    - Contributing
 #    - 
 #    - 
