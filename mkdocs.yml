@@ -1,7 +1,7 @@
 site_name: LibreCAD User Documentation
 
 nav:
-- About: 'About.md'
+    - 'index.md'
 #    - 'License':
 - Reference:
     - 'Installation': ./reference/Install.md
