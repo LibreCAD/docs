@@ -2,21 +2,20 @@ site_name: LibreCAD User Documentation
 
 nav:
 - About: 'About.md'
-    - 'License':
+#    - 'License':
 - Reference:
     - 'Installation': ./reference/Install.md
-    - 'The Coordinate system': ./refCoordinates.md
+    - 'The Coordinate system': ./reference/Coordinates.md
     - 'Tools': 'refTools.md'
 - Users Guides:
     - 'Printing Guide': ./howto/PrintingGuide.md
 - Appendices:
-    - 
-    - 
-    - 
-    - 
-# Fonts
+    - Fonts
+    - Contributing
+#    - 
+#    - 
+    
 # Release Notes
-# Contributing
 
 theme: readthedocs
 
