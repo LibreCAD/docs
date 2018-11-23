@@ -1,8 +1,8 @@
 site_name: LibreCAD User Documentation
 
 nav:
-    - About: ./manual/About.md
-    - Reference: ./manual/refTools.md
+    - About: /manual/About.md
+    - Reference: /manual/refTools.md
     
 theme: readthedocs
 
