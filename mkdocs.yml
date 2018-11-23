@@ -7,4 +7,4 @@ repo_url: https://github.com/GSStnb/docs
 repo_name: GitHub
 
 nav:
-    - Home: ./Manual/Index.md
+    - Home: ./manual/Index.md
