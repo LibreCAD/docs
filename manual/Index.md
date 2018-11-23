@@ -4,9 +4,9 @@
 
 #### [Installation](./reference/Install.md) ####
 
-#### [The Coordinate system](./reference/Coordinates.md) ####
+#### [The Coordinate system](./refCoordinates.md) ####
 
-#### [Tools](./RefTools.md) ####
+#### [Tools](./refTools.md) ####
 
 ## User Guides ##
 
