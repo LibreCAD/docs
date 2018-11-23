@@ -4,7 +4,7 @@ nav:
     - About: ./manual/About.md
     - Reference: ./manual/refTools.md
     
-#theme: readthedocs
+theme: readthedocs
 
 #docs_dir: /manual/
 #site_dir: /html/
