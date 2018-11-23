@@ -1,8 +1,8 @@
 site_name: LibreCAD User Documentation
 
 nav:
-    - 'Home': 'index.md'
-#    - 'License':
+- 'Home': 'index.md'
+#- 'License':
 - Reference:
     - 'Installation': ./reference/Install.md
     - 'The Coordinate system': ./reference/Coordinates.md
