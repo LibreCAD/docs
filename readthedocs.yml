@@ -1,8 +1,22 @@
-site_name: LibreCAD User Documentation
 
-nav:
-    - Home: ./manual/Index.md
-theme: readthedocs
+# .readthedocs.yml
+build:
+    image: latest
 
-docs_dir: /manual/
-site_dir: /html/
+python:
+    version: 3.6
+    setup_py_install: true
+
+# No extra formats required
+formats:
+ #   - epub
+ #   - pdf
+
+#site_name: LibreCAD User Documentation
+
+#nav:
+#    - Home: ./manual/Index.md
+#theme: readthedocs
+
+#docs_dir: /manual/
+#site_dir: /html/
