@@ -9,13 +9,6 @@ edit_uri: ""
 
 docs_dir: /manual/
 
-theme:
-    name: mkdocs
-    highlightjs: true
-    hljs_languages:
-        - yaml
-        - django
-
 nav:
     - Home: index.md
     - User Guide:
@@ -30,14 +23,3 @@ nav:
         - Contributing: about/contributing.md
         - License: about/license.md
 
-extra_css:
-    - css/extra.css
-
-markdown_extensions:
-    - toc:
-        permalink:
-    - admonition
-    - def_list
-    - mdx_gh_links:
-        user: mkdocs
-        repo: mkdocs
