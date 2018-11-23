@@ -12,7 +12,7 @@
 
 #### [Printing Guide](./howto/PrintingGuide.md) ####
 
-## [Appendices:](./Other.md) ##
+## Appendices: ##
 
 #### Fonts ####
 #### Release Notes ####
