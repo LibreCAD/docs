@@ -10,16 +10,14 @@ edit_uri: ""
 docs_dir: /manual/
 
 nav:
-    - Home: index.md
+    - Home: Index.md
+    - Reference Manual:
+        - Installation: reference/Install.md
+        - Configuration: reference/configuration.md
     - User Guide:
-        - Writing Your Docs: user-guide/writing-your-docs.md
-        - Styling Your Docs: user-guide/styling-your-docs.md
-        - Configuration: user-guide/configuration.md
-        - Deploying Your Docs: user-guide/deploying-your-docs.md
-        - Custom Themes: user-guide/custom-themes.md
-        - Plugins: user-guide/plugins.md
-    - About:
-        - Release Notes: about/release-notes.md
-        - Contributing: about/contributing.md
-        - License: about/license.md
-
+        - Printing: howto/PrintingGuide.md
+     - Appendices
+        - Fonts: 
+        - Release Notes: other/release-notes.md
+        - Contributing: other/contributing.md
+        - License: other/license.md
