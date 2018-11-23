@@ -1,5 +1,5 @@
 site_name: LibreCAD User Documentation
-site_url: https://www.librecad.org
+site_url: https://www.librecad.org/
 site_description: Project documentation with Markdown.
 site_author: LibreCAD Document Team
 
@@ -7,17 +7,17 @@ repo_url: https://github.com/GSStnb/docs
 repo_name: GitHub
 edit_uri: ""
 
-docs_dir: /manual/
-
 nav:
-    - Home: Index.md
+    - Home: ./Manual/Index.md
     - Reference Manual:
         - Installation: reference/Install.md
         - Configuration: reference/configuration.md
     - User Guide:
         - Printing: howto/PrintingGuide.md
-     - Appendices
+     - Appendices:
         - Fonts: 
         - Release Notes: other/release-notes.md
         - Contributing: other/contributing.md
         - License: other/license.md
+
+docs_dir: /manual/
