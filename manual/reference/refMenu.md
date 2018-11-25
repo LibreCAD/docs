@@ -11,17 +11,17 @@ Description of the menubar is based on version 2.2.0-alpha.
 
 #### Zoom ####
 
-'''Zoom In''' [ZoomIn]: 
+Zoom In: 
 
-'''Zoom Out''' [ZoomOut]: 
+Zoom Out: 
 
-'''Auto Zoom''' [ZoomAuto]: 
+Auto Zoom: 
 
-'''Previous View''' [ZoomPrevious]: 
+Previous View: 
 
-'''Redraw''' [ZoomRedraw]: 
+Redraw: 
 
-'''Window Zoom''' [ZoomWindow]:
+Window Zoom:
 
 ### Plugins ###
 
