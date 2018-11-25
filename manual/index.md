@@ -8,4 +8,3 @@ LibreCAD is free software; you can redistribute it and/or modify it under the te
 
 **NOTE:** *This documentation is currently be updated. Some of the documementation linked from here is based on earlier versions of LibreCAD and as a result the descriptions, commands, menus , etc may be different from what appears in the latest release.*
 
-On more test
