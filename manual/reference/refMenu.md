@@ -26,7 +26,7 @@ Description of the menubar is based on version 2.2.0-alpha.
 ### Plugins ###
 
 ### Tools ###
-See Tools (http://wiki.librecad.org/index.php/Tools) for a short description of the tools.
+See [Tools](./refTools.md) for a short description of the tools.
 
 ### Widgets ###
 
