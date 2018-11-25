@@ -5,6 +5,7 @@ Description of the menubar is based on version 2.2.0-alpha.
 
 |Menu |Shortcut |Description |
 |----|----|----|
+|Open: | [Ctrl]-n |Creates a new drawing file. |
 
 ### Options ###
 
@@ -12,9 +13,8 @@ Description of the menubar is based on version 2.2.0-alpha.
 
 ### View ###
 
-|  |  |  |
-|----|----|----|
-|Fullscreen: | [F11] | |
+
+|Fullscreen: | [F11] | Toggles LibreCAD to use the entire screen. |
 |Statusbar: | [Ctrl]-i | Toggles status bar on the bottom of the window off or on.|
 
 Grid: [[Ctrl]-g
