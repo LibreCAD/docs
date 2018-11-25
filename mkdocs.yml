@@ -16,7 +16,7 @@ nav:
 #    - 
 # Release Notes
 
-#theme: readthedocs
+theme: readthedocs
 
 docs_dir: manual
 #site_dir: /html/
