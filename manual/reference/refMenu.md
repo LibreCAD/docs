@@ -3,20 +3,20 @@ Description of the menubar is based on version 2.2.0-alpha.
 
 ### File ###
 
-|Menu |Shortcut |Description |
-|----|----|----|
-|New: | [Ctrl]-n |Creates a new drawing file. |
+|Menu Item |Shortcut |Description |
+|----               |----|----|
+|New:               | [Ctrl]-n |Creates a new drawing file. |
 |New from Template: | |Creates a new drawing file from a template. |
-|Open: | [Ctrl]-o | |
-|Save: | [Ctrl]-s | |
-|Save as: | [Ctrl][Shift]-q | |
-|Import: | | |
-|Export: | | |
-|Print: | [Ctrl]-p | |
-|Print Preview: | | |
-|Close | [Ctrl]-w | |
-|Quit: | [Ctrl]-q |Close the application. |
-|Recent Files: | | |
+|Open:              | [Ctrl]-o | |
+|Save:              | [Ctrl]-s | |
+|Save as:           | [Ctrl][Shift]-q | |
+|Import:            | | |
+|Export:            | | |
+|Print:             | [Ctrl]-p | |
+|Print Preview:     | | |
+|Close              | [Ctrl]-w | |
+|Quit:              | [Ctrl]-q |Close the application. |
+|Recent Files:      | | |
 
 ### Options ###
 
@@ -24,7 +24,7 @@ Description of the menubar is based on version 2.2.0-alpha.
 
 ### View ###
 
-|Menu |Shortcut |Description |
+|Menu Item |Shortcut |Description |
 |----|----|----|
 |Fullscreen: | [F11] | Toggles LibreCAD to use the entire screen. |
 |Statusbar: | [Ctrl]-i | Toggles status bar on the bottom of the window off or on.|
