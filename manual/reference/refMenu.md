@@ -1,15 +1,15 @@
-== Overview ==
+## Overview ##
 Description of the menubar is based on version 2.2.0-alpha.
 
-=== File ===
+### File ###
 
-=== Options ===
+### Options ###
 
-=== Edit ===
+### Edit ###
 
-=== View ===
+### View ###
 
-==== Zoom ====
+#### Zoom ####
 
 '''Zoom In''' [ZoomIn]: 
 
@@ -23,13 +23,13 @@ Description of the menubar is based on version 2.2.0-alpha.
 
 '''Window Zoom''' [ZoomWindow]:
 
-=== Plugins ===
+### Plugins ###
 
-=== Tools ===
+### Tools ###
 See Tools (http://wiki.librecad.org/index.php/Tools) for a short description of the tools.
 
-=== Widgets ===
+### Widgets ###
 
-=== Drawings ===
+### Drawings ###
 
-=== Help ===
+### Help ###
