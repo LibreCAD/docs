@@ -9,6 +9,16 @@ Description of the menubar is based on version 2.2.0-alpha.
 
 ### View ###
 
+Fullscreen: [F11]
+
+Statusbar: Toggles status bar on the bottom of the window off or on. [Ctrl]-i
+
+Grid: [[Ctrl]-g
+
+Draft: Toiggles to or from "Draft Mode". [Ctrl]-d
+
+Redraw: [Ctrl]-r
+
 #### Zoom ####
 
 Zoom In: 
@@ -19,9 +29,9 @@ Auto Zoom:
 
 Previous View: 
 
-Redraw: 
-
 Window Zoom:
+
+Zoom Panning: 
 
 ### Plugins ###
 
