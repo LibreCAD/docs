@@ -8,6 +8,7 @@ build:
 #    setup_py_install: true
 
 # No extra formats required
-formats:
+formats: []
+#formats:
 #    - epub
 #    - pdf
