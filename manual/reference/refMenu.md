@@ -5,7 +5,18 @@ Description of the menubar is based on version 2.2.0-alpha.
 
 |Menu |Shortcut |Description |
 |----|----|----|
-|Open: | [Ctrl]-n |Creates a new drawing file. |
+|New: | [Ctrl]-n |Creates a new drawing file. |
+|New from Template: | |Creates a new drawing file from a template. |
+|Open: | [Ctrl]-o | |
+|Save: | [Ctrl]-s | |
+|Save as: | [Ctrl][Shift]-q | |
+|Import: | | |
+|Export: | | |
+|Print: | [Ctrl]-p | |
+|Print Preview: | | |
+|Close | [Ctrl]-w | |
+|Quit: | [Ctrl]-q |Close the application. |
+|Recent Files: | | |
 
 ### Options ###
 
