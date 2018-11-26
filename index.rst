@@ -18,6 +18,6 @@ Contents
    :maxdepth: 3
     
    Reference<./ref/index.rst>
-   User Guides <./guides/index.rst>
-   Appendices <./appx/index.rst>
+   User Guides<./guides/index.rst>
+   Appendices<./appx/index.rst>
 
