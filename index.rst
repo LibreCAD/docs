@@ -15,9 +15,9 @@ LibreCAD is free software; you can redistribute it and/or modify it under the te
 Contents
 ^^^^^^^^
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
     
-   Reference <./ref/index.rst>
+   Reference<./ref/index.rst>
    User Guides <./guides/index.rst>
    Appendices <./appx/index.rst>
 

@@ -1,8 +1,8 @@
 Reference
 ---------
 
-:doc:`Installation </Install>`
-Coordinates :ref:`coordinates`.
-Menu :ref:`menu`.
-Tools :ref:`tools`.
+:ref:`installation-instructions`
+:ref:`coordinates`.
+:ref:`menu`.
+:ref:`tools`.
 
