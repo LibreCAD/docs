@@ -4,7 +4,10 @@ LibreCAD User Manual
 Contents
 ^^^^^^^^
 .. toctree::
-    :maxdepth: 3
+   :maxdepth: 3
     
-    LibreCAD User Manual <./manual/index.md>
+   About <./manual/index.md>
+   Reference/ref
+   User Guides/guides
+   Appendices/appx
 
