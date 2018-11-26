@@ -3,6 +3,8 @@
 Installation Instructions
 -------------------------
 
-## Windows ##
-## MacOS ##
-## Linux ##
+Windows
+
+MacOS
+
+Linux
