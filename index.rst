@@ -18,7 +18,6 @@ Contents
    :maxdepth: 3
     
    Reference <./ref/index.rst>
-      Installation <.ref/install.rst>
    User Guides <./guides/index.rst>
    Appendices <./appx/index.rst>
 
