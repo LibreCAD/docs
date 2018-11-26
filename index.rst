@@ -17,8 +17,6 @@ Contents
 .. toctree::
    :maxdepth: 2
     
-
-
    Reference
    =========
    Tools <./manual/ref/Tools.md>
@@ -27,7 +25,5 @@ Contents
    ^^^^^^^^^^^
    Printing <./manual/guides/Printing.md>
 
-   Appendices
-   ^^^^^^^^^^
-   Fonts <./manual/appx/Fonts.md>
+   Appendices <./manual/appx/Fonts.md>
 
