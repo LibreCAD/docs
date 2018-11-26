@@ -18,12 +18,6 @@ Contents
    :maxdepth: 2
     
    Reference
-   =========
-   Tools <./manual/ref/Tools.md>
-
    User Guides
-   ^^^^^^^^^^^
-   Printing <./manual/guides/Printing.md>
-
-   Appendices <./manual/appx/Fonts.md>
+   Appendices
 
