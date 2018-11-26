@@ -1,7 +1,8 @@
 Reference
 =========
+
 Installation <Install.md>
-Coordinates <Coordinates.md>
+Coordinates :ref: 'coordinates'
 Menu <Menu.md>
 Tools <Tools.md>
 

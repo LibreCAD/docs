@@ -1,2 +1,4 @@
+.. coordinates:
+
 The Coordinate system
 =====================
