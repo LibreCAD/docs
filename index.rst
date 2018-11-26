@@ -1,12 +1,14 @@
 LibreCAD User Manual
 ====================
 
+About <./manual/index.md>
+
 Contents
 ^^^^^^^^
 .. toctree::
    :maxdepth: 2
     
-   About <./manual/index.md>
+
 
    Reference
    =========
