@@ -17,7 +17,7 @@ Contents
 .. toctree::
    :maxdepth: 3
     
-   Reference <./ref/index.md>
-   User Guides <./guides/index.md>
-   Appendices <./appx/index.md>
+   Reference <./ref/index.rst>
+   User Guides <./guides/index.rst>
+   Appendices <./appx/index.rst>
 
