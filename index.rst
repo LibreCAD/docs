@@ -9,7 +9,7 @@ Contents
    About <./manual/index.md>
 
    Reference
-   ^^^^^^^^^
+   =========
    Tools <./manual/ref/Tools.md>
 
    User Guides
