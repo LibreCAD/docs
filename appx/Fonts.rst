@@ -6,7 +6,7 @@ Default LibreCAD Fonts
 .. image:: /images/LC_Fonts.png
    :height: 600
    :width: 800
-   :scale: 50
+   :scale: 100
    :alt: LibreCAD Fonts
 
 Font names::
