@@ -1,5 +1,5 @@
 Reference
-^^^^^^^^^
+=========
 Installation <Install.md>
 Coordinates <Coordinates.md>
 Menu <Menu.md>
