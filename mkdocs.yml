@@ -2,7 +2,6 @@ site_name: LibreCAD User Documentation
 
 nav:
     - Home: index.md
-    - Reference:
         - Installation: refInstall.md
         - The Coordinate system: refCoordinates.md
         - Menu: refMenu.md
