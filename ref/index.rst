@@ -1,8 +1,8 @@
 Reference
 ---------
 
-Installation :ref: `installation_instructions`_
-Coordinates :ref: `coordinates`_
-Menu :ref: `menu`_
-Tools :ref: `tools`_
+Installation :ref: `installation-instructions`.
+Coordinates :ref: `coordinates`.
+Menu :ref: `menu`.
+Tools :ref: `tools`.
 
