@@ -3,14 +3,14 @@ site_name: LibreCAD User Documentation
 nav:
     - Home: index.md
     - Reference:
-        - Installation: refInstall.md
-        - The Coordinate system: refCoordinates.md
-        - Menu: refMenu.md
-        - Tools: refTools.md
+        - Installation: ref/Install.md
+        - The Coordinate system: ref/Coordinates.md
+        - Menu: ref/Menu.md
+        - Tools: ref/Tools.md
     - Users Guides:
-        - Printing Guide: /guides/Printing.md
+        - Printing Guide: guides/Printing.md
     - Appendices:
-        - Fonts: /appx/Fonts.md
+        - Fonts: appx/Fonts.md
 
 #    - Contributing
 #    - Release Notes
