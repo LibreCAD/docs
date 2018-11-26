@@ -3,9 +3,9 @@ Reference
 
 :ref:`installation-instructions`
 
-:ref:`coordinates`.
+:ref:`coordinates`
 
-:ref:`menu`.
+:ref:`menu`
 
-:ref:`tools`.
+:ref:`tools`
 

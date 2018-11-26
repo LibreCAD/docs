@@ -1,12 +1,12 @@
 .. _menu: 
 
-Menu
-----
+Main Menu
+---------
 
-## Overview ##
+Overview
 Description of the menubar is based on version 2.2.0-alpha.
 
-### File ###
+File
 
 |Menu Item |Shortcut |Description |
 |---- |---- |----|
@@ -23,11 +23,11 @@ Description of the menubar is based on version 2.2.0-alpha.
 |Quit: | [Ctrl]-q |Close the application. |
 |Recent Files: | | |
 
-### Options ###
+Options
 
-### Edit ###
+Edit
 
-### View ###
+View
 
 |Menu Item |Shortcut |Description |
 |---- |---- |----|
@@ -37,7 +37,7 @@ Description of the menubar is based on version 2.2.0-alpha.
 |Draft: | [Ctrl]-d |Toggles to or from "Draft Mode".|
 |Redraw: | [Ctrl]-r ||
 
-#### Zoom ####
+#Zoom#
 
 |Menu Item |Shortcut |Description |
 |---- |---- |----|
@@ -48,13 +48,13 @@ Previous View:
 Window Zoom:
 Zoom Panning: 
 
-### Plugins ###
+Plugins
 
-### Tools ###
+Tools
 See [Tools](./Tools.md) for a short description of the tools.
 
-### Widgets ###
+Widgets
 
-### Drawings ###
+Drawings
 
-### Help ###
+Help
