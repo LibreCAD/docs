@@ -1,0 +1,101 @@
+v2.2.x
+amiri-regular.lff
+azomix_i.lff
+azomix.lff
+cursive.lff
+cyrillic_ii.lff
+gothgbt.lff
+gothgrt.lff
+gothitt.lff
+greekc.lff
+greekcs.lff
+greek_ol.lff
+greekp.lff
+greeks.lff
+iso3098_i.lff
+iso3098.lff
+iso.lff
+italicc.lff
+italiccs.lff
+italict.lff
+kochigothic.lff
+kochimincho.lff
+kst32b.lff
+lc_opengost-ar.lff
+lc_opengost-br.lff
+OpenGostTypeA-Regular.lff
+OpenGostTypeB-Regular.lff
+romanc.lff
+romancs.lff
+romand.lff
+romanp.lff
+romansi.lff
+romans.lff
+romant.lff
+scriptc.lff
+scripts.lff
+simplex.lff
+standard.lff
+syastro.lff
+symap.lff
+symath.lff
+symbol.lff
+symbol_misc1.lff
+symbol_misc2.lff
+symeteo.lff
+symusic.lff
+unicode.lff
+
+ASCII Text: !"#$%&'()*+,->/ 0123456789 :;<=>?@ ABCDEFGHIJKLMNOPQRSTUVWXYZ [\] ^_` abcdefghijklmnopqrstuvwxyz {|}~
+
+
+
+	v2.1.3
+	Font Name 	Font File 	Font Type 	Technical / Single Line
+	amiri-regular.lff 	Serif 	
+	azomix.lff 	Sans Serif 	X
+	azomix_i.lff 	Sans Serif 	X
+	cursive.lff 	Sans Serif 	X
+	cyrillic_ii.lff 	Sans Serif 	X
+	gothgbt.lff 	Blackletter / Gothic 	
+	gothgrt.lff 	Blackletter / Gothic 	
+	gothitt.lff 	Blackletter / Gothic 	
+	greek_ol.lff 	Greek Lettering 	
+	greekc.lff 	Greek Lettering 	
+	greekcs.lff 	Greek Lettering 	
+	greekp.lff 	Greek Lettering 	X
+	greeks.lff 	Greek Lettering 	X
+	iso.lff 	Sans Serif 	X
+	iso3098.lff 	Sans Serif 	X
+	iso3098_i.lff 	Sans Serif 	X
+	italicc.lff 	Serif 	
+	italiccs.lff 	Serif 	
+	italict.lff 	Serif 	
+	kochigothic.lff 	Sans Serif 	
+	kochimincho.lff 	Serif 	
+	kst32b.lff 	Sans Serif 	X
+	lc_opengost-ar.lff 	Sans Serif 	X
+	lc_opengost-br.lff 	Sans Serif 	X
+	OpenGostTypeA-Regular.lff 	Sans Serif 	X
+	OpenGostTypeB-Regular.lff 	Sans Serif 	X
+	romanc.lff 	Serif 	
+	romancs.lff 	Serif 	
+	romand.lff 	Sans Serif 	
+	romanp.lff 	Serif 	
+	romans.lff 	Sans Serif 	X
+	romansi.lff 	Sans Serif 	X
+	romant.lff 	Serif 	
+	scriptc.lff 	Formal Script 	
+	scripts.lff 	Formal Script 	
+	simplex.lff 	Sans Serif 	X
+	standard.lff 	Sans Serif 	X
+	syastro.lff 	Symbol 	
+	symap.lff 	Symbol 	
+	symath.lff 	Symbol 	
+	symbol.lff 	Symbol 	
+	symbol_misc1.lff 	Symbol 	
+	symbol_misc2.lff 	Symbol 	
+	symeteo.lff 	Symbol 	
+	symusic.lff 	Symbol 	
+	unicode.lff 	Sans Serif 	X
+	wqy-unicode.lff 	Sans Serif 	
