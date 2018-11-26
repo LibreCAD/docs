@@ -21,6 +21,5 @@ Contents
     
    Reference<./ref/index.rst>
    User Guides<./guides/index.rst>
-   Printing
    Appendices<./appx/index.rst>
 
