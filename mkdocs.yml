@@ -2,22 +2,22 @@ site_name: LibreCAD User Documentation
 
 nav:
     - Home: index.md
-    - Reference:
-        - Installation: ./reference/refInstall.md
-        - The Coordinate system: ./reference/refCoordinates.md
-    - Tools: ./reference/refTools.md
-    - Users Guides:
-        - Printing Guide: ./howto/PrintingGuide.md
-    - Appendices:
-        - Fonts: ./appendices/appFonts.md
-
+#    - Reference:
+#        - Installation: ./reference/refInstall.md
+#        - The Coordinate system: ./reference/refCoordinates.md
+#    - Tools: ./reference/refTools.md
+#    - Users Guides:
+#        - Printing Guide: ./howto/PrintingGuide.md
+#    - Appendices:
+#        - Fonts: ./appendices/appFonts.md
+#
 #    - Contributing
 #    - Release Notes
 #    - License:
 
 
-theme: readthedocs
+#theme: readthedocs
 
-docs_dir: manual
+#docs_dir: manual
 #site_dir: /html/
 
