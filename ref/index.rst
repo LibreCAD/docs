@@ -2,7 +2,7 @@ Reference
 ---------
 
 :doc:`Installation </Install>`
-Coordinates :ref: `coordinates`_.
-Menu :ref: `menu`_.
-Tools :ref: `tools`_.
+Coordinates :ref:`coordinates`.
+Menu :ref:`menu`.
+Tools :ref:`tools`.
 
