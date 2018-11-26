@@ -1,3 +1,5 @@
+site_name: LibreCAD User Documentation
+
 nav:
     - Home: index.md
     - Reference:
@@ -18,5 +20,4 @@ theme: readthedocs
 
 docs_dir: manual
 #site_dir: /html/
-#site_name: LibreCAD User Documentation
 
