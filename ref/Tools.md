@@ -1,3 +1,5 @@
+.. tools:
+
 ### Tools ###
 
 The drawing tools are used to create and modify entities such as lines, circles, etc in a drawing... yada, yada, yada

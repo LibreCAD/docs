@@ -1,8 +1,8 @@
 Reference
 =========
 
-Installation <Install.md>
+Installation :ref: 'installation_instructions'
 Coordinates :ref: 'coordinates'
-Menu <Menu.md>
-Tools <Tools.md>
+Menu :ref: 'menu'
+Tools :ref: 'tools'
 

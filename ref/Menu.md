@@ -1,3 +1,6 @@
+.. menu:
+
+
 ## Overview ##
 Description of the menubar is based on version 2.2.0-alpha.
 

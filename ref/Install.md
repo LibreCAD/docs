@@ -1,3 +1,5 @@
+.. installation_instructions:
+
 Installation Instructions
 =========================
 
