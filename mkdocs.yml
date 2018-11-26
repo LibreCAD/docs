@@ -19,5 +19,5 @@ nav:
 
 theme: readthedocs
 
-docs_dir: manual
+#docs_dir: manual
 #site_dir: /html/
