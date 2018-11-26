@@ -9,7 +9,7 @@ Default LibreCAD Fonts
    :scale: 50
    :alt: LibreCAD Fonts
 
-::
+Font names::
 	amiri-regular.lff
 	azomix_i.lff
 	azomix.lff
