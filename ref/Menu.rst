@@ -1,4 +1,4 @@
-.. _menu:
+.. _menu: 
 
 Menu
 ----

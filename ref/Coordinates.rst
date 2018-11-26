@@ -1,4 +1,4 @@
-.. _coordinates:
+.. _coordinates: 
 
 The Coordinate system
 ---------------------
