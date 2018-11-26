@@ -1,5 +1,3 @@
-.. _printing-guide: 
-
 Printing Guide
 --------------
 
