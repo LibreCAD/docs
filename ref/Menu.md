@@ -1,4 +1,4 @@
-.. menu:
+.. _menu:
 
 
 ## Overview ##
