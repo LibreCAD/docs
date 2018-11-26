@@ -1,7 +1,7 @@
 Reference
 =========
 
-Installation <./Install.md>
+Installation <./ref/Install.md>
 
  :ref: `_installation_instructions`
 Coordinates :ref: `_coordinates`
