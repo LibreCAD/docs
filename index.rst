@@ -8,7 +8,7 @@ Contents
    :caption: Contents:
     
    About <./manual/index.md>
-   Reference <./manual/ref/Tools.md>
-   User Guides <./manual/guides/Printing.md>
-   Appendices <./manual/appx/Fonts.md>
+   Reference <./manual/ref/index.md>
+   User Guides <./manual/guides/index.md>
+   Appendices <./manual/appx/index.md>
 
