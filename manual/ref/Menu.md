@@ -46,7 +46,7 @@ Zoom Panning:
 ### Plugins ###
 
 ### Tools ###
-See [Tools](./refTools.md) for a short description of the tools.
+See [Tools](./Tools.md) for a short description of the tools.
 
 ### Widgets ###
 
