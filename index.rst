@@ -5,7 +5,6 @@ Contents
 ^^^^^^^^
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
     
    About <./manual/index.md>
    Reference <./manual/ref/index.md>
