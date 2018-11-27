@@ -22,7 +22,9 @@ Line
 |             |      |      | defining the start, middle or end of the line    |
 |             |      |      | and with an assigned length.                     |
 +-------------+------+------+--------------------------------------------------+
-| Vertical    | icon | path | Draw a vertical line from an assigned point defining the start, middle or end of the line and with an assigned length.|
+| Vertical    | icon | path | Draw a vertical line from an assigned point      |
+|             |      |      | defining the start, middle or end of the line    |
+|             |      |      | and with an assigned length.                     |
 +-------------+------+------+--------------------------------------------------+
 
 Grid table:
