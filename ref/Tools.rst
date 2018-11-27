@@ -13,8 +13,15 @@ Line
 |             |      | Path |                                                  | 
 +=============+======+======+==================================================+
 | 2 points    | icon | path | Draw a line between two assigned points.         |
-| Angle       | icon | path | Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle.|
-| Horizontal  | icon | path | Draw a horizontal line from an assigned point defining the start, middle or end of the line and with an assigned length.|
++-------------+------+------+--------------------------------------------------+
+| Angle       | icon | path | Draw a line from an assigned point defining the  |
+|             |      |      | start, middle or end of the line and with an     |
+|             |      |      | assigned length and angle.                       |
++-------------+------+------+--------------------------------------------------+
+| Horizontal  | icon | path | Draw a horizontal line from an assigned point    |
+|             |      |      | defining the start, middle or end of the line    |
+|             |      |      | and with an assigned length.                     |
++-------------+------+------+--------------------------------------------------+
 | Vertical    | icon | path | Draw a vertical line from an assigned point defining the start, middle or end of the line and with an assigned length.|
 +-------------+------+------+--------------------------------------------------+
 
