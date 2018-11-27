@@ -138,7 +138,7 @@ Ellipse
 | Ellipse Center and 3 Points     | icon | Draw an ellipse by assigning a centre point three points on the             |
 |                                 |      | circumference.                                                              |
 +---------------------------------+------+-----------------------------------------------------------------------------+
-| Ellipse Inscribed               | icon |  Draw a Ellipse constrained by four existing non-parallel line segments.|
+| Ellipse Inscribed               | icon |  Draw a Ellipse constrained by four existing non-parallel line segments.    |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 
 
