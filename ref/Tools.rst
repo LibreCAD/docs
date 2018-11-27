@@ -14,6 +14,17 @@ Line
 +=================================+======+=============================================================================+
 | 2 points                        | icon | Draw a line between two assigned points.                                    |
 +---------------------------------+------+-----------------------------------------------------------------------------+
+| Angle                           | icon | Draw a line from an assigned point defining the start, middle or end of the | |                                 |      | line and with an assigned length and angle.                                 |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Horizontal                      | icon | Draw a horizontal line from an assigned point defining the start, middle or |
+|                                 |      | end of the line and with an assigned length.                                |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Vertical                        | icon | Draw a vertical line from an assigned point defining the start, middle or   |
+|                                 |      | end of the line and with an assigned length.                                |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Freehand Line                   | icon | Draw a non-geometric line.                                                  |
++---------------------------------+------+-----------------------------------------------------------------------------+
+
 
 Circle
 ~~~~~~
