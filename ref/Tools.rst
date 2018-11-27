@@ -8,7 +8,7 @@ The drawing tools are used to create and modify entities such as lines, circles,
 Line
 ~~~~
 .. table:: Drawing Tools
-   :widths: 15,10,10,50
+   :widths: 15 10 10 50
 +-------------+------+------+-------------------------------------------------------------------------------------------------+
 | Tool        | Icon | Menu | Description                                                                                     |
 |             |      | Path |                                                                                                 |
