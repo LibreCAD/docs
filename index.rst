@@ -19,7 +19,6 @@ Contents
 .. toctree::
    :maxdepth: 3
     
-   About<./index.rst>
    Reference<./ref/index.rst>
    User Guides<./guides/index.rst>
    Appendices<./appx/index.rst>
