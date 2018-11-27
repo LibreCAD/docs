@@ -14,20 +14,6 @@ Line
 +=================================+======+=============================================================================+
 | 2 points                        | icon | Draw a line between two assigned points.                                    |
 +---------------------------------+------+-----------------------------------------------------------------------------+
-| Angle                           | icon | Draw a line from an assigned point defining the start, middle or end of the | |                                 |      | line and with an assigned length and angle.                                 |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| Horizontal                      | icon | Draw a horizontal line from an assigned point defining the start, middle or |
-|                                 |      | end of the line and with an assigned length.                                |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| Vertical                        | icon | Draw a vertical line from an assigned point defining the start, middle or   |
-|                                 |      | end of the line and with an assigned length.                                |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| Freehand Line                   | icon | Draw a non-geometric line.                                                  |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| Parallel through point          | icon | Draw a given number of lines parallel to a selected existing line through   |
-|                                 |      | an assigned point.                                                          |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-
 
 Circle
 ~~~~~~
@@ -79,7 +65,7 @@ Curve
 |                                 |      | point defining the end position of the arc.                                 |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 | 3 Points                        | icon | Draw a curve (arc) by assigning three points on the circumference of the arc|
-|                                 |      |  defining the start position, a point on the circumference and end position |
+|                                 |      | defining the start position, a point on the circumference and end position  |
 |                                 |      | of the arc.                                                                 |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 | Concentric                      | icon | Draw a curve (arc) concentric, with the same centre point, to an existing   |
