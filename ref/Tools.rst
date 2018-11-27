@@ -16,14 +16,6 @@ Line
 +---------------------------------+------+-----------------------------------------------------------------------------+
 | Angle                           | icon | Draw a line from an assigned point defining the start, middle or end of the | |                                 |      | line and with an assigned length and angle.                                 |
 +---------------------------------+------+-----------------------------------------------------------------------------+
-| Horizontal                      | icon | Draw a horizontal line from an assigned point defining the start, middle or |
-|                                 |      | end of the line and with an assigned length.                                |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| Vertical                        | icon | Draw a vertical line from an assigned point defining the start, middle or   |
-|                                 |      | end of the line and with an assigned length.                                |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| Freehand Line                   | icon | Draw a non-geometric line.                                                  |
-+---------------------------------+------+-----------------------------------------------------------------------------+
 
 
 Circle
@@ -39,7 +31,7 @@ Circle
 | Centre, Radius                  | icon | Draw a circle with a given radius centred at an assigned point.             |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 | 2 Points                        | icon | Draw a circle with a given diameter by assigning two opposite points on the |
-|                                 |      |circumference.                                                               |
+|                                 |      | circumference.                                                              |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 | 2 Points, Radius                | icon | Draw a circle with two points on the circumference and with an assigned     |
 |                                 |      | radius.                                                                     |
@@ -56,7 +48,7 @@ Circle
 |                                 |      | point to establish the radius.                                              |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 | Tangential, 2 Points            | icon | Draw a circle tangential to an existing circle and define the diameter and  |
-|                                 |      |placement by assigning two points on the circumference.                      |
+|                                 |      | placement by assigning two points on the circumference.                     |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 | Tangential, 2 Circles, Radius   | icon | Draw a circle tangential to two existing circles with a given radius.       |
 +---------------------------------+------+-----------------------------------------------------------------------------+
