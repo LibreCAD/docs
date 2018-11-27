@@ -48,13 +48,13 @@ Line
 | Relative Angle                  | icon | Draw a line with a given length and at a given angle relative to an existing|
 |                                 |      | line placing the centre of the line at an assigned point.                   |
 +---------------------------------+------+-----------------------------------------------------------------------------+
-|Polygon (Cen,Cor)                | icon | Draw a polygon with a given number of sides assigning the centre point and  | 
+| Polygon (Cen,Cor)               | icon | Draw a polygon with a given number of sides assigning the centre point and  | 
 |                                 |      | point of one vertex.                                                        |
 +---------------------------------+------+-----------------------------------------------------------------------------+
-|Polygon (Cen,Tan)                | icon | Draw a polygon with a given number of sides assigning the centre point and  | 
+| Polygon (Cen,Tan)               | icon | Draw a polygon with a given number of sides assigning the centre point and  | 
 |                                 |      | point of the centre of one side.                                            |
 +---------------------------------+------+-----------------------------------------------------------------------------+
-|Polygon (Cor,Cor)                | icon | Draw a polygon with a given number of sides assigning the two points of one |
+| Polygon (Cor,Cor)               | icon | Draw a polygon with a given number of sides assigning the two points of one |
 |                                 |      | side.                                                                       |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 
@@ -95,12 +95,36 @@ Circle
 | Tangential, 3 Circles           | icon | Draw a circle tangential to three existing circles and/or lines.            |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 
+Curve
 ~~~~~~
 .. table:: Circle Tools
    :widths: 15 10 10 85
 +---------------------------------+------+-----------------------------------------------------------------------------+
-| Tool        | Icon | Description                                                                                     |
-+=============+======+=================================================================================================+
+| Tool                            | Icon | Description                                                                 |
++=================================+======+=============================================================================+
+| Center, Point, Angles | icon | Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc.|
+| 3 Points | icon | Draw a curve (arc) by assigning three points on the circumference of the arc defining the start position, a point on the circumference and end position of the arc.|
+| Concentric | icon | Draw a curve (arc) concentric, with the same centre point, to an existing curve (arc) with a defined offset.(*)|
+| Arc Tangential | icon | Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg).|
+
+Ellipse
+| Tool | Icon | Menu Path | Description |
+|-----|-----|-----|-----|
+| Ellipse (Axis) | icon | Draw an ellipse by assigning a centre point, a point on the circumference of major access and a point on the circumference the minor access.|
+| Ellipse Arc (Axis) | icon | N/A|
+| Ellipse Foci Point | icon | Draw an ellipse by assigning two foci points and a point  on the circumference.|
+| Ellipse 4 Point | icon | Draw an ellipse assigning four points on the circumference.|
+| Ellipse Center and 3 Points | icon | Draw an ellipse by assigning a centre point three points on the circumference.|
+| Ellipse Inscribed | icon |  Draw a Ellipse constrained by four existing non-parallel line segments.|
+
+
+
+~~~~~~
+.. table:: Circle Tools
+   :widths: 15 10 10 85
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Tool                            | Icon | Description                                                                 |
++=================================+======+=============================================================================+
 |                                 |      |                                                                             |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 
