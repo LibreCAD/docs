@@ -2,7 +2,7 @@ LibreCAD User Manual
 ====================
 
 About
-=====
+-----
 
 LibreCAD is a 2D CAD drawing tool based on the community edition of QCAD. LibreCAD uses the cross-platform framework Qt, which means it works with most operating systems. The user interface is translated in over 30 languages.
 
@@ -17,7 +17,7 @@ LibreCAD is free software; you can redistribute it and/or modify it under the te
 
 
 Contents
-^^^^^^^^
+~~~~~~~~
 .. toctree::
    :maxdepth: 3
     
