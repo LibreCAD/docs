@@ -188,97 +188,97 @@ Misc
     "Points", |icon95| ,"po, point","Draw a point at the assigned coordinates."
 
 .. |icon01| image:: /images/icons/line_2p.svg
-.. |icon02| image:: 
-.. |icon03| image:: 
-.. |icon04| image:: 
-.. |icon05| image:: 
-.. |icon06| image:: 
-.. |icon07| image:: 
-.. |icon08| image:: 
-.. |icon09| image:: 
-.. |icon10| image:: 
-.. |icon11| image:: 
-.. |icon12| image:: 
-.. |icon13| image:: 
-.. |icon14| image:: 
-.. |icon15| image:: 
-.. |icon16| image:: 
-.. |icon17| image:: 
-.. |icon18| image:: 
-.. |icon19| image:: 
-.. |icon20| image:: 
-.. |icon21| image:: 
-.. |icon22| image:: 
-.. |icon23| image:: 
-.. |icon24| image:: 
-.. |icon25| image:: 
-.. |icon26| image:: 
-.. |icon27| image:: 
-.. |icon28| image:: 
-.. |icon29| image:: 
-.. |icon30| image:: 
-.. |icon32| image:: 
-.. |icon33| image:: 
-.. |icon34| image:: 
-.. |icon35| image:: 
-.. |icon36| image:: 
-.. |icon37| image:: 
-.. |icon38| image:: 
-.. |icon39| image:: 
-.. |icon40| image:: 
-.. |icon41| image:: 
-.. |icon42| image:: 
-.. |icon43| image:: 
-.. |icon44| image:: 
-.. |icon45| image:: 
-.. |icon46| image:: 
-.. |icon47| image:: 
-.. |icon48| image:: 
-.. |icon49| image:: 
-.. |icon50| image:: 
-.. |icon51| image:: 
-.. |icon52| image:: 
-.. |icon53| image:: 
-.. |icon54| image:: 
-.. |icon55| image:: 
-.. |icon56| image:: 
-.. |icon57| image:: 
-.. |icon58| image:: 
-.. |icon59| image:: 
-.. |icon60| image:: 
-.. |icon61| image:: 
-.. |icon62| image:: 
-.. |icon63| image:: 
-.. |icon64| image:: 
-.. |icon65| image:: 
-.. |icon66| image:: 
-.. |icon67| image:: 
-.. |icon68| image:: 
-.. |icon69| image:: 
-.. |icon70| image:: 
-.. |icon71| image:: 
-.. |icon72| image:: 
-.. |icon73| image:: 
-.. |icon74| image:: 
-.. |icon75| image:: 
-.. |icon76| image:: 
-.. |icon77| image:: 
-.. |icon78| image:: 
-.. |icon79| image:: 
-.. |icon80| image:: 
-.. |icon81| image:: 
-.. |icon82| image:: 
-.. |icon83| image:: 
-.. |icon84| image:: 
-.. |icon85| image:: 
-.. |icon86| image:: 
-.. |icon87| image:: 
-.. |icon88| image:: 
-.. |icon89| image:: 
-.. |icon90| image:: 
-.. |icon91| image:: 
-.. |icon92| image:: 
-.. |icon93| image:: 
-.. |icon94| image:: 
-.. |icon95| image:: 
+.. |icon02| image:: /images/icons/linesangle.png
+.. |icon03| image:: /images/icons/linesangle.png
+.. |icon04| image:: /images/icons/linesver.png
+.. |icon05| image:: /images/icons/linesfree.png
+.. |icon06| image:: /images/icons/line_parallel_p.svg
+.. |icon07| image:: /images/icons/line_parallel.svg
+.. |icon08| image:: /images/icons/line_rectangle.svg
+.. |icon09| image:: /images/icons/line_bisector.svg
+.. |icon10| image:: /images/icons/linestan1.png
+.. |icon11| image:: /images/icons/linestan2.png
+.. |icon12| image:: /images/icons/linesorthtan.png
+.. |icon13| image:: /images/icons/linesorthogonal.png
+.. |icon14| image:: /images/icons/line_relative_angle.svg
+.. |icon15| image:: /images/icons/line_polygon_cen_cor.svg
+.. |icon16| image:: /images/icons/line_polygon_cen_tan.svg
+.. |icon17| image:: /images/icons/line_polygon_cor_cor.svg
+.. |icon18| image:: /images/icons/
+.. |icon19| image:: /images/icons/
+.. |icon20| image:: /images/icons/
+.. |icon21| image:: /images/icons/
+.. |icon22| image:: /images/icons/
+.. |icon23| image:: /images/icons/
+.. |icon24| image:: /images/icons/
+.. |icon25| image:: /images/icons/
+.. |icon26| image:: /images/icons/
+.. |icon27| image:: /images/icons/
+.. |icon28| image:: /images/icons/
+.. |icon29| image:: /images/icons/
+.. |icon30| image:: /images/icons/
+.. |icon32| image:: /images/icons/
+.. |icon33| image:: /images/icons/
+.. |icon34| image:: /images/icons/
+.. |icon35| image:: /images/icons/
+.. |icon36| image:: /images/icons/
+.. |icon37| image:: /images/icons/
+.. |icon38| image:: /images/icons/
+.. |icon39| image:: /images/icons/
+.. |icon40| image:: /images/icons/
+.. |icon41| image:: /images/icons/
+.. |icon42| image:: /images/icons/
+.. |icon43| image:: /images/icons/
+.. |icon44| image:: /images/icons/
+.. |icon45| image:: /images/icons/
+.. |icon46| image:: /images/icons/
+.. |icon47| image:: /images/icons/
+.. |icon48| image:: /images/icons/
+.. |icon49| image:: /images/icons/
+.. |icon50| image:: /images/icons/
+.. |icon51| image:: /images/icons/
+.. |icon52| image:: /images/icons/
+.. |icon53| image:: /images/icons/
+.. |icon54| image:: /images/icons/
+.. |icon55| image:: /images/icons/
+.. |icon56| image:: /images/icons/
+.. |icon57| image:: /images/icons/
+.. |icon58| image:: /images/icons/
+.. |icon59| image:: /images/icons/
+.. |icon60| image:: /images/icons/
+.. |icon61| image:: /images/icons/
+.. |icon62| image:: /images/icons/
+.. |icon63| image:: /images/icons/
+.. |icon64| image:: /images/icons/
+.. |icon65| image:: /images/icons/
+.. |icon66| image:: /images/icons/
+.. |icon67| image:: /images/icons/
+.. |icon68| image:: /images/icons/
+.. |icon69| image:: /images/icons/
+.. |icon70| image:: /images/icons/
+.. |icon71| image:: /images/icons/
+.. |icon72| image:: /images/icons/
+.. |icon73| image:: /images/icons/
+.. |icon74| image:: /images/icons/
+.. |icon75| image:: /images/icons/
+.. |icon76| image:: /images/icons/
+.. |icon77| image:: /images/icons/
+.. |icon78| image:: /images/icons/
+.. |icon79| image:: /images/icons/
+.. |icon80| image:: /images/icons/
+.. |icon81| image:: /images/icons/
+.. |icon82| image:: /images/icons/
+.. |icon83| image:: /images/icons/
+.. |icon84| image:: /images/icons/
+.. |icon85| image:: /images/icons/
+.. |icon86| image:: /images/icons/
+.. |icon87| image:: /images/icons/
+.. |icon88| image:: /images/icons/
+.. |icon89| image:: /images/icons/
+.. |icon90| image:: /images/icons/
+.. |icon91| image:: /images/icons/
+.. |icon92| image:: /images/icons/
+.. |icon93| image:: /images/icons/
+.. |icon94| image:: /images/icons/
+.. |icon95| image:: /images/icons/
 
