@@ -9,59 +9,59 @@ The drawing tools are used to create and modify entities such as lines, circles,
 Line
 ~~~~
 .. table:: Line Tools
-    :widths: 12 6 12 70
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | Icon | Command | Description                                                       |
-+=================================+======+=========+===================================================================+
-| 2 points                        | icon | command | Draw a line between two assigned points.                          |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Angle                           | icon | command | Draw a line from an assigned point defining the start, middle or  |
-|                                 |      |         | end of the line and with an assigned length and angle.            |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Horizontal                      | icon | command | Draw a horizontal line from an assigned point defining the start, |
-|                                 |      |         | middle or end of the line and with an assigned length.            |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Vertical                        | icon | command | Draw a vertical line from an assigned point defining the start,   |
-|                                 |      |         | middle or end of the line and with an assigned length.            |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Freehand Line                   | icon | command | Draw a non-geometric line.                                        |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Parallel through point          | icon | command | Draw a given number of lines parallel to a selected existing line |
-|                                 |      |         | through an assigned point.                                        |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Parallel                        | icon | command | Draw a given number of lines parallel to a selected existing line |
-|                                 |      |         | with a given distance between lines.                              |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Rectangle                       | icon | command | Draw a rectagle by assigning the points of two diagonally opposite|
-|                                 |      |         | corners.                                                          |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Bisector                        | icon | command | Draw a given number of lines bisecting two existing non-parallel  | 
-|                                 |      |         | lines (e.g.at an angle to each other with or without a common     |
-|                                 |      |         | point).                                                           |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tangent (P,C)                   | icon | command | Draw a line from an assigned point tangent to an existing circle. |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tangent (C,C)                   | icon | command | Draw a line tangent to two existing circles.                      |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tangent Orthogonal              | icon | command | Draw a line tangent to an existing circle and perpendicular to an |
-|                                 |      |         | existing line.                                                    |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Orthogonal                      | icon | command | Draw a line of a given length perpendicular to an existing line   |
-|                                 |      |         | placing the centre at an assigned point.                          |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Relative Angle                  | icon | command | Draw a line with a given length and at a given angle relative to  |
-|                                 |      |         | an existing line placing the centre of the line at an assigned    |
-|                                 |      |         | point.                                                            |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Polygon (Cen,Cor)               | icon | command | Draw a polygon with a given number of sides assigning the centre  | 
-|                                 |      |         | point and point of one vertex.                                    |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Polygon (Cen,Tan)               | icon | command | Draw a polygon with a given number of sides assigning the centre  | 
-|                                 |      |         | point and point of the centre of one side.                        |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Polygon (Cor,Cor)               | icon | command | Draw a polygon with a given number of sides assigning the two     |
-|                                 |      |         | points of one side.                                               |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
+    :widths: 10 8 12 70
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Tool                       | Icon | Command | Description                                                       |
++============================+======+=========+===================================================================+
+| 2 points                   | icon | command | Draw a line between two assigned points.                          |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Angle                      | icon | command | Draw a line from an assigned point defining the start, middle or  |
+|                            |      |         | end of the line and with an assigned length and angle.            |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Horizontal                 | icon | command | Draw a horizontal line from an assigned point defining the start, |
+|                            |      |         | middle or end of the line and with an assigned length.            |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Vertical                   | icon | command | Draw a vertical line from an assigned point defining the start,   |
+|                            |      |         | middle or end of the line and with an assigned length.            |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Freehand Line              | icon | command | Draw a non-geometric line.                                        |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Parallel through point     | icon | command | Draw a given number of lines parallel to a selected existing line |
+|                            |      |         | through an assigned point.                                        |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Parallel                   | icon | command | Draw a given number of lines parallel to a selected existing line |
+|                            |      |         | with a given distance between lines.                              |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Rectangle                  | icon | command | Draw a rectagle by assigning the points of two diagonally opposite|
+|                            |      |         | corners.                                                          |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Bisector                   | icon | command | Draw a given number of lines bisecting two existing non-parallel  | 
+|                            |      |         | lines (e.g.at an angle to each other with or without a common     |
+|                            |      |         | point).                                                           |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Tangent (P,C)              | icon | command | Draw a line from an assigned point tangent to an existing circle. |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Tangent (C,C)              | icon | command | Draw a line tangent to two existing circles.                      |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Tangent Orthogonal         | icon | command | Draw a line tangent to an existing circle and perpendicular to an |
+|                            |      |         | existing line.                                                    |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Orthogonal                 | icon | command | Draw a line of a given length perpendicular to an existing line   |
+|                            |      |         | placing the centre at an assigned point.                          |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Relative Angle             | icon | command | Draw a line with a given length and at a given angle relative to  |
+|                            |      |         | an existing line placing the centre of the line at an assigned    |
+|                            |      |         | point.                                                            |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Polygon (Cen,Cor)          | icon | command | Draw a polygon with a given number of sides assigning the centre  | 
+|                            |      |         | point and point of one vertex.                                    |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Polygon (Cen,Tan)          | icon | command | Draw a polygon with a given number of sides assigning the centre  | 
+|                            |      |         | point and point of the centre of one side.                        |
++----------------------------+------+---------+-------------------------------------------------------------------+
+| Polygon (Cor,Cor)          | icon | command | Draw a polygon with a given number of sides assigning the two     |
+|                            |      |         | points of one side.                                               |
++----------------------------+------+---------+-------------------------------------------------------------------+
 
 
 Circle
@@ -369,7 +369,7 @@ Info
 
 Miscellaneous
 ~~~~
-.. table:: toolname Tools
+.. table:: Misc Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Tool                            | Icon | Command | Description                                                       |
