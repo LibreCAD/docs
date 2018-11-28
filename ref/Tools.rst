@@ -192,37 +192,6 @@ Polyline
 +---------------------------------+------+-----------------------------------------------------------------------------+
 
 
-Select
-~~~~
-.. table:: Select Tools
-    :widths: 15 10 75
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| Tool                            | Icon | Description                                                                 |
-+=================================+======+=============================================================================+
-| Select Entity                   | icon | Select, or deselect, one or more entities (default cursor action).          |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| Select Window                   | icon | Select one or more enties enclosed by selection window (L to R), or crossed |
-|                                 |      | by selection window (R to L) (default cursor "drag" action).                |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| Deselect Window                 | icon | Deselect one or more enties enclosed by selection window (L to R), or       |
-|                                 |      | crossed by selection window (R to L).                                       |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| (De-)Select Contour             | icon | Select or deselected entities connected by shared points.                   |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| Select Intersected Entities     | icon | Select on or more entities crossed by selection line.                       |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| Deselect Intersected Entities   | icon | Deselect on or more entities crossed by selection line.                     |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| (De-)Select Layer               | icon | Select or deselected all entities on the layer of the selected entity.      |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| Select All                      | icon | Select all entities on visible layers ([Ctrl]-[A]).                         |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| Deselect all                    | icon | Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc]        |
-|                                 |      | action).                                                                    |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-| Invert Selection                | icon | Select all un-selected entities will deselecting all selected entities.     |
-+---------------------------------+------+-----------------------------------------------------------------------------+
-
 
 Dimension
 ~~~~
