@@ -207,6 +207,13 @@ Select
 | Deselect Window                 | icon | Deselect one or more enties enclosed by selection window (L to R), or       |
 |                                 |      | crossed by selection window (R to L).                                       |
 +---------------------------------+------+-----------------------------------------------------------------------------+
+| (De-)Select Contour             | icon | Select or deselected entities connected by shared points.                   |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Select Intersected Entities     | icon | Select on or more entities crossed by selection line.                       |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Deselect Intersected Entities   | icon | Deselect on or more entities crossed by selection line.                     |
++---------------------------------+------+-----------------------------------------------------------------------------+
+
 
 
 Dimension
