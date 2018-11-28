@@ -110,22 +110,23 @@ Curve
 .. table:: Curve Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                                 |
+| Tool                            | icon | command | Description                                                       |
 +=================================+======+=============================================================================+
-| Center, Point, Angles           | icon | command | Draw a curve (arc) with a given radius defined by a center point and a point|
-|                                 |      |         |on the circumference, the direction of rotation (clockwise or               |
-|                                 |      |         |counter-clockwise), a point defining the start position of the arc and a    |
-|                                 |      |         |point defining the end position of the arc.                                 |
+| Center, Point, Angles           | icon | command | Draw a curve (arc) with a given radius defined by a center point  |
+|                                 |      |         | and a pointon the circumference, the direction of rotation        |
+|                                 |      |         | (clockwise or counter-clockwise), a point defining the start      |
+|                                 |      |         | position of the arc and a point defining the end position of the  |
+|                                 |      |         | arc.                                                              |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| 3 Points                        | icon | command | Draw a curve (arc) by assigning three points on the circumference of the arc|
-|                                 |      |         |defining the start position, a point on the circumference and end position  |
-|                                 |      |         |of the arc.                                                                 |
+| 3 Points                        | icon | command | Draw a curve (arc) by assigning three points on the circumference |
+|                                 |      |         | of the arc defining the start position, a point on the            |
+|                                 |      |         | circumference and end position of the arc.                        |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Concentric                      | icon | command | Draw a curve (arc) concentric, with the same centre point, to an existing   |
-|                                 |      |         |curve (arc) with a defined offset.(*)                                       |
+| Concentric                      | icon | command | Draw a curve (arc) concentric, with the same centre point, to an  |
+|                                 |      |         | existing curve (arc) with a defined offset.(*)                    |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Arc Tangential                  | icon | command | Draw a curve (arc) tangential to the end of an exsiting line segment with a |
-|                                 |      |         |defined radius or angle (deg).                                              |
+| Arc Tangential                  | icon | command | Draw a curve (arc) tangential to the end of an exsiting line      |
+|                                 |      |         | segment with a defined radius or angle (deg).                     |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 
 
