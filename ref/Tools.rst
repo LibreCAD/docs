@@ -161,6 +161,36 @@ Spline
 +---------------------------------+------+-----------------------------------------------------------------------------+
 
 
+Polyline
+~~~~~~
+.. table:: toolname Tools
+    :widths: 15 10 75
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Tool                            | Icon | Description                                                                 |
++=================================+======+=============================================================================+
+| Polyline                        | icon | Draw an open or closed continuous line consisting of one or more straight   |
+|                                 |      | line or arc segmentsdefined by endpoints and / or radius or angle for arcs. |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Add node                        | icon | Add node to existing polyline. (Use "Snap on Entity" to place new node on   |
+|                                 |      | segment.)                                                                   |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Append node                     | icon | Add one or more segments to an existing polyline by selecting polyine and   |
+|                                 |      | adding new node endpoint.                                                   |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Delete node                     | icon | Delete selected node of an existing polyline.                               |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Delete between two nodes        | icon | Delete one or more nodes between selected nodes of an existing polyline.    |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Trim segments                   | icon | Extend two seperate non-parallel segments of an existing polyline to        |
+|                                 |      | intersect at a new node.                                                    |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Create Equidistant Polylines    | icon | Draw a given number of polylines parallel to a selected existing polyline   |
+|                                 |      | with a given distance between lines.                                        |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Create Polyline from Existing   | icon | Create polyline from two or more existing seperate line or arc              |
+| Segments                        |      | segments forming a continuous line.                                         |
++---------------------------------+------+-----------------------------------------------------------------------------+
+
 
 toolname
 ~~~~~~
