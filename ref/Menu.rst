@@ -87,7 +87,7 @@ Plugins
 Tools
 ~~~~
 See :ref:`tools` for a description of the drawing tools.
-See Tools <./Tools.rst> for a description of the drawing tools.
+
 
 Widgets
 ~~~~
