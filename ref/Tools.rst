@@ -5,7 +5,6 @@ Drawing Tools
 
 The drawing tools are used to create and modify entities such as lines, circles, etc in a drawing... yada, yada, yada
 
-Icon Alias
 .. |icn1| image:: /images/icon/librecad.png
 
 
@@ -19,6 +18,7 @@ Test
 | 2 points         | |icn1| |         | Draw a line between two assigned points.                                       |
 +------------------+--------+---------+--------------------------------------------------------------------------------+
 
+Icon |icn1| outside of table...
 
 Line
 ~~~~
