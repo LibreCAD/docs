@@ -3,58 +3,63 @@
 Default LibreCAD Fonts
 ======================
 
+
+.. csv-table:: LibreCAD Fonts 
+   :header: "Font Name","Font Filename","Font Type","Technical / Single Line"
+   :widths: 40, 10, 20, 110
+   
+    "amiri-regular", "amiri-regular.lff ", "Serif ", ""
+    "azomix_i", "azomix_i.lff ", "Sans Serif ","X"
+    "azomix", "azomix.lff ", "Sans Serif ","X"
+    "cursive", "cursive.lff ", "Sans Serif ","X"
+    "cyrillic_ii", "cyrillic_ii.lff ", "Sans Serif ","X"
+    "gothgbt", "gothgbt.lff ", "Blackletter / Gothic ", ""
+    "gothgrt", "gothgrt.lff ", "Blackletter / Gothic ", ""
+    "gothitt", "gothitt.lff ", "Blackletter / Gothic ", ""
+    "greekc", "greekc.lff ", "Greek Lettering ", ""
+    "greekcs", "greekcs.lff ", "Greek Lettering ", ""
+    "greek_ol", "greek_ol.lff ", "Greek Lettering ", ""
+    "greekp", "greekp.lff ", "Greek Lettering ","X"
+    "greeks", "greeks.lff ", "Greek Lettering ","X"
+    "iso3098_i", "iso3098.lff ", "Sans Serif ","X"
+    "iso3098", "iso3098_i.lff ", "Sans Serif ","X"
+    "iso", "iso.lff ", "Sans Serif ","X"
+    "italicc", "italicc.lff ", "Serif ", ""
+    "italiccs", "italiccs.lff ", "Serif ", ""
+    "italict", "italict.lff ", "Serif ", ""
+    "kochigothic", "kochigothic.lff ", "Sans Serif ", ""
+    "kochimincho", "kochimincho.lff ", "Serif ", ""
+    "kst32b", "kst32b.lff ", "Sans Serif ","X"
+    "lc_opengost-ar", "lc_opengost-ar.lff ", "Sans Serif ","X"
+    "lc_opengost-br", "lc_opengost-br.lff ", "Sans Serif ","X"
+    "OpenGostTypeA-Regular", "OpenGostTypeA-Regular.lff ", "Sans Serif ","X"
+    "OpenGostTypeB-Regular", "OpenGostTypeB-Regular.lff ", "Sans Serif ","X"
+    "romanc", "romanc.lff ", "Serif ", ""
+    "romancs", "romancs.lff ", "Serif ", ""
+    "romand", "romand.lff ", "Sans Serif ", ""
+    "romanp", "romanp.lff ", "Serif ", ""
+    "romansi", "romansi.lff ", "Sans Serif ","X"
+    "romans", "romans.lff ", "Sans Serif ","X"
+    "romant", "romant.lff ", "Serif ", ""
+    "scriptc", "scriptc.lff ", "Formal Script ", ""
+    "scripts", "scripts.lff ", "Formal Script ", ""
+    "simplex", "simplex.lff ", "Sans Serif ","X"
+    "standard", "standard.lff ", "Sans Serif ","X"
+    "syastro", "syastro.lff ", "Symbol ", ""
+    "symap", "symap.lff ", "Symbol ", ""
+    "symath", "symath.lff ", "Symbol ", ""
+    "symbol", "symbol.lff ", "Symbol ", ""
+    "symbol_misc1", "symbol_misc1.lff ", "Symbol ", ""
+    "symbol_misc2", "symbol_misc2.lff ", "Symbol ", ""
+    "symeteo", "symeteo.lff ", "Symbol ", ""
+    "symusic", "symusic.lff ", "Symbol ", ""
+    "unicode", "unicode.lff ", "Sans Serif ","X"
+
+
 .. figure:: /images/LC_Fonts.png
-    :width: 200px
+    :width: 800px
     :align: center
-    :height: 100px
+    :height: 600px
     :alt: LibreCAD Fonts
     :figclass: align-center
 
-Font names::
-
-    amiri-regular.lff
-    azomix_i.lff
-    azomix.lff
-    cursive.lff
-    cyrillic_ii.lff
-    gothgbt.lff
-    gothgrt.lff
-    gothitt.lff
-    greekc.lff
-    greekcs.lff
-    greek_ol.lff
-    greekp.lff
-    greeks.lff
-    iso3098_i.lff
-    iso3098.lff
-    iso.lff
-    italicc.lff
-    italiccs.lff
-    italict.lff
-    kochigothic.lff
-    kochimincho.lff
-    kst32b.lff
-    lc_opengost-ar.lff
-    lc_opengost-br.lff
-    OpenGostTypeA-Regular.lff
-    OpenGostTypeB-Regular.lff
-    romanc.lff
-    romancs.lff
-    romand.lff
-    romanp.lff
-    romansi.lff
-    romans.lff
-    romant.lff
-    scriptc.lff
-    scripts.lff
-    simplex.lff
-    standard.lff
-    syastro.lff
-    symap.lff
-    symath.lff
-    symbol.lff
-    symbol_misc1.lff
-    symbol_misc2.lff
-    symeteo.lff
-    symusic.lff
-    unicode.lff
