@@ -52,8 +52,7 @@ View
 .. table:: File Menu
     :widths: 15 10 10 65
 +---------------------------------+------+-----------+-----------------------------------------------------------------+
-| Menu Item                       | Icon | Short     | Description                                                     |
-|                                 |      | cut       |                                                                 |
+| Menu Item                       | Icon | Shortcut  | Description                                                     |
 +=================================+======+===========+=================================================================+
 | Fullscreen                      | icon | [F11]     | Toggles LibreCAD to use the entire screen.                      |
 +---------------------------------+------+-----------+-----------------------------------------------------------------+
@@ -87,7 +86,7 @@ Plugins
 
 Tools
 ~~~~
-See [Tools](./Tools.md) for a short description of the tools.
+See Tools<./Tools.rst> for a description of the drawing tools.
 
 
 Widgets
