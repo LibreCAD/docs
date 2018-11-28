@@ -69,36 +69,39 @@ Circle
 .. table:: Circle Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                                 |
+| Tool                            | icon | command | Description                                                       |
 +=================================+======+=============================================================================+
-| Centre, Point                   | icon | command | Draw a circle with a given radius by assigning a centre point and a point on|
-|                                 |      |         |the circumference.                                                          |
+| Centre, Point                   | icon | command | Draw a circle with a given radius by assigning a centre point and |
+|                                 |      |         | a point onthe circumference.                                      |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Centre, Radius                  | icon | command | Draw a circle with a given radius centred at an assigned point.             |
+| Centre, Radius                  | icon | command | Draw a circle with a given radius centred at an assigned point.   |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| 2 Points                        | icon | command | Draw a circle with a given diameter by assigning two opposite points on the |
-|                                 |      |         |circumference.                                                              |
+| 2 Points                        | icon | command | Draw a circle with a given diameter by assigning two opposite     |
+|                                 |      |         | points on the circumference.                                      |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| 2 Points, Radius                | icon | command | Draw a circle with two points on the circumference and with an assigned     |
-|                                 |      |         |radius.                                                                     |
+| 2 Points, Radius                | icon | command | Draw a circle with two points on the circumference and with an    |
+|                                 |      |         | assigned radius.                                                  |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| 3 Points                        | icon | command | Draw a circle assigning three points on the circumference.                  |
+| 3 Points                        | icon | command | Draw a circle assigning three points on the circumference.        |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Concentric                      | icon | command | Draw a circle concentric, with the same centre point, to an existing circle.|
+| Concentric                      | icon | command | Draw a circle concentric, with the same centre point, to an       |
+|                                 |      |         | existing circle.                                                  |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Circle Inscribed                | icon | command | Draw a circle inside an existing polygon of four sides or more.             |
+| Circle Inscribed                | icon | command | Draw a circle inside an existing polygon of four sides or more.   |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tangential 2 Circles, Radius    | icon | command | Draw a circle tangential to two circles with a given radius.                |
+| Tangential 2 Circles, Radius    | icon | command | Draw a circle tangential to two circles with a given radius.      |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tangential, 2 Circles, 1 Point  | icon | command | Draw a circle tangential to two existing circles and assigning a centre     |
-|                                 |      |         |point to establish the radius.                                              |
+| Tangential, 2 Circles, 1 Point  | icon | command | Draw a circle tangential to two existing circles and assigning a  |
+|                                 |      |         | centre point to establish the radius.                             |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tangential, 2 Points            | icon | command | Draw a circle tangential to an existing circle and define the diameter and  |
-|                                 |      |         |placement by assigning two points on the circumference.                     |
+| Tangential, 2 Points            | icon | command | Draw a circle tangential to an existing circle and define the     |
+|                                 |      |         | diameter and placement by assigning two points on the             |
+|                                 |      |         | circumference.                                                    |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tangential, 2 Circles, Radius   | icon | command | Draw a circle tangential to two existing circles with a given radius.       |
+| Tangential, 2 Circles, Radius   | icon | command | Draw a circle tangential to two existing circles with a given     |
+|                                 |      |         | radius.                                                           |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tangential, 3 Circles           | icon | command | Draw a circle tangential to three existing circles and/or lines.            |
+| Tangential, 3 Circles           | icon | command | Draw a circle tangential to three existing circles and/or lines.  |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 
 
