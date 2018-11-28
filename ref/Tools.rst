@@ -20,7 +20,7 @@ Test
 | 2 points         | |icn1| |         | .. image:: /images/icon/librecad.png                                           |
 +------------------+--------+---------+--------------------------------------------------------------------------------+
 
-Icon |icn1| outside of table...
+Icon |icn1| outside of table, and again .. image:: /images/icon/librecad.png  
 
 Line
 ~~~~
