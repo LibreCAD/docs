@@ -367,8 +367,3 @@ Miscellaneous
 | Points                          | icon | Draw a point at the assigned coordinates.                                   |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 
-
-toolname
-
-|                                 |      |                                                                                                                                                         |
-
