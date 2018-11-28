@@ -199,7 +199,7 @@ Polyline
 |                                 |      |         | polyline with a given distance between lines.                     |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Create Polyline from Existing   | icon | command | Create polyline from two or more existing seperate line or arc    |
-| Segments                        |      |         |segments forming a continuous line.                                |
+| Segments                        |      |         | segments forming a continuous line.                               |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 
 
@@ -208,30 +208,33 @@ Select
 .. table:: Select Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                                 |
-+=================================+======+=============================================================================+
-| Select Entity                   | icon | command | Select, or deselect, one or more entities (default cursor action).          |
+| Tool                            | icon | command | Description                                                       |
++=================================+======+=========+===================================================================+
+| Select Entity                   | icon | command | Select, or deselect, one or more entities (default cursor action).|
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Select Window                   | icon | command | Select one or more enties enclosed by selection window (L to R), or crossed |
-|                                 |      |         |by selection window (R to L) (default cursor "drag" action).                |
+| Select Window                   | icon | command | Select one or more enties enclosed by selection window (L to R),  |
+|                                 |      |         | or crossed by selection window (R to L) (default cursor "drag"    |
+| Segments                        |      |         | action).                                                          |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Deselect Window                 | icon | command | Deselect one or more enties enclosed by selection window (L to R), or       |
-|                                 |      |         |crossed by selection window (R to L).                                       |
+| Deselect Window                 | icon | command | Deselect one or more enties enclosed by selection window (L to R),|
+|                                 |      |         | or crossed by selection window (R to L).                          |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| (De-)Select Contour             | icon | command | Select or deselected entities connected by shared points.                   |
+| (De-)Select Contour             | icon | command | Select or deselected entities connected by shared points.         |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Select Intersected Entities     | icon | command | Select one or more entities crossed by selection line.                      |
+| Select Intersected Entities     | icon | command | Select one or more entities crossed by selection line.            |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Deselect Intersected Entities   | icon | command | Deselect one or more entities crossed by selection line.                    |
+| Deselect Intersected Entities   | icon | command | Deselect one or more entities crossed by selection line.          |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| (De-)Select Layer               | icon | command | Select or deselected all entities on the layer of the selected entity.      |
+| (De-)Select Layer               | icon | command | Select or deselected all entities on the layer of the selected    |
+| Segments                        |      |         | entity.                                                           |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Select All                      | icon | command | Select all entities on visible layers ([Ctrl]-[A]).                         |
+| Select All                      | icon | command | Select all entities on visible layers ([Ctrl]-[A]).               |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Deselect all                    | icon | command | Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc]        |
-|                                 |      |         |action).                                                                    |
+| Deselect all                    | icon | command | Deselect all entities on visible layers ([Ctrl]-[K] or default    |
+|                                 |      |         | [Esc] action).                                                    |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Invert Selection                | icon | command | Select all un-selected entities while deselecting all selected entities.    |
+| Invert Selection                | icon | command | Select all un-selected entities while deselecting all selected    |
+| Segments                        |      |         | entities.                                                         |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 
 
@@ -241,7 +244,7 @@ Dimension
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Tool                            | icon | command | Description                                                                 |
-+=================================+======+=============================================================================+
++=================================+======+=========+===================================================================+
 | Aligned                         | icon | command | Apply dimension lines and text aligned to an existing entity by selecting   |
 |                                 |      |         |start and end points on a line segment and placement point for the text.    |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
@@ -274,7 +277,7 @@ Modify
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Tool                            | icon | command | Description                                                                 |
-+=================================+======+=============================================================================+
++=================================+======+=========+===================================================================+
 | Attributes                      | icon | command | Modify the common attributes of **''one or more**'' selected entities,      |
 |                                 |      |         |including Layer, Pen color, Pen width, and Pen Line type.                   |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
@@ -334,7 +337,7 @@ Info
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Tool                            | icon | command | Description                                                                 |
-+=================================+======+=============================================================================+
++=================================+======+=========+===================================================================+
 | Point inside contour            | icon | command | Provides indication of point being inside or outside of the selected        |
 |                                 |      |         |''closed'' contour (polygon, circle, ployline, etc).                        |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
@@ -360,7 +363,7 @@ Miscellaneous
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Tool                            | icon | command | Description                                                                 |
-+=================================+======+=============================================================================+
++=================================+======+=========+===================================================================+
 | MText                           | icon | command | Insert multi-line text into drawing at a specified base point.  Optionally  |
 |                                 |      |         |define font, text height, angle, width factor, alignment, angle, special    |
 |                                 |      |         |symbols and character set.                                                  |
