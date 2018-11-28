@@ -5,6 +5,7 @@ Drawing Tools
 
 The drawing tools are used to create and modify entities such as lines, circles, etc in a drawing... yada, yada, yada
 
+
 Line
 ~~~~
 .. table:: Line Tools
@@ -59,6 +60,7 @@ Line
 |                                 |      | side.                                                                       |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 
+
 Circle
 ~~~~~~
 .. table:: Circle Tools
@@ -96,6 +98,7 @@ Circle
 | Tangential, 3 Circles           | icon | Draw a circle tangential to three existing circles and/or lines.            |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 
+
 Curve
 ~~~~~
 .. table:: Curve Tools
@@ -119,6 +122,7 @@ Curve
 |                                 |      | defined radius or angle (deg).                                              |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 
+
 Ellipse
 ~~~~~~
 .. table:: Ellipse Tools
@@ -141,6 +145,21 @@ Ellipse
 +---------------------------------+------+-----------------------------------------------------------------------------+
 | Ellipse Inscribed               | icon |  Draw a Ellipse constrained by four existing non-parallel line segments.    |
 +---------------------------------+------+-----------------------------------------------------------------------------+
+
+
+Spline
+~~~~~~
+.. table:: toolname Tools
+    :widths: 15 10 75
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Tool                            | Icon | Description                                                                 |
++=================================+======+=============================================================================+
+| Spline                          | icon | Draw an open or closed spline (curve) by assigning control points and a     |
+|                                 |      | given degree of freedom (1 - 3).                                            |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Spline through points           | icon | Draw an open or closed spline (curve) by defining points on the spline.     |
++---------------------------------+------+-----------------------------------------------------------------------------+
+
 
 
 toolname
