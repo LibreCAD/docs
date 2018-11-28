@@ -209,15 +209,17 @@ Select
 +---------------------------------+------+-----------------------------------------------------------------------------+
 | (De-)Select Contour             | icon | Select or deselected entities connected by shared points.                   |
 +---------------------------------+------+-----------------------------------------------------------------------------+
-| Select Intersected Entities     | icon | Select on or more entities crossed by selection line.                       |
+| Select Intersected Entities     | icon | Select one or more entities crossed by selection line.                      |
 +---------------------------------+------+-----------------------------------------------------------------------------+
-| Deselect Intersected Entities   | icon | Deselect on or more entities crossed by selection line.                     |
+| Deselect Intersected Entities   | icon | Deselect one or more entities crossed by selection line.                    |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 | (De-)Select Layer               | icon | Select or deselected all entities on the layer of the selected entity.      |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 | Select All                      | icon | Select all entities on visible layers ([Ctrl]-[A]).                         |
 +---------------------------------+------+-----------------------------------------------------------------------------+
-
+| Deselect all                    | icon | Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc]        |
+|                                 |      | action).                                                                    |
++---------------------------------+------+-----------------------------------------------------------------------------+
 
 
 Dimension
