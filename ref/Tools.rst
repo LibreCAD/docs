@@ -1,3 +1,11 @@
+.. _tools: 
+
+Drawing Tools
+-------------
+
+The drawing tools are used to create and modify entities such as lines, circles, etc in a drawing... yada, yada, yada
+
+
 .. csv-table:: Tools 
   :header: "Tools", "Icon", "Command", "Description"
   :widths: 40, 10, 20, 100
