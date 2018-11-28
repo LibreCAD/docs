@@ -62,7 +62,7 @@ Line
 
 
 Circle
-~~~~~~
+~~~~
 .. table:: Circle Tools
     :widths: 15 10 75
 +---------------------------------+------+-----------------------------------------------------------------------------+
@@ -100,7 +100,7 @@ Circle
 
 
 Curve
-~~~~~
+~~~~
 .. table:: Curve Tools
     :widths: 15 10 75
 +---------------------------------+------+-----------------------------------------------------------------------------+
@@ -124,7 +124,7 @@ Curve
 
 
 Ellipse
-~~~~~~
+~~~~
 .. table:: Ellipse Tools
     :widths: 15 10 75
 +---------------------------------+------+-----------------------------------------------------------------------------+
@@ -148,8 +148,8 @@ Ellipse
 
 
 Spline
-~~~~~~
-.. table:: toolname Tools
+~~~~
+.. table:: Spline Tools
     :widths: 15 10 75
 +---------------------------------+------+-----------------------------------------------------------------------------+
 | Tool                            | Icon | Description                                                                 |
@@ -162,8 +162,8 @@ Spline
 
 
 Polyline
-~~~~~~
-.. table:: toolname Tools
+~~~~
+.. table:: Polyline Tools
     :widths: 15 10 75
 +---------------------------------+------+-----------------------------------------------------------------------------+
 | Tool                            | Icon | Description                                                                 |
@@ -192,14 +192,183 @@ Polyline
 +---------------------------------+------+-----------------------------------------------------------------------------+
 
 
-toolname
-~~~~~~
+Select
+~~~~
+.. table:: Select Tools
+    :widths: 15 10 75
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Tool                            | Icon | Description                                                                 |
++=================================+======+=============================================================================+
+| Select Entity                   | icon | Select, or deselect, one or more entities (default cursor action).          |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Select Window                   | icon | Select one or more enties enclosed by selection window (L to R), or crossed |
+|                                 |      | by selection window (R to L) (default cursor "drag" action).                |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Deselect Window                 | icon | Deselect one or more enties enclosed by selection window (L to R), or       |
+|                                 |      | crossed by selection window (R to L).                                       |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| (De-)Select Contour             | icon | Select or deselected entities connected by shared points.                   |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Select Intersected Entities     | icon | Select on or more entities crossed by selection line.                       |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Deselect Intersected Entities   | icon | Deselect on or more entities crossed by selection line.                     |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| (De-)Select Layer               | icon | Select or deselected all entities on the layer of the selected entity.      |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Select All                      | icon | Select all entities on visible layers ([Ctrl]-[A]).                         |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Deselect all                    | icon | Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc]        |
+|                                 |      | action).                                                                    |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Invert Selection                | icon | Select all un-selected entities will deselecting all selected entities.     |
++---------------------------------+------+-----------------------------------------------------------------------------+
+
+
+Dimension
+~~~~
+.. table:: Dimension Tools
+    :widths: 15 10 75
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Tool                            | Icon | Description                                                                 |
++=================================+======+=============================================================================+
+| Aligned                         | icon | Apply dimension lines and text aligned to an existing entity by selecting   |
+|                                 |      | start and end points on a line segment and placement point for the text.    |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Linear                          | icon | Apply dimension lines and text at an defined angle to an entity by selecting|
+|                                 |      |  start and end points on a line segment and placement point for the text.   |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Horizontal                      | icon | Apply dimension lines and text aligned to an entity by selecting start and  |
+|                                 |      | end points on a line segment and placement point for the text.              |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Vertical                        | icon | Apply dimension lines and text aligned to an entity by selecting start and  |
+|                                 |      | end points on a line segment and placement point for the text.              |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Radial                          | icon | Apply dimension lines and text a circle's or arc's radius by selecting      |
+|                                 |      | entity and placement point for the text.                                    |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Diametric                       | icon | Apply dimension lines and text a circle's or arc's diameter by selecting    |
+|                                 |      | entity and placement point for the text.                                    |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Angular                         | icon | Apply angular dimension by selecting two existing non-parallel line segments|
+|                                 |      |  and placement point for the text.                                          |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Leader                          | icon | Draw a text leader by by selecting start (arrow location), intermediate and |
+|                                 |      | end points.                                                                 |
++---------------------------------+------+-----------------------------------------------------------------------------+
+
+
+Modify
+~~~~
+.. table:: Modify Tools
+    :widths: 15 10 75
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Tool                            | Icon | Description                                                                 |
++=================================+======+=============================================================================+
+| Attributes                      | icon | Modify the common attributes of **''one or more**'' selected entities,      |
+|                                 |      | including Layer, Pen color, Pen width, and Pen Line type.                   |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Delete                          | icon |  Mark one or more entities to be deleted, press [Enter] to complete         |
+|                                 |      | operation.                                                                  |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Delete selected                 | icon | Delete one or more selected entities.                                       |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Delete Freehand                 | icon | Delete segment within a polyline define by two points. (Use "Snap on Entity"|
+|                                 |      |  to place points.)                                                          |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Move / Copy                     | icon | Move a selected entity by defining a reference point and a relative target  |
+|                                 |      | point. Optionally keep the original entity (Copy), create mulitple copies   |
+|                                 |      | and / or alter attributes and layer.                                        |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Revert direction                | icon | Swap start and end points of one or more selected entities.                 |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Rotate                          | icon | Rotate a selected entity around a rotation point, moving the entity from a  |
+|                                 |      | reference point to a target point. Optionally keep the original entity,     |
+|                                 |      | create multiple copies and / or alter attributes and layer.                 |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Scale                           | icon | Increase or decrease the size of a selected entity from a reference point   |
+|                                 |      | by a defined factor for both axis.  Optionally keep the original entity,    |
+|                                 |      | create mulitple copies and / or alter attributes and layer.                 |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Mirror                          | icon | Create a mirror image of a selected entity around an axis defined by two    |
+|                                 |      | points.  Optionally keep the original entity and / or alter attributes and  |
+|                                 |      | layer.                                                                      |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Move and Rotate                 | icon | Move a selected entity by defining a reference point and a relative target  |
+|                                 |      | point and rotataing the entity at a given angle.  Optionally keep the       |
+|                                 |      | original entity, create mulitple copies and / or alter attributes and layer.|
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Rotate Two                      | icon | Rotate a selected entity around an absolute rotation point, while rotating  |
+|                                 |      | the entity around a relative reference point to a target point. Optionally  |
+|                                 |      | keep the original entity, create multiple copies and / or alter attributes  |
+|                                 |      | and layer.                                                                  |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Stretch                         | icon | Move a selected portion of a drawing by defining a reference point and a    |
+|                                 |      | relative target point.                                                      |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Bevel                           | icon | Create a sloping edge between two intersecting line segments with defined by|
+|                                 |      | a setback on each segment.                                                  |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Fillet                          | icon | Create a rounded edge between two intersecting line segments with defined   |
+|                                 |      | radius.                                                                     |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Explode Text into Letters       | icon | Separate a string of text into individual character entities.               |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Explode                         | icon | Separate one or more selected blocks into individual entities.              |
++---------------------------------+------+-----------------------------------------------------------------------------+
+
+
+Info
+~~~~
+.. table:: Info Tools
+    :widths: 15 10 75
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Tool                            | Icon | Description                                                                 |
++=================================+======+=============================================================================+
+| Point inside contour            | icon | Provides indication of point being inside or outside of the selected        |
+|                                 |      | ''closed'' contour (polygon, circle, ployline, etc).                        |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Distance Point to Point         | icon | Provides distance, cartesian and polar coordinates between two              |
+|                                 |      | specified points.                                                           |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Distance Entity to Point        | icon | Provides shortest distance selected entity and specified point.             |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Angle between two lines         | icon | Provides angle between two selected line segments, measured                 |
+|                                 |      | counter-clockwise.                                                          |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Total length of selected        | icon | Provides total length of one or more selected entities (length of line      |
+| entities                        |      | segment, circle circimference, etc).                                        |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Polygonal Area                  | icon | Provides area of polygon defined by three or more specified points.         |
++---------------------------------+------+-----------------------------------------------------------------------------+
+
+
+
+Miscellaneous
+~~~~
 .. table:: toolname Tools
     :widths: 15 10 75
 +---------------------------------+------+-----------------------------------------------------------------------------+
 | Tool                            | Icon | Description                                                                 |
 +=================================+======+=============================================================================+
-|                                 |      |                                                                             |
-|                                 |      |                                                                             |
+| MText                           | icon | Insert multi-line text into drawing at a specified base point.  Optionally  |
+|                                 |      | define font, text height, angle, width factor, alignment, angle, special    |
+|                                 |      | symbols and character set.                                                  |
 +---------------------------------+------+-----------------------------------------------------------------------------+
+| Text                            | icon | Insert single-line text into drawing at a specified base point.  Optionally |
+|                                 |      | define font, text height,  alignment, angle, special symbols and character  |
+|                                 |      | set.                                                                        |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Hatch                           | icon | Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern|
+|                                 |      |  or a solid fill.  Optionally define scale and angle.                       |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Insert Image                    | icon | Insert an image, bitmapped or vector, at a specified point.  Optionally     |
+|                                 |      | define angle, scale factor and DPI.                                         |
++---------------------------------+------+-----------------------------------------------------------------------------+
+| Points                          | icon | Draw a point at the assigned coordinates.                                   |
++---------------------------------+------+-----------------------------------------------------------------------------+
+
+
+toolname
+
+|                                 |      |                                                                                                                                                         |
 
