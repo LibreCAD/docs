@@ -22,6 +22,9 @@ Selection 011.png
 
 Basically there are two types of Coordinates: **Cartesian** and **Polar**.
 
+Cartesian
+~~~~
+
 The *Cartesian* coordinate system is generally the standard system used in most CAD programs. A specific point in a 
 drawing is located by exact distances from both the X and Y axes - for example a point in a drawing could be 60,45 
 (note the comma -, separates the two numbers).See example Image below.
@@ -30,6 +33,8 @@ drawing is located by exact distances from both the X and Y axes - for example a
 Coordinates 60,45.png
 
 
+Polar
+~~~~
 
 The *Polar* coordinate system uses one distance and one angle to define a point in a drawing -for example a point in a 
 drawing could be 50 < 45, so 50 units long and at an angle of 45 degrees (note the < sign is used for the angle). see 
@@ -38,10 +43,8 @@ example image below.
 
 Selection 024.png
 
-
-
 In LibreCAD lines, points, arcs, polylines, circles and many more entities can be drawn and placed in a drawing using 
-either Absolute or Relative coordinate input.
+either *Absolute* or *Relative* coordinate input.
 
 To input coordinate value points in LibreCAD you can 'type' your values in the command line or inside a 'text input 
 box' (presented by tool options requiring distance,angle etc...).  This method is 100% accurate.
@@ -51,10 +54,15 @@ Or
 You can 'manually', move the mouse cursor around and visually pick a coordinate point, but obviously this method is 
 less accurate but may be acceptable for some 'rough' sketch or freehand work!
 
+Absolute
+~~~~
 
 Absolute coordinates - using this method,coordinate points are entered in direct relation to the Origin 0,0. To do this 
 in LibreCAD just enter in the exact point e.g. 60,45.
 
+
+Relative
+~~~~
 
 Relative coordinates - using this method, coordinate points are entered in relation to the previous point entered (not 
 the origin), so for example - if your first point is 20,45, to then enter your next point 'relative' to this - you 
