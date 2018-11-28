@@ -1,10 +1,10 @@
 .. _lc-fonts: 
 
-Default LibreCAD Fonts
-======================
+LibreCAD Fonts
+==============
 
 
-.. csv-table:: LibreCAD Fonts 
+.. csv-table:: 
    :header: "Font Name","Font Filename","Font Type","Technical / Single Line"
    :widths: 40, 10, 20, 110
    
