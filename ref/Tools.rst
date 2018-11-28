@@ -16,21 +16,21 @@ Line
 | 2 points                        | icon | command | Draw a line between two assigned points.                          |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Angle                           | icon | command | Draw a line from an assigned point defining the start, middle or  |
-|                                 |      |         |        |end of the line and with an assigned length and angle.             |
+|                                 |      |         |        |end of the line and with an assigned length and angle.    |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Horizontal                      | icon | command | Draw a horizontal line from an assigned point defining the start, |
-|                                 |      |         |        |middle or end of the line and with an assigned length.             |
+|                                 |      |         |        |middle or end of the line and with an assigned length.    |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Vertical                        | icon | command | Draw a vertical line from an assigned point defining the start,   |
-|                                 |      |         |        |middle or end of the line and with an assigned length.             |
+|                                 |      |         |        |middle or end of the line and with an assigned length.    |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Freehand Line                   | icon | command | Draw a non-geometric line.                                        |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Parallel through point          | icon | command | Draw a given number of lines parallel to a selected existing line |
-|                                 |      |         | through an assigned point.                                         |
+|                                 |      |         | through an assigned point.                                        |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Parallel                        | icon | command | Draw a given number of lines parallel to a selected existing line |
-|                                 |      |         | with a given distance between lines.                               |
+|                                 |      |         | with a given distance between lines.                              |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Rectangle                       | icon | command | Draw a rectagle by assigning the points of two diagonally opposite|
 |                                 |      |         | corners.                                                          |
