@@ -11,7 +11,7 @@ Line
 .. table:: Line Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | Command | Description                                                       |
+| Tool                            | Icon | Command | Description                                                       |
 +=================================+======+=========+===================================================================+
 | 2 points                        | icon | command | Draw a line between two assigned points.                          |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
@@ -110,7 +110,7 @@ Curve
 .. table:: Curve Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                       |
+| Tool                            | Icon | Command | Description                                                       |
 +=================================+======+=========+===================================================================+
 | Center, Point, Angles           | icon | command | Draw a curve (arc) with a given radius defined by a center point  |
 |                                 |      |         | and a pointon the circumference, the direction of rotation        |
@@ -135,7 +135,7 @@ Ellipse
 .. table:: Ellipse Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                       |
+| Tool                            | Icon | Command | Description                                                       |
 +=================================+======+=========+===================================================================+
 | Ellipse (Axis)                  | icon | command | Draw an ellipse by assigning a centre point, a point on the       |
 |                                 |      |         | circumference of major access anda point on the circumference the |
@@ -161,7 +161,7 @@ Spline
 .. table:: Spline Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                       |
+| Tool                            | Icon | Command | Description                                                       |
 +=================================+======+=========+===================================================================+
 | Spline                          | icon | command | Draw an open or closed spline (curve) by assigning control points |
 |                                 |      |         | and a given degree of freedom (1 - 3).                            |
@@ -176,7 +176,7 @@ Polyline
 .. table:: Polyline Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                       |
+| Tool                            | Icon | Command | Description                                                       |
 +=================================+======+=========+===================================================================+
 | Polyline                        | icon | command | Draw an open or closed continuous line consisting of one or more  |
 |                                 |      |         | straight line or arc segmentsdefined by endpoints and / or radius |
@@ -188,7 +188,8 @@ Polyline
 | Append node                     | icon | command | Add one or more segments to an existing polyline by selecting     |
 |                                 |      |         | polyine and adding new node endpoint.                             |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Delete node                     | icon | command | Delete selected node of an existing polyline.                     |+---------------------------------+------+---------+-------------------------------------------------------------------+
+| Delete node                     | icon | command | Delete selected node of an existing polyline.                     |
++---------------------------------+------+---------+-------------------------------------------------------------------+
 | Delete between two nodes        | icon | command | Delete one or more nodes between selected nodes of an existing    |
 |                                 |      |         | polyline.                                                         |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
@@ -208,7 +209,7 @@ Select
 .. table:: Select Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                       |
+| Tool                            | Icon | Command | Description                                                       |
 +=================================+======+=========+===================================================================+
 | Select Entity                   | icon | command | Select, or deselect, one or more entities (default cursor action).|
 +---------------------------------+------+---------+-------------------------------------------------------------------+
@@ -243,31 +244,35 @@ Dimension
 .. table:: Dimension Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                                 |
+| Tool                            | Icon | Command | Description                                                       |
 +=================================+======+=========+===================================================================+
-| Aligned                         | icon | command | Apply dimension lines and text aligned to an existing entity by selecting   |
-|                                 |      |         |start and end points on a line segment and placement point for the text.    |
+| Aligned                         | icon | command | Apply dimension lines and text aligned to an existing entity by   |
+|                                 |      |         | selecting start and end points on a line segment and placement    |
+|                                 |      |         | point for the text.                                               |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Linear                          | icon | command | Apply dimension lines and text at an defined angle to an entity by selecting|
-|                                 |      |         | start and end points on a line segment and placement point for the text.   |
+| Linear                          | icon | command | Apply dimension lines and text at an defined angle to an entity by|
+|                                 |      |         | selecting start and end points on a line segment and placement    |
+|                                 |      |         | point for the text.                                               |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Horizontal                      | icon | command | Apply dimension lines and text aligned to an entity by selecting start and  |
-|                                 |      |         |end points on a line segment and placement point for the text.              |
+| Horizontal                      | icon | command | Apply dimension lines and text aligned to an entity by selecting  |
+|                                 |      |         | start and end points on a line segment and placement point for the|
+|                                 |      |         |  text.                                                            |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Vertical                        | icon | command | Apply dimension lines and text aligned to an entity by selecting start and  |
-|                                 |      |         |end points on a line segment and placement point for the text.              |
+| Vertical                        | icon | command | Apply dimension lines and text aligned to an entity by selecting  |
+|                                 |      |         | start and end points on a line segment and placement point for the|
+|                                 |      |         |  text.                                                            |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Radial                          | icon | command | Apply dimension lines and text a circle's or arc's radius by selecting      |
-|                                 |      |         |entity and placement point for the text.                                    |
+| Radial                          | icon | command | Apply dimension lines and text a circle's or arc's radius by      |
+|                                 |      |         | selecting entity and placement point for the text.                |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Diametric                       | icon | command | Apply dimension lines and text a circle's or arc's diameter by selecting    |
-|                                 |      |         |entity and placement point for the text.                                    |
+| Diametric                       | icon | command | Apply dimension lines and text a circle's or arc's diameter by    |
+|                                 |      |         | selecting entity and placement point for the text.                |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Angular                         | icon | command | Apply angular dimension by selecting two existing non-parallel line segments|
-|                                 |      |         | and placement point for the text.                                          |
+| Angular                         | icon | command | Apply angular dimension by selecting two existing non-parallel    |
+|                                 |      |         | line segments and placement point for the text.                   |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Leader                          | icon | command | Draw a text leader by by selecting start (arrow location), intermediate and |
-|                                 |      |         |end points.                                                                 |
+| Leader                          | icon | command | Draw a text leader by by selecting start (arrow location),        |
+|                                 |      |         | intermediate and end points.                                      |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 
 
@@ -276,7 +281,7 @@ Modify
 .. table:: Modify Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                                 |
+| Tool                            | Icon | Command | Description                                                                 |
 +=================================+======+=========+===================================================================+
 | Attributes                      | icon | command | Modify the common attributes of **''one or more**'' selected entities,      |
 |                                 |      |         |including Layer, Pen color, Pen width, and Pen Line type.                   |
@@ -336,7 +341,7 @@ Info
 .. table:: Info Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                                 |
+| Tool                            | Icon | Command | Description                                                                 |
 +=================================+======+=========+===================================================================+
 | Point inside contour            | icon | command | Provides indication of point being inside or outside of the selected        |
 |                                 |      |         |''closed'' contour (polygon, circle, ployline, etc).                        |
@@ -362,7 +367,7 @@ Miscellaneous
 .. table:: toolname Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                                 |
+| Tool                            | Icon | Command | Description                                                                 |
 +=================================+======+=========+===================================================================+
 | MText                           | icon | command | Insert multi-line text into drawing at a specified base point.  Optionally  |
 |                                 |      |         |define font, text height, angle, width factor, alignment, angle, special    |
