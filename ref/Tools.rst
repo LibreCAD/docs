@@ -188,16 +188,16 @@ Misc
     "Points", |icon95| ,"po, point","Draw a point at the assigned coordinates."
 
 .. |icon01| image:: /images/icons/line_2p.svg
-.. |icon02| image:: /images/icons/linesangle.png
-.. |icon03| image:: /images/icons/linesangle.png
-.. |icon04| image:: /images/icons/linesver.png
-.. |icon05| image:: /images/icons/linesfree.png
+.. |icon02| image:: /images/icons/line_angle.svg
+.. |icon03| image:: /images/icons/line_horizontal.svg
+.. |icon04| image:: /images/icons/line_vertical.svg
+.. |icon05| image:: /images/icons/line_freehand.svg
 .. |icon06| image:: /images/icons/line_parallel_p.svg
 .. |icon07| image:: /images/icons/line_parallel.svg
 .. |icon08| image:: /images/icons/line_rectangle.svg
 .. |icon09| image:: /images/icons/line_bisector.svg
-.. |icon10| image:: /images/icons/linestan1.png
-.. |icon11| image:: /images/icons/linestan2.png
+.. |icon10| image:: /images/icons/line_tangent_pc.svg
+.. |icon11| image:: /images/icons/line_tangent_cc.svg
 .. |icon12| image:: /images/icons/linesorthtan.png
 .. |icon13| image:: /images/icons/linesorthogonal.png
 .. |icon14| image:: /images/icons/line_relative_angle.svg
