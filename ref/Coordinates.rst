@@ -1,7 +1,7 @@
 .. _coordinates: 
 
 The Coordinate system
-====
+=====================
 
 In order to get the best out of LibreCAD it is wise to have a good understanding of the coordinate system and how 
 coordinates work. Everything that you draw in LibreCAD will be exact and precise and will be placed there accurately 
@@ -21,11 +21,11 @@ Examples of X and Y coordinates:
 Selection 011.png
 
 Types of Coordinates
-----
+--------------------
 Basically there are two types of Coordinates: **Cartesian** and **Polar**.
 
 Cartesian
-~~~~
+~~~~~~~~~
 
 The *Cartesian* coordinate system is generally the standard system used in most CAD programs. A specific point in a 
 drawing is located by exact distances from both the X and Y axes - for example a point in a drawing could be 60,45 
@@ -36,7 +36,7 @@ Coordinates 60,45.png
 
 
 Polar
-~~~~
+~~~~~
 
 The *Polar* coordinate system uses one distance and one angle to define a point in a drawing -for example a point in a 
 drawing could be 50 < 45, so 50 units long and at an angle of 45 degrees (note the < sign is used for the angle). see 
@@ -46,14 +46,14 @@ example image below.
 Selection 024.png
 
 Absolute
-~~~~
+~~~~~~~~
 
 Absolute coordinates - using this method,coordinate points are entered in direct relation to the Origin 0,0. To do this 
 in LibreCAD just enter in the exact point e.g. 60,45.
 
 
 Relative
-~~~~
+~~~~~~~~
 
 Relative coordinates - using this method, coordinate points are entered in relation to the previous point entered (not 
 the origin), so for example - if your first point is 20,45, to then enter your next point 'relative' to this - you 
