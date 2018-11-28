@@ -281,58 +281,62 @@ Modify
 .. table:: Modify Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | Icon | Command | Description                                                                 |
+| Tool                            | Icon | Command | Description                                                       |
 +=================================+======+=========+===================================================================+
-| Attributes                      | icon | command | Modify the common attributes of **''one or more**'' selected entities,      |
-|                                 |      |         |including Layer, Pen color, Pen width, and Pen Line type.                   |
+| Attributes                      | icon | command | Modify the common attributes of **''one or more**'' selected      |
+|                                 |      |         | entities, including Layer, Pen color, Pen width, and Pen Line     |
+|                                 |      |         | type.                                                             |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Delete                          | icon | command |  Mark one or more entities to be deleted, press [Enter] to complete         |
-|                                 |      |         |operation.                                                                  |
+| Delete                          | icon | command | Mark one or more entities to be deleted, press [Enter] to         |
+|                                 |      |         | complete operation.                                               |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Delete selected                 | icon | command | Delete one or more selected entities.                                       |
+| Delete selected                 | icon | command | Delete one or more selected entities.                             |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Delete Freehand                 | icon | command | Delete segment within a polyline define by two points. (Use "Snap on Entity"|
-|                                 |      |         | to place points.)                                                          |
+| Delete Freehand                 | icon | command | Delete segment within a polyline define by two points. (Use "Snap |
+|                                 |      |         | on Entity" to place points.)                                      |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Move / Copy                     | icon | command | Move a selected entity by defining a reference point and a relative target  |
-|                                 |      |         |point. Optionally keep the original entity (Copy), create mulitple copies   |
-|                                 |      |         |and / or alter attributes and layer.                                        |
+| Move / Copy                     | icon | command | Move a selected entity by defining a reference point and a        |
+|                                 |      |         | relative target point. Optionally keep the original entity (Copy),|
+|                                 |      |         | create mulitple copies and / or alter attributes and layer.       |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Revert direction                | icon | command | Swap start and end points of one or more selected entities.                 |
+| Revert direction                | icon | command | Swap start and end points of one or more selected entities.       |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Rotate                          | icon | command | Rotate a selected entity around a rotation point, moving the entity from a  |
-|                                 |      |         |reference point to a target point. Optionally keep the original entity,     |
-|                                 |      |         |create multiple copies and / or alter attributes and layer.                 |
+| Rotate                          | icon | command | Rotate a selected entity around a rotation point, moving the      |
+|                                 |      |         | entity from a reference point to a target point. Optionally keep  |
+|                                 |      |         | the original entity, create multiple copies and / or alter        |
+|                                 |      |         | attributes and layer.                                             |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Scale                           | icon | command | Increase or decrease the size of a selected entity from a reference point   |
-|                                 |      |         |by a defined factor for both axis.  Optionally keep the original entity,    |
-|                                 |      |         |create mulitple copies and / or alter attributes and layer.                 |
+| Scale                           | icon | command | Increase or decrease the size of a selected entity from a         |
+|                                 |      |         | reference point by a defined factor for both axis.  Optionally    |
+|                                 |      |         | keep the original entity, create mulitple copies and / or alter   |
+|                                 |      |         | attributes and layer.                                             |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Mirror                          | icon | command | Create a mirror image of a selected entity around an axis defined by two    |
-|                                 |      |         |points.  Optionally keep the original entity and / or alter attributes and  |
-|                                 |      |         |layer.                                                                      |
+| Mirror                          | icon | command | Create a mirror image of a selected entity around an axis defined |
+|                                 |      |         | by two points.  Optionally keep the original entity and / or alter|
+|                                 |      |         | attributes and layer.                                             |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Move and Rotate                 | icon | command | Move a selected entity by defining a reference point and a relative target  |
-|                                 |      |         |point and rotataing the entity at a given angle.  Optionally keep the       |
-|                                 |      |         |original entity, create mulitple copies and / or alter attributes and layer.|
+| Move and Rotate                 | icon | command | Move a selected entity by defining a reference point and a        |
+|                                 |      |         | relative target point and rotataing the entity at a given angle.  |
+|                                 |      |         | Optionally keep the original entity, create mulitple copies and / |
+|                                 |      |         | or alter attributes and layer.                                    |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Rotate Two                      | icon | command | Rotate a selected entity around an absolute rotation point, while rotating  |
-|                                 |      |         |the entity around a relative reference point to a target point. Optionally  |
-|                                 |      |         |keep the original entity, create multiple copies and / or alter attributes  |
-|                                 |      |         |and layer.                                                                  |
+| Rotate Two                      | icon | command | Rotate a selected entity around an absolute rotation point, while |
+|                                 |      |         | rotating the entity around a relative reference point to a target |
+|                                 |      |         | point. Optionally keep the original entity, create multiple copies|
+|                                 |      |         | and / or alter attributes and layer.                              |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Stretch                         | icon | command | Move a selected portion of a drawing by defining a reference point and a    |
-|                                 |      |         |relative target point.                                                      |
+| Stretch                         | icon | command | Move a selected portion of a drawing by defining a reference point|
+|                                 |      |         | and a relative target point.                                      |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Bevel                           | icon | command | Create a sloping edge between two intersecting line segments with defined by|
-|                                 |      |         |a setback on each segment.                                                  |
+| Bevel                           | icon | command | Create a sloping edge between two intersecting line segments with |
+|                                 |      |         | defined by a setback on each segment.                             |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Fillet                          | icon | command | Create a rounded edge between two intersecting line segments with defined   |
-|                                 |      |         |radius.                                                                     |
+| Fillet                          | icon | command | Create a rounded edge between two intersecting line segments with |
+|                                 |      |         | defined radius.                                                   |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Explode Text into Letters       | icon | command | Separate a string of text into individual character entities.               |
+| Explode Text into Letters       | icon | command | Separate a string of text into individual character entities.     |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Explode                         | icon | command | Separate one or more selected blocks into individual entities.              |
+| Explode                         | icon | command | Separate one or more selected blocks into individual entities.    |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 
 
