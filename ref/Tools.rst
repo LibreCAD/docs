@@ -1,6 +1,6 @@
 .. csv-table:: Tools 
   :header: "Tools", "Icon", "Command", "Description"
-  :widths: 42, 270, 270, 220, 119, 119
+  :widths: 40, 10, 20, 100
 "Line","Icon","Command","Description"
 "2 points",| icon01| ,"l, li, line","Draw a line between two assigned points."
 "Angle",| icon02| ,,"Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle."
