@@ -13,7 +13,7 @@ Test
 +------------------+---------------------------------------+---------+-------------------------------------------------+
 | Tool             | Icon                                  | Command | Description                                     |
 +==================+=======================================+=========+=================================================+
-| 2 points         | .. image:: images/icon/librecad.png  | command | Draw a line between two assigned points.        |
+| 2 points         | .. image:: images/icon/librecad.png   | command | Draw a line between two assigned points.        |
 +------------------+---------------------------------------+---------+-------------------------------------------------+
 
 Line
