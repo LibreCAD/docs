@@ -12,7 +12,7 @@ Line
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Tool                            | icon | Command | Description                                                       |
-+=================================+======+=============================================================================+
++=================================+======+=========+===================================================================+
 | 2 points                        | icon | command | Draw a line between two assigned points.                          |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Angle                           | icon | command | Draw a line from an assigned point defining the start, middle or  |
@@ -69,8 +69,8 @@ Circle
 .. table:: Circle Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                       |
-+=================================+======+=============================================================================+
+| Tool                            | Icon | Command | Description                                                       |
++=================================+======+=========+===================================================================+
 | Centre, Point                   | icon | command | Draw a circle with a given radius by assigning a centre point and |
 |                                 |      |         | a point on the circumference.                                     |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
@@ -111,7 +111,7 @@ Curve
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Tool                            | icon | command | Description                                                       |
-+=================================+======+=============================================================================+
++=================================+======+=========+===================================================================+
 | Center, Point, Angles           | icon | command | Draw a curve (arc) with a given radius defined by a center point  |
 |                                 |      |         | and a pointon the circumference, the direction of rotation        |
 |                                 |      |         | (clockwise or counter-clockwise), a point defining the start      |
@@ -136,7 +136,7 @@ Ellipse
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Tool                            | icon | command | Description                                                       |
-+=================================+======+=============================================================================+
++=================================+======+=========+===================================================================+
 | Ellipse (Axis)                  | icon | command | Draw an ellipse by assigning a centre point, a point on the       |
 |                                 |      |         | circumference of major access anda point on the circumference the |
 |                                 |      |         | minor access.                                                     |
@@ -161,12 +161,13 @@ Spline
 .. table:: Spline Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                                 |
-+=================================+======+=============================================================================+
-| Spline                          | icon | command | Draw an open or closed spline (curve) by assigning control points and a     |
-|                                 |      |         |given degree of freedom (1 - 3).                                            |
+| Tool                            | icon | command | Description                                                       |
++=================================+======+=========+===================================================================+
+| Spline                          | icon | command | Draw an open or closed spline (curve) by assigning control points |
+|                                 |      |         | and a given degree of freedom (1 - 3).                            |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Spline through points           | icon | command | Draw an open or closed spline (curve) by defining points on the spline.     |
+| Spline through points           | icon | command | Draw an open or closed spline (curve) by defining points on the   |
+|                                 |      |         | spline.                                                           |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 
 
@@ -175,29 +176,30 @@ Polyline
 .. table:: Polyline Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                                 |
-+=================================+======+=============================================================================+
-| Polyline                        | icon | command | Draw an open or closed continuous line consisting of one or more straight   |
-|                                 |      |         |line or arc segmentsdefined by endpoints and / or radius or angle for arcs. |
+| Tool                            | icon | command | Description                                                       |
++=================================+======+=========+===================================================================+
+| Polyline                        | icon | command | Draw an open or closed continuous line consisting of one or more  |
+|                                 |      |         | straight line or arc segmentsdefined by endpoints and / or radius |
+|                                 |      |         | or angle for arcs.                                                |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Add node                        | icon | command | Add node to existing polyline. (Use "Snap on Entity" to place new node on   |
-|                                 |      |         |segment.)                                                                   |
+| Add node                        | icon | command | Add node to existing polyline. (Use "Snap on Entity" to place new |
+|                                 |      |         | node on segment.)                                                 |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Append node                     | icon | command | Add one or more segments to an existing polyline by selecting polyine and   |
-|                                 |      |         |adding new node endpoint.                                                   |
+| Append node                     | icon | command | Add one or more segments to an existing polyline by selecting     |
+|                                 |      |         | polyine and adding new node endpoint.                             |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Delete node                     | icon | command | Delete selected node of an existing polyline.                               |
+| Delete node                     | icon | command | Delete selected node of an existing polyline.                     |+---------------------------------+------+---------+-------------------------------------------------------------------+
+| Delete between two nodes        | icon | command | Delete one or more nodes between selected nodes of an existing    |
+|                                 |      |         | polyline.                                                         |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Delete between two nodes        | icon | command | Delete one or more nodes between selected nodes of an existing polyline.    |
+| Trim segments                   | icon | command | Extend two seperate non-parallel segments of an existing polyline |
+|                                 |      |         | to intersect at a new node.                                       |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Trim segments                   | icon | command | Extend two seperate non-parallel segments of an existing polyline to        |
-|                                 |      |         |intersect at a new node.                                                    |
+| Create Equidistant Polylines    | icon | command | Draw a given number of polylines parallel to a selected existing  |
+|                                 |      |         | polyline with a given distance between lines.                     |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Create Equidistant Polylines    | icon | command | Draw a given number of polylines parallel to a selected existing polyline   |
-|                                 |      |         |with a given distance between lines.                                        |
-+---------------------------------+------+---------+-------------------------------------------------------------------+
-| Create Polyline from Existing   | icon | command | Create polyline from two or more existing seperate line or arc              |
-| Segments                        |      |         |segments forming a continuous line.                                         |
+| Create Polyline from Existing   | icon | command | Create polyline from two or more existing seperate line or arc    |
+| Segments                        |      |         |segments forming a continuous line.                                |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 
 
