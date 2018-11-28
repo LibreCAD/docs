@@ -220,7 +220,7 @@ Select
 | Deselect all                    | icon | Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc]        |
 |                                 |      | action).                                                                    |
 +---------------------------------+------+-----------------------------------------------------------------------------+
-| Invert Selection                | icon | Select all un-selected entities will deselecting all selected entities.     |
+| Invert Selection                | icon | Select all un-selected entities while deselecting all selected entities.    |
 +---------------------------------+------+-----------------------------------------------------------------------------+
 
 
