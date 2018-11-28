@@ -1,14 +1,17 @@
 .. _lc-fonts: 
 
 Default LibreCAD Fonts
-~~~~~~~~~~~~~~~~~~~~~~
+======================
 
-.. image:: /images/LC_Fonts.png
-   :scale: 100
-   :alt: LibreCAD Fonts
+.. figure:: /images/LC_Fonts.png
+    :width: 200px
+    :align: center
+    :height: 100px
+    :alt: LibreCAD Fonts
+    :figclass: align-center
 
 Font names::
-``````````
+
     amiri-regular.lff
     azomix_i.lff
     azomix.lff
