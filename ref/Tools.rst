@@ -16,13 +16,13 @@ Line
 | 2 points                        | icon | command | Draw a line between two assigned points.                          |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Angle                           | icon | command | Draw a line from an assigned point defining the start, middle or  |
-|                                 |      |         |        |end of the line and with an assigned length and angle.    |
+|                                 |      |         | end of the line and with an assigned length and angle.            |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Horizontal                      | icon | command | Draw a horizontal line from an assigned point defining the start, |
-|                                 |      |         |        |middle or end of the line and with an assigned length.    |
+|                                 |      |         | middle or end of the line and with an assigned length.            |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Vertical                        | icon | command | Draw a vertical line from an assigned point defining the start,   |
-|                                 |      |         |        |middle or end of the line and with an assigned length.    |
+|                                 |      |         | middle or end of the line and with an assigned length.            |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Freehand Line                   | icon | command | Draw a non-geometric line.                                        |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
