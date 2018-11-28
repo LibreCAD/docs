@@ -345,23 +345,24 @@ Info
 .. table:: Info Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | Icon | Command | Description                                                                 |
+| Tool                            | Icon | Command | Description                                                       |
 +=================================+======+=========+===================================================================+
-| Point inside contour            | icon | command | Provides indication of point being inside or outside of the selected        |
-|                                 |      |         |''closed'' contour (polygon, circle, ployline, etc).                        |
+| Point inside contour            | icon | command | Provides indication of point being inside or outside of the       |
+|                                 |      |         | selected ''closed'' contour (polygon, circle, ployline, etc).     |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Distance Point to Point         | icon | command | Provides distance, cartesian and polar coordinates between two              |
-|                                 |      |         |specified points.                                                           |
+| Distance Point to Point         | icon | command | Provides distance, cartesian and polar coordinates between two    |
+|                                 |      |         | specified points.                                                 |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Distance Entity to Point        | icon | command | Provides shortest distance selected entity and specified point.             |
+| Distance Entity to Point        | icon | command | Provides shortest distance selected entity and specified point.   |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Angle between two lines         | icon | command | Provides angle between two selected line segments, measured                 |
-|                                 |      |         |counter-clockwise.                                                          |
+| Angle between two lines         | icon | command | Provides angle between two selected line segments, measured       |
+|                                 |      |         | counter-clockwise.                                                |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Total length of selected        | icon | command | Provides total length of one or more selected entities (length of line      |
-| entities                        |      |         |segment, circle circimference, etc).                                        |
+| Total length of selected        | icon | command | Provides total length of one or more selected entities (length of |
+| entities                        |      |         | line segment, circle circimference, etc).                         |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Polygonal Area                  | icon | command | Provides area of polygon defined by three or more specified points.         |
+| Polygonal Area                  | icon | command | Provides area of polygon defined by three or more specified       |
+|                                 |      |         | points.                                                           |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 
 
@@ -371,22 +372,23 @@ Miscellaneous
 .. table:: toolname Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | Icon | Command | Description                                                                 |
+| Tool                            | Icon | Command | Description                                                       |
 +=================================+======+=========+===================================================================+
-| MText                           | icon | command | Insert multi-line text into drawing at a specified base point.  Optionally  |
-|                                 |      |         |define font, text height, angle, width factor, alignment, angle, special    |
-|                                 |      |         |symbols and character set.                                                  |
+| MText                           | icon | command | Insert multi-line text into drawing at a specified base point.    |
+|                                 |      |         | Optionally define font, text height, angle, width factor,         |
+|                                 |      |         | alignment, angle, special symbols and character set.              |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Text                            | icon | command | Insert single-line text into drawing at a specified base point.  Optionally |
-|                                 |      |         |define font, text height,  alignment, angle, special symbols and character  |
-|                                 |      |         |set.                                                                        |
+| Text                            | icon | command | Insert single-line text into drawing at a specified base point.   |
+|                                 |      |         | Optionally define font, text height,  alignment, angle, special   |
+|                                 |      |         | symbols and character set.                                        |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Hatch                           | icon | command | Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern|
-|                                 |      |         | or a solid fill.  Optionally define scale and angle.                       |
+| Hatch                           | icon | command | Fill a closed entity (polygon, circle, polyline, etc) with a      |
+|                                 |      |         | defined pattern or a solid fill.  Optionally define scale and     |
+|                                 |      |         | angle.                                                            |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Insert Image                    | icon | command | Insert an image, bitmapped or vector, at a specified point.  Optionally     |
-|                                 |      |         |define angle, scale factor and DPI.                                         |
+| Insert Image                    | icon | command | Insert an image, bitmapped or vector, at a specified point.       |
+|                                 |      |         | Optionally define angle, scale factor and DPI.                    |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Points                          | icon | command | Draw a point at the assigned coordinates.                                   |
+| Points                          | icon | command | Draw a point at the assigned coordinates.                         |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 
