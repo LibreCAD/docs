@@ -5,6 +5,7 @@ Drawing Tools
 
 The drawing tools are used to create and modify entities such as lines, circles, etc in a drawing... yada, yada, yada
 
+
 Line
 ----
 .. csv-table::  
@@ -29,7 +30,10 @@ Line
    "Polygon (Cen,Tan)", |icon16| ,,"Draw a polygon with a given number of sides assigning the centre point and point of the centre of one side. "
    "Polygon (Cor,Cor)", |icon17| ,"poly2, polygon2v","Draw a polygon with a given number of sides assigning the two points of one side."
 
-.. csv-table:: Circle
+
+Circle
+------
+.. csv-table:: 
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
@@ -46,7 +50,10 @@ Line
    "Tangential, 2 Circles, Radius", |icon28| ,,"Draw a circle tangential to two existing circles with a given radius."
    "Tangential, 3 Circles", |icon29| ,"ct3, tan3","Draw a circle tangential to three existing circles and/or lines."
 
-.. csv-table:: Curve
+
+Curve
+-----
+.. csv-table:: 
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
@@ -56,7 +63,9 @@ Line
    "Arc Tangential", |icon34| ,,"Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg)."
 
 
-.. csv-table:: Ellipse
+Ellipse
+-------
+.. csv-table:: 
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
@@ -68,7 +77,9 @@ Line
    "Ellipse Inscribed", |icon40| ,," Draw a Ellipse constrained by four existing non-parallel line segments."
 
 
-.. csv-table:: Spline
+Spline
+------
+.. csv-table:: 
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
@@ -76,7 +87,9 @@ Line
    "Spline through points", |icon42| ,"stp, spline2","Draw an open or closed spline (curve) by defining points on the spline."
 
 
-.. csv-table:: Polyline
+Polyline
+--------
+.. csv-table:: 
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
@@ -90,7 +103,9 @@ Line
    "Create Polyline from Existing Segments", |icon50| ,,"Create polyline from two or more existing seperate line or arc segments forming a continuous line."
 
 
-.. csv-table:: Select
+Select
+------
+.. csv-table:: 
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
@@ -106,7 +121,9 @@ Line
    "Invert Selection", |icon60| ,,"Select all un-selected entities will deselecting all selected entities."
 
 
-.. csv-table:: Dimension
+Dimension
+---------
+.. csv-table:: 
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
@@ -120,7 +137,9 @@ Line
    "Leader", |icon68| ,"ld","Draw a text leader by by selecting start (arrow location), intermediate and end points."
 
 
-.. csv-table:: Modify
+Modify
+------
+.. csv-table:: 
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
@@ -142,7 +161,9 @@ Line
    "Explode", |icon84| ,"xp","Separate one or more selected blocks into individual entities."
 
 
-.. csv-table:: Info
+Info
+----
+.. csv-table:: 
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
@@ -154,7 +175,9 @@ Line
    "Polygonal Area", |icon90| ,"ar, area","Provides area of polygon defined by three or more specified points."
 
 
-.. csv-table:: Misc
+Misc
+----
+.. csv-table:: 
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
