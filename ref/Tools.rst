@@ -72,7 +72,7 @@ Circle
 | Tool                            | icon | command | Description                                                       |
 +=================================+======+=============================================================================+
 | Centre, Point                   | icon | command | Draw a circle with a given radius by assigning a centre point and |
-|                                 |      |         | a point onthe circumference.                                      |
+|                                 |      |         | a point on the circumference.                                     |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 | Centre, Radius                  | icon | command | Draw a circle with a given radius centred at an assigned point.   |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
@@ -135,22 +135,24 @@ Ellipse
 .. table:: Ellipse Tools
     :widths: 12 10 12 66
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Tool                            | icon | command | Description                                                                 |
+| Tool                            | icon | command | Description                                                       |
 +=================================+======+=============================================================================+
-| Ellipse (Axis)                  | icon | command | Draw an ellipse by assigning a centre point, a point on the circumference of|
-|                                 |      |         |major access anda point on the circumference the minor access.              |
+| Ellipse (Axis)                  | icon | command | Draw an ellipse by assigning a centre point, a point on the       |
+|                                 |      |         | circumference of major access anda point on the circumference the |
+|                                 |      |         | minor access.                                                     |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Ellipse Arc (Axis)              | icon | command | N/A                                                                         |
+| Ellipse Arc (Axis)              | icon | command | N/A                                                               |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Ellipse Foci Point              | icon | command | Draw an ellipse by assigning two foci points and a point  on the            |
-|                                 |      |         |circumference.                                                              |
+| Ellipse Foci Point              | icon | command | Draw an ellipse by assigning two foci points and a point  on the  |
+|                                 |      |         | circumference.                                                    |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Ellipse 4 Point                 | icon | command | Draw an ellipse assigning four points on the circumference.                 |
+| Ellipse 4 Point                 | icon | command | Draw an ellipse assigning four points on the circumference.       |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Ellipse Center and 3 Points     | icon | command | Draw an ellipse by assigning a centre point three points on the             |
-|                                 |      |         |circumference.                                                              |
+| Ellipse Center and 3 Points     | icon | command | Draw an ellipse by assigning a centre point three points on the   |
+|                                 |      |         | circumference.                                                    |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
-| Ellipse Inscribed               | icon | command |  Draw a Ellipse constrained by four existing non-parallel line segments.    |
+| Ellipse Inscribed               | icon | command | Draw a Ellipse constrained by four existing non-parallel line     |
+|                                 |      |         | segments.                                                         |
 +---------------------------------+------+---------+-------------------------------------------------------------------+
 
 
