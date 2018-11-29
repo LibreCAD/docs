@@ -139,7 +139,7 @@ Help
 
 ..  Icon mapping:
 
-.. |icon00| image:: /images/icons/librecad.ico
+.. |icon00| image:: /images/icons/librecad.png
 .. |icon01| image:: /images/icons/new.svg
 .. |icon02| image:: /images/icons/new_from_template.svg
 .. |icon03| image:: /images/icons/open.svg
@@ -152,8 +152,8 @@ Help
 .. |icon10| image:: /images/icons/close.svg
 .. |icon11| image:: /images/icons/quit.svg
 .. |icon12| image:: /images/icons/
-.. |icon13| image:: /images/icons/
-.. |icon14| image:: /images/icons/
+.. |icon13| image:: /images/icons/configure.png
+.. |icon14| image:: /images/icons/contents.png
 .. |icon15| image:: /images/icons/
 .. |icon16| image:: /images/icons/
 .. |icon17| image:: /images/icons/
@@ -164,3 +164,14 @@ Help
 .. |icon22| image:: /images/icons/
 .. |icon23| image:: /images/icons/
 .. |icon24| image:: /images/icons/
+.. |icon15| image:: /images/icons/
+.. |icon26| image:: /images/icons/
+.. |icon27| image:: /images/icons/
+.. |icon28| image:: /images/icons/
+.. |icon29| image:: /images/icons/
+.. |icon30| image:: /images/icons/
+.. |icon31| image:: /images/icons/
+.. |icon32| image:: /images/icons/
+.. |icon33| image:: /images/icons/
+.. |icon34| image:: /images/icons/
+.. |icon35| image:: /images/icons/

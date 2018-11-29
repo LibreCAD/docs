@@ -194,6 +194,7 @@ Others
 
 ..  Icon mapping:
 
+.. |icon00| image:: /images/icons/librecad.ico
 .. |icon01| image:: /images/icons/line_2p.svg
 .. |icon02| image:: /images/icons/line_angle.svg
 .. |icon03| image:: /images/icons/line_horizontal.svg
