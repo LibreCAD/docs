@@ -5,9 +5,9 @@ Reference
 
 :ref:`coordinates`
 
+:ref:`placing-entities`
+
 :ref:`menu`
 
 :ref:`tools`
-
-:ref:`snaps`
 

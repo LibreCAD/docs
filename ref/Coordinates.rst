@@ -84,24 +84,28 @@ degrees (the 3 o'clock position). The < symbol is used before the angle - e.g.50
 
 Selection 030.png
 
+.. _placing-entities: 
 
+Placing Entities
+----------------
+
+Keyboard
+~~~~~~~~
 In LibreCAD lines, points, arcs, polylines, circles and many more entities can be drawn and placed in a drawing using 
 either *Absolute* or *Relative* coordinate input.
 
 To input coordinate value points in LibreCAD you can 'type' your values in the command line or inside a 'text input 
 box' (presented by tool options requiring distance,angle etc...).  This method is 100% accurate.
 
-Or
+Mouse
+~~~~~
 
 You can 'manually', move the mouse cursor around and visually pick a coordinate point, but obviously this method is 
 less accurate but may be acceptable for some 'rough' sketch or freehand work!
 
 
-
-.. _Snaps: 
-
 Snapping
-========
+~~~~~~~~
 
 .. csv-table:: 
    :header: "Menu Item", "Icon", "Short-cut", "Description"
