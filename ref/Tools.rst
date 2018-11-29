@@ -164,8 +164,6 @@ Modify
     "Explode Text into Letters", |icon86| ,,"Separate a string of text into individual character entities."
     "Explode", |icon87| ,"xp","Separate one or more selected blocks into individual entities."
     "Delete selected", |icon88| ,,"Delete one or more selected entities."
-..    "Delete", |iconNN| ,"er","Mark one or more entities to be deleted, press [Enter] to complete operation."
-..    "Delete Freehand", |iconNN| ,,"Delete segment within a polyline define by two points. (Use ''Snap on Entity'' to place points.)"
 
 
 Info
