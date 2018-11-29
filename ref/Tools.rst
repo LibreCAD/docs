@@ -16,12 +16,9 @@ Line
     "Angle", |icon02| ,,"Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle."
     "Horizontal", |icon03| ,,"Draw a horizontal line from an assigned point defining the start, middle or end of the line and with an assigned length."
     "Vertical", |icon04| ,"ver, vertical","Draw a vertical line from an assigned point defining the start, middle or end of the line and with an assigned length."
-..
-    "Freehand Line", |icon05| ,"fhl, free","Draw a non-geometric line."
-
-    "Parallel through point", |icon06| ,"pp, ptp","Draw a given number of lines parallel to a selected existing line through an assigned point."
-    "Parallel", |icon07| ,"o, pa, offset, parallel","Draw a given number of lines parallel to a selected existing line with a given distance between lines."
-    "Rectangle", |icon08| ,"rec, rect, rectangle","Draw a rectagle by assigning the points of two diagonally opposite corners. "
+    "Rectangle", |icon06| ,"rec, rect, rectangle","Draw a rectagle by assigning the points of two diagonally opposite corners. "
+    "Parallel through point", |icon07| ,"pp, ptp","Draw a given number of lines parallel to a selected existing line through an assigned point."
+    "Parallel", |icon08| ,"o, pa, offset, parallel","Draw a given number of lines parallel to a selected existing line with a given distance between lines."
     "Bisector", |icon09| ,"bi, bisect","Draw a given number of lines bisecting two existing non-parallel lines (e.g. at an angle to each other with or without a common point). "
     "Tangent (P,C)", |icon10| ,"tanpc, tangentpc","Draw a line from an assigned point tangent to an existing circle."
     "Tangent (C,C)", |icon11| ,,"Draw a line tangent to two existing circles."
@@ -40,17 +37,17 @@ Circle
    :widths: 40, 10, 20, 110
 
     "Centre, Point", |icon18| ,"ci, circle","Draw a circle with a given radius by assigning a centre point and a point on the circumference."
-    "Centre, Radius", |icon19| ,,"Draw a circle with a given radius centred at an assigned point on the circumference."
     "2 Points", |icon20| ,"c2, circle2","Draw a circle with a given diameter by assigning two opposite points on the circumference."
     "2 Points, Radius", |icon21| ,,"Draw a circle with two points on the circumference and with an assigned radius. "
     "3 Points", |icon22| ,"c3, circle3","Draw a circle assigning three points on the circumference."
-    "Concentric", |icon23| ,,"Draw a circle concentric, with the same centre point, to an existing circle."
-    "Circle Inscribed", |icon24| ,,"Draw a circle inside an existing polygon of four sides or more."
-    "Tangential 2 Circles, Radius", |icon25| ,,"Draw a circle tangential to two circles with a given radius."
+    "Centre, Radius", |icon19| ,,"Draw a circle with a given radius centred at an assigned point on the circumference."
     "Tangential, 2 Circles, 1 Point", |icon26| ,,"Draw a circle tangential to two existing circles and assigning a centre point to establish the radius."
     "Tangential, 2 Points", |icon27| ,,"Draw a circle tangential to an existing circle and define the diameter and placement by assigning two points on the circumference."
     "Tangential, 2 Circles, Radius", |icon28| ,,"Draw a circle tangential to two existing circles with a given radius."
     "Tangential, 3 Circles", |icon29| ,"ct3, tan3","Draw a circle tangential to three existing circles and/or lines."
+..
+    "Concentric", |icon23| ,,"Draw a circle concentric, with the same centre point, to an existing circle."
+    "Circle Inscribed", |icon24| ,,"Draw a circle inside an existing polygon of four sides or more."
 
 
 Curve
@@ -61,8 +58,13 @@ Curve
 
     "Center, Point, Angles", |icon30| ,,"Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc."
     "3 Points", |icon32| ,"a, ar, arc","Draw a curve (arc) by assigning three points on the circumference of the arc defining the start position, a point on the circumference and end position of the arc."
-    "Concentric", |icon33| ,,"Draw a curve (arc) concentric, with the same centre point, to an existing curve (arc) with a defined offset.(*)"
     "Arc Tangential", |icon34| ,,"Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg)."
+    "Spline", |icon41| ,"spl, spline","Draw an open or closed spline (curve) by assigning control points and a given degree of freedom (1 - 3)."
+    "Spline through points", |icon42| ,"stp, spline2","Draw an open or closed spline (curve) by defining points on the spline."
+    "Ellipse Arc (Axis)", |icon36| ,,"N/A"
+    "Freehand Line", |icon05| ,"fhl, free","Draw a non-geometric line."
+..
+    "Concentric", |icon33| ,,"Draw a curve (arc) concentric, with the same centre point, to an existing curve (arc) with a defined offset.(*)"
 
 
 Ellipse
@@ -72,21 +74,10 @@ Ellipse
    :widths: 40, 10, 20, 110
 
     "Ellipse (Axis)", |icon35| ,,"Draw an ellipse by assigning a centre point, a point on the circumference of major access and a point on the circumference the minor access."
-    "Ellipse Arc (Axis)", |icon36| ,,"N/A"
     "Ellipse Foci Point", |icon37| ,,"Draw an ellipse by assigning two foci points and a point  on the circumference."
     "Ellipse 4 Point", |icon38| ,,"Draw an ellipse assigning four points on the circumference."
     "Ellipse Center and 3 Points", |icon39| ,,"Draw an ellipse by assigning a centre point three points on the circumference."
     "Ellipse Inscribed", |icon40| ,," Draw a Ellipse constrained by four existing non-parallel line segments."
-
-
-Spline
-------
-.. csv-table:: 
-   :header: "Tool", "Icon", "Command", "Description"
-   :widths: 40, 10, 20, 110
-
-    "Spline", |icon41| ,"spl, spline","Draw an open or closed spline (curve) by assigning control points and a given degree of freedom (1 - 3)."
-    "Spline through points", |icon42| ,"stp, spline2","Draw an open or closed spline (curve) by defining points on the spline."
 
 
 Polyline
@@ -111,15 +102,15 @@ Select
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
+    "Deselect all", |icon59| ,"tn"," Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc] action)."
+    "Select All", |icon58| ,"sa","Select all entities on visible layers ([Ctrl]-[A])."
     "Select Entity", |icon51| ,,"Select, or deselect, one or more entities (default cursor action)."
+    "(De-)Select Contour", |icon54| ,,"Select or deselected entities connected by shared points."
     "Select Window", |icon52| ,,"Select one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L) (default cursor ""drag"" action)."
     "Deselect Window", |icon53| ,,"Deselect one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L)."
-    "(De-)Select Contour", |icon54| ,,"Select or deselected entities connected by shared points."
     "Select Intersected Entities", |icon55| ,,"Select on or more entities crossed by selection line."
     "Deselect Intersected Entities", |icon56| ,,"Deselect on or more entities crossed by selection line."
     "(De-)Select Layer", |icon57| ,,"Select or deselected all entities on the layer of the selected entity."
-    "Select All", |icon58| ,"sa","Select all entities on visible layers ([Ctrl]-[A])."
-    "Deselect all", |icon59| ,"tn"," Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc] action)."
     "Invert Selection", |icon60| ,,"Select all un-selected entities will deselecting all selected entities."
 
 
@@ -168,7 +159,6 @@ Modify
     "Delete selected", |icon88| , "[Del]","Delete one or more selected entities."
 .. 
     "Delete", |iconNN| ,"er","Mark one or more entities to be deleted, press [Enter] to complete operation."
-.. 
     "Delete Freehand", |iconNN| ,,"Delete segment within a polyline define by two points. (Use ''Snap on Entity'' to place points.)"
 
 
@@ -178,16 +168,17 @@ Info
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
-    "Point inside contour", |icon89| ,,"Provides indication of point being inside or outside of the selected ''closed'' contour (polygon, circle, ployline, etc)."
     "Distance Point to Point", |icon90| ,"dpp, dist","Provides distance, cartesian and polar coordinates between two specified points."
     "Distance Entity to Point", |icon91| ,,"Provides shortest distance selected entity and specified point."
     "Angle between two lines", |icon92| ,"ang, angle","Provides angle between two selected line segments, measured counter-clockwise."
     "Total length of selected entities", |icon93| ,,"Provides total length of one or more selected entities (length of line segment, circle circimference, etc)."
     "Polygonal Area", |icon94| ,"ar, area","Provides area of polygon defined by three or more specified points."
+..
+    "Point inside contour", |icon89| ,,"Provides indication of point being inside or outside of the selected ''closed'' contour (polygon, circle, ployline, etc)."
 
 
-Misc
-----
+Others
+------
 .. csv-table:: 
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
@@ -197,6 +188,9 @@ Misc
     "Hatch", |icon97| ,"ha, hatch","Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern or a solid fill.  Optionally define scale and angle."
     "Insert Image", |icon98| ,,"Insert an image, bitmapped or vector, at a specified point.  Optionally define angle, scale factor and DPI."
     "Points", |icon99| ,"po, point","Draw a point at the assigned coordinates."
+
+..  Icon mapping:
+
 
 .. |icon01| image:: /images/icons/line_2p.svg
 .. |icon02| image:: /images/icons/line_angle.svg
