@@ -1,6 +1,13 @@
 LibreCAD User Manual
 ====================
 
+.. figure:: /images/splash_librecad.png
+    :width: 800px
+    :align: center
+    :height: 800px
+    :alt: LibreCAD
+
+
 About
 -----
 
