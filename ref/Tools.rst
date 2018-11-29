@@ -143,22 +143,29 @@ Modify
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
-    "Attributes", |icon69| ,"ma, attr","Modify the common attributes of ''one or more'' selected entities, including Layer, Pen color, Pen width, and Pen Line type."
-    "Delete", |icon70| ,"er","Mark one or more entities to be deleted, press [Enter] to complete operation."
-    "Delete selected", |icon71| ,,"Delete one or more selected entities."
-    "Delete Freehand", |icon72| ,,"Delete segment within a polyline define by two points. (Use ''Snap on Entity'' to place points.)"
-    "Move / Copy", |icon73| ,"mv","Move a selected entity by defining a reference point and a relative target point. Optionally keep the original entity (Copy), create mulitple copies and / or alter attributes and layer."
-    "Revert direction", |icon74| ,,"Swap start and end points of one or more selected entities."
-    "Rotate", |icon75| ,"ro","Rotate a selected entity around a rotation point, moving the entity from a reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
-    "Scale", |icon76| ,"sz","Increase or decrease the size of a selected entity from a reference point by a defined factor for both axis.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer."
-    "Mirror", |icon77| ,"mi","Create a mirror image of a selected entity around an axis defined by two points.  Optionally keep the original entity and / or alter attributes and layer."
-    "Move and Rotate", |icon78| ,,"Move a selected entity by defining a reference point and a relative target point and rotataing the entity at a given angle.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer."
-    "Rotate Two", |icon79| ,,"Rotate a selected entity around an absolute rotation point, while rotating the entity around a relative reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
-    "Stretch", |icon80| ,"ss","Move a selected portion of a drawing by defining a reference point and a relative target point."
-    "Bevel", |icon81| ,"ch, fillet (bug)","Create a sloping edge between two intersecting line segments with defined by a setback on each segment."
-    "Fillet", |icon82| ,"fi, fillet","Create a rounded edge between two intersecting line segments with defined radius."
-    "Explode Text into Letters", |icon83| ,,"Separate a string of text into individual character entities."
-    "Explode", |icon84| ,"xp","Separate one or more selected blocks into individual entities."
+    "Order", "", "", ""
+    "Move / Copy", |icon69| ,"mv","Move a selected entity by defining a reference point and a relative target point. Optionally keep the original entity (Copy), create mulitple copies and / or alter attributes and layer."
+    "Rotate", |icon70| ,"ro","Rotate a selected entity around a rotation point, moving the entity from a reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
+    "Scale", |icon71| ,"sz","Increase or decrease the size of a selected entity from a reference point by a defined factor for both axis.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer."
+    "Mirror", |icon72| ,"mi","Create a mirror image of a selected entity around an axis defined by two points.  Optionally keep the original entity and / or alter attributes and layer."
+    "Move and Rotate", |icon73| ,,"Move a selected entity by defining a reference point and a relative target point and rotataing the entity at a given angle.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer."
+    "Rotate Two", |icon74| ,,"Rotate a selected entity around an absolute rotation point, while rotating the entity around a relative reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
+    "Revert direction", |icon75|,,"Swap start and end points of one or more selected entities."
+    "Trim",  |icon76|, "", ""
+    "Trim Two",  |icon77|, "", ""
+    "Lengthen",  |icon78|, "", ""
+    "Offset",  |icon79|, "", ""
+    "Bevel", |icon80| ,"ch, fillet (bug)","Create a sloping edge between two intersecting line segments with defined by a setback on each segment."
+    "Fillet", |icon81| ,"fi, fillet","Create a rounded edge between two intersecting line segments with defined radius."
+    "Divide",  |icon82|, "", ""
+    "Stretch", |icon83| ,"ss","Move a selected portion of a drawing by defining a reference point and a relative target point."
+    "Properties", |icon84| ,"","Modify the attributes of ''one or more'' selected entities, including Layer, Pen color, Pen width, and Pen Line type."
+    "Attributes", |icon85| ,"ma, attr","Modify the common attributes of ''one or more'' selected entities, including Layer, Pen color, Pen width, and Pen Line type."
+    "Explode Text into Letters", |icon86| ,,"Separate a string of text into individual character entities."
+    "Explode", |icon87| ,"xp","Separate one or more selected blocks into individual entities."
+    "Delete selected", |icon88| ,,"Delete one or more selected entities."
+..    "Delete", |iconNN| ,"er","Mark one or more entities to be deleted, press [Enter] to complete operation."
+..    "Delete Freehand", |iconNN| ,,"Delete segment within a polyline define by two points. (Use ''Snap on Entity'' to place points.)"
 
 
 Info
@@ -167,12 +174,12 @@ Info
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
-    "Point inside contour", |icon85| ,,"Provides indication of point being inside or outside of the selected ''closed'' contour (polygon, circle, ployline, etc)."
-    "Distance Point to Point", |icon86| ,"dpp, dist","Provides distance, cartesian and polar coordinates between two specified points."
-    "Distance Entity to Point", |icon87| ,,"Provides shortest distance selected entity and specified point."
-    "Angle between two lines", |icon88| ,"ang, angle","Provides angle between two selected line segments, measured counter-clockwise."
-    "Total length of selected entities", |icon89| ,,"Provides total length of one or more selected entities (length of line segment, circle circimference, etc)."
-    "Polygonal Area", |icon90| ,"ar, area","Provides area of polygon defined by three or more specified points."
+    "Point inside contour", |icon89| ,,"Provides indication of point being inside or outside of the selected ''closed'' contour (polygon, circle, ployline, etc)."
+    "Distance Point to Point", |icon90| ,"dpp, dist","Provides distance, cartesian and polar coordinates between two specified points."
+    "Distance Entity to Point", |icon91| ,,"Provides shortest distance selected entity and specified point."
+    "Angle between two lines", |icon92| ,"ang, angle","Provides angle between two selected line segments, measured counter-clockwise."
+    "Total length of selected entities", |icon93| ,,"Provides total length of one or more selected entities (length of line segment, circle circimference, etc)."
+    "Polygonal Area", |icon94| ,"ar, area","Provides area of polygon defined by three or more specified points."
 
 
 Misc
@@ -181,11 +188,11 @@ Misc
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
-    "MText", |icon91| ,"mtxt, mtext","Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set."
-    "Text", |icon92| ,"txt, text","Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set."
-    "Hatch", |icon93| ,"ha, hatch","Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern or a solid fill.  Optionally define scale and angle."
-    "Insert Image", |icon94| ,,"Insert an image, bitmapped or vector, at a specified point.  Optionally define angle, scale factor and DPI."
-    "Points", |icon95| ,"po, point","Draw a point at the assigned coordinates."
+    "MText", |icon95| ,"mtxt, mtext","Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set."
+    "Text", |icon96| ,"txt, text","Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set."
+    "Hatch", |icon97| ,"ha, hatch","Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern or a solid fill.  Optionally define scale and angle."
+    "Insert Image", |icon98| ,,"Insert an image, bitmapped or vector, at a specified point.  Optionally define angle, scale factor and DPI."
+    "Points", |icon99| ,"po, point","Draw a point at the assigned coordinates."
 
 .. |icon01| image:: /images/icons/line_2p.svg
 .. |icon02| image:: /images/icons/line_angle.svg
@@ -254,30 +261,30 @@ Misc
 .. |icon66| image:: /images/icons/dim_diametric.svg
 .. |icon67| image:: /images/icons/dim_angular.svg
 .. |icon68| image:: /images/icons/dim_leader.svg
-.. |icon69| image:: /images/icons/modifyattributes.png
-.. |icon70| image:: /images/icons/modifydelete.png
+.. |icon69| image:: /images/icons/
+.. |icon70| image:: /images/icons/
 .. |icon71| image:: /images/icons/
 .. |icon72| image:: /images/icons/
-.. |icon73| image:: /images/icons/modifymove.png
+.. |icon73| image:: /images/icons/
 .. |icon74| image:: /images/icons/
-.. |icon75| image:: /images/icons/modifyrotate.png
-.. |icon76| image:: /images/icons/modifyscale.png
-.. |icon77| image:: /images/icons/modifymirror.png
-.. |icon78| image:: /images/icons/modifymoverotate.png
-.. |icon79| image:: /images/icons/modifyrotate2.png
-.. |icon80| image:: /images/icons/modifystretch.png
-.. |icon81| image:: /images/icons/modifybevel.png
-.. |icon82| image:: /images/icons/modifyround.png
-.. |icon83| image:: /images/icons/modifyexplodetext.png
-.. |icon84| image:: /images/icons/modifyexplode.png
+.. |icon75| image:: /images/icons/
+.. |icon76| image:: /images/icons/
+.. |icon77| image:: /images/icons/
+.. |icon78| image:: /images/icons/
+.. |icon79| image:: /images/icons/
+.. |icon80| image:: /images/icons/
+.. |icon81| image:: /images/icons/
+.. |icon82| image:: /images/icons/
+.. |icon83| image:: /images/icons/
+.. |icon84| image:: /images/icons/
 .. |icon85| image:: /images/icons/
 .. |icon86| image:: /images/icons/
 .. |icon87| image:: /images/icons/
 .. |icon88| image:: /images/icons/
-.. |icon89| image:: /images/icons/total_length_selected_entities.svg
+.. |icon89| image:: /images/icons/
 .. |icon90| image:: /images/icons/
 .. |icon91| image:: /images/icons/
-.. |icon92| image:: /images/icons/text.svg
+.. |icon92| image:: /images/icons/
 .. |icon93| image:: /images/icons/
 .. |icon94| image:: /images/icons/
 .. |icon95| image:: /images/icons/
