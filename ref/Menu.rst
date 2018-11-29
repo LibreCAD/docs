@@ -12,10 +12,10 @@ File
    :widths: 40, 10, 20, 110
 
     "New", "icon ", "[Ctrl]-n", "Creates a new drawing file."
-    "New from Template", "icon", , "Creates a new drawing file from a template."
-    "Open", "icon", "[Ctrl]-o", ""
-    "Save", "icon", "[Ctrl]-s", ""
-    "Save as", "icon", "[Ctrl] [Shift]-q ", ""
+    "New from Template", "icon", "", "Creates a new drawing file from a template."
+    "Open", "icon", "[Ctrl]-o", " Open existing drawing file."
+    "Save", "icon", "[Ctrl]-s", "Save current drawing file."
+    "Save as", "icon", "[Ctrl] [Shift]-q ", "Save current drawing file. to a new file or location."
     "Import", "icon", "", ""
     "Export", "icon", "", ""
     "Print", "icon", "[Ctrl]-p  ", ""
@@ -43,7 +43,7 @@ View
     "Fullscreen", "icon", "[F11]", "Toggles LibreCAD to use the entire screen."
     "Statusbar", "icon", "[Ctrl]-i", "Toggles status bar on the bottom of the window off or on."
     "Grid", "icon", "[Ctrl]-g", ""
-    "Draft", "icon", "[Ctrl]-d", "Toggles to or from "Draft Mode"."
+    "Draft", "icon", "[Ctrl]-d", "Toggles to or from 'Draft Mode'."
     "Redraw", "icon", "[Ctrl]-r", ""
     "**Zoom:**",,,
     "Zoom In", "icon", "", ""
