@@ -146,7 +146,7 @@ Modify
     "Attributes", |icon69| ,"ma, attr","Modify the common attributes of ''one or more'' selected entities, including Layer, Pen color, Pen width, and Pen Line type."
     "Delete", |icon70| ,"er","Mark one or more entities to be deleted, press [Enter] to complete operation."
     "Delete selected", |icon71| ,,"Delete one or more selected entities."
-    "Delete Freehand", |icon72| ,,"Delete segment within a polyline define by two points. (Use ""Snap on Entity"" to place points.)"
+    "Delete Freehand", |icon72| ,,"Delete segment within a polyline define by two points. (Use ''Snap on Entity'' to place points.)"
     "Move / Copy", |icon73| ,"mv","Move a selected entity by defining a reference point and a relative target point. Optionally keep the original entity (Copy), create mulitple copies and / or alter attributes and layer."
     "Revert direction", |icon74| ,,"Swap start and end points of one or more selected entities."
     "Rotate", |icon75| ,"ro","Rotate a selected entity around a rotation point, moving the entity from a reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
