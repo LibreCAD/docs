@@ -186,20 +186,22 @@ Others
     "MText", |icon95| ,"mtxt, mtext","Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set."
     "Text", |icon96| ,"txt, text","Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set."
     "Hatch", |icon97| ,"ha, hatch","Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern or a solid fill.  Optionally define scale and angle."
-    "Insert Image", |icon98| ,,"Insert an image, bitmapped or vector, at a specified point.  Optionally define angle, scale factor and DPI."
     "Points", |icon99| ,"po, point","Draw a point at the assigned coordinates."
 
-..  Icon mapping:
+..
+    "Insert Image", |icon98| ,,"Insert an image, bitmapped or vector, at a specified point.  Optionally define angle, scale factor and DPI."
 
+
+..  Icon mapping:
 
 .. |icon01| image:: /images/icons/line_2p.svg
 .. |icon02| image:: /images/icons/line_angle.svg
 .. |icon03| image:: /images/icons/line_horizontal.svg
 .. |icon04| image:: /images/icons/line_vertical.svg
 .. |icon05| image:: /images/icons/line_freehand.svg
-.. |icon06| image:: /images/icons/line_parallel_p.svg
-.. |icon07| image:: /images/icons/line_parallel.svg
-.. |icon08| image:: /images/icons/line_rectangle.svg
+.. |icon06| image:: /images/icons/line_rectangle.svg
+.. |icon07| image:: /images/icons/line_parallel_p.svg
+.. |icon08| image:: /images/icons/line_parallel.svg
 .. |icon09| image:: /images/icons/line_bisector.svg
 .. |icon10| image:: /images/icons/line_tangent_pc.svg
 .. |icon11| image:: /images/icons/line_tangent_cc.svg
@@ -214,8 +216,8 @@ Others
 .. |icon20| image:: /images/icons/circle_2_points.svg
 .. |icon21| image:: /images/icons/circle_2_points_radius.svg
 .. |icon22| image:: /images/icons/circle_3_points.svg
-.. |icon23| image:: /images/icons/circle_concentric.svg
-.. |icon24| image:: /images/icons/circle_inscribed.svg
+.. |icon23| image:: /images/icons/
+.. |icon24| image:: /images/icons/
 .. |icon25| image:: /images/icons/circle_tangential_2circles_radius.svg
 .. |icon26| image:: /images/icons/circle_tangential_2circles_point.svg
 .. |icon27| image:: /images/icons/circle_tangential_2points.svg
@@ -223,7 +225,7 @@ Others
 .. |icon29| image:: /images/icons/circle_tangential_2circles_radius.svg
 .. |icon30| image:: /images/icons/arc_center_point_angle.svg
 .. |icon32| image:: /images/icons/arc_3_points.svg
-.. |icon33| image:: /images/icons/arc_concentric.svg
+.. |icon33| image:: /images/icons/
 .. |icon34| image:: /images/icons/arcstangential.png
 .. |icon35| image:: /images/icons/ellipse_axis.svg
 .. |icon36| image:: /images/icons/ellipse_arc_axis.svg
@@ -280,10 +282,13 @@ Others
 .. |icon87| image:: /images/icons/explode.svg
 .. |icon88| image:: /images/icons/delete.svg
 .. |icon89| image:: /images/icons/
-.. |icon90| image:: /images/icons/
-.. |icon91| image:: /images/icons/
-.. |icon92| image:: /images/icons/
-.. |icon93| image:: /images/icons/
-.. |icon94| image:: /images/icons/
+.. |icon90| image:: /images/icons/distance_point_to_point.svg
+.. |icon91| image:: /images/icons/distance_point_to_point.svg
+.. |icon92| image:: /images/icons/angle_line_to_line.svg
+.. |icon93| image:: /images/icons/total_length_selected_entities.svg
+.. |icon94| image:: /images/icons/polygonal_area.svg
 .. |icon95| image:: /images/icons/
-
+.. |icon96| image:: /images/icons/text.svg
+.. |icon97| image:: /images/icons/hatch.svg
+.. |icon98| image:: /images/icons/
+.. |icon99| image:: /images/icons/points.svg
