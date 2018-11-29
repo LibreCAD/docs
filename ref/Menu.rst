@@ -79,6 +79,21 @@ View
 Plugins
 -------
 
+.. csv-table:: 
+   :header: "Menu Item", "Icon", "Short-cut", "Description"
+   :widths: 40, 10, 20, 110
+
+    "Align", , "", ""
+    "Read ascii points", , "", ""
+    "Divide", , "", ""
+    "Gear plugin", , "", ""
+    "ESRI Shapefile", , "", ""
+    "List entities", , "", ""
+    "Read PIC file", , "", ""
+    "Plot plugin", , "", ""
+    "Same properties", , "", ""
+    "Sample plugin", , "", ""
+
 
 Tools
 -----
@@ -88,17 +103,43 @@ See :ref:`tools` for a description of the drawing tools.
 Widgets
 -------
 
+.. csv-table:: 
+   :header: "Menu Item", "Icon", "Short-cut", "Description"
+   :widths: 40, 10, 20, 110
+
+    "", , "", ""
+    "", , "", ""
+    "", , "", ""
+    "", |icon00|, "", ""
+    "", |icon00|, "", ""
+
 
 Drawings
 --------
+
+.. csv-table:: 
+   :header: "Menu Item", "Icon", "Short-cut", "Description"
+   :widths: 40, 10, 20, 110
+
+        "", |icon00|, "", ""
+        "", |icon00|, "", ""
 
 
 Help
 ----
 
+.. csv-table:: 
+   :header: "Menu Item", "Icon", "Short-cut", "Description"
+   :widths: 40, 10, 20, 110
+
+        "Online", , "", ""
+        "About", |icon00|, "", ""
+        "License", , "", ""
+
 
 ..  Icon mapping:
 
+.. |icon00| image:: /images/icons/librecad.ico
 .. |icon01| image:: /images/icons/new.svg
 .. |icon02| image:: /images/icons/new_from_template.svg
 .. |icon03| image:: /images/icons/open.svg
