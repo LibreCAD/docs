@@ -12,10 +12,10 @@ File
    :widths: 40, 10, 20, 110
 
     "New", "icon ", "[Ctrl]-n", "Creates a new drawing file."
-    "New from Template", "icon", "Creates a new drawing file from a template."
+    "New from Template", "icon", , "Creates a new drawing file from a template."
     "Open", "icon", "[Ctrl]-o", ""
     "Save", "icon", "[Ctrl]-s", ""
-    "Save as", "icon", "[Ctrl] [Shift]-q ", "", ""
+    "Save as", "icon", "[Ctrl] [Shift]-q ", ""
     "Import", "icon", "", ""
     "Export", "icon", "", ""
     "Print", "icon", "[Ctrl]-p  ", ""
