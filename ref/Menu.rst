@@ -62,8 +62,8 @@ View
    :header: "Menu Item", "Icon", "Short-cut", "Description"
    :widths: 40, 10, 20, 110
 
-    "Fullscreen", |icon25|, "[F11]", "Toggles LibreCAD to use the entire screen."
-    "Statusbar", |icon26|, "[Ctrl]-i", "Toggles status bar on the bottom of the window off or on."
+    "Fullscreen", , "[F11]", "Toggles LibreCAD to use the entire screen."
+    "Statusbar", , "[Ctrl]-i", "Toggles status bar on the bottom of the window off or on."
     "Grid", |icon27|, "[Ctrl]-g", ""
     "Draft", |icon28|, "[Ctrl]-d", "Toggles to or from ''Draft Mode''."
     "Redraw", |icon29|, "[Ctrl]-r", ""
@@ -152,26 +152,26 @@ Help
 .. |icon10| image:: /images/icons/close.svg
 .. |icon11| image:: /images/icons/quit.svg
 .. |icon12| image:: /images/icons/
-.. |icon13| image:: /images/icons/configure.png
-.. |icon14| image:: /images/icons/contents.png
+.. |icon13| image:: /images/icons/settings.svg
+.. |icon14| image:: /images/icons/drawing_settings.svg
 .. |icon15| image:: /images/icons/
 .. |icon16| image:: /images/icons/
 .. |icon17| image:: /images/icons/
-.. |icon18| image:: /images/icons/
-.. |icon19| image:: /images/icons/
-.. |icon20| image:: /images/icons/
-.. |icon21| image:: /images/icons/
-.. |icon22| image:: /images/icons/
-.. |icon23| image:: /images/icons/
-.. |icon24| image:: /images/icons/
-.. |icon15| image:: /images/icons/
+.. |icon18| image:: /images/icons/cursor.svg
+.. |icon19| image:: /images/icons/undo.svg
+.. |icon20| image:: /images/icons/redo.svg
+.. |icon21| image:: /images/icons/cut.svg
+.. |icon22| image:: /images/icons/copy.svg
+.. |icon23| image:: /images/icons/paste.svg
+.. |icon24| image:: /images/icons/delete.svg
+.. |icon25| image:: /images/icons/
 .. |icon26| image:: /images/icons/
-.. |icon27| image:: /images/icons/
-.. |icon28| image:: /images/icons/
-.. |icon29| image:: /images/icons/
-.. |icon30| image:: /images/icons/
-.. |icon31| image:: /images/icons/
-.. |icon32| image:: /images/icons/
-.. |icon33| image:: /images/icons/
-.. |icon34| image:: /images/icons/
-.. |icon35| image:: /images/icons/
+.. |icon27| image:: /images/icons/grid.svg
+.. |icon28| image:: /images/icons/draft.svg
+.. |icon29| image:: /images/icons/redraw.svg
+.. |icon30| image:: /images/icons/zoom_in.svg
+.. |icon31| image:: /images/icons/zoom_out.svg
+.. |icon32| image:: /images/icons/zoom_auto.svg
+.. |icon33| image:: /images/icons/zoom_previous.svg
+.. |icon34| image:: /images/icons/zoom_window.svg
+.. |icon35| image:: /images/icons/zoom_pan.svg
