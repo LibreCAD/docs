@@ -144,7 +144,7 @@ Modify
    :widths: 40, 10, 20, 110
 
     "Attributes", |icon69| ,"ma, attr","Modify the common attributes of ''one or more'' selected entities, including Layer, Pen color, Pen width, and Pen Line type."
-    "Delete", |icon70| ,"er"," Mark one or more entities to be deleted, press [Enter] to complete operation."
+    "Delete", |icon70| ,"er","Mark one or more entities to be deleted, press [Enter] to complete operation."
     "Delete selected", |icon71| ,,"Delete one or more selected entities."
     "Delete Freehand", |icon72| ,,"Delete segment within a polyline define by two points. (Use ""Snap on Entity"" to place points.)"
     "Move / Copy", |icon73| ,"mv","Move a selected entity by defining a reference point and a relative target point. Optionally keep the original entity (Copy), create mulitple copies and / or alter attributes and layer."
