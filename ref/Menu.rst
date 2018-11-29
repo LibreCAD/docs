@@ -13,7 +13,7 @@ File
 
     "New", "icon ", "[Ctrl]-n", "Creates a new drawing file."
     "New from Template", "icon", "", "Creates a new drawing file from a template."
-    "Open", "icon", "[Ctrl]-o", " Open existing drawing file."
+    "Open", "icon", "[Ctrl]-o", "Open existing drawing file."
     "Save", "icon", "[Ctrl]-s", "Save current drawing file."
     "Save as", "icon", "[Ctrl] [Shift]-q ", "Save current drawing file. to a new file or location."
     "Import", "icon", "", ""
@@ -22,7 +22,7 @@ File
     "Print Preview", "icon", "", ""
     "Close", "icon", "[Ctrl]-w", ""
     "Quit", "icon", "[Ctrl]-q", "Close the application."
-    "Recent Files", "icon", "", ""
+    "Recent Files", "icon", "", "Open existing drawing file from a list of previously opened drawing files."
 
 
 Options
