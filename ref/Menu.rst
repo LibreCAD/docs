@@ -45,7 +45,6 @@ View
     "Grid", "icon", "[Ctrl]-g", ""
     "Draft", "icon", "[Ctrl]-d", "Toggles to or from 'Draft Mode'."
     "Redraw", "icon", "[Ctrl]-r", ""
-    "**Zoom:**",,,
     "Zoom In", "icon", "", ""
     "Zoom Out", "icon", "", ""
     "Auto Zoom", "icon", "", ""
