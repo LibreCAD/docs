@@ -4,10 +4,10 @@
 GNU General Public License version 2 (GPLv2)
 ============================================
 
-.. class:: center
+::
 
-GNU GENERAL PUBLIC LICENSE
-Version 2, June 1991
+                   GNU GENERAL PUBLIC LICENSE
+                      Version 2, June 1991
 
  Copyright (C) 1989, 1991 Free Software Foundation, Inc.,
  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
