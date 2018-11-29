@@ -6,9 +6,9 @@ About
 -----
 
 .. figure:: /images/splash_librecad.png
-    :width: 800px
+    :width: 544px
     :align: center
-    :height: 800px
+    :height: 338px
     :alt: LibreCAD
 
 LibreCAD is a 2D CAD drawing tool based on the community edition of QCAD. LibreCAD uses the cross-platform framework Qt, which means it works with most operating systems. The user interface is translated in over 30 languages.
