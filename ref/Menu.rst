@@ -24,7 +24,7 @@ File
     "Print Preview", |icon09|, "", ""
     "Close", |icon10|, "[Ctrl]-w", ""
     "Quit", |icon11|, "[Ctrl]-q", "Close the application."
-    "Recent Files", |icon12|, "", "Open existing drawing file from a list of previously opened drawing files."
+    "Recent Files", , "", "Open existing drawing file from a list of previously opened drawing files."
 
 
 Options
@@ -35,9 +35,9 @@ Options
 
     "Application Preferences", |icon13|, "", ""
     "Current Drawing Preferences", |icon14|, "", ""
-    "Widget Options", |icon15|, "", ""
-    "Device Options", |icon16|, "", ""
-    "Reload Style Sheet", |icon17|, "", ""
+    "Widget Options", , "", ""
+    "Device Options", , "", ""
+    "Reload Style Sheet", , "[Ctrl]-t", ""
  
 
 Edit
