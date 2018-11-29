@@ -15,7 +15,7 @@ LibreCAD is a 2D CAD drawing tool based on the community edition of QCAD. LibreC
 
 LibreCAD is free software; you can redistribute it and/or modify it under the terms of the see :ref:`gpl-license` GNU General Public License version 2 (GPLv2) as published by the Free Software Foundation.
 
-The latest information about LibreCAD can be found at http://librecad.org
+The latest information about LibreCAD can be found at `librecad.org <http://librecad.org>`_.
 
 
 **NOTE:**
