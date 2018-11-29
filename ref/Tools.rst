@@ -16,7 +16,9 @@ Line
     "Angle", |icon02| ,,"Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle."
     "Horizontal", |icon03| ,,"Draw a horizontal line from an assigned point defining the start, middle or end of the line and with an assigned length."
     "Vertical", |icon04| ,"ver, vertical","Draw a vertical line from an assigned point defining the start, middle or end of the line and with an assigned length."
+..
     "Freehand Line", |icon05| ,"fhl, free","Draw a non-geometric line."
+
     "Parallel through point", |icon06| ,"pp, ptp","Draw a given number of lines parallel to a selected existing line through an assigned point."
     "Parallel", |icon07| ,"o, pa, offset, parallel","Draw a given number of lines parallel to a selected existing line with a given distance between lines."
     "Rectangle", |icon08| ,"rec, rect, rectangle","Draw a rectagle by assigning the points of two diagonally opposite corners. "
@@ -150,20 +152,24 @@ Modify
     "Mirror", |icon72| ,"mi","Create a mirror image of a selected entity around an axis defined by two points.  Optionally keep the original entity and / or alter attributes and layer."
     "Move and Rotate", |icon73| ,,"Move a selected entity by defining a reference point and a relative target point and rotataing the entity at a given angle.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer."
     "Rotate Two", |icon74| ,,"Rotate a selected entity around an absolute rotation point, while rotating the entity around a relative reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
-    "Revert direction", |icon75|,,"Swap start and end points of one or more selected entities."
-    "Trim",  |icon76|, "", ""
-    "Trim Two",  |icon77|, "", ""
-    "Lengthen",  |icon78|, "", ""
-    "Offset",  |icon79|, "", ""
+    "Revert direction", |icon75| ,,"Swap start and end points of one or more selected entities."
+    "Trim",  |icon76| , "", ""
+    "Trim Two",  |icon77| , "", ""
+    "Lengthen",  |icon78| , "", ""
+    "Offset",  |icon79| , "", ""
     "Bevel", |icon80| ,"ch, fillet (bug)","Create a sloping edge between two intersecting line segments with defined by a setback on each segment."
     "Fillet", |icon81| ,"fi, fillet","Create a rounded edge between two intersecting line segments with defined radius."
-    "Divide",  |icon82|, "", ""
+    "Divide",  |icon82| , "", ""
     "Stretch", |icon83| ,"ss","Move a selected portion of a drawing by defining a reference point and a relative target point."
     "Properties", |icon84| ,"","Modify the attributes of ''one or more'' selected entities, including Layer, Pen color, Pen width, and Pen Line type."
     "Attributes", |icon85| ,"ma, attr","Modify the common attributes of ''one or more'' selected entities, including Layer, Pen color, Pen width, and Pen Line type."
     "Explode Text into Letters", |icon86| ,,"Separate a string of text into individual character entities."
     "Explode", |icon87| ,"xp","Separate one or more selected blocks into individual entities."
-    "Delete selected", |icon88| ,,"Delete one or more selected entities."
+    "Delete selected", |icon88| , "[Del]","Delete one or more selected entities."
+.. 
+    "Delete", |iconNN| ,"er","Mark one or more entities to be deleted, press [Enter] to complete operation."
+.. 
+    "Delete Freehand", |iconNN| ,,"Delete segment within a polyline define by two points. (Use ''Snap on Entity'' to place points.)"
 
 
 Info
