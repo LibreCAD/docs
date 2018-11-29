@@ -29,10 +29,30 @@ File
 
 Options
 -------
+.. csv-table:: 
+   :header: "Menu Item", "Icon", "Short-cut", "Description"
+   :widths: 40, 10, 20, 110
 
+    "Application Preferences", |icon13|, "", ""
+    "Current Drawing Preferences", |icon14|, "", ""
+    "Widget Options", |icon15|, "", ""
+    "Device Options", |icon16|, "", ""
+    "Reload Style Sheet", |icon17|, "", ""
+ 
 
 Edit
 ----
+.. csv-table:: 
+   :header: "Menu Item", "Icon", "Short-cut", "Description"
+   :widths: 40, 10, 20, 110
+
+    "Selection Pointer", |icon18|, "", ""
+    "Undo", |icon19|, "[Ctrl]-z", ""
+    "Redo", |icon20|, "[Ctrl]-[Shift]-z", ""
+    "Cut", |icon21|, "[Ctrl]-x", "."
+    "Copy", |icon22|, "[Ctrl]-c", "."
+    "Paste", |icon23|, "[Ctrl]-v", "."
+    "Delete Selected", |icon24|, "[Del]", "."
 
 
 View
@@ -42,17 +62,17 @@ View
    :header: "Menu Item", "Icon", "Short-cut", "Description"
    :widths: 40, 10, 20, 110
 
-    "Fullscreen", |icon13|, "[F11]", "Toggles LibreCAD to use the entire screen."
-    "Statusbar", |icon14|, "[Ctrl]-i", "Toggles status bar on the bottom of the window off or on."
-    "Grid", |icon15|, "[Ctrl]-g", ""
-    "Draft", |icon16|, "[Ctrl]-d", "Toggles to or from 'Draft Mode'."
-    "Redraw", |icon17|, "[Ctrl]-r", ""
-    "Zoom In", |icon18|, "", ""
-    "Zoom Out", |icon19|, "", ""
-    "Auto Zoom", |icon20|, "", ""
-    "Previous View", |icon21|, "", ""
-    "Window Zoom", |icon22|, "", ""
-    "Zoom Panning", |icon23|, "", ""
+    "Fullscreen", |icon25|, "[F11]", "Toggles LibreCAD to use the entire screen."
+    "Statusbar", |icon26|, "[Ctrl]-i", "Toggles status bar on the bottom of the window off or on."
+    "Grid", |icon27|, "[Ctrl]-g", ""
+    "Draft", |icon28|, "[Ctrl]-d", "Toggles to or from ''Draft Mode''."
+    "Redraw", |icon29|, "[Ctrl]-r", ""
+    "Zoom In", |icon30|, "", ""
+    "Zoom Out", |icon31|, "", ""
+    "Auto Zoom", |icon32|, "", ""
+    "Previous View", |icon33|, "", ""
+    "Window Zoom", |icon34|, "", ""
+    "Zoom Panning", |icon35|, "", ""
 
 
 
