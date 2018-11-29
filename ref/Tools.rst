@@ -3,7 +3,7 @@
 Drawing Tools
 =============
 
-The drawing tools are used to create and modify entities such as lines, circles, etc in a drawing... yada, yada, yada
+The drawing tools are used to create and modify entities such as lines, circles, etc. in a drawing.  Command can be selected from the menu, toolbars or entered via the command line.
 
 
 Line
@@ -144,9 +144,9 @@ Modify
     "Move and Rotate", |icon73| ,,"Move a selected entity by defining a reference point and a relative target point and rotataing the entity at a given angle.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer."
     "Rotate Two", |icon74| ,,"Rotate a selected entity around an absolute rotation point, while rotating the entity around a relative reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
     "Revert direction", |icon75| ,,"Swap start and end points of one or more selected entities."
-    "Trim",  |icon76| , "", "Cut a line entity to a <?>"
-    "Trim Two",  |icon77| , "", ""
-    "Lengthen",  |icon78| , "", ""
+    "Trim",  |icon76| , "", "Cut the length of a line entity to an intersecting line entity."
+    "Trim Two",  |icon77| , "", "Cut the lengthes of two intersecting lines to the point of intersection."
+    "Lengthen",  |icon78| , "", "Extend the length of a line entity to an intersecting line entity."
     "Offset",  |icon79| , "", "Copy a selected entity to a defined distance in the specified direction."
     "Bevel", |icon80| ,"ch, fillet (bug)","Create a sloping edge between two intersecting line segments with defined by a setback on each segment."
     "Fillet", |icon81| ,"fi, fillet","Create a rounded edge between two intersecting line segments with defined radius."
@@ -183,7 +183,7 @@ Others
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
-    "MText", |icon95| ,"mtxt, mtext","Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set."
+    "MText", |icon96| ,"mtxt, mtext","Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set."
     "Text", |icon96| ,"txt, text","Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set."
     "Hatch", |icon97| ,"ha, hatch","Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern or a solid fill.  Optionally define scale and angle."
     "Points", |icon99| ,"po, point","Draw a point at the assigned coordinates."
@@ -205,8 +205,8 @@ Others
 .. |icon09| image:: /images/icons/line_bisector.svg
 .. |icon10| image:: /images/icons/line_tangent_pc.svg
 .. |icon11| image:: /images/icons/line_tangent_cc.svg
-.. |icon12| image:: /images/icons/linesorthtan.png
-.. |icon13| image:: /images/icons/linesorthogonal.png
+.. |icon12| image:: /images/icons/line_tangent_perpendicular.svg
+.. |icon13| image:: /images/icons/line_perpendicular.svg
 .. |icon14| image:: /images/icons/line_relative_angle.svg
 .. |icon15| image:: /images/icons/line_polygon_cen_cor.svg
 .. |icon16| image:: /images/icons/line_polygon_cen_tan.svg
@@ -226,7 +226,7 @@ Others
 .. |icon30| image:: /images/icons/arc_center_point_angle.svg
 .. |icon32| image:: /images/icons/arc_3_points.svg
 .. |icon33| image:: /images/icons/
-.. |icon34| image:: /images/icons/arcstangential.png
+.. |icon34| image:: /images/icons/arc_continuation.svg
 .. |icon35| image:: /images/icons/ellipse_axis.svg
 .. |icon36| image:: /images/icons/ellipse_arc_axis.svg
 .. |icon37| image:: /images/icons/ellipse_foci_point.svg
