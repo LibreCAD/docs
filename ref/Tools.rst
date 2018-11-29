@@ -274,10 +274,10 @@ Misc
 .. |icon86| image:: /images/icons/
 .. |icon87| image:: /images/icons/
 .. |icon88| image:: /images/icons/
-.. |icon89| image:: /images/icons/
+.. |icon89| image:: /images/icons/total_length_selected_entities.svg
 .. |icon90| image:: /images/icons/
 .. |icon91| image:: /images/icons/
-.. |icon92| image:: /images/icons/
+.. |icon92| image:: /images/icons/text.svg
 .. |icon93| image:: /images/icons/
 .. |icon94| image:: /images/icons/
 .. |icon95| image:: /images/icons/
