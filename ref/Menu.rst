@@ -6,6 +6,7 @@ Main Menu
 
 File
 ----
+
 .. csv-table:: 
    :header: "Menu Item ", "Icon", "Short-cut", "Description"
    :widths: 40, 10, 20, 110
@@ -34,6 +35,7 @@ Edit
 
 View
 ----
+
 .. csv-table:: 
    :header: "Menu Item ", "Icon", "Short-cut", "Description"
    :widths: 40, 10, 20, 110
