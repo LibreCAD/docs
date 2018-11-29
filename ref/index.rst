@@ -9,3 +9,5 @@ Reference
 
 :ref:`tools`
 
+:ref:`snaps`
+

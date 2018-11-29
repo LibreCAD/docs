@@ -95,3 +95,32 @@ Or
 
 You can 'manually', move the mouse cursor around and visually pick a coordinate point, but obviously this method is 
 less accurate but may be acceptable for some 'rough' sketch or freehand work!
+
+
+
+.. _Snaps: 
+
+Snapping
+========
+
+.. csv-table:: 
+   :header: "Menu Item", "Icon", "Short-cut", "Description"
+   :widths: 40, 10, 20, 110
+
+    "New", "icon ", "[Ctrl]-n", "Creates a new drawing file."
+    "New from Template", "icon", "", "Creates a new drawing file from a template."
+    "Open", "icon", "[Ctrl]-o", "Open existing drawing file."
+    "Save", "icon", "[Ctrl]-s", "Save current drawing file."
+    "Save as", "icon", "[Ctrl] [Shift]-q ", "Save current drawing file. to a new file or location."
+    "Import", "icon", "", ""
+    "Export", "icon", "", ""
+    "Print", "icon", "[Ctrl]-p  ", ""
+    "Print Preview", "icon", "", ""
+    "Close", "icon", "[Ctrl]-w", ""
+    "Quit", "icon", "[Ctrl]-q", "Close the application."
+    "Recent Files", "icon", "", "Open existing drawing file from a list of previously opened drawing files."
+
+
+Options
+-------
+
