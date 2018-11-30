@@ -1,7 +1,7 @@
 .. _menu: 
 
-Menubar
-=======
+Main Menu
+=========
 
 Manu of LibreCAD's commands are accesable through the menu bar.  Each drop down menu provides access commands, configurations and yada, yada, yada, 
 
