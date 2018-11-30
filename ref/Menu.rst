@@ -121,8 +121,8 @@ Drawings
    :header: "Menu Item", "Icon", "Short-cut", "Description"
    :widths: 40, 10, 20, 110
 
-        "Tab mode", , "", ""
-        "*Currently opened drawings*", , "", ""
+        "Tab mode", , "", "Toggles LibreCAD to a tabbed drawing space.  Each open drawing is on its own tabbed drawing window when the tabbed mode is active (checked)."
+        "*Currently opened drawings*", , "", "List the current open drawing(s).  The item with the checked box is the active drawing."
 
 
 Help
