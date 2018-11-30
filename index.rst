@@ -34,7 +34,7 @@ Contents
    Overview<intro/overview.rst>
    Reference<ref/index.rst>
    User Guides<guides/index.rst>
-   Appendices<appx/Fonts.rst>
+   Appendices<appx/index.rst>
 ..
    Appendices<appx/index.rst>
 
