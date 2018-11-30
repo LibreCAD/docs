@@ -107,11 +107,11 @@ Widgets
    :header: "Menu Item", "Icon", "Short-cut", "Description"
    :widths: 40, 10, 20, 110
 
-    "", , "", ""
-    "", , "", ""
-    "", , "", ""
-    "", |icon00|, "", ""
-    "", |icon00|, "", ""
+    "Dock Areas", , "", ""
+    "Dock Widgets", , "", ""
+    "Toolbars", , "", ""
+    "Menu Creator", |icon00|, "", ""
+    "Toolbar Creator", |icon00|, "", ""
 
 
 Drawings
@@ -121,8 +121,8 @@ Drawings
    :header: "Menu Item", "Icon", "Short-cut", "Description"
    :widths: 40, 10, 20, 110
 
-        "", |icon00|, "", ""
-        "", |icon00|, "", ""
+        "Tab mode", , "", ""
+        "*Currently opened drawings*", , "", ""
 
 
 Help
@@ -132,9 +132,9 @@ Help
    :header: "Menu Item", "Icon", "Short-cut", "Description"
    :widths: 40, 10, 20, 110
 
-        "Online", , "", ""
-        "About", |icon00|, "", ""
-        "License", , "", ""
+        "Online", , "", "Displays links to online resources; Wiki, User's Manual, Command, Style Sheets, Widgets, Forum and Release Information."
+        "About", |icon00|, "", "Displays with information about the current version of LibreCAD and web links: to the ''Contibutors'', License and ''The Code'' repository."
+        "License", , "", "Displays the license text (GNU General Public License version 2)."
 
 
 ..  Icon mapping:
