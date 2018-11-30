@@ -1,13 +1,15 @@
 .. _about:
 
-About
-=====
+
+.. stuff
 
 
 .. _gpl-license: 
-
 
 GNU General Public License version 2 (GPLv2)
 --------------------------------------------
 .. include:: license.txt
 
+
+Overview
+--------
