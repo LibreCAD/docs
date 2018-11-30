@@ -1,5 +1,7 @@
-.. _installation-instructions: 
+.. _install: 
 
+Installation Instructions
+-------------------------
 
 Windows
 ~~~~~~~
