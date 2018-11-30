@@ -30,7 +30,7 @@ Contents
    :maxdepth: 3
     
    Introduction<intro/About.rst>
-   overview
+   Overview<intro/overview.rst>
    Reference<ref/index.rst>
    User Guides<guides/index.rst>
    Appendices<appx/index.rst>
