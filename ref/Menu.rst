@@ -110,8 +110,8 @@ Widgets
     "Dock Areas", , "", ""
     "Dock Widgets", , "", ""
     "Toolbars", , "", ""
-    "Menu Creator", |icon00|, "", ""
-    "Toolbar Creator", |icon00|, "", ""
+    "Menu Creator", |icon36|, "", ""
+    "Toolbar Creator", |icon37|, "", ""
 
 
 Drawings
@@ -175,3 +175,8 @@ Help
 .. |icon33| image:: /images/icons/zoom_previous.svg
 .. |icon34| image:: /images/icons/zoom_window.svg
 .. |icon35| image:: /images/icons/zoom_pan.svg
+.. |icon36| image:: /images/icons/create_menu.svg
+.. |icon37| image:: /images/icons/create_toolbar.svg
+.. |icon38| image:: /images/icons/
+.. |icon39| image:: /images/icons/
+.. |icon40| image:: /images/icons/
