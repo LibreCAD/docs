@@ -2,6 +2,7 @@
 LibreCAD User Manual
 ====================
 
+.. Show the LibreCAD's splash screen
 
 .. figure:: /images/splash_librecad.png
     :width: 544px
@@ -29,9 +30,11 @@ Contents
 .. toctree::
    :maxdepth: 3
     
-   Introduction<intro/About.rst>
+   Introduction<intro/about.rst>
    Overview<intro/overview.rst>
    Reference<ref/index.rst>
    User Guides<guides/index.rst>
+   Appendices<appx/Fonts.rst>
+..
    Appendices<appx/index.rst>
 
