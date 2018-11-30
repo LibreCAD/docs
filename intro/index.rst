@@ -11,7 +11,7 @@ GNU General Public License
 .. include:: license.txt
 
 
-.. _overview
+.. _overview:
 
 Overview
 --------
