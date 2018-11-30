@@ -34,7 +34,7 @@ Contents
     
    License<License.rst>
    Introduction<Intro.rst>
-   Reference<ref/index.rst>
+   Reference<./ref/index.rst>
    User Guides<guides/index.rst>
    Appendices</appx/index.rst>
 
