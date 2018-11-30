@@ -4,18 +4,18 @@ The Coordinate system
 =====================
 
 In order to get the best out of LibreCAD it is wise to have a good understanding of the coordinate system and how 
-coordinates work. Everything that you draw in LibreCAD will be exact and precise and will be placed there accurately 
+coordinates work.  Everything that you draw in LibreCAD will be exact and precise and will be placed there accurately 
 based on the X,Y coordinate system.
 
 The **absolute origin** or **Zero** point in your drawing is where the X and Y axes cross each other (represented by a 
-Red cross), every entity you draw is located in relation to this origin.
+red cross), every entity you draw is located in relation to this origin.  The coordinates at this point ar 0,0.
 
 In LibreCAD there is also the option to set the **Relative Zero Point** (small red circle).  This Relative zero point 
 can be temporarily set to a new location in a drawing so that all subsequent X and Y coordinates of entities drawn or 
 blocks placed for example will be relative to this newly set Relative Zero Point.
 
 In libreCAD`s 2D coordinate system all **X** units are measured horizontally and all **Y** units are measured 
-vertically.  Coordinates can also be shown as 'Positive' (+) or 'Negative'(-) values.
+vertically.  Coordinates can also be shown as ''Positive'' (+) or ''Negative''(-) values.
 
 Examples of X and Y coordinates:
 Selection 011.png
