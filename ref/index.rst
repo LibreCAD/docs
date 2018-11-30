@@ -5,7 +5,9 @@ Installation Instructions
 -------------------------
 :ref:`installation-instructions`
 
-:ref:`coordinates`
+coordinates_
+
+..  :ref:`coordinates`
 
 :ref:`locating-entities`
 
