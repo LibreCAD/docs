@@ -3,8 +3,6 @@
 Introduction
 ============
 
-Yada, yada, yada...
-
 
 .. _gpl-license: 
 
@@ -17,7 +15,5 @@ GNU General Public License
 
 Overview
 --------
-
-LibreCAD's application window...
 
 .. include:: overview.rst
