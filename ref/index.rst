@@ -5,11 +5,14 @@ Reference
 :ref:`Installation <install>`
 -----------------------------
 
-:ref:`coordinates`
+:ref:`The Coordinate System <coordinates>`
+------------------------------------------
 
-:ref:`locating-entities`
+:ref:`Placing Entities <locating-entities>`
+-------------------------------------------
 
-:ref:`menu`
+:ref:`Application Menu <menu>`
+------------------------------
 
-:ref:`tools`
+:ref:`Drawing Tools <tools>`
 
