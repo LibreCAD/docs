@@ -30,11 +30,8 @@ Contents
 .. toctree::
    :maxdepth: 3
     
-   Introduction<intro/about.rst>
-   Overview<intro/overview.rst>
-   Reference<ref/index.rst>
-   User Guides<guides/index.rst>
-   Appendices<appx/index.rst>
-..
-   Appendices<appx/index.rst>
+   Introduction <intro/index.rst>
+   Reference    <ref/index.rst>
+   User Guides  <guides/index.rst>
+   Appendices   <appx/index.rst>
 
