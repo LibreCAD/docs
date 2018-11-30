@@ -45,6 +45,9 @@ example image below.
 Selection 024.png
 
 
+Defining Coordinate Locations
+-----------------------------
+
 Absolute
 ~~~~~~~~
 
@@ -75,7 +78,7 @@ Selection 028.png
 
 
 Angles in LibreCAD
-~~~~~~~~~~~~~~~~~~
+``````````````````
 
 It is worth mentioning here a brief explanation of how angles work in LibreCAD.
 
@@ -133,7 +136,7 @@ Snapping
 ..  Icon mapping:
 
 .. |icon00| image:: /images/icons/
-.. |icon01| image:: /images/icons/snap_exclusive.svg
+.. |icon01| image:: /images/icons/exclusive.svg
 .. |icon02| image:: /images/icons/snap_free.svg
 .. |icon03| image:: /images/icons/snap_grid.svg
 .. |icon04| image:: /images/icons/snap_endpoints.svg
