@@ -24,13 +24,13 @@ Types of Coordinates
 --------------------
 Basically there are two types of Coordinates: **Cartesian** and **Polar**.
 
+
 Cartesian
 ~~~~~~~~~
 
 The *Cartesian* coordinate system is generally the standard system used in most CAD programs. A specific point in a 
 drawing is located by exact distances from both the X and Y axes - for example a point in a drawing could be 60,45 
 (note the comma -, separates the two numbers).See example Image below.
-
 
 Coordinates 60,45.png
 
@@ -42,8 +42,8 @@ The *Polar* coordinate system uses one distance and one angle to define a point 
 drawing could be 50 < 45, so 50 units long and at an angle of 45 degrees (note the < sign is used for the angle). see 
 example image below.
 
-
 Selection 024.png
+
 
 Absolute
 ~~~~~~~~
@@ -60,7 +60,6 @@ the origin), so for example - if your first point is 20,45, to then enter your n
 would use the '@' symbol - e.g @50,50 would then enter the second point 50 units horizontally along the x axis and 50 
 units vertically along the Y axis to give this second point relative to your last point (20,45).See image below.
 
-
 Selection 026.png
 
 
@@ -72,17 +71,19 @@ at 100<45 (relative 'polar' coordinate).
 You can see from this example that the second point is based on our 'distance' of 100mm and at an angle of 45 degrees. 
 See example image below.
 
-
 Selection 028.png
+
+
 Angles in LibreCAD
+~~~~~~~~~~~~~~~~~~
 
 It is worth mentioning here a brief explanation of how angles work in LibreCAD.
 
 All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction (see image below) beginning from 0 
 degrees (the 3 o'clock position). The < symbol is used before the angle - e.g.50<45.
 
-
 Selection 030.png
+
 
 .. _placing-entities: 
 
@@ -97,6 +98,7 @@ either *Absolute* or *Relative* coordinate input.
 To input coordinate value points in LibreCAD you can 'type' your values in the command line or inside a 'text input 
 box' (presented by tool options requiring distance,angle etc...).  This method is 100% accurate.
 
+
 Mouse
 ~~~~~
 
@@ -108,23 +110,35 @@ Snapping
 ~~~~~~~~
 
 .. csv-table:: 
-   :header: "Menu Item", "Icon", "Short-cut", "Description"
+   :header: "Menu Item", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
-    "New", "icon ", "[Ctrl]-n", "Creates a new drawing file."
-    "New from Template", "icon", "", "Creates a new drawing file from a template."
-    "Open", "icon", "[Ctrl]-o", "Open existing drawing file."
-    "Save", "icon", "[Ctrl]-s", "Save current drawing file."
-    "Save as", "icon", "[Ctrl] [Shift]-q ", "Save current drawing file. to a new file or location."
-    "Import", "icon", "", ""
-    "Export", "icon", "", ""
-    "Print", "icon", "[Ctrl]-p  ", ""
-    "Print Preview", "icon", "", ""
-    "Close", "icon", "[Ctrl]-w", ""
-    "Quit", "icon", "[Ctrl]-q", "Close the application."
-    "Recent Files", "icon", "", "Open existing drawing file from a list of previously opened drawing files."
+    "Free Snap", |icon01|, "os, sf", "Allows for the crosshair to move freely while other snap modes are enabled."
+    "Snap Grid", |icon02|, "sg", "Snap to a grid intersection."
+    "Snap Endpoints", |icon03|, "se", "Snap to the endpoints of a line segment, the quadrants of a circle, a point, or the alignment point of a text or mtext object."
+    "Snap on Entity", |icon04|, "np, sn", "Snap to the path of an entity."
+    "Snap Center", |icon05|, "sc", "Snap to the center of a circle or ellipse. It will also snap to the foci of an ellipse."
+    "Snap Middle", |icon06|, "sm", "Snap to the middle of a path. Enabling this mode displays a ''Middle points'' input. If you change the value to 2 then you can snap to the trisection points of a line segment."
+    "Snap Distance", |icon07|, "sd", "If you snap to the endpoint of a line segment then activate 'snap distance' and input 50, then it will snap to a point 50 units from the endpoint on the line segment. However, it will also snap to a point that is 50 units from the other endpoint."
+    "Snap Intersection", |icon08|, "si", "Snap to the intersection of two entities. This does not currently work for polylines."
+    "Exclusive Snap Mode", |icon09|, "", "**On**: only one snap mode is allowed.  **Off**: multiple snap modes are allowed The snap modes are remembered in each state."
 
 
 Options
 -------
+
+
+..  Icon mapping:
+
+.. |icon00| image:: /images/icons/
+.. |icon01| image:: /images/icons/snap_free.svg
+.. |icon02| image:: /images/icons/snap_grid.svg
+.. |icon03| image:: /images/icons/snap_endpoints.svg
+.. |icon04| image:: /images/icons/snap_free.svg
+.. |icon05| image:: /images/icons/snap_center.svg
+.. |icon06| image:: /images/icons/snap_middle.svg
+.. |icon07| image:: /images/icons/snap_distance.svg
+.. |icon08| image:: /images/icons/snap_intersection.svg
+.. |icon09| image:: /images/icons/snap_exclusive.svg
+.. |icon10| image:: /images/icons/
 
