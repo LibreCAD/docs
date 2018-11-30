@@ -1,8 +1,5 @@
 LibreCAD's application Window...
 
-+-----+
-|     |
-+-----+
+=====
 
-
-
+=====
