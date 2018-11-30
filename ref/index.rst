@@ -2,8 +2,8 @@ Reference
 =========
 
 
-:ref:`Installation <install>`
------------------------------
+:ref:`Install and Configure <install>`
+--------------------------------------
 
 :ref:`The Coordinate System <coordinates>`
 ------------------------------------------
@@ -15,4 +15,5 @@ Reference
 ------------------------------
 
 :ref:`Drawing Tools <tools>`
+----------------------------
 

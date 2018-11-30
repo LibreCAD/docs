@@ -1,5 +1,6 @@
 Appendices
 ==========
 
-:ref:`lc-fonts`
+:ref:`Default Fonts <lc-fonts>`
+-------------------------------
 

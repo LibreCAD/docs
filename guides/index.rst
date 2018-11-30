@@ -1,5 +1,6 @@
 User Guides
 -----------
 
-:ref:`printing-guide`
+:ref: 'Printing Guides <printing-guide>`
+----------------------------------------
 
