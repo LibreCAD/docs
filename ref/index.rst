@@ -4,9 +4,7 @@ Reference
 Install
 -------
 
-`link text <Installation Instructions_>`_
-
-.. :ref:`install`
+:ref:`Installation <install>`
 
 :ref:`coordinates`
 
