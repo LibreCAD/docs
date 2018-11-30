@@ -5,7 +5,7 @@ Reference
 
 :ref:`coordinates`
 
-:ref:`placing-entities`
+:ref:`locating-entities`
 
 :ref:`menu`
 

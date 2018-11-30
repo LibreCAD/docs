@@ -85,10 +85,10 @@ degrees (the 3 o'clock position). The < symbol is used before the angle - e.g.50
 Selection 030.png
 
 
-.. _placing-entities: 
+.. _locating-entities: 
 
-Placing Entities
-----------------
+Locating Entities
+-----------------
 
 Keyboard
 ~~~~~~~~
@@ -128,10 +128,6 @@ Snapping
     "Set relative zero position", |icon13|, "", ""
     "Lock relative zero position", |icon14|, "", ""
 
-
-
-Options
--------
 
 
 ..  Icon mapping:
