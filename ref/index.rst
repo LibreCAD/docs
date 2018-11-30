@@ -1,13 +1,12 @@
 Reference
 =========
 
-Installation Instructions
+Installation Instructions <install.rst>
 -------------------------
-:ref:`installation-instructions`
 
-coordinates_
+.. :ref:`install`
 
-..  :ref:`coordinates`
+:ref:`coordinates`
 
 :ref:`locating-entities`
 
