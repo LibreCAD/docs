@@ -8,7 +8,7 @@ About
 
 
 GNU General Public License version 2 (GPLv2)
-============================================
+--------------------------------------------
 
 
                     GNU GENERAL PUBLIC LICENSE
