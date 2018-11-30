@@ -3,7 +3,9 @@
 Main Menu
 =========
 
-LibreCAD's default menu includes the following items:
+Manu of LibreCAD's commands are accesable through the menu bar.  Each drop down menu provides access commands, configurations and yada, yada, yada, 
+
+Each menu has a dashed line at the top.  Clicking in the dashed line allows the menu to be "torn off" as used as a floating menu.  Clicking the dot on the upper right corner of the floating menu closes it.
 
 
 File

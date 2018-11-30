@@ -8,7 +8,7 @@ coordinates work.  Everything that you draw in LibreCAD will be exact and precis
 based on the X,Y coordinate system.
 
 The **absolute origin** or **Zero** point in your drawing is where the X and Y axes cross each other (represented by a 
-red cross), every entity you draw is located in relation to this origin.  The coordinates at this point ar 0,0.
+red cross), every entity you draw is located in relation to this origin.  The coordinates at this point at 0,0.
 
 In LibreCAD there is also the option to set the **Relative Zero Point** (small red circle).  This Relative zero point 
 can be temporarily set to a new location in a drawing so that all subsequent X and Y coordinates of entities drawn or 
@@ -22,7 +22,7 @@ Selection 011.png
 
 Types of Coordinates
 --------------------
-Basically there are two types of Coordinates: **Cartesian** and **Polar**.
+Ther are two coordinate systems used in LibreCAD: **Cartesian** and **Polar**.
 
 
 Cartesian
@@ -127,7 +127,7 @@ Snapping
     "Snap Middle", |icon07|, "sm", "Snap to the middle of a path. Enabling this mode displays a ''Middle points'' input. If you change the value to 2 then you can snap to the trisection points of a line segment."
     "Snap Distance", |icon08|, "sd", "If you snap to the endpoint of a line segment then activate ''snap distance'' and input 50, then it will snap to a point 50 units from the endpoint on the line segment. However, it will also snap to a point that is 50 units from the other endpoint."
     "Snap Intersection", |icon09|, "si", "Snap to the intersection of two entities. This does not currently work for polylines."
-    "Restrict Horizontal", |icon10|, "rh", "Restricts cursor to ..."
+    "Restrict Horizontal", |icon10|, "rh", "Restricts the drawing cursor to ..."
     "Restrict Vertical", |icon11|, "rv", ""
     "Restrict Orthogonal", |icon12|, "rr", ""
     "Restrict Nothing", , "rn", "Turns off restricted cursor movements."

@@ -147,8 +147,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'LibreCAD.tex', 'LibreCAD Documentation',
-     'Gary S', 'manual'),
+    (master_doc, 'LibreCAD.tex', 'LibreCAD Documentation', 'Gary S', 'manual'),
 ]
 
 
