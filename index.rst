@@ -32,8 +32,8 @@ Contents
 .. toctree::
    :maxdepth: 3
     
-   License<manual/License.rst>
-   Reference<manual/ref/index.rst>
-   User Guides<manual/guides/index.rst>
-   Appendices<manual/appx/index.rst>
+   License<./manual/License.rst>
+   Reference<./manual/ref/index.rst>
+   User Guides<./manual/guides/index.rst>
+   Appendices<./manual/appx/index.rst>
 
