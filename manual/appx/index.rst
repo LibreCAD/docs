@@ -1,5 +1,0 @@
-Appendices
-----------
-
-:ref:`lc-fonts`
-
