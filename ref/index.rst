@@ -1,8 +1,10 @@
 Reference
 =========
 
-Installation Instructions <install.rst>
--------------------------
+Install
+-------
+
+`link text <Installation Instructions_>`_
 
 .. :ref:`install`
 
