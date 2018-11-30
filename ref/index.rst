@@ -1,10 +1,9 @@
 Reference
 =========
 
-Install
--------
 
 :ref:`Installation <install>`
+-----------------------------
 
 :ref:`coordinates`
 
