@@ -9,7 +9,7 @@ Appendices
 .. toctree::
    :maxdepth: 2
 
-    LibreCAD Fonts <fonts>
-    Blocks <blocks>
+    LibreCAD Fonts <font-list>
+    Blocks <block-list>
     Building from Source <build>
     GNU General Public License <gpllicense>

@@ -1,4 +1,4 @@
-.. _lc-fonts: 
+.. _font-list: 
 
 LibreCAD Fonts
 --------------
