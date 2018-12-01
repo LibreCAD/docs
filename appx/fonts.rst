@@ -4,7 +4,7 @@ LibreCAD Fonts
 --------------
 
 .. csv-table:: 
-   :header: "Font Name","Font Filename","Font Type","Technical / Single Line", "Sample"
+   :header: "Font Name","Font Filename","Font Type","Technical\*", "Sample"
    :widths: 30, 30, 40, 20, 30
    
     "amiri-regular", "amiri-regular.lff", "Serif", "", |font00|
@@ -53,6 +53,8 @@ LibreCAD Fonts
     "symeteo", "symeteo.lff", "Symbol", "", |font00|
     "symusic", "symusic.lff", "Symbol", "", |font00|
     "unicode", "unicode.lff", "Sans Serif ","X", |font00|
+
+\*\: also "Single Line"
 
 
 .. figure:: /images/LC_Fonts.png
