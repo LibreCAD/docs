@@ -13,4 +13,4 @@ Appendices
     Blocks <block-list>
     Building from Source <build>
     Acknowledgements <acknowledgements>
-    GNU General Public License <gpllicense>
+    GNU General Public License <gpl-license>
