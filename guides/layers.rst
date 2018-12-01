@@ -54,9 +54,9 @@ You can toggle between construction and normal mode three ways:
     the checkbox in the layer settings window
 
 ..  figure:: /images/guide_layer-settings.png
-    :width: 712px
+    :width: 251px
     :align: right
-    :height: 486px
+    :height: 215px
     :alt: LibreCAD Layers Settings
 
 
