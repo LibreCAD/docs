@@ -11,11 +11,14 @@ LibreCAD User Manual
     :alt: LibreCAD
 
 
-**NOTE:**
 
-*This is the development branch of the LibreCAD User documents and may (will) change frequently.*
+..note:
 
-*This documentation is currently being updated and improved. Some of the documementation linked from here is based on earlier versions of LibreCAD and as a result the descriptions, commands, menus, etc may be different from what appears in the latest release.*
+    **NOTE:**
+    
+    *This is the development branch of the LibreCAD User documents and may (will) change frequently.*
+    
+    *This documentation is currently being updated and improved. Some of the documementation linked from here is based on earlier versions of LibreCAD and as a result the descriptions, commands, menus, etc may be different from what appears in the latest release.*
 
 
 .. top level index
