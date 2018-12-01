@@ -96,7 +96,7 @@ html_theme = 'sphinx_rtd_theme'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = '_static'
+html_static_path = ['_static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -148,7 +148,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'LibreCAD.tex', 'LibreCAD User Guide', author, 'manual'),
+    (master_doc, 'LibreCAD.tex', title, author, 'manual'),
 ]
 
 
@@ -157,8 +157,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'librecad', 'LibreCAD User Guide',
-     [author], 1)
+    (master_doc, 'librecad', 'LibreCAD User Guide', author, 1)
 ]
 
 
