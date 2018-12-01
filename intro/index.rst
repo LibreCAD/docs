@@ -5,7 +5,7 @@ Introduction
 
 LibreCAD is a 2D CAD drawing tool based on the community edition of QCAD. LibreCAD uses the cross-platform framework Qt, which means it works with most operating systems. The user interface is translated in over 30 languages.
 
-LibreCAD is free software; you can redistribute it and/or modify it under the terms of the see :ref:`gpl-license` GNU General Public License version 2 (GPLv2) as published by the Free Software Foundation.
+LibreCAD is free software; you can redistribute it and/or modify it under the terms of the see :ref:`GNU General Public License <gpl-license>` version 2 (GPLv2) as published by the Free Software Foundation.
 
 The latest information about LibreCAD can be found at `librecad.org <http://librecad.org>`_.
 
