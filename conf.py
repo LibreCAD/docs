@@ -46,7 +46,7 @@ source_suffix = '.rst', '.md'
 master_doc = 'index'
 
 # General information about the project.
-project = 'LibreCAD'
+project = 'LibreCAD User Manual'
 copyright = '2018, LibreCAD .org'
 author = 'Gary S'
 
@@ -156,7 +156,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'librecad', 'LibreCAD Documentation',
+    (master_doc, 'librecad', 'LibreCAD User Guide',
      [author], 1)
 ]
 
@@ -165,13 +165,11 @@ man_pages = [
 
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
-#  dir menu entry, description, category)
+# dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'LibreCAD', 'LibreCAD Documentation',
-     author, 'LibreCAD', 'One line description of project.',
-     'Miscellaneous'),
+    (master_doc, 'LibreCADUserGuide', 'LibreCAD User Guide', Gary S, 
+    'LibreCAD', 'LibreCAD User Guide.', 'Miscellaneous'),
 ]
-
 
 
 # -- Options for Epub output ----------------------------------------------
