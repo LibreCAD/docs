@@ -9,17 +9,16 @@ Linux
 Ubuntu
 ~~~~~~
 
-Package in the official ubuntu repository
-`````````````````````````````````````````
-For ubuntu, LibreCAD is available in the "Ubuntu Software Center" as "librecad" on Ubuntu 11.04 (Natty) and later. Just search and install the package "librecad", and it will be automatically installed and configured for your system.
-
-To install it by command line:
+Official Ubuntu Repository
+``````````````````````````
+LibreCAD is available in the "Ubuntu Software Center" as "librecad" on Ubuntu 11.04 (Natty) and later. Just search and install the package "librecad", and it will be automatically installed and configured for your system, or to install it from the command line type::
 
    $ sudo apt-get install librecad
 
+
 Daily and Stable Builds in Ubuntu PPA
 `````````````````````````````````````
-For those users who want to live on the bleeding edge and try out the newest features as they are pushed to our github repository, you can use our Daily Build PPA, available for Ubuntu 10.10 (Maverick) and later. First, install LibreCAD as per above directions. Then:
+For those users who want to live on the bleeding edge and try out the newest features as they are pushed to our github repository, you can use our Daily Build PPA, available for Ubuntu 10.10 (Maverick) and later.  First add the repository via the command line::
 
    $ sudo add-apt-repository ppa:librecad-dev/librecad-daily
 
@@ -32,7 +31,7 @@ To stay up to date with the newest build, simply use Ubuntu's "Update Manager" o
    $ sudo apt-get update
    $ sudo apt-get install librecad
 
-That command will install the most recent code from our GitHub repository. Please report any bugs at https://github.com/LibreCAD/LibreCAD/issues.
+**That command will install the most recent code from our GitHub repository. Please report any bugs at https://github.com/LibreCAD/LibreCAD/issues.**
 
 
 Debian
@@ -84,6 +83,7 @@ For other versions of OS/X, please follow instructions to build LibreCAD from so
 
 .. note::
     If you an OS/X developer, please help us to improve DMG installers and MacPorts LibreCAD package.
+
 
 Other
 -----
