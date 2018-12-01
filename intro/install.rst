@@ -51,16 +51,28 @@ If you are not running unstable/sid, and still want to upgrade LibreCAD to a new
    $ sudo dpkg -i /path/to/librecad-data_1.0.0~rc3+nolibs-1_i386.deb
 
 
+Other Distributions
+~~~~~~~~~~~~~~~~~~~
+
+Packages are also available for the following Linux distributions:
+    - Arch Linuxx
+    - Fedora
+    - Gentoo
+    - OpenSUSE
+
+
 Windows
 -------
 
 Stable releases
 ~~~~~~~~~~~~~~~
 
+Installers can be downloaded from LibreCAD's `Release page <https://github.com/LibreCAD/LibreCAD/releases>`_ on GitHub
+
 Nightly builds
 ~~~~~~~~~~~~~~
 
-"Nightly builds" are pre-release versions for people interested in testing updates.
+"Nightly builds" are pre-release versions for people interested in testing updates.  These versions represent the bleeding edge of LibreCAD development and *might* contain bugs or new features under development.  New features may or may not be included in next release version.
 
 
 Mac OS/X
