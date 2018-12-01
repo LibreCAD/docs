@@ -28,7 +28,7 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
     
    Introduction <intro/index.rst>
    Reference    <ref/index.rst>

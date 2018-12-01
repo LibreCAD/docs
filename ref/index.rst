@@ -2,13 +2,12 @@ Reference
 =========
 
 
-:ref:`Install and Configure <install>`
-
-:ref:`The Coordinate System <coordinates>`
-
-:ref:`Placing Entities <locating-entities>`
-
-:ref:`Application Menu <menu>`
-
-:ref:`Drawing Tools <tools>`
+.. toctree::
+   :maxdepth: 2
+    
+   Install and Configure <install>
+   The Coordinate System <coordinates>
+   Placing Entities <locating-entities>
+   Application Menu <menu>
+   Drawing Tools <tools>`
 
