@@ -1,8 +1,9 @@
 User Guides
 ===========
 
+
 .. toctree::
    :maxdepth: 2
 
-    Printing Guides <printing-guide>
+    Printing Guides <printing>
 
