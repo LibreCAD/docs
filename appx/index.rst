@@ -2,5 +2,8 @@ Appendices
 ==========
 
 
-:ref:`Default Fonts <lc-fonts>`
+.. toctree::
+   :maxdepth: 2
+
+    Default Fonts <lc-fonts>
 

@@ -3,17 +3,10 @@
 Introduction
 ============
 
+.. toctree::
+   :maxdepth: 2
 
-.. _gpl-license: 
-
-GNU General Public License
---------------------------
-.. include:: license.txt
+    
+    Overview <overview>
 
 
-.. _overview:
-
-Overview
---------
-
-.. include:: overview.rst

@@ -1,5 +1,8 @@
 User Guides
 ===========
 
-:ref:`Printing Guides <printing-guide>`
+.. toctree::
+   :maxdepth: 2
+
+    Printing Guides <printing-guide>
 

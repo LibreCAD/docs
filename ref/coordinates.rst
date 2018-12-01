@@ -1,6 +1,6 @@
 .. _coordinates: 
 
-The Coordinate system
+The Coordinate System
 =====================
 
 In order to get the best out of LibreCAD it is wise to have a good understanding of the coordinate system and how 
@@ -88,9 +88,9 @@ degrees (the 3 o'clock position). The < symbol is used before the angle - e.g.50
 Selection 030.png
 
 
-.. _locating-entities: 
+.. _placing-entities: 
 
-Locating Entities
+Placing Entities
 -----------------
 
 Keyboard
