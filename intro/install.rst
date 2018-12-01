@@ -38,7 +38,7 @@ That command will install the most recent code from our GitHub repository. Pleas
 Debian
 ~~~~~~
 
-LibreCAD is available in the main repository of Debian 7.0 (Wheezy) and later as "librecad". Use your favorite package manager (e.g. aptitude, synaptic, etc.) or simply from command line:
+LibreCAD is available in the main repository of Debian 7.0 (Wheezy) and later as "librecad". Use your favorite package manager (e.g. aptitude, synaptic, etc.) or simply from command line::
 
    $ sudo apt-get install librecad
 
@@ -70,6 +70,8 @@ OS/X installers for OS/X 10.9 is available at http://sourceforge.net/projects/li
 
 For other versions of OS/X, please follow instructions to build LibreCAD from source code: LibreCAD_Installation_from_Source#Building_LibreCAD-2.0_on_OS.2FX
 
+.. note::
+    If you an OS/X developer, please help us to improve DMG installers and MacPorts LibreCAD package.
 
 Other
 -----
@@ -77,17 +79,13 @@ Other
 FreeBSD
 ~~~~~~~
 
-LibreCAD is available from [ports], and can be installed as a binary package:
+LibreCAD is available from [ports], and can be installed as a binary package::
 
    # pkg install librecad
 
 
 Android via Ubuntu Chroot
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. note::
-If you an OS/X developer, please help us to improve DMG installers and MacPorts LibreCAD package.
-FreeBSD
 
 
 Build from Source Code
