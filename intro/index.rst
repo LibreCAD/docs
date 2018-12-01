@@ -1,7 +1,7 @@
 .. _about:
 
-About
-=====
+Introduction
+============
 
 
 .. About level index
@@ -9,7 +9,7 @@ About
 .. toctree::
    :maxdepth: 2
 
-    Introduction <intro>
+    About <intro>
     Overview <overview>
     Install and Configure <install>
 
