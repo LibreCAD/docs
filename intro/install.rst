@@ -6,7 +6,7 @@ Installation Instructions
 Linux
 -----
 
-ubuntu
+Ubuntu
 ~~~~~~
 
 Package in the official ubuntu repository
@@ -23,11 +23,11 @@ For those users who want to live on the bleeding edge and try out the newest fea
 
    $ sudo add-apt-repository ppa:librecad-dev/librecad-daily
 
-If you are not willing to take the risks, but want to be more up to date than the distribution packages, use the Stable Build PPA instead:
+If you are not willing to take the risks, but want to be more up to date than the distribution packages, use the Stable Build PPA instead::
 
    $ sudo add-apt-repository ppa:librecad-dev/librecad-stable
 
-To stay up to date with the newest build, simply use Ubuntu's "Update Manager" or:
+To stay up to date with the newest build, simply use Ubuntu's "Update Manager" or::
 
    $ sudo apt-get update
    $ sudo apt-get install librecad
@@ -35,8 +35,8 @@ To stay up to date with the newest build, simply use Ubuntu's "Update Manager" o
 That command will install the most recent code from our GitHub repository. Please report any bugs at https://github.com/LibreCAD/LibreCAD/issues.
 
 
-Debian Installation
-~~~~~~~~~~~~~~~~~~~
+Debian
+~~~~~~
 
 LibreCAD is available in the main repository of Debian 7.0 (Wheezy) and later as "librecad". Use your favorite package manager (e.g. aptitude, synaptic, etc.) or simply from command line:
 
@@ -44,28 +44,31 @@ LibreCAD is available in the main repository of Debian 7.0 (Wheezy) and later as
 
 will install and configure it for you for every architecture. You can always find the latest release in Debian unstable.
 
-If you are not running unstable/sid, and still want to upgrade LibreCAD to a newer version in unstable/sid, you may download the LibreCAD debs from Debian unstable, and manually install them in your system by "dpkg -i",
+If you are not running unstable/sid, and still want to upgrade LibreCAD to a newer version in unstable/sid, you may download the LibreCAD debs from Debian unstable, and manually install them in your system by "dpkg -i"::
 
    $ sudo dpkg -i /path/to/librecad_1.0.0~rc3+nolibs-1_i386.deb
 
    $ sudo dpkg -i /path/to/librecad-data_1.0.0~rc3+nolibs-1_i386.deb
 
+
 Windows
 -------
 
-    Stable releases
+Stable releases
+~~~~~~~~~~~~~~~
 
-    Nightly builds
+Nightly builds
+~~~~~~~~~~~~~~
 
 "Nightly builds" are pre-release versions for people interested in testing updates.
+
+
 Mac OS/X
+--------
 
 OS/X installers for OS/X 10.9 is available at http://sourceforge.net/projects/librecad/files/OSX/
 
 For other versions of OS/X, please follow instructions to build LibreCAD from source code: LibreCAD_Installation_from_Source#Building_LibreCAD-2.0_on_OS.2FX
-
-If you an OS/X developer, please help us to improve DMG installers and MacPorts LibreCAD package.
-FreeBSD
 
 
 Other
@@ -81,6 +84,10 @@ LibreCAD is available from [ports], and can be installed as a binary package:
 
 Android via Ubuntu Chroot
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. note::
+If you an OS/X developer, please help us to improve DMG installers and MacPorts LibreCAD package.
+FreeBSD
 
 
 Build from Source Code
