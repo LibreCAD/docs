@@ -9,7 +9,7 @@ Introduction
 .. toctree::
    :maxdepth: 2
 
-    About <intro>
+    About <about>
     Overview <overview>
     Install and Configure <install>
 
