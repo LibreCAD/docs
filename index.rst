@@ -12,7 +12,7 @@ LibreCAD User Manual
 
 
 
-..note::
+.. note::
 
     **NOTE:**
     
