@@ -11,6 +11,8 @@ LibreCAD User Manual
     :alt: LibreCAD
 
 
+.. top level index
+
 Contents
 --------
 
