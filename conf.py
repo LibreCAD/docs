@@ -147,7 +147,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'LibreCAD.tex', 'LibreCAD Documentation', 'Gary S', 'manual'),
+    (master_doc, 'LibreCAD.tex', 'LibreCAD User Guide', author, 'manual'),
 ]
 
 
@@ -167,7 +167,7 @@ man_pages = [
 # (source start file, target name, title, author,
 # dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'LibreCADUserGuide', 'LibreCAD User Guide', 'Gary S', 
+    (master_doc, 'LibreCADUserGuide', title, author, 
     'LibreCAD', 'LibreCAD User Guide.', 'Miscellaneous'),
 ]
 
