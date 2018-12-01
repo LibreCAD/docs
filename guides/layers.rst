@@ -24,6 +24,7 @@ Layers are usually created to hold objects with common attributes. Creating a la
     Specify a Layer Name
     Optionally specify the Color, Width and Line Type
 
+
 Changing an Object's Layer
 --------------------------
 
@@ -37,6 +38,7 @@ Sometimes it is necessary to change an object's layer. This describes how to mov
 Alternatively you can activate the option Application Preferences → Defaults → Modify layer of selected entities, at layer activation
 With this option enabled you can move objects to a layer by selecting the objects and then selecting the destination layer.
 
+
 Construction Layers
 -------------------
 
@@ -47,17 +49,17 @@ A construction layer is designed to hold geometry construction lines:
     A construction layer won't appear on printout;
     All lines of a construction layer are infinite in length.
 
-You can toggle between construction and normal mode three ways:
-
-    the right most layer icon Layer icons.png
-    right-click on a layer and choose "Toggle Construction Layer".
-    the checkbox in the layer settings window
-
 ..  figure:: /images/guide_layer-settings.png
     :width: 251px
     :align: right
     :height: 215px
     :alt: LibreCAD Layers Settings
+
+You can toggle between construction and normal mode three ways:
+
+    1. the right most layer icon Layer icons.png
+    2. right-click on a layer and choose "Toggle Construction Layer".
+    3. the checkbox in the layer settings window
 
 
 Ordering Layers
