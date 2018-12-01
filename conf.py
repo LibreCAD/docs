@@ -189,6 +189,9 @@ epub_copyright = copyright
 #
 # epub_uid = ''
 
+## Image for epub book
+epub_cover = (`/images/splash_librecad.png`, ``)
+
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
 
