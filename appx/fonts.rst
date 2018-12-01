@@ -57,7 +57,7 @@ LibreCAD Fonts
 \*\: limited to single line
 
 
-.. figure:: /images/LC_Fonts.png
+.. figure:: /images/appx_Fonts.png
     :width: 800px
     :align: center
     :height: 800px

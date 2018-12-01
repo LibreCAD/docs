@@ -9,7 +9,7 @@ A block is a group of entities. Blocks can be inserted into the same drawing mor
 Creating and saving blocks is a useful way of inserting frequently used symbols e.g windows and doors in a house plan.
 
 Blocks can contain useful text, dimensions and reference notes.
-..image: <images/block.png
+..image: images/appx_block.png
     :width: 740px
     :align: right
     :height: 402px
