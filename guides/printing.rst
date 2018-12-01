@@ -1,13 +1,13 @@
 .. _printing-guide: 
 
 Printing Guide
---------------
+==============
 
 These steps for printing assume the drawing to be printed was drawn full-scale (1:1).
 
 
 Printing, Quick and Easy
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 To print a drawing without a drawing border / title block template or a specific scale is relatively quick and easy.  With a drawing opened in LibreCAD:
 
@@ -23,7 +23,7 @@ To print a drawing without a drawing border / title block template or a specific
 
 
 Printing to Scale
-~~~~~~~~~~~~~~~~~
+-----------------
 
 To print a drawing without a drawing border / title block template but to a specific scale requires a couple of additional steps.  With a drawing opened in LibreCAD:
 
@@ -42,7 +42,7 @@ To print a drawing without a drawing border / title block template but to a spec
 
 
 Printing to Scale with a Border and Title Block
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------
 
 To print a drawing with a drawing border / title block template, but to a specific scale requires several steps:
 
