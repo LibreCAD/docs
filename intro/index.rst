@@ -16,8 +16,8 @@ The latest information about LibreCAD can be found at `librecad.org <http://libr
 
 *This documentation is currently being updated and improved. Some of the documementation linked from here is based on earlier versions of LibreCAD and as a result the descriptions, commands, menus, etc may be different from what appears in the latest release.*
 
-
------
+Section
+-------
 
 .. toctree::
    :maxdepth: 2
