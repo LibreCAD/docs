@@ -67,7 +67,7 @@ Windows
 Stable releases
 ~~~~~~~~~~~~~~~
 
-Installers can be downloaded from LibreCAD's `Release page <https://github.com/LibreCAD/LibreCAD/releases>`_ on GitHub
+Installers can be downloaded from LibreCAD's Official` Release page <https://github.com/LibreCAD/LibreCAD/releases>`_ on GitHub.  Installers are also available from `SourceForge <https://sourceforge.net/projects/librecad/files/Windows/>`_.
 
 Nightly builds
 ~~~~~~~~~~~~~~
@@ -78,9 +78,9 @@ Nightly builds
 Mac OS/X
 --------
 
-OS/X installers for OS/X 10.9 is available at http://sourceforge.net/projects/librecad/files/OSX/
+OS/X installers for OS/X 10.9 are available at `SourceForge <http://sourceforge.net/projects/librecad/files/OSX/>`_.
 
-For other versions of OS/X, please follow instructions to build LibreCAD from source code: LibreCAD_Installation_from_Source#Building_LibreCAD-2.0_on_OS.2FX
+For other versions of OS/X, please follow instructions to build LibreCAD from source code (see appendix XXX)
 
 .. note::
     If you an OS/X developer, please help us to improve DMG installers and MacPorts LibreCAD package.
