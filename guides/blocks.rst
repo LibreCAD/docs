@@ -10,7 +10,7 @@ Creating and saving blocks is a useful way of inserting frequently used symbols 
 
 Blocks can contain useful text, dimensions and reference notes.
 
-..  figure:: /images/appx_block.png
+..  figure:: /images/guide_block.png
     :width: 740px
     :align: right
     :height: 402px
