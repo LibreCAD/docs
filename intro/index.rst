@@ -21,5 +21,6 @@ The latest information about LibreCAD can be found at `librecad.org <http://libr
    :maxdepth: 2
 
     GNU General Public License <license>
+    Overview <overview>
 
 
