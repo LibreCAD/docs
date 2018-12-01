@@ -4,7 +4,7 @@ Appendices
 ==========
 
 
-..  appendix level index
+..  Appendix level index
 
 .. toctree::
    :maxdepth: 2
