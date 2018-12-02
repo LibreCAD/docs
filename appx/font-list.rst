@@ -4,7 +4,7 @@ LibreCAD Fonts
 --------------
 
 .. csv-table:: 
-   :header: "Font Name","Font Filename","Font Type","Technical\*", "Sample"
+   :header: "Font Name","Font Filename","Font Type","Technical (\*)", "Sample"
    :widths: 30, 30, 40, 20, 30
    
     "amiri-regular", "amiri-regular.lff", "Serif", "", |font00|
