@@ -54,7 +54,7 @@ LibreCAD Fonts
     "symusic", "symusic.lff", "Symbol", "", |font00|
     "unicode", "unicode.lff", "Sans Serif ","X", |font00|
 
-\*\: limited to single line
+\*\: These fonts are composed of single lines and are suitable for technical drawings.
 
 
 .. figure:: /images/appx_Fonts.png
