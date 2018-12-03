@@ -68,14 +68,14 @@ LibreCAD Fonts
 
 .. |font00| image:: /images/fonts/LC_Font0.png
 .. |font01| image:: /images/fonts/amiri-regular.png
-.. |font00| image:: /images/fonts/azomix_i.png
-.. |font00| image:: /images/fonts/azomix.png
-.. |font00| image:: /images/fonts/cursive.png
-.. |font00| image:: /images/fonts/cyrillic_ii.png
-.. |font00| image:: /images/fonts/gothgbt.png
-.. |font00| image:: /images/fonts/gothgrt.png
-.. |font00| image:: /images/fonts/gothitt.png
-.. |font00| image:: /images/fonts/greekc.png
+.. |font02| image:: /images/fonts/azomix_i.png
+.. |font03| image:: /images/fonts/azomix.png
+.. |font04| image:: /images/fonts/cursive.png
+.. |font05| image:: /images/fonts/cyrillic_ii.png
+.. |font06| image:: /images/fonts/gothgbt.png
+.. |font07| image:: /images/fonts/gothgrt.png
+.. |font08| image:: /images/fonts/gothitt.png
+.. |font09| image:: /images/fonts/greekc.png
 .. |font00| image:: /images/fonts/greekcs.png
 .. |font00| image:: /images/fonts/greek_ol.png
 .. |font00| image:: /images/fonts/greekp.png
