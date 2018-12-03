@@ -4,7 +4,7 @@ LibreCAD Fonts
 --------------
 
 .. csv-table:: 
-   :header: "Font Name","Font Filename","Font Type","Technical\*", "Sample"
+   :header: "Font Name","Font Filename","Font Type","Technical (\*)", "Sample"
    :widths: 30, 30, 40, 20, 30
    
     "amiri-regular", "amiri-regular.lff", "Serif", "", |font00|
@@ -54,7 +54,7 @@ LibreCAD Fonts
     "symusic", "symusic.lff", "Symbol", "", |font00|
     "unicode", "unicode.lff", "Sans Serif ","X", |font00|
 
-\*\: limited to single line
+\*\: These fonts are composed of single lines and are suitable for technical drawings.
 
 
 .. figure:: /images/appx_Fonts.png
