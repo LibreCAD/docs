@@ -61,7 +61,7 @@ LibreCAD Fonts
     :width: 800px
     :height: 800px
     :align: center
-    :scale: 100
+    :scale: 25
     :alt: LibreCAD Fonts
 
 ..  Font sample mapping:
