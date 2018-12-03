@@ -9,42 +9,40 @@ https://github.com/LibreCAD/LibreCAD/wiki/Git-and-GitHub
 Building LibreCAD 2.0 on Linux
 Install dependencies
 
-First gather the required packages:
+First gather the required packages::
 
    $ sudo apt-get install g++ gcc make git-core qtbase5-dev libqt5svg5-dev\
     qttools5-dev qtchooser qttools5-dev-tools libmuparser-dev librsvg2-bin\
     libboost-dev libfreetype6-dev libicu-dev pkg-config
 
-You also have to either install the qt5-default package ("apt-get install qt5-default") or use qtchooser prior to running qmake (e.g., "qtchooser -qt5").
-If you have not cloned the LibreCAD repository
+You also have to either install the qt5-default package ("apt-get install qt5-default") or use qtchooser prior to running qmake (e.g., "qtchooser -qt5"). If you have not cloned the LibreCAD repository
 
 If you have a local LibreCAD repository, continue to Update a local LibreCAD repository instead
 
-If ~/develop does not exist, create this folder
+If ~/develop does not exist, create this folder::
 
    $ mkdir -p ~/develop/LibreCAD 
 
-Clone the LibreCAD repository, please note this is needed only once
+Clone the LibreCAD repository, please note this is needed only once::
 
    $ cd ~/develop/
    $ git clone https://github.com/LibreCAD/LibreCAD.git
 
-Update a local LibreCAD repository
+Update a local LibreCAD repository::
 
    $ cd ~/develop/LibreCAD/
    $ git checkout master
    $ git pull -r
 
-Build LibreCAD
+Build LibreCAD::
 
    $ qmake -r
    $ make -j4
 
-if building is successful, the generated executable is at ./unix/librecad, and you may launch LibreCAD:
+if building is successful, the generated executable is at ./unix/librecad, and you may launch LibreCAD::
 
    $ ./unix/librecad &
 
-Installing Linux and building LibreCad on android devices in a Linux chroot environment
 
 Detailed steps are here: [1]
 Building LibreCAD 2.0 on Windows
@@ -257,13 +255,13 @@ After a successful build, the generated executible of LibreCAD can be found as
 
 By the building script
 
-Alternatively, you may try the building script comes with LibreCAD at scripts/build-osx.sh to build an DMG file. On OS/X 10.9 or newer,
+Alternatively, you may try the building script comes with LibreCAD at scripts/build-osx.sh to build an DMG file. On OS/X 10.9 or newer::
 
    $ cd ~/github/LibreCAD/
    $ cd scripts/
    $ ./build-osx.sh
 
-On OS/X 10.8 or older, you may have to edit the build-osx.sh to qmake command lines like:
+On OS/X 10.8 or older, you may have to edit the build-osx.sh to qmake command lines like::
 
    qmake -r -spec mkspec/macports
 

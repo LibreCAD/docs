@@ -12,8 +12,9 @@ Blocks can contain useful text, dimensions and reference notes.
 
 ..  figure:: /images/guide_block.png
     :width: 740px
-    :align: right
     :height: 402px
+    :scale: 100
+    :align: right
     :alt: LibreCAD Blocks
 
 
@@ -63,7 +64,7 @@ Reusing blocks
 
 You can also use the library browser. Set the path in Application Preferences, and have blocks in sub-directories of that path.
 
-If you have the other drawing open, you can use:
+If you have the other drawing open, you can use::
 
     ctrl+c
     select reference point

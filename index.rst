@@ -6,9 +6,10 @@ LibreCAD User Manual
 
 .. figure:: /images/splash_librecad.png
     :width: 544px
-    :align: center
     :height: 338px
-    :alt: LibreCAD
+    :scale: 100
+    :align: center
+    :alt: LibreCAD Splash
 
 
 .. note::

@@ -3,14 +3,15 @@
 Overview
 ========
 
-LibreCAD's application Window...
+LibreCAD's default application Window...
 
 
 .. figure:: /images/LC_default.png
     :width: 1280px
-    :align: center
     :height: 960px
-    :alt: LibreCAD Fonts
+    :align: center
+    :scale: 75
+    :alt: LibreCAD Application Window
 
 =====
 

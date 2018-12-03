@@ -59,7 +59,8 @@ LibreCAD Fonts
 
 .. figure:: /images/appx_Fonts.png
     :width: 800px
-    :align: center
     :height: 800px
+    :align: center
+    :scale: 100
     :alt: LibreCAD Fonts
 

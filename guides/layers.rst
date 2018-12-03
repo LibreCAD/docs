@@ -10,8 +10,9 @@ In traditional manual drafting, a similar approach was used.  Whether for Engine
 
 ..  figure:: /images/guide_layer-eg.png
     :width: 712px
-    :align: right
     :height: 486px
+    :scale: 100
+    :align: right
     :alt: LibreCAD Layers Example
 
 
@@ -51,8 +52,9 @@ A construction layer is designed to hold geometry construction lines:
 
 ..  figure:: /images/guide_layer-settings.png
     :width: 251px
-    :align: right
     :height: 215px
+    :scale: 100
+    :align: right
     :alt: LibreCAD Layers Settings
 
 You can toggle between construction and normal mode three ways:
