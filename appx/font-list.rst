@@ -64,10 +64,6 @@ LibreCAD Fonts
     :scale: 100
     :alt: LibreCAD Fonts
 
-..  Icon mapping:
-
-.. |font01| image:: /images/fonts/amiri-regular.png
-
 
 ..  Icon list: 
 	
