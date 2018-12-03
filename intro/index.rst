@@ -1,9 +1,9 @@
 .. _intro:
 
+.. Introduction index
+
 Introduction
 ============
-
-.. Introduction index
 
 .. toctree::
    :maxdepth: 1

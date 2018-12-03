@@ -6,7 +6,7 @@ User Guides
 ===========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
     Using Blocks <blocks>
     Using Layers <layers>

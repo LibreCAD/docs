@@ -1,9 +1,9 @@
 .. _getstart:
 
+.. Getting Started index
+
 Getting Started
 ===============
-
-.. Getting Started index
 
 .. toctree::
    :maxdepth: 1
