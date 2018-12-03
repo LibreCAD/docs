@@ -5,7 +5,7 @@ Reference
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
     The Coordinate System <coordinates>
     Application Menu <menu>
