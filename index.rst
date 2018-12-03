@@ -27,7 +27,7 @@ Contents
    :maxdepth: 2
     
    Introduction <intro/index.rst>
-   Getting Started <getstartindex.rst>
+   Getting Started <getstart/index.rst>
    Reference    <ref/index.rst>
    User Guides  <guides/index.rst>
    Appendices   <appx/index.rst>
