@@ -3,6 +3,7 @@
 Reference
 =========
 
+.. Reference index
 
 .. toctree::
    :maxdepth: 1

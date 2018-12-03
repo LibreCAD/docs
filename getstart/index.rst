@@ -1,10 +1,9 @@
-.. _about:
+.. _getstart:
 
-Introduction
-============
+Getting Started
+===============
 
-
-.. About level index
+.. Getting Started index
 
 .. toctree::
    :maxdepth: 1

@@ -1,8 +1,9 @@
 .. _guides:
 
+.. User Guides index
+
 User Guides
 ===========
-
 
 .. toctree::
    :maxdepth: 2

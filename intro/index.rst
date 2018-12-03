@@ -1,10 +1,9 @@
-.. _about:
+.. _intro:
 
 Introduction
 ============
 
-
-.. About level index
+.. Introduction index
 
 .. toctree::
    :maxdepth: 1
