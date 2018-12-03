@@ -8,14 +8,14 @@ LibreCAD Fonts
    :widths: 30, 30, 40, 20, 30
    
     "amiri-regular", "amiri-regular.lff", "Serif", "", |font01|
-    "azomix_i", "azomix_i.lff", "Sans Serif ","X", |font00|
-    "azomix", "azomix.lff", "Sans Serif ","X", |font00|
-    "cursive", "cursive.lff", "Sans Serif ","X", |font00|
-    "cyrillic_ii", "cyrillic_ii.lff", "Sans Serif ","X", |font00|
-    "gothgbt", "gothgbt.lff", "Blackletter / Gothic", "", |font00|
-    "gothgrt", "gothgrt.lff", "Blackletter / Gothic", "", |font00|
-    "gothitt", "gothitt.lff", "Blackletter / Gothic", "", |font00|
-    "greekc", "greekc.lff", "Greek Lettering", "", |font00|
+    "azomix_i", "azomix_i.lff", "Sans Serif ","X", |font02|
+    "azomix", "azomix.lff", "Sans Serif ","X", |font03|
+    "cursive", "cursive.lff", "Sans Serif ","X", |font04|
+    "cyrillic_ii", "cyrillic_ii.lff", "Sans Serif ","X", |font05|
+    "gothgbt", "gothgbt.lff", "Blackletter / Gothic", "", |font06|
+    "gothgrt", "gothgrt.lff", "Blackletter / Gothic", "", |font07|
+    "gothitt", "gothitt.lff", "Blackletter / Gothic", "", |font08|
+    "greekc", "greekc.lff", "Greek Lettering", "", |font09|
     "greekcs", "greekcs.lff", "Greek Lettering", "", |font00|
     "greek_ol", "greek_ol.lff", "Greek Lettering", "", |font00|
     "greekp", "greekp.lff", "Greek Lettering ","X", |font00|
