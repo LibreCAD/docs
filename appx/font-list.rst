@@ -7,7 +7,7 @@ LibreCAD Fonts
    :header: "Font Name","Font Filename","Font Type","Technical (\*)", "Sample"
    :widths: 30, 30, 40, 20, 30
    
-    "amiri-regular", "amiri-regular.lff", "Serif", "", |font00|
+    "amiri-regular", "amiri-regular.lff", "Serif", "", |font01|
     "azomix_i", "azomix_i.lff", "Sans Serif ","X", |font00|
     "azomix", "azomix.lff", "Sans Serif ","X", |font00|
     "cursive", "cursive.lff", "Sans Serif ","X", |font00|
@@ -63,4 +63,57 @@ LibreCAD Fonts
     :align: center
     :scale: 100
     :alt: LibreCAD Fonts
+
+..  Icon mapping:
+
+.. |font01| image:: /images/fonts/amiri-regular.png
+
+
+..  Icon list: 
+	
+	azomix_i
+	azomix
+	cursive
+	cyrillic_ii
+	gothgbt
+	gothgrt
+	gothitt
+	greekc
+	greekcs
+	greek_ol
+	greekp
+	greeks
+	iso3098_i
+	iso3098
+	iso
+	italicc
+	italiccs
+	italict
+	kochigothic
+	kochimincho
+	kst32b
+	lc_opengost-ar
+	lc_opengost-br
+	OpenGostTypeA-Regular
+	OpenGostTypeB-Regular
+	romanc
+	romancs
+	romand
+	romanp
+	romansi
+	romans
+	romant
+	scriptc
+	scripts
+	simplex
+	standard
+	syastro
+	symap
+	symath
+	symbol
+	symbol_misc1
+	symbol_misc2
+	symeteo
+	symusic
+	unicode
 
