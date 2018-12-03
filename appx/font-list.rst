@@ -16,32 +16,32 @@ LibreCAD Fonts
     "gothgrt", "gothgrt.lff", "Blackletter / Gothic", "", |font07|
     "gothitt", "gothitt.lff", "Blackletter / Gothic", "", |font08|
     "greekc", "greekc.lff", "Greek Lettering", "", |font09|
-    "greekcs", "greekcs.lff", "Greek Lettering", "", |font00|
-    "greek_ol", "greek_ol.lff", "Greek Lettering", "", |font00|
-    "greekp", "greekp.lff", "Greek Lettering ","X", |font00|
-    "greeks", "greeks.lff", "Greek Lettering ","X", |font00|
-    "iso3098_i", "iso3098.lff", "Sans Serif ","X", |font00|
-    "iso3098", "iso3098_i.lff", "Sans Serif ","X", |font00|
-    "iso", "iso.lff", "Sans Serif ","X", |font00|
-    "italicc", "italicc.lff", "Serif", "", |font00|
-    "italiccs", "italiccs.lff", "Serif", "", |font00|
-    "italict", "italict.lff", "Serif", "", |font00|
-    "kochigothic", "kochigothic.lff", "Sans Serif", "", |font00|
-    "kochimincho", "kochimincho.lff", "Serif", "", |font00|
-    "kst32b", "kst32b.lff", "Sans Serif ","X", |font00|
-    "lc_opengost-ar", "lc_opengost-ar.lff", "Sans Serif ","X", |font00|
-    "lc_opengost-br", "lc_opengost-br.lff", "Sans Serif ","X", |font00|
-    "OpenGostTypeA-Regular", "OpenGostTypeA-Regular.lff", "Sans Serif ","X", |font00|
-    "OpenGostTypeB-Regular", "OpenGostTypeB-Regular.lff", "Sans Serif ","X", |font00|
-    "romanc", "romanc.lff", "Serif", "", |font00|
-    "romancs", "romancs.lff", "Serif", "", |font00|
-    "romand", "romand.lff", "Sans Serif", "", |font00|
-    "romanp", "romanp.lff", "Serif", "", |font00|
-    "romansi", "romansi.lff", "Sans Serif ","X", |font00|
-    "romans", "romans.lff", "Sans Serif ","X", |font00|
-    "romant", "romant.lff", "Serif", "", |font00|
-    "scriptc", "scriptc.lff", "Formal Script", "", |font00|
-    "scripts", "scripts.lff", "Formal Script", "", |font00|
+    "greekcs", "greekcs.lff", "Greek Lettering", "", |font10|
+    "greek_ol", "greek_ol.lff", "Greek Lettering", "", |font11|
+    "greekp", "greekp.lff", "Greek Lettering ","X", |font12|
+    "greeks", "greeks.lff", "Greek Lettering ","X", |font13|
+    "iso3098_i", "iso3098.lff", "Sans Serif ","X", |font14|
+    "iso3098", "iso3098_i.lff", "Sans Serif ","X", |font15|
+    "iso", "iso.lff", "Sans Serif ","X", |font16|
+    "italicc", "italicc.lff", "Serif", "", |font17|
+    "italiccs", "italiccs.lff", "Serif", "", |font18|
+    "italict", "italict.lff", "Serif", "", |font19|
+    "kochigothic", "kochigothic.lff", "Sans Serif", "", |font20|
+    "kochimincho", "kochimincho.lff", "Serif", "", |font21|
+    "kst32b", "kst32b.lff", "Sans Serif ","X", |font22|
+    "lc_opengost-ar", "lc_opengost-ar.lff", "Sans Serif ","X", |font23|
+    "lc_opengost-br", "lc_opengost-br.lff", "Sans Serif ","X", |font24|
+    "OpenGostTypeA-Regular", "OpenGostTypeA-Regular.lff", "Sans Serif ","X", |font25|
+    "OpenGostTypeB-Regular", "OpenGostTypeB-Regular.lff", "Sans Serif ","X", |font26|
+    "romanc", "romanc.lff", "Serif", "", |font27|
+    "romancs", "romancs.lff", "Serif", "", |font28|
+    "romand", "romand.lff", "Sans Serif", "", |font29|
+    "romanp", "romanp.lff", "Serif", "", |font30|
+    "romansi", "romansi.lff", "Sans Serif ","X", |font31|
+    "romans", "romans.lff", "Sans Serif ","X", |font032
+    "romant", "romant.lff", "Serif", "", |font33|
+    "scriptc", "scriptc.lff", "Formal Script", "", |font34|
+    "scripts", "scripts.lff", "Formal Script", "", |font35|
     "simplex", "simplex.lff", "Sans Serif ","X", |font00|
     "standard", "standard.lff", "Sans Serif ","X", |font00|
     "syastro", "syastro.lff", "Symbol", "", |font00|
