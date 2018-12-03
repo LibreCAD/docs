@@ -34,5 +34,5 @@ Since QCad CE was built around the outdated Qt3 library, it had to be ported to 
 Copyright
 ---------
 
-Unless otherwise specified, all text and images in this document are licensed under the `Creative Commons Attribution 4.0 License <https://creativecommons.org/licenses/by/4.0/>`_ (CC BY 4.0).
+This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 

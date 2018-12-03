@@ -1,7 +1,7 @@
 .. _font-list: 
 
-LibreCAD Fonts
---------------
+Fonts
+=====
 
 .. csv-table:: 
    :header: "Font Name","Font Filename","Font Type","Technical (\*)", "Sample"
