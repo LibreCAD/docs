@@ -12,5 +12,4 @@ Appendices
     LibreCAD Fonts <font-list>
     Blocks <block-list>
     Building from Source <build>
-    Acknowledgements <acknowledgements>
     GNU General Public License <gpl-license>

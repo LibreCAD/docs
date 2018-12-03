@@ -7,9 +7,8 @@ Introduction
 .. About level index
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
+    Copyright <copyright>
     About <about>
-    Overview <overview>
-    Install and Configure <install>
-
+    Contributors <contributors>
