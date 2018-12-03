@@ -10,7 +10,7 @@ LibreCAD's default application Window...
     :width: 1280px
     :height: 960px
     :align: center
-    :scale: 75
+    :scale: 50
     :alt: LibreCAD Application Window
 
 =====
