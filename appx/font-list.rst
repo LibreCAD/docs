@@ -57,11 +57,11 @@ LibreCAD Fonts
 \*\: These fonts are composed of single lines and are suitable for technical drawings.
 
 
-.. figure:: /images/appx_Fonts.png
+.. figure:: /images/fonts/appx_Fonts.png
     :width: 800px
-    :height: 800px
+    :height: 694px
     :align: center
-    :scale: 25
+    :scale: 50
     :alt: LibreCAD Fonts
 
 ..  Font sample mapping:
