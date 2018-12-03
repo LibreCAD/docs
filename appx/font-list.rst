@@ -7,7 +7,7 @@ LibreCAD Fonts
    :header: "Font Name","Font Filename","Font Type","Technical (\*)", "Sample"
    :widths: 30, 30, 40, 20, 30
    
-    "amiri-regular", "amiri-regular.lff", "Serif", "", |font01|
+    "amiri-regular", "amiri-regular.lff", "Serif", "", image:: /images/fonts/amiri-regular.png
     "azomix_i", "azomix_i.lff", "Sans Serif ","X", |font00|
     "azomix", "azomix.lff", "Sans Serif ","X", |font00|
     "cursive", "cursive.lff", "Sans Serif ","X", |font00|
