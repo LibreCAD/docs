@@ -42,17 +42,17 @@ LibreCAD Fonts
     "romant", "romant.lff", "Serif", "", |font33|
     "scriptc", "scriptc.lff", "Formal Script", "", |font34|
     "scripts", "scripts.lff", "Formal Script", "", |font35|
-    "simplex", "simplex.lff", "Sans Serif ","X", |font00|
-    "standard", "standard.lff", "Sans Serif ","X", |font00|
-    "syastro", "syastro.lff", "Symbol", "", |font00|
-    "symap", "symap.lff", "Symbol", "", |font00|
-    "symath", "symath.lff", "Symbol", "", |font00|
-    "symbol", "symbol.lff", "Symbol", "", |font00|
-    "symbol_misc1", "symbol_misc1.lff", "Symbol", "", |font00|
-    "symbol_misc2", "symbol_misc2.lff", "Symbol", "", |font00|
-    "symeteo", "symeteo.lff", "Symbol", "", |font00|
-    "symusic", "symusic.lff", "Symbol", "", |font00|
-    "unicode", "unicode.lff", "Sans Serif ","X", |font00|
+    "simplex", "simplex.lff", "Sans Serif ","X", |font36|
+    "standard", "standard.lff", "Sans Serif ","X", |font37|
+    "syastro", "syastro.lff", "Symbol", "", |font38|
+    "symap", "symap.lff", "Symbol", "", |font39|
+    "symath", "symath.lff", "Symbol", "", |font40|
+    "symbol", "symbol.lff", "Symbol", "", |font41|
+    "symbol_misc1", "symbol_misc1.lff", "Symbol", "", |font42|
+    "symbol_misc2", "symbol_misc2.lff", "Symbol", "", |font43|
+    "symeteo", "symeteo.lff", "Symbol", "", |font44|
+    "symusic", "symusic.lff", "Symbol", "", |font45|
+    "unicode", "unicode.lff", "Sans Serif ","X", |font46|
 
 \*\: These fonts are composed of single lines and are suitable for technical drawings.
 
@@ -102,15 +102,15 @@ LibreCAD Fonts
 .. |font33| image:: /images/fonts/romant.png
 .. |font34| image:: /images/fonts/scriptc.png
 .. |font35| image:: /images/fonts/scripts.png
-.. |font00| image:: /images/fonts/simplex.png
-.. |font00| image:: /images/fonts/standard.png
-.. |font00| image:: /images/fonts/syastro.png
-.. |font00| image:: /images/fonts/symap.png
-.. |font00| image:: /images/fonts/symath.png
-.. |font00| image:: /images/fonts/symbol.png
-.. |font00| image:: /images/fonts/symbol_misc1.png
-.. |font00| image:: /images/fonts/symbol_misc2.png
-.. |font00| image:: /images/fonts/symeteo.png
-.. |font00| image:: /images/fonts/symusic.png
-.. |font00| image:: /images/fonts/unicode.png
+.. |font36| image:: /images/fonts/simplex.png
+.. |font37| image:: /images/fonts/standard.png
+.. |font38| image:: /images/fonts/syastro.png
+.. |font39| image:: /images/fonts/symap.png
+.. |font40| image:: /images/fonts/symath.png
+.. |font41| image:: /images/fonts/symbol.png
+.. |font42| image:: /images/fonts/symbol_misc1.png
+.. |font43| image:: /images/fonts/symbol_misc2.png
+.. |font44| image:: /images/fonts/symeteo.png
+.. |font45| image:: /images/fonts/symusic.png
+.. |font46| image:: /images/fonts/unicode.png
 
