@@ -125,7 +125,7 @@ Snapping
 
 ..  Icon mapping:
 
-.. |icon00| image:: /images/icons/
+.. icon00
 .. |icon01| image:: /images/icons/exclusive.svg
 .. |icon02| image:: /images/icons/snap_free.svg
 .. |icon03| image:: /images/icons/snap_grid.svg
@@ -140,5 +140,5 @@ Snapping
 .. |icon12| image:: /images/icons/restr_ortho.svg
 .. |icon13| image:: /images/icons/set_rel_zero.svg
 .. |icon14| image:: /images/icons/lock_rel_zero.svg
-.. |icon15| image:: /images/icons/
+.. icon15
 
