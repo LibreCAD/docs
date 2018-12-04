@@ -1,7 +1,7 @@
 .. _commandline:
 
-Using the Command Line
-======================
+Command Line
+============
 
 Introduction
 ------------
@@ -13,14 +13,12 @@ This is intended for people that want to draw by entering commands. This can be 
 LibreCAD is designed with emphasis on mouse-clicking input, and some options can be at the moment only selected by clicking, not by typing on command line.
 
 
-Using the Command line
+Using the Command Line
 ----------------------
 
-You can press the Space-bar or [Ctrl]-M to activate the command line.
+You can press the Spacebar or [Ctrl]-M to activate the command line.  Once it is active, the command prompt ("Command:", left of where input appears) turns blue.  So now when you press a key you are entering commands.
 
-When the command line is active the "Command:" (left of where input appears) turns blue. So now when you press a key you are entering commands.
-
-You press the [Esc] key to leave the command line and another [Esc] to cancel what you have written on the command line.
+Press the [Esc] key to leave the command line and another [Esc] to cancel what you have written on the command line.
 
 It is possible to enter a partial command, like "cir" and press [Tab] to have the command completed to circle. If you type too short a segment of a command, such as "c" and press [Tab], the command output will show "ch, circle, cut" because the command segment you typed in isn't unique.
 
@@ -36,10 +34,16 @@ Every command I describe below has a long format and a short format. For example
 
 To use the two letter format li you do not have to activate the commandline. Just type li and LibreCAD displays the prompt. If you wish to continue drawing with just mouse input, you click on drawing to enter the point, or click on the tools palette to select the snap mode or whatever.
 
-Clear commands from commands window
+
+Clear the Commands Window
+-------------------------
 
 To clear the list of commands from the command window - type "clear" in the command line.
-Drawing entities
+
+
+Drawing Entities
+----------------
+
 Drawing a point
 
 point
@@ -255,6 +259,7 @@ After issuing command da or clicking on icon or menu you can set other options o
     enter the angle for the dimension.
 
 Command Line Calculator
+-----------------------
 
 "cal", use command line as a math expression calculator. Some examples:
 
