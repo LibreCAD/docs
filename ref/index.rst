@@ -10,6 +10,6 @@ Reference
 
     The Coordinate System <coordinates>
     Application Menu <menu>
-    Using the Command Line <commandline>
     Drawing Tools <tools>
+    Using the Command Line <commandline>
 
