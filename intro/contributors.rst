@@ -18,7 +18,6 @@ Some of those that have contributed, directly or indirectly, include:
     - Dli
     - David Huff
     - Ferdi
-    - 
+    - Gary S
     - 
 
-The above contributers where identified having contributed to the wiki or posted on the forum.
