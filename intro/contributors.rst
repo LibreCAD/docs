@@ -7,8 +7,9 @@ There are many people who have contributed to the **LibreCAD User Manual**.  Tho
 
 Some of those that have contributed, directly or indirectly, include:
 
+
+    - R van Twisk
     - Armin (LordOfBikes)
-    - R. van Twisk
     - Ravas
     - Bob Woltz
     - Stano Sitar
