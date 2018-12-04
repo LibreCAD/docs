@@ -34,7 +34,7 @@ Since QCad CE was built around the outdated Qt3 library, it had to be ported to 
 What is CAD
 -----------
 
-**CAD** is short for *C*omputer-*A*ided *D*esign. That you are reading this means you probably already knew that.
+**CAD** is short for Computer-Aided *D* esign. That you are reading this means you probably already knew that.
 
 But why use CAD? The short explanation is that CAD automates away many precision functions that are necessary for engineering drawings. The longer reasons are so varied that you are likely to get about 200 detailed answers if you ask 100 engineers, designers or architects.
 
