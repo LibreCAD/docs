@@ -217,8 +217,10 @@ Others
 .. |icon20| image:: /images/icons/circle_2_points.svg
 .. |icon21| image:: /images/icons/circle_2_points_radius.svg
 .. |icon22| image:: /images/icons/circle_3_points.svg
-.. |icon23| image:: /images/icons/
-.. |icon24| image:: /images/icons/
+
+.. |icon23| 
+.. |icon24| 
+
 .. |icon25| image:: /images/icons/circle_tangential_2circles_radius.svg
 .. |icon26| image:: /images/icons/circle_tangential_2circles_point.svg
 .. |icon27| image:: /images/icons/circle_tangential_2points.svg
@@ -226,7 +228,7 @@ Others
 .. |icon29| image:: /images/icons/circle_tangential_2circles_radius.svg
 .. |icon30| image:: /images/icons/arc_center_point_angle.svg
 .. |icon32| image:: /images/icons/arc_3_points.svg
-.. |icon33| image:: /images/icons/
+.. |icon33| 
 .. |icon34| image:: /images/icons/arc_continuation.svg
 .. |icon35| image:: /images/icons/ellipse_axis.svg
 .. |icon36| image:: /images/icons/ellipse_arc_axis.svg
@@ -293,3 +295,4 @@ Others
 .. |icon97| image:: /images/icons/hatch.svg
 .. |icon98| image:: /images/icons/
 .. |icon99| image:: /images/icons/points.svg
+

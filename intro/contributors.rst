@@ -19,5 +19,4 @@ Some of those that have contributed, directly or indirectly, include:
     - David Huff
     - Ferdi
     - Gary S
-    - 
 
