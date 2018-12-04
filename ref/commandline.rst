@@ -6,7 +6,7 @@ Command Line
 Introduction
 ------------
 
-For a quick reference list of commands see `Drawing Tools <tools>`
+For a quick reference list of commands see :ref:`Drawing Tools <tools>`.
 
 This is intended for people that want to draw by entering commands. This can be faster and/or more precise than drawing using exclusively a mouse and toolbars.
 
