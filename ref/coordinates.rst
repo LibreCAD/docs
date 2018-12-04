@@ -76,7 +76,6 @@ Selection 028.png
 
 Angles in LibreCAD
 ``````````````````
-
 It is worth mentioning here a brief explanation of how angles work in LibreCAD.
 
 All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction (see image below) beginning from 0 
@@ -126,7 +125,7 @@ Snapping
     "Snap Intersection", |icon09|, "si", "Snap to the intersection of two entities. This does not currently work for polylines."
     "Restrict Horizontal", |icon10|, "rh", "Restricts the crosshairs to the x-axis (horizontal movement)."
     "Restrict Vertical", |icon11|, "rv", "Restricts the crosshairs to the y-axis  (vertical movement)."
-    "Restrict Orthogonal", |icon12|, "rr", "Restricts the crosshairs to the x or y-axis. (either horizontal or vertical movement)."
+    "Restrict Orthogonal", |icon12|, "rr", "Restricts the crosshairs to the x **or** y-axis. (either horizontal **or** vertical movement)."
     "Restrict Nothing", , "rn", "Turns off restricted cursor movements."
     "Set relative zero position", |icon13|, "", ""
     "Lock relative zero position", |icon14|, "", ""
