@@ -6,7 +6,7 @@ Overview
 LibreCAD's default application Window...
 
 
-.. figure:: /images/LC_default.png
+.. figure:: /images/LC_default_annotated.png
     :width: 1280px
     :height: 960px
     :align: center
