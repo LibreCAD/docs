@@ -12,7 +12,7 @@ LibreCAD User Manual
     :alt: LibreCAD Splash
 
 
-.. note::
+.. warning::
 
     *This is the development branch of the LibreCAD User documents and may (will) change frequently.*
     
