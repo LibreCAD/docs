@@ -11,5 +11,4 @@ Reference
     The Coordinate System <coordinates>
     Application Menu <menu>
     Drawing Tools <tools>
-    Using the Command Line <commandline>
 
