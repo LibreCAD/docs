@@ -10,5 +10,6 @@ Reference
 
     The Coordinate System <coordinates>
     Application Menu <menu>
+    Using the Command Line <commandline.rst>
     Drawing Tools <tools>
 
