@@ -7,6 +7,7 @@ Fonts
    :header: "Font Name","Font Filename","Font Type","Technical (\*)", "Sample"
    :widths: 30, 30, 40, 20, 30
    
+    "amiri-regular", "amiri-regular.lff", "Serif", "", |font01|
     "azomix_i", "azomix_i.lff", "Sans Serif ","X", |font02|
     "azomix", "azomix.lff", "Sans Serif ","X", |font03|
     "cursive", "cursive.lff", "Sans Serif ","X", |font04|
@@ -55,7 +56,7 @@ Fonts
 
 \*\: These fonts are composed of single lines and are suitable for technical drawings.
 
-**ASCII charater set render in each fonts:**
+**ASCII character set render in each font:**
 
 .. figure:: /images/fonts/appx_Fonts.png
     :width: 800px

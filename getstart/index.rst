@@ -10,5 +10,5 @@ Getting Started
 
     Install <install>
     Overview <overview>
-    Configure <config>
+    Configure <configure>
 
