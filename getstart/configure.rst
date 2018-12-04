@@ -14,6 +14,7 @@ LibreCAD is highly configurable..
 
 .. figure:: /images/LC_everything.png
     :width: 1280px
-    :align: center
     :height: 960px
-    :alt: LibreCAD Fonts
+    :align: center
+    :scale: 50
+    :alt: LibreCAD Application Window - custom layout
