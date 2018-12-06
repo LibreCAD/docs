@@ -58,16 +58,25 @@ If you are not running unstable/sid, and still want to upgrade LibreCAD to a new
 Other Distributions
 ~~~~~~~~~~~~~~~~~~~
 
-Packages are also available for the following Linux distributions:
-    - Arch Linux
-    - Fedora
-    - Gentoo
-    - OpenSUSE
+Packages are also available for the following Linux distributions through their respective repositories:
+
++------------------+---------------------------------------------------------------------+
+| Distribution     | Link to Repository                                                  |
++==================+=====================================================================+
+| Arch Linux       | <https://www.archlinux.org/packages/community/x86_64/librecad/>     |
+| Fedora           | https://apps.fedoraproject.org/packages/librecad                    |
+| Gentoo           | https://packages.gentoo.org/packages/media-gfx/librecad             |
+| OpenSUSE         | https://software.opensuse.org/package/librecad                      |             
++------------------+---------------------------------------------------------------------+
+
+
 
 
 Windows
 -------
+
 https://www.youtube.com/results?filters=playlist&search_query=librecad&lclk=playlist
+
 Stable releases
 ~~~~~~~~~~~~~~~
 
