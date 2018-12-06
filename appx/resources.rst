@@ -36,30 +36,6 @@ Installers
     |                        |                                                                          |
     |     SourceForge        | https://sourceforge.net/projects/librecad/files/Windows/                 |
     +------------------------+--------------------------------------------------------------------------+
-    | OSX\:                                                                                             |
-    +---------------------------------------------------------------------------------------------------+
-    |     GitHub             | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
-    |                        |                                                                          |
-    |     SourceForge        | https://sourceforge.net/projects/librecad/files/OSX/                     |
-    +------------------------+--------------------------------------------------------------------------+
-    | Linux Distributions\:                                                                             |
-    +---------------------------------------------------------------------------------------------------+
-    | Debian (Stable)        | https://packages.debian.org/stable/graphics/librecad                     |
-    |                        |                                                                          |
-    |        (UnStable)      | https://packages.debian.org/unstable/graphics/librecad                   |
-    |                        |                                                                          |
-    | Ubuntu PPA (Stable)    | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-stable      |
-    |                        |                                                                          |
-    | Ubuntu PPA (Daily)     | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-daily       |
-    |                        |                                                                          |
-    | Arch Linux             | https://www.archlinux.org/packages/community/x86_64/librecad/            |
-    |                        |                                                                          |
-    | Fedora                 | https://apps.fedoraproject.org/packages/librecad                         |
-    |                        |                                                                          |
-    | Gentoo                 | https://packages.gentoo.org/packages/media-gfx/librecad                  |
-    |                        |                                                                          |
-    | OpenSUSE               | https://software.opensuse.org/package/librecad                           |             
-    +------------------------+--------------------------------------------------------------------------+
 
 
 Reporting Bugs
