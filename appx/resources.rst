@@ -40,8 +40,10 @@ Installers
     |     GitHub             | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
     |     SourceForge        | https://sourceforge.net/projects/librecad/files/OSX/                     |
     +------------------------+--------------------------------------------------------------------------+
-    | Linux Distribution\:                                                                              |
-    +---------------------------------------------------------------------------------------------------+
+
+    +------------------------+--------------------------------------------------------------------------+
+    | Operating System       | URL                                                                      |
+    +========================+==========================================================================+
     | Debian (Stable)        | https://packages.debian.org/stable/graphics/librecad                     |
     |                        |                                                                          |
     |        (UnStable)      | https://packages.debian.org/unstable/graphics/librecad                   |
