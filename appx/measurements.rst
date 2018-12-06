@@ -26,7 +26,7 @@ LibreCAD supports a large number of measurement systems:
     "Decameter", "SI", "", "", ""
     "Hectometer", "SI", "", "", ""
     "Gigameter", "SI", "", "", ""
-    "Astro", "astronomical unit", "au, ua or AU", "", "also a ''a South Korean boy band''."
+    "Astro", "astronomical unit", "au, ua or AU", "", "also a \"a South Korean boy band''."
     "Lightyear", "astronomical unit", "ly", "63241 au", "First name ''Buzz''."
     "Parsecs", "astronomical unit", "pc", "≈ 206264.806247096 astronomical units", "er, big.  What else can one say?"
 
