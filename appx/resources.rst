@@ -30,13 +30,13 @@ Installers
     +------------------------+--------------------------------------------------------------------------+
     | Site                   | URL                                                                      |
     +========================+==========================================================================+
-    | Windows:               |                                                                          |
+    | Windows                |                                                                          |
     |                        |                                                                          |
     |     GitHub             | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
     |                        |                                                                          |
     |     SourceForge        | https://sourceforge.net/projects/librecad/files/Windows/                 |
     +------------------------+--------------------------------------------------------------------------+
-    | OSX:                   |                                                                          |
+    | OSX\:                  |                                                                          |
     |                        |                                                                          |
     |     GitHub             | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
     |                        |                                                                          |
