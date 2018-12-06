@@ -9,7 +9,18 @@ LibreCAD is available in two ways; as a general release, or as a "daily" release
 Windows
 -------
 
-Links to the Windows installers can be found in the :ref:`Resources <downloads>`_.
+Links to the MS Windows installers can be found in the :ref:`Resources <downloads>`_.
+
+
+Mac OS/X
+--------
+
+Links to the installers for OS/X 10.9 can be found in the :ref:`Resources <downloads>`_.
+
+For other versions of OS/X, please follow build instructions in the :ref: `appendix <build>`_.
+
+.. note::
+    If you an OS/X developer, please help us to improve DMG installers and MacPorts LibreCAD package.
 
 
 Linux
@@ -73,17 +84,6 @@ Packages are also available for the following Linux distributions through their 
     - OpenSUSE
 
 Links to the repository can be found in the :ref:`Resources <downloads>`_.
-
-
-Mac OS/X
---------
-
-OS/X installers for OS/X 10.9 are available at.
-
-For other versions of OS/X, please follow instructions to build LibreCAD from source code (see appendix XXX)
-
-.. note::
-    If you an OS/X developer, please help us to improve DMG installers and MacPorts LibreCAD package.
 
 
 Other
