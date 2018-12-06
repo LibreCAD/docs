@@ -47,9 +47,9 @@ Debian
 
 LibreCAD is available in the main repository of Debian 7.0 (Wheezy) and later as "librecad".  Use your favorite package manager (e.g. aptitude, synaptic, etc.) to install and configure it, or simply from command line type::
 
-   $ sudo apt-get install librecad
+   $ sudo apt install librecad
 
-You can always find the latest release in Debian unstable.
+You can always find the latest release in Debian Unstable.
 
 If you are not running unstable/sid, and still want to upgrade LibreCAD to a newer version in unstable/sid, you may download the LibreCAD debs from Debian unstable, and manually install them in your system by "dpkg -i"::
 
