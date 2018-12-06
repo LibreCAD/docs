@@ -6,7 +6,7 @@ Systems of Measurement
 LibreCAD supports a large number of measurement systems:
 
 .. csv-table::
-   :header: "Unit", "System", "Abbreviation", "Equivalences", "Uses"
+   :header: "Unit", "System", "Abbreviation", "Equivalences", "Uses (\*)"
    :widths: 20, 20, 10, 40, 60
 
     "Inch", "Imperial", "in", "3 barleycorns", "Widely used in the United States, Canada, and the United Kingdom."
@@ -26,7 +26,7 @@ LibreCAD supports a large number of measurement systems:
     "Decameter", "SI", "", "", ""
     "Hectometer", "SI", "", "", ""
     "Gigameter", "SI", "", "", ""
-    "Astro", "astronomical unit", "au, ua or AU", "", "also a \"a South Korean boy band''."
+    "Astro", "astronomical unit", "au, ua or AU", "", "also a ''a South Korean boy band''."
     "Lightyear", "astronomical unit", "ly", "63241 au", "First name ''Buzz''."
     "Parsecs", "astronomical unit", "pc", "≈ 206264.806247096 astronomical units", "er, big.  What else can one say?"
 
