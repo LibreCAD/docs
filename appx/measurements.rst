@@ -3,7 +3,7 @@
 Systems of Measurement
 ======================
 
-LibreCAD supports a large number of measurement systems:
+LibreCAD supports a large number of measurement systems/units:
 
 .. csv-table::
    :header: "Unit", "Abbreviation", "System", "Equivalences", "Uses (\*)"
@@ -31,4 +31,4 @@ LibreCAD supports a large number of measurement systems:
     "Parsecs", "pc", "astronomical unit", "≈ 206264.806247096 astronomical units", "er, big.  What else can one say?"
 
 
-\*: Obtained from Wikipedia and Wiktionary and paraphrased by the author of this page.
+\*: Obtained from Wikipedia and Wiktionary and wildly interpreted by the author of this page.
