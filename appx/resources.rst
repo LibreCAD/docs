@@ -32,13 +32,13 @@ Installers
     +========================+==========================================================================+
     | Windows\:                                                                                         |
     +---------------------------------------------------------------------------------------------------+
-    |   | GitHub             | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
-    |   | SourceForge        | https://sourceforge.net/projects/librecad/files/Windows/                 |
+    |     GitHub             | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
+    |     SourceForge        | https://sourceforge.net/projects/librecad/files/Windows/                 |
     +------------------------+--------------------------------------------------------------------------+
     | OSX\:                                                                                             |
     +---------------------------------------------------------------------------------------------------+
-    | |    GitHub            | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
-    | |    SourceForge        | https://sourceforge.net/projects/librecad/files/OSX/                     |
+    |     GitHub             | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
+    |     SourceForge        | https://sourceforge.net/projects/librecad/files/OSX/                     |
     +------------------------+--------------------------------------------------------------------------+
 
 
