@@ -28,7 +28,7 @@ LibreCAD supports a large number of measurement systems/units:
     "Gigameter", "Gm", "SI", "1,000,000,000 meters", "That's one beeellion meters."
     "Astro", "au, ua or AU", "astronomical unit", "", "also a ''a South Korean boy band''."
     "Lightyear", "ly", "astronomical unit", "63241 au", "First name ''Buzz''."
-    "Parsecs", "pc", "astronomical unit", "≈ 206264.806247096 astronomical units", "er, big.  What else can one say?"
+    "Parsecs", "pc", "astronomical unit", "≈ 206264.806247096 astronomical units", "er, big.  What else can one say?  MAde popular by James T."
 
 
 \*: Obtained from Wikipedia and Wiktionary and wildly interpreted by the author of this page.
