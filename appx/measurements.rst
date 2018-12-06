@@ -16,8 +16,6 @@ LibreCAD supports a large number of measurement systems:
     "Centimeter", "SI", "", "", ""
     "Meter", "SI", "", "", ""
     "Kilometer", "SI", "", "", ""
-    "Microinch", "", "", "", ""
-
 
 
 \*: Obtained from Wikipedia and Wiktionary and paraphrased by the author of this page.
