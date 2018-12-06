@@ -19,6 +19,6 @@ LibreCAD supports a large number of measurement systems:
     "Microinch", "Imperial", "", "", ""
     "Mil", "Imperial", "mil", "1/100 of an inch", "Replaced with ''thou'' (but not you)."
     "Yard", "Imperial", "yd" ," 3 foots", "Measure ale!"
-    "Angstrom", "", "å", "≈ one ten-billionth of a meter", "Zoom to a parsec - I dare you."
+    "Angstrom", "", "", "one ten-billionth of a meter", "Zoom to a parsec - I dare you."
 
 \*: Obtained from Wikipedia and Wiktionary and paraphrased by the author of this page.
