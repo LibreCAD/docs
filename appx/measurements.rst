@@ -30,4 +30,4 @@ LibreCAD supports a large number of measurement systems:
     "Lightyear", "astronomical unit", "ly", "63241 au", "First name "Buzz"."
     "Parsecs", "astronomical unit", "pc", "≈ 206264.806247096 astronomical units", "er, big.  What else can one say?"
 
-*: Obtained from Wikipedia and Wiktionary and paraphrased by the author of this page.
+\*: Obtained from Wikipedia and Wiktionary and paraphrased by the author of this page.
