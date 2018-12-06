@@ -30,7 +30,7 @@ Installers
     +------------------------+--------------------------------------------------------------------------+
     | Operating System       | URL                                                                      |
     +========================+==========================================================================+
-    | Windows\:                                                                                         |
+    | Windows:                                                                                          |
     +---------------------------------------------------------------------------------------------------+
     |     GitHub             | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
     |     SourceForge        | https://sourceforge.net/projects/librecad/files/Windows/                 |
@@ -40,14 +40,8 @@ Installers
     |     GitHub             | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
     |     SourceForge        | https://sourceforge.net/projects/librecad/files/OSX/                     |
     +------------------------+--------------------------------------------------------------------------+
-
-
-Linux
-~~~~~
-
-    +------------------------+--------------------------------------------------------------------------+
-    | Distribution           | Link to Repository                                                       |
-    +========================+==========================================================================+
+    | Linux Distribution\:                                                                                         |
+    +---------------------------------------------------------------------------------------------------+
     | Debian (Stable)        | https://packages.debian.org/stable/graphics/librecad                     |
     |                        |                                                                          |
     |        (UnStable)      | https://packages.debian.org/unstable/graphics/librecad                   |
