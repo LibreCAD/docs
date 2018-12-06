@@ -6,19 +6,6 @@ Internet Resources
 LibreCAD main website: https://librecad.org/
 
 
-.. _help:
-
-Getting Help
-------------
-
-There are many other resources for getting help with LibreCAD:
-    - LibreCAD forum: http://forum.librecad.org/
-    - LibreCAD Wiki \:
-        - FAQ: https://wiki.librecad.org/index.php/FAQ
-        - Tutorials: https://wiki.librecad.org/index.php?title=Tutorials
-        - Part Libraries: https://wiki.librecad.org/index.php/Part_Libraries
-
-
 .. _downloads:
 
 Download Installation Packages
@@ -45,6 +32,19 @@ Download Installation Packages
     |   | Gentoo                  | | https://packages.gentoo.org/packages/media-gfx/librecad                |
     |   | OpenSUSE                | | https://software.opensuse.org/package/librecad                         |
     +-----------------------------+--------------------------------------------------------------------------+
+
+
+.. _help:
+
+Getting Help
+------------
+
+There are many other resources for getting help with LibreCAD:
+    - LibreCAD forum: http://forum.librecad.org/
+    - LibreCAD Wiki \:
+        - FAQ: https://wiki.librecad.org/index.php/FAQ
+        - Tutorials: https://wiki.librecad.org/index.php?title=Tutorials
+        - Part Libraries: https://wiki.librecad.org/index.php/Part_Libraries
 
 
 Reporting Bugs
