@@ -30,20 +30,20 @@ Installers
     +------------------------+--------------------------------------------------------------------------+
     | Operating System       | URL                                                                      |
     +========================+==========================================================================+
-    | Windows:                                                                                          |
+    | Windows\:                                                                                          |
     +---------------------------------------------------------------------------------------------------+
-    |    | GitHub            | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
-    |    | SourceForge       | https://sourceforge.net/projects/librecad/files/Windows/                 |
+    |     GitHub             | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
+    |                        |                                                                          |
+    |     SourceForge        | https://sourceforge.net/projects/librecad/files/Windows/                 |
     +------------------------+--------------------------------------------------------------------------+
     | OSX\:                                                                                             |
     +---------------------------------------------------------------------------------------------------+
     |     GitHub             | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
+    |                        |                                                                          |
     |     SourceForge        | https://sourceforge.net/projects/librecad/files/OSX/                     |
     +------------------------+--------------------------------------------------------------------------+
-
-    +------------------------+--------------------------------------------------------------------------+
-    | Operating System       | URL                                                                      |
-    +========================+==========================================================================+
+    | Linux Distributions\:                                                                                          |
+    +---------------------------------------------------------------------------------------------------+
     | Debian (Stable)        | https://packages.debian.org/stable/graphics/librecad                     |
     |                        |                                                                          |
     |        (UnStable)      | https://packages.debian.org/unstable/graphics/librecad                   |
