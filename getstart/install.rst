@@ -3,6 +3,20 @@
 Installation Instructions
 =========================
 
+Windows
+-------
+
+Stable releases
+~~~~~~~~~~~~~~~
+
+Installers can be downloaded from LibreCAD's Official `Release page <https://GitHub.com/LibreCAD/LibreCAD/releases>`_ on GitHub.  Installers are also available from `SourceForge <https://sourceforge.net/projects/librecad/files/Windows/>`_.
+
+Nightly builds
+~~~~~~~~~~~~~~
+
+"Nightly builds" are pre-release versions for people interested in testing updates.  These versions represent the bleeding edge of LibreCAD development and *might* contain bugs or new features under development.  New features may or may not be included in next release version.
+
+
 Linux
 -----
 
@@ -35,12 +49,6 @@ For those that want to live on the bleeding edge and try out the newest features
    $ sudo apt-get update
    $ sudo apt-get install librecad
 
-The above command will install the most recent version from the LibreCAD GitHub repository. 
-
-.. note: 
-
-Please report any bugs at LibreCAD's GitHub Issues page (see :ref:`Getting Help <resource>`).
-
 
 Debian
 ~~~~~~
@@ -51,7 +59,7 @@ LibreCAD is available in the main repository of Debian 7.0 (Wheezy) and later as
 
 You can always find the latest release in Debian Unstable.
 
-If you are not running unstable/sid, and still want to upgrade LibreCAD to a newer version in unstable/sid, you may download the LibreCAD debs from Debian unstable, and manually install them in your system by "dpkg -i"::
+If you are not running unstable/Sid, and still want to upgrade LibreCAD to a newer version in unstable/Sid, you may download the LibreCAD debs from Debian unstable, and manually install them in your system by "dpkg -i"::
 
    $ sudo dpkg -i /path/to/librecad_1.0.0~rc3+nolibs-1_i386.deb
    $ sudo dpkg -i /path/to/librecad-data_1.0.0~rc3+nolibs-1_i386.deb
@@ -62,35 +70,25 @@ Linux Application Repositories
 
 Packages are also available for the following Linux distributions through their respective repositories:
 
-    +------------------+--------------------------------------------------------------------------+
-    | Distribution     | Link to Repository                                                       |
-    +==================+==========================================================================+
-    | Debian (Stretch) | https://packages.debian.org/stretch/librecad/                            |
-    |                  |                                                                          |
-    | Ubuntu (Stable)  | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-stable/     |
-    |                  |                                                                          |
-    | Arch Linux       | https://www.archlinux.org/packages/community/x86_64/librecad/            |
-    |                  |                                                                          |
-    | Fedora           | https://apps.fedoraproject.org/packages/librecad                         |
-    |                  |                                                                          |
-    | Gentoo           | https://packages.gentoo.org/packages/media-gfx/librecad/                 |
-    |                  |                                                                          |
-    | OpenSUSE         | https://software.opensuse.org/package/librecad/                          |             
-    +------------------+--------------------------------------------------------------------------+
-
-
-Windows
--------
-
-Stable releases
-~~~~~~~~~~~~~~~
-
-Installers can be downloaded from LibreCAD's Official `Release page <https://GitHub.com/LibreCAD/LibreCAD/releases>`_ on GitHub.  Installers are also available from `SourceForge <https://sourceforge.net/projects/librecad/files/Windows/>`_.
-
-Nightly builds
-~~~~~~~~~~~~~~
-
-"Nightly builds" are pre-release versions for people interested in testing updates.  These versions represent the bleeding edge of LibreCAD development and *might* contain bugs or new features under development.  New features may or may not be included in next release version.
+    +------------------------+--------------------------------------------------------------------------+
+    | Distribution           | Link to Repository                                                       |
+    +========================+==========================================================================+
+    | Debian (Stable)        | https://packages.debian.org/stable/graphics/librecad                     |
+    |                        |                                                                          |
+    |        (UnStable)      | https://packages.debian.org/unstable/graphics/librecad                   |
+    |                        |                                                                          |
+    | Ubuntu PPA (Stable)    | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-stable      |
+    |                        |                                                                          |
+    | Ubuntu PPA (Daily)     | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-daily       |
+    |                        |                                                                          |
+    | Arch Linux             | https://www.archlinux.org/packages/community/x86_64/librecad/            |
+    |                        |                                                                          |
+    | Fedora                 | https://apps.fedoraproject.org/packages/librecad                         |
+    |                        |                                                                          |
+    | Gentoo                 | https://packages.gentoo.org/packages/media-gfx/librecad                  |
+    |                        |                                                                          |
+    | OpenSUSE               | https://software.opensuse.org/package/librecad                           |             
+    +------------------------+--------------------------------------------------------------------------+
 
 
 Mac OS/X
