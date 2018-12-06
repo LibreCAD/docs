@@ -37,7 +37,7 @@ For those that want to live on the bleeding edge and try out the newest features
 
 .. note: 
 
-The above command will install the most recent version from our GitHub repository. Please report any bugs at LibreCAD's GitHub Issues page (https://GitHub.com/LibreCAD/LibreCAD/issues).
+The above command will install the most recent version from our GitHub repository. Please report any bugs at LibreCAD's GitHub Issues page (see `Getting Help <resource>`).
 
 
 Debian
@@ -55,14 +55,16 @@ If you are not running unstable/sid, and still want to upgrade LibreCAD to a new
    $ sudo dpkg -i /path/to/librecad-data_1.0.0~rc3+nolibs-1_i386.deb
 
 
-Other Distributions
-~~~~~~~~~~~~~~~~~~~
+Linux Application Repositories
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Packages are also available for the following Linux distributions through their respective repositories:
 
     +------------------+---------------------------------------------------------------------+
     | Distribution     | Link to Repository                                                  |
     +==================+=====================================================================+
+    | Debian (Stretch) | https://packages.debian.org/stretch/librecad                        |
+    | Ubuntu (Stable)  | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-stable |
     | Arch Linux       | https://www.archlinux.org/packages/community/x86_64/librecad/       |
     | Fedora           | https://apps.fedoraproject.org/packages/librecad                    |
     | Gentoo           | https://packages.gentoo.org/packages/media-gfx/librecad             |
@@ -70,17 +72,13 @@ Packages are also available for the following Linux distributions through their 
     +------------------+---------------------------------------------------------------------+
 
 
-
-
 Windows
 -------
-
-https://www.youtube.com/results?filters=playlist&search_query=librecad&lclk=playlist
 
 Stable releases
 ~~~~~~~~~~~~~~~
 
-Installers can be downloaded from LibreCAD's Official` Release page <https://GitHub.com/LibreCAD/LibreCAD/releases>`_ on GitHub.  Installers are also available from `SourceForge <https://sourceforge.net/projects/librecad/files/Windows/>`_.
+Installers can be downloaded from LibreCAD's Official `Release page <https://GitHub.com/LibreCAD/LibreCAD/releases>`_ on GitHub.  Installers are also available from `SourceForge <https://sourceforge.net/projects/librecad/files/Windows/>`_.
 
 Nightly builds
 ~~~~~~~~~~~~~~
