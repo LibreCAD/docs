@@ -1,7 +1,10 @@
 .. _install: 
 
-Installation Instructions
-=========================
+Download and Install
+====================
+
+LibreCAD is available in two ways; as a general release, or as a "daily" release.  The general release is the most stable and is recommended for most users.  The daily, or "unstable", build represents the cutting edge of LibreCAD development and *might* contain bugs or new, incomlplete features under development.  The new features may or may not be included in next general release version.  LibreCAD can also be built from the source code so users can compile the most current code base for their platform.
+
 
 Windows
 -------
@@ -15,6 +18,8 @@ Nightly builds
 ~~~~~~~~~~~~~~
 
 "Nightly builds" are pre-release versions for people interested in testing updates.  These versions represent the bleeding edge of LibreCAD development and *might* contain bugs or new features under development.  New features may or may not be included in next release version.
+
+
 
 
 Linux
