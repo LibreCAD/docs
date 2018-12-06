@@ -24,21 +24,24 @@ There are many other resources for getting help with LibreCAD:
 Download Locations
 ------------------
 
-Windows
-~~~~~~~
-
-Windows installers can be downloaded from LibreCAD's Official Release page <>`_ on GitHub
+Installers
+~~~~~~~~~~
 
     +------------------------+--------------------------------------------------------------------------+
     | Site                   | URL                                                                      |
     +========================+==========================================================================+
-    | GitHub                 | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
-    | SourceForge            | https://sourceforge.net/projects/librecad/files/Windows/                 |
+    | Windows:               |                                                                          |
+    |                        |                                                                          |
+    |     GitHub             | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
+    |                        |                                                                          |
+    |     SourceForge        | https://sourceforge.net/projects/librecad/files/Windows/                 |
     +------------------------+--------------------------------------------------------------------------+
-
-
-Mac OSX
-~~~~~~~
+    | OSX:                   |                                                                          |
+    |                        |                                                                          |
+    |     GitHub             | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
+    |                        |                                                                          |
+    |     SourceForge        | https://sourceforge.net/projects/librecad/files/OSX/                     |
+    +------------------------+--------------------------------------------------------------------------+
 
 
 Linux
