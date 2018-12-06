@@ -62,18 +62,17 @@ Linux Application Repositories
 
 Packages are also available for the following Linux distributions through their respective repositories:
 
-    +------------------+---------------------------------------------------------------------+
-    | Distribution     | Link to Repository                                                  |
-    +==================+=====================================================================+
-    | Debian (Stretch) | https://packages.debian.org/stretch/librecad                        |
-    | Ubuntu (Stable)  | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-stable |
-    | Arch Linux       | ArchLinux_                                                          |
-    | Fedora           | https://apps.fedoraproject.org/packages/librecad                    |
-    | Gentoo           | https://packages.gentoo.org/packages/media-gfx/librecad             |
-    | OpenSUSE         | https://software.opensuse.org/package/librecad                      |             
-    +------------------+---------------------------------------------------------------------+
+    +------------------+--------------------------------------------------------------------------+
+    | Distribution     | Link to Repository                                                       |
+    +==================+==========================================================================+
+    | Debian (Stretch) | https://packages.debian.org/stretch/librecad/                            |
+    | Ubuntu (Stable)  | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-stable/     |
+    | Arch Linux       | https://www.archlinux.org/packages/community/x86_64/librecad/            |
+    | Fedora           | https://apps.fedoraproject.org/packages/librecad                         |
+    | Gentoo           | https://packages.gentoo.org/packages/media-gfx/librecad/                 |
+    | OpenSUSE         | https://software.opensuse.org/package/librecad/                          |             
+    +------------------+--------------------------------------------------------------------------+
 
- .. _ArchLinux: https://www.archlinux.org/packages/community/x86_64/librecad/
 
 Windows
 -------
