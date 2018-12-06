@@ -30,7 +30,7 @@ Installation Packages
     +-----------------------------+--------------------------------------------------------------------------+
     | Operating System            | URL                                                                      |
     +=============================+==========================================================================+
-    |  MS Windows\:               | |                                                                        |
+    | MS Windows\:                | |                                                                        |
     |   | GitHub                  | | https://GitHub.com/LibreCAD/LibreCAD/releases                          |
     |   | SourceForge             | | https://sourceforge.net/projects/librecad/files/Windows/               |
     +-----------------------------+--------------------------------------------------------------------------+
@@ -46,7 +46,7 @@ Installation Packages
     |   | Arch Linux              | | https://www.archlinux.org/packages/community/x86_64/librecad/          |
     |   | Fedora                  | | https://apps.fedoraproject.org/packages/librecad                       |
     |   | Gentoo                  | | https://packages.gentoo.org/packages/media-gfx/librecad                |
-    |   | penSUSE                 | | https://software.opensuse.org/package/librecad                         |
+    |   | OpenSUSE                | | https://software.opensuse.org/package/librecad                         |
     +-----------------------------+--------------------------------------------------------------------------+
 
 
