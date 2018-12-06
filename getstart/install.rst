@@ -35,9 +35,11 @@ For those that want to live on the bleeding edge and try out the newest features
    $ sudo apt-get update
    $ sudo apt-get install librecad
 
+The above command will install the most recent version from the LibreCAD GitHub repository. 
+
 .. note: 
 
-The above command will install the most recent version from our GitHub repository. Please report any bugs at LibreCAD's GitHub Issues page (see `Getting Help <resource>`).
+Please report any bugs at LibreCAD's GitHub Issues page (see :ref:`Getting Help <resource>`).
 
 
 Debian
@@ -65,12 +67,13 @@ Packages are also available for the following Linux distributions through their 
     +==================+=====================================================================+
     | Debian (Stretch) | https://packages.debian.org/stretch/librecad                        |
     | Ubuntu (Stable)  | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-stable |
-    | Arch Linux       | https://www.archlinux.org/packages/community/x86_64/librecad/       |
+    | Arch Linux       | ArchLinux_                                                          |
     | Fedora           | https://apps.fedoraproject.org/packages/librecad                    |
     | Gentoo           | https://packages.gentoo.org/packages/media-gfx/librecad             |
     | OpenSUSE         | https://software.opensuse.org/package/librecad                      |             
     +------------------+---------------------------------------------------------------------+
 
+ .. _ArchLinux: https://www.archlinux.org/packages/community/x86_64/librecad/
 
 Windows
 -------
@@ -106,10 +109,6 @@ FreeBSD
 LibreCAD is available from [ports], and can be installed as a binary package::
 
    # pkg install librecad
-
-
-Android via Ubuntu Chroot
-~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Build from Source Code
