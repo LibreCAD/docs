@@ -37,8 +37,8 @@ Installers
     +------------------------+--------------------------------------------------------------------------+
     | OSX\:                                                                                             |
     +---------------------------------------------------------------------------------------------------+
-    ||     GitHub             | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
-    ||     SourceForge        | https://sourceforge.net/projects/librecad/files/OSX/                     |
+    | |    GitHub            | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
+    | |    SourceForge        | https://sourceforge.net/projects/librecad/files/OSX/                     |
     +------------------------+--------------------------------------------------------------------------+
 
 
