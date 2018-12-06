@@ -21,11 +21,8 @@ There are many other resources for getting help with LibreCAD:
 
 .. _downloads:
 
-Download Locations
-------------------
-
-Installation Packages
-~~~~~~~~~~~~~~~~~~~~~
+Download Installation Packages
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     +-----------------------------+--------------------------------------------------------------------------+
     | Operating System            | URL                                                                      |
