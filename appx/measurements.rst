@@ -17,8 +17,7 @@ LibreCAD supports a large number of measurement systems:
     "Meter", "SI", "", "", ""
     "Kilometer", "SI", "", "", ""
     "Microinch", "", "", "", ""
-    "Mil", "imperial", "mil", "1/100 of an inch", "Replaced with ''thou'' (but not you)."
-    "Yard", "imperial", "yd" ," 3 foots", "Measure ale!"
+
 
 
 \*: Obtained from Wikipedia and Wiktionary and paraphrased by the author of this page.
