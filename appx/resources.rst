@@ -1,17 +1,71 @@
 .. _resources: 
 
-Getting Help
-============
+Internet Resources
+==================
 
-There are many other resource for LibreCAD
-    - LibreCAD forum
+LibreCAD main website: https://librecad.org/
+
+
+.. _help:
+
+Getting Help
+------------
+
+There are many other resources for getting help with LibreCAD:
+    - LibreCAD forum: http://forum.librecad.org/
     - LibreCAD Wiki \:
-        - `FAQ <https://wiki.librecad.org/index.php/FAQ>`_
-        - `Tutorials <https://wiki.librecad.org/index.php?title=Tutorials>`_
-        - `Part Libraries <https://wiki.librecad.org/index.php/Part_Libraries>`_
+        - FAQ: https://wiki.librecad.org/index.php/FAQ
+        - Tutorials: https://wiki.librecad.org/index.php?title=Tutorials
+        - Part Libraries: https://wiki.librecad.org/index.php/Part_Libraries
+
+
+.. _downloads:
+
+Download Locations
+------------------
+
+Windows
+~~~~~~~
+
+Windows installers can be downloaded from LibreCAD's Official Release page <>`_ on GitHub
+
+    +------------------------+--------------------------------------------------------------------------+
+    | Site                   | URL                                                                      |
+    +========================+==========================================================================+
+    | GitHub                 | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
+    | SourceForge            | https://sourceforge.net/projects/librecad/files/Windows/                 |
+    +------------------------+--------------------------------------------------------------------------+
+
+
+Mac OSX
+~~~~~~~
+
+
+Linux
+~~~~~
+
+    +------------------------+--------------------------------------------------------------------------+
+    | Distribution           | Link to Repository                                                       |
+    +========================+==========================================================================+
+    | Debian (Stable)        | https://packages.debian.org/stable/graphics/librecad                     |
+    |                        |                                                                          |
+    |        (UnStable)      | https://packages.debian.org/unstable/graphics/librecad                   |
+    |                        |                                                                          |
+    | Ubuntu PPA (Stable)    | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-stable      |
+    |                        |                                                                          |
+    | Ubuntu PPA (Daily)     | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-daily       |
+    |                        |                                                                          |
+    | Arch Linux             | https://www.archlinux.org/packages/community/x86_64/librecad/            |
+    |                        |                                                                          |
+    | Fedora                 | https://apps.fedoraproject.org/packages/librecad                         |
+    |                        |                                                                          |
+    | Gentoo                 | https://packages.gentoo.org/packages/media-gfx/librecad                  |
+    |                        |                                                                          |
+    | OpenSUSE               | https://software.opensuse.org/package/librecad                           |             
+    +------------------------+--------------------------------------------------------------------------+
 
 
 Reporting Bugs
-==============
+--------------
 
 Please report any bugs at `LibreCAD's GitHub Issues page <https://GitHub.com/LibreCAD/LibreCAD/issues>`_.

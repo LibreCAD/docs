@@ -75,26 +75,14 @@ Linux Application Repositories
 
 Packages are also available for the following Linux distributions through their respective repositories:
 
-    +------------------------+--------------------------------------------------------------------------+
-    | Distribution           | Link to Repository                                                       |
-    +========================+==========================================================================+
-    | Debian (Stable)        | https://packages.debian.org/stable/graphics/librecad                     |
-    |                        |                                                                          |
-    |        (UnStable)      | https://packages.debian.org/unstable/graphics/librecad                   |
-    |                        |                                                                          |
-    | Ubuntu PPA (Stable)    | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-stable      |
-    |                        |                                                                          |
-    | Ubuntu PPA (Daily)     | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-daily       |
-    |                        |                                                                          |
-    | Arch Linux             | https://www.archlinux.org/packages/community/x86_64/librecad/            |
-    |                        |                                                                          |
-    | Fedora                 | https://apps.fedoraproject.org/packages/librecad                         |
-    |                        |                                                                          |
-    | Gentoo                 | https://packages.gentoo.org/packages/media-gfx/librecad                  |
-    |                        |                                                                          |
-    | OpenSUSE               | https://software.opensuse.org/package/librecad                           |             
-    +------------------------+--------------------------------------------------------------------------+
+    - Debian (Stable and Unstable)
+    - Ubuntu (Stable and Daily PPAs)
+    - Arch Linux
+    - Fedora
+    - Gentoo
+    - OpenSUSE
 
+Links to the repository can be found in the :ref:`Resources <downloads>`_.
 
 Mac OS/X
 --------
