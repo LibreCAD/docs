@@ -3,7 +3,7 @@
 Systems of Measurement
 ======================
 
-LibreCAD supports a large number of measurement systems::
+LibreCAD supports a large number of measurement systems:
 
 .. csv-table::
    :header: "Unit","System", "Abbreviation", "Equivalences", "Uses (*)"
@@ -19,7 +19,7 @@ LibreCAD supports a large number of measurement systems::
     "Microinch", "", "", "", ""
     "Mil", "mil", "", "1/100 of an inch", "Replaced with \"thou\" (but not you)."
     "Yard", "imperial", "yd" ," 3 foots", "Measure ale!"
-    "Angstrom", "", "å", "one ten-billionth of a meter", "Measure the wavelength of electromagnetic radiation or distances between atoms."
+    "Angstrom", "", "å", "≈ one ten-billionth of a meter", "Zoom to a parsec - I dare you."
     "Nanometer", "SI", "", "", ""
     "Micron", "", "", "", ""
     "Decimeter", "SI", "", "", ""
