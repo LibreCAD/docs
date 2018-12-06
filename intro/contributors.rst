@@ -9,7 +9,7 @@ Some of those that have contributed, directly or indirectly, include:
 
 
     - R\. van Twisk
-    - Armin (LordOfBikes)
+    - Armin Stebich (LordOfBikes)
     - Ravas
     - Bob Woltz
     - Stano Sitar
