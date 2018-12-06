@@ -6,23 +6,6 @@ Download and Install
 LibreCAD is available in two ways; as a general release, or as a "daily" release.  The general release is the most stable and is recommended for most users.  The daily, or "unstable", build represents the cutting edge of LibreCAD development and *might* contain bugs or new, incomlplete features under development.  The new features may or may not be included in next general release version.  LibreCAD can also be built from the source code so users can compile the most current code base for their platform.
 
 
-Windows
--------
-
-Links to the MS Windows installers can be found in the :ref:`Resources <downloads>`.
-
-
-Mac OS/X
---------
-
-Links to the installers for OS/X 10.9 can be found in the :ref:`Resources <downloads>`.
-
-For other versions of OS/X, please follow build instructions in the :ref:`appendix <build>`.
-
-.. note::
-    If you an OS/X developer, please help us to improve DMG installers and MacPorts LibreCAD package.
-
-
 Linux
 -----
 
