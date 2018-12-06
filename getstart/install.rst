@@ -9,17 +9,7 @@ LibreCAD is available in two ways; as a general release, or as a "daily" release
 Windows
 -------
 
-Stable releases
-~~~~~~~~~~~~~~~
-
-Installers can be downloaded from LibreCAD's Official `Release page <https://GitHub.com/LibreCAD/LibreCAD/releases>`_ on GitHub.  Installers are also available from `SourceForge <https://sourceforge.net/projects/librecad/files/Windows/>`_.
-
-Nightly builds
-~~~~~~~~~~~~~~
-
-"Nightly builds" are pre-release versions for people interested in testing updates.  These versions represent the bleeding edge of LibreCAD development and *might* contain bugs or new features under development.  New features may or may not be included in next release version.
-
-
+Links to the Windows installers can be found in the :ref:`Resources <downloads>`_.
 
 
 Linux
@@ -84,10 +74,11 @@ Packages are also available for the following Linux distributions through their 
 
 Links to the repository can be found in the :ref:`Resources <downloads>`_.
 
+
 Mac OS/X
 --------
 
-OS/X installers for OS/X 10.9 are available at `SourceForge <http://sourceforge.net/projects/librecad/files/OSX/>`_.
+OS/X installers for OS/X 10.9 are available at.
 
 For other versions of OS/X, please follow instructions to build LibreCAD from source code (see appendix XXX)
 
