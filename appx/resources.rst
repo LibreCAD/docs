@@ -30,13 +30,14 @@ Installers
     +------------------------+--------------------------------------------------------------------------+
     | Operating System       | URL                                                                      |
     +========================+==========================================================================+
-    |    | GitHub            | https://GitHub.com/LibreCAD/LibreCAD/releases                            |
+    |    | GitHub            |                                                                          |
     |                        |                                                                          |
-    |    | SourceForge       | https://sourceforge.net/projects/librecad/files/Windows/                 |
+    |    | SourceForge       |                                                                          |
     +------------------------+--------------------------------------------------------------------------+
 
 
 Reporting Bugs
 --------------
 
-Please report any bugs at `LibreCAD's GitHub Issues page <https://GitHub.com/LibreCAD/LibreCAD/issues>`_.
+Please report any bugs at LibreCAD's GitHub Issues page: https://GitHub.com/LibreCAD/LibreCAD/issues
+
