@@ -13,7 +13,7 @@ LibreCAD supports a large number of measurement systems/units:
     "Foot", "ft", "Imperial", "Size 46 (EU) shoe size",  "Still widely used in the United States, Canada, and the United Kingdom."
     "Mile", "mi", "Imperial", "0.2756 of a Dutch mile", "Used way too often in other than a ''international mile''."
     "Millimeter", "mm", "SI", "More than 25 in an in", "Vanilli's favorite"
-    "Centimeter", "cm", "SI", "", ""
+    "Centimeter", "cm", "SI", "", "For measuring 'pedes'."
     "Meter", "m", "SI", "nm", ""
     "Kilometer", "km", "SI", "", "Sigh, SI units are not funny..."
     "Microinch", "µin", "Imperial", "", ""
