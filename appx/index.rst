@@ -8,9 +8,9 @@ Appendices
 .. toctree::
    :maxdepth: 2
 
-    LibreCAD Fonts <font-list>
-    Systems of Measurement <measurements>
-    Blocks <block-list>
+    Online Resources <resources>
     Building from Source <build>
-    Other Resources <resources>
+    LibreCAD Fonts <font-list>
+    Blocks <block-list>
+    Systems of Measurement <measurements>
     GNU General Public License <gpl-license>
