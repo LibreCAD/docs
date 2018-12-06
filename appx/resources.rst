@@ -1,7 +1,7 @@
 .. _resources: 
 
-Internet Resources
-==================
+Online Resources
+================
 
 LibreCAD main website: https://librecad.org/
 
