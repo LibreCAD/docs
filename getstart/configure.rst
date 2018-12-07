@@ -37,7 +37,7 @@ LibreCAD's layout and appearance is highly configurable.
     :width: 1280px
     :height: 960px
     :align: center
-    :scale: 50
+    :scale: 67
     :alt: LibreCAD Application Window - custom layout
 
 
