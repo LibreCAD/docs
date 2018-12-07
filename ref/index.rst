@@ -11,4 +11,5 @@ Reference
     The Coordinate System <coordinates>
     Application Menu <menu>
     Drawing Tools <tools>
+    Drawing Preferences <draw-pref>
 

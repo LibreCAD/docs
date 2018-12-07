@@ -24,8 +24,10 @@ LibreCAD then starts wit hits default configuration and is ready use.
     :alt: LibreCAD Application Window
 
 
-Application Layout
-------------------
+.. _app-layout:
+
+Layout
+------
 
 LibreCAD's layout and appearance is highly configurable:
 
@@ -44,15 +46,15 @@ LibreCAD's layout and appearance is highly configurable:
 
 .. _app-prefs:
 
-Application Preferences
-------------------------
+Preferences
+-----------
 
 
 .. figure:: /images/AppPref1.png
     :width: 785px
     :height: 623px
     :align: right
-    :scale: 67
+    :scale: 50
     :alt: LibreCAD Application Preferences - Appearance
 
 
@@ -60,7 +62,7 @@ Application Preferences
     :width: 785px
     :height: 623px
     :align: right
-    :scale: 67
+    :scale: 50
     :alt: LibreCAD Application Window - Pathes
 
 
@@ -68,7 +70,7 @@ Application Preferences
     :width: 785px
     :height: 623px
     :align: right
-    :scale: 67
+    :scale: 50
     :alt: LibreCAD Application Window - Defaults
 
 
