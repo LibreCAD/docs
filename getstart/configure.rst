@@ -48,4 +48,28 @@ Application Preferences
 ------------------------
 
 
+.. figure:: /images/AppPref1.png
+    :width: 785px
+    :height: 623px
+    :align: right
+    :scale: 67
+    :alt: LibreCAD Application Preferences - Appearance
+
+
+.. figure:: /images/AppPref2.png
+    :width: 785px
+    :height: 623px
+    :align: right
+    :scale: 67
+    :alt: LibreCAD Application Window - Pathes
+
+
+.. figure:: /images/AppPref3.png
+    :width: 785px
+    :height: 623px
+    :align: right
+    :scale: 67
+    :alt: LibreCAD Application Window - Defaults
+
+
 
