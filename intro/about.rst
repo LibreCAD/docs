@@ -14,7 +14,7 @@ Features
 
 
 History
--------
+=======
 
 The project started around 2010 as a fork of QCAD 2.0.5.0. It began as a project to build CAM capabilities into the community version of QCad for use with a Mechmate CNC router.  This gave rise to CADuntu.  The project was known as CADuntu only for a couple of months before the community decided that the name was inappropriate.  After some discussion within the community and research on existing names, CADuntu was renamed to LibreCAD.
 
