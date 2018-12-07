@@ -11,4 +11,5 @@ Getting Started
     Install <install>
     Overview <overview>
     Configure <configure>
+    Customizing <customize>
 

@@ -45,7 +45,7 @@ Ubuntu
 
 Official Ubuntu Repository
 ``````````````````````````
-LibreCAD can be found in Ubuntu's "Software Center" as "librecad" on Ubuntu 11.04 (Natty) and later. Search for  "librecad" in the software manager and then download and install it for your system, or to install it from the command line type::
+LibreCAD can be found in Ubuntu's "Software Center" for Ubuntu 11.04 (Natty) and later.  Search for  "librecad" in the software manager and then download and install it for your system, or to install it from the command line type::
 
    $ sudo apt-get update
    $ sudo apt-get install librecad
@@ -64,7 +64,7 @@ And then update the software sources and install LibreCAD::
    $ sudo apt-get update
    $ sudo apt-get install librecad
 
-For those that want to live on the bleeding edge and try out the newest features as they are pushed from the GitHub repository, First use the following repository::
+For those that want to live on the bleeding edge and try out the newest features as they are made available from the GitHub repository, First use the following repository::
 
    $ sudo add-apt-repository ppa:librecad-dev/librecad-daily
    $ sudo apt-get update
