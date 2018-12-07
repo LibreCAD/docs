@@ -14,11 +14,16 @@ Tips:
     - Check out the widget specific examples at: http://doc.qt.io/qt-5/stylesheet-examples.html
 
 
-Examples::
+Example
+-------
 
-    A style sheet can be as simple as: QMenu { font-size: 16px; }
+    A style sheet can be as simple as:: QMenu { font-size: 16px; }
 
-    Save this as alpha.qss or alpha.txt, and then choose it in “Widget Options”:
+
+
+    Or as a more complex example, save the following as alpha.qss or alpha.txt, and then choose it in “Widget Options”:
+
+::
 
     /* alpha.qss v.01 a modification of the Fusion style */
 

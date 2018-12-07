@@ -31,7 +31,7 @@ Appearance
 
 LibreCAD's layout and appearance is highly configurable:
 
-    1. **Style sheets** allow users to change the visual elements of the application's window decorations; title bars, fonts, colours, etc. Refer to the :ref:`<appendix>' for more details.
+    1. **Style sheets** allow users to change the visual elements of the application's window decorations; title bars, fonts, colours, etc. Refer to the :ref:`appendix` for more details.
     2. **Menus** drop down from the menu bar or can be "torn off" and float anywhere on the display. Click the dashed line at the top of a menu to detach it.
     3. **Toolbars** can be dragged and dropped to the top, bottom, left, right, or float anywhere on the display.
     4. **Docks Widgets** (e.g. command line or layer list) can also be dragged and dropped to the top, bottom, left, right, or float within the drawing window.  In addition they can be stacked in the same region of the application window where they will be "tabbed".  Optionally docks can be placed outside of the application window, such as when using multiple monitors.  Drawing tools are also available as dock widgets, but are suited as floating "toolboxes".  Widgets can also be resized by dragging their edges.
