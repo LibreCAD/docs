@@ -17,7 +17,7 @@ Tips:
 Example
 -------
 
-    A style sheet can be as simple as
+A style sheet can be as simple as
 
 :: 
 
