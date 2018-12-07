@@ -37,7 +37,7 @@ Contents
 .. toctree::
    :maxdepth: 1
     
-   about <about/index.rst>
+   About <about/index.rst>
    Getting Started <getstart/index.rst>
    Reference <ref/index.rst>
    User Guides <guides/index.rst>
