@@ -12,6 +12,16 @@ LibreCAD User Manual
     :alt: LibreCAD Splash
 
 
+Introduction
+============
+
+LibreCAD is a **free Open Source** 2D CAD application using the cross-platform framework Qt.  That means it works with multiple operating systems; Windows, Apple and Linux. Support and documentation is free from our large, dedicated community of users, contributors and developers.  The user interface is translated in over 30 languages.
+
+As free software you can redistribute it and/or modify it under the terms of the see :ref:`GNU General Public License <gpl-license>` version 2 (GPLv2) as published by the Free Software Foundation.
+
+The latest information about LibreCAD can be found at `librecad.org <http://librecad.org>`_.
+
+
 .. warning::
 
     *This is the development branch of the LibreCAD User documents and may (will) change frequently.*
@@ -27,7 +37,7 @@ Contents
 .. toctree::
    :maxdepth: 1
     
-   Introduction <intro/index.rst>
+   about <about/index.rst>
    Getting Started <getstart/index.rst>
    Reference <ref/index.rst>
    User Guides <guides/index.rst>
