@@ -22,7 +22,7 @@ LibreCAD User Manual
 .. Top level index
 
 Contents
---------
+========
 
 .. toctree::
    :maxdepth: 1
@@ -30,7 +30,7 @@ Contents
     
    Introduction <intro/index.rst>
    Getting Started <getstart/index.rst>
-   Reference    <ref/index.rst>
-   User Guides  <guides/index.rst>
-   Appendices   <appx/index.rst>
+   Reference <ref/index.rst>
+   User Guides <guides/index.rst>
+   Appendices <appx/index.rst>
 
