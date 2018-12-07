@@ -102,5 +102,5 @@ LibreCAD is available from [ports], and can be installed as a binary package::
 Build from Source Code
 ----------------------
 
-For the most current up-to-date version of LibreCAD with the latest enhancments and fixes, it can be built for source.  Build instruction are in the :ref:`appendix <build>.
+For the most current up-to-date version of LibreCAD with the latest enhancments and fixes, it can be built for source.  Build instructions are in the :ref:`appendix <build>`.
 
