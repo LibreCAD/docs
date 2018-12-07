@@ -10,7 +10,7 @@ Appendices
 
     Online Resources <resources>
     Building from Source <build>
+    Style Sheets <style>
     LibreCAD Fonts <font-list>
-    Blocks <block-list>
     Systems of Measurement <measurements>
     GNU General Public License <gpl-license>
