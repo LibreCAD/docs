@@ -21,7 +21,7 @@ LibreCAD has the following features:
    - plugin system
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
     
    Copyright <copyright>

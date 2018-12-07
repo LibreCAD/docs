@@ -17,11 +17,15 @@ Tips:
 Example
 -------
 
-    A style sheet can be as simple as:: QMenu { font-size: 16px; }
+    A style sheet can be as simple as
+
+:: 
+
+    QMenu { font-size: 16px; }
 
 
 
-    Or as a more complex example, save the following as alpha.qss or alpha.txt, and then choose it in “Widget Options”:
+    Or as a more complex example, save the following text as alpha.qss or alpha.txt, and then load it with it Options-> Widget Options:
 
 ::
 
