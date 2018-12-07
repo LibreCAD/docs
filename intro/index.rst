@@ -6,12 +6,10 @@ Introduction
 ============
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
 
-    About <about>
     Contributors <contributors>
-
 
 .. _about:
 

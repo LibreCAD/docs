@@ -26,7 +26,7 @@ For other versions of OS/X, please follow build instructions in the :ref:`build 
 Linux
 -----
 
-LibreCAD is available in the software repository of many Linux distributions, however the versions in the repositories may not be the most recent release of LibreCAD.  Some distribution may have community supported
+LibreCAD is available in the software repository of many Linux distributions, however the versions in the repositories may not be the most recent release of LibreCAD.  Some distributions may have community supported builds that may be more recent than what is available in the official software repository.
 
 Packages are available for the following Linux distributions through their respective repositories:
 
@@ -38,8 +38,6 @@ Packages are available for the following Linux distributions through their respe
     - OpenSUSE
 
 Links to the repository can be found in the :ref:`Resources <downloads>` section.
-
-
 
 
 Ubuntu
@@ -76,11 +74,11 @@ For those that want to live on the bleeding edge and try out the newest features
 Debian
 ~~~~~~
 
-LibreCAD is available in the main repository of Debian 7.0 (Wheezy) and later as "librecad".  Use your favorite package manager (e.g. aptitude, synaptic, etc.) to install and configure it, or simply from command line type::
+LibreCAD is available in the main repository of Debian 7.0 (Wheezy) and later.  Use your favorite package manager (e.g. aptitude, synaptic, etc.) and seach for "librecad" to install and configure it, or simply from command line type::
 
    $ sudo apt install librecad
 
-You can always find the latest release in Debian Unstable.
+You can always find the latest release in "Debian Unstable".
 
 If you are not running unstable/Sid, and still want to upgrade LibreCAD to a newer version in unstable/Sid, you may download the LibreCAD debs from Debian unstable, and manually install them in your system by "dpkg -i"::
 
