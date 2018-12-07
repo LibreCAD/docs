@@ -44,7 +44,7 @@ This work is licensed under the Creative Commons Attribution 4.0 International L
 .. _contributors: 
 
 Contributors
-============
+------------
 
 There are many people who have contributed to the **LibreCAD User Manual**.  Those contributions have come via LibreCAD's forum, wiki and source code.
 
