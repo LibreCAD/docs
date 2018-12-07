@@ -13,7 +13,7 @@ The latest information about LibreCAD can be found at `librecad.org <http://libr
 
 
 Features
-========
+--------
 
    - reads DWG and DXF files
    - writes DXF, SVG, PDF and more...
