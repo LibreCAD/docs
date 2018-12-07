@@ -26,13 +26,30 @@ For other versions of OS/X, please follow build instructions in the :ref:`build 
 Linux
 -----
 
+LibreCAD is available in the software repository of many Linux distributions, however the versions in the repositories may not be the most recent release of LibreCAD.  Some distribution may have community supported
+
+Packages are available for the following Linux distributions through their respective repositories:
+
+    - Debian (Stable and Unstable)
+    - Ubuntu (Stable and Daily PPAs)
+    - Arch Linux
+    - Fedora
+    - Gentoo
+    - OpenSUSE
+
+Links to the repository can be found in the :ref:`Resources <downloads>` section.
+
+
+
+
 Ubuntu
 ~~~~~~
 
 Official Ubuntu Repository
 ``````````````````````````
-LibreCAD is available in the "Ubuntu Software Center" as "librecad" on Ubuntu 11.04 (Natty) and later. Just search for the "librecad" and it will be installed for your system, or to install it from the command line type::
+LibreCAD can be found in Ubuntu's "Software Center" as "librecad" on Ubuntu 11.04 (Natty) and later. Search for  "librecad" in the software manager and then download and install it for your system, or to install it from the command line type::
 
+   $ sudo apt-get update
    $ sudo apt-get install librecad
 
 
@@ -69,21 +86,6 @@ If you are not running unstable/Sid, and still want to upgrade LibreCAD to a new
 
    $ sudo dpkg -i /path/to/librecad_1.0.0~rc3+nolibs-1_i386.deb
    $ sudo dpkg -i /path/to/librecad-data_1.0.0~rc3+nolibs-1_i386.deb
-
-
-Linux Application Repositories
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Packages are also available for the following Linux distributions through their respective repositories:
-
-    - Debian (Stable and Unstable)
-    - Ubuntu (Stable and Daily PPAs)
-    - Arch Linux
-    - Fedora
-    - Gentoo
-    - OpenSUSE
-
-Links to the repository can be found in the :ref:`Resources <downloads>` section.
 
 
 Other
