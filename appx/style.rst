@@ -23,7 +23,7 @@ A style sheet can be as simple as
 
     QMenu { font-size: 16px; }
 
-Or as a more complex example, save the following text as alpha.qss or alpha.txt, and then load it with it Options-> Widget Options:
+Or as a more complex example, save the following text as alpha.qss or alpha.txt, and then load the file with Options -> Widget Options -> Style Sheet:
 
 ::
 
