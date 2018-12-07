@@ -1,7 +1,7 @@
 .. _about:
 
 Features
---------
+========
 
    - reads DWG and DXF files
    - writes DXF, SVG, PDF and more...
