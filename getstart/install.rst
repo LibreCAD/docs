@@ -83,7 +83,7 @@ Packages are also available for the following Linux distributions through their 
     - Gentoo
     - OpenSUSE
 
-Links to the repository can be found in the :ref:`Resources <downloads>`_.
+Links to the repository can be found in the :ref:`Resources <downloads>` section.
 
 
 Other
