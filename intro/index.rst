@@ -42,7 +42,7 @@ This work is licensed under the Creative Commons Attribution 4.0 International L
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
     
    Contributors <contributors>

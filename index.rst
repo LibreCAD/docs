@@ -26,7 +26,6 @@ Contents
 
 .. toctree::
    :maxdepth: 1
-   :hidden:
     
    Introduction <intro/index.rst>
    Getting Started <getstart/index.rst>
