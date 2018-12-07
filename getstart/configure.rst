@@ -49,6 +49,9 @@ LibreCAD's layout and appearance is highly configurable:
 Preferences
 -----------
 
+The preferences can be configured by selecting Options -> Application Preferences.  Different elements of the preferences ccan be set; Appearance, Paths and Defaults.
+
+There are three categories on the "Appearence" tab that allows the user to change the look and behaviour of LibreCAD.  The "Graphic View" category has options for the cursor, scrollbars and grid.  The "Language" categories allows the the user to select the language used in the GUI and command line.  Thirdly, the "Graphic Colors" allow custom colors to be selected 
 
 .. figure:: /images/AppPref1.png
     :width: 785px
