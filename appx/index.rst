@@ -1,12 +1,12 @@
 .. _appendix:
 
-..  Appendix index
+..  Appendix top level index
 
 Appendices
 ==========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
     Online Resources <resources>
     Building from Source <build>
