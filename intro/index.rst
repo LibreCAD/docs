@@ -12,19 +12,6 @@ As free software you can redistribute it and/or modify it under the terms of the
 The latest information about LibreCAD can be found at `librecad.org <http://librecad.org>`_.
 
 
-Features
---------
-
-   - reads DWG and DXF files
-   - writes DXF, SVG, PDF and more...
-   - line, polyline, spline, circle, ellipse, text, dimension
-   - blocks and hatches
-   - advanced snapping system
-   - custom toolbars and menus
-   - highly customizable appearance (GUI)
-   - plugin system
-
-
 .. toctree::
    :maxdepth: 2
    :hidden:
