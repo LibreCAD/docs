@@ -3,13 +3,13 @@
 Download and Install
 ====================
 
-LibreCAD is available in two ways; as a general release, or as a "daily" release.  The general release is the most stable and is recommended for most users.  The daily, or "unstable", build represents the cutting edge of LibreCAD development and *might* contain bugs or new, incomlplete features under development.  The new features may or may not be included in next general release version.  LibreCAD can also be built from the source code so users can compile the most current code base for their platform.
+LibreCAD is available as two variants; as a stable version (i.e. general release), or as a unstable (also refered to as "daily" or "nightly" depending on the repository) release.  The stable version is recommended for most users.  The unstable build represents the cutting edge of LibreCAD development and *might* contain bugs or new, incomplete features under development.  Those new features may or may not be included in next general release version.  LibreCAD can also be built from the source code so users can compile the most current code base for their OS / platform.
 
 
 Windows
 -------
 
-Links to the MS Windows installers can be found in the :ref:`Resources <downloads>` section.  Download the desired version of the installer from the build directory and run the installer (*exe* file).
+Links to the MS Windows installers can be found in the :ref:`Resources <downloads>` section.  Download the desired version, stable or a "NightlyBuild" of the installer from the build directory and run the installer (*exe* file).
 
 
 Mac OS/X
@@ -31,7 +31,7 @@ Ubuntu
 
 Official Ubuntu Repository
 ``````````````````````````
-LibreCAD is available in the "Ubuntu Software Center" as "librecad" on Ubuntu 11.04 (Natty) and later. Just search and install the package "librecad", and it will be automatically installed and configured for your system, or to install it from the command line type::
+LibreCAD is available in the "Ubuntu Software Center" as "librecad" on Ubuntu 11.04 (Natty) and later. Just search for the "librecad" and it will be installed for your system, or to install it from the command line type::
 
    $ sudo apt-get install librecad
 
