@@ -24,5 +24,5 @@ Galician                         Portuguese
 
 .. Note::
 
-    For more information about and to see the current status of the translations, refer to https://translate.librecad.org/projects/librecad/
+    For more information about translations, to see the current status or to contribute, refer to https://translate.librecad.org/projects/librecad/
 

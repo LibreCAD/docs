@@ -49,7 +49,7 @@ LibreCAD's layout and appearance is highly configurable:
 Preferences
 -----------
 
-The preferences can be configured by selecting Options -> Application Preferences.  Different elements of the preferences ccan be set; Appearance, Paths and Defaults.
+The preferences can be configured by selecting Options -> Application Preferences.  Different elements of the preferences can be set; Appearance, Paths and Defaults.
 
 .. Text for describing images follow image directive.
 
