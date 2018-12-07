@@ -41,26 +41,4 @@ Copyright
 This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 
-.. _contributors: 
-
-Contributors
-------------
-
-There are many people who have contributed to the **LibreCAD User Manual**.  Those contributions have come via LibreCAD's forum, wiki and source code.
-
-Some of those that have contributed, directly or indirectly, include:
-
-
-    - R\. van Twisk
-    - Armin Stebich (LordOfBikes)
-    - Ravas
-    - Bob Woltz
-    - Stano Sitar
-    - Clive Tubb
-    - Chris G
-    - Richard M Brown
-    - Dli
-    - David Huff
-    - Ferdi
-    - Gary S
-
+:doc:`Contributors <contributors>`
