@@ -1,17 +1,5 @@
 .. _about:
 
-Features
-========
-
-   - reads DWG and DXF files
-   - writes DXF, SVG, PDF and more...
-   - line, polyline, spline, circle, ellipse, text, dimension
-   - blocks and hatches
-   - advanced snapping system
-   - custom toolbars and menus
-   - highly customizable appearance (GUI)
-   - plugin system
-
 
 History
 =======
