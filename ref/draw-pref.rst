@@ -15,6 +15,8 @@ The preferences can be configured by selecting Options -> Current Drawing Prefer
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Paper
 
+Specify the paper size for printing...
+
 
 .. figure:: /images/DrawPref2.png
     :width: 785px
