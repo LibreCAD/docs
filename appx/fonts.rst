@@ -67,7 +67,7 @@ Fonts
 
 ..  Font sample mapping:
 
-.. |font00| image:: /images/fonts/LC_Font0.png
+.. font00 
 .. |font01| image:: /images/fonts/amiri-regular.png
 .. |font02| image:: /images/fonts/azomix_i.png
 .. |font03| image:: /images/fonts/azomix.png
