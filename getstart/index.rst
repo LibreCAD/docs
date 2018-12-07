@@ -13,7 +13,6 @@ LibreCAD is available for multiple operating systems and from a variety of sourc
    :hidden:
 
     Install <install>
-    Overview <overview>
     Configure <configure>
     Customizing <customize>
 

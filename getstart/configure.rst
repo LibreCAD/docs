@@ -1,14 +1,39 @@
 .. _configure: 
 
+.. _overview:
+
+Overview
+========
+
+LibreCAD's "Welcome" window is shown the first time LibreCAD is launched after installation.  The Welcome window allows you to select the `Default <measurements>` Unit and the languages to be used for the GUI and for the commands: 
+
+.. figure:: /images/LC_welcome.png
+    :width: 705px
+    :height: 410px
+    :align: center
+    :scale: 100
+    :alt: LibreCAD Welcome
+
+
+LibreCAD's default application Window...
+
+.. figure:: /images/LC_default_annotated.png
+    :width: 1280px
+    :height: 960px
+    :align: center
+    :scale: 50
+    :alt: LibreCAD Application Window
+
+
+
 Configure
-=========
+---------
 
 LibreCAD's layout and appearance is highly configurable.  
-1. ** Style sheets
+1. **Style sheets**
 2. **Menus** drop down from the menu bar or can be "torn off" and float with in the drawing. Custom menus can be created with menu items 
 3. **Toolbars** can be dragged and dropped to the top, bottom, left, right, or float within the drawing window.
-4. **Docks** can also be dragged and dropped to the top, bottom, left, right, or float within the drawing window.  In addition they can be stacked in the same region of the application window where they will be "tabbed".  Optionally docks can be outside of the application window, such as when using multiple monitors.
-5. **Widgets**
+4. **Docks Widgets** (e.g. command line or layer list) can also be dragged and dropped to the top, bottom, left, right, or float within the drawing window.  In addition they can be stacked in the same region of the application window where they will be "tabbed".  Optionally docks can be outside of the application window, such as when using multiple monitors.  Drawing tools are also available as dock widgets, but are suited as floating "toolboxes". Widgets can also be resized by dragging their edges.
 
 .. figure:: /images/LC_everything.png
     :width: 1280px
@@ -16,17 +41,6 @@ LibreCAD's layout and appearance is highly configurable.
     :align: center
     :scale: 50
     :alt: LibreCAD Application Window - custom layout
-
-
-
-Widgets can also be resized by dragging their edges.
-
-Dock widgets (e.g. command line or layer list)
-can be moved and docked at the top, bottom, left or right.
-You can now show and hide all the dock widgets
-in a specific dock area. You can also toggle
-the visibility of all floating dock widgets
-(those which are not currently docked).
 
 
 .. _appconfig:
