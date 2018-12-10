@@ -23,6 +23,14 @@ LibreCAD then starts with its default configuration and is ready use.
     :scale: 67
     :alt: LibreCAD Application Window
 
+LibreCAD's user interface consists of several elements:
+
+    - **Menu**: provides access to application functions (open, close, etc.) and drawing tools.  Menus can be customized to suit user preferences.
+    - **Toolbars**: provides access to drawing tools and functions.  
+    - **Docks**:  provides access to drawing tools and functions. 
+    - **Status bar**: displays coordinates (absolute and relative), active mouse button, selected entity information and grid status.
+    - **Drawing window**: display. the active drawing.
+
 
 .. _app-app:
 
