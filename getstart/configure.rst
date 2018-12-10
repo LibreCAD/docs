@@ -14,7 +14,7 @@ LibreCAD's "Welcome" window is shown the first time LibreCAD is launched after i
     :alt: LibreCAD Welcome
 
 
-LibreCAD then starts wit hits default configuration and is ready use.
+LibreCAD then starts with its default configuration and is ready use.
 
 .. figure:: /images/LC_default_annotated.png
     :width: 1280px
@@ -83,12 +83,12 @@ Path
     :scale: 50
     :alt: LibreCAD Application Window - Paths
 
-The "Path" tab allows user to specify the directory paths to additional resources; language ("Translations") and user created or installed Hatch Patterns, Fonts, Parts libraries and Templates.  The "Variable File" ???.  These paths do not override the defaults paths, but are appended so the default resources are still available.  It is recommended that user defined resource be placed in a user directory (e.g. home directory on Linux: ~/LibreCAD/Translations, etc.)
+The "Path" tab allows user to specify the directory paths to additional resources; language ("Translations") and user created or installed Hatch Patterns, Fonts, Parts libraries and Templates and a "Variable file".  These paths do not override the defaults paths, but are appended so the default resources are still available.  It is recommended that user defined resource be placed in a user directory (e.g. home directory on Linux: ~/LibreCAD/Translations, etc.)
 
     - Translations: Language files for the GUI and / or command languages.
     - Hatch Patterns, Fonts, Parts Libraries: user created or obtained from other sources such as the Parts Library wiki
     - Template: load the user-defined template drawing when starting the application
-    - Variable File: load a user-defined variable file when starting the application (see XXX for details on using variables)
+    - Variable File: load a user-defined variable file when starting the application (see :ref:`Command Line <commandline>` for details on using command / variables files.)
 
 
 Defaults
@@ -105,8 +105,8 @@ Drawing Defaults
 
     Unit: Default unit of measure for all new drawings.  If left as 'none' ...
 Program Defaults
-    Auto backup: When check, a backup will be created when closing the file.  Backups have a {what character?} pre/appended to the file name.
-    Auto save time: The time in minutes to perform an automatice save of the open files.
+    Auto backup: When check, a backup will be created when closing the file.  Backup files are saved to the same directory as the drawing file with a tilde (~) appended to the file name.
+    Auto save time: The time in minutes to perform an automatice save of the open files.  Auto files are saved to the same directory as the drawing file with a hash symbol (#) prefixed to the file name.
     Don't use native OS file open dialog: When checked, LibreCAD's file open dialog is displayed when opening files.
     Modify layer of selected entities, at layer activation: ??
 Clear Settings

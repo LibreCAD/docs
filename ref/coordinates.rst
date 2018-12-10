@@ -55,7 +55,8 @@ in LibreCAD just enter in the exact point e.g. 60,45.
 Relative
 ~~~~~~~~
 
-Relative coordinates - using this method, coordinate points are entered in relation to the previous point entered (not the origin), so for example - if your first point is 20,45, to then enter your next point 'relative' to this - you would use the '@' symbol - e.g @50,50 would then enter the second point 50 units horizontally along the x axis and 50 units vertically along the Y axis to give this second point relative to your last point (20,45).See image below.
+Relative coordinates - using this method, coordinate points are entered in relation to the previous point entered (not the origin), so for example - if your first point is 20,45, to then enter your next point 'relative' to this - you would use the '@' symbol - e.g @50,50 would then enter the second point 50 units horizontally along the x axis and 50 units vertically along the Y axis to give this second point relative to your last point (20,45).See image below.  Relative coordinates, such as @10,20, can also be written as 10..20 which allows for keypad input.
+
 
 Selection 026.png
 

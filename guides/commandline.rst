@@ -36,14 +36,48 @@ Drawing Entities
 Using the command line replace the need to select tools for m the menus or toolbars.  By using the command line, it is possible to switch tools, change snaps or the view quickly.
 
 
+Command Variables
+-----------------
+
+Multi-command input can be assigned to a variable; values can also contain variables (they are read recursively)
+
+    a=ci;0,0;10
+    b=ci;10,0;10
+    c=\a;\b;kill
+    \c
+
+A variable file can loaded from the command line dock using the drop down or be set to load at startup via Application Preferences -> Paths -> Variable File.
+
 
 
 Command Line Calculator
 -----------------------
 
-The command line also offers a simple calculator for performing quick calculations without leaving the application.  To use the command line as a math expression calculator type "cal" and the math expression.  Some examples:
+The command line also offers a simple calculator for performing quick calculations without leaving the application.  To use the command line as a math expression calculator type "cal" and the math expression.  Typing "cal" again will toggle the calculator mode off.
+
+Some examples:
 
    cal 1+1
    cal sin(pi/6)
    cal log(2)
+
+
+OTHER
+
+ A new button with a drop-down menu has been added to the command-line
+    Keycode mode was rewritten and the toggle is now accessed by the new command-line button.
+
+Toggling keycode mode no longer requires restarting LibreCAD. If a 2 character command is not recognized, you can continue with a longer command.
+
+
+    Multi-command input can be separated by semicolons: ci;0,0;10
+    Command files (command input separated by newlines) can be loaded from the new command-line button
+    Multi-command input can be assigned to a variable; values can also contain variables (they are read recursively)
+
+a=ci;0,0;10
+b=ci;10,0;10
+c=\a;\b;kill
+\c
+
+
 
