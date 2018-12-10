@@ -1,6 +1,6 @@
 .. _build: 
 
-Building from source
+Building from Source
 ====================
 
 Git and GitHub
