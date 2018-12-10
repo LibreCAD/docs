@@ -38,10 +38,10 @@ Appearance
 
 LibreCAD's layout and appearance is highly configurable:
 
-    #. **Menus** drop down from the menu bar or can be "torn off" and float anywhere on the display. Click the dashed line at the top of a menu to detach it.
-    #. **Toolbars** can be dragged and dropped to the top, bottom, left, right, or float anywhere on the display.
-    #. **Docks Widgets** (e.g. command line or layer list) can also be dragged and dropped to the top, bottom, left, right, or float within the drawing window.  In addition they can be stacked in the same region of the application window where they will be "tabbed".  Optionally docks can be placed outside of the application window, such as when using multiple monitors.  Drawing tools are also available as dock widgets, but are suited as floating "toolboxes".  Widgets can also be resized by dragging their edges.
-    #. **Style sheets** allow users to change the visual elements of the application's window decorations; title bars, fonts, colours, etc. Refer to the :ref:`appendix <style-sheets>` for more details.
+    **Menus**: drop down from the menu bar or can be "torn off" and float anywhere on the display. Click the dashed line at the top of a menu to detach it.
+    **Toolbars**: can be dragged and dropped to the top, bottom, left, right, or float anywhere on the display.
+    **Docks Widgets**: (e.g. command line or layer list) can also be dragged and dropped to the top, bottom, left, right, or float within the drawing window.  In addition they can be stacked in the same region of the application window where they will be "tabbed".  Optionally docks can be placed outside of the application window, such as when using multiple monitors.  Drawing tools are also available as dock widgets, but are suited as floating "toolboxes".  Widgets can also be resized by dragging their edges.
+    **Style sheets**: allow users to change the visual elements of the application's window decorations; title bars, fonts, colours, etc.  Refer to the :ref:`appendix <style-sheets>` for more details.
 
 .. figure:: /images/LC_everything2.png
     :width: 1280px
@@ -58,6 +58,10 @@ Application Preferences
 
 The preferences can be configured by selecting Options -> Application Preferences.  Different elements of the preferences can be set; Appearance, Paths and Defaults.
 
+
+Appearance
+~~~~~~~~~~
+
 .. Text for describing images follow image directive.
 
 .. figure:: /images/AppPref1.png
@@ -66,10 +70,6 @@ The preferences can be configured by selecting Options -> Application Preference
     :align: right
     :scale: 50
     :alt: LibreCAD Application Preferences - Appearance
-
-
-Appearance
-~~~~~~~~~~
 
 There are three categories on the "Appearence" tab that allows the user to change the look and behaviour of LibreCAD.
 
@@ -90,12 +90,12 @@ Path
     :scale: 50
     :alt: LibreCAD Application Window - Paths
 
-The "Path" tab allows user to specify the directory paths to additional resources; language ("Translations") and user created or installed Hatch Patterns, Fonts, Parts libraries and Templates and a "Variable file".  These paths do not override the defaults paths, but are appended so the default resources are still available.  It is recommended that user defined resource be placed in a user directory (e.g. home directory on Linux: ~/LibreCAD/Translations, etc.)
+The **Path** tab allows user to specify the directory paths to additional resources; language ("Translations") and user created or installed Hatch Patterns, Fonts, Parts libraries and Templates and a "Variable file".  These paths do not override the defaults paths, but are appended so the default resources are still available.  It is recommended that user defined resource be placed in a user directory (e.g. home directory on Linux: ~/LibreCAD/Translations, etc.)
 
-    - Translations: Language files for the GUI and / or command languages.
-    - Hatch Patterns, Fonts, Parts Libraries: user created or obtained from other sources such as the Parts Library wiki
-    - Template: load the user-defined template drawing when starting the application
-    - Variable File: load a user-defined variable file when starting the application (see the :ref:`Command Line <commandline>` guide for details on using commands / variables files.)
+    **Translations**: Language files for the GUI and / or command languages.
+    **Hatch Patterns, Fonts, Parts Libraries**: user created or obtained from other sources such as the Parts Library wiki
+    **Template**: load the user-defined template drawing when starting the application
+    **Variable File**: load a user-defined variable file when starting the application (see the :ref:`Command Line <commandline>` guide for details on using commands / variables files.)
 
 
 Defaults
@@ -110,19 +110,25 @@ Defaults
 
 Drawing Defaults
 
-    Unit: Default unit of measure for all new drawings.  If left as 'none' ...
+    **Unit**: Defines the :ref:`default unit of measure <measurements>` for all new drawings.
+
 Program Defaults
-    Auto backup: When check, a backup will be created when closing the file.  Backup files are saved to the same directory as the drawing file with a tilde (~) appended to the file name.
-    Auto save time: The time in minutes to perform an automatice save of the open files.  Auto files are saved to the same directory as the drawing file with a hash symbol (#) prefixed to the file name.
-    Don't use native OS file open dialog: When checked, LibreCAD's file open dialog is displayed when opening files.
-    Modify layer of selected entities, at layer activation: ??
+
+    **Auto backup**: When check, a backup will be created when closing the file.  Backup files are saved to the same directory as the drawing file with a tilde (~) appended to the file name.
+    **Auto save time**: The time in minutes to perform an automatice save of the open files.  Auto files are saved to the same directory as the drawing file with a hash symbol (#) prefixed to the file name.
+    **Don't use native OS file open dialog**: When checked, LibreCAD's file open dialog is displayed when opening files.
+    **Modify layer of selected entities, at layer activation**: ??
+
 Clear Settings
-    Layout
-    All
+
+    **Layout**:
+    **All**:
+
 Startup, when checked the following items will:
-    Display loading screen: LibreCAD's load screen (e.g. splash screen) is displayed when launching the application.
-    Start in tab mode: the drawing window is tabbed (same as selecting Drawings -> Tab mode from the main menu).
-    Start with main window maximized: LibreCAD will start with the application window full screen. 
-    Enable CAD dockwidgets: show drawing tools (Circle, Curve, etc.) in the widget menu (Widgets -> Dockwidgets)  
-    Enable CAD toolbars: show drawing tools (Circle, Curve, etc.) in the toolbar menu (Widgets -> Toolbars)
+
+    **Display loading screen**: LibreCAD's load screen (e.g. splash screen) is displayed when launching the application.
+    **Start in tab mode**: the drawing window is tabbed (same as selecting Drawings -> Tab mode from the main menu).
+    **Start with main window maximized**: LibreCAD will start with the application window full screen. 
+    **Enable CAD dockwidgets**: show drawing tools (Circle, Curve, etc.) in the widget menu (Widgets -> Dockwidgets)  
+    **Enable CAD toolbars**: show drawing tools (Circle, Curve, etc.) in the toolbar menu (Widgets -> Toolbars)
 
