@@ -46,8 +46,8 @@ LibreCAD's layout and appearance is highly configurable:
 
 .. _app-prefs:
 
-Preferences
------------
+Application Preferences
+-----------------------
 
 The preferences can be configured by selecting Options -> Application Preferences.  Different elements of the preferences can be set; Appearance, Paths and Defaults.
 
@@ -60,13 +60,21 @@ The preferences can be configured by selecting Options -> Application Preference
     :scale: 50
     :alt: LibreCAD Application Preferences - Appearance
 
+
+Appearance
+~~~~~~~~~~
+
 There are three categories on the "Appearence" tab that allows the user to change the look and behaviour of LibreCAD.
 
 The "Graphic View" category has options for the cursor style and shape, scrollbars and grid.  The Anti-alias setting, if supported by the hardware, when checked will reduce jagged edgdes of diagonal lines, circles, etc.
 
-The "Language" categories allows the the user to select the language used in the GUI and command line.  Supported languages can be found in the :ref:`appendix <appendix>`_.
+The "Language" categories allows the the user to select the language used in the GUI and command line.  Supported languages can be found in the :ref:`appendix <appx>`.
 
 Thirdly, the "Graphic Colors" section allow custom colors to be selected for the snap indicator, drawing background,  grid, and other indicators (selections, highlighted items and Handlles).  Users can select predefined colors from the drop down menu or select their own from the color selector.
+
+
+Path
+~~~~
 
 .. figure:: /images/AppPref2.png
     :width: 785px
@@ -83,6 +91,9 @@ The "Path" tab allows user to specify the directory paths to additional resource
     - Variable File: load a user-defined variable file when starting the application (see XXX for details on using variables)
 
 
+Defaults
+~~~~~~~~
+
 .. figure:: /images/AppPref3.png
     :width: 785px
     :height: 623px
@@ -91,6 +102,7 @@ The "Path" tab allows user to specify the directory paths to additional resource
     :alt: LibreCAD Application Window - Defaults
 
 Drawing Defaults
+
     Unit: Default unit of measure for all new drawings.  If left as 'none' ...
 Program Defaults
     Auto backup: When check, a backup will be created when closing the file.  Backups have a {what character?} pre/appended to the file name.
@@ -106,5 +118,4 @@ Startup, when checked the following items will:
     Start with main window maximized: LibreCAD will start with the application window full screen. 
     Enable CAD dockwidgets: show drawing tools (Circle, Curve, etc.) in the widget menu (Widgets -> Dockwidgets)  
     Enable CAD toolbars: show drawing tools (Circle, Curve, etc.) in the toolbar menu (Widgets -> Toolbars)
-
 
