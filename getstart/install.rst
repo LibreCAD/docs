@@ -9,7 +9,7 @@ LibreCAD is available as two variants; as a stable version (i.e. general release
 Windows
 -------
 
-Links to the MS Windows installers can be found in the :ref:`Resources <downloads>` section.  Download the desired version, stable or a "NightlyBuild" of the installer from the build directory and run the installer (*exe* file).
+Links to the MS Windows installers can be found in the :ref:`Resources <downloads>` section of the appendix.  Download the desired version, stable or a "NightlyBuild" of the installer from the build directory and run the installer (*exe* file).
 
 
 Mac OS/X
@@ -17,7 +17,7 @@ Mac OS/X
 
 Links to the installers for OS/X 10.9 can be found in the :ref:`Resources <downloads>` section.  Download the desired version of the installer from the build directory and run the installer (*dmg* file).
 
-For other versions of OS/X, please follow build instructions in the :ref:`build instructions <build>` found in the appendix.
+For other versions of OS/X, please follow build instructions in the :ref:`appendix <build>`.
 
 .. note::
     If you an OS/X developer, please help us to improve DMG installers and MacPorts LibreCAD package.
@@ -37,7 +37,7 @@ Packages are available for the following Linux distributions through their respe
     - Gentoo
     - OpenSUSE
 
-Links to the repository can be found in the :ref:`Resources <downloads>` section.
+Links to the repository can be found in the :ref:`Resources <downloads>` section of the appendix.
 
 
 Ubuntu
@@ -82,7 +82,7 @@ LibreCAD is available in the main repository of Debian 7.0 (Wheezy) and later.  
 Debian Unstable
 ```````````````
 
-If you are not running unstable (i.e. Sid), and still want to upgrade LibreCAD to a newer version unstable package, download the LibreCAD debs from "Debian unstable" (:ref:`Resources <downloads>` section), and manually install them in your system by "dpkg -i"::
+If you are not running unstable (i.e. Sid), and still want to upgrade LibreCAD to a newer version unstable package, download the LibreCAD debs from "Debian unstable" (:ref:`Resources <downloads>` section of the appendix), and manually install them in your system by "dpkg -i"::
 
    $ sudo dpkg -i /path/to/librecad_1.0.0~rc3+nolibs-1_i386.deb
    $ sudo dpkg -i /path/to/librecad-data_1.0.0~rc3+nolibs-1_i386.deb

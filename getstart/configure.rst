@@ -14,7 +14,14 @@ LibreCAD's "Welcome" window is shown the first time LibreCAD is launched after i
     :alt: LibreCAD Welcome
 
 
-LibreCAD then starts with its default configuration and is ready use.
+LibreCAD then starts with its default configuration and is ready use.  The user interface consists of several elements as shown below:
+
+    - **Menu**: provides access to application functions (open, close, etc.) and drawing tools.  Menus can be customized to suit user preferences.
+    - **Toolbars**: provides access to drawing tools and functions.  
+    - **Docks**:  provides access to drawing tools and functions. 
+    - **Status bar**: displays coordinates (absolute and relative), active mouse button, selected entity information and grid status.
+    - **Drawing window**: displays the active drawing.
+
 
 .. figure:: /images/LC_default_annotated.png
     :width: 1280px
@@ -22,14 +29,6 @@ LibreCAD then starts with its default configuration and is ready use.
     :align: center
     :scale: 67
     :alt: LibreCAD Application Window
-
-LibreCAD's user interface consists of several elements:
-
-    - **Menu**: provides access to application functions (open, close, etc.) and drawing tools.  Menus can be customized to suit user preferences.
-    - **Toolbars**: provides access to drawing tools and functions.  
-    - **Docks**:  provides access to drawing tools and functions. 
-    - **Status bar**: displays coordinates (absolute and relative), active mouse button, selected entity information and grid status.
-    - **Drawing window**: display. the active drawing.
 
 
 .. _app-app:
@@ -74,11 +73,11 @@ Appearance
 
 There are three categories on the "Appearence" tab that allows the user to change the look and behaviour of LibreCAD.
 
-The "Graphic View" category has options for the cursor style and shape, scrollbars and grid.  The Anti-alias setting, if supported by the hardware, when checked will reduce jagged edgdes of diagonal lines, circles, etc.
+The **Graphic View** category has options for the cursor style and shape, scrollbars and grid.  The Anti-alias setting, if supported by the hardware, when checked will reduce jagged edgdes of diagonal lines, circles, etc.
 
-The "Language" categories allows the the user to select the language used in the GUI and command line.  Supported languages can be found in the :ref:`appendix <appx>`.
+The **Language** categories allows the the user to select the language used in the GUI and command line.  Supported languages can be found in the :ref:`appendix <languages>`.
 
-Thirdly, the "Graphic Colors" section allow custom colors to be selected for the snap indicator, drawing background,  grid, and other indicators (selections, highlighted items and Handlles).  Users can select predefined colors from the drop down menu or select their own from the color selector.
+Thirdly, the **Graphic Colors** section allow custom colors to be selected for the snap indicator, drawing background,  grid, and other indicators (selections, highlighted items and Handlles).  Users can select predefined colors from the drop down menu or select their own from the color selector.
 
 
 Path
