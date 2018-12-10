@@ -124,11 +124,15 @@ Program Defaults
 
 Clear Settings
 ``````````````
+LibreCAD's configuration can be partially or entirely reset back to a defaults:
+
     - **Layout**: Resets the application window *layout* to the default configuration.
     - **All**: Resets the application to the default configuration.  Window layout, color settings, custom menus and toolbars, etc. are all reset.  The "Welcome" dialog will be displayed next time the application is launched.
 
-Startup, when checked the following items will:
-```````````````````````````````````````````````
+Startup
+```````
+When checked the following items will:
+
     - **Display loading screen**: LibreCAD's load screen (e.g. splash screen) is displayed when launching the application.
     - **Start in tab mode**: the drawing window is tabbed (same as selecting Drawings -> Tab mode from the main menu).
     - **Start with main window maximized**: LibreCAD will start with the application window full screen. 
