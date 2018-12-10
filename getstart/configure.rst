@@ -4,7 +4,7 @@
 Configuration
 =============
 
-LibreCAD's "Welcome" window is shown the first time LibreCAD is launched after installation.  The Welcome window allows you to select the :ref:`Default Unit <measurements>` and the languages to be used for the GUI and for the commands: 
+LibreCAD's "Welcome" dialog is shown the first time LibreCAD is launched after installation.  The dialog prompts the user to select the :ref:`Default Unit <measurements>` and the languages to be used for the GUI and for the commands: 
 
 .. figure:: /images/LC_welcome.png
     :width: 705px
@@ -109,10 +109,12 @@ Defaults
     :alt: LibreCAD Application Window - Defaults
 
 Drawing Defaults
+````````````````
 
-    **Unit**: Defines the :ref:`default unit of measure <measurements>` for all new drawings.
+    **Unit**: Defines the :ref:`default unit of measure <measurements>` for all new drawings.  The default can be over-ridden by setting the unit of measure in the Drawing preferences or template.  {{Add links}}
 
 Program Defaults
+````````````````
 
     **Auto backup**: When check, a backup will be created when closing the file.  Backup files are saved to the same directory as the drawing file with a tilde (~) appended to the file name.
     **Auto save time**: The time in minutes to perform an automatice save of the open files.  Auto files are saved to the same directory as the drawing file with a hash symbol (#) prefixed to the file name.
@@ -120,12 +122,12 @@ Program Defaults
     **Modify layer of selected entities, at layer activation**: ??
 
 Clear Settings
-
-    **Layout**:
-    **All**:
+``````````````
+    **Layout**: Resets the application window *layout* to the default configuration.
+    **All**: Resets the application to the default configuration.  Window layout, color settings, custom menus and toolbars, etc. are all reset.  The "Welcome" dialog will be displayed next time the application is launched.
 
 Startup, when checked the following items will:
-
+```````````````````````````````````````````````
     **Display loading screen**: LibreCAD's load screen (e.g. splash screen) is displayed when launching the application.
     **Start in tab mode**: the drawing window is tabbed (same as selecting Drawings -> Tab mode from the main menu).
     **Start with main window maximized**: LibreCAD will start with the application window full screen. 
