@@ -73,8 +73,14 @@ Thirdly, the "Graphic Colors" section allow custom colors to be selected for the
     :height: 623px
     :align: right
     :scale: 50
-    :alt: LibreCAD Application Window - Pathes
+    :alt: LibreCAD Application Window - Paths
 
+The "Path" tab allows user to specify the directory paths to additional resources; language ("Translations") and user created or installed Hatch Patterns, Fonts, Parts libraries and Templates.  The "Variable File" ???.  These paths do not override the defaults paths, but are appended so the default resources are still available.  It is recommended that user defined resource be placed in a user directory (e.g. home directory on Linux: ~/LibreCAD/Translations, etc.)
+
+    - Translations: Language files for the GUI and / or command languages.
+    - Hatch Patterns, Fonts, Parts Libraries: user created or obtained from other sources such as the Parts Library wiki
+    - Template: load the user-defined template drawing when starting the application
+    - Variable File: load a user-defined variable file when starting the application (see XXX for details on using variables)
 
 
 .. figure:: /images/AppPref3.png
@@ -84,5 +90,21 @@ Thirdly, the "Graphic Colors" section allow custom colors to be selected for the
     :scale: 50
     :alt: LibreCAD Application Window - Defaults
 
+Drawing Defaults
+    Unit: Default unit of measure for all new drawings.  If left as 'none' ...
+Program Defaults
+    Auto backup: When check, a backup will be created when closing the file.  Backups have a {what character?} pre/appended to the file name.
+    Auto save time: The time in minutes to perform an automatice save of the open files.
+    Don't use native OS file open dialog: When checked, LibreCAD's file open dialog is displayed when opening files.
+    Modify layer of selected entities, at layer activation: ??
+Clear Settings
+    Layout
+    All
+Startup, when checked the following items will:
+    Display loading screen: LibreCAD's load screen (e.g. splash screen) is displayed when launching the application.
+    Start in tab mode: the drawing window is tabbed (same as selecting Drawings -> Tab mode from the main menu).
+    Start with main window maximized: LibreCAD will start with the application window full screen. 
+    Enable CAD dockwidgets: show drawing tools (Circle, Curve, etc.) in the widget menu (Widgets -> Dockwidgets)  
+    Enable CAD toolbars: show drawing tools (Circle, Curve, etc.) in the toolbar menu (Widgets -> Toolbars)
 
 
