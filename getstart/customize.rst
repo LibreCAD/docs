@@ -4,9 +4,13 @@
 Customizing LibreCAD's Interface
 ================================
 
+Custom menus and toolbars can be created to suit the users' preferences.  
+
 
 Menu Creator
 ------------
+
+To create, modify, or delete a custom menu, select *Widgets -> Menu Creator*
 
 .. figure:: /images/menuCreator.png
     :width: 728px
@@ -17,38 +21,50 @@ Menu Creator
 
 To create a new menu:
 
-    #. input the name
-    #. double-click on an action to add it
-    #. drag and drop to arrange actions
-    #. press "Create"
+    #. Input a name into the *Name* drop down box
+    #. Double-click on an action to add it
+    #. Drag and drop to arrange actions
+    #. Click the *Create* button
 
 To edit an existing menu:
 
-    #. select the menu from the drop down menu
-    #. double-click to remove actions
-    #. drag and drop to arrange actions
-    #. press update
-
-To assign a menu:
-
-    #. press assign
-    #. select the desired activator(s)
-    #. press save
-
-To remove assignment:
-
-    #. press assign
-    #. deselect the undesired activator(s)
-    #. press save
+    #. Select the menu from the *Name* drop down box
+    #. Double-click to remove actions
+    #. Drag and drop to arrange actions
+    #. Click the *Create* button
 
 To delete an existing menu:
 
-    #. select the menu from the drop down menu
-    #. press destroy
+    #. Select the menu from the *Name* drop down menu
+    #. Click the *Destroy* button
+
+
+Custom menu can also be assigned to a keyboard short-cut to make them easily accessable.
+
+.. figure:: /images/menuAssign.png
+    :width: 208px
+    :height: 188px
+    :align: right
+    :scale: 100
+    :alt: LibreCAD Menu Assigner
+
+To assign a menu to a keyboard short-cut:
+
+    #. Click the *Assign* button
+    #. Select the desired activator(s); "Double-Click", "Right-Click", "Ctrl-Right-Click", and / or "Shift-Right-Click"
+    #. Click the *Save* button
+
+To remove assignment:
+
+    #. Click the *Assign* button
+    #. DeSelect the desired activator(s)
+    #. Click the *Save* button
 
 
 Toolbar Creator
 ---------------
+
+To create a custom menu, select *Widgets -> Toolbar Creator*
 
 .. figure:: /images/toolbarCreator.png
     :width: 728px
