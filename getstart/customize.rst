@@ -55,7 +55,7 @@ Toolbar Creator
     :height: 404px
     :align: right
     :scale: 67
-    :alt: LibreCAD Menu Creator
+    :alt: LibreCAD Toolbar Creator
 
 To create a new toolbar:
 
