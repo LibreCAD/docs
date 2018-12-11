@@ -39,7 +39,7 @@ To delete an existing menu:
     #. Click the **Destroy** button
 
 
-Custom menu can also be assigned to a keyboard short-cut to make them easily accessable.
+Custom menus can also be assigned to a keyboard short-cut to make them easily accessable:
 
 .. figure:: /images/menuAssign.png
     :width: 208px
@@ -64,7 +64,7 @@ To remove assignment:
 Toolbar Creator
 ---------------
 
-To create a custom menu, select **Widgets -> Toolbar Creator**
+To create a custom toolbars, select **Widgets -> Toolbar Creator**
 
 .. figure:: /images/toolbarCreator.png
     :width: 728px
@@ -75,21 +75,20 @@ To create a custom menu, select **Widgets -> Toolbar Creator**
 
 To create a new toolbar:
 
-    #. input the name
-    #. double-click on an action to add it
-    #. drag and drop to arrange actions
-    #. press create
+    #. Input a name into the **Name** drop down box
+    #. Double-click on an action to add it
+    #. Drag and drop to arrange actions
+    #. Click the **Create** button
 
 To edit an existing toolbar:
 
-    #. select the toolbar from the drop down menu
-    #. double-click to remove actions
-    #. drag and drop to arrange actions
-    #. press create
+    #. Select the toolbar from the **Name** drop down box
+    #. Double-click to remove actions
+    #. Drag and drop to arrange actions
+    #. Click the **Create** button
 
 To delete an existing toolbar:
 
-    #. select the toolbar from the drop down menu
-    #. press destroy
-
+    #. Select the toolbar from the **Name** drop down box
+    #. Click the **Destroy** button
 
