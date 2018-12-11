@@ -64,7 +64,7 @@ Appearance
 
 .. Text for describing images follow image directive.
 
-.. figure:: /images/AppPref1.png
+.. figure:: /images/appPref1.png
     :width: 785px
     :height: 623px
     :align: right
@@ -83,7 +83,7 @@ Thirdly, the *Graphic Colors* section allow custom colors to be selected for the
 Path
 ~~~~
 
-.. figure:: /images/AppPref2.png
+.. figure:: /images/appPref2.png
     :width: 785px
     :height: 623px
     :align: right
@@ -101,7 +101,7 @@ The *Path* tab allows users to specify the directory paths to additional resourc
 Defaults
 ~~~~~~~~
 
-.. figure:: /images/AppPref3.png
+.. figure:: /images/appPref3.png
     :width: 785px
     :height: 623px
     :align: right

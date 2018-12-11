@@ -5,8 +5,15 @@ Customizing LibreCAD's Interface
 ================================
 
 
-Custom Menus
+Menu Creator
 ------------
+
+.. figure:: /images/menuCreator.png
+    :width: 728px
+    :height: 404px
+    :align: right
+    :scale: 67
+    :alt: LibreCAD Menu Creator
 
 To create a new menu:
 
@@ -40,10 +47,15 @@ To delete an existing menu:
     #. press destroy
 
 
-Custom Toolbars
+Toolbar Creator
 ---------------
 
-Toolbar Creator
+.. figure:: /images/toolbarCreator.png
+    :width: 728px
+    :height: 404px
+    :align: right
+    :scale: 67
+    :alt: LibreCAD Menu Creator
 
 To create a new toolbar:
 
