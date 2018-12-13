@@ -36,10 +36,8 @@ Cartesian
     :scale: 50
     :alt: Cartesian Coordinates
 
-The *Cartesian* coordinate system is generally the standard system used in most CAD programs. A specific point in a drawing is located by exact distances from both the X and Y axes - for example a point in a drawing could be 60,45 (note the comma -, separates the two numbers) as shown below:
+The *Cartesian* coordinate system is generally the standard system used in most CAD programs. A specific point in a drawing is located by exact distances from both the X and Y axes - for example a point in a drawing could be 60,45 (note the comma -, separates the two numbers) as shown here
 
-|
-|
 |
 |
 |
@@ -69,8 +67,6 @@ The *Polar* coordinate system uses one distance and one angle to define a point 
 |
 |
 |
-|
-|
 
 Defining Coordinate Locations
 -----------------------------
@@ -89,6 +85,15 @@ Absolute
 
 Absolute coordinates - using this method,coordinate points are entered in direct relation to the Origin 0,0. To do this 
 in LibreCAD just enter in the exact point e.g. 60,45.
+
+|
+|
+|
+|
+|
+|
+|
+|
 
 .. _relative:
 
@@ -124,6 +129,12 @@ Angles in LibreCAD
 It is worth mentioning here a brief explanation of how angles work in LibreCAD.
 
 All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction (see image below) beginning from 0 degrees (the 3 o'clock position). The < symbol is used before the angle - e.g.50<45.
+
+|
+|
+|
+|
+|
 
 
 .. _placing-entities: 
