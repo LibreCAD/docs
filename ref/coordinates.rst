@@ -117,7 +117,7 @@ You can see from this example that the second point is based on our 'distance' o
 Angles in LibreCAD
 ~~~~~~~~~~~~~~~~~~
 
-.. figure:: /images/byAngles.png
+.. figure:: /images/angles.png
     :width: 800px
     :height: 745px
     :align: right
