@@ -3,16 +3,13 @@
 The Coordinate System
 =====================
 
-In order to get the best out of LibreCAD it is wise to have a good understanding of the coordinate system and how coordinates work.  Everything that you draw in LibreCAD will be exact and precise, placed accurately using X,Y coordinates.
+In order to get the best out of LibreCAD it is necessary to have a good understanding of the coordinate system and how coordinates work.  Everything that you draw in LibreCAD will be exact and precise, placed accurately using X,Y coordinates.
 
-The **absolute origin** (or **Zero** point) in your drawing is where the X and Y axes cross each other (represented by a red cross), every entity you draw is located in relation to this origin.  The coordinates at this point at 0,0.
+The *absolute origin* (or *Zero* point) in your drawing is where the X and Y axes cross each other (represented by a red cross), every entity you draw is located in relation to this origin.  The coordinates at this point at 0,0.
 
-LibreCAD also uses the point set last as the **Relative Zero Point**.  It is represented by a small red circle within the drawing.  This Relative Zero Point is set temporarily to a new location in a drawing so that all subsequent X and Y coordinates of entities drawn or blocks placed using `"relative coordinates" <_relative>`
+LibreCAD also uses the point set last as the *Relative Zero Point*.  It is represented by a small red circle within the drawing.  This Relative Zero Point is set temporarily to a new location in a drawing so that all subsequent X and Y coordinates of entities drawn or blocks placed using `"relative coordinates" <_relative>`.  This point is used as a temporary reference point when setting the next point using `"relative coordinates" <_relative>`.  for example will be relative to this newly set Relative Zero Point.
 
-  This point is used as a temporary reference point when setting the next point using `"relative coordinates" <_relative>`.  for   
-  example will be relative to this newly set Relative Zero Point.
-
-In libreCAD`s 2D coordinate system all **X** units are measured horizontally and all **Y** units are measured vertically.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.
+In libreCAD`s 2D coordinate system all *X* units are measured horizontally and all *Y* units are measured vertically.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.
 
 Examples of X and Y coordinates:
 Selection 011.png
@@ -21,45 +18,73 @@ Selection 011.png
 Types of Coordinates
 --------------------
 
-There are two coordinate systems used in LibreCAD: **Cartesian** and **Polar**.
+.. figure:: /images/coords.png
+    :width: 800px
+    :height: 735px
+    :align: cente
+    :scale: 75
+    :alt: Coordinate
+
+There are two coordinate systems used in LibreCAD: *Cartesian* and *Polar*.
 
 
 Cartesian
 ~~~~~~~~~
 
-The *Cartesian* coordinate system is generally the standard system used in most CAD programs. A specific point in a drawing is located by exact distances from both the X and Y axes - for example a point in a drawing could be 60,45 (note the comma -, separates the two numbers) as shown below:
+.. figure:: /images/byCartesian.png
+    :width: 800px
+    :height: 763px
+    :align: right
+    :scale: 50
+    :alt: Cartesian Coordinates
 
-Coordinates 60,45.png
+The *Cartesian* coordinate system is generally the standard system used in most CAD programs. A specific point in a drawing is located by exact distances from both the X and Y axes - for example a point in a drawing could be 60,45 (note the comma -, separates the two numbers) as shown below:
 
 
 Polar
 ~~~~~
 
-The *Polar* coordinate system uses one distance and one angle to define a point in a drawing -for example a point in a drawing could be 50 < 45, so 50 units long and at an angle of 45 degrees (note the < sign is used for the angle)as shown here:
+.. figure:: /images/byPolar.png
+    :width: 800px
+    :height: 728px
+    :align: right
+    :scale: 50
+    :alt: Polar Coordinates
 
-Selection 024.png
+The *Polar* coordinate system uses one distance and one angle to define a point in a drawing -for example a point in a drawing could be 50 < 45, so 50 units long and at an angle of 45 degrees (note the < sign is used for the angle) as shown here:
 
 
 Defining Coordinate Locations
 -----------------------------
 
+.. _absolute:
+
 Absolute
 ~~~~~~~~
 
+.. figure:: /images/byAbsCoorRelCoor.png
+    :width: 800px
+    :height: 668px
+    :align: right
+    :scale: 50
+    :alt: Absolute Coordinates
+
 Absolute coordinates - using this method,coordinate points are entered in direct relation to the Origin 0,0. To do this 
 in LibreCAD just enter in the exact point e.g. 60,45.
-
 
 .. _relative:
 
 Relative
 ~~~~~~~~
 
+.. figure:: /images/byAbsCoorRelPolar.png
+    :width: 800px
+    :height: 614px
+    :align: right
+    :scale: 50
+    :alt: Polar Coordinates
+
 Relative coordinates - using this method, coordinate points are entered in relation to the previous point entered (not the origin), so for example - if your first point is 20,45, to then enter your next point 'relative' to this - you would use the '@' symbol - e.g @50,50 would then enter the second point 50 units horizontally along the x axis and 50 units vertically along the Y axis to give this second point relative to your last point (20,45).See image below.  Relative coordinates, such as @10,20, can also be written as 10..20 which allows for keypad input.
-
-
-Selection 026.png
-
 
 Relative Polar coordinates - this is a very useful way of drawing entities of which you know the exact length and angle.
 
@@ -67,16 +92,20 @@ For example you could draw a 100mm long line from start point 50,50 (absolute co
 
 You can see from this example that the second point is based on our 'distance' of 100mm and at an angle of 45 degrees. See example image below.
 
-Selection 028.png
-
 
 Angles in LibreCAD
-``````````````````
+~~~~~~~~~~~~~~~~~~
+
+.. figure:: /images/byAngles.png
+    :width: 800px
+    :height: 745px
+    :align: right
+    :scale: 50
+    :alt: Polar Coordinates
+
 It is worth mentioning here a brief explanation of how angles work in LibreCAD.
 
 All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction (see image below) beginning from 0 degrees (the 3 o'clock position). The < symbol is used before the angle - e.g.50<45.
-
-Selection 030.png
 
 
 .. _placing-entities: 

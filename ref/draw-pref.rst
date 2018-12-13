@@ -8,7 +8,7 @@ The preferences can be configured by selecting Options -> Current Drawing Prefer
 
 .. Text for describing images follow image directive.
 
-.. figure:: /images/DrawPref1.png
+.. figure:: /images/drawPref1.png
     :width: 785px
     :height: 623px
     :align: right
@@ -18,7 +18,7 @@ The preferences can be configured by selecting Options -> Current Drawing Prefer
 Specify the paper size for printing...
 
 
-.. figure:: /images/DrawPref2.png
+.. figure:: /images/drawPref2.png
     :width: 785px
     :height: 623px
     :align: right
@@ -26,7 +26,7 @@ Specify the paper size for printing...
     :alt: LibreCAD Drawing Preferences - Units
 
 
-.. figure:: /images/DrawPref3.png
+.. figure:: /images/drawPref3.png
     :width: 785px
     :height: 623px
     :align: right
@@ -34,7 +34,7 @@ Specify the paper size for printing...
     :alt: LibreCAD Drawing Preferences - Grid
 
 
-.. figure:: /images/DrawPref4.png
+.. figure:: /images/drawPref4.png
     :width: 785px
     :height: 623px
     :align: right
@@ -42,7 +42,7 @@ Specify the paper size for printing...
     :alt: LibreCAD Drawing Preferences - Dimensions
 
 
-.. figure:: /images/DrawPref5.png
+.. figure:: /images/drawPref5.png
     :width: 785px
     :height: 623px
     :align: right
