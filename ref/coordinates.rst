@@ -12,11 +12,6 @@ LibreCAD also uses the point set last as the *Relative Zero Point*.  It is repre
 In libreCAD`s 2D coordinate system all *X* units are measured horizontally and all *Y* units are measured vertically.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.
 
 Examples of X and Y coordinates:
-Selection 011.png
-
-
-Types of Coordinates
---------------------
 
 .. figure:: /images/coords.png
     :width: 800px
@@ -25,8 +20,11 @@ Types of Coordinates
     :scale: 75
     :alt: Coordinate
 
-There are two coordinate systems used in LibreCAD: *Cartesian* and *Polar*.
 
+Types of Coordinates
+--------------------
+
+There are two coordinate systems used in LibreCAD: *Cartesian* and *Polar*.
 
 Cartesian
 ~~~~~~~~~
@@ -100,7 +98,7 @@ Angles in LibreCAD
     :width: 800px
     :height: 745px
     :align: right
-    :scale: 50
+    :scale: 33
     :alt: Polar Coordinates
 
 It is worth mentioning here a brief explanation of how angles work in LibreCAD.
