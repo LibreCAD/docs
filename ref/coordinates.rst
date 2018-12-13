@@ -16,7 +16,7 @@ Examples of X and Y coordinates:
 .. figure:: /images/coords.png
     :width: 800px
     :height: 735px
-    :align: cente
+    :align: center
     :scale: 75
     :alt: Coordinate
 
