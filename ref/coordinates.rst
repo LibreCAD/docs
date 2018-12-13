@@ -37,14 +37,20 @@ Cartesian
     :alt: Cartesian Coordinates
 
 The *Cartesian* coordinate system is generally the standard system used in most CAD programs. A specific point in a drawing is located by exact distances from both the X and Y axes - for example a point in a drawing could be 60,45 (note the comma -, separates the two numbers) as shown below:
-::
-
-
-
-
-
 
 ::
+
+
+
+
+
+
+
+
+
+
+
+
 
 Polar
 ~~~~~
