@@ -7,7 +7,7 @@ In order to get the best out of LibreCAD it is necessary to understand the coord
 
 In libreCAD`s 2D coordinate system all *X* units are measured horizontally and all *Y* units are measured vertically.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.  All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and represented by a red cross.  The coordinates at this point are 0,0.  Every entity drawn can be located in relation to this origin.
 
-LibreCAD also uses a *Relative Zero Point*.  It is the last point set when creating an entity.  It is represented by a small red circle within the drawing.  The Relative Zero Point is set temporarily to a new location in a drawing so that a subsequent X and Y coordinates of the next entity can be placed using `*relative coordinates* <relative>`.  
+LibreCAD also uses a *Relative Zero Point*.  It is the last point set when creating an entity.  It is represented by a small red circle within the drawing.  The Relative Zero Point is set temporarily to a new location in a drawing so that a subsequent X and Y coordinates of the next entity can be placed using `relative coordinates <relative>`.  
 
 Examples of X and Y coordinates:
 
@@ -22,7 +22,7 @@ Examples of X and Y coordinates:
 Types of Coordinates
 --------------------
 
-There are two coordinate systems used in LibreCAD: *Cartesian* and *Polar*.
+There are two coordinate systems used in LibreCAD, *Cartesian* and *Polar*.
 
 Cartesian
 ~~~~~~~~~
@@ -76,6 +76,14 @@ Locating a point for an entity can be  done in two ways; *Absolute* or *Relative
 Absolute
 ~~~~~~~~
 
+When using Absolute coordinates, whether cartisian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "65,95" or "100<45".  
+
+
+.. _relative:
+
+Relative
+~~~~~~~~
+
 .. figure:: /images/byAbsCoorRelCoor.png
     :width: 800px
     :height: 668px
@@ -83,30 +91,17 @@ Absolute
     :scale: 50
     :alt: Absolute Coordinates
 
-When using Absolute coordinates, whether cartisian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "65,95" or "100<45".  
-
-|
-|
-|
-|
-|
-|
-|
-|
-
-.. _relative:
-
-Relative
-~~~~~~~~
-
 .. figure:: /images/byAbsCoorRelPolar.png
     :width: 800px
     :height: 614px
-    :align: right
+    :align: left
     :scale: 50
     :alt: Polar Coordinates
 
-Relative coordinates - using this method, coordinate points are entered in relation to the previous point entered (not the origin), so for example - if your first point is 20,45, to then enter your next point 'relative' to this - you would use the '@' symbol - e.g @50,50 would then enter the second point 50 units horizontally along the x axis and 50 units vertically along the Y axis to give this second point relative to your last point (20,45).See image below.  Relative coordinates, such as @10,20, can also be written as 10..20 which allows for keypad input.
+
+Relative coordinates are entered in relation to the last point set, not the origin.  To set a relative point. the coordinates, either cartesian or polar, are prefixed with the '@' symbol.  For example, if the previous point was set from the point of origin is at 20 units from 0 horizontally and 45 vertically (20,45), to set the next point 10,10 relative to the previous point, using "@10,10, would result in a point at 30 units from 0 horizontally and 45 vertically (30,55).
+
+ - e.g @50,50 would then enter the second point 50 units horizontally along the x axis and 50 units vertically along the Y axis to give this second point relative to your last point (20,45).See image below.  Relative coordinates, such as @10,20, can also be written as 10..20 which allows for keypad input.
 
 Relative Polar coordinates - this is a very useful way of drawing entities of which you know the exact length and angle.
 
@@ -127,6 +122,8 @@ Angles in LibreCAD
 
 All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction beginning from 0 degrees (the 3 o'clock position). The *<* symbol is used toi designat e an angle whn using polar coordinates, e.g.50<45.
 
+|
+|
 |
 |
 |
