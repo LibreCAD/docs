@@ -34,9 +34,8 @@ Cartesian
     :scale: 50
     :alt: Cartesian Coordinates
 
-The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is the horizontal axis and Y is the vertical axis.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be 100,75 as shown here:
+The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is the horizontal axis and Y is the vertical axis.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be "100,75", as shown here.
 
-|
 |
 |
 |
@@ -65,9 +64,12 @@ The *Polar* coordinate system uses one distance and one angle to locate a point 
 |
 |
 |
+|
 
 Defining Coordinate Locations
 -----------------------------
+
+Locating a point for an entity can be  done in two ways; *Absolute* or *Relative*.
 
 .. _absolute:
 
@@ -81,8 +83,7 @@ Absolute
     :scale: 50
     :alt: Absolute Coordinates
 
-Absolute coordinates - using this method,coordinate points are entered in direct relation to the Origin 0,0. To do this 
-in LibreCAD just enter in the exact point e.g. 60,45.
+When using Absolute coordinates, whether cartisian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "65,95" or "100<45".  
 
 |
 |
@@ -124,9 +125,7 @@ Angles in LibreCAD
     :scale: 33
     :alt: Polar Coordinates
 
-It is worth mentioning here a brief explanation of how angles work in LibreCAD.
-
-All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction (see image below) beginning from 0 degrees (the 3 o'clock position). The < symbol is used before the angle - e.g.50<45.
+All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction beginning from 0 degrees (the 3 o'clock position). The *<* symbol is used toi designat e an angle whn using polar coordinates, e.g.50<45.
 
 |
 |
