@@ -78,26 +78,10 @@ Absolute
 
 When using Absolute coordinates, whether cartisian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "65,95" or "100<45".  
 
-
 .. _relative:
 
 Relative
 ~~~~~~~~
-
-.. figure:: /images/byAbsCoorRelCoor.png
-    :width: 800px
-    :height: 668px
-    :align: right
-    :scale: 50
-    :alt: Absolute Coordinates
-
-.. figure:: /images/byAbsCoorRelPolar.png
-    :width: 800px
-    :height: 614px
-    :align: left
-    :scale: 50
-    :alt: Polar Coordinates
-
 
 Relative coordinates are entered in relation to the last point set, not the origin.  To set a relative point. the coordinates, either cartesian or polar, are prefixed with the '@' symbol.  For example, if the previous point was set from the point of origin is at 20 units from 0 horizontally and 45 vertically (20,45), to set the next point 10,10 relative to the previous point, using "@10,10, would result in a point at 30 units from 0 horizontally and 45 vertically (30,55).
 
@@ -108,6 +92,20 @@ Relative Polar coordinates - this is a very useful way of drawing entities of wh
 For example you could draw a 100mm long line from start point 50,50 (absolute coordinate) and specify your second point at 100<45 (relative 'polar' coordinate).
 
 You can see from this example that the second point is based on our 'distance' of 100mm and at an angle of 45 degrees. See example image below.
+
+.. figure:: /images/byAbsCoorRelCoor.png
+    :width: 800px
+    :height: 668px
+    :align: left
+    :scale: 33
+    :alt: Absolute Coordinates
+
+.. figure:: /images/byAbsCoorRelPolar.png
+    :width: 800px
+    :height: 614px
+    :align: right
+    :scale: 33
+    :alt: Polar Coordinates
 
 
 Angles in LibreCAD
