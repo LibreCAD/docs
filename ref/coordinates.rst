@@ -39,6 +39,16 @@ Cartesian
 The *Cartesian* coordinate system is generally the standard system used in most CAD programs. A specific point in a drawing is located by exact distances from both the X and Y axes - for example a point in a drawing could be 60,45 (note the comma -, separates the two numbers) as shown below:
 
 
+
+
+
+
+
+
+
+
+
+
 Polar
 ~~~~~
 
@@ -50,6 +60,15 @@ Polar
     :alt: Polar Coordinates
 
 The *Polar* coordinate system uses one distance and one angle to define a point in a drawing -for example a point in a drawing could be 50 < 45, so 50 units long and at an angle of 45 degrees (note the < sign is used for the angle) as shown here:
+
+
+
+
+
+
+
+
+
 
 
 Defining Coordinate Locations
