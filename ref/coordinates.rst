@@ -3,13 +3,11 @@
 The Coordinate System
 =====================
 
-In order to get the best out of LibreCAD it is necessary to have a good understanding of the coordinate system and how coordinates work.  Everything that you draw in LibreCAD will be exact and precise, placed accurately using X,Y coordinates.
+In order to get the best out of LibreCAD it is necessary to understand the coordinate system and how coordinates work.  Every entity (e.g. a line, circle, etc.) that is drawn in LibreCAD can be drawn with precision, placed accurately using coordinates.
 
-The *absolute origin* (or *Zero* point) in your drawing is where the X and Y axes cross each other (represented by a red cross), every entity you draw is located in relation to this origin.  The coordinates at this point at 0,0.
+In libreCAD`s 2D coordinate system all *X* units are measured horizontally and all *Y* units are measured vertically.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.  All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and represented by a red cross.  The coordinates at this point are 0,0.  Every entity drawn can be located in relation to this origin.
 
-LibreCAD also uses the point set last as the *Relative Zero Point*.  It is represented by a small red circle within the drawing.  This Relative Zero Point is set temporarily to a new location in a drawing so that all subsequent X and Y coordinates of entities drawn or blocks placed using `"relative coordinates" <_relative>`.  This point is used as a temporary reference point when setting the next point using `"relative coordinates" <_relative>`.  for example will be relative to this newly set Relative Zero Point.
-
-In libreCAD`s 2D coordinate system all *X* units are measured horizontally and all *Y* units are measured vertically.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.
+LibreCAD also uses a *Relative Zero Point*.  It is the last point set when creating an entity.  It is represented by a small red circle within the drawing.  The Relative Zero Point is set temporarily to a new location in a drawing so that a subsequent X and Y coordinates of the next entity can be placed using `*relative coordinates* <relative>`.  
 
 Examples of X and Y coordinates:
 
@@ -36,7 +34,7 @@ Cartesian
     :scale: 50
     :alt: Cartesian Coordinates
 
-The *Cartesian* coordinate system is generally the standard system used in most CAD programs. A specific point in a drawing is located by exact distances from both the X and Y axes - for example a point in a drawing could be 60,45 (note the comma -, separates the two numbers) as shown here
+The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is the horizontal axis and Y is the vertical axis.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be 100,75 as shown here:
 
 |
 |
@@ -57,7 +55,7 @@ Polar
     :scale: 50
     :alt: Polar Coordinates
 
-The *Polar* coordinate system uses one distance and one angle to define a point in a drawing -for example a point in a drawing could be 50 < 45, so 50 units long and at an angle of 45 degrees (note the < sign is used for the angle) as shown.
+The *Polar* coordinate system uses one distance and one angle to locate a point in a drawing.  In LibreCAD the polar coordinates take the form *100 < 45*, indicating a line 100 units long and at an angle of 45 degrees as shown.
 
 |
 |
@@ -130,8 +128,6 @@ It is worth mentioning here a brief explanation of how angles work in LibreCAD.
 
 All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction (see image below) beginning from 0 degrees (the 3 o'clock position). The < symbol is used before the angle - e.g.50<45.
 
-|
-|
 |
 |
 |
