@@ -36,6 +36,11 @@ Cartesian
 
 The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is the horizontal axis and Y is the vertical axis.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be "100,75", as shown here.
 
+.. note:
+
+Coordinates can also be written as 10..20 which allows for `keypad <keyboard>` input.
+
+
 |
 |
 |
@@ -76,37 +81,35 @@ Locating a point for an entity can be  done in two ways; *Absolute* or *Relative
 Absolute
 ~~~~~~~~
 
-When using Absolute coordinates, whether cartisian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "65,95" or "100<45".  
+When using Absolute coordinates, whether cartisian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<45" as shown in the two images above.
 
 .. _relative:
 
 Relative
 ~~~~~~~~
 
-Relative coordinates are entered in relation to the last point set, not the origin.  To set a relative point. the coordinates, either cartesian or polar, are prefixed with the '@' symbol.  For example, if the previous point was set from the point of origin is at 20 units from 0 horizontally and 45 vertically (20,45), to set the next point 10,10 relative to the previous point, using "@10,10, would result in a point at 30 units from 0 horizontally and 45 vertically (30,55).
+Relative coordinates are entered in relation to the last point set, not the origin.  To set a relative point the coordinates, either cartesian or polar, are prefixed with the '@' symbol.  
 
- - e.g @50,50 would then enter the second point 50 units horizontally along the x axis and 50 units vertically along the Y axis to give this second point relative to your last point (20,45).See image below.  Relative coordinates, such as @10,20, can also be written as 10..20 which allows for keypad input.
+When using cartesian coordinates for example, to set a 75 unit above and 65 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units from 0 horizontally and 45 vertically from the origin (20,45), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units from 0 horizontally and 100 vertically (100,100 absolute).
 
-Relative Polar coordinates - this is a very useful way of drawing entities of which you know the exact length and angle.
-
-For example you could draw a 100mm long line from start point 50,50 (absolute coordinate) and specify your second point at 100<45 (relative 'polar' coordinate).
-
-You can see from this example that the second point is based on our 'distance' of 100mm and at an angle of 45 degrees. See example image below.
+When using a polar coordinate, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
 
 .. figure:: /images/byAbsCoorRelCoor.png
     :width: 800px
     :height: 668px
     :align: left
-    :scale: 33
-    :alt: Absolute Coordinates
+    :scale: 40
+    :alt: Absolute & Relative Cartesian Coordinates
 
 .. figure:: /images/byAbsCoorRelPolar.png
     :width: 800px
     :height: 614px
     :align: right
-    :scale: 33
-    :alt: Polar Coordinates
+    :scale: 40
+    :alt: Absolute Cartesian & Relative Polar Coordinates
 
+|
+|
 
 Angles in LibreCAD
 ~~~~~~~~~~~~~~~~~~
@@ -131,6 +134,8 @@ All angles in LibreCAD are measured in 360 degrees in an anti-clockwise directio
 
 Placing Entities
 -----------------
+
+.. _keyboard:
 
 Keyboard
 ~~~~~~~~
