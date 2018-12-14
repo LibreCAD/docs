@@ -137,26 +137,28 @@ All angles in LibreCAD are measured in 360 degrees in an anti-clockwise directio
 Placing Entities
 -----------------
 
-There are two methods for defineing coordinates when drawing entities in LibreCAD.  Users can use either the keyboard or a pointing device such as a mouse.
+There are two methods for defining coordinates when drawing entities in LibreCAD.  Users can use either the keyboard and type coordinates, or by using a mouse or other pointing devices.
 
 .. _keyboard:
 
 Keyboard
 ~~~~~~~~
 
-Coordinate value can be typed at the command line or inside a 'text input box' (presented by tool options requiring distance, angle, etc...).  This method is 100% precise.
+Coordinate values, whether cartesian or polar, can be typed at the :ref:`command line <commandline>` in the formats as previously noted.  Text input is also required by tool options where distance, angle, etc. are needed.  
 
 
 Mouse
 ~~~~~
 
-You can 'manually', move the mouse cursor around and visually pick a coordinate point, but this method is less precise, but may be acceptable for 'rough' sketches or other freehand work!  However, the accuracy of using the mouse it enhanced through the use of :ref:`snaps`.  
+You can 'manually' move the mouse cursor around and visually pick a coordinate point.  This method is less precise, but may be acceptable for 'rough' sketches or other freehand work!  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps`.  
 
 
 .. _snaps:
 
 Snapping
-~~~~~~~~
+--------
+
+Snaps provide the ability to pick precise locations when using a mouse.  Various snap tools are available to allow the user to select different locations on entities or elsewhere in the drawing space when using the grid.
 
 .. csv-table:: 
    :header: "Menu Item", "Icon", "Command", "Description"
