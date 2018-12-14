@@ -99,12 +99,10 @@ When using cartesian coordinates for example, to set a 75 units above and 65 uni
     :scale: 45
     :alt: Absolute Cartesian & Relative Polar Coordinates
 
-|
-|
-|
 
 As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
 
+|
 |
 |
 |
