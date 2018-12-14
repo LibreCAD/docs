@@ -26,11 +26,11 @@ From Existing Entities
 
 If you have already drawn the entities that you want to convert into a block use the following steps.
 
-    From the menu select Block->Create Block
-    Select the entities that will make up the block
-    Specify the reference point of the block
-        The reference point is the base of the object when it is inserted
-    Provide a unique name for the new block
+    #. From the menu select Block->Create Block
+    #. Select the entities that will make up the block
+    #. Specify the reference point of the block
+        - The reference point is the base of the object when it is inserted
+    #. Provide a unique name for the new block
 
 
 From Scratch
@@ -38,37 +38,39 @@ From Scratch
 
 A block can also be created before placing it in the main drawing.
 
-    From the menu select Block->Add Block. Alternately click the green plus (+) above the block list
-    Provide a unique name for the new block
-    The new, empty block will appear in the block list
-    Select the new, empty block in the block list
-    Select Block->Edit Block or click the edit block button in above the block list
-    The new block will open in a new sub-window within the current drawing
-    Draw new entities that will compose the new block.
-    Close the window to return to your main drawing
+    #. From the menu select Block->Add Block. Alternately click the green plus (+) above the block list
+    #. Provide a unique name for the new block
+    #. The new, empty block will appear in the block list
+    #. Select the new, empty block in the block list
+    #. Select Block->Edit Block or click the edit block button in above the block list
+    #. The new block will open in a new sub-window within the current drawing
+    #. Draw new entities that will compose the new block.
+    #. Close the window to return to your main drawing
 
-Notes:
+.. note::
 
-    The reference point for the newly created block is the origin of the coordinate system
-    The block must be inserted for it to appear in the main drawing
+    The reference point for the newly created block is the origin of the coordinate system.
+    The block must be inserted for it to appear in the main drawing.
+
 
 Reusing blocks
+--------------
 
-    create a block
-    select the block in the block list
-    press the save button in the block list
-    choose the location for saving
-    open a new drawing
-    file->import->block
-    place the block
+    #. Create a block
+    #. Select the block in the block list
+    #. Press the save button in the block list
+    #. Choose the location for saving
+    #. Open a new drawing
+    #. File -> Import -> Block
+    #. Place the block.
 
 You can also use the library browser. Set the path in Application Preferences, and have blocks in sub-directories of that path.
 
-If you have the other drawing open, you can use::
+If you have the other drawing open, you can use:
 
-    ctrl+c
-    select reference point
-    switch drawing
-    ctrl+v
-    place
+    #. Press [ctrl]-c
+    #. Select reference point
+    #. Switch drawing
+    #. [ctrl]-v
+    #. Place the block.
 
