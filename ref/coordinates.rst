@@ -90,10 +90,12 @@ Relative coordinates are entered in relation to the last point set, not the orig
 
 When using cartesian coordinates for example, to set a 75 units above and 65 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
 
+|
+
 .. figure:: /images/byAbsCoorRelPolar.png
     :width: 800px
     :height: 660px
-    :align: right
+    :align: left
     :scale: 45
     :alt: Absolute Cartesian & Relative Polar Coordinates
 
