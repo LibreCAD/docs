@@ -27,7 +27,7 @@ LibreCAD then starts with its default configuration and is ready use.  The user 
     :width: 1280px
     :height: 960px
     :align: center
-    :scale: 67
+    :scale: 50
     :alt: LibreCAD Application Window
 
 
@@ -47,7 +47,7 @@ LibreCAD's layout and appearance is highly configurable:
     :width: 1280px
     :height: 960px
     :align: center
-    :scale: 67
+    :scale: 50
     :alt: LibreCAD Application Window - custom layout
 
 
