@@ -128,6 +128,8 @@ All angles in LibreCAD are measured in 360 degrees in an anti-clockwise directio
 |
 |
 |
+|
+|
 
 
 .. _placing-entities: 
