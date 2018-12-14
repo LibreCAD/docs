@@ -88,17 +88,14 @@ Relative
 
 Relative coordinates are entered in relation to the last point set, not the origin.  To set a relative point the coordinates, either cartesian or polar, are prefixed with the '@' symbol.  
 
-When using cartesian coordinates for example, to set a 75 unit above and 65 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units from 0 horizontally and 45 vertically from the origin (20,45), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units from 0 horizontally and 100 vertically (100,100 absolute).
-
-As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
-
-
 .. figure:: /images/byAbsCoorRelCoor.png
     :width: 600px
     :height: 501px
     :align: left
     :scale: 67
     :alt: Absolute & Relative Cartesian Coordinates
+
+When using cartesian coordinates for example, to set a 75 unit above and 65 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units from 0 horizontally and 45 vertically from the origin (20,45), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units from 0 horizontally and 100 vertically (100,100 absolute).
 
 
 .. figure:: /images/byAbsCoorRelPolar.png
@@ -108,6 +105,7 @@ As an example when using a polar coordinates, to draw a line 100mm and 45 degree
     :scale: 67
     :alt: Absolute Cartesian & Relative Polar Coordinates
 
+As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
 
 |
 |
