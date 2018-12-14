@@ -3,7 +3,7 @@
 The Coordinate System
 =====================
 
-In order to get the best out of LibreCAD it is necessary to understand the coordinate system and how coordinates work.  Every entity (e.g. a line, circle, etc.) that is drawn in LibreCAD can be drawn with precision, placed accurately using coordinates.
+In order to get the best out of the application it is necessary to understand the coordinate systems used in LibreCAD and how coordinates work.  Every entity (e.g. a line, circle, etc.) that is drawn in LibreCAD can be drawn with precision, placed accurately using coordinates.
 
 In libreCAD`s 2D coordinate system *X* units are measured horizontally and *Y* units are measured vertically.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.  All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and represented by a red cross.  The coordinates at this point are 0,0.  Every entity drawn can be located in relation to this origin.
 
@@ -53,14 +53,11 @@ Polar
     :width: 800px
     :height: 660px
     :align: right
-    :scale: 50
+    :scale: 40
     :alt: Polar Coordinates
 
 The *Polar* coordinate system uses one distance and one angle to locate a point in a drawing.  In LibreCAD the polar coordinates take the form *100 < 45*, indicating a line 100 units long and at an angle of 45 degrees as shown.
 
-|
-|
-|
 |
 |
 |
@@ -91,7 +88,7 @@ Relative coordinates are entered in relation to the last point set, not the orig
     :width: 800px
     :height: 660px
     :align: right
-    :scale: 50
+    :scale: 40
     :alt: Absolute & Relative Cartesian Coordinates
 
 When using cartesian coordinates for example, to set a 75 units above and 65 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
@@ -101,7 +98,7 @@ When using cartesian coordinates for example, to set a 75 units above and 65 uni
     :width: 800px
     :height: 660px
     :align: right
-    :scale: 50
+    :scale: 40
     :alt: Absolute Cartesian & Relative Polar Coordinates
 
 As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
@@ -116,7 +113,7 @@ Angles in LibreCAD
     :width: 800px
     :height: 660px
     :align: right
-    :scale: 67
+    :scale: 50
     :alt: Polar Coordinates
 
 All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction beginning from 0 degrees (the 3 o'clock position). The *<* symbol is used toi designat e an angle whn using polar coordinates, e.g.50<45.
