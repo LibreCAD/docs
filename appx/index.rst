@@ -14,4 +14,4 @@ Appendices
     Languages <languages>
     Systems of Measurement <measurements>
     Style Sheets <style>
-    GNU General Public License <gpl-license>
+    Licenses <licenses>

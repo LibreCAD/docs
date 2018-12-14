@@ -4,18 +4,23 @@ Building from Source
 ====================
 
 Git and GitHub
+--------------
 
-https://github.com/LibreCAD/LibreCAD/wiki/Git-and-GitHub
-Building LibreCAD 2.0 on Linux
+The source code for LibreCAD is hosted on GitHub (https://github.com/LibreCAD/LibreCAD/).  The source can be download or cloned
+
+
+Building on Linux
+-----------------
+
 Install dependencies
 
 First gather the required packages::
 
-   $ sudo apt-get install g++ gcc make git-core qtbase5-dev libqt5svg5-dev\
+   $ sudo apt install g++ gcc make git-core qtbase5-dev libqt5svg5-dev\
     qttools5-dev qtchooser qttools5-dev-tools libmuparser-dev librsvg2-bin\
     libboost-dev libfreetype6-dev libicu-dev pkg-config
 
-You also have to either install the qt5-default package ("apt-get install qt5-default") or use qtchooser prior to running qmake (e.g., "qtchooser -qt5"). If you have not cloned the LibreCAD repository
+You also have to either install the qt5-default package ("apt install qt5-default") or use qtchooser prior to running qmake (e.g., "qtchooser -qt5"). If you have not cloned the LibreCAD repository
 
 If you have a local LibreCAD repository, continue to Update a local LibreCAD repository instead
 
@@ -50,26 +55,30 @@ Cloning the source package
 
 To clone LibreCAD source code by command line:
 
+::
+
    git clone https://github.com/LibreCAD/LibreCAD.git
 
 On Windows, you may alternatively:
 
-    download and install msysgit
-    press the windows-key and then type git
-    select "Git GUI"
-    after the program loads select "Clone existing repository"
-        enter source location: git://github.com/LibreCAD/LibreCAD.git
-        enter target directory: where you want the project on your hard drive
-    press clone and then wait for it to download
+    - download and install msysgit
+    - press the windows-key and then type git
+    - select "Git GUI"
+    - after the program loads select "Clone existing repository"
+        - enter source location: git://github.com/LibreCAD/LibreCAD.git
+        - enter target directory: where you want the project on your hard drive
+    - press clone and then wait for it to download
 
 Updating local source
 
-    press the windows-key and then type git
-    select "Git Bash"
-    input: cd /c/your_project_folder
-    input: git pull -r
+    - press the windows-key and then type git
+    - select "Git Bash"
+    - input: cd /c/your_project_folder
+    - input: git pull -r
+
 
 Qt
+--
 
 Download Qt from : Qt download. Offline installer with MinGW is recommended instead of the Windows online installer. Qt-5.4.1 for Windows 32 bit (MinGW 4.9.1) is used as an example in this article.
 
