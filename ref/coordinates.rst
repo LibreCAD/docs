@@ -65,7 +65,7 @@ The *Polar* coordinate system uses one distance and one angle to locate a point 
 Defining Coordinate Locations
 -----------------------------
 
-Locating a point for an entity can be  done in two ways; *Absolute* or *Relative*.
+In LibreCAD lines, points, arcs, polylines, circles, and many more entities can be placed in a drawing using either *Absolute* or *Relative* coordinate input.
 
 .. _absolute:
 
@@ -79,7 +79,7 @@ When using Absolute coordinates, whether cartisian or polar, points are entered 
 Relative
 ~~~~~~~~
 
-Relative coordinates are entered in relation to the last point set, not the origin.  To set a relative point the coordinates, either cartesian or polar, are prefixed with the '@' symbol.  
+The last coordinate defined when creating an entity becomes a temporary reference for the next point.  The newly set temporary reference is the "Relative Zero Point", and coordinates can be entered relative to the Relative Zero Point.  To define the next point relative to the Relative Zero Point coordinates, either cartesian or polar, are prefixed with the '@' symbol when entered.  Points without the @ prefix are always interpreted as absolute coordinates.
 
 .. figure:: /images/byAbsCoorRelCoor.png
     :width: 800px
@@ -137,14 +137,14 @@ All angles in LibreCAD are measured in 360 degrees in an anti-clockwise directio
 Placing Entities
 -----------------
 
+There are two methods for defineing coordinates when drawing entities in LibreCAD.  Users can use either the keyboard or a pointing device such as a mouse.
+
 .. _keyboard:
 
 Keyboard
 ~~~~~~~~
 
-In LibreCAD lines, points, arcs, polylines, circles and many more entities can be drawn and placed in a drawing using either *Absolute* or *Relative* coordinate input.
-
-To input coordinate value points in LibreCAD you can type the values in the command line or inside a 'text input box' (presented by tool options requiring distance,angle etc...).  This method is 100% precise.
+Coordinate value can be typed at the command line or inside a 'text input box' (presented by tool options requiring distance, angle, etc...).  This method is 100% precise.
 
 
 Mouse
