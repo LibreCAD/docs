@@ -89,14 +89,14 @@ When using cartesian coordinates for example, to set a 75 units above and 65 uni
     :width: 800px
     :height: 660px
     :align: left
-    :scale: 49
+    :scale: 40
     :alt: Absolute & Relative Cartesian Coordinates
 
 .. figure:: /images/byAbsCoorRelPolar.png
     :width: 800px
     :height: 660px
     :align: right
-    :scale: 49
+    :scale: 40
     :alt: Absolute Cartesian & Relative Polar Coordinates
 
 As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
@@ -119,6 +119,7 @@ All angles in LibreCAD are measured in 360 degrees in an anti-clockwise directio
 |
 |
 |
+|
 
 
 .. _placing-entities: 
@@ -130,15 +131,16 @@ Placing Entities
 
 Keyboard
 ~~~~~~~~
+
 In LibreCAD lines, points, arcs, polylines, circles and many more entities can be drawn and placed in a drawing using either *Absolute* or *Relative* coordinate input.
 
-To input coordinate value points in LibreCAD you can type the values in the command line or inside a 'text input box' (presented by tool options requiring distance,angle etc...).  This method is 100% accurate.
+To input coordinate value points in LibreCAD you can type the values in the command line or inside a 'text input box' (presented by tool options requiring distance,angle etc...).  This method is 100% precise.
 
 
 Mouse
 ~~~~~
 
-You can 'manually', move the mouse cursor around and visually pick a coordinate point, but obviously this method is less accurate but may be acceptable for some 'rough' sketch or freehand work!  HYowever, the accuracy of using the mouse it enhanced through the use of :ref:`snaps`.
+You can 'manually', move the mouse cursor around and visually pick a coordinate point, but this method is less precise, but may be acceptable for 'rough' sketches or other freehand work!  However, the accuracy of using the mouse it enhanced through the use of :ref:`snaps`.  
 
 
 .. _snaps:
