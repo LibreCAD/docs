@@ -170,13 +170,13 @@ Snapping
     "Snap Center", |icon06|, "sc", "Snap to the center of a circle or ellipse. It will also snap to the foci of an ellipse."
     "Snap Middle", |icon07|, "sm", "Snap to the middle of a path. Enabling this mode displays a ''Middle points'' input. If you change the value to 2 then you can snap to the trisection points of a line segment."
     "Snap Distance", |icon08|, "sd", "If you snap to the endpoint of a line segment then activate ''snap distance'' and input 50, then it will snap to a point 50 units from the endpoint on the line segment. However, it will also snap to a point that is 50 units from the other endpoint."
-    "Snap Intersection", |icon09|, "si", "Snap to the intersection of two entities. This does not currently work for polylines."
+    "Snap Intersection", |icon09|, "si", "Snap to the intersection of two entities. Note this does not currently work for polylines."
     "Restrict Horizontal", |icon10|, "rh", "Restricts the crosshairs to the x-axis (horizontal movement)."
     "Restrict Vertical", |icon11|, "rv", "Restricts the crosshairs to the y-axis  (vertical movement)."
     "Restrict Orthogonal", |icon12|, "rr", "Restricts the crosshairs to the x **or** y-axis. (either horizontal **or** vertical movement)."
     "Restrict Nothing", , "rn", "Turns off restricted cursor movements."
-    "Set relative zero position", |icon13|, "", ""
-    "Lock relative zero position", |icon14|, "", ""
+    "Set relative zero position", |icon13|, "", "Manually sets the Relative Zero Point at the selected coordinate."
+    "Lock relative zero position", |icon14|, "", "Locks the Relative Zero Point to the current coordinate."
 
 
 
