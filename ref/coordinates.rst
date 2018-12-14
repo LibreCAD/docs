@@ -7,7 +7,7 @@ In order to get the best out of LibreCAD it is necessary to understand the coord
 
 In libreCAD`s 2D coordinate system all *X* units are measured horizontally and all *Y* units are measured vertically.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.  All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and represented by a red cross.  The coordinates at this point are 0,0.  Every entity drawn can be located in relation to this origin.
 
-LibreCAD also uses a *Relative Zero Point*.  It is the last point set when creating an entity.  It is represented by a small red circle within the drawing.  The Relative Zero Point is set temporarily to a new location in a drawing so that a subsequent X and Y coordinates of the next entity can be placed using `relative coordinates <relative>`.  
+LibreCAD also uses a *Relative Zero Point*.  It is the last point set when creating an entity.  It is represented by a small red circle within the drawing.  The Relative Zero Point is set temporarily to a new location in a drawing so that a subsequent X and Y coordinates of the next entity can be placed using :ref:`relative coordinates <relative>`.  
 
 Examples of X and Y coordinates:
 
@@ -38,11 +38,9 @@ The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartes
 
 .. note:
 
-Coordinates can also be written as 10..20 which allows for `keypad <keyboard>` input.
+Coordinates can also be written as 10..20 which allows for :ref:`keypad <keyboard>` input.
 
 
-|
-|
 |
 |
 |
@@ -69,7 +67,7 @@ The *Polar* coordinate system uses one distance and one angle to locate a point 
 |
 |
 |
-|
+
 
 Defining Coordinate Locations
 -----------------------------
@@ -92,7 +90,7 @@ Relative coordinates are entered in relation to the last point set, not the orig
 
 When using cartesian coordinates for example, to set a 75 unit above and 65 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units from 0 horizontally and 45 vertically from the origin (20,45), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units from 0 horizontally and 100 vertically (100,100 absolute).
 
-When using a polar coordinate, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
+As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
 
 
 .. figure:: /images/byAbsCoorRelCoor.png
@@ -101,15 +99,14 @@ When using a polar coordinate, to draw a line 100mm and 45 degrees from the last
     :align: left
     :scale: 67
     :alt: Absolute & Relative Cartesian Coordinates
-===================================================
-===================================================
+
+
 .. figure:: /images/byAbsCoorRelPolar.png
     :width: 600px
     :height: 506px
     :align: right
     :scale: 67
     :alt: Absolute Cartesian & Relative Polar Coordinates
-===================================================
 
 
 |
