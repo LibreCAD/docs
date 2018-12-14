@@ -98,15 +98,17 @@ When using a polar coordinate, to draw a line 100mm and 45 degrees from the last
     :width: 800px
     :height: 668px
     :align: left
-    :scale: 40
+    :scale: 50
     :alt: Absolute & Relative Cartesian Coordinates
 
 .. figure:: /images/byAbsCoorRelPolar.png
     :width: 800px
     :height: 614px
     :align: right
-    :scale: 40
+    :scale: 50
     :alt: Absolute Cartesian & Relative Polar Coordinates
+
+
 
 |
 |
@@ -118,7 +120,7 @@ Angles in LibreCAD
     :width: 800px
     :height: 745px
     :align: right
-    :scale: 33
+    :scale: 50
     :alt: Polar Coordinates
 
 All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction beginning from 0 degrees (the 3 o'clock position). The *<* symbol is used toi designat e an angle whn using polar coordinates, e.g.50<45.
