@@ -5,15 +5,15 @@ The Coordinate System
 
 In order to get the best out of LibreCAD it is necessary to understand the coordinate system and how coordinates work.  Every entity (e.g. a line, circle, etc.) that is drawn in LibreCAD can be drawn with precision, placed accurately using coordinates.
 
-In libreCAD`s 2D coordinate system all *X* units are measured horizontally and all *Y* units are measured vertically.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.  All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and represented by a red cross.  The coordinates at this point are 0,0.  Every entity drawn can be located in relation to this origin.
+In libreCAD`s 2D coordinate system *X* units are measured horizontally and *Y* units are measured vertically.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.  All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and represented by a red cross.  The coordinates at this point are 0,0.  Every entity drawn can be located in relation to this origin.
 
 LibreCAD also uses a *Relative Zero Point*.  It is the last point set when creating an entity.  It is represented by a small red circle within the drawing.  The Relative Zero Point is set temporarily to a new location in a drawing so that a subsequent X and Y coordinates of the next entity can be placed using :ref:`relative coordinates <relative>`.  
 
 Examples of X and Y coordinates:
 
 .. figure:: /images/coords.png
-    :width: 600px
-    :height: 588px
+    :width: 880px
+    :height: 660px
     :align: center
     :scale: 100
     :alt: Coordinate
@@ -28,8 +28,8 @@ Cartesian
 ~~~~~~~~~
 
 .. figure:: /images/byCartesian.png
-    :width: 600px
-    :height: 538px
+    :width: 800px
+    :height: 660px
     :align: right
     :scale: 67
     :alt: Cartesian Coordinates
@@ -50,8 +50,8 @@ Polar
 ~~~~~
 
 .. figure:: /images/byPolar.png
-    :width: 600px
-    :height: 509px
+    :width: 800px
+    :height: 660px
     :align: right
     :scale: 67
     :alt: Polar Coordinates
@@ -88,8 +88,8 @@ Relative
 Relative coordinates are entered in relation to the last point set, not the origin.  To set a relative point the coordinates, either cartesian or polar, are prefixed with the '@' symbol.  
 
 .. figure:: /images/byAbsCoorRelCoor.png
-    :width: 600px
-    :height: 501px
+    :width: 800px
+    :height: 660px
     :align: left
     :scale: 67
     :alt: Absolute & Relative Cartesian Coordinates
@@ -98,8 +98,8 @@ When using cartesian coordinates for example, to set a 75 units above and 65 uni
 
 
 .. figure:: /images/byAbsCoorRelPolar.png
-    :width: 600px
-    :height: 506px
+    :width: 800px
+    :height: 660px
     :align: right
     :scale: 67
     :alt: Absolute Cartesian & Relative Polar Coordinates
@@ -113,8 +113,8 @@ Angles in LibreCAD
 ~~~~~~~~~~~~~~~~~~
 
 .. figure:: /images/angles.png
-    :width: 600px
-    :height: 550px
+    :width: 800px
+    :height: 660px
     :align: right
     :scale: 67
     :alt: Polar Coordinates
