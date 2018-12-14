@@ -15,7 +15,7 @@ Examples of X and Y coordinates:
     :width: 880px
     :height: 660px
     :align: center
-    :scale: 100
+    :scale: 80
     :alt: Coordinate
 
 
@@ -31,7 +31,7 @@ Cartesian
     :width: 800px
     :height: 660px
     :align: right
-    :scale: 50
+    :scale: 40
     :alt: Cartesian Coordinates
 
 The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is the horizontal axis and Y is the vertical axis.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be "100,75", as shown here.
