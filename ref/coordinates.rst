@@ -82,25 +82,29 @@ Relative
 
 Relative coordinates are entered in relation to the last point set, not the origin.  To set a relative point the coordinates, either cartesian or polar, are prefixed with the '@' symbol.  
 
-When using cartesian coordinates for example, to set a 75 units above and 65 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
-
-
 .. figure:: /images/byAbsCoorRelCoor.png
     :width: 800px
     :height: 660px
     :align: left
-    :scale: 40
+    :scale: 50
     :alt: Absolute & Relative Cartesian Coordinates
+
+When using cartesian coordinates for example, to set a 75 units above and 65 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
 
 .. figure:: /images/byAbsCoorRelPolar.png
     :width: 800px
     :height: 660px
     :align: right
-    :scale: 40
+    :scale: 50
     :alt: Absolute Cartesian & Relative Polar Coordinates
 
 As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
 
+|
+|
+|
+|
+|
 
 Angles in LibreCAD
 ~~~~~~~~~~~~~~~~~~
