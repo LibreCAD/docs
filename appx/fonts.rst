@@ -52,7 +52,7 @@ Fonts
     "symbol_misc2", "symbol_misc2.lff", "Symbol", " ", "|font43|"
     "symeteo", "symeteo.lff", "Symbol", " ", "|font44|"
     "symusic", "symusic.lff", "Symbol", " ", "|font45|"
-    "unicode", "unicode.lff", "Sans Serif ","X", "|font46|
+    "unicode", "unicode.lff", "Sans Serif ","X", "|font46|"
 
 \*\: These fonts are composed of single lines and are suitable for technical drawings.
 
