@@ -150,7 +150,7 @@ Coordinate values, whether cartesian or polar, can be typed at the :ref:`command
 Mouse
 ~~~~~
 
-You can 'manually' move the mouse cursor around and visually pick a coordinate point.  This method is less precise, but may be acceptable for 'rough' sketches or other freehand work!  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps`.  
+Entities' coordinates can also be located graphically using a mouse or other pointing device.  Using a mouse is less precise, but may be acceptable for 'rough' sketches or other freehand work.  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps`.  
 
 
 .. _snaps:
