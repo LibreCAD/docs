@@ -48,8 +48,8 @@ master_doc = 'index'
 # General information about the project.
 project = 'LibreCAD Documentation'
 title = 'LibreCAD User Manual'
-copyright = '2018, LibreCAD .org'
-author = 'Gary S'
+copyright = '2018, LibreCAD.org'
+author = 'LibreCAD Documentation Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
