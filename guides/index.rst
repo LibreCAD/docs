@@ -9,7 +9,7 @@ The user guides provide the steps necessary to perform a various tasks with Libr
 
 
 Contents
-========
+--------
 
 .. toctree::
    :maxdepth: 1

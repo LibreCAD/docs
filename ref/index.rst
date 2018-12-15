@@ -9,7 +9,7 @@ The Reference section provides an explanation of LibreCAD's user elements, comma
 
 
 Contents
-========
+--------
 
 .. toctree::
    :maxdepth: 1

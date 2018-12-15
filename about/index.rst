@@ -22,7 +22,7 @@ LibreCAD has the following features:
 
 
 Contents
-========
+--------
 
 .. toctree::
    :maxdepth: 1

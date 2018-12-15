@@ -40,9 +40,9 @@ Units
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Units
 
-The **Units** tab allows the user to set the *Main drawing unit* to the prefered unit of measure.  The setting over-rides the default established during LibreCAD's :ref:`initial application configuration <configure>`.  The same units of measures are as noted in the :ref:`appendix <measurements>` are available for the drawing's preferences.
+The **Units** tab allows users to set the *Main drawing unit* to the prefered unit of measure.  The setting over-rides the default set during LibreCAD's initial application :ref:`configuration <configure>`.  The same units of measures are as noted in the :ref:`appendix <measurements>` are available for the drawing's preferences.
 
-In addition, the Length and Angle formats and precision as shown below can be set to suit the type of drawing.
+In addition, the Length and Angle formats and precision, as shown below, can be set to suit the type of drawing.
 
 
 Length Format
