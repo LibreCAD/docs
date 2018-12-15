@@ -68,8 +68,8 @@ Angle Format:
     ==============================  ============================  ================================================
 	**Decimal Degrees**             30.5 |deg|                    Integer part seperated from the fractional 
                                                                   part of a number by a decimal
-	**Deg/Min/Sec**                 30 |deg| 32'                  Degrees, / minutes (1/60 of a degree) / seconds 
-                                                                  (1/60 of a minutes)
+	**Deg/Min/Sec**                 30 |deg| 32'                  Degrees ("|deg|") , / Minutes ("'", 1/60 of a 
+                                                                  degree) / seconds (" \" ", 1/60 of a minutes)
 	**Gradians**                    33.9g                         1/100 of a right angle
 	**Radians**                     0.5r                          SI unit of measure where the arc of a circle 
                                                                   is measured by the length of the radius
