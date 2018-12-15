@@ -9,7 +9,7 @@ LibreCAD is available for multiple operating systems and from a variety of sourc
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
     Install <install>
     Configure <configure>

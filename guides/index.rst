@@ -9,7 +9,7 @@ The user guides provide the steps necessary to perform a various tasks with Libr
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
     Using the Command Line <commandline>
     Using Blocks <blocks>

@@ -44,6 +44,7 @@ The **Units** tab allows users to set the *Main drawing unit* to the prefered un
 
 In addition, the Length and Angle formats and precision, as shown below, can be set to suit the type of drawing.
 
+|
 
 Length Format
 ~~~~~~~~~~~~~
