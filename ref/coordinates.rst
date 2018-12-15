@@ -206,6 +206,6 @@ Snaps provide the ability to pick precise locations when using a mouse.  Various
 Isometric Drawings
 ------------------
 
-LibreCAD can also be used to create drawing with a **Isometric** projection.  An isometric projection allows LibreCAD to represent a three-dimensional object in two dimensions.  The **Grid** tab of :ref:`Drawing Preferences <draw-pref>' allows users to set the grid to suit isomentric drawings.
+LibreCAD can also be used to create drawing with a **Isometric** projection.  An isometric projection allows LibreCAD to represent a three-dimensional object in two dimensions.  The **Grid** tab of :ref:`Drawing Preferences <draw-pref>` allows users to set the grid to suit isomentric drawings.
 
 
