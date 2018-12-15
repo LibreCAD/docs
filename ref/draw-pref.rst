@@ -59,6 +59,16 @@ Length Format:
     "**Fractional**", "14 7/16'' ", "Fractional inches"
     "**Architectural (metric)**", "14.43112 :superscript:`5`", "Decimal metric units (mm, cm, etc...)"
 
+
+Angle Format:
+
+.. csv-table:: 
+   :header: "Format","Example","Description"
+   :widths: 30, 30, 90
+
+	"**Decimal Degrees**", "30.5 |deg|", "Integer part separated from the fractional part of a number by a decimal"
+
+
 Grid
 ----
 
