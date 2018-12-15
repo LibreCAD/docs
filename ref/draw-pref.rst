@@ -67,7 +67,6 @@ Angle Format:
    :widths: 30, 30, 90
 
 	"**Decimal Degrees**", "30.5 |deg|", "Integer part separated from the fractional part of a number by a decimal"
-	"**Deg/Min/Sec**", "30 |deg| 32' ", "Degrees ("|deg|") , / Minutes (" ' ", 1/60 of ad degree) / seconds (" '' ", 1/60 of a minutes)"
 
 
 Grid
