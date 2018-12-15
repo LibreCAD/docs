@@ -53,25 +53,6 @@ Length Format:
    :widths: 30, 30, 90
    
     "**Scientific**", "1.44311E+1", "Significand x 10 :superscript:`n`"
-    "**Decimal**", "14.43112", "Iinteger part seperated from the fractional part of a number by a decimal"
-    "**Engineering**", "1'-2.43112\"", "Feet and decimal inches"
-    "**Architectural**", "1'-2 7/16\"", "Feet and fractional inches"
-    "**Fractional**", "14 7/16\"", "Fractional inches"
-    "**Architectural (metric)**", "14.43112 :superscript:`5`", "Decimal metric units (mm, cm, etc...)"
-
-
-Angle Format:
-
-.. csv-table:: 
-   :header: "Format","Example","Description"
-   :widths: 30, 30, 90
-
-	"**Decimal Degrees**", "30.5 |deg|", "Integer part seperated from the fractional part of a number by a decimal"
-	"**Deg/Min/Sec**", "30 |deg| 32'", "Degrees ("|deg|") , / Minutes (" ' ", 1/60 of adegree) / seconds (" \" ", 1/60 of a minutes)"
-	"**Gradians**", "33.9g", "1/100 of a right angle"
-	"**Radians**", "0.5r", "SI unit of measure where the arc of a circle is measured by the length of the radius"
-	"**Surveyor's units**", "N30d32'E", "Cardinal directions measure in deg/min/sec from *N*orth, *S*outh, *E*ast or *W*est"
-
 
 Grid
 ----
