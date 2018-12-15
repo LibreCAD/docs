@@ -48,7 +48,8 @@ Use **Main drawing unit** to over-ride the default established during LibreCAD's
 |
 |
 
-Length Format:
+Length Format
+~~~~~~~~~~~~~
 
 .. csv-table:: 
    :header: "Format","Example","Description"
@@ -62,7 +63,8 @@ Length Format:
     "**Architectural (metric)**", "14.43112 :superscript:`5`", "Decimal metric units (mm, cm, etc...)"
 
 
-Angle Format:
+Angle Format
+~~~~~~~~~~~~
 
 .. csv-table:: 
    :header: "Format","Example","Description"
@@ -72,6 +74,7 @@ Angle Format:
 	"**Deg/Min/Sec**", "30 |deg| 32' 0'' ", "Degrees / Minutes (1/60 of a degree) / Seconds (1/60 of a minute)"
 	"**Gradians**", "33.9g", "1/100 of a right angle"
 	"**Radians**", "0.5r", "SI unit of measure where the arc of a circle is measured by the length of the radius"
+	"**Surveyor's units**", "N30d32'E", "Cardinal directions measure in deg/min/sec from *N*orth, *S*outh, *E*ast or *W*est"
 
 
 Grid
