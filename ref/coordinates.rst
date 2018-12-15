@@ -84,7 +84,7 @@ The last coordinate defined when creating an entity becomes a temporary referenc
 .. figure:: /images/byAbsCoorRelCoor.png
     :width: 800px
     :height: 660px
-    :align: left
+    :align: right
     :scale: 45
     :alt: Absolute & Relative Cartesian Coordinates
 
@@ -95,7 +95,7 @@ When using cartesian coordinates for example, to set a 75 units above and 65 uni
 .. figure:: /images/byAbsCoorRelPolar.png
     :width: 800px
     :height: 660px
-    :align: left
+    :align: right
     :scale: 45
     :alt: Absolute Cartesian & Relative Polar Coordinates
 
@@ -206,4 +206,6 @@ Snaps provide the ability to pick precise locations when using a mouse.  Various
 Isometric Drawings
 ------------------
 
-More to follow...
+LibreCAD can also be used to create drawing with a **Isometric** projection.  An isometric projection allows LibreCAD to represent a three-dimensional object in two dimensions.  The **Grid** tab of :ref:`Drawing Preferences <draw-pref>' allows users to set the grid to suit isomentric drawings.
+
+
