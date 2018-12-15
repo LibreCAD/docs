@@ -49,11 +49,11 @@ Length Format:
 	- **Engineering** - 1'-2.43112"
 	- **Architectural** - 1'-2 7/16"
 	- **Fractional** - 14 7/16"
-	- **Architectural (metric)** - 14.43112:superscript:`5`
+	- **Architectural (metric)** - 14.43112 :superscript:`5`
 
 Angle Format:
 
-	- **Decimal Degrees** - 30.5:superscript:`o`
+	- **Decimal Degrees** - 30.5 :superscript:`o`
 	- **Deg/Min/Sec** - 30 unicode:: 0x80 32'
 	- **Gradians** - 33.9g
 	- **Radians** - 0.5r
@@ -70,6 +70,12 @@ Grid
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Grid
 
+|
+|
+|
+|
+|
+|
 
 Dimensions
 ----------
@@ -81,6 +87,13 @@ Dimensions
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Dimensions
 
+|
+|
+|
+|
+|
+|
+
 
 Splines
 -------
@@ -91,4 +104,11 @@ Splines
     :align: right
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Splines
+
+|
+|
+|
+|
+|
+|
 
