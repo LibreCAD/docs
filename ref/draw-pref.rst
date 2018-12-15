@@ -40,7 +40,7 @@ Units
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Units
 
-Use **Main drawing unit** to over-ride the default established during LibreCAD's :ref:`initial application configuration <configure>`.  The same units of measure as nmoted in the :ref:`appendix <measurements>` are available for the drawing's preferences.
+Use **Main drawing unit** to over-ride the default established during LibreCAD's :ref:`initial application configuration <configure>`.  The same units of measure as noted in the :ref:`appendix <measurements>` are available for the drawing's preferences.
 
 |
 |
@@ -55,6 +55,8 @@ Length Format:
     "**Scientific**", "1.44311E+1", "Significand x 10 :superscript:`n`"
     "**Decimal**", "14.43112", "Integer part seperated from the fractional part of a number by a decimal"
     "**Engineering**", "1'-2.43112", "Feet and decimal inches"
+    "**Architectural**", "1'-2 7/16", "Feet and fractional inches"
+
 
 Grid
 ----
