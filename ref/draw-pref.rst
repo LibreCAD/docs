@@ -40,7 +40,9 @@ Units
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Units
 
-Use **Main drawing unit** to over-ride the default established during LibreCAD's :ref:`initial application configuration <configure>`.  The same units of measure as noted in the :ref:`appendix <measurements>` are available for the drawing's preferences.
+Set the **Main drawing unit** to the prefered unit of measure to over-ride the default established during LibreCAD's :ref:`initial application configuration <configure>`.  The same units of measures are as noted in the :ref:`appendix <measurements>` are available for the drawing's preferences.
+
+In addition the length and angle formats and precision can be set to suit the type of drawing.  Depnding on the format used, decimal or fractional, the precision is 
 
 |
 |
@@ -52,15 +54,15 @@ Length Format
 ~~~~~~~~~~~~~
 
 .. csv-table:: 
-   :header: "Format","Example","Description"
-   :widths: 30, 30, 90
+   :header: "Format", "Maximum Precision", "Example","Description"
+   :widths: 30, 30, 30, 60
    
-    "**Scientific**", "1.44311E+1", "Significand x 10 :superscript:`n`"
-    "**Decimal**", "14.43112", "Integer part seperated from the fractional part of a number by a decimal"
-    "**Engineering**", "1'-2.43112'' ", "Feet and decimal inches"
-    "**Architectural**", "1'-2 7/16'' ", "Feet and fractional inches"
-    "**Fractional**", "14 7/16'' ", "Fractional inches"
-    "**Architectural (metric)**", "14.43112 :superscript:`5`", "Decimal metric units (mm, cm, etc...)"
+    "**Scientific**", "1.44311E+1","0.00000000E+1", "Significand x 10 :superscript:`n`"
+    "**Decimal**", "14.43112","0.00000000",  "Integer part seperated from the fractional part of a number by a decimal"
+    "**Engineering**", "1'-2.43112'' ","0'-0.00000000'' ",  "Feet and decimal inches"
+    "**Architectural**", "1'-2 7/16'' ","0'-0 1/128'' ",  "Feet and fractional inches"
+    "**Fractional**", "14 7/16'' ", "1/128'' ", "Fractional inches"
+    "**Architectural (metric)**", "14.43112 :superscript:`5`","0.00000000",  "Decimal metric units (mm, cm, etc...)"
 
 
 Angle Format
@@ -71,10 +73,10 @@ Angle Format
    :widths: 30, 30, 90
 
 	"**Decimal Degrees**", "30.5 |deg|", "Integer part separated from the fractional part of a number by a decimal"
-	"**Deg/Min/Sec**", "30 |deg| 32' 0'' ", "Degrees [ |deg| ] / Minutes [ ' ] (1/60 of a degree) / Seconds [ '' ] (1/60 of a minute)"
+	"**Deg/Min/Sec**", "30 |deg| 32' 0'' ", "Degrees [ |deg| ] / Minutes ( ', 1/60 of a degree) / Seconds ( '', 1/60 of a minute)"
 	"**Gradians**", "33.9g", "1/100 of a right angle"
 	"**Radians**", "0.5r", "SI unit of measure where the arc of a circle is measured by the length of the radius"
-	"**Surveyor's units**", "N30d32'E", "Cardinal directions measure in deg/min/sec from North, South, East or West"
+	"**Surveyor's units**", "N30d32'E", "Cardinal directions measure in deg/min/sec from North, South, East, or West"
 
 
 Grid
