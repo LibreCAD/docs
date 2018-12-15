@@ -53,8 +53,8 @@ Length Format:
 
 Angle Format:
 
-	- **Decimal Degrees** - 30.5 :superscript:`o`
-	- **Deg/Min/Sec** -  30 |deg| 32'
+	- **Decimal Degrees** - 30.5|deg|
+	- **Deg/Min/Sec** -  30|deg| 32'
 	- **Gradians** - 33.9g
 	- **Radians** - 0.5r
 	- **Surveyor's units** - N30d32'E
