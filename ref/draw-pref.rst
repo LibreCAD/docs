@@ -57,7 +57,7 @@ Length Format:
     "**Engineering**", "1'-2.43112'' ", "Feet and decimal inches"
     "**Architectural**", "1'-2 7/16'' ", "Feet and fractional inches"
     "**Fractional**", "14 7/16'' ", "Fractional inches"
-
+    "**Architectural (metric)**", "14.43112 :superscript:`5`", "Decimal metric units (mm, cm, etc...)"
 
 Grid
 ----
