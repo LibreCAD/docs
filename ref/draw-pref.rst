@@ -53,11 +53,11 @@ Length Format:
    :widths: 30, 30, 90
    
     "**Scientific**", "1.44311E+1", "Significand x 10 :superscript:`n`"
-    **Decimal**", "14.43112", "Iinteger part seperated from the fractional part of a number by a decimal"
-    **Engineering**", "1'-2.43112\"", "Feet and decimal inches"
-    **Architectural**", "1'-2 7/16\"", "Feet and fractional inches"
-    **Fractional**", "14 7/16\"", "Fractional inches"
-    **Architectural (metric)**", "14.43112 :superscript:`5`", "Decimal metric units (mm, cm, etc...)"
+    "**Decimal**", "14.43112", "Iinteger part seperated from the fractional part of a number by a decimal"
+    "**Engineering**", "1'-2.43112\"", "Feet and decimal inches"
+    "**Architectural**", "1'-2 7/16\"", "Feet and fractional inches"
+    "**Fractional**", "14 7/16\"", "Fractional inches"
+    "**Architectural (metric)**", "14.43112 :superscript:`5`", "Decimal metric units (mm, cm, etc...)"
 
 
 Angle Format:
