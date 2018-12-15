@@ -202,3 +202,8 @@ Snaps provide the ability to pick precise locations when using a mouse.  Various
 .. |icon14| image:: /images/icons/lock_rel_zero.svg
 .. icon15
 
+
+Isometric Drawings
+------------------
+
+More to follow...

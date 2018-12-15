@@ -20,6 +20,10 @@ LibreCAD has the following features:
    - highly customizable user interface
    - plugin system
 
+
+Contents
+========
+
 .. toctree::
    :maxdepth: 1
     
