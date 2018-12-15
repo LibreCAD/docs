@@ -45,6 +45,8 @@ Use **Main drawing unit** to over-ride the default established during LibreCAD's
 |
 |
 |
+|
+|
 
 Length Format:
 
@@ -67,7 +69,9 @@ Angle Format:
    :widths: 30, 30, 90
 
 	"**Decimal Degrees**", "30.5 |deg|", "Integer part separated from the fractional part of a number by a decimal"
-	"**Deg/Min/Sec**", "30 |deg| 32' 0'' ", "Degrees (|deg|) \, / Minutes (1/60 of a degree) / Seconds (1/60 of a minute)"
+	"**Deg/Min/Sec**", "30 |deg| 32' 0'' ", "Degrees / Minutes (1/60 of a degree) / Seconds (1/60 of a minute)"
+	"**Gradians**", "33.9g", "1/100 of a right angle"
+	"**Radians**", "0.5r", "SI unit of measure where the arc of a circle is measured by the length of the radius"
 
 
 Grid
