@@ -115,5 +115,5 @@ Splines
 
 .. Symbols
 
-.. |deg| unicode:: U+0080 .. Degree symbol
+.. |deg| unicode:: U+00B0 .. Degree symbol
 
