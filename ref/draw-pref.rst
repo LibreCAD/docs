@@ -48,12 +48,12 @@ Length Format:
     ==========================  ==========================  ==========================  
     Format                      Example                     Description
     ==========================  ==========================  ==========================  
-    **Scientific**              1.44311E+1
-    **Decimal**                 14.43112
-    **Engineering**             1'-2.43112"
-    **Architectural**           1'-2 7/16"
-    **Fractional**              14 7/16"
-    **Architectural (metric)**  14.43112 :superscript:`5`
+    **Scientific**              1.44311E+1                  1
+    **Decimal**                 14.43112                    1
+    **Engineering**             1'-2.43112"                 1
+    **Architectural**           1'-2 7/16"                  1
+    **Fractional**              14 7/16"                    1
+    **Architectural (metric)**  14.43112 :superscript:`5`   1
     ==========================  ==========================  ==========================  
 
 
@@ -63,11 +63,11 @@ Angle Format:
     ==========================  ==========================  ==========================  
     Format                      Example                     Description
     ==========================  ==========================  ==========================  
-	- **Decimal Degrees**       30.5 |deg|
-	- **Deg/Min/Sec**           30 |deg| 32'
-	- **Gradians**              33.9g
-	- **Radians**               0.5r
-	- **Surveyor's units**      N30d32'E
+	**Decimal Degrees**         30.5 |deg|                  1
+	**Deg/Min/Sec**             30 |deg| 32'                1
+	**Gradians**                33.9g                       1
+	**Radians**                 0.5r                        1
+	**Surveyor's units**        N30d32'E                    1
     ==========================  ==========================  ==========================  
 
 
