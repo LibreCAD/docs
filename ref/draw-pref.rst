@@ -54,7 +54,7 @@ Length Format:
    
     "**Scientific**", "1.44311E+1", "Significand x 10 :superscript:`n`"
     "**Decimal**", "14.43112", "Integer part seperated from the fractional part of a number by a decimal"
-    "**Engineering**", "1'-2.43112\" ", "Feet and decimal inches"
+    "**Engineering**", "1'-2.43112 \" ", "Feet and decimal inches"
 
 Grid
 ----
