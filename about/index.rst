@@ -26,6 +26,7 @@ Contents
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
     
    Copyright <copyright>
    Contributors <contributors>

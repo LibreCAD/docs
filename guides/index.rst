@@ -13,6 +13,7 @@ Contents
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
     Using the Command Line <commandline>
     Using Blocks <blocks>

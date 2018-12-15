@@ -13,6 +13,7 @@ Contents
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
 
     Install <install>
     Configure <configure>

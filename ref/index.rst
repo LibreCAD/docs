@@ -13,6 +13,7 @@ Contents
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
     The Coordinate System <coordinates>
     Application Menu <menu>
