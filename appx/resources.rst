@@ -11,6 +11,29 @@ LibreCAD main website: https://librecad.org/
 Download Installation Packages
 ------------------------------
 
+.. list-table:: Title
+   :widths: 30 90
+   :header-rows: 1
+
+   * - Operating System
+     - URL
+   * - MS Windows
+     - 
+   * - GitHub
+     - https://GitHub.com/LibreCAD/LibreCAD/releases
+   * - SourceForge
+     - https://sourceforge.net/projects/librecad/files/Windows/
+   * - 
+     - 
+   * - 
+     - 
+   * - 
+     - 
+   * - 
+     - 
+   * - 
+     - 
+
     +-----------------------------+--------------------------------------------------------------------------+
     | Operating System            | URL                                                                      |
     +=============================+==========================================================================+

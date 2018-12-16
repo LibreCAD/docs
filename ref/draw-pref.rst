@@ -130,7 +130,6 @@ Dimensions
 .. csv-table:: **Text size & position**
     :header: "Setting", "Description"
     :widths: 30, 90
-    :stub-columns: 1
 
     "Length factor", "Adjusts the *dimension value* by the factor provided.  The entity remains the length as drawn."
     "Text Style", "Sets the :ref:`font <fonts>` used for dimension text"
