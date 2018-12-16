@@ -58,8 +58,9 @@ Length Format
     "**Engineering**", "1'-2.43112'' ", "0'-0.00000000'' ",  "Feet and decimal inches"
     "**Architectural**", "1'-2 7/16'' ", "0'-0 1/128'' ",  "Feet and fractional inches"
     "**Fractional**", "14 7/16'' ", "1/128'' ", "Fractional inches"
-    "**Architectural (metric)**", "14.43112 :superscript:`5`", "0.00000000",  "Decimal metric units (mm, cm, etc...)"
+    "**Architectural (metric)**", "14.43112 :sup:`5`", "0.00000000",  "Decimal metric units (mm, cm, etc...)"
 
+.. sup = superscript
 
 Angle Format
 ~~~~~~~~~~~~
@@ -120,7 +121,7 @@ Dimensions
 
 
 
-.. csv-table:: 
+.. csv-table:: **Text size & position**
     :header: "Setting", "Description"
     :widths: 30, 90
 
