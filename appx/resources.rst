@@ -14,15 +14,15 @@ Download Installation Packages
     +-----------------------------+--------------------------------------------------------------------------+
     | Operating System            | URL                                                                      |
     +=============================+==========================================================================+
-    | MS Windows\:                | |                                                                        |
+    | | MS Windows:               |                                                                          |
     |   | GitHub                  | | https://GitHub.com/LibreCAD/LibreCAD/releases                          |
     |   | SourceForge             | | https://sourceforge.net/projects/librecad/files/Windows/               |
     +-----------------------------+--------------------------------------------------------------------------+
-    | OSX\:                       | |                                                                        |
+    | OSX\:                       |                                                                          |
     |   | GitHub                  | | https://GitHub.com/LibreCAD/LibreCAD/releases                          |
     |   | SourceForge             | | https://sourceforge.net/projects/librecad/files/OSX/                   |
     +-----------------------------+--------------------------------------------------------------------------+
-    | Linux Distributions\:       | |                                                                        |
+    | Linux Distributions\:       |                                                                          |
     |   | Debian (Stable)         | | https://packages.debian.org/stable/graphics/librecad                   |
     |   |        (UnStable)       | | https://packages.debian.org/unstable/graphics/librecad                 |
     |   | Ubuntu (Stable PPA)     | | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-stable    |
@@ -41,8 +41,8 @@ Getting Help
 
 There are many other resources for getting help with LibreCAD:
 
-    - LibreCAD forum: http://forum.librecad.org/
-    - LibreCAD Wiki:
+    - LibreCAD forum: http://forum.librecad.org/ |
+    - LibreCAD Wiki: |
         - FAQ: https://wiki.librecad.org/index.php/FAQ
         - Tutorials: https://wiki.librecad.org/index.php?title=Tutorials
         - Part Libraries: https://wiki.librecad.org/index.php/Part_Libraries
