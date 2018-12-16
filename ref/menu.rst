@@ -99,6 +99,7 @@ Plugins
 
 Tools
 -----
+
 See :ref:`tools` for a description of the drawing tools.
 
 
@@ -110,7 +111,7 @@ Widgets
    :widths: 40, 10, 20, 110
 
     "Dock Areas", , "", ""
-    "Dock Widgets", , "", ""
+    "Dock Widgets", , "", "See :ref:`widgets` for descriptions."
     "Toolbars", , "", ""
     "Menu Creator", |icon36|, "", ""
     "Toolbar Creator", |icon37|, "", ""
