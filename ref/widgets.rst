@@ -24,16 +24,40 @@ Block List Dock
     :scale: 50
     :alt: Block List Dock
 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
 Command Line Dock
 -----------------
 
-.. figure:: /images/dock-cmdLine.png  .. dock-cmdLine0.png  271 591
+.. dock-cmdLine0.png  271 591
+
+.. figure:: /images/dock-cmdLine.png  
     :width: 544px
     :height: 227px
     :align: right
     :scale: 50
     :alt: Command Line Dock
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
 
 Layer List Dock
@@ -46,6 +70,18 @@ Layer List Dock
     :scale: 50
     :alt: Layer List Dock
 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 
 Library Browser Dock
 --------------------
@@ -57,6 +93,18 @@ Library Browser Dock
     :scale: 50
     :alt: Library Browser Dock
 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 
 Pen Wizard Dock
 ---------------
@@ -67,4 +115,16 @@ Pen Wizard Dock
     :align: right
     :scale: 50
     :alt: Pen Wizard Dock
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
