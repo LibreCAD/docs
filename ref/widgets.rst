@@ -34,6 +34,9 @@ Block List Dock
 |
 |
 |
+|
+|
+
 
 Command Line Dock
 -----------------
@@ -57,7 +60,8 @@ Command Line Dock
 |
 |
 |
-
+|
+|
 
 
 Layer List Dock
@@ -82,7 +86,6 @@ Layer List Dock
 |
 
 
-
 Library Browser Dock
 --------------------
 
@@ -103,7 +106,8 @@ Library Browser Dock
 |
 |
 |
-
+|
+|
 
 
 Pen Wizard Dock
@@ -116,6 +120,8 @@ Pen Wizard Dock
     :scale: 50
     :alt: Pen Wizard Dock
 
+|
+|
 |
 |
 |
