@@ -123,13 +123,13 @@ Dimensions
 
 .. csv-table::
     :header: "Setting", "Description"
-    :widths: 30, 90
+    :widths: 30 90
 
     "General Scale", "Adjusts the sizes of the text and arrows by the factor provided"
 
 .. csv-table:: **Text size & position**
     :header: "Setting", "Description"
-    :widths: 30, 90
+    :widths: 30 90
 
     "Length factor", "Adjusts the *dimension value* by the factor provided.  The entity remains the length as drawn."
     "Text Style", "Sets the :ref:`font <fonts>` used for dimension text"
@@ -140,7 +140,7 @@ Dimensions
 
 .. csv-table:: **Extension lines**
     :header: "Setting", "Description"
-    :widths: 30, 90
+    :widths: 30 90
 
     "Offset", ""
     "Enlarge", ""
@@ -150,7 +150,7 @@ Dimensions
 
 .. csv-table:: **Dimension lines, arrows and ticks**
     :header: "Setting", "Description"
-    :widths: 30, 90
+    :widths: 30 90
 
     "Arrow size", ""
     "Tick size", ""
