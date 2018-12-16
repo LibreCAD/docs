@@ -121,25 +121,37 @@ Dimensions
 
 
 
-.. csv-table:: **Text size & position**
+.. csv-table::
     :header: "Setting", "Description"
     :widths: 30, 90
 
     "General Scale", "Adjusts the sizes of the text and arrows by the factor provided"
-    "**Text size & position**", ""
+
+.. csv-table:: **Text size & position**
+    :header: "Setting", "Description"
+    :widths: 30, 90
+
     "Length factor", "Adjusts the *dimension value* by the factor provided.  The entity remains the length as drawn."
     "Text Style", "Sets the :ref:`font <fonts>` used for dimension text"
     "Text Height", "Sets the text height, measured in the  units defined on the *Units* tab."
     "Text alignment", "Aligns the text parallel and offset to the dimension line or horizontal centered on the dimension line"
     "Dimension line gap", "Sets the space between the dimension line and the dimension text."
     "Color", "Set the color of the dimension lines and text."
-    "**Extension lines**", ""
+
+.. csv-table:: **Extension lines**
+    :header: "Setting", "Description"
+    :widths: 30, 90
+
     "Offset", ""
     "Enlarge", ""
     "Fixed length", ""
     "Color", ""
     "Width", ""
-    "**Dimension lines, arrows and ticks**", ""
+
+.. csv-table:: **Dimension lines, arrows and ticks**
+    :header: "Setting", "Description"
+    :widths: 30, 90
+
     "Arrow size", ""
     "Tick size", ""
     "Color", ""
