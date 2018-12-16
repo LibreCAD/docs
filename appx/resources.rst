@@ -14,15 +14,15 @@ Download Installation Packages
     +-----------------------------+--------------------------------------------------------------------------+
     | Operating System            | URL                                                                      |
     +=============================+==========================================================================+
-    | | MS Windows\:              | |                                                                        |
+    | MS Windows\:                | |                                                                        |
     |   | GitHub                  | | https://GitHub.com/LibreCAD/LibreCAD/releases                          |
     |   | SourceForge             | | https://sourceforge.net/projects/librecad/files/Windows/               |
     +-----------------------------+--------------------------------------------------------------------------+
-    | | OSX\:                     | |                                                                        |
+    | OSX\:                       | |                                                                        |
     |   | GitHub                  | | https://GitHub.com/LibreCAD/LibreCAD/releases                          |
     |   | SourceForge             | | https://sourceforge.net/projects/librecad/files/OSX/                   |
     +-----------------------------+--------------------------------------------------------------------------+
-    | | Linux Distributions\:     | |                                                                        |
+    | Linux Distributions\:       | |                                                                        |
     |   | Debian (Stable)         | | https://packages.debian.org/stable/graphics/librecad                   |
     |   |        (UnStable)       | | https://packages.debian.org/unstable/graphics/librecad                 |
     |   | Ubuntu (Stable PPA)     | | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-stable    |
