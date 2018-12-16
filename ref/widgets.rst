@@ -14,6 +14,9 @@ Dock Widgets
     "Toolbars", , "", ""
 
 
+Block List Dock
+---------------
+
 .. figure:: /images/dock-blockList.png
     :width: 272px
     :height: 590px
@@ -21,5 +24,47 @@ Dock Widgets
     :scale: 50
     :alt: Block List Dock
 
-.. dock-cmdLine.png dock-cmdLine0.png dock-layerList dock-libraryBrowser dock-penWizard
+
+Command Line Dock
+-----------------
+
+.. figure:: /images/dock-cmdLine.png  .. dock-cmdLine0.png  271 591
+    :width: 544px
+    :height: 227px
+    :align: right
+    :scale: 50
+    :alt: Command Line Dock
+
+
+Layer List Dock
+---------------
+
+.. figure:: /images/dock-layerList.png
+    :width: 270px
+    :height: 590px
+    :align: right
+    :scale: 50
+    :alt: Layer List Dock
+
+
+Library Browser Dock
+--------------------
+
+.. figure:: /images/dock-libraryBrowser.png
+    :width: 270px
+    :height: 590px
+    :align: right
+    :scale: 50
+    :alt: Library Browser Dock
+
+
+Pen Wizard Dock
+---------------
+
+.. figure:: /images/dock-penWizard.png
+    :width: 272px
+    :height: 590px
+    :align: right
+    :scale: 50
+    :alt: Pen Wizard Dock
 
