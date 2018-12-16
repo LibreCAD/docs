@@ -91,7 +91,7 @@ The grid provides an evenly spaced guides to assist with placing entities.  When
     - Show Grid: Toggles the grid markers between visible or not visible. The grid can also be toggled with [Ctrl]-g or by using the grid button of the :ref:'view <view>' toolbar.  This setting does not affect the use of "Snap to Grid".
     - Grid X and Y Spacing: Sets the minumum frequency of the grid markers.  Values can be selected from the dropdown box.  Other values can be typed directly into the text box.  "Auto" sets the frequency of markers to a spacing suitable to the current zoom level.
     - Orthogonal or Isometric Grid: Selects the grid to use.  *Orthogonal* place the grid at right angles to the X and Y axis.  *Isometric* places the markers at 30 |deg| to horizontal for guiding :ref:`isometric drawings <iso-dwg>`.
-    - Crosshair: Toggles the orientation of the crosshairs when used with *Isometric Snap indicator lines* (see :ref:`Application Preferences <app-prefs>`.
+    - Crosshair: Toggles the orientation of the crosshairs (right, left, or top) when used with *Isometric Snap indicator lines* (see :ref:`Application Preferences <app-prefs>`).
 
 
 Dimensions
