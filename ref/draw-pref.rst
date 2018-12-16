@@ -104,9 +104,9 @@ Dimensions
     :alt: LibreCAD Drawing Preferences - Dimensions
 
 
-..csv:
+.. csv-table:: 
     :header: "Setting", "Description"
-    :width: 30, 90
+    :widths: 30, 90
 
 "General Scale", "Adjusts the sizes of the text and arrows by the factor provided"
 "**Text size & position**", ""
