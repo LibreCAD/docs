@@ -103,6 +103,22 @@ Dimensions
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Dimensions
 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 
 .. csv-table:: 
     :header: "Setting", "Description"
