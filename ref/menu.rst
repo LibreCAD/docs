@@ -112,9 +112,9 @@ Widgets
 
     "Dock Areas", , "", "Toggles the visibility of the left, right, top, bottom and /or floating *Dock Widgets*."
     "Dock Widgets", , "", "See :ref:`widgets` for descriptions."
-    "Toolbars", , "", "Toggles the visibility of the default and custom :ref:`toolbars <toolbars>`."
-    "Menu Creator", |icon36|, "", "See :ref:`menu-creator` for descriptions."
-    "Toolbar Creator", |icon37|, "", "See :ref:`toolbar-creator` for descriptions."
+    "Toolbars", , "", "Toggles the visibility of the :ref:`Toolbars <toolbars>`."
+    "Menu Creator", |icon36|, "", "Create custom menus.  See :ref:`menu-creator` for descriptions."
+    "Toolbar Creator", |icon37|, "", "Create custom toolbars.  See :ref:`toolbar-creator` for descriptions."
 
 
 Drawings

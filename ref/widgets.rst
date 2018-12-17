@@ -3,21 +3,28 @@
 Dock Widgets
 =============
 
-Dock widgets serve two purposes; 1. , and 2. providing an alternate method to access drawing tools an other application functions.
+Dock widgets serve two purposes:
 
-.. csv-table:: 
-   :header: "Menu Item", "Description or Menu Equivalent", ""
-   :widths: 40, 10, 20, 110
+    1. In additional to the menus and toolbars, provides another method to access :ref:`drawing tools <tools>`:
 
-    "Circles", , "", ""
-    "Curve", , "", ""
-    "Dimension", , "", ""
-    "Ellipse", , "", ""
-    "Info", , "", ""
-    "Line", , "", ""
-    "Modify", , "", ""
-    "Polyline", , "", ""
+    Dock Widgets
+    Circle
+    Curve
+    Dimension
+    Ellipse
+    Info
+    Line
+    Modify
+    Polyline
 
+
+    2. Provides additional tools:
+
+    - Block List
+    - Command Line
+    - Layer List
+    - Library Browser
+    - Pen Wizard
 
 
 Block List Dock
