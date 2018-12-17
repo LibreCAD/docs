@@ -32,7 +32,7 @@ Cartesian
     :width: 800px
     :height: 660px
     :align: right
-    :scale: 40
+    :scale: 45
     :alt: Cartesian Coordinates
 
 The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is the horizontal axis and Y is the vertical axis.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be "100,75", as shown here.
@@ -50,7 +50,7 @@ Polar
     :width: 800px
     :height: 660px
     :align: right
-    :scale: 40
+    :scale: 45
     :alt: Polar Coordinates
 
 The *Polar* coordinate system uses one distance and one angle to locate a point in a drawing.  In LibreCAD the polar coordinates take the form *100 < 45*, indicating a line 100 units long and at an angle of 45 degrees as shown.
@@ -209,5 +209,6 @@ Isometric Drawings
 ------------------
 
 LibreCAD can also be used to create drawings with an **Isometric** projection.  Creating isometric drawings is similar to creating 2D drawing, but with an additional consideration towards the perspective of the drawing.  The **Grid** tab of :ref:`Drawing Preferences <draw-pref>` allows users to set the grid to suit isomentric drawings.
+
 
 
