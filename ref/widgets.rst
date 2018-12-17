@@ -134,29 +134,25 @@ Pen Wizard Dock
     :scale: 50
     :alt: Pen Wizard Dock
 
-This widget allows you to:
+This widget allows users to:
 
-    - maintain a list of favorite colors
+    - Maintain a list of favorite colors
 
         - select a color via the drop-down list or the button on its right
         - add the color by pressing the button with the tooltip "Add to favorites"
         - drag-and-drop colors to arrange them
 
-    - change the active pen color
+    - Change the active pen color
 
-        - double-click a favorite
+        - double-click a favorite color
 
-    - change the color of all selected objects
+    - Change the color of all selected objects
 
         - right-click a favorite and choose "Apply to selected"
 
-    - select all objects of a specific color
+    - Select all objects of a specific color
 
         - right-click a favorite and choose "Select objects"
-|
-|
-|
-|
 
 
 .. _toolbars:
@@ -168,26 +164,26 @@ Toolbar provide an alternative to menu for accessing application functions and d
 
 .. csv-table:: 
    :header: "Menu Item", "Description or Menu Equivalent", ""
-   :widths: 40, 10, 20, 110
+   :widths: 40, 10, 20
 
-    "Categories", , "", ""
-    "Circles", , "", ""
-    "Creators", , "", ""
-    "Curves", , "", ""
-    "DefaultCustom", , "", ""
-    "Dimension", , "", ""
-    "Dock Areas", , "", ""
-    "Edit", , "", ""
-    "Ellipse", , "", ""
-    "File", , "", ""
-    "Info", , "", ""
-    "Line", , "", ""
-    "Modify", , "", ""
-    "Order", , "", ""
-    "Pen", , "", ""
-    "Polyline", , "", ""
-    "Select", , "", ""
-    "Snap Selection", , "", ""
-    "Tool Options", , "", ""
-    "View", , "", ""
+    "Categories", "", ""
+    "Circles", "", ""
+    "Creators", "", ""
+    "Curves", "", ""
+    "DefaultCustom", "", ""
+    "Dimension", "", ""
+    "Dock Areas", "", ""
+    "Edit", "", ""
+    "Ellipse", "", ""
+    "File", "", ""
+    "Info", "", ""
+    "Line", "", ""
+    "Modify", "", ""
+    "Order", "", ""
+    "Pen", "", ""
+    "Polyline", "", ""
+    "Select", "", ""
+    "Snap Selection", "", ""
+    "Tool Options", "", ""
+    "View", "", ""
 
