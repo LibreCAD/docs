@@ -3,7 +3,6 @@
 The Coordinate System
 =====================
 
-
 Understanding the coordinates systems and how coordinates work in LibreCAD is necessary to produce precise and accurate drawings.  Every entity (e.g. a line, circle, etc.) that is drawn in LibreCAD can be drawn with precision, placed accurately using coordinates.  LibreCAD supporsts two perspectives; orthaganol and isometric.  Orthaganol is the default perspective for creating two dimensional (2D) drawings.  An :ref:`isometric <isometric>` projection allows LibreCAD to represent a three-dimensional object in two dimensions, sometimes refered to as "2.5D".
 
 In libreCAD`s 2D coordinate system *X* units are measured horizontally and *Y* units are measured vertically.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.  All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and represented by a red cross.  The coordinates at this point are 0,0.  Every entity drawn can be located in relation to this origin.
@@ -42,7 +41,6 @@ The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartes
 Coordinates can also be written as 10..20 which allows for :ref:`numeric keypad <keyboard>` input.
 
 |
-
 Polar
 ~~~~~
 
@@ -208,7 +206,5 @@ Snaps provide the ability to pick precise locations when using a mouse.  Various
 Isometric Drawings
 ------------------
 
-LibreCAD can also be used to create drawings with an **Isometric** projection.  Creating isometric drawings is similar to creating 2D drawing, but with an additional consideration towards the perspective of the drawing.  The **Grid** tab of :ref:`Drawing Preferences <draw-pref>` allows users to set the grid to suit isomentric drawings.
-
-
+LibreCAD can also be used to create drawings with an **Isometric** projection.  Creating isometric drawings is similar to creating 2D drawings, but with an additional consideration towards the perspective of the drawing.  The **Grid** tab of :ref:`Drawing Preferences <draw-pref>` allows users to set the grid to suit isomentric drawings.  Setting the "Snap Indicator Lines" on the **Appearance** tab on the :ref:`Application Preferences <app-prefs>` to *Isometric* will also assist in with locating entities.
 
