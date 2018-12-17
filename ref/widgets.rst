@@ -7,15 +7,14 @@ Dock widgets serve two purposes:
 
     1. In additional to the menus and toolbars, provides another method to access :ref:`drawing tools <tools>`:
 
-    Dock Widgets
-    Circle
-    Curve
-    Dimension
-    Ellipse
-    Info
-    Line
-    Modify
-    Polyline
+    - Circle
+    - Curve
+    - Dimension
+    - Ellipse
+    - Info
+    - Line
+    - Modify
+    - Polyline
 
 
     2. Provides additional tools:
@@ -153,7 +152,9 @@ Pen Wizard Dock
 
 Toolbars
 --------
- 
+
+Toolbar provide an alternative to menu for accessing application functions and drawing tools.
+
 .. csv-table:: 
    :header: "Menu Item", "Description or Menu Equivalent", ""
    :widths: 40, 10, 20, 110
