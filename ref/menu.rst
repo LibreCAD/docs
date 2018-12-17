@@ -110,9 +110,9 @@ Widgets
    :header: "Menu Item", "Icon", "Short-cut", "Description"
    :widths: 40, 10, 20, 110
 
-    "Dock Areas", , "", ""
+    "Dock Areas", , "", "Toggles the visibility of the left, right, top, bottom and /or floating *Dock Widgets*."
     "Dock Widgets", , "", "See :ref:`widgets` for descriptions."
-    "Toolbars", , "", ""
+    "Toolbars", , "", "Toggles the visibility of the default and custom :ref:`toolbars <toolbars>`."
     "Menu Creator", |icon36|, "", "See :ref:`menu-creator` for descriptions."
     "Toolbar Creator", |icon37|, "", "See :ref:`toolbar-creator` for descriptions."
 

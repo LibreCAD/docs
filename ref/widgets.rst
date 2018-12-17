@@ -3,15 +3,21 @@
 Dock Widgets
 =============
 
-...do a bunch of stuff.
-
+Dock widgets serve two purposes; 1. , and 2. providing an alternate method to access drawing tools an other application functions.
 
 .. csv-table:: 
-   :header: "Menu Item", "Icon", "Short-cut", "Description"
+   :header: "Menu Item", "Description or Menu Equivalent", ""
    :widths: 40, 10, 20, 110
 
-    "Dock Widgets", , "", ""
-    "Toolbars", , "", ""
+    "Circles", , "", ""
+    "Curve", , "", ""
+    "Dimension", , "", ""
+    "Ellipse", , "", ""
+    "Info", , "", ""
+    "Line", , "", ""
+    "Modify", , "", ""
+    "Polyline", , "", ""
+
 
 
 Block List Dock
@@ -135,4 +141,34 @@ Pen Wizard Dock
 |
 |
 
+
+.. _toolbars:
+
+Toolbars
+--------
+ 
+.. csv-table:: 
+   :header: "Menu Item", "Description or Menu Equivalent", ""
+   :widths: 40, 10, 20, 110
+
+    "Categories", , "", ""
+    "Circles", , "", ""
+    "Creators", , "", ""
+    "Curves", , "", ""
+    "DefaultCustom", , "", ""
+    "Dimension", , "", ""
+    "Dock Areas", , "", ""
+    "Edit", , "", ""
+    "Ellipse", , "", ""
+    "File", , "", ""
+    "Info", , "", ""
+    "Line", , "", ""
+    "Modify", , "", ""
+    "Order", , "", ""
+    "Pen", , "", ""
+    "Polyline", , "", ""
+    "Select", , "", ""
+    "Snap Selection", , "", ""
+    "Tool Options", , "", ""
+    "View", , "", ""
 
