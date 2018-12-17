@@ -3,7 +3,8 @@
 The Coordinate System
 =====================
 
-In order to get the best out of the application it is necessary to understand the coordinate systems used in LibreCAD and how coordinates work.  Every entity (e.g. a line, circle, etc.) that is drawn in LibreCAD can be drawn with precision, placed accurately using coordinates.
+
+Understanding the coordinates systems and how coordinates work in LibreCAD is necessary to produce precise and accurate drawings.  Every entity (e.g. a line, circle, etc.) that is drawn in LibreCAD can be drawn with precision, placed accurately using coordinates.  LibreCAD supporsts two perspectives; orthaganol and isometric.  Orthaganol is the default perspective for creating two dimensional (2D) drawings.  An :ref:`isometric <isometric>` projection allows LibreCAD to represent a three-dimensional object in two dimensions, sometimes refered to as "2.5D".
 
 In libreCAD`s 2D coordinate system *X* units are measured horizontally and *Y* units are measured vertically.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.  All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and represented by a red cross.  The coordinates at this point are 0,0.  Every entity drawn can be located in relation to this origin.
 
@@ -182,7 +183,6 @@ Snaps provide the ability to pick precise locations when using a mouse.  Various
     "Lock relative zero position", |icon14|, "", "Locks the Relative Zero Point to the current coordinate."
 
 
-
 ..  Icon mapping:
 
 .. icon00
@@ -203,9 +203,11 @@ Snaps provide the ability to pick precise locations when using a mouse.  Various
 .. icon15
 
 
+.. _isometric:
+
 Isometric Drawings
 ------------------
 
-LibreCAD can also be used to create drawing with a **Isometric** projection.  An isometric projection allows LibreCAD to represent a three-dimensional object in two dimensions.  The **Grid** tab of :ref:`Drawing Preferences <draw-pref>` allows users to set the grid to suit isomentric drawings.
+LibreCAD can also be used to create drawings with an **Isometric** projection.  Creating isometric drawings is similar to creating 2D drawing, but with an additional consideration towards the perspective of the drawing.  The **Grid** tab of :ref:`Drawing Preferences <draw-pref>` allows users to set the grid to suit isomentric drawings.
 
 
