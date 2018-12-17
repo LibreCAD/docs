@@ -5,7 +5,7 @@ Dock Widgets
 
 Dock widgets serve two purposes:
 
-    1. In additional to the menus and toolbars, provides another method to access :ref:`drawing tools <tools>`:
+    1. In additional to the menus and toolbars, dock widgets provide another method to access :ref:`drawing tools <tools>`:
 
         - Circle
         - Curve
@@ -158,32 +158,32 @@ This widget allows users to:
 .. _toolbars:
 
 Toolbars
---------
+========
 
 Toolbar provide an alternative to menu for accessing application functions and drawing tools.
 
 .. csv-table:: 
-   :header: "Menu Item", "Description or Menu Equivalent", ""
-   :widths: 40, 10, 20
+   :header: "Menu Item", "Description or Menu Equivalent"
+   :widths: 40, 80
 
-    "Categories", "", ""
-    "Circles", "", ""
-    "Creators", "", ""
-    "Curves", "", ""
-    "DefaultCustom", "", ""
-    "Dimension", "", ""
-    "Dock Areas", "", ""
-    "Edit", "", ""
-    "Ellipse", "", ""
-    "File", "", ""
-    "Info", "", ""
-    "Line", "", ""
-    "Modify", "", ""
-    "Order", "", ""
-    "Pen", "", ""
-    "Polyline", "", ""
-    "Select", "", ""
-    "Snap Selection", "", ""
-    "Tool Options", "", ""
-    "View", "", ""
+    "Categories", ""
+    "Circles", "Tools -> Circle"
+    "Creators", ""
+    "Curves", "Tools -> Curve"
+    "DefaultCustom", ""
+    "Dimension", "Tools -> Dimension"
+    "Dock Areas", ""
+    "Edit", ""
+    "Ellipse", "Tools -> Ellipse"
+    "File", ""
+    "Info", "Tools -> Info"
+    "Line", "Tools -> Line"
+    "Modify", "Tools -> Modify"
+    "Order", ""
+    "Pen", ""
+    "Polyline", "Tools -> Polyline"
+    "Select", ""
+    "Snap Selection", ""
+    "Tool Options", ""
+    "View", ""
 
