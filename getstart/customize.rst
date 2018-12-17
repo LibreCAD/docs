@@ -7,6 +7,8 @@ Customizing LibreCAD's Interface
 Custom menus and toolbars can be created to suit the users' preferences.  
 
 
+.. _menu-creator:
+
 Menu Creator
 ------------
 
@@ -60,6 +62,8 @@ To remove assignment:
     #. DeSelect the desired activator(s)
     #. Click the **Save** button
 
+
+.. _toolbar-creator:
 
 Toolbar Creator
 ---------------

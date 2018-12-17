@@ -113,8 +113,8 @@ Widgets
     "Dock Areas", , "", ""
     "Dock Widgets", , "", "See :ref:`widgets` for descriptions."
     "Toolbars", , "", ""
-    "Menu Creator", |icon36|, "", ""
-    "Toolbar Creator", |icon37|, "", ""
+    "Menu Creator", |icon36|, "", "See :ref:`menu-creator` for descriptions."
+    "Toolbar Creator", |icon37|, "", "See :ref:`toolbar-creator` for descriptions."
 
 
 Drawings
@@ -154,12 +154,12 @@ Help
 .. |icon09| image:: /images/icons/print_preview.svg
 .. |icon10| image:: /images/icons/close.svg
 .. |icon11| image:: /images/icons/quit.svg
-.. |icon12| image:: /images/icons/
+.. |icon12| image /images/icons/
 .. |icon13| image:: /images/icons/settings.svg
 .. |icon14| image:: /images/icons/drawing_settings.svg
-.. |icon15| image:: /images/icons/
-.. |icon16| image:: /images/icons/
-.. |icon17| image:: /images/icons/
+.. |icon15| image /images/icons/
+.. |icon16| image /images/icons/
+.. |icon17| image /images/icons/
 .. |icon18| image:: /images/icons/cursor.svg
 .. |icon19| image:: /images/icons/undo.svg
 .. |icon20| image:: /images/icons/redo.svg
@@ -167,8 +167,8 @@ Help
 .. |icon22| image:: /images/icons/copy.svg
 .. |icon23| image:: /images/icons/paste.svg
 .. |icon24| image:: /images/icons/delete.svg
-.. |icon25| image:: /images/icons/
-.. |icon26| image:: /images/icons/
+.. |icon25| image /images/icons/
+.. |icon26| image /images/icons/
 .. |icon27| image:: /images/icons/grid.svg
 .. |icon28| image:: /images/icons/draft.svg
 .. |icon29| image:: /images/icons/redraw.svg
@@ -180,6 +180,6 @@ Help
 .. |icon35| image:: /images/icons/zoom_pan.svg
 .. |icon36| image:: /images/icons/create_menu.svg
 .. |icon37| image:: /images/icons/create_toolbar.svg
-.. |icon38| image:: /images/icons/
-.. |icon39| image:: /images/icons/
-.. |icon40| image:: /images/icons/
+.. |icon38| image /images/icons/
+.. |icon39| image /images/icons/
+.. |icon40| image /images/icons/
