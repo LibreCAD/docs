@@ -16,8 +16,8 @@ Dock Widget Areas
    :widths: 40, 10, 20, 110
 
     "Left", |icon01|, "Shows / hide the dock widgets located on the left side of the drawing window."
-    "Right",  ", |icon02| ,,"Shows / hide the dock widgets located on the right side of the drawing window."
-    "Top", |icon03| ,,"Shows / hide the dock widgets located on the top of the drawing window."
+    "Right", |icon02|, "Shows / hide the dock widgets located on the right side of the drawing window."
+    "Top", |icon03|, "Shows / hide the dock widgets located on the top of the drawing window."
     "Bottom", |icon04|, "Shows / hide the dock widgets located on the bottom of the drawing window."
     "Floating", |icon05|, "Shows / hide the dock widgets floating within the drawing window or out side of the drawing applications."
 
