@@ -19,7 +19,7 @@ Dock Widget Areas
     "Right",  ", |icon02| ,,"Shows / hide the dock widgets located on the right side of the drawing window."
     "Top", |icon03| ,,"Shows / hide the dock widgets located on the top of the drawing window."
     "Bottom", |icon04|, "Shows / hide the dock widgets located on the bottom of the drawing window."
-    "Floating", |icon05|, "Shows / hide the dock widgets floating within the drawing window or out side of the drawing applications.  Floating dock widgets can be resized by clicking on and dragging the edge of the widget's box."
+    "Floating", |icon05|, "Shows / hide the dock widgets floating within the drawing window or out side of the drawing applications."
 
 ..  Icon mapping:
 
@@ -30,7 +30,7 @@ Dock Widget Areas
 .. |icon04| image:: /images/icons/dockwidgets_bottom.svg
 .. |icon04| image:: /images/icons/dockwidgets_floating.svg
 
-Docked widgets can be dragged to different areas by "grabbing" (click and drag) the title bar of the widget.  Widgets will snap into place when released in a dock area.  Widgets in the left, right, top or bottom areas can either be placed on top of existing widgets, creating tabs for each category of widget placed in that area, or place above or below the existing widget dividing the area in sections.
+Docked widgets can be dragged to different areas by "grabbing" (click and drag) the title bar of the widget.  Widgets will snap into place when released in a dock area.  Widgets in the left, right, top or bottom areas can either be placed on top of existing widgets, creating tabs for each category of widget placed in that area, or place above or below the existing widget dividing the area in sections.  Dock widgets can also be resized by clicking on and dragging the edge of the widget's box to a minumum of five icons width and no shorter than the default height.
 
 
 Block List Dock
@@ -191,7 +191,7 @@ Toolbar provide an alternative to menu for accessing application functions and d
     "Polyline", "Tools -> Polyline"
     "Select", ""
     "Snap Selection", ""
-    "Tool Options", ""
-    "View", ""
+    "Tool Options", "Displays input boxes for the parameters required by the current tool."
+    "View", "View"
 
 
