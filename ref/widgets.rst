@@ -12,8 +12,8 @@ Dock Widget Areas
 -----------------
 
 .. csv-table::  
-   :header: "Tool", "Icon", "Command", "Description"
-   :widths: 40, 10, 20, 110
+   :header: "Tool", "Icon", "Description"
+   :widths: 30, 10, 110
 
     "Left", |icon01|, "Shows / hide the dock widgets located on the left side of the drawing window."
     "Right", |icon02|, "Shows / hide the dock widgets located on the right side of the drawing window."
