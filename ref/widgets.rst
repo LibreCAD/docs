@@ -3,27 +3,34 @@
 Dock Widgets
 =============
 
-Dock widgets serve two purposes:
+Dock widgets serve two purposes; they provide alternative method to access several drawing tools, and additional tools (Block List, Command Line, Layer List, Library Browser, and Pen Wizard).
 
-    1. In additional to the menus and toolbars, dock widgets provide another method to access :ref:`drawing tools <tools>`:
-
-        - Circle
-        - Curve
-        - Dimension
-        - Ellipse
-        - Info
-        - Line
-        - Modify
-        - Polyline
+Dock widgets are available for these :ref:`drawing tools <tools>`: Circle, Curve, Dimension, Ellipse, Info, Line, Modify, and Polyline.
 
 
-    2. Provides additional tools, as shown below:
+Dock Widget Areas
+-----------------
 
-        - Block List
-        - Command Line
-        - Layer List
-        - Library Browser
-        - Pen Wizard
+.. csv-table::  
+   :header: "Tool", "Icon", "Command", "Description"
+   :widths: 40, 10, 20, 110
+
+    "Left", |icon01|, "Shows / hide the dock widgets located on the left side of the drawing window."
+    "Right",  ", |icon02| ,,"Shows / hide the dock widgets located on the right side of the drawing window."
+    "Top", |icon03| ,,"Shows / hide the dock widgets located on the top of the drawing window."
+    "Bottom", |icon04|, "Shows / hide the dock widgets located on the bottom of the drawing window."
+    "Floating", |icon05|, "Shows / hide the dock widgets floating within the drawing window or out side of the drawing applications.  Floating dock widgets can be resized by clicking on and dragging the edge of the widget's box."
+
+..  Icon mapping:
+
+.. |icon00| image:: /images/icons/librecad.ico
+.. |icon01| image:: /images/icons/dockwidgets_left.svg
+.. |icon02| image:: /images/icons/dockwidgets_right.svg
+.. |icon03| image:: /images/icons/dockwidgets_top.svg
+.. |icon04| image:: /images/icons/dockwidgets_bottom.svg
+.. |icon04| image:: /images/icons/dockwidgets_floating.svg
+
+Docked widgets can be dragged to different areas by "grabbing" (click and drag) the title bar of the widget.  Widgets will snap into place when released in a dock area.  Widgets in the left, right, top or bottom areas can either be placed on top of existing widgets, creating tabs for each category of widget placed in that area, or place above or below the existing widget dividing the area in sections.
 
 
 Block List Dock
@@ -153,4 +160,38 @@ This widget allows users to:
     - Select all objects of a specific color
 
         - right-click a favorite and choose "Select objects"
+
+
+.. _toolbars:
+
+Toolbars
+========
+
+Toolbar provide an alternative to menu for accessing application functions and drawing tools.
+
+.. csv-table:: 
+   :header: "Menu Item", "Description or Menu Equivalent"
+   :widths: 40, 80
+
+    "Categories", ""
+    "Circles", "Tools -> Circle"
+    "Creators", ""
+    "Curves", "Tools -> Curve"
+    "DefaultCustom", ""
+    "Dimension", "Tools -> Dimension"
+    "Dock Areas", ""
+    "Edit", ""
+    "Ellipse", "Tools -> Ellipse"
+    "File", ""
+    "Info", "Tools -> Info"
+    "Line", "Tools -> Line"
+    "Modify", "Tools -> Modify"
+    "Order", ""
+    "Pen", ""
+    "Polyline", "Tools -> Polyline"
+    "Select", ""
+    "Snap Selection", ""
+    "Tool Options", ""
+    "View", ""
+
 
