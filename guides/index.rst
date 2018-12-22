@@ -11,8 +11,8 @@ The user guides provide the steps necessary to perform a various tasks with Libr
 .. toctree::
    :maxdepth: 1
 
-    Using the Command Line <commandline>
-    Using Blocks <blocks>
-    Using Layers <layers>
+    The Command Line <commandline>
+    Blocks <blocks>
+    Layers <layers>
     Printing Guides <printing>
 
