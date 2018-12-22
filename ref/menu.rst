@@ -35,11 +35,11 @@ Options
    :header: "Menu Item", "Icon", "Short-cut", "Description"
    :widths: 40, 10, 20, 110
 
-    "Application Preferences", |icon13|, "", ""
-    "Current Drawing Preferences", |icon14|, "", ""
+    "Application Preferences", |icon13|, "", "See :ref:`Application Preferences <app-pref>` in **Getting Started** for details."
+    "Current Drawing Preferences", |icon14|, "", "See :ref:`Drawing Preferences <draw-pref>` for details."
     "Widget Options", , "", ""
     "Device Options", , "", ""
-    "Reload Style Sheet", , "[Ctrl]-t", ""
+    "Reload Style Sheet", , "[Ctrl]-t", "See :ref:`Style Sheets <style-sheets>` in **Appendices** for details."
  
 
 Edit
