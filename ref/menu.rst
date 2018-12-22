@@ -24,7 +24,7 @@ File
     "Export", |icon07|, "", ""
     "Print", |icon08|, "[Ctrl]-p  ", ""
     "Print Preview", |icon09|, "", ""
-    "Close", |icon10|, "[Ctrl]-w", ""
+    "Close", |icon10|, "[Ctrl]-w", "Close the active drawing."
     "Quit", |icon11|, "[Ctrl]-q", "Close the application."
     "Recent Files", , "", "Open existing drawing file from a list of previously opened drawing files."
 
@@ -113,8 +113,8 @@ Widgets
     "Dock Areas", , "", "Toggles the visibility of the left, right, top, bottom and /or floating *Dock Widgets*."
     "Dock Widgets", , "", "See :ref:`widgets` for descriptions."
     "Toolbars", , "", "Toggles the visibility of the :ref:`toolbars <toolbars>`."
-    "Menu Creator", |icon36|, "", "Create custom menus.  See :ref:`menu-creator` for descriptions."
-    "Toolbar Creator", |icon37|, "", "Create custom toolbars.  See :ref:`toolbar-creator` for descriptions."
+    "Menu Creator", |icon36|, "", "Create custom menus.  See :ref:`menu-creator` in **Getting Started** for details."
+    "Toolbar Creator", |icon37|, "", "Create custom toolbars.  See :ref:`toolbar-creator` in **Getting Started** for details."
 
 
 Drawings
