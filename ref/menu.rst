@@ -37,8 +37,8 @@ Options
 
     "Application Preferences", |icon13|, "", "See :ref:`Application Preferences <app-pref>` in **Getting Started** for details."
     "Current Drawing Preferences", |icon14|, "", "See :ref:`Drawing Preferences <draw-pref>` for details."
-    "Widget Options", , "", ""
-    "Device Options", , "", ""
+    "Widget Options", , "", "See :ref: Widget Options <widget-options>'."
+    "Device Options", , "", "Select input device; mouse, tablet, trackpad or touchscreen."
     "Reload Style Sheet", , "[Ctrl]-t", "See :ref:`Style Sheets <style-sheets>` in **Appendices** for details."
  
 

@@ -18,4 +18,5 @@ The Reference section provides an explanation of LibreCAD's user elements, comma
     Dock Widgets <widgets>
     Drawing Preferences <draw-pref>
     Customizing <customize>
+        Style Sheets <style>
 
