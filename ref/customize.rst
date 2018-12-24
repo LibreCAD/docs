@@ -122,7 +122,7 @@ Tips:
 
 
 Example
--------
+```````
 
 A style sheet can be as simple as:
 
