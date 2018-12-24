@@ -23,7 +23,7 @@ File
     "Import", |icon06|, "", "Import a :ref:`block <blocks>`, or bitmapped or vector images into the current drawing.  Supported bitmapped formats include: bmp, cur, gif, ico, jpeg, pbm, pgm, png, ppm, xbm, and xpm.  Vector images supported include svg, and svgz."
     "Export", |icon07|, "", "Export the current drawing as a CAM, pdf or image file. Supported bitmapped formats include: cur, jpeg, pbm, pgm, png, ppm, bmp, ico, xbm, and xpm.  Vector images supported include svg, and svgz.  Use the ''CAM'' export to save SVG (Scalable Vector Graphics) suitable for MakerCAM, EleskCAM, LaserWeb, ..."
     "Print", |icon08|, "[Ctrl]-p  ", "Produce output of the the current drawing.  See **Printing** in the :ref:`User Guides <printing-guide>` section."
-    "Print Preview", |icon09|, "", ""
+    "Print Preview", |icon09|, "", "Preview output of the the current drawing on screen."
     "Close", |icon10|, "[Ctrl]-w", "Close the active drawing."
     "Quit", |icon11|, "[Ctrl]-q", "Close the application."
     "Recent Files", , "", "Open existing drawing file from a list of previously opened drawing files."
