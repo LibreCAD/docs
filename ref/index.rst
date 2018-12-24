@@ -14,6 +14,7 @@ The Reference section provides an explanation of LibreCAD's user elements, comma
     The Coordinate System <coordinates>
     Application Menu <menu>
     Drawing Tools <tools>
+    Toolbars <toolbars>
     Dock Widgets <widgets>
     Drawing Preferences <draw-pref>
 
