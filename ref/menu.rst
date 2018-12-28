@@ -3,7 +3,7 @@
 Main Menu
 =========
 
-Manu of LibreCAD's commands are accesable through the menu bar.  Each drop down menu provides access commands, configurations and yada, yada, yada, 
+Many of LibreCAD's commands are accessible through the menu bar.  Each drop down menu provides access commands, configurations and yada, yada, yada, 
 
 Each menu has a dashed line at the top.  Clicking in the dashed line allows the menu to be "torn off" as used as a floating menu.  Clicking the dot on the upper right corner of the floating menu closes it.
 
@@ -19,8 +19,8 @@ File
     "New from Template", |icon02|, "", "Creates a new drawing file from a template."
     "Open", |icon03|, "[Ctrl]-o", "Open existing drawing file."
     "Save", |icon04|, "[Ctrl]-s", "Save current drawing file."
-    "Save as", |icon05|, "[Ctrl] [Shift]-q ", "Save current drawing file. to a new file or location."
-    "Import", |icon06|, "", "Import a :ref:`block <blocks>`, or bitmapped or vector images into the current drawing.  Supported bitmapped formats include: bmp, cur, gif, ico, jpeg, pbm, pgm, png, ppm, xbm, and xpm.  Vector images supported include svg, and svgz."
+    "Save as", |icon05|, "[Ctrl] [Shift]-q ", "Save current drawing file with a new file name or to a different location."
+    "Import", |icon06|, "", "Import a :ref:`block <blocks>`, or bit mapped or vector images into the current drawing.  Supported bit mapped formats include: bmp, cur, gif, ico, jpeg, pbm, pgm, png, ppm, xbm, and xpm.  Vector images supported include svg, and svgz."
     "Export", |icon07|, "", "Export the current drawing as a CAM, pdf or image file. Supported bitmapped formats include: cur, jpeg, pbm, pgm, png, ppm, bmp, ico, xbm, and xpm.  Vector images supported include svg, and svgz.  Use the ''CAM'' export to save SVG (Scalable Vector Graphics) suitable for MakerCAM, EleskCAM, LaserWeb, ..."
     "Print", |icon08|, "[Ctrl]-p  ", "Produce output of the the current drawing.  See **Printing** in the :ref:`User Guides <printing-guide>` section."
     "Print Preview", |icon09|, "", "Preview output of the the current drawing on screen."
@@ -48,13 +48,13 @@ Edit
    :header: "Menu Item", "Icon", "Short-cut", "Description"
    :widths: 40, 10, 20, 110
 
-    "Selection Pointer", |icon18|, "", ""
-    "Undo", |icon19|, "[Ctrl]-z", ""
+    "Selection Pointer", |icon18|, "[Esc]", "Reverts from current operation to selection pointer (e.g. cancels the current operation)"
+    "Undo", |icon19|, "[Ctrl]-z", "Reverse the last operation"
     "Redo", |icon20|, "[Ctrl]-[Shift]-z", ""
-    "Cut", |icon21|, "[Ctrl]-x", "."
-    "Copy", |icon22|, "[Ctrl]-c", "."
-    "Paste", |icon23|, "[Ctrl]-v", "."
-    "Delete Selected", |icon24|, "[Del]", "."
+    "Cut", |icon21|, "[Ctrl]-x", "Removes the selected entity (or entities) and places it in temporary memory to be recalled.  A reference point needs to be placed for subsequent paste operations."
+    "Copy", |icon22|, "[Ctrl]-c", "Creates a copy of the selected entity (or entities) in temporary memory to be recalled."
+    "Paste", |icon23|, "[Ctrl]-v", "Recalls the entity (or entities) from temporary memory at a location defined by the reference point."
+    "Delete Selected", |icon24|, "[Del]", "Removes the selected entity (or entities) from the current drawing."
 
 
 View
