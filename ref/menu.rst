@@ -49,8 +49,8 @@ Edit
    :widths: 40, 10, 20, 110
 
     "Selection Pointer", |icon18|, "[Esc]", "Reverts from current operation to selection pointer (e.g. cancels the current operation)"
-    "Undo", |icon19|, "[Ctrl]-z", "Reverse the last operation"
-    "Redo", |icon20|, "[Ctrl]-[Shift]-z", ""
+    "Undo", |icon19|, "[Ctrl]-z", "Reverses the previous operations sequentially."
+    "Redo", |icon20|, "[Ctrl]-[Shift]-z", "Reverses the previously reversed operations sequentially."
     "Cut", |icon21|, "[Ctrl]-x", "Removes the selected entity (or entities) and places it in temporary memory to be recalled.  A reference point needs to be placed for subsequent paste operations."
     "Copy", |icon22|, "[Ctrl]-c", "Creates a copy of the selected entity (or entities) in temporary memory to be recalled."
     "Paste", |icon23|, "[Ctrl]-v", "Recalls the entity (or entities) from temporary memory at a location defined by the reference point."
