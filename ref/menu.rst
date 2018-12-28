@@ -64,17 +64,17 @@ View
    :header: "Menu Item", "Icon", "Short-cut", "Description"
    :widths: 40, 10, 20, 110
 
-    "Fullscreen", , "[F11]", "Toggles LibreCAD to use the entire screen."
-    "Statusbar", , "[Ctrl]-i", "Toggles status bar on the bottom of the window off or on."
-    "Grid", |icon27|, "[Ctrl]-g", ""
+    "Fullscreen", , "[F11]", "Hides the application title bar and toggles LibreCAD to use the entire display."
+    "Statusbar", , "[Ctrl]-i", "Toggles the visibilty of the status bar at the bottom of the application window."
+    "Grid", |icon27|, "[Ctrl]-g", "Toggles the visibilty of the grid."
     "Draft", |icon28|, "[Ctrl]-d", "Toggles to or from ''Draft Mode''."
     "Redraw", |icon29|, "[Ctrl]-r", ""
-    "Zoom In", |icon30|, "", ""
-    "Zoom Out", |icon31|, "", ""
-    "Auto Zoom", |icon32|, "", ""
-    "Previous View", |icon33|, "", ""
-    "Window Zoom", |icon34|, "", ""
-    "Zoom Panning", |icon35|, "", ""
+    "Zoom In", |icon30|, "", "Increase view of drawing by 25% steps."
+    "Zoom Out", |icon31|, "", "Decrease view of drawing by 25% steps."
+    "Auto Zoom", |icon32|, "", "Resize the view of the drawing to fill the drawing window."
+    "Previous View", |icon33|, "", "Revert to the previous zoom level of the drawing."
+    "Window Zoom", |icon34|, "", "Increase the view of the selecteed area to fill the drawing window."
+    "Zoom Panning", |icon35|, "", "Move the view of the drawing."
 
 
 
