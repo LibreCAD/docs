@@ -77,7 +77,7 @@ Ellipse
     "Ellipse Foci Point", |icon37| ,,"Draw an ellipse by assigning two foci points and a point  on the circumference."
     "Ellipse 4 Point", |icon38| ,,"Draw an ellipse assigning four points on the circumference."
     "Ellipse Center and 3 Points", |icon39| ,,"Draw an ellipse by assigning a centre point three points on the circumference."
-    "Ellipse Inscribed", |icon40| ,," Draw a Ellipse constrained by four existing non-parallel line segments."
+    "Ellipse Inscribed", |icon40| ,,"Draw a Ellipse constrained by four existing non-parallel line segments."
 
 
 Polyline
@@ -102,7 +102,7 @@ Select
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
-    "Deselect all", |icon59|, "tn"," Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc] action)."
+    "Deselect all", |icon59|, "tn","Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc] action)."
     "Select All", |icon58|, "sa","Select all entities on visible layers ([Ctrl]-[A])."
     "Select Entity", |icon51| ,,"Select, or deselect, one or more entities (default cursor action)."
     "(De-)Select Contour", |icon54| ,,"Select or deselected entities connected by shared points."
