@@ -16,7 +16,7 @@ The Reference section provides an explanation of LibreCAD's user elements, comma
     Drawing Tools <tools>
     Toolbars <toolbars>
     Dock Widgets <widgets>
-    Drawing Preferences <draw-pref>
+    Drawing Preferences <draw-prefs>
     Customizing <customize>
-        Style Sheets <style>
+        Style Sheets <style-sheets>
 
