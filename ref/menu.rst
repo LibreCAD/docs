@@ -16,7 +16,7 @@ File
    :widths: 40, 10, 20, 110
 
     "New", |icon01|, "[Ctrl]-n", "Creates a new drawing file."
-    "New from Template", |icon02|, "", "Creates a new drawing file from a template."
+    "New from Template", |icon02|, "", "Creates a new drawing file from a template.  See :ref:`Templates <templates>` in **User Guides** for details."
     "Open", |icon03|, "[Ctrl]-o", "Open existing drawing file."
     "Save", |icon04|, "[Ctrl]-s", "Save current drawing file."
     "Save as", |icon05|, "[Ctrl] [Shift]-q ", "Save current drawing file with a new file name or to a different location."
