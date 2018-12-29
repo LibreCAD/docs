@@ -1,4 +1,4 @@
-.. _draw-pref:
+.. _draw-prefs:
 
 
 Drawing Preferences

@@ -51,7 +51,7 @@ LibreCAD's layout and appearance is highly configurable:
     :alt: LibreCAD Application Window - custom layout
 
 
-.. _app-pref:
+.. _app-prefs:
 
 Application Preferences
 -----------------------
