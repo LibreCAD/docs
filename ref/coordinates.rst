@@ -40,7 +40,7 @@ The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartes
 
 Coordinates can also be written as 10..20 which allows for :ref:`numeric keypad <keyboard>` input.
 
-|
+
 Polar
 ~~~~~
 
