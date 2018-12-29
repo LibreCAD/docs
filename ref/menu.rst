@@ -23,7 +23,7 @@ File
     "Import", |icon06|, "", "Import a :ref:`block <blocks>`, or bit mapped or vector images into the current drawing.  Supported bit mapped formats include: bmp, cur, gif, ico, jpeg, pbm, pgm, png, ppm, xbm, and xpm.  Vector images supported include svg, and svgz."
     "Export", |icon07|, "", "Export the current drawing as a CAM, pdf or image file. Supported bitmapped formats include: cur, jpeg, pbm, pgm, png, ppm, bmp, ico, xbm, and xpm.  Vector images supported include svg, and svgz.  Use the ''CAM'' export to save SVG (Scalable Vector Graphics) suitable for MakerCAM, EleskCAM, LaserWeb, ..."
     "Print", |icon08|, "[Ctrl]-p  ", "Produce output of the the current drawing.  See **Printing** in the :ref:`User Guides <printing-guide>` section."
-    "Print Preview", |icon09|, "", "View output on screen of the the current drawing."
+    "Print Preview", |icon09|, "", "View output on screen of the current drawing."
     "Close", |icon10|, "[Ctrl]-w", "Close the active drawing."
     "Quit", |icon11|, "[Ctrl]-q", "Close the application."
     "Recent Files", , "", "Open existing drawing file from a list of previously opened drawing files."
@@ -48,7 +48,7 @@ Edit
    :header: "Menu Item", "Icon", "Short-cut", "Description"
    :widths: 40, 10, 20, 110
 
-    "Selection Pointer", |icon18|, "[Esc]", "Reverts from current operation to selection pointer (e.g. cancels the current operation)"
+    "Selection Pointer", |icon18|, "[Esc]", "Reverts from current operation to the selection pointer (e.g. cancels the current operation)"
     "Undo", |icon19|, "[Ctrl]-z", "Sequentially reverses the previous operations."
     "Redo", |icon20|, "[Ctrl]-[Shift]-z", "Sequentially reverses the previously reversed operations."
     "Cut", |icon21|, "[Ctrl]-x", "Removes the selected entity (or entities) and places it in temporary memory, e.g. ''clipboard'' for later recall.  A reference point needs to be placed for subsequent paste operations."
