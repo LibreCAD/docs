@@ -1,4 +1,4 @@
-.. _templatess:
+.. _templates:
 
 
 Templates

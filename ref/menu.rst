@@ -51,9 +51,9 @@ Edit
     "Selection Pointer", |icon18|, "[Esc]", "Reverts from current operation to selection pointer (e.g. cancels the current operation)"
     "Undo", |icon19|, "[Ctrl]-z", "Sequentially reverses the previous operations."
     "Redo", |icon20|, "[Ctrl]-[Shift]-z", "Sequentially reverses the previously reversed operations."
-    "Cut", |icon21|, "[Ctrl]-x", "Removes the selected entity (or entities) and places it in temporary memory, e.g. \"clipboard\" for later recall.  A reference point needs to be placed for subsequent paste operations."
-    "Copy", |icon22|, "[Ctrl]-c", "Creates a copy of the selected entity (or entities) in temporary memory to be recalled."
-    "Paste", |icon23|, "[Ctrl]-v", "Recalls the entity (or entities) from temporary memory at a location defined by the reference point."
+    "Cut", |icon21|, "[Ctrl]-x", "Removes the selected entity (or entities) and places it in temporary memory, e.g. ''clipboard'' for later recall.  A reference point needs to be placed for subsequent paste operations."
+    "Copy", |icon22|, "[Ctrl]-c", "Creates a copy of the selected entity (or entities) in temporary memory to be recalled.  A reference point needs to be placed for subsequent paste operations."
+    "Paste", |icon23|, "[Ctrl]-v", "Recalls the entity (or entities) from temporary memory and place it at a location defined by a reference point."
     "Delete Selected", |icon24|, "[Del]", "Removes the selected entity (or entities) from the current drawing."
 
 
@@ -69,8 +69,8 @@ View
     "Grid", |icon27|, "[Ctrl]-g", "Toggles the visibilty of the grid."
     "Draft", |icon28|, "[Ctrl]-d", "Toggles to or from ''Draft Mode''."
     "Redraw", |icon29|, "[Ctrl]-r", ""
-    "Zoom In", |icon30|, "", "Increase view of drawing by 25% steps."
-    "Zoom Out", |icon31|, "", "Decrease view of drawing by 25% steps."
+    "Zoom In", |icon30|, "", "Increase view of drawing by 25% increments."
+    "Zoom Out", |icon31|, "", "Decrease view of drawing by 20% increments."
     "Auto Zoom", |icon32|, "", "Resize the view of the drawing to fill the drawing window."
     "Previous View", |icon33|, "", "Revert to the previous zoom level of the drawing."
     "Window Zoom", |icon34|, "", "Increase the view of the selecteed area to fill the drawing window."
