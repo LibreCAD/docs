@@ -12,8 +12,6 @@ The Reference section provides an explanation of LibreCAD's user elements, comma
    :maxdepth: 1
 
     Fundamentals <fundamentals>
-        Entities
-        The Coordinate System
 ..    The Coordinate System <coordinates>
     Application Menu <menu>
     Drawing Tools <tools>
