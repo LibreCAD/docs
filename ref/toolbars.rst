@@ -16,7 +16,7 @@ Toolbars provide alternatives to menus for accessing application functions and d
     "DefaultCustom", "Custom toolbar example."
     "Dimension", "*Tools -> Dimension*."
     "Dock Areas",  "*Widgets -> Dock Areas*."
-    "Edit", ":ref:`Edit <edit>` functions"
+    "Edit", ":ref:`Edit <edit>` functions."
     "Ellipse", "*Tools -> Ellipse*."
     "File", ":ref:`File <file>` operations."
     "Info", "*Tools -> Info*."
