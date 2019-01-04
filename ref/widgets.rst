@@ -40,7 +40,7 @@ Block List Dock
     :width: 272px
     :height: 590px
     :align: right
-    :scale: 66
+    :scale: 67
     :alt: Block List Dock
 
 The Block List Dock provides the functions to manage blocks and a list of :ref:`Blocks <blocks>` that are active in the drawing.  Block functions include:
@@ -49,7 +49,7 @@ The Block List Dock provides the functions to manage blocks and a list of :ref:`
    :header: "Icon", "Description"
    :widths: 10, 60
 
-    |icon01|, "''Show all blocks'' make all the blocks in the current drawing visible."
+    |icon01|, "''Show all blocks'' makes all the blocks in the current drawing visible."
     |icon02|, "''Hide all blocks''."
     |icon03|, "''Create a block''."
     |icon04|, "''Add an empty block''."
@@ -82,7 +82,7 @@ Command Line Dock
     :width: 544px
     :height: 227px
     :align: right
-    :scale: 50
+    :scale: 67
     :alt: Command Line Dock
 
 |
@@ -106,7 +106,7 @@ Layer List Dock
     :width: 270px
     :height: 590px
     :align: right
-    :scale: 50
+    :scale: 67
     :alt: Layer List Dock
 
 |
@@ -130,7 +130,7 @@ Library Browser Dock
     :width: 270px
     :height: 590px
     :align: right
-    :scale: 50
+    :scale: 67
     :alt: Library Browser Dock
 
 |
@@ -154,7 +154,7 @@ Pen Wizard Dock
     :width: 272px
     :height: 590px
     :align: right
-    :scale: 50
+    :scale: 67
     :alt: Pen Wizard Dock
 
 This widget allows users to:
