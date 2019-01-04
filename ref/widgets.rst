@@ -40,7 +40,7 @@ Block List Dock
     :width: 272px
     :height: 590px
     :align: right
-    :scale: 50
+    :scale: 66
     :alt: Block List Dock
 
 The Block List Dock provides the functions to manage blocks and a list of :ref:`Blocks <blocks>` that are active in the drawing.  Block functions include:
