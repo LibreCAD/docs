@@ -11,7 +11,10 @@ The Reference section provides an explanation of LibreCAD's user elements, comma
 .. toctree::
    :maxdepth: 1
 
-    The Coordinate System <coordinates>
+    Fundamentals <fundamentals>
+        Entities
+        The Coordinate System
+..    The Coordinate System <coordinates>
     Application Menu <menu>
     Drawing Tools <tools>
     Toolbars <toolbars>

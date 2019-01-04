@@ -1,7 +1,33 @@
+.. _fundamentals: 
+
+
+Fundamentals
+============
+
+To be able to use LibreCAD effectively, there are a few concepts that need to be understood.  While drawings can be created with very little setup, as they become more complex further consideration to the elements of an entity is important.  This section offers an introduction to some concepts that are important to the creation of a drawing, but by no means is it exhaustive.  The  rest of the Reference section provides a description of the tools used to create and modify drawings.  General examples and guidence is offered in the :ref:`User Guide <guides>` section.
+
+
+Entities
+--------
+
+An entity is a geometric shape; a line, circle, arc, etc.  A collection of entities form a drawing.
+
+In addition to the basic information that describes the geometry of an entity, there are two more elements that further define an entity:
+
+    - :ref:`Pens <pens>` describes the appearance of an entity, either on screen or in printed output with three additional properties:
+
+        - Color
+        - Width
+        - Line Type
+
+    - :ref:`Layers <layers>` provide a means to organize drawing and manage the properties of multiple entities.
+    - *Pen* or *Layers* properties *can* have a specific meaning, but vary by industry or an organization's standards and a complete description is beyond the scope of this manual.
+
+
 .. _coordinates: 
 
 The Coordinate System
-=====================
+---------------------
 
 Understanding the coordinates systems and how coordinates work in LibreCAD is necessary to produce precise and accurate drawings.  Every entity (e.g. a line, circle, etc.) that is drawn in LibreCAD can be drawn with precision, placed accurately using coordinates.  LibreCAD supports two drawing perspectives; orthaganol and isometric.  Orthaganol is the default perspective for creating two dimensional (2D) drawings.  An :ref:`isometric <isometric>` projection allows LibreCAD to represent a three-dimensional object in two dimensions, sometimes refered to as "2.5D".
 
@@ -20,12 +46,12 @@ Examples of X and Y coordinates:
 
 
 Types of Coordinates
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 There are two coordinate systems used in LibreCAD, *Cartesian* and *Polar*.
 
 Cartesian
-~~~~~~~~~
+`````````
 
 .. figure:: /images/byCartesian.png
     :width: 800px
@@ -42,7 +68,7 @@ Coordinates can also be written as 10..20 which allows for :ref:`numeric keypad 
 
 
 Polar
-~~~~~
+`````
 
 .. figure:: /images/byPolar.png
     :width: 800px
@@ -62,21 +88,21 @@ The *Polar* coordinate system uses one distance and one angle to locate a point 
 
 
 Defining Coordinate Locations
------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In LibreCAD lines, points, arcs, polylines, circles, and many more entities can be placed in a drawing using either *Absolute* or *Relative* coordinate input.
 
 .. _absolute:
 
 Absolute
-~~~~~~~~
+````````
 
 When using Absolute coordinates, whether cartisian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<45" as shown in the two images above.
 
 .. _relative:
 
 Relative
-~~~~~~~~
+````````
 
 The last coordinate defined when creating an entity becomes a temporary reference for the next point.  The newly set temporary reference is the "Relative Zero Point", and coordinates can be entered relative to the Relative Zero Point.  To define the next point relative to the Relative Zero Point coordinates, either cartesian or polar, are prefixed with the '@' symbol when entered.  Points without the @ prefix are always interpreted as absolute coordinates.
 
@@ -110,7 +136,7 @@ As an example when using a polar coordinates, to draw a line 100mm and 45 degree
 |
 
 Angles in LibreCAD
-~~~~~~~~~~~~~~~~~~
+``````````````````
 
 .. figure:: /images/angles.png
     :width: 800px
@@ -134,21 +160,21 @@ All angles in LibreCAD are measured in 360 degrees in an anti-clockwise directio
 .. _placing-entities: 
 
 Placing Entities
------------------
+~~~~~~~~~~~~~~~~
 
 There are two methods for defining coordinates when drawing entities in LibreCAD.  Users can use either the keyboard and type coordinates, or by using a mouse or other pointing devices.
 
 .. _keyboard:
 
 Keyboard
-~~~~~~~~
+````````
 
 Coordinate values, whether cartesian or polar, can be typed at the :ref:`command line <commandline>` in the formats as previously noted.  LibreCAD offers an additional method for typing cartesian coordinates when using the numeric keypad; type two decimal points (".") in lieu of the comma between the X and Y values.  For example, "10..20" is equivelent to typing "10,20".  This method can also be used for relative cartesian coordinates, e.g. @15..25.
 
 Text input is also required by tool options where distance, angle, etc. are needed.
 
 Mouse
-~~~~~
+`````
 
 Entities' coordinates can also be located graphically using a mouse or other pointing device.  Using a mouse is less precise, but may be acceptable for 'rough' sketches or other freehand work.  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps`.  
 
@@ -156,7 +182,7 @@ Entities' coordinates can also be located graphically using a mouse or other poi
 .. _snaps:
 
 Snapping
---------
+~~~~~~~~
 
 Snaps provide the ability to pick precise locations when using a mouse.  Various snap tools are available to allow the user to select different locations on entities or elsewhere in the drawing space when using the grid.
 
@@ -204,7 +230,7 @@ Snaps provide the ability to pick precise locations when using a mouse.  Various
 .. _isometric:
 
 Isometric Drawings
-------------------
+~~~~~~~~~~~~~~~~~~
 
 LibreCAD can also be used to create drawings with an **isometric** projection.  Creating isometric drawings is similar to creating orthaganol drawings, but with an additional consideration towards the perspective of the drawing.  The **Grid** tab of :ref:`Drawing Preferences <draw-prefs>` allows users to set the grid to suit isomentric drawings.  Setting the "Snap Indicator Lines" on the **Appearance** tab on the :ref:`Application Preferences <app-prefs>` to *Isometric* will also assist in with locating entities.
 
