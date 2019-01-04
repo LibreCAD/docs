@@ -6,7 +6,7 @@ Toolbars
 Toolbars provide alternatives to menus for accessing application functions and drawing tools.  See :ref:`Menu <menu>` or :ref:`Drawing Tools <tools>` for complete descriptions.
 
 .. csv-table:: 
-   :header: "Menu Item", "Description and/or Menu Equivalent"
+   :header: "Menu Item", "Description and/or *Menu Equivalent*"
    :widths: 30, 90
 
     "Categories", "Groups drawing tools; *Line, Circle, Curve, Ellipse, Polyline, Select, Dimension, Modify* and *Info*."
@@ -18,7 +18,7 @@ Toolbars provide alternatives to menus for accessing application functions and d
     "Dock Areas",  "Widgets -> Dock Areas."
     "Edit", "Edit functions"
     "Ellipse", "Tools -> Ellipse"
-    "File", ":ref:`File operations <file>`."
+    "File", ":ref:`File <file>` operations."
     "Info", "Tools -> Info"
     "Line", "Tools -> Line"
     "Modify", "Tools -> Modify"
@@ -28,7 +28,7 @@ Toolbars provide alternatives to menus for accessing application functions and d
     "Select", "Select entities. Tools -> Select."
     "Snap Selection", "See :ref:`Snapping <snaps>` in **The Coordinate System**."
     "Tool Options",  "Displays input boxes for the parameters required by the current tool."
-    "View", ":ref: `View options <view>`."
+    "View", ":ref: `View <view>` options."
 
 
 
