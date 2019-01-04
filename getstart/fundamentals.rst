@@ -12,15 +12,13 @@ Entities
 
 An entity is a geometric shape; a line, circle, arc, etc.  A collection of entities form a drawing.
 
-In addition to the basic information that describes the geometry of an entity, there are two more elements that further define the entity:
+In addition to the basic information that describes the geometry of an entity, there are two more elements that further define an entity:
 
-    - *Pen* - describes the appearance of an entity, either on screen or in printed output wit three additional properties:
+    - :ref:`Pens <pens>` describes the appearance of an entity, either on screen or in printed output with three additional properties:
 
         - Color
         - Width
         - Line Type
 
-    - Each of these properties *can* have a specific meaning, but a complete description is beyond the scope of this manual and vary by industry or an organization's standards.  Additonal information for setting the :ref:`Pen <pens>`  properties can be found in the **User Guides**.
-
-    - *Layers* - Layers provide a means to organize drawing and manage the properties of multiple entities.  See :ref:`Layers <layers>` in the **User Guides** for more details.  As with Pens, the use of layers *can* be governed by industry or an organization's standards and is beyond the scope of this manual.
-
+    - :ref:`Layers <layers>` provide a means to organize drawing and manage the properties of multiple entities.
+    - *Pen* or *Layers* properties *can* have a specific meaning, but vary by industry or an organization's standards and a complete description is beyond the scope of this manual.
