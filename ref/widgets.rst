@@ -3,7 +3,7 @@
 Dock Widgets
 =============
 
-Dock widgets serve two purposes; they provide alternative method to access several drawing tools, and additional tools (Block List, Command Line, Layer List, Library Browser, and Pen Wizard).
+Dock widgets serve two purposes; they provide alternative method to access drawing tools, and additional tools or features (Block List, Command Line, Layer List, Library Browser, and Pen Wizard).
 
 Dock widgets are available for these :ref:`drawing tools <tools>`: Circle, Curve, Dimension, Ellipse, Info, Line, Modify, and Polyline.
 
@@ -43,11 +43,7 @@ Block List Dock
     :scale: 50
     :alt: Block List Dock
 
-|
-|
-|
-|
-|
+The Block List Dock provides a list of :ref:`Blocks <blocks>` that are active in the drawing and the functions to manage blocks.
 |
 |
 |
