@@ -33,6 +33,6 @@ Each of these properties *can* have a specific meaning, but a complete descripti
 Layers
 ------
 
-Layers provide a means to organize drawing and manage the properties of multiple entities.  See :ref:`Layers <layers>` in the **User Guides** for more details.  As with Pens, the use of Layers *can* be governed by industry or an organization's standards and is beyond the scope of this manual.
+Layers provide a means to organize drawing and manage the properties of multiple entities.  See :ref:`Layers <layers>` in the **User Guides** for more details.  As with Pens, the use of layers *can* be governed by industry or an organization's standards and is beyond the scope of this manual.
 
 
