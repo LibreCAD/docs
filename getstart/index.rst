@@ -13,5 +13,5 @@ LibreCAD is available for multiple operating systems and from a variety of sourc
 
     Install <install>
     Configure <configure>
-    CAD Fundamentals <fundamentals>
+    Fundamentals <fundamentals>
 
