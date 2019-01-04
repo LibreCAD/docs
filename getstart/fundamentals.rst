@@ -12,7 +12,10 @@ Entities
 
 An entity is a geometric shape; a line, circle, arc, etc. within a drawing.  A collection of entities form a drawing.
 
-In addition to the basic information that describes the geometry of an entity, there are two more properties that further define the entity; the *Pen* and *Layers*.
+In addition to the basic information that describes the geometry of an entity, there are two more properties that further define the entity:
+
+    - *Pen* - describes the appearance of an entity, either on screen or in printed output.
+    - *Layers* - organize and manage the drawing's entities.
 
 
 Pen
@@ -20,19 +23,16 @@ Pen
 
 A *pen* provides three additional properties to descibe a drawing entity:
 
-    - color
-    - width
-    - type
+    - Color - LibreCAD has 16 default colors, but supports the RGB color space (#000000 to #FFFFFF).  The initial color for entities is black.
+    - Width - The default line width is 0.00mm.  Line widths supported are up to 2.11mm.
+    - Line Type - The default line type is "Continuous" (e.g. solid), but other line types included with LibreCAD are Dot, Dash, Divide, Center, and Border.
+
+Each of these properties *can* have a specific meaning, but a complete description is beyond the scope of this manual and variy by industry or an organizations standards.  Additonal information for setting the pen can be found ...somewhere.
+
 
 Layers
 ------
 
-Layers provide a means to organize drawing.  
-
-
-
-A basic concept in computer aided drafting is the use of layers to organize a drawing. Every entity in a drawing is on exactly one layer and a layer can contain lots of entities. Typically entities with a common ‘function’ or common attributes are put on the same layer. E.g. you might want to put all axes in a drawing on a layer named ‘axes’ (see Figure 1 below). Layers can have their own attributes also (colour, line width, line style etc.). Each entity can have its own attributes or have its attributes defined by the layer it is placed on. In the latter case for example you can change the colour of all the entities on the “axes” layer by setting the colour (red for example) for that layer.
-
-In traditional manual drafting, a similar approach was used. Whether for Engineering, Architectural, Construction drawing, etc. layers were used to show different aspects of a drawing — for example this could be a layer set up for showing centre lines on an engineering drawing or to show different building systems, such as wiring and air conditioning. The layers were often drawn on separate transparent sheets of paper. These sheets were then overlaid one on top of another to produce final drawings.
+Layers provide a means to organize drawing and manage the properties of multiple entities.  See :ref:`Layers <layers>` in the **User Guides** for more details.
 
 
