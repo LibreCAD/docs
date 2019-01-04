@@ -42,7 +42,9 @@ Options
     "Widget Options", , "", "See :ref:`Widget Options <widget-options>` for in **Customizing** details."
     "Device Options", , "", "Select input device; mouse, tablet, trackpad or touchscreen."
     "Reload Style Sheet", , "[Ctrl]-t", "See :ref:`Style Sheets <style-sheets>` in **Customizing** for details."
+
  
+.. _edit:
 
 Edit
 ----
