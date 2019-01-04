@@ -13,7 +13,7 @@ The user guides provide the steps necessary to perform a various tasks with Libr
 
     The Command Line <commandline>
     Layers <layers>
-    Pens <pen
+    Pens <pens>
     Templates <templates>
     Blocks <blocks>
     Printing Guides <printing>
