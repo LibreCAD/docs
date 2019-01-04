@@ -47,7 +47,7 @@ The Block List Dock provides the functions to manage blocks and a list of :ref:`
 
 .. csv-table:: 
    :header: "Icon", "Description"
-   :widths: 20, 110
+   :widths: 20, 90
 
     |icon01|, "Show all blocks."
     |icon02|, "Hide all blocks."
