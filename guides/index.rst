@@ -12,8 +12,9 @@ The user guides provide the steps necessary to perform a various tasks with Libr
    :maxdepth: 1
 
     The Command Line <commandline>
+    Layers <layers>
+    Pens <pen
     Templates <templates>
     Blocks <blocks>
-    Layers <layers>
     Printing Guides <printing>
 
