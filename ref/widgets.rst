@@ -43,21 +43,21 @@ Block List Dock
     :scale: 50
     :alt: Block List Dock
 
-The Block List Dock provides a list of :ref:`Blocks <blocks>` that are active in the drawing and the functions to manage blocks.  Block functions include:
+The Block List Dock provides the functions to manage blocks and a list of :ref:`Blocks <blocks>` that are active in the drawing.  Block functions include:
 
 .. csv-table:: 
    :header: "Icon", "Description"
    :widths: 20, 110
 
-|icon01|, "Show all blocks."
-|icon02|, "Hide all blocks."
-|icon03|, "Create a block."
-|icon04|, "Add an empty block."
-|icon05|, "Remove the active block."
-|icon06|, "Rename the active block."
-|icon07|, "Edit the active block in a separate window."
-|icon08|, "Save the active block to a file."
-|icon09|, "Insert the active block."
+    |icon01|, "Show all blocks."
+    |icon02|, "Hide all blocks."
+    |icon03|, "Create a block."
+    |icon04|, "Add an empty block."
+    |icon05|, "Remove the active block."
+    |icon06|, "Rename the active block."
+    |icon07|, "Edit the active block in a separate window."
+    |icon08|, "Save the active block to a file."
+    |icon09|, "Insert the active block."
 
 The lower portion of the dock shows a list of blocks in the current drawing.
 |
