@@ -12,12 +12,12 @@ The Reference section provides an explanation of LibreCAD's user elements, comma
    :maxdepth: 1
 
     Fundamentals <fundamentals>
-..    The Coordinate System <coordinates>
     Application Menu <menu>
     Drawing Tools <tools>
     Toolbars <toolbars>
     Dock Widgets <widgets>
     Drawing Preferences <draw-prefs>
     Customizing <customize>
-..  Style Sheets <style-sheets>
+..    Style Sheets <style-sheets>
+..    The Coordinate System <coordinates>
 
