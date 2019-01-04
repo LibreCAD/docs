@@ -4,7 +4,7 @@
 Blocks
 ======
 
-A block is a group of entities. Blocks can be inserted into the same drawing more than once with different attributes, locations, scale and rotation angle (see image below). Such an instance of a block is usually called an "insert". Inserts have attributes just like entities and layers. An Entity that is part of an insert can have its own attributes or share the attributes of the insert. Once created, inserts are still linked to the block they instantiate. The power of inserts is, that you can modify the block once and all inserts will be updated accordingly.
+A block is a group of entities. Blocks can be inserted into the same drawing more than once with different attributes, locations, scale and rotation angle (see image below). Such an instance of a block is usually called an "insert". Inserts have attributes just like entities and layers. An entity that is part of an insert can have its own attributes or share the attributes of the insert. Once created, inserts are still linked to the block they instantiate. The power of inserts is, that you can modify the block once and all inserts will be updated accordingly.
 
 Creating and saving blocks is a useful way of inserting frequently used symbols e.g windows and doors in a house plan.
 
