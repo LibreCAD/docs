@@ -29,7 +29,9 @@ If you have already drawn the entities that you want to convert into a block use
     #. From the menu select Block->Create Block
     #. Select the entities that will make up the block
     #. Specify the reference point of the block
+
         - The reference point is the base of the object when it is inserted
+
     #. Provide a unique name for the new block
 
 
