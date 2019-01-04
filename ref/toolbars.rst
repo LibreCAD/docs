@@ -3,32 +3,32 @@
 Toolbars
 ========
 
-Toolbars provide alternatives to menus for accessing application functions and drawing tools.  See :ref:`Menu <menu>` or :ref:'Drawing Tools <tools>' for complete descriptions.
+Toolbars provide alternatives to menus for accessing application functions and drawing tools.  See :ref:`Menu <menu>` or :ref:`Drawing Tools <tools>` for complete descriptions.
 
 .. csv-table:: 
    :header: "Menu Item", "Description and/or Menu Equivalent"
-   :widths: 40, 80
+   :widths: 30, 90
 
-    "Categories", "Groups drawing tools; Line,Circle, Curve, Ellipse, Polyline, Select, Dimension, Modify and Info."
+    "Categories", "Groups drawing tools; *Line, Circle, Curve, Ellipse, Polyline, Select, Dimension, Modify* and *Info*."
     "Circles", "Tools -> Circle."
-    "Creators",  "Access menu and toolbar Creators. Widgets -> Menu Creator / Toolbar Creator."
+    "Creators",  "Access menu and toolbar *Creators*. Widgets -> Menu Creator / Toolbar Creator."
     "Curves", "Tools -> Curve."
     "DefaultCustom", "Custom toolbar example."
     "Dimension", "Tools -> Dimension."
     "Dock Areas",  "Widgets -> Dock Areas."
     "Edit", "Edit functions"
     "Ellipse", "Tools -> Ellipse"
-    "File", "File operations."
+    "File", ":ref:`File operations <file>`."
     "Info", "Tools -> Info"
     "Line", "Tools -> Line"
     "Modify", "Tools -> Modify"
     "Order", "Reorder entities. Tools -> Modify -> Order"
-    "Pen", ""
+    "Pen", "Change entity color, width and / or style."
     "Polyline", "Tools -> Polyline"
-    "Select", ""
-    "Snap Selection", ""
+    "Select", "Select entities. Tools -> Select."
+    "Snap Selection", "See :ref:`Snapping <snaps>` in **The Coordinate System**."
     "Tool Options",  "Displays input boxes for the parameters required by the current tool."
-    "View", "View"
+    "View", ":ref: `View options <view>`."
 
 
 

@@ -8,6 +8,8 @@ Many of LibreCAD's commands are accessible through the menu bar.  Each drop down
 Each menu has a dashed line at the top.  Clicking in the dashed line allows the menu to be "torn off" as used as a floating menu.  Clicking the dot on the upper right corner of the floating menu closes it.
 
 
+.. _file:
+
 File
 ----
 
@@ -56,6 +58,8 @@ Edit
     "Paste", |icon23|, "[Ctrl]-v", "Recalls the entity (or entities) from temporary memory and place it at a location defined by a reference point."
     "Delete Selected", |icon24|, "[Del]", "Removes the selected entity (or entities) from the current drawing."
 
+
+.. _view:
 
 View
 ----

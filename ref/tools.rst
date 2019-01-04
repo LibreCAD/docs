@@ -246,7 +246,7 @@ Others
 .. |icon50| image:: /images/icons/polylinesegment.png
 .. |icon51| image:: /images/icons/select_entity.svg
 .. |icon52| image:: /images/icons/select_window.svg
-.. |icon53| image:: /images/icons/deselect_all.svg
+.. |icon53| image:: /images/icons/deselect_window.svg
 .. |icon54| image:: /images/icons/deselect_contour.svg
 .. |icon55| image:: /images/icons/select_intersected_entities.svg
 .. |icon56| image:: /images/icons/deselect_intersected_entities.svg
