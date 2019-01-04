@@ -11,12 +11,13 @@ Below are the sections that are in the LibreCAD User Manual with the percent com
    - Install   [100%]
    - Configure (Setting up / configuring LibreCAD)   [100%]
    - Customizing   [100%]
+   - Fundamentals   [10%]
 
 - References: technical descriptions of the tools, functions, widgets, etc.  Following the menu structure, it would include:
    - The Coordinate Systems   [100%]
    - Application Menu   [95%]    (Required descripotions of the plug-ins.)
    - Drawing Tools   [100%]
-   - Toolbars   [25%]
+   - Toolbars   [100%]
    - Dock Widgets   [25%]
    - Drawing Preferences   [67%]
 
