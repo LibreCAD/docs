@@ -27,7 +27,7 @@ A *pen* provides three additional properties to descibe a drawing entity:
     - Width
     - Line Type
 
-Each of these properties *can* have a specific meaning, but a complete description is beyond the scope of this manual and vary by industry or an organization's standards.  Additonal information for setting the :ref:`pen properties <pens>` can be found in the **User Guides**.
+Each of these properties *can* have a specific meaning, but a complete description is beyond the scope of this manual and vary by industry or an organization's standards.  Additonal information for setting the :ref:`Pen Properties <pens>` can be found in the **User Guides**.
 
 
 Layers

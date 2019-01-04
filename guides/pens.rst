@@ -1,4 +1,4 @@
-.. pens:
+.. _pens:
 
 Pens
 ====
