@@ -136,7 +136,7 @@ Modify
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
-    "Order", "", "", ""
+    "Order", "", "", "Order entities within a layer.  Selected entities can be moved to top, bottom, *raised* (moved forward) over another entity or *lowered* (moved backwards) behind an entity."
     "Move / Copy", |icon69|, "mv","Move a selected entity by defining a reference point and a relative target point. Optionally keep the original entity (Copy), create mulitple copies and / or alter attributes and layer."
     "Rotate", |icon70|, "ro","Rotate a selected entity around a rotation point, moving the entity from a reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
     "Scale", |icon71|, "sz","Increase or decrease the size of a selected entity from a reference point by a defined factor for both axis.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer."

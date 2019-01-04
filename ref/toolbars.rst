@@ -3,31 +3,31 @@
 Toolbars
 ========
 
-Toolbar provide an alternative to menu for accessing application functions and drawing tools.
+Toolbars provide alternatives to menus for accessing application functions and drawing tools.  See :ref:`Menu <menu>` or :ref:'Drawing Tools <tools>' for complete descriptions.
 
 .. csv-table:: 
-   :header: "Menu Item", "Description or Menu Equivalent"
+   :header: "Menu Item", "Description and/or Menu Equivalent"
    :widths: 40, 80
 
-    "Categories", ""
-    "Circles", "Tools -> Circle"
-    "Creators", ""
-    "Curves", "Tools -> Curve"
-    "DefaultCustom", ""
-    "Dimension", "Tools -> Dimension"
-    "Dock Areas", ""
-    "Edit", ""
+    "Categories", "Groups drawing tools; Line,Circle, Curve, Ellipse, Polyline, Select, Dimension, Modify and Info."
+    "Circles", "Tools -> Circle."
+    "Creators",  "Access menu and toolbar Creators. Widgets -> Menu Creator / Toolbar Creator."
+    "Curves", "Tools -> Curve."
+    "DefaultCustom", "Custom toolbar example."
+    "Dimension", "Tools -> Dimension."
+    "Dock Areas",  "Widgets -> Dock Areas."
+    "Edit", "Edit functions"
     "Ellipse", "Tools -> Ellipse"
-    "File", ""
+    "File", "File operations."
     "Info", "Tools -> Info"
     "Line", "Tools -> Line"
     "Modify", "Tools -> Modify"
-    "Order", ""
+    "Order", "Reorder entities. Tools -> Modify -> Order"
     "Pen", ""
     "Polyline", "Tools -> Polyline"
     "Select", ""
     "Snap Selection", ""
-    "Tool Options", "Displays input boxes for the parameters required by the current tool."
+    "Tool Options",  "Displays input boxes for the parameters required by the current tool."
     "View", "View"
 
 
