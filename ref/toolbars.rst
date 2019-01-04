@@ -3,7 +3,7 @@
 Toolbars
 ========
 
-Toolbars provide alternatives to menus for accessing application functions and drawing tools.  See :ref:`Menu <menu>` or :ref:`Drawing Tools <tools>` for complete descriptions.
+Toolbars provide alternatives to menus for accessing application functions and drawing tools.  See :ref:`Application Menu <menu>` or :ref:`Drawing Tools <tools>` for complete descriptions.
 
 .. csv-table:: 
    :header: "Menu Item", "Description and/or *Menu Equivalent*"
@@ -22,11 +22,11 @@ Toolbars provide alternatives to menus for accessing application functions and d
     "Info", "*Tools -> Info*."
     "Line", "*Tools -> Line*."
     "Modify", "*Tools -> Modify*."
-    "Order", "Reorder entities. *Tools -> Modify -> Order*."
+    "Order", "Reorder drawing entities. *Tools -> Modify -> Order*."
     "Pen", "Change entity color, width and / or style."
     "Polyline", "*Tools -> Polyline*."
     "Select", "Select entities. *Tools -> Select*."
     "Snap Selection", "See :ref:`Snapping <snaps>` in **The Coordinate System**."
-    "Tool Options",  "Displays input boxes for the parameters required by the currently selected tool."
+    "Tool Options",  "Displays input boxes for the parameters required by the currently selected tool.  **This option should always be enabled.**"
     "View", ":ref:`View <view>` options."
 
