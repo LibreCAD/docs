@@ -11,7 +11,7 @@ Toolbars provide alternatives to menus for accessing application functions and d
 
     "Categories", "Groups commonly used drawing tools; *Tools -> Line / Circle / Curve / Ellipse / Polyline / Select / Dimension / Modify* and *Info*."
     "Circles", "*Tools -> Circle*."
-    "Creators",  "Access menu and toolbar **Creators**. *Widgets -> Menu Creator* / *Toolbar Creator*.  Aslo see **Customizing LibreCAD’s Interface**."
+    "Creators",  "Access menu and toolbar Creators. *Widgets -> Menu Creator* / *Toolbar Creator*.  Also see :ref:`Customizing LibreCAD’s Interface <customize>`."
     "Curves", "*Tools -> Curve*."
     "DefaultCustom", "Custom toolbar example."
     "Dimension", "*Tools -> Dimension*."
@@ -27,6 +27,6 @@ Toolbars provide alternatives to menus for accessing application functions and d
     "Polyline", "*Tools -> Polyline*."
     "Select", "Select entities. *Tools -> Select*."
     "Snap Selection", "See :ref:`Snapping <snaps>` in **The Coordinate System**."
-    "Tool Options",  "Displays input boxes for the parameters required by the current tool."
-    "View", ":ref: `View <view>` options."
+    "Tool Options",  "Displays input boxes for the parameters required by the currently selected tool."
+    "View", ":ref:`View <view>` options."
 
