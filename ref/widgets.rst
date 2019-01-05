@@ -49,15 +49,15 @@ The Block List Dock provides the functions to manage blocks and a list of :ref:`
    :header: "Icon", "Description"
    :widths: 10, 60
 
-    |icon01|, "''Show all blocks'' makes all the blocks in the current drawing visible."
-    |icon02|, "''Hide all blocks''."
-    |icon03|, "''Create a block''."
-    |icon04|, "''Add an empty block''."
-    |icon05|, "''Remove the active block''."
-    |icon06|, "''Rename the active block''."
-    |icon07|, "''Edit the active block in a separate window''."
-    |icon08|, "''Save the active block to a file''."
-    |icon09|, "''Insert the active block''."
+    |icon01|, "''Show all blocks'' - makes all the blocks in the current drawing visible."
+    |icon02|, "''Hide all blocks'' - hides all blocks in the active drawing."
+    |icon03|, "''Create a block'' - creates a block from the selected items."
+    |icon04|, "''Add an empty block'' - creates an empty block that can then be edited is a separate window (see below)."
+    |icon05|, "''Remove the active block'' - Deletes the highlighted block."
+    |icon06|, "''Rename the active block''. - Rename the hightlighted block"
+    |icon07|, "''Edit the active block in a separate window'' - Open a new drawing window to edit a new or  existing block."
+    |icon08|, "''Save the active block to a file'' - Saves the highlighted block to a file."
+    |icon09|, "''Insert the active block''. - Inserts the highlighted block in the current drawing at the specified reference point"
 
 The lower portion of the dock shows a list of blocks in the current drawing.
 
