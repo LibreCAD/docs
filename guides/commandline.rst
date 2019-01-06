@@ -97,9 +97,11 @@ http://beltoforion.de/article.php?a=muparser
 
 Examples of using the command line calculator::
 
-   cal 1+1
-   cal sin(pi/6)
-   cal sqrt(3^2+4^2)
+   cal *turns the calculator mode* On
+   1+1  *returns the result of*  2
+   sin(pi/6)  *returns the result of*  0.5
+   sqrt(3^2+4^2)  *returns the result of*  5
+   cal *turns the calculator mode* Off
 
 
 Other
