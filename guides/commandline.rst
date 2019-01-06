@@ -120,3 +120,126 @@ b=ci;10,0;10
 c=\a;\b;kill
 \c
 
+
+
+
+Using the Command line
+~~~~~~~~~~~~~~~~~~~~~~
+
+Press the [Space] or [Ctrl]+m to activate the command line.  When the command line is active the **Command:** prompt (left of where input appears) turns blue.  Press [Esc] to leave the command line and a second [Esc] to cancel the current operation.
+
+It is possible to enter a partial command, like "cir" and press [Tab] to have the command completed to circle. If you type too short a segment of a command, such as c and press [Tab], the command output will show "ch, circle, cut" because the command segment you typed in isn't unique.
+
+Many commands prompt you on the command line asking for further input. They tell you what input they expect - a point for example - and list other possibilities in the square bracket. For example if you type command polyline and draw at least two segments you get prompted Specify next point or [undo/close]. This means that the program is expecting a point (from the command line or by clicking on drawing area), or you can select the Undo or Close option. You can do that by typing on the command line or by clicking on buttons on the context toolbar called *Tool Options*.
+
+When there is some value already set and valid, for example when you use command offset, the current value is in sharp brackets, like so: Specify distance <5> or select entity or [Through]. So you see that value for offset is 5 and you can either set a new value by typing it into the command line or using the Tool Options toolbar or you can start drawing parallel entities.
+
+To use the two letter format li you do not have to activate the commandline. Just type "li" and LibreCAD displays the prompt. To continue drawing with just mouse input, click on drawing to enter the point, or click on the tools palette to select the snap mode or 
+
+
+Clear commands from commands window
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To clear the list of commands from the command window - type "clear" in the command line. 
+
+
+Edit commands
+~~~~~~~~~~~~~
+
+Kill the command has no further prompt
+This command when called on the command line kills or clears all actions inputed at the command line. At times when you have entered a command, zoomed the drawing, used the command line repetitively besides hitting the ESC key to exit out of the loaded commands you can run the kill command to clear the cache. It does not seem to do anything but if you open up the command line window you will see it clear out all active commands. Most of the time you would not need to use this command but there are times when it seems like the app gets confused at what action to take, using the kill command clears out everything and cleans the slate.
+
+You can use Ctrl+z and Ctrl+y to undo and redo changes. This is quicker and more convenient than using the next two commands.
+Undo
+
+undo
+u
+the command has no further prompt
+You type undo on the commandline. LibreCAD reverts the last change you have made to the drawing. You can repeat the undo command, and every time you use it it takes you one step back through the history of your drawing/edit. Unlike other programs (AutoCAD) the undo command doesn't revert the zoom and pan commands.
+Redo
+
+redo
+r
+the command has no further prompt
+You type undo on the commandline. LibreCAD cancels the last undo you have made. When you use the undo, it is easy to do one step too much undo. Using redo you can revert undo. This lets you go back and forth in the edit history. 
+
+Command Line Calculator
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Type "cal", use command line as a math expression calculator. Some examples:
+
+
+The command line has a built in calculator that can be accessed with the cal command.
+
+Constants:
+
+    pi = 3.14159265359
+
+Operators:
+
+addition:
+cal 6+5
+
+subtraction:
+cal 6-5
+
+multiplication:
+cal 6*5
+
+division:
+cal 6/5
+
+six to the fifth power:
+cal 6^5
+
+Functions:
+
+square root:
+cal sqrt(5)
+cal sqrt(3^2 + 4^2)
+
+average:
+cal avg(6,5)
+
+Trigonometric functions:
+
+Note these functions take radians.
+degrees*pi/180 = radians
+
+sine:
+cal sin(6*pi/180)
+
+cosine:
+cal cos(6d)
+
+tangent:
+cal tan(6deg)
+
+   cal 1+1
+   cal sin(pi/6)
+   cal log(2)
+
+
+Layer List Dock
+---------------
+
+.. figure:: /images/dock-layerList.png
+    :width: 270px
+    :height: 590px
+    :align: right
+    :scale: 67
+    :alt: Layer List Dock
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
