@@ -87,11 +87,10 @@ The command line also offers a simple calculator for performing quick calculatio
     "sum", "sum of all arguments"
     "avg", "mean value of all arguments"
 
-
 http://beltoforion.de/article.php?a=muparser
 
 
-Some examples:
+Some examples of using the command line calculater::
 
    cal 1+1
    cal sin(pi/6)
