@@ -16,6 +16,7 @@ The Reference section provides an explanation of LibreCAD's user elements, comma
     Fundamentals <fundamentals>
     Application Menu <menu>
     Drawing Tools <tools>
+    Snapping <snaps>
     Toolbars <toolbars>
     Dock Widgets <widgets>
     Drawing Preferences <draw-prefs>
