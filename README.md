@@ -3,39 +3,39 @@ This is LibreCAD's documentation repository for multiple version and format docu
 
 Below are the sections that are in the LibreCAD User Manual with the percent complete [%].
 
-- About   [100%]
-   - Copyright   [100%]
-   - Contributors   [100%]
+- About
+   - Copyright               [100%]
+   - Contributors            [100%]
 
-- Getting Started   [100%]
-   - Install   [100%]
-   - Configure (Setting up / configuring LibreCAD)   [100%]
-   - Customizing   [100%]
-   - Fundamentals   [10%]
+- Getting Started
+   - Install                 [100%]
+   - Configure               [100%]    (Setting up / configuring LibreCAD)
 
 - References: technical descriptions of the tools, functions, widgets, etc.  Following the menu structure, it would include:
-   - The Coordinate Systems   [100%]
-   - Application Menu   [95%]    (Required descripotions of the plug-ins.)
-   - Drawing Tools   [100%]
-   - Toolbars   [100%]
-   - Dock Widgets   [25%]
-   - Drawing Preferences   [67%]
+   - Fundamentals            [75%]     (Including "The Coordinate System")
+   - Application Menu        [95%]     (Required descriptions of the plug-ins.)
+   - Drawing Tools           [100%]
+   - Toolbars                [100%]
+   - Dock Widgets            [100%]
+   - Drawing Preferences     [67%]
+   - Customizing             [100%]
 
 - User Guides: documents that provide instruction on how to do things with LibreCAD.  These are how-to’s, but with greater details(?)
-   - Setting up a drawing   [0%]
-   - Templates   [0%]
-   - Blocks   [33%]
-   - Layers   [33%]
-   - Dimensioning   [0%]
-   - Printing   [100%]
-   - The Command Line   [0%]
+   - Setting up a drawing    [0%]
+   - Templates               [0%]
+   - Pens                    [0%]
+   - Layers                  [33%]
+   - Blocks                  [33%]
+   - Dimensioning            [0%]
+   - The Command Line        [0%]
+   - Printing                [100%]
 
 - Appendics
-   - Online Resources   [100%]
-   - Building from Source   [90%]
-   - Fonts   [100%]
-   - Supported Languages   [100%]
-   - Systems of Measurement   [100%]
-   - Style Sheets   [100%]
-   - Licenses   [100%]
+   - Online Resources        [100%]
+   - Building from Source    [90%]
+   - Fonts                   [100%]
+   - Supported Languages     [100%]
+   - Systems of Measurement  [100%]
+   - Style Sheets            [100%]
+   - Licenses                [100%]
 

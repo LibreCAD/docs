@@ -1,3 +1,5 @@
+.. User Manual, LibreCAD v2.2.x
+
 .. _widgets: 
 
 Dock Widgets
@@ -85,11 +87,11 @@ Command Line Dock
     :scale: 67
     :alt: Command Line Dock
 
-For a quick reference list of commands see: Commands
+The *Command Line* is for users that want to draw by using keyboard commands. This can be faster and/or more precise than drawing using exclusively a mouse and tool bars.
 
-This is intended for people that want to draw by entering commands. This can be faster and/or more precise than drawing using exclusively a mouse and tool bars.
+LibreCAD is designed with emphasis on mouse-clicking input, and some options can be at the moment only selected by clicking and not by typing on command line.
 
-LibreCAD is designed with emphasis on mouse-clicking input, and some options can be at the moment only selected by clicking, not by typing on command line.
+Details on using the :ref:`command line <commandline>` can be found ion the **User Guides**.
 
 Using the Command line
 ~~~~~~~~~~~~~~~~~~~~~~

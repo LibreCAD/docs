@@ -1,6 +1,7 @@
-.. _guides:
-
+.. User Manual, LibreCAD v2.2.x
 .. User Guides index
+
+.. _guides:
 
 User Guides
 ===========
@@ -11,10 +12,12 @@ The user guides provide the steps necessary to perform a various tasks with Libr
 .. toctree::
    :maxdepth: 1
 
-    The Command Line <commandline>
-    Layers <layers>
-    Pens <pens>
+    Setting up a drawing <drawingsetup>
     Templates <templates>
+    Layers <layers>
     Blocks <blocks>
+    Dimensioning <dimensioning>
+    Pens <pens>
+    The Command Line <commandline>
     Printing Guides <printing>
 

@@ -46,7 +46,7 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = 'LibreCAD Documentation'
+project = 'LibreCAD'
 title = 'LibreCAD User Manual'
 copyright = '2018, LibreCAD.org'
 author = 'LibreCAD Documentation Team'
