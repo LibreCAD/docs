@@ -52,11 +52,44 @@ Multi-command input can be assigned to a variable; values can also contain varia
 A variable file can loaded from the command line dock using the drop down or be set to load at startup via Application Preferences -> Paths -> Variable File.
 
 
-
-Command Line Calculator
------------------------
+Calculator
+----------
 
 The command line also offers a simple calculator for performing quick calculations without leaving the application.  To use the command line as a math expression calculator type "cal" and the math expression.  Typing "cal" again will toggle the calculator mode off.
+
+.. csv-table:: 
+   :header: "Name", "Function / Operation"
+   :widths: 30, 90
+    
+    "sin", "sine function"
+    "cos", "cosine function"
+    "tan", "tangens function"
+    "asin", "arcus sine function"
+    "acos", "arcus cosine function"
+    "atan", "arcus tangens function"
+    "sinh", "hyperbolic sine function"
+    "cosh", "hyperbolic cosine"
+    "tanh", "hyperbolic tangens function"
+    "asinh", "hyperbolic arcus sine function"
+    "acosh", "hyperbolic arcus tangens function"
+    "atanh", "hyperbolic arcur tangens function"
+    "log2", "logarithm to the base 2"
+    "log10", "logarithm to the base 10"
+    "log", "logarithm to base e (2.71828...)"
+    "ln", "logarithm to base e (2.71828...)"
+    "exp", "e raised to the power of x"
+    "sqrt", "square root of a value"
+    "sign", "sign function -1 if x<0; 1 if x>0"
+    "rint", "round to nearest integer"
+    "abs", "absolute value"
+    "min", "min of all arguments"
+    "max", "max of all arguments"
+    "sum", "sum of all arguments"
+    "avg", "mean value of all arguments"
+
+
+http://beltoforion.de/article.php?a=muparser
+
 
 Some examples:
 
@@ -65,7 +98,8 @@ Some examples:
    cal log(2)
 
 
-OTHER
+Other
+-----
 
  A new button with a drop-down menu has been added to the command-line
     Keycode mode was rewritten and the toggle is now accessed by the new command-line button.
