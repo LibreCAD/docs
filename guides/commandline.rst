@@ -59,7 +59,7 @@ The command line also offers a simple calculator for performing quick calculatio
 
 .. csv-table:: 
    :header: "Name", "Function / Operation", "Usage"
-   :widths: 30, 90
+   :widths: 30, 60, 50 
     
     "+", "addition", "x+y"
     "-", "subtraction", "x-y"
