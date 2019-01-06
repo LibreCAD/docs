@@ -1,5 +1,7 @@
-.. _gpl-license:
+.. User Manual, LibreCAD v2.2.x
 
+
+.. _gpl-license:
 
 GNU GENERAL PUBLIC LICENSE
 ==========================

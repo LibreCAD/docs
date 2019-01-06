@@ -1,5 +1,7 @@
-.. _fundamentals: 
+.. User Manual, LibreCAD v2.2.x
 
+
+.. _fundamentals: 
 
 Fundamentals
 ============

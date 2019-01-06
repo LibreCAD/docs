@@ -1,6 +1,8 @@
-.. _getstart:
-
+.. User Manual, LibreCAD v2.2.x
 .. Getting Started main page and index
+
+
+.. _getstart:
 
 Getting Started
 ===============

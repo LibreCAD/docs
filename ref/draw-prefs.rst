@@ -1,5 +1,7 @@
-.. _draw-prefs:
+.. User Manual, LibreCAD v2.2.x
 
+
+.. _draw-prefs:
 
 Drawing Preferences
 ===================

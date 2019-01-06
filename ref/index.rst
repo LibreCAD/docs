@@ -1,6 +1,8 @@
-.. _reference:
-
+.. User Manual, LibreCAD v2.2.x
 .. Reference index
+
+
+.. _reference:
 
 Reference
 =========

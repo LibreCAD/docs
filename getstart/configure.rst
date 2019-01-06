@@ -1,5 +1,7 @@
-.. _configure: 
+.. User Manual, LibreCAD v2.2.x
 
+
+.. _configure: 
 
 Configuration
 =============

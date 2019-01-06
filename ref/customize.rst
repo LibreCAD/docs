@@ -1,7 +1,7 @@
 .. User Manual, LibreCAD v2.2.x
 
-.. _customize:
 
+.. _customize:
 
 Customizing LibreCAD's Interface
 ================================

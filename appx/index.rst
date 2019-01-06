@@ -1,6 +1,8 @@
-.. _appendix:
-
+.. User Manual, LibreCAD v2.2.x
 ..  Appendix top level index
+
+
+.. _appendix:
 
 Appendices
 ==========

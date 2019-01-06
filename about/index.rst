@@ -1,6 +1,8 @@
-.. _about:
-
+.. User Manual, LibreCAD v2.2.x
 .. About main page and index
+
+
+.. _about:
 
 About
 =====
