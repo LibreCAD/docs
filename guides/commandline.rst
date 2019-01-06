@@ -6,13 +6,13 @@
 Using the Command Line
 ======================
 
-The command line is an alternative to using the mouse and selecting tools from the menus or toolbars.  The command line can be faster and/or more precise than drawing using exclusively a mouse.  LibreCAD is designed with emphasis on mouse input and at the moment not all tools are available with a command.  The available commands are listed in the :ref:`Drawing Tools <tools>` reference.
+The command line is an alternative to using the mouse and selecting tools from the menus or toolbars.  The command line can be faster and/or more precise than drawing using exclusively a mouse.  LibreCAD is designed with emphasis on mouse input and at the moment and not all tools are available with a command.  The available commands are listed in the :ref:`Drawing Tools <tools>` reference.
 
-You can press the Spacebar or [Ctrl]-M to activate the command line.  Once it is active, the command prompt ("Command:", left of where input appears) turns blue.  So now when you press a key you are entering commands.
+To activate the command line press [Spacebar] or [Ctrl]-M to activate the command line.  Once active, the command prompt ("Command:", above of where input appears) turns blue.  
 
 Press the [Esc] key to leave the command line and another [Esc] to cancel what you have written on the command line.
 
-It is possible to enter a partial command, like "cir" and press [Tab] to have the command completed to circle. If you type too short a segment of a command, such as "c" and press [Tab], the command output will show "ch, circle, cut" because the command segment you typed in isn't unique.
+It is possible to enter a partial command, like "li" for line and press [Tab] to have the command completed to "line". If you type too short a segment of a command, such as "l" and press [Tab], the command output will show "ch, circle, cut" because the command segment you typed in isn't unique.
 
 Many commands prompt you on the command line asking for further input. They tell you what input they expect, a point for example, and list other possibilities in the square bracket.  For example if you type command polyline and draw at least two segments you get prompted "Specify next point" or [undo/close]. This means that the program is expecting a point (from the command line or by clicking on drawing area), or you can select the Undo or Close option. You can do that by typing on the command line or by clicking on buttons on the context toolbar called Tool Options.
 
@@ -59,7 +59,7 @@ The command line also offers a simple calculator for performing quick calculatio
 
 .. csv-table:: 
    :header: "Name", "Function / Operation", "Usage"
-   :widths: 30, 60, 50 
+   :widths: 20, 60, 30 
     
     "\+", "addition", "x+y"
     "\-", "subtraction", "x-y"
@@ -97,30 +97,26 @@ http://beltoforion.de/article.php?a=muparser
 
 Examples of using the command line calculator::
 
-   cal *turns the calculator mode* On
-   1+1  *returns the result of*  2
-   sin(pi/6)  *returns the result of*  0.5
-   sqrt(3^2+4^2)  *returns the result of*  5
-   cal *turns the calculator mode* Off
+   1+1  =  2
+   sin(pi/6)  =  0.5
+   sqrt(3^2+4^2)  =  5
 
 
 Other
 -----
 
- A new button with a drop-down menu has been added to the command-line
-    Keycode mode was rewritten and the toggle is now accessed by the new command-line button.
-
-Toggling keycode mode no longer requires restarting LibreCAD. If a 2 character command is not recognized, you can continue with a longer command.
+A new button with a drop-down menu has been added to the command-line
+Keycode mode was rewritten and the toggle is now accessed by the new command-line button.  Toggling keycode mode no longer requires restarting LibreCAD. If a 2 character command is not recognized, you can continue with a longer command.
 
 
-    Multi-command input can be separated by semicolons: ci;0,0;10
-    Command files (command input separated by newlines) can be loaded from the new command-line button
-    Multi-command input can be assigned to a variable; values can also contain variables (they are read recursively)
+Multi-command input can be separated by semicolons: ci;0,0;10
+
+Command files (command input separated by newlines) can be loaded from the new command-line button
+
+Multi-command input can be assigned to a variable; values can also contain variables (they are read recursively)::
 
 a=ci;0,0;10
 b=ci;10,0;10
 c=\a;\b;kill
 \c
-
-
 
