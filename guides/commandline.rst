@@ -61,9 +61,9 @@ The command line also offers a simple calculator for performing quick calculatio
    :header: "Name", "Function / Operation", "Usage"
    :widths: 30, 60, 50 
     
-    "+", "addition", "x+y"
-    "-", "subtraction", "x-y"
-    "*", "multiplication", "x*y"
+    "\+", "addition", "x+y"
+    "\-", "subtraction", "x-y"
+    "\*", "multiplication", "x*y"
     "/", "division", "x/y"
     "^", "raise x to the power of y", "x^y"
     "sin", "sine function", "sin(x)"
