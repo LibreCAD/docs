@@ -169,12 +169,7 @@ Pen Wizard Dock
     :scale: 67
     :alt: Pen Wizard Dock
 
-The Pen Wizard allows users to create a palette of favorite colors for the drawing tools.  Colors can be selected from the drop-down list for existing colors or custom colors button |icon21| on the right  
-
-    - Maintain a list of favorite colors
-
-        - select a color via the drop-down list or the button on its right
-        - add the color by pressing the |icon20| button with the tooltip "Add to favorites"
+The Pen Wizard allows users to create a palette of favorite colors for the drawing tools.  Colors can be selected from the existing colors via the drop-down list or as a custom colors via the |icon21| button on the right.  Add the color by pressing the |icon20| button with the tooltip "Add to favorites"
         - drag-and-drop colors to arrange them
 
     - Change the active pen color
@@ -193,21 +188,51 @@ The Pen Wizard allows users to create a palette of favorite colors for the drawi
 ..  Icon mapping:
 
 .. |icon00| image:: /images/icons/librecad.ico
+            :height: 24
+            :width: 24
 .. |icon01| image:: /images/icons/dockwidgets_left.svg
+            :height: 24
+            :width: 24
 .. |icon02| image:: /images/icons/dockwidgets_right.svg
+            :height: 24
+            :width: 24
 .. |icon03| image:: /images/icons/dockwidgets_top.svg
+            :height: 24
+            :width: 24
 .. |icon04| image:: /images/icons/dockwidgets_bottom.svg
+            :height: 24
+            :width: 24
 .. |icon05| image:: /images/icons/dockwidgets_floating.svg
+            :height: 24
+            :width: 24
 
 .. |icon10| image:: /images/icons/visible.svg
+            :height: 24
+            :width: 24
 .. |icon11| image:: /images/icons/invisible.svg
+            :height: 24
+            :width: 24
 .. |icon12| image:: /images/icons/create_block.svg
+            :height: 24
+            :width: 24
 .. |icon13| image:: /images/icons/add.svg
+            :height: 24
+            :width: 24
 .. |icon14| image:: /images/icons/remove.svg
+            :height: 24
+            :width: 24
 .. |icon15| image:: /images/icons/rename_active_block.svg
+            :height: 24
+            :width: 24
 .. |icon16| image:: /images/icons/properties.svg
+            :height: 24
+            :width: 24
 .. |icon17| image:: /images/icons/save.svg
+            :height: 24
+            :width: 24
 .. |icon18| image:: /images/icons/insert_active_block.svg
+            :height: 24
+            :width: 24
 
 .. |icon20| image:: /images/icons/char_pm.png
             :height: 18
