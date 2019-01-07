@@ -146,6 +146,8 @@ Library Browser Dock
     :scale: 67
     :alt: Library Browser Dock
 
+The Library Browser Dock shows blocks available from the defined libraries and allows users to insert blocks into the current drawing. 
+
 |
 |
 |
