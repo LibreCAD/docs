@@ -53,6 +53,7 @@ Dock Widget Areas
 
 Docked widgets can be dragged to different areas by "grabbing" (click and drag) the title bar of the widget.  Widgets will snap into place when released in a dock area.  Widgets in the left, right, top or bottom areas can either be placed on top of existing widgets, creating tabs for each category of widget placed in that area, or place above or below the existing widget dividing the area in sections.  Dock widgets can also be resized by clicking on and dragging the edge of the widget's box to a minumum of five icons width and no shorter than the default height.
 
+.. _block-list:
 
 Block List Dock
 ---------------
@@ -146,7 +147,7 @@ Library Browser Dock
     :scale: 67
     :alt: Library Browser Dock
 
-The Library Browser Dock shows blocks available from the defined libraries and allows users to insert blocks into the current drawing.  Users can select blocks from the categories...
+The Library Browser Dock shows blocks available from the defined libraries and allows users to insert blocks into the current drawing.  To insert a block, select a block from one of the categories by clicking on it, e.g. "d1" and click the "Insert" button.  Specify a reference point in the drawing window with a mouse click or by entering coordinates at the command prompt.  Once inserted into the drawing, the block is shown in the :ref:`Block List Dock <block-list>`.
 
 LibreCAD includes several libraries and additional libraries can be specified by defining a path to user libraries as shown in the :ref:`Application Preferences <app-prefs>` in **Getting Started**.
 
