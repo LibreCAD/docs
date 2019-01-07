@@ -18,7 +18,7 @@ File
 
 .. csv-table:: 
    :header: "Menu Item", "Icon", "Short-cut", "Description"
-   :widths: 40, 10, 20, 110
+   :widths: 40, 10, 15, 110
 
     "New", |icon01|, "[Ctrl]+n", "Creates a new drawing file."
     "New from Template", |icon02|, "", "Creates a new drawing file from a template.  See :ref:`Templates <templates>` in **User Guides** for details."
@@ -38,7 +38,7 @@ Options
 -------
 .. csv-table:: 
    :header: "Menu Item", "Icon", "Short-cut", "Description"
-   :widths: 40, 10, 20, 110
+   :widths: 40, 10, 15, 110
 
     "Application Preferences", |icon13|, "", "See :ref:`Application Preferences <app-prefs>` in **Getting Started** for details."
     "Current Drawing Preferences", |icon14|, "", "See :ref:`Drawing Preferences <draw-prefs>` for details."
@@ -53,7 +53,7 @@ Edit
 ----
 .. csv-table:: 
    :header: "Menu Item", "Icon", "Short-cut / Command", "Description"
-   :widths: 40, 10, 20, 110
+   :widths: 40, 10, 15, 110
 
     "Selection Pointer", |icon18|, "[Esc] / k, kill", "Reverts from current operation to the selection pointer (e.g. cancels the current operation)"
     "Undo", |icon19|, "[Ctrl]+z / u, undo, oo", "Sequentially reverses the previous operations."
@@ -71,7 +71,7 @@ View
 
 .. csv-table:: 
    :header: "Menu Item", "Icon", "Short-cut / Command", "Description"
-   :widths: 40, 10, 20, 110
+   :widths: 40, 10, 15, 110
 
     "Fullscreen", , "[F11]", "Hides the application title bar and toggles LibreCAD to use the entire display."
     "Statusbar", , "[Ctrl]+i", "Toggles the visibilty of the status bar at the bottom of the application window."
@@ -92,7 +92,7 @@ Plugins
 
 .. csv-table:: 
    :header: "Menu Item", "Icon", "Short-cut", "Description"
-   :widths: 40, 10, 20, 110
+   :widths: 40, 10, 15, 110
 
     "Align", , "", ""
     "Read ascii points", , "", ""
@@ -117,7 +117,7 @@ Widgets
 
 .. csv-table:: 
    :header: "Menu Item", "Icon", "Short-cut", "Description"
-   :widths: 40, 10, 20, 110
+   :widths: 40, 10, 15, 110
 
     "Dock Areas", , "", "Toggles the visibility of the left, right, top, bottom and /or floating *Dock Widgets*."
     "Dock Widgets", , "", "See :ref:`widgets` for descriptions."
@@ -131,7 +131,7 @@ Drawings
 
 .. csv-table:: 
    :header: "Menu Item", "Icon", "Short-cut", "Description"
-   :widths: 40, 10, 20, 110
+   :widths: 40, 10, 15, 110
 
         "Tab mode", , "", "Toggles LibreCAD to a tabbed drawing space.  Each open drawing is on its own tabbed drawing window when the tabbed mode is active (checked)."
         "*Currently opened drawings*", , "", "List the current open drawing(s).  The item with the checked box is the active drawing."
@@ -142,7 +142,7 @@ Help
 
 .. csv-table:: 
    :header: "Menu Item", "Icon", "Short-cut", "Description"
-   :widths: 40, 10, 20, 110
+   :widths: 40, 10, 15, 110
 
         "Online", , "", "Displays links to online resources; Wiki, User's Manual, Command, Style Sheets, Widgets, Forum and Release Information."
         "About", |icon00|, "", "Displays with information about the current version of LibreCAD and web links: to the ''Contibutors'', License and ''The Code'' repository."

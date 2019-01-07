@@ -46,7 +46,7 @@ Block List Dock
     :scale: 67
     :alt: Block List Dock
 
-The Block List Dock provides the functions to manage blocks and a list of :ref:`Blocks <blocks>` that are active in the drawing.  Block functions include:
+The Block List Dock provides the functions to manage blocks and a list of blocks that are active in the drawing.  Block functions include:
 
 .. csv-table:: 
    :header: "Icon", "Description"
@@ -62,7 +62,7 @@ The Block List Dock provides the functions to manage blocks and a list of :ref:`
     |icon08|, "''Save the active block to a file'' - Saves the highlighted block to a file."
     |icon09|, "''Insert the active block''. - Inserts the highlighted block in the current drawing at the specified reference point"
 
-The lower portion of the dock shows a list of blocks in the current drawing.  The blocks in the above example are named "a3", "d1", "d2", and "d4".
+The lower portion of the dock shows a list of blocks in the current drawing.  The blocks in the above example are named "a3", "d1", "d2", and "d4".  More details on creating and using :ref:`blocks <blocks>` can be found in the **User Guides**.
 
 ..  Icon mapping:
 
@@ -89,7 +89,7 @@ Command Line Dock
     :scale: 67
     :alt: Command Line Dock
 
-The *Command Line* is for users that want to draw by using keyboard commands. Commands, such as "li" for line, "cir" for circle, etc, are entered at the command line along with the required parameters (e.g. start and end coordinates for a line).  Using the command line can be faster and/or more precise than drawing using exclusively a mouse and toolbars.  The available commands are listed with the :ref:`Drawing Tools <tools>` and :ref:`snaps <snaps>`.  There are also commands available for :ref:`Edit <edit>` and :ref:`View <view>` operations.
+The *Command Line* is for users that want to draw by using keyboard commands. Commands, such as "li" for a line, "cir" for a circle, etc, are entered at the command line along with the required parameters (e.g. start and end coordinates for a line).  Using the command line can be faster and/or more precise than drawing using exclusively a mouse and toolbars.  The available commands are listed with the :ref:`Drawing Tools <tools>` and :ref:`Snapping <snaps> tools`.  There are also commands available for :ref:`Edit <edit>` and :ref:`View <view>` operations.
 
 Note that LibreCAD is designed with emphasis on mouse input and at the moment some options can be only selected by using the mouse as there is no equivalent command.
 
