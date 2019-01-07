@@ -61,7 +61,7 @@ Docked widgets can be dragged to different areas by "grabbing" (click and drag) 
 Block List Dock
 ---------------
 
-.. figure:: /images/dock-blockList.png
+.. figure:: /images/dock-blockList02.png
     :width: 272px
     :height: 590px
     :align: right
@@ -123,7 +123,7 @@ Further details on using the :ref:`command line <commandline>` are in the **User
 Layer List Dock
 ---------------
 
-.. figure:: /images/dock-layerList.png
+.. figure:: /images/dock-layerList02.png
     :width: 270px
     :height: 590px
     :align: right
