@@ -169,15 +169,16 @@ Pen Wizard Dock
     :scale: 67
     :alt: Pen Wizard Dock
 
-The Pen Wizard allows users to create a palette of favorite colors for the drawing tools.  Colors can be selected from the existing colors via the drop-down list or as a custom colors via the |icon21| button on the right.  Add the color by pressing the "Add to favorites" |icon20| button.  Drag-and-drop the colors in the list to arrange them in the prefered order.
+The Pen Wizard allows users to create a palette of favorite colors for the drawing tools.  Colors can be selected from the existing colors via the drop-down list or created as a custom colors via the |icon21| button to the right of the drop-down list.  Pressing the "Add to favorites" |icon20| button to the left will add the color to the list of favorites below.  Drag-and-drop the colors in the list to arrange them in the prefered order.
 
-Once colors have been added to the list set the active pen color by double-clicking a favorite color.
+Once colors have been added to the list, set the active pen color by double-clicking a favorite color.
 
 Right-clicking a favorite color allows users to:
 
     - Select all objects of a specific color and clicking on "Select objects"
     - Change the color of all selected objects by  clicking on "Apply to selected"
     - Delete  a favorite color by clicking "Remove"
+
 
 ..  Icon mapping:
 
