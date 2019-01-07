@@ -157,14 +157,6 @@ LibreCAD includes several libraries and additional libraries can be specified by
 |
 |
 |
-|
-|
-|
-|
-|
-|
-|
-|
 
 
 Pen Wizard Dock
