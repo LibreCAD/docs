@@ -3,8 +3,8 @@
 
 .. _calc:
 
-Calculator
-==========
+Calculator Operators and Functions
+==================================
 
 Typing "cal" at the command line will toggle the calculator mode on and off.
 
