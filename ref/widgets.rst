@@ -68,7 +68,7 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
 
 .. csv-table:: 
    :header: "Icon", "Description"
-   :widths: 10, 60
+   :widths: 10, 90
 
     |icon11|, "''Show all blocks'' - Makes all the blocks in the current drawing visible."
     |icon12|, "''Hide all blocks'' - Hides all blocks in the active drawing."
