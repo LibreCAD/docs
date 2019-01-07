@@ -209,8 +209,9 @@ The Pen Wizard allows users to create a palette of favorite colors for the drawi
 .. |icon17| image:: /images/icons/save.svg
 .. |icon18| image:: /images/icons/insert_active_block.svg
 
-
-.. |icon20| image:: /images/icons/char_pm.png :height: 24 :width: 24
+.. |icon20| image:: /images/icons/char_pm.png
+            :height: 24
+            :width: 24
 .. |icon21| image:: /images/icons/colorxx.png
             :height: 24
             :width: 24
