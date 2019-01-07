@@ -77,29 +77,29 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
    :header: "Icon", "Description"
    :widths: 10, 60
 
-    |icon01|, "''Show all blocks'' - makes all the blocks in the current drawing visible."
-    |icon02|, "''Hide all blocks'' - hides all blocks in the active drawing."
-    |icon03|, "''Create a block'' - creates a block from the selected items."
-    |icon04|, "''Add an empty block'' - creates an empty block that can then be edited is a separate window (see below)."
-    |icon05|, "''Remove the active block'' - Deletes the highlighted block."
-    |icon06|, "''Rename the active block''. - Rename the hightlighted block"
-    |icon07|, "''Edit the active block in a separate window'' - Open a new drawing window to edit a new or  existing block."
-    |icon08|, "''Save the active block to a file'' - Saves the highlighted block to a file."
-    |icon09|, "''Insert the active block''. - Inserts the highlighted block in the current drawing at the specified reference point"
+    |icon11|, "''Show all blocks'' - makes all the blocks in the current drawing visible."
+    |icon12|, "''Hide all blocks'' - hides all blocks in the active drawing."
+    |icon13|, "''Create a block'' - creates a block from the selected items."
+    |icon14|, "''Add an empty block'' - creates an empty block that can then be edited is a separate window (see below)."
+    |icon15|, "''Remove the active block'' - Deletes the highlighted block."
+    |icon16|, "''Rename the active block''. - Rename the hightlighted block"
+    |icon17|, "''Edit the active block in a separate window'' - Open a new drawing window to edit a new or  existing block."
+    |icon18|, "''Save the active block to a file'' - Saves the highlighted block to a file."
+    |icon19|, "''Insert the active block''. - Inserts the highlighted block in the current drawing at the specified reference point"
 
 The lower portion of the dock shows a list of blocks in the current drawing.  The blocks in the above example are named "a3", "d1", "d2", and "d4".  More details on creating and using :ref:`blocks <blocks>` can be found in the **User Guides**.
 
 ..  Icon mapping:
 
-.. |icon01| image:: /images/icons/visible.svg
-.. |icon02| image:: /images/icons/invisible.svg
-.. |icon03| image:: /images/icons/create_block.svg
-.. |icon04| image:: /images/icons/add.svg
-.. |icon05| image:: /images/icons/remove.svg
-.. |icon06| image:: /images/icons/rename_active_block.svg
-.. |icon07| image:: /images/icons/properties.svg
-.. |icon08| image:: /images/icons/save.svg
-.. |icon09| image:: /images/icons/insert_active_block.svg
+.. |icon11| image:: /images/icons/visible.svg
+.. |icon12| image:: /images/icons/invisible.svg
+.. |icon13| image:: /images/icons/create_block.svg
+.. |icon14| image:: /images/icons/add.svg
+.. |icon15| image:: /images/icons/remove.svg
+.. |icon16| image:: /images/icons/rename_active_block.svg
+.. |icon17| image:: /images/icons/properties.svg
+.. |icon18| image:: /images/icons/save.svg
+.. |icon19| image:: /images/icons/insert_active_block.svg
 
 
 Command Line Dock
