@@ -139,16 +139,16 @@ The lower portion of the dock shows a list of layers in the current drawing.  Th
 Library Browser Dock
 --------------------
 
-.. figure:: /images/dock-libraryBrowser.png
+.. figure:: /images/dock-libraryBrowser02.png
     :width: 270px
     :height: 590px
     :align: right
     :scale: 67
     :alt: Library Browser Dock
 
-The Library Browser Dock shows blocks available from the defined libraries and allows users to insert blocks into the current drawing.  Users select blocks from the categories...
+The Library Browser Dock shows blocks available from the defined libraries and allows users to insert blocks into the current drawing.  Users can select blocks from the categories...
 
-LibreCAD includes several libraries and additional libraries can be specified in the :ref:`Application Preferences <app-prefs>`
+LibreCAD includes several libraries and additional libraries can be specified by defining a path to user libraries as shown in the :ref:`Application Preferences <app-prefs>` in **Getting Started**.
 
 |
 |
