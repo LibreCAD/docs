@@ -71,15 +71,15 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
    :header: "Icon", "Description"
    :widths: 10, 90
 
-    |icon11|, "''Show all blocks'' - Makes all the blocks in the current drawing visible."
-    |icon12|, "''Hide all blocks'' - Hides all blocks in the active drawing."
-    |icon13|, "''Create a block'' - Creates a block from the selected items."
-    |icon14|, "''Add an empty block'' - Creates an empty block that can then be edited is a separate window (see below)."
-    |icon15|, "''Remove the active block'' - Deletes the highlighted block."
-    |icon16|, "''Rename the active block'' - Rename the hightlighted block"
-    |icon17|, "''Edit the active block in a separate window'' - Open a new drawing window to edit a new or  existing block."
-    |icon18|, "''Save the active block to a file'' - Saves the highlighted block to a file."
-    |icon19|, "''Insert the active block''. - Inserts the highlighted block in the current drawing at the specified reference point"
+    |icon10|, "''Show all blocks'' - Makes all the blocks in the current drawing visible."
+    |icon11|, "''Hide all blocks'' - Hides all blocks in the active drawing."
+    |icon12|, "''Create a block'' - Creates a block from the selected items."
+    |icon13|, "''Add an empty block'' - Creates an empty block that can then be edited is a separate window (see below)."
+    |icon14|, "''Remove the active block'' - Deletes the highlighted block."
+    |icon15|, "''Rename the active block'' - Rename the hightlighted block"
+    |icon16|, "''Edit the active block in a separate window'' - Open a new drawing window to edit a new or  existing block."
+    |icon17|, "''Save the active block to a file'' - Saves the highlighted block to a file."
+    |icon18|, "''Insert the active block''. - Inserts the highlighted block in the current drawing at the specified reference point"
 
 The lower portion of the dock shows a list of blocks in the current drawing.  The blocks in the above example are named "a3", "d1", "d2", and "d4".  More details on creating and using :ref:`blocks <blocks>` can be found in the **User Guides**.
 
@@ -124,11 +124,11 @@ The Layer List Dock provides the functions to manage layers and a list of layers
    :header: "Icon", "Description"
    :widths: 10, 90
 
-    |icon11|, "''Show all layers'' - Makes all the layers in the current drawing visible."
-    |icon12|, "''Hide all layers'' - Hides all layers in the active drawing."
-    |icon14|, "''Add a layer'' - Add a new layer."
-    |icon15|, "''Remove the current layer'' - Delete the highlighted layer."
-    |icon16|, "''Modify layer attributes / rename'' - Modify the layer's attributes and / or rename the layer."
+    |icon10|, "''Show all layers'' - Makes all the layers in the current drawing visible."
+    |icon11|, "''Hide all layers'' - Hides all layers in the active drawing."
+    |icon13|, "''Add a layer'' - Add a new layer."
+    |icon14|, "''Remove the current layer'' - Delete the highlighted layer."
+    |icon15|, "''Modify layer attributes / rename'' - Modify the layer's attributes and / or rename the layer."
 
 .. See icon mapping a eof
 
@@ -149,7 +149,7 @@ Library Browser Dock
 
 The Library Browser Dock shows blocks available from the defined libraries and allows users to insert blocks into the current drawing.  To insert a block, select a block from one of the categories by clicking on it, e.g. "d1" and click the "Insert" button.  Specify a reference point in the drawing window with a mouse click or by entering coordinates at the command prompt.  Once inserted into the drawing, the block is shown in the :ref:`Block List Dock <block-list>`.
 
-LibreCAD includes several libraries and additional libraries can be specified by defining a path to user libraries as shown in the :ref:`Application Preferences <app-prefs>` in **Getting Started**.
+LibreCAD includes several libraries and additional libraries can be specified by defining a path to user libraries in the :ref:`Application Preferences <app-prefs>`, "Path" tab as shown in **Getting Started**.
 
 |
 |
@@ -169,7 +169,7 @@ Pen Wizard Dock
     :scale: 67
     :alt: Pen Wizard Dock
 
-The Pen Wizard allows users to:
+The Pen Wizard allows users to create a palette of favorite colors for the drawing tools.  Colors can be selected from the drop-down list for existing colors or custom colors via button |icon10| on the right  
 
     - Maintain a list of favorite colors
 
@@ -199,13 +199,18 @@ The Pen Wizard allows users to:
 .. |icon04| image:: /images/icons/dockwidgets_bottom.svg
 .. |icon05| image:: /images/icons/dockwidgets_floating.svg
 
-.. |icon11| image:: /images/icons/visible.svg
-.. |icon12| image:: /images/icons/invisible.svg
-.. |icon13| image:: /images/icons/create_block.svg
-.. |icon14| image:: /images/icons/add.svg
-.. |icon15| image:: /images/icons/remove.svg
-.. |icon16| image:: /images/icons/rename_active_block.svg
-.. |icon17| image:: /images/icons/properties.svg
-.. |icon18| image:: /images/icons/save.svg
-.. |icon19| image:: /images/icons/insert_active_block.svg
+.. |icon10| image:: /images/icons/visible.svg
+.. |icon11| image:: /images/icons/invisible.svg
+.. |icon12| image:: /images/icons/create_block.svg
+.. |icon13| image:: /images/icons/add.svg
+.. |icon14| image:: /images/icons/remove.svg
+.. |icon15| image:: /images/icons/rename_active_block.svg
+.. |icon16| image:: /images/icons/properties.svg
+.. |icon17| image:: /images/icons/save.svg
+.. |icon18| image:: /images/icons/insert_active_block.svg
+
+
+.. |icon20| image:: /images/icons/char_pm.png
+.. |icon21| image:: /images/icons/colorxx.png
+
 
