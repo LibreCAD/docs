@@ -8,7 +8,14 @@ Dock Widgets
 
 Dock widgets serve two purposes; they provide alternative method to access drawing tools, and additional tools or features (Block List, Command Line, Layer List, Library Browser, and Pen Wizard).
 
-Dock widgets are available for these :ref:`drawing tools <tools>`: Circle, Curve, Dimension, Ellipse, Info, Line, Modify, and Polyline.
+.. figure:: /images/dock-lines.png
+    :width: 172px
+    :height: 172px
+    :align: right
+    :scale: 100
+    :alt: Lines Dock
+
+Dock widgets are available for these :ref:`Drawing Tools <tools>`: Circle, Curve, Dimension, Ellipse, Info, Line, Modify, and Polyline.
 
 
 Dock Widget Areas
