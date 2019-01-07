@@ -15,4 +15,5 @@ Appendices
     LibreCAD Fonts <fonts>
     Languages <languages>
     Systems of Measurement <measurements>
+    Calculator Functions <calc>
     Licenses <licenses>
