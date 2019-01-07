@@ -14,14 +14,14 @@ Dock widgets serve two purposes; they provide alternative method to access drawi
     - Library Browser, and
     - Pen Wizard.
 
-Dock widgets are available for these :ref:`Drawing Tools <tools>`:
-
 .. figure:: /images/dock-lines.png
     :width: 172px
     :height: 172px
     :align: right
     :scale: 100
     :alt: Lines Dock
+
+Dock widgets are available for these :ref:`Drawing Tools <tools>`:
 
     - Circle
     - Curve
