@@ -17,6 +17,12 @@ Dock widgets serve two purposes; they provide alternative method to access drawi
 
 Dock widgets are available for these :ref:`Drawing Tools <tools>`: Circle, Curve, Dimension, Ellipse, Info, Line, Modify, and Polyline.
 
+|
+|
+|
+|
+|
+
 
 Dock Widget Areas
 -----------------
