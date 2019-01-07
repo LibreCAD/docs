@@ -15,6 +15,7 @@ Dock widgets serve two purposes; they provide alternative method to access drawi
     - Pen Wizard.
 
 .. figure:: /images/dock-lines.png
+    :figwidth: 200px
     :width: 172px
     :height: 172px
     :align: right
