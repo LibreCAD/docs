@@ -49,14 +49,7 @@ Dock Widget Areas
     "Bottom", |icon04|, "Shows / hide the dock widgets located on the bottom of the drawing window."
     "Floating", |icon05|, "Shows / hide the dock widgets floating within the drawing window or out side of the drawing applications."
 
-..  Icon mapping:
-
-.. |icon00| image:: /images/icons/librecad.ico
-.. |icon01| image:: /images/icons/dockwidgets_left.svg
-.. |icon02| image:: /images/icons/dockwidgets_right.svg
-.. |icon03| image:: /images/icons/dockwidgets_top.svg
-.. |icon04| image:: /images/icons/dockwidgets_bottom.svg
-.. |icon05| image:: /images/icons/dockwidgets_floating.svg
+.. See icon mapping a eof
 
 Docked widgets can be dragged to different areas by "grabbing" (click and drag) the title bar of the widget.  Widgets will snap into place when released in a dock area.  Widgets in the left, right, top or bottom areas can either be placed on top of existing widgets, creating tabs for each category of widget placed in that area, or place above or below the existing widget dividing the area in sections.  Dock widgets can also be resized by clicking on and dragging the edge of the widget's box to a minumum of five icons width and no shorter than the default height.
 
@@ -77,29 +70,19 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
    :header: "Icon", "Description"
    :widths: 10, 60
 
-    |icon11|, "''Show all blocks'' - makes all the blocks in the current drawing visible."
-    |icon12|, "''Hide all blocks'' - hides all blocks in the active drawing."
-    |icon13|, "''Create a block'' - creates a block from the selected items."
-    |icon14|, "''Add an empty block'' - creates an empty block that can then be edited is a separate window (see below)."
+    |icon11|, "''Show all blocks'' - Makes all the blocks in the current drawing visible."
+    |icon12|, "''Hide all blocks'' - Hides all blocks in the active drawing."
+    |icon13|, "''Create a block'' - Creates a block from the selected items."
+    |icon14|, "''Add an empty block'' - Creates an empty block that can then be edited is a separate window (see below)."
     |icon15|, "''Remove the active block'' - Deletes the highlighted block."
-    |icon16|, "''Rename the active block''. - Rename the hightlighted block"
+    |icon16|, "''Rename the active block'' - Rename the hightlighted block"
     |icon17|, "''Edit the active block in a separate window'' - Open a new drawing window to edit a new or  existing block."
     |icon18|, "''Save the active block to a file'' - Saves the highlighted block to a file."
     |icon19|, "''Insert the active block''. - Inserts the highlighted block in the current drawing at the specified reference point"
 
 The lower portion of the dock shows a list of blocks in the current drawing.  The blocks in the above example are named "a3", "d1", "d2", and "d4".  More details on creating and using :ref:`blocks <blocks>` can be found in the **User Guides**.
 
-..  Icon mapping:
-
-.. |icon11| image:: /images/icons/visible.svg
-.. |icon12| image:: /images/icons/invisible.svg
-.. |icon13| image:: /images/icons/create_block.svg
-.. |icon14| image:: /images/icons/add.svg
-.. |icon15| image:: /images/icons/remove.svg
-.. |icon16| image:: /images/icons/rename_active_block.svg
-.. |icon17| image:: /images/icons/properties.svg
-.. |icon18| image:: /images/icons/save.svg
-.. |icon19| image:: /images/icons/insert_active_block.svg
+.. See icon mapping a eof
 
 
 Command Line Dock
@@ -133,6 +116,7 @@ Layer List Dock
     :scale: 67
     :alt: Layer List Dock
 
+
 |
 |
 |
@@ -145,6 +129,18 @@ Layer List Dock
 |
 |
 |
+.. csv-table:: 
+   :header: "Icon", "Description"
+   :widths: 10, 60
+
+    |icon11|, "''Show all layers'' - Makes all the layers in the current drawing visible."
+    |icon12|, "''Hide all layers'' - Hides all layers in the active drawing."
+    |icon14|, "''Add a layer'' - Add a new layer."
+    |icon15|, "''Remove the current layer'' - Delete the highlighted layer."
+    |icon16|, "''Modify layer attributes / rename'' - Modify the layer's attributes and / or rename the layer."
+
+
+.. See icon mapping a eof
 
 
 Library Browser Dock
@@ -201,4 +197,23 @@ The Pen Wizard allows users to:
 
         - right-click a favorite and choose "Select objects"
 
+
+..  Icon mapping:
+
+.. |icon00| image:: /images/icons/librecad.ico
+.. |icon01| image:: /images/icons/dockwidgets_left.svg
+.. |icon02| image:: /images/icons/dockwidgets_right.svg
+.. |icon03| image:: /images/icons/dockwidgets_top.svg
+.. |icon04| image:: /images/icons/dockwidgets_bottom.svg
+.. |icon05| image:: /images/icons/dockwidgets_floating.svg
+
+.. |icon11| image:: /images/icons/visible.svg
+.. |icon12| image:: /images/icons/invisible.svg
+.. |icon13| image:: /images/icons/create_block.svg
+.. |icon14| image:: /images/icons/add.svg
+.. |icon15| image:: /images/icons/remove.svg
+.. |icon16| image:: /images/icons/rename_active_block.svg
+.. |icon17| image:: /images/icons/properties.svg
+.. |icon18| image:: /images/icons/save.svg
+.. |icon19| image:: /images/icons/insert_active_block.svg
 
