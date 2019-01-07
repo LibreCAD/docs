@@ -53,7 +53,7 @@ Length Format
 
 .. csv-table:: 
    :header: "Format", "Example", "Maximum Precision", "Description"
-   :widths: 30, 30, 30, 60
+   :widths: 15, 15, 15, 55
    
     "**Scientific**", "1.44311E+1", "0.00000000E+1", "Significand x 10 :superscript:`n`"
     "**Decimal**", "14.43112", "0.00000000",  "Integer part seperated from the fractional part of a number by a decimal"
@@ -69,7 +69,7 @@ Angle Format
 
 .. csv-table:: 
    :header: "Format", "Example", "Maximum Precision", "Description"
-   :widths: 30, 30, 30, 60
+   :widths: 15, 15, 15, 55
 
 	"**Decimal Degrees**", "30.5 |deg|", "0.00000000", "Integer part separated from the fractional part of a number by a decimal"
 	"**Deg/Min/Sec**", "30 |deg| 32' 0'' ", "0 |deg| 00' 00.0000'' ", "Degrees [ |deg| ] / Minutes ( ', 1/60 of a degree) / Seconds ( '', 1/60 of a minute)"
@@ -125,13 +125,13 @@ Dimensions
 
 .. csv-table::
     :header: "Setting", "Description"
-    :widths: 40, 110
+    :widths: 30, 70
 
     "General Scale", "Adjusts the sizes of the text and arrows by the factor provided"
 
 .. csv-table:: **Text size & position**
     :header: "Setting", "Description"
-    :widths: 40, 110
+    :widths: 30, 70
 
     "Length factor", "Adjusts the *dimension value* by the factor provided.  The entity remains the length as drawn."
     "Text Style", "Sets the :ref:`font <fonts>` used for dimension text"
@@ -142,7 +142,7 @@ Dimensions
 
 .. csv-table:: **Extension lines**
     :header: "Setting", "Description"
-    :widths: 40, 110
+    :widths: 30, 70
 
     "Offset", ""
     "Enlarge", ""
@@ -152,7 +152,7 @@ Dimensions
 
 .. csv-table:: **Dimension lines, arrows and ticks**
     :header: "Setting", "Description"
-    :widths: 40, 110
+    :widths: 30, 70
 
     "Arrow size", ""
     "Tick size", ""
