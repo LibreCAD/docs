@@ -6,11 +6,15 @@
 Using the Command Line
 ======================
 
-The command line is an alternative to using the mouse and selecting tools from the menus or toolbars.  The command line can be faster and/or more precise than drawing using exclusively a mouse.  LibreCAD is designed with emphasis on mouse input and at the moment and not all tools are available with a command.  The available commands are listed in the :ref:`Drawing Tools <tools>` reference.
+The command line is an alternative to using the mouse and selecting tools from the menus or toolbars.  Using the  command line can be faster and/or more precise than drawing using exclusively with a mouse.  LibreCAD is designed with emphasis on mouse input and at the moment and not all tools are available with a command.  The available commands are listed in the :ref:`Drawing Tools <tools>` reference.
 
-To activate the command line press [Spacebar] or [Ctrl]-M to activate the command line.  Once active, the command prompt ("Command:", above of where input appears) turns blue.  
+Any key stroke will activate the command line.  Once active, the command prompt ("Command:", above of where input appears) turns blue.  A mouse click on the drawing window will return the focus.
 
-Press the [Esc] key to leave the command line and another [Esc] to cancel what you have written on the command line.
+
+:: continue here
+
+
+Pressing the [Esc] will cancel the current command.
 
 It is possible to enter a partial command, like "li" for line and press [Tab] to have the command completed to "line". If you type too short a segment of a command, such as "l" and press [Tab], the command output will show "ch, circle, cut" because the command segment you typed in isn't unique.
 
@@ -218,28 +222,4 @@ cal tan(6deg)
    cal 1+1
    cal sin(pi/6)
    cal log(2)
-
-
-Layer List Dock
----------------
-
-.. figure:: /images/dock-layerList.png
-    :width: 270px
-    :height: 590px
-    :align: right
-    :scale: 67
-    :alt: Layer List Dock
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 
