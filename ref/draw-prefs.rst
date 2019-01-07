@@ -179,6 +179,7 @@ Splines
     :alt: LibreCAD Drawing Preferences - Splines
 
 The single parameter, "Number of line segments per spline patch", affects the 'smoothness' of a spline.  The greater the value, the 'smoother the spline will be drawn.
+
 |
 |
 |
