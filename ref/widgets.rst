@@ -121,7 +121,7 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 .. csv-table:: 
    :header: "Icon", "Description"
-   :widths: 10, 60
+   :widths: 10, 90
 
     |icon11|, "''Show all layers'' - Makes all the layers in the current drawing visible."
     |icon12|, "''Hide all layers'' - Hides all layers in the active drawing."
@@ -130,6 +130,8 @@ The Layer List Dock provides the functions to manage layers and a list of layers
     |icon16|, "''Modify layer attributes / rename'' - Modify the layer's attributes and / or rename the layer."
 
 .. See icon mapping a eof
+
+|
 
 The lower portion of the dock shows a list of layers in the current drawing.  The blocks in the above example are named "Layer01", "Layer02", and "Layer03".  More details on creating and using :ref:`layers <layers>` can be found in the **User Guides**.
 
