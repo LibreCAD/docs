@@ -117,18 +117,8 @@ Layer List Dock
     :alt: Layer List Dock
 
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing.  Layer functions include:
+
 .. csv-table:: 
    :header: "Icon", "Description"
    :widths: 10, 60
@@ -139,8 +129,9 @@ Layer List Dock
     |icon15|, "''Remove the current layer'' - Delete the highlighted layer."
     |icon16|, "''Modify layer attributes / rename'' - Modify the layer's attributes and / or rename the layer."
 
-
 .. See icon mapping a eof
+
+The lower portion of the dock shows a list of layers in the current drawing.  The blocks in the above example are named "Layer01", "Layer02", and "Layer03".  More details on creating and using :ref:`layers <layers>` can be found in the **User Guides**.
 
 
 Library Browser Dock
