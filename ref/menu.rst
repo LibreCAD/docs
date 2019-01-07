@@ -52,12 +52,12 @@ Options
 Edit
 ----
 .. csv-table:: 
-   :header: "Menu Item", "Icon", "Short-cut / Command", "Description"
+   :header: "Menu Item", "Icon", "Short-cut / *Command*", "Description"
    :widths: 40, 10, 15, 110
 
-    "Selection Pointer", |icon18|, "[Esc] / k, kill", "Reverts from current operation to the selection pointer (e.g. cancels the current operation)"
-    "Undo", |icon19|, "[Ctrl]+z / u, undo, oo", "Sequentially reverses the previous operations."
-    "Redo", |icon20|, "[Ctrl]+[Shift]+z / r, redo, uu", "Sequentially reverses the previously reversed operations."
+    "Selection Pointer", |icon18|, "[Esc] / *k, kill*", "Reverts from current operation to the selection pointer (e.g. cancels the current operation)"
+    "Undo", |icon19|, "[Ctrl]+z / *u, undo, oo*", "Sequentially reverses the previous operations."
+    "Redo", |icon20|, "[Ctrl]+[Shift]+z / *r, redo, uu*", "Sequentially reverses the previously reversed operations."
     "Cut", |icon21|, "[Ctrl]+x", "Removes the selected entity (or entities) and places it in temporary memory, e.g. ''clipboard'' for later recall.  A reference point needs to be placed for subsequent paste operations."
     "Copy", |icon22|, "[Ctrl]+c", "Creates a copy of the selected entity (or entities) in temporary memory to be recalled.  A reference point needs to be placed for subsequent paste operations."
     "Paste", |icon23|, "[Ctrl]+v", "Recalls the entity (or entities) from temporary memory and place it at a location defined by a reference point."
@@ -70,20 +70,20 @@ View
 ----
 
 .. csv-table:: 
-   :header: "Menu Item", "Icon", "Short-cut / Command", "Description"
+   :header: "Menu Item", "Icon", "Short-cut / *Command*", "Description"
    :widths: 40, 10, 15, 110
 
     "Fullscreen", , "[F11]", "Hides the application title bar and toggles LibreCAD to use the entire display."
     "Statusbar", , "[Ctrl]+i", "Toggles the visibilty of the status bar at the bottom of the application window."
     "Grid", |icon27|, "[Ctrl]+g", "Toggles the visibilty of the grid."
     "Draft", |icon28|, "[Ctrl]+d", "Toggles to or from ''Draft Mode''."
-    "Redraw", |icon29|, "[Ctrl]+r / zr, rg, regen, redraw", "Refreshes the view of the current drawing."
+    "Redraw", |icon29|, "[Ctrl]+r / *zr, rg, regen, redraw*", "Refreshes the view of the current drawing."
     "Zoom In", |icon30|, "", "Increase view of drawing by 25% increments."
     "Zoom Out", |icon31|, "", "Decrease view of drawing by 20% increments."
-    "Auto Zoom", |icon32|, "za", "Resize the view of the drawing to fill the drawing window."
-    "Previous View", |icon33|, "zv", "Revert to the previous zoom level of the drawing."
-    "Window Zoom", |icon34|, "zw", "Increase the view of the selecteed area to fill the drawing window."
-    "Zoom Panning", |icon35|, "zp", "Move the view of the drawing in the window."
+    "Auto Zoom", |icon32|, "*za*", "Resize the view of the drawing to fill the drawing window."
+    "Previous View", |icon33|, "*zv*", "Revert to the previous zoom level of the drawing."
+    "Window Zoom", |icon34|, "*zw*", "Increase the view of the selecteed area to fill the drawing window."
+    "Zoom Panning", |icon35|, "*zp*", "Move the view of the drawing in the window."
 
 
 
