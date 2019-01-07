@@ -21,6 +21,8 @@ Dock widgets serve two purposes; they provide alternative method to access drawi
     :scale: 100
     :alt: Lines Dock
 
+    Drawing tool dock example; Line
+
 Dock widgets are available for these :ref:`Drawing Tools <tools>`:
 
     - Circle
