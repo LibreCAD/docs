@@ -169,12 +169,12 @@ Pen Wizard Dock
     :scale: 67
     :alt: Pen Wizard Dock
 
-The Pen Wizard allows users to create a palette of favorite colors for the drawing tools.  Colors can be selected from the drop-down list for existing colors or custom colors via button |icon10| on the right  
+The Pen Wizard allows users to create a palette of favorite colors for the drawing tools.  Colors can be selected from the drop-down list for existing colors or custom colors via button |icon21| on the right  
 
     - Maintain a list of favorite colors
 
         - select a color via the drop-down list or the button on its right
-        - add the color by pressing the button with the tooltip "Add to favorites"
+        - add the color by pressing the |icon20|  button with the tooltip "Add to favorites"
         - drag-and-drop colors to arrange them
 
     - Change the active pen color
@@ -212,5 +212,7 @@ The Pen Wizard allows users to create a palette of favorite colors for the drawi
 
 .. |icon20| image:: /images/icons/char_pm.png
 .. |icon21| image:: /images/icons/colorxx.png
+            :height: 24
+            :width: 24
 
 
