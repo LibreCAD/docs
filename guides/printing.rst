@@ -16,9 +16,11 @@ To print a drawing without a drawing border / title block template or a specific
 
 1. Select File -> Print Preview or click the ‘Print Preview’ |icon02| button.
 2. Set or confirm  the paper layout for the current drawing:
+
     a. Select Options -> Current Drawing Preferences.
     b. Set format as desired, e.g. A4, Landscape, and click ‘OK’
     c. The page is represented by the shadowed rectangle in the print preview.
+
 3. Click the ‘Fit to Page’ |icon05| button on the toolbar.  This ensure the drawing is scaled to fit and centered on the page.
 4. Select File -> Print or click the ‘Print’ |icon01| button.
 5. Select the printer on the Print dialogue and confirm the properties by clicking the ‘Properties’ button.  Adjust the properties if necessary and then click ‘OK’.
@@ -32,9 +34,11 @@ To print a drawing without a drawing border / title block template but to a spec
 
 1. Select File -> Print Preview or click the ‘Print Preview’ |icon02| button.
 2. Set or confirm the paper layout for the current drawing:
+
     a. Select Options -> Current Drawing Preferences.
     b. Set format as desired, e.g. A4, Landscape, and click ‘OK’
     c. The page is represented by the shadowed rectangle in the print preview.
+
 3. Click the ‘Fit to Page’ |icon05| button on the tool bar.  This establish the largest scale the can be used for the paper size defined in step 2 above.
 4. Select the desired scaled from the drop-down box on the toolbar.
 5. Click the ‘Center to Page’ |icon04| button from the toolbar.  
