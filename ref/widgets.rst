@@ -121,7 +121,7 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 .. csv-table:: 
    :header: "Icon", "Description"
-   :widths: 10, 60
+   :widths: 10px, 60px
 
     |icon11|, "''Show all layers'' - Makes all the layers in the current drawing visible."
     |icon12|, "''Hide all layers'' - Hides all layers in the active drawing."
