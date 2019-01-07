@@ -33,18 +33,46 @@ Snaps provide the ability to pick precise locations when using a mouse.  Various
 
 .. icon00
 .. |icon01| image:: /images/icons/exclusive.svg
+            :height: 24
+            :width: 24
 .. |icon02| image:: /images/icons/snap_free.svg
+            :height: 24
+            :width: 24
 .. |icon03| image:: /images/icons/snap_grid.svg
+            :height: 24
+            :width: 24
 .. |icon04| image:: /images/icons/snap_endpoints.svg
+            :height: 24
+            :width: 24
 .. |icon05| image:: /images/icons/snap_free.svg
+            :height: 24
+            :width: 24
 .. |icon06| image:: /images/icons/snap_center.svg
+            :height: 24
+            :width: 24
 .. |icon07| image:: /images/icons/snap_middle.svg
+            :height: 24
+            :width: 24
 .. |icon08| image:: /images/icons/snap_distance.svg
+            :height: 24
+            :width: 24
 .. |icon09| image:: /images/icons/snap_intersection.svg
+            :height: 24
+            :width: 24
 .. |icon10| image:: /images/icons/restr_hor.svg
+            :height: 24
+            :width: 24
 .. |icon11| image:: /images/icons/restr_ver.svg
+            :height: 24
+            :width: 24
 .. |icon12| image:: /images/icons/restr_ortho.svg
+            :height: 24
+            :width: 24
 .. |icon13| image:: /images/icons/set_rel_zero.svg
+            :height: 24
+            :width: 24
 .. |icon14| image:: /images/icons/lock_rel_zero.svg
+            :height: 24
+            :width: 24
 .. icon15
 

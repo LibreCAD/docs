@@ -152,43 +152,107 @@ Help
 ..  Icon mapping:
 
 .. |icon00| image:: /images/icons/librecad.png
+            :height: 24
+            :width: 24
 .. |icon01| image:: /images/icons/new.svg
+            :height: 24
+            :width: 24
 .. |icon02| image:: /images/icons/new_from_template.svg
+            :height: 24
+            :width: 24
 .. |icon03| image:: /images/icons/open.svg
+            :height: 24
+            :width: 24
 .. |icon04| image:: /images/icons/save.svg
+            :height: 24
+            :width: 24
 .. |icon05| image:: /images/icons/save_as.svg
+            :height: 24
+            :width: 24
 .. |icon06| image:: /images/icons/import.svg
+            :height: 24
+            :width: 24
 .. |icon07| image:: /images/icons/export.svg
+            :height: 24
+            :width: 24
 .. |icon08| image:: /images/icons/print.svg
+            :height: 24
+            :width: 24
 .. |icon09| image:: /images/icons/print_preview.svg
+            :height: 24
+            :width: 24
 .. |icon10| image:: /images/icons/close.svg
+            :height: 24
+            :width: 24
 .. |icon11| image:: /images/icons/quit.svg
+            :height: 24
+            :width: 24
 .. |icon12| image /images/icons/
 .. |icon13| image:: /images/icons/settings.svg
+            :height: 24
+            :width: 24
 .. |icon14| image:: /images/icons/drawing_settings.svg
+            :height: 24
+            :width: 24
 .. |icon15| image /images/icons/
 .. |icon16| image /images/icons/
 .. |icon17| image /images/icons/
 .. |icon18| image:: /images/icons/cursor.svg
+            :height: 24
+            :width: 24
 .. |icon19| image:: /images/icons/undo.svg
+            :height: 24
+            :width: 24
 .. |icon20| image:: /images/icons/redo.svg
+            :height: 24
+            :width: 24
 .. |icon21| image:: /images/icons/cut.svg
+            :height: 24
+            :width: 24
 .. |icon22| image:: /images/icons/copy.svg
+            :height: 24
+            :width: 24
 .. |icon23| image:: /images/icons/paste.svg
+            :height: 24
+            :width: 24
 .. |icon24| image:: /images/icons/delete.svg
+            :height: 24
+            :width: 24
 .. |icon25| image /images/icons/
 .. |icon26| image /images/icons/
 .. |icon27| image:: /images/icons/grid.svg
+            :height: 24
+            :width: 24
 .. |icon28| image:: /images/icons/draft.svg
+            :height: 24
+            :width: 24
 .. |icon29| image:: /images/icons/redraw.svg
+            :height: 24
+            :width: 24
 .. |icon30| image:: /images/icons/zoom_in.svg
+            :height: 24
+            :width: 24
 .. |icon31| image:: /images/icons/zoom_out.svg
+            :height: 24
+            :width: 24
 .. |icon32| image:: /images/icons/zoom_auto.svg
+            :height: 24
+            :width: 24
 .. |icon33| image:: /images/icons/zoom_previous.svg
+            :height: 24
+            :width: 24
 .. |icon34| image:: /images/icons/zoom_window.svg
+            :height: 24
+            :width: 24
 .. |icon35| image:: /images/icons/zoom_pan.svg
+            :height: 24
+            :width: 24
 .. |icon36| image:: /images/icons/create_menu.svg
+            :height: 24
+            :width: 24
 .. |icon37| image:: /images/icons/create_toolbar.svg
+            :height: 24
+            :width: 24
 .. |icon38| image /images/icons/
 .. |icon39| image /images/icons/
 .. |icon40| image /images/icons/
