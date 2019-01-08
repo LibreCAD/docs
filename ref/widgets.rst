@@ -130,6 +130,10 @@ The Layer List Dock provides the functions to manage layers and a list of layers
     |icon14|, "''Remove the current layer'' - Delete the highlighted layer."
     |icon15|, "''Modify layer attributes / rename'' - Modify the layer's attributes and / or rename the layer."
 
+.. See icon mapping a eof
+
+Icons to the left of each layer act on the layers individually.  The layer operations are:
+
 .. csv-table:: 
    :header: "Icon", "Description"
    :widths: 25, 75
@@ -141,6 +145,12 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 .. See icon mapping a eof
 
+.. figure:: /images/dock-layerContextMenu.png
+    :width: 219px
+    :height: 186px
+    :align: right
+    :scale: 67
+    :alt: Layer Context Menu
 |
 
 The lower portion of the dock shows a list of layers in the current drawing and are listed in alph-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Right-clicking on a layer
