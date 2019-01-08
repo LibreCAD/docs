@@ -132,6 +132,8 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 .. See icon mapping a eof
 
+The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".
+
 Icons to the left of each layer act on the layers individually.  The layer operations are:
 
 .. csv-table:: 
@@ -158,8 +160,6 @@ Right-clicking on a layer opens a pop-up menu that provides equivalent operation
 |
 |
 |
-
-The lower portion of the dock shows a list of layers in the current drawing and are listed in alph-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Right-clicking on a layer
 
 More details on creating and using :ref:`layers <layers>` can be found in the **User Guides**.
 
