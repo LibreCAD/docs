@@ -151,6 +151,14 @@ Icons to the left of each layer act on the layers individually.  The layer opera
     :align: right
     :scale: 67
     :alt: Layer Context Menu
+
+|
+|
+|
+|
+|
+|
+|
 |
 
 The lower portion of the dock shows a list of layers in the current drawing and are listed in alph-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Right-clicking on a layer
