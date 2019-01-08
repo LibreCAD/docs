@@ -124,10 +124,10 @@ The Layer List Dock provides the functions to manage layers and a list of layers
    :header: "Icon", "Description"
    :widths: 10, 90
 
-    |icon10|, "''Show all layers'' - Makes all the layers in the current drawing visible. *"
-    |icon11|, "''Hide all layers'' - Hides all layers in the active drawing. *"
+    |icon10|, "''Show all layers'' - Makes all the layers in the current drawing visible. (*: ''Freeze'')"
+    |icon11|, "''Hide all layers'' - Hides all layers in the active drawing.  (*: ''Defreeze'')"
     |icon13|, "''Add a layer'' - Add a new layer. *"
-    |icon14|, "''Remove the current layer'' - Delete the highlighted layer. *"
+    |icon14|, "''Remove the current layer'' - Remove the highlighted layer. *"
     |icon15|, "''Modify layer attributes / rename'' - Modify the layer's attributes and / or rename the layer. *"
 
 .. See icon mapping a eof
@@ -152,12 +152,8 @@ Icons to the left of each layer act on the layers individually.  The layer opera
     :scale: 100
     :alt: Layer Context Menu
 
-Right-clicking on a layer opens the context menu and provides equivalent operations to the item mark with an asterix (*).
+Right-clicking on a layer opens a pop-up menu that provides equivalent operations to the item marked with an asterix (*).
 
-|
-|
-|
-|
 |
 |
 |
