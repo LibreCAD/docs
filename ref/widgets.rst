@@ -129,7 +129,11 @@ The Layer List Dock provides the functions to manage layers and a list of layers
     |icon13|, "''Add a layer'' - Add a new layer."
     |icon14|, "''Remove the current layer'' - Delete the highlighted layer."
     |icon15|, "''Modify layer attributes / rename'' - Modify the layer's attributes and / or rename the layer."
-    "", ""
+
+.. csv-table:: 
+   :header: "Icon", "Description"
+   :widths: 20 80
+
     |icon10| |icon11|, "Show / hide layer."
     |icon20| |icon21|, "Lock / unlock layer."
     |icon22| |icon23|, "Print / don't print layer."
