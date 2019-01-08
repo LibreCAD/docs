@@ -156,12 +156,10 @@ Icons to the left of each layer act on the layers individually.  The layer opera
 
 Right-clicking on a layer opens a pop-up menu that provides equivalent operations to the item marked with an asterix (*).
 
-|
-|
-|
-|
-
 More details on creating and using :ref:`layers <layers>` can be found in the **User Guides**.
+
+|
+|
 
 
 Library Browser Dock
