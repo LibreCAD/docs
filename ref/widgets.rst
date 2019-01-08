@@ -132,12 +132,12 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 .. csv-table:: 
    :header: "Icon", "Description"
-   :widths: 20, 80
+   :widths: 25, 75
 
-    |icon10| / |icon11|, "Show / hide layer."
+    "|icon10| / |icon11|", "Show / hide layer."
     "|icon20| / |icon21|", "Lock / unlock layer."
-    |icon22| "/" |icon23|, "Print / don't print layer."
-    |icon24| "/" |icon25|, "Toggle construction lines."
+    "|icon22| / |icon23|", "Print / don't print layer."
+    "|icon24| / |icon25|", "Toggle construction lines."
 
 .. See icon mapping a eof
 
