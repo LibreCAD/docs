@@ -134,8 +134,8 @@ The Layer List Dock provides the functions to manage layers and a list of layers
    :header: "Icon", "Description"
    :widths: 20, 80
 
-    |icon10| "/" |icon11|, "Show / hide layer."
-    |icon20| "/" |icon21|, "Lock / unlock layer."
+    |icon10| / |icon11|, "Show / hide layer."
+    "|icon20| / |icon21|", "Lock / unlock layer."
     |icon22| "/" |icon23|, "Print / don't print layer."
     |icon24| "/" |icon25|, "Toggle construction lines."
 
