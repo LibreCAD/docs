@@ -124,11 +124,11 @@ The Layer List Dock provides the functions to manage layers and a list of layers
    :header: "Icon", "Description"
    :widths: 10, 90
 
-    |icon10|, "''Show all layers'' - Makes all the layers in the current drawing visible."
-    |icon11|, "''Hide all layers'' - Hides all layers in the active drawing."
-    |icon13|, "''Add a layer'' - Add a new layer."
-    |icon14|, "''Remove the current layer'' - Delete the highlighted layer."
-    |icon15|, "''Modify layer attributes / rename'' - Modify the layer's attributes and / or rename the layer."
+    |icon10|, "''Show all layers'' - Makes all the layers in the current drawing visible. *"
+    |icon11|, "''Hide all layers'' - Hides all layers in the active drawing. *"
+    |icon13|, "''Add a layer'' - Add a new layer. *"
+    |icon14|, "''Remove the current layer'' - Delete the highlighted layer. *"
+    |icon15|, "''Modify layer attributes / rename'' - Modify the layer's attributes and / or rename the layer. *"
 
 .. See icon mapping a eof
 
@@ -138,10 +138,10 @@ Icons to the left of each layer act on the layers individually.  The layer opera
    :header: "Icon", "Description"
    :widths: 25, 75
 
-    "|icon10| / |icon11|", "Show / hide layer."
+    "|icon10| / |icon11|", "Show / hide layer. *"
     "|icon20| / |icon21|", "Lock / unlock layer."
-    "|icon22| / |icon23|", "Print / don't print layer."
-    "|icon24| / |icon25|", "Toggle construction lines."
+    "|icon22| / |icon23|", "Print / don't print layer. *"
+    "|icon24| / |icon25|", "Toggle construction lines. *"
 
 .. See icon mapping a eof
 
@@ -149,8 +149,10 @@ Icons to the left of each layer act on the layers individually.  The layer opera
     :width: 219px
     :height: 186px
     :align: right
-    :scale: 67
+    :scale: 100
     :alt: Layer Context Menu
+
+Right-clicking on a layer opens the context menu and provides equivalent operations to the item mark with an asterix (*).
 
 |
 |
