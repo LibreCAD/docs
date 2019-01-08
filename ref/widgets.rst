@@ -132,7 +132,7 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 .. csv-table:: 
    :header: "Icon", "Description"
-   :widths: 20 80
+   :widths: 20, 80
 
     |icon10| |icon11|, "Show / hide layer."
     |icon20| |icon21|, "Lock / unlock layer."
