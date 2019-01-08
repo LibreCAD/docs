@@ -129,12 +129,19 @@ The Layer List Dock provides the functions to manage layers and a list of layers
     |icon13|, "''Add a layer'' - Add a new layer."
     |icon14|, "''Remove the current layer'' - Delete the highlighted layer."
     |icon15|, "''Modify layer attributes / rename'' - Modify the layer's attributes and / or rename the layer."
+    "", ""
+    |icon10| |icon11|, "Show / hide layer."
+    |icon20| |icon21|, "Lock / unlock layer."
+    |icon22| |icon23|, "Print / don't print layer."
+    |icon24| |icon25|, "Toggle construction lines."
 
 .. See icon mapping a eof
 
 |
 
-The lower portion of the dock shows a list of layers in the current drawing.  The blocks in the above example are named "Layer01", "Layer02", and "Layer03".  More details on creating and using :ref:`layers <layers>` can be found in the **User Guides**.
+The lower portion of the dock shows a list of layers in the current drawing and are listed in alph-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Right-clicking on a layer
+
+More details on creating and using :ref:`layers <layers>` can be found in the **User Guides**.
 
 
 Library Browser Dock
@@ -169,7 +176,7 @@ Pen Wizard Dock
     :scale: 67
     :alt: Pen Wizard Dock
 
-The Pen Wizard allows users to create a palette of favorite colors for the drawing tools.  Colors can be selected from the existing colors via the drop-down list or created as a custom colors via the |icon21| button to the right of the drop-down list.  Pressing the "Add to favorites" |icon20| button to the left will add the color to the list of favorites below.  Drag-and-drop the colors in the list to arrange them in the prefered order.
+The Pen Wizard allows users to create a palette of favorite colors for the drawing tools.  Colors can be selected from the existing colors via the drop-down list or created as a custom colors via the |icon31| button to the right of the drop-down list.  Pressing the "Add to favorites" |icon30| button to the left will add the color to the list of favorites below.  Drag-and-drop the colors in the list to arrange them in the prefered order.
 
 Once colors have been added to the list, set the active pen color by double-clicking a favorite color.
 
@@ -229,11 +236,28 @@ Right-clicking a favorite color allows users to:
             :height: 24
             :width: 24
 
-.. |icon20| image:: /images/icons/char_pm.png
+.. |icon20| image:: /images/icons/locked.svg
+            :height: 24
+            :width: 24
+.. |icon21| image:: /images/icons/unlocked.svg
+            :height: 24
+            :width: 24
+.. |icon22| image:: /images/icons/print.svg
+            :height: 24
+            :width: 24
+.. |icon23| image:: /images/icons/noprint.svg
+            :height: 24
+            :width: 24
+.. |icon24| image:: /images/icons/construction_layer.svg
+            :height: 24
+            :width: 24
+.. |icon25| image:: /images/icons/noconstruction.svg
+            :height: 24
+            :width: 24
+
+.. |icon30| image:: /images/icons/char_pm.png
             :height: 18
             :width: 18
-.. |icon21| image:: /images/icons/colorxx.png
+.. |icon31| image:: /images/icons/colorxx.png
             :height: 18
             :width: 18
-
-
