@@ -144,6 +144,16 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 +---------------------+---------------------------------------------------------------------------+
 | Attribute           | Description                                                               |
 +=====================+===========================================================================+
