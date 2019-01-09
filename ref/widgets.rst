@@ -149,10 +149,6 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
 |
 |
 |
-|
-|
-|
-|
 
 +---------------------+---------------------------------------------------------------------------+
 | Attribute           | Description                                                               |
