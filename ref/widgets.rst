@@ -132,8 +132,6 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 .. See icon mapping a eof
 
-|
-|
 
 ..  figure:: /images/layerAttributes01.png
     :width: 251px
