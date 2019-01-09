@@ -151,9 +151,9 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
 | Attribute           | Description                                                               |
 +=====================+===========================================================================+
 | Layer Name          | The default layer name is "O", but any alpha-numeric label can be used.   |
-                      | New layers are created with the name of the hightlighted layer with a     |
-                      | sequence number appended.  Layers are sorted in the list alpha-           |
-                      | numerically.                                                              |
+|                     | New layers are created with the name of the hightlighted layer with a     |
+|                     | sequence number appended.  Layers are sorted in the list alpha-           |
+|                     | numerically.                                                              |
 +---------------------+---------------------------------------------------------------------------+
 | Construction Layer  | Toggle the construction lines off / on.  Construction lines are intended  |
 |                     | as temporary lines and drawn to ''infinity''".                            |
