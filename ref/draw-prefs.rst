@@ -155,7 +155,7 @@ Dimensions
     :widths: 30, 70
 
     "Arrow size", "Length of dimension (and leader) arrow."
-    "Tick size", "Length of dimension tick to from end of dimension line in each direction, e.g. A length of 1 will result in a total length of 2 units. (Anything greater than ''0'' will result in a *tick* instead of a dimension *arrow*)."
+    "Tick size", "Length of dimension tick to from end of dimension line in each direction, e.g. a length of 1 will result in a total length of 2 units. (Anything greater than ''0'' will result in a *tick* instead of a dimension *arrow*)."
     "Color", "Tick line color, independent of layer settings."
     "Width", "Tick line width, independent of layer settings."
 
@@ -165,7 +165,7 @@ Dimensions
 
     "Linear units", "(See *Length Format* under **Units** above.)"
     "Linear precision", "(See *Length Format* under **Units** above.)"
-    "Linear zeros", "Remove leading, trailing, 0\' or 0\" zeros from linear dimensions."
+    "Linear zeros", "Remove leading, trailing, 0/' or 0/" zeros from linear dimensions."
     "Decimal separators", "Period [.]], or comma [,]"
     "Angular units", "(See *Length Format* under **Units** above.)"
     "Angular precision", "(See *Length Format* under **Units** above.)"
