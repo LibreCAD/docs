@@ -132,7 +132,25 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 .. See icon mapping a eof
 
-The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".
+
+..  figure:: /images/layerSettings.png
+    :width: 251px
+    :height: 215px
+    :scale: 100
+    :align: right
+    :alt: LibreCAD Layers Settings
+
+Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
+
+    - Layer Name
+    - Construction Layer
+    - Default Pen
+
+        - Color: Select from default or custom colors.
+        - Width: Select from predefined line widths from 0.00 to 2.11 mm.
+        - Type: Select from predefined line types: Continuous, or Dot, Dash, Dash Dot, Divide, Center, or Border (normal, "tiny", "small", or "large").
+
+The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used.
 
 Icons to the left of each layer act on the layers individually.  The layer operations are:
 
@@ -144,6 +162,7 @@ Icons to the left of each layer act on the layers individually.  The layer opera
     "|icon20| / |icon21|", "Lock / unlock layer."
     "|icon22| / |icon23|", "Print / don't print layer. *"
     "|icon24| / |icon25|", "Toggle construction lines. *"
+    "|icon26|", "Shows the current layer color (Default is Black)."
 
 .. See icon mapping a eof
 
@@ -270,6 +289,9 @@ Right-clicking a favorite color allows users to:
             :height: 24
             :width: 24
 .. |icon25| image:: /images/icons/noconstruction.svg
+            :height: 24
+            :width: 24
+.. |icon26| image:: /images/icons/color07.png
             :height: 24
             :width: 24
 

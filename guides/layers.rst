@@ -52,7 +52,7 @@ A construction layer is designed to hold geometry construction lines:
     - A construction layer won't appear on printout;
     - All lines of a construction layer are infinite in length.
 
-..  figure:: /images/guide_layer-settings.png
+..  figure:: /images/layerSettings.png
     :width: 251px
     :height: 215px
     :scale: 100

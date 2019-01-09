@@ -17,7 +17,7 @@ Documentation
 
 Developers are usually bad in making documentation, so if you like writing documentation, your involvement would be greatly appreciated.
 
-The documentation is published on https://librecad.readthedocs.io/. As with the source code, the documentation is hosted GitHub (https://github.com/LibreCAD/docs).  Anyone wishing to contribute can create a fork, and edit existing documents or create new chapters.  The documentation is created using a markup language called **reStructuredText** (Refer to http://docutils.sourceforge.net/rst.html).  For those interested in contributing to the documentation, look to **LibreCAD-doc** on the LibreCAD forum (http://forum.librecad.org/).
+The documentation is hosted by `Read the Docs <https://readthedocs.org/>`_. The most recent version of **LibreCAD's User Manual** can be found at https://librecad.readthedocs.io/. As with the source code, the *documentation source* is hosted GitHub (https://github.com/LibreCAD/docs).  Anyone wishing to contribute can create a fork, and edit existing documents or create new chapters.  The documentation is created using a markup language called **reStructuredText** (Refer to http://docutils.sourceforge.net/rst.html).  For those interested in contributing to the documentation, look to **LibreCAD-doc** on the LibreCAD forum (http://forum.librecad.org/).
 
 
 Translation
