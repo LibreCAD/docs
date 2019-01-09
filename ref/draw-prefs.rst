@@ -149,7 +149,7 @@ Dimensions
 
     "Linear units", "(See *Length Format* under **Units** above.)"
     "Linear precision", "(See *Length Format* under **Units** above.)"
-    "Linear zeros", "Remove leading, trailing, 0/' or 0/" zeros from linear dimensions."
+    "Linear zeros", "Remove leading, trailing, 0' oand / or 0'' from linear dimensions."
     "Decimal separators", "Period [.]], or comma [,]"
     "Angular units", "(See *Length Format* under **Units** above.)"
     "Angular precision", "(See *Length Format* under **Units** above.)"
