@@ -58,7 +58,7 @@ Docked widgets can be dragged to different areas by "grabbing" (click and drag) 
 Block List Dock
 ---------------
 
-.. figure:: /images/dock-blockList02.png
+.. figure:: /images/dock-blockList01.png
     :width: 272px
     :height: 590px
     :align: right
@@ -110,7 +110,7 @@ Further details on using the :ref:`command line <commandline>` are in the **User
 Layer List Dock
 ---------------
 
-.. figure:: /images/dock-layerList02.png
+.. figure:: /images/dock-layerList01.png
     :width: 270px
     :height: 590px
     :align: right
@@ -147,9 +147,13 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
 
-    - Layer Name
-    - Construction Layer
-    - Default Pen
+.. csv-table:: 
+   :header: "Attribute", "Description"
+   :widths: 20, 80
+
+    "Layer Name", "The default layer name is "O", but any alpha-numeric label can be used.  New layers are created with the name of the hightlighted layer with a sequence number appended.  Layers are sorted in the list alpha-numerically."
+    "Construction Layer: Toggle the construction lines off / on.  Construction lines are intended as temporary lines and drawn to "infinity".
+    "Default Pen:
 
         - Color: Select from default or custom colors.
         - Width: Select from predefined line widths from 0.00 to 2.11 mm.
@@ -189,7 +193,7 @@ More details on creating and using :ref:`layers <layers>` can be found in the **
 Library Browser Dock
 --------------------
 
-.. figure:: /images/dock-libraryBrowser02.png
+.. figure:: /images/dock-libraryBrowser01.png
     :width: 270px
     :height: 590px
     :align: right
@@ -211,7 +215,7 @@ LibreCAD includes several libraries and additional libraries can be specified by
 Pen Wizard Dock
 ---------------
 
-.. figure:: /images/dock-penWizard.png
+.. figure:: /images/dock-penWizard01.png
     :width: 272px
     :height: 590px
     :align: right
