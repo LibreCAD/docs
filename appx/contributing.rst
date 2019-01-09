@@ -9,7 +9,7 @@ Contributing
 Code
 ----
 
-If you are a developer, outstanding in C++, or a beginner we can use all the help.  With a bit of determination, the IRC channel, Zulip chat and the Libre-CAD-dev mailing list, we can help you getting started and making progress.  The source code is hosted on GitHub.  The :ref:`Resource <resources>` section provides details on downloading and building LibreCAD.
+If you are a developer, outstanding in C++, or a beginner we can use all the help.  With a bit of determination, the IRC channel, Zulip chat and the Libre-CAD-dev mailing list, we can help you getting started and making progress.  The source code is hosted on GitHub: `https://github.com/LibreCAD/LibreCAD <https://github.com/LibreCAD/LibreCAD>`_.  The :ref:`Resource <resources>` section provides details on downloading and building LibreCAD.
 
 
 Documentation
@@ -18,6 +18,7 @@ Documentation
 Developers are usually bad in making documentation, so if you like writing documentation, your involvement would be greatly appreciated.
 
 As with the source the documentation is hosted GitHub.  Anyone wishing to contribute can create a fork edit existing documents or create new chapters.  The documentation is created using a markup language called "`reStructuredText <http://docutils.sourceforge.net/rst.html>`_".
+
 
 Translation
 -----------
