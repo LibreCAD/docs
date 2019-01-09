@@ -1,5 +1,5 @@
 .. User Manual, LibreCAD v2.2.x
-..  Appendix top level index
+.. Appendix top level index
 
 
 .. _appendix:
@@ -16,4 +16,5 @@ Appendices
     Languages <languages>
     Systems of Measurement <measurements>
     Calculator Functions <calculator>
+    Contributing <contributing>
     Licenses <licenses>
