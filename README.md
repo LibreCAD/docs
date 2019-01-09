@@ -1,5 +1,5 @@
 # docs
-This is LibreCAD's documentation repository for multiple version and format documents, supported by readthedocs.io
+This is LibreCAD's documentation repository for multiple version and format documents, supported by readthedocs.io.  The documentation is created using a markup language called "`reStructuredText <http://docutils.sourceforge.net/rst.html>`_".  
 
 Below are the sections that are in the LibreCAD User Manual with the percent complete [%].
 
@@ -19,7 +19,7 @@ Below are the sections that are in the LibreCAD User Manual with the percent com
    - Toolbars                [100%]
    - Dock Widgets            [100%]
    - Drawing Preferences     [67%]
-   - Customizing             [100%]
+   - Customizing             [100%]    (Including Style Sheets)
 
 - User Guides: documents that provide instruction on how to do things with LibreCAD.  These are how-to’s, but with greater details(?)
    - Setting up a drawing    [0%]
@@ -38,7 +38,7 @@ Below are the sections that are in the LibreCAD User Manual with the percent com
    - Fonts                   [100%]
    - Supported Languages     [100%]
    - Systems of Measurement  [100%]
-   - Style Sheets            [100%]
    - Calculator              [100%]    (Operators and Functions)
+   - Contributing            [100%]
    - Licenses                [100%]
 
