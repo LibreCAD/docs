@@ -144,28 +144,32 @@ Dimensions
     :header: "Setting", "Description"
     :widths: 30, 70
 
-    "Offset", ""
-    "Enlarge", ""
-    "Fixed length", ""
-    "Color", ""
-    "Width", ""
+    "Offset", "Gap beetween entity and dimension extention line."
+    "Enlarge", "Length of extention line beyond dimension line."
+    "Fixed length", "Fixed length of extension line measured from the dimension line towards the dimensioned entity."
+    "Color", "Extension line color, independent of layer settings."
+    "Width", "Extension line width, independent of layer settings."
 
 .. csv-table:: **Dimension lines, arrows and ticks**
     :header: "Setting", "Description"
     :widths: 30, 70
 
-    "Arrow size", ""
-    "Tick size", ""
-    "Color", ""
-    "Width", ""
-    "Format units", ""
-    "Linear units", ""
-    "Linear precision", ""
-    "Linear zeros", ""
-    "Decimal separators", ""
-    "Angular units", ""
-    "Angular precision", ""
-    "Angular zeros", ""
+    "Arrow size", "Length of dimension (and leader) arrow."
+    "Tick size", "Length of dimension tick to from end of dimension line in each direction, e.g. A length of 1 will result in a total length of 2 units. (Anything greater than "0" will result in a tick instead of a dimension arrow)."
+    "Color", "Tick line color, independent of layer settings."
+    "Width", "Tick line width, independent of layer settings."
+
+.. csv-table:: **Format units**
+    :header: "Setting", "Description"
+    :widths: 30, 70
+
+    "Linear units", "(See *Length Format* under **Units** above.)"
+    "Linear precision", "(See *Length Format* under **Units** above.)"
+    "Linear zeros", "Remove leading, trailing, 0\' or 0\" zeros from linear dimensions."
+    "Decimal separators", "Period [.]], or comma [,]"
+    "Angular units", "(See *Length Format* under **Units** above.)"
+    "Angular precision", "(See *Length Format* under **Units** above.)"
+    "Angular zeros", "Remove leading or trailing zeros from angular dimensions."
 
 
 Splines
