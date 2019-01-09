@@ -102,25 +102,9 @@ Dimensions
 .. figure:: /images/drawPref4.png
     :width: 785px
     :height: 623px
-    :align: right
+    :align: center
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Dimensions
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
 
 
 .. csv-table::
