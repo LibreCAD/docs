@@ -23,5 +23,5 @@ The documentation is published on https://librecad.readthedocs.io/. As with the 
 Translation
 -----------
 
-Help localize LibreCAD, we currently support over 30 languages.  Our translation server is at https://translate.librecad.org/ .  You can complete new languages, or request creating translations for a new language in the forum.
+Help localize LibreCAD, we currently support over 30 languages.  Our translation server is at https://translate.librecad.org/.  You can contribute to a language already started or or request the creation of a translation for a new language in the forum in the **LibreCAD-translate** section.
 
