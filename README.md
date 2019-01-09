@@ -1,5 +1,5 @@
 # docs
-This is LibreCAD's documentation repository for multiple version and format documents, supported by readthedocs.io.  The documentation is created using a markup language called "`reStructuredText <http://docutils.sourceforge.net/rst.html>`_".  
+This is LibreCAD's documentation repository for multiple version and format documents, supported by readthedocs.io.  The documentation is created using a markup language called "`reStructuredText <http://docutils.sourceforge.net/rst.html>`_".
 
 Below are the sections that are in the LibreCAD User Manual with the percent complete [%].
 
