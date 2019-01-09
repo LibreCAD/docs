@@ -111,16 +111,16 @@ Dimensions
     :header: "Setting", "Description"
     :widths: 30, 70
 
-    "General Scale", "Adjusts the sizes of the text and arrows by the factor provided"
+    "General Scale", "Adjusts the **sizes** of the text and arrows by the factor provided."
 
 .. csv-table:: **Text size & position**
     :header: "Setting", "Description"
     :widths: 30, 70
 
     "Length factor", "Adjusts the *dimension value* by the factor provided.  The entity remains the length as drawn."
-    "Text Style", "Sets the :ref:`font <fonts>` used for dimension text"
+    "Text Style", "Sets the :ref:`font <fonts>` used for dimension text."
     "Text Height", "Sets the text height, measured in the  units defined on the *Units* tab."
-    "Text alignment", "Aligns the text parallel and offset to the dimension line or horizontal centered on the dimension line"
+    "Text alignment", "Aligns the text parallel and offset to the dimension line or horizontal centered on the dimension line."
     "Dimension line gap", "Sets the space between the dimension line and the dimension text."
     "Color", "Set the color of the dimension lines and text."
 
@@ -150,7 +150,7 @@ Dimensions
     "Linear units", "(See *Length Format* under **Units** above.)"
     "Linear precision", "(See *Length Format* under **Units** above.)"
     "Linear zeros", "Remove leading, trailing, 0' oand / or 0'' from linear dimensions."
-    "Decimal separators", "Period [.]], or comma [,]"
+    "Decimal separators", "Set the dDecimal separator to a period [.], or comma [,]."
     "Angular units", "(See *Length Format* under **Units** above.)"
     "Angular precision", "(See *Length Format* under **Units** above.)"
     "Angular zeros", "Remove leading or trailing zeros from angular dimensions."

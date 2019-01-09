@@ -22,7 +22,7 @@ Below are the sections that are in the LibreCAD User Manual with the percent com
    - Snapping                [100%]
    - Toolbars                [100%]
    - Dock Widgets            [100%]
-   - Drawing Preferences     [67%]
+   - Drawing Preferences     [100%]
    - Customizing             [100%]    (Including Style Sheets)
 
 - User Guides: documents that provide instruction on how to do things with LibreCAD.  These are how-to’s, but with greater details(?)
