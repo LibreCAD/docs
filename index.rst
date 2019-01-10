@@ -23,7 +23,7 @@ The latest information about LibreCAD can be found at `librecad.org <http://libr
 
 .. warning::
 
-    *This is the intial releaseof the* **LibreCAD User Manual** * and may (will) change frequently.*  Watch for changes, in particular addions to the **User guide ** section.
+    *This is the initial release of the* **LibreCAD User Manual** *and may (will) change frequently.*  Watch for changes, in particular additions to the **User Guide** section.
 
 
 .. Top level index
