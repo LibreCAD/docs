@@ -40,15 +40,16 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = ['.rst', '.md']
 
 # The master toctree document.
 master_doc = 'index'
 
 # General information about the project.
 project = 'LibreCAD'
-copyright = '2018, Armin Stebich'
-author = 'Armin Stebich'
+title = 'LibreCAD User Manual'
+copyright = '2018, LibreCAD.org'
+author = 'LibreCAD Documentation Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -83,7 +84,8 @@ todo_include_todos = True
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+##html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -101,13 +103,20 @@ html_static_path = ['_static']
 #
 # This is required for the alabaster theme
 # refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
-html_sidebars = {
-    '**': [
-        'relations.html',  # needs 'show_related': True theme option to display
-        'searchbox.html',
-    ]
-}
 
+##html_sidebars = {
+##    '**': [
+##        'relations.html',  # needs 'show_related': True theme option to display
+##        'searchbox.html',
+##    ]
+##}
+
+# Table width fix for Read the Docs Sphinx theme
+html_context = {
+    'css_files': [
+        '_static/theme_overrides.css',  # override wide tables in RTD theme
+        ],
+     }
 
 # -- Options for HTMLHelp output ------------------------------------------
 
@@ -139,8 +148,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'LibreCAD.tex', 'LibreCAD Documentation',
-     'Armin Stebich', 'manual'),
+    (master_doc, 'LibreCAD.tex', title, author, 'manual'),
 ]
 
 
@@ -149,8 +157,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'librecad', 'LibreCAD Documentation',
-     [author], 1)
+    (master_doc, 'librecad', 'LibreCAD User Guide', author, 1)
 ]
 
 
@@ -158,13 +165,11 @@ man_pages = [
 
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
-#  dir menu entry, description, category)
+# dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'LibreCAD', 'LibreCAD Documentation',
-     author, 'LibreCAD', 'One line description of project.',
-     'Miscellaneous'),
+    (master_doc, 'LibreCADUserGuide', title, author, 
+    'LibreCAD', 'LibreCAD User Guide.', 'Miscellaneous'),
 ]
-
 
 
 # -- Options for Epub output ----------------------------------------------
@@ -183,6 +188,9 @@ epub_copyright = copyright
 # A unique identification for the text.
 #
 # epub_uid = ''
+
+## Image for epub book
+epub_cover = ('/images/splash_librecad.png', '')
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']

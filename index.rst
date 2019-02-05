@@ -1,20 +1,42 @@
-.. LibreCAD documentation master file, created by
-   sphinx-quickstart on Thu Nov  1 16:32:08 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. User Manual, LibreCAD v2.2.x
 
-Welcome to LibreCAD's documentation!
-====================================
+====================
+LibreCAD User Manual
+====================
+
+.. Show the LibreCAD's splash screen
+
+.. figure:: /images/splash_librecad.png
+    :width: 544px
+    :height: 338px
+    :scale: 100
+    :align: center
+    :alt: LibreCAD Splash
+
+
+**LibreCAD** is a **free Open Source** 2D CAD application using the cross-platform framework Qt.  That means it works with multiple operating systems; Windows, Apple and Linux. Support and documentation is free from our large, dedicated community of users, contributors and developers.  The user interface is translated in over 30 languages.
+
+As free software you can redistribute it and/or modify it under the terms of the see :ref:`GNU General Public License <gpl-license>` version 2 (GPLv2) as published by the Free Software Foundation.
+
+The latest information about LibreCAD can be found at `librecad.org <http://librecad.org>`_.
+
+
+.. warning::
+
+    *This is the initial release of the* **LibreCAD User Manual** *and may (will) change frequently.*  Watch for changes, in particular additions to the **User Guide** section.
+
+
+.. Top level index
+
+Contents
+========
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   :maxdepth: 1
+    
+   About <about/index.rst>
+   Getting Started <getstart/index.rst>
+   Reference <ref/index.rst>
+   User Guides <guides/index.rst>
+   Appendices <appx/index.rst>
+   
