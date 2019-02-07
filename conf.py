@@ -114,7 +114,7 @@ html_static_path = ['_static']
 # Table width fix for Read the Docs Sphinx theme
 html_context = {
     'css_files': [
-        '_static/theme_overrides.css',  # override wide tables in RTD theme
+        'static/theme_overrides.css',  # override wide tables in RTD theme
         ],
      }
 
