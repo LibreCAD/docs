@@ -1,6 +1,9 @@
 # docs
+[![Documentation Status](https://readthedocs.org/projects/librecad/badge/?version=latest)](https://librecad.readthedocs.io/en/latest/?badge=latest)
 
-This is LibreCAD's documentation repository for multiple version and format documents, supported by readthedocs.io.
+This is LibreCAD's documentation repository for multiple version and format documents, supported by [readthedocs.org](https://readthedocs.org/).
+
+To read the documetation online or download PDF or ePub formats go to https://librecad.readthedocs.io/
 
 The documentation is created using a markup language called "reStructuredText" (http://docutils.sourceforge.net/rst.html).  For those interested in contributing to the documentation, look to **LibreCAD-doc** on the LibreCAD forum (http://forum.librecad.org/).
 
