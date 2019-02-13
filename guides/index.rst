@@ -13,12 +13,10 @@ The user guides provide the steps necessary to perform a various tasks with Libr
 .. toctree::
    :maxdepth: 1
 
-    Setting up a drawing <drawingsetup>
-    Templates <templates>
+    Drawing Setup <drawingsetup>
     Layers <layers>
     Blocks <blocks>
     Dimensioning <dimensioning>
-    Pens <pens>
     The Command Line <commandline>
     Printing Guides <printing>
 
