@@ -23,6 +23,22 @@ As noted above, there are a many drawing parameters that can be considered to su
 
 The "Paper format", e.g. paper size and orientation, or media, to be used is important to consider when setting the drawing preferences.  While it can be done at anytime, determining the media sooner than later will be helpful as the size and orientation will help determine the "General Scale".  The media size is entirely up to the user to determine what is available, depending on the printer or printing service that is being used.
 
+
+Determining Scale
+~~~~~~~~~~~~~~~~~
+
+Setting the scale of a drawing is the easy part, drawings should be created **full-scale** (1:1)!  The zooming abilities of LibreCAD will make the whole drawing fit in the display window or zoom into the fine detail.   On the other hand, when producing output the drawing will need to be scaled to fit the "page".  Generally output is a printed page, but it can also be a pdf, or :ref:`exported to another image format <file>`.
+
+These two points contradict each other as a full-scale drawing of something very large, like a building, would require equally large text size for notes and dimensions when the drawing is scaled down to print on an "A1" page.  Trying to determine the text size for a large object would be tedious at best, but the features within LibreCAD simplifies it.  It is addressed by the "General Scale" on the *Dimensions* tab.
+
+Determining the General Scale parameter for the best result is simple, it is the *inverse* of the printing scale obtained prior to printing.  For example, if a print scale is determined to be "1:4", the General Scale is "4" (4:1).  See the :ref:`Printing Guide <printing-guide>` for details.  Setting the General Scale to the inverse of the print scale results in the dimension text being the defined size, e.g. 2.5mm, on the printed drawing.  The drawing is scaled down to fit the page and the dimension text is scaled up to be legible.
+
+
+.. _lines:
+
+Line Type & Thickness
+---------------------
+
 Line thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, arcitectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  follow:
 
 .. csv-table:: 
@@ -49,14 +65,18 @@ Line thickness should also be addressed when creating a new drawing.  The defaul
 "Extra Thick", "1.00 mm", "- Title sheet border", "1.00 mm"
 
 
-Determining Scale
-~~~~~~~~~~~~~~~~~
+.. _pens:
 
-Setting the scale of a drawing is the easy part, drawings should be created **full-scale** (1:1)!  The zooming abilities of LibreCAD will make the whole drawing fit in the display window or zoom into the fine detail.   On the other hand, when producing output the drawing will need to be scaled to fit the "page".  Generally output is a printed page, but it can also be a pdf, or :ref:`exported to another image format <file>`.
+Pens
+----
 
-These two points contradict each other as a full-scale drawing of something very large, like a building, would require equally large text size for notes and dimensions when the drawing is scaled down to print on an "A1" page.  Trying to determine the text size for a large object would be tedious at best, but the features within LibreCAD simplifies it.  It is addressed by the "General Scale" on the *Dimensions* tab.
+A "Pen" in LibreCAD refer to the attributes assigned to an entity, such as a line or circle.  Those attributes include:
 
-Determining the General Scale parameter for the best result is simple, it is the *inverse* of the printing scale obtained prior to printing.  For example, if a print scale is determined to be "1:4", the General Scale is "4" (4:1).  See the :ref:`Printing Guide <printing-guide>` for details.  Setting the General Scale to the inverse of the print scale results in the dimension text being the defined size, e.g. 2.5mm, on the printed drawing.  The drawing is scaled down to fit the page and the dimension text is scaled up to be legible.
+    - Color - LibreCAD has 16 default colors, but supports the RGB color space (#000000 to #FFFFFF or 16,777,215 colors).  The initial color for entities is black.
+    - Width - The default line width is 0.00mm.  Line widths of up to 2.11mm are supported.
+    - Line Type - The default line type is "Continuous" (e.g. solid).  Other line types included with LibreCAD are Dot, Dash, Divide, Center, and Border.
+
+The pen attributes can be defined for a single entity (via the *Properties* tool) , by a group of selected entities (via the *Attribute* tool), or by layer.
 
 
 .. _templates:
@@ -64,7 +84,7 @@ Determining the General Scale parameter for the best result is simple, it is the
 Templates
 ---------
 
-Templates are *prototype* drawings that provide the means to save basic drawing parameters and settings.  The parameters and settings include the settings defined in the :ref:`Drawing Preferences <draw-prefs>`, such as the paper format, main unit of measure and format, and dimension format.  Templates can also include layers and layer configuration, and other drawing elements such as a border. These settings are inherited by the drawings created from the template.
+Templates are *prototype* drawings that provide the means to save basic drawing parameters and settings.  The parameters and settings include the settings defined in the :ref:`Drawing Preferences <draw-prefs>`, such as the paper format, main unit of measure and format, and dimension format.  Templates can also include layers and layer configuration, line type and thckness, pen coplor, and other drawing elements such as a border. These settings are inherited by the drawings created from the template.
 
 Templates are created by starting a new drawing, setting the desired :ref:`Drawing Preferences <draw-prefs>`, and adding any required drawing elements (e.g. layers).  Starting with a blank drawing in LibreCAD, select "Edit" from the menu bar and then "Current Drawing Preferences".  On the first tab labeled "Paper", set the paper size and orientation as desired.  Next, select the "Units" tab and set the options as desired.  Click the "Dimensions" tab and adjust the values as desired.  Check the remaining tabs and adjust those settings as necessary.  Click "OK" when done and save the file.  Templates can be saved to any location where the user has read / write permissons.
 
@@ -101,19 +121,4 @@ Default Template
 When LibreCAD is first executed it opens a default drawing. This drawing can be specified as a template in the "Application Preferences" under the "Paths" tab. Select "Edit" from the top menu bar and then "Application Preferences" followed by the "Paths" tab. The last field listed is the "template" field. This should contain the full path and filename of the desired template to use as a default. The drawing specified here as a template will be used from three locations. The first is when LibreCAD is first executed and the default drawing is created. The second is when "File->New" is selected. The third is when the icon on the toolbar for "New" is clicked. Each time it will create a new drawing document. Each of the new drawings can be selected from the "Window" option on the top menu bar if they have been created or any drawing that may have been opened.
 
 In the "Paths" tab there are other file paths to be specified. The symbol or library folder location is called "Parts Library". This folder specification should contain the full path and name of the folder mentioned earlier in regard to parts libraries. The library folder can contain additional folders to categorize the items. For instance: floor plan, electric, electronic, landscape, flow diagram, plumbing, hardware, etc. The subfolders are required. LibreCAD does not provide a mechanism to use the library directory directly. A user could use it for template storage if they desired and then the templates could be used by the "New From Template" option or for the default template setting. The LibreCAD "Library Browser" will only present the created folders (and subfolders) with the drawings within the browser.
-
-
-
-.. _pens:
-
-Pens
-----
-
-A "Pen" in LibreCAD refer to the attributes assigned to an entity, such as a line or circle.  Those attributes include:
-
-    - Color - LibreCAD has 16 default colors, but supports the RGB color space (#000000 to #FFFFFF or 16,777,215 colors).  The initial color for entities is black.
-    - Width - The default line width is 0.00mm.  Line widths of up to 2.11mm are supported.
-    - Line Type - The default line type is "Continuous" (e.g. solid).  Other line types included with LibreCAD are Dot, Dash, Divide, Center, and Border.
-
-The pen attributes can be defined for a single entity (via the *Properties* tool) , by a group of selected entities (via the *Attribute* tool), or by layer.
 
