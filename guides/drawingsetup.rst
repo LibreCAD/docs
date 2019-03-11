@@ -42,27 +42,28 @@ Line Type & Thickness
 Line thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, arcitectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  follow:
 
 .. csv-table:: 
-   :header: "Line Weights", "Width", "Purpose", "For ISO A4/A3/A2 or ANSI A/B/C paper sizes"
+   :header: "Line Weights", "Widths", "Purpose", "For ISO A4/A3/A2 or ANSI A/B/C paper sizes"
    :widths: 40, 10, 20, 110
+
 "Extra Thin", "0.00 to 0.10 mm", "- Hatching", "0.00 mm"
 "Thin", "0.15 to 0.25 mm", "- Dimension lines", "0.18 mm"
-"", "", "- Centre line"
-"", "", "- Intermediate contour lines"
-"", "", "- Leader and extension"
-"", "", "- Phantom lines"
-"", "", "- Grid lines"
+"", "", "- Centre line", ""
+"", "", "- Intermediate contour lines", ""
+"", "", "- Leader and extension", ""
+"", "", "- Phantom lines", ""
+"", "", "- Grid lines", ""
 "Medium", "0.30 mm to 0.50 mm", "- Hidden lines", "0.35 mm", "
-"", "", "- Index contour line"
-"", "", "- Text normal (0.3 mm)"
-"", "", "- Text - sub-headings (0.5 mm)"
-"", "", "- Visible object outlines"
+"", "", "- Index contour line", ""
+"", "", "- Text normal (0.3 mm)", ""
+"", "", "- Text - sub-headings (0.5 mm)", ""
+"", "", "- Visible object outlines", ""
 "Thick", "0.70 mm", "- Cutting lines", "0.70 mm"
-"", "", "- Match lines"
-"", "", "- Reference lines"
-"", "", "- Section lines"
-"", "", "- Text - titles/major headings"
-"", "", "- Viewing planes"
-"Extra Thick", "1.00 mm", "- Title sheet border", "1.00 mm"
+"", "", "- Match lines", ""
+"", "", "- Reference lines", ""
+"", "", "- Section lines", ""
+"", "", "- Text - titles/major headings", ""
+"", "", "- Viewing planes", ""
+"Extra Thick", "1.00 mm", "- Title sheet border", "1.00 mm", ""
 
 
 .. _pens:
