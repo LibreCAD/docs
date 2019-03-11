@@ -39,11 +39,11 @@ Determining the General Scale parameter for the best result is simple, it is the
 Line Type & Thickness
 ---------------------
 
-Line thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, arcitectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  follow:
+Line thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, arcitectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/C paper sizes:
 
 .. csv-table:: 
-   :header: "Line Weights", "Widths", "Purpose", "For ISO A4/A3/A2 or ANSI A/B/C paper sizes"
-   :widths: 40, 10, 20, 110
+   :header: "Line Weights", "Width Range", "Purpose", "Width"
+   :widths: 20, 30, 60, 30
 
 "Extra Thin", "0.00 to 0.10 mm", "- Hatching", "0.00 mm"
 "Thin", "0.15 to 0.25 mm", "- Dimension lines", "0.18 mm"
