@@ -33,6 +33,24 @@ These two points contradict each other as a full-scale drawing of something very
 
 Determining the General Scale parameter for the best result is simple, it is the *inverse* of the printing scale obtained prior to printing.  For example, if a print scale is determined to be "1:4", the General Scale is "4" (4:1).  See the :ref:`Printing Guide <printing-guide>` for details.  Setting the General Scale to the inverse of the print scale results in the dimension text being the defined size, e.g. 2.5mm, on the printed drawing.  The drawing is scaled down to fit the page and the dimension text is scaled up to be legible.
 
+While the scale can be set to any value, common scale values are used to provide consistency and provide the abilty to measure an entity using a scaled ruler.  Some common scales and the usage is noted below:
+
+
+"Scale", "Ratio", "Typical Usage"
+"Full". "1:1", ""
+"3″=1′-0″", "1:4", ""
+"1 1⁄2″=1′-0″", "1:8", ""
+1″=1′-0″", "1:12", "
+​1⁄2″=1′-0″", "1:24", "
+​3⁄4″=1′-0″", "1:16", "
+​3⁄8″=1′-0″) (1:32)
+    one-quarter-inch-to-the-foot (​1⁄4″=1′-0″", "1:48)/one-eighth-inch-to-the-foot (​
+1⁄8″=1′-0″", "1:96)
+    three-sixteenths-inch-to-the-foot (​3⁄16″=1′-0″", "1:64", "
+​3⁄32″=1′0″", "1:128)
+"Architect's
+
+Engineer's
 
 .. _lines:
 
@@ -71,7 +89,7 @@ Line thickness should also be addressed when creating a new drawing.  The defaul
 Pens
 ----
 
-A "Pen" in LibreCAD refer to the attributes assigned to an entity, such as a line or circle.  Those attributes include:
+An entity, whether a line, a circle dimension, etc has three common attributes; color, width and line type.  These three attributes make up a "pen".  The attributes include:
 
     - Color - LibreCAD has 16 default colors, but supports the RGB color space (#000000 to #FFFFFF or 16,777,215 colors).  The initial color for entities is black.
     - Width - The default line width is 0.00mm.  Line widths of up to 2.11mm are supported.
