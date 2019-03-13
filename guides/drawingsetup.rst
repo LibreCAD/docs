@@ -6,22 +6,22 @@
 Setting up a Drawing
 ====================
 
-As with other software; word processors, spreadsheets, etc, there are many ways a user can to setup a new document.  With LibreCAD, that new document is a drawing.  The drawing's setup is largely determined by the preferences.  Some preferences will be governed by generally accepted practices, some will be determined by organizational requirements, and others might just be personal preferences.  However, one particularly important consideration is the output as it will determine some of the preferences, the most important of those being the page size of a printed drawing.
+As with other software; word processors, spreadsheets, etc, there are many ways a user can to setup a new document.  With LibreCAD, that new document is a drawing.  The drawing's setup is largely determined by the :ref:`Drawing Preferences <draw-prefs>`.  Some preferences will be governed by drafting conventions, some will be determined by organizational requirements, and others might just be personal preferences.  However, one particularly important consideration is the output as it will determine some of the preferences, the most important of those being the page size of a printed drawing.
 
 Under normal circumstances, after the initial installation and :ref:`configuration <configure>`, little if any configuration needs to done to be able to *create* a new drawing.  During the initial setup, the default :ref:`unit of measure <measurements>` was set (defaulting to *millimeter*) and doesn't need to be changed.  The unit of measure should be set to the unit most frequently used as it is used for **all** new drawings.  If necessary, the default can be changed in the :ref:`Application Preferences <app-prefs>` or overridden for a single drawing in the :ref:`Drawing Preferences <draw-prefs>`.
 
-Other preferences, such as line thickness, layer, pen colors, etc. can be changed to suit users' requirements.
+Other preferences and attributes, such as line thickness, layer, pen colors, etc. can be changed to suit users' requirements.
 
 
 General Guidance
 ----------------
 
-As noted above, there are a many drawing parameters that can be considered to suit the drawing requirements and final appearance.  These settings are found in the :ref:`Drawing Preferences <draw-prefs>`.  The majority of these settings can be left as the defaults as the defaults reflect generally accepted drafting standards, such as the "Text Height" of 2.5mm / .10" / 3/32".  Two of the tabs, *Paper* and *Dimensions* require particular attention.  The settings on these two tabs affect the output, and there are two parameters that are significant:
+As noted above, there are a many drawing parameters that can be considered to suit the drawing requirements and final appearance.  The majority of these settings can be left as the defaults as the defaults reflect drafting conventions, such as the "Text Height" of 2.5mm / .10" / 3/32".  Two of the tabs, *Paper* and *Dimensions* require particular attention prior to generating output.  There are two parameters that are significant the two tabs:
 
     1. "Paper format" on the *Paper* tab: Selecting a paper size and orientation will determine the "print scale" used for final output.  It also used to determine the "General Scale" (next).
     2. "General Scale" on the *Dimensions* tab: The dimension text and related parameters can be adjusted to suit the output.
 
-The "Paper format", e.g. paper size and orientation, or media, to be used is important to consider when setting the drawing preferences.  While it can be done at anytime, determining the media sooner than later will be helpful as the size and orientation will help determine the "General Scale".  The media size is entirely up to the user to determine what is available, depending on the printer or printing service that is being used.
+The "Paper format", e.g. paper size and orientation, or media, to be used is important to consider when setting the drawing preferences.  While it can be done at anytime, determining the media sooner than later will be helpful as the size and orientation will help determine the "General Scale".  The media size is entirely up to the user to determine what is available, depending on the printer or printing service that is being used.  More details can be founds in the :ref:`Printing Guides <printing>`.
 
 
 Determining Scale
@@ -33,8 +33,24 @@ These two points contradict each other as a full-scale drawing of something very
 
 Determining the General Scale parameter for the best result is simple, it is the *inverse* of the printing scale obtained prior to printing.  For example, if a print scale is determined to be "1:4", the General Scale is "4" (4:1).  See the :ref:`Printing Guide <printing-guide>` for details.  Setting the General Scale to the inverse of the print scale results in the dimension text being the defined size, e.g. 2.5mm, on the printed drawing.  The drawing is scaled down to fit the page and the dimension text is scaled up to be legible.
 
+Normal defined scales are used 
 
-.. _lines:
+:ref:`Dimensioning <dimensioning>`
+
+
+.. _entity-attribute:
+
+Line Attributes
+===============
+
+As with many other aspect of drafting, line color, thickness and type assigned to an entity, such as a line or circle are determined by drafting convention or common practices.  Within LibreCAD, the three attributes are grouped together as a "Pen":
+
+    - Color - LibreCAD has 16 default colors, but supports the RGB color space (#000000 to #FFFFFF or 16,777,215 colors).  The initial color for entities is black.
+    - Width - The default line width is 0.00mm.  Line widths of up to 2.11mm are supported.
+    - Line Type - The default line type is "Continuous" (e.g. solid).  Other line types included with LibreCAD are Dot, Dash, Divide, Center, and Border.
+
+The pen attributes can be defined for a single entity (via the *Properties* tool) , by a group of selected entities (via the *Attribute* tool), or by layer.
+
 
 Line Type & Thickness
 ---------------------
@@ -64,20 +80,6 @@ Line thickness should also be addressed when creating a new drawing.  The defaul
     "", "", "- Text - titles/major headings", ""
     "", "", "- Viewing planes", ""
     "Extra Thick", "1.00 mm", "- Title sheet border", "1.00 mm"
-
-
-.. _pens:
-
-Pens
-----
-
-A "Pen" in LibreCAD refer to the attributes assigned to an entity, such as a line or circle.  Those attributes include:
-
-    - Color - LibreCAD has 16 default colors, but supports the RGB color space (#000000 to #FFFFFF or 16,777,215 colors).  The initial color for entities is black.
-    - Width - The default line width is 0.00mm.  Line widths of up to 2.11mm are supported.
-    - Line Type - The default line type is "Continuous" (e.g. solid).  Other line types included with LibreCAD are Dot, Dash, Divide, Center, and Border.
-
-The pen attributes can be defined for a single entity (via the *Properties* tool) , by a group of selected entities (via the *Attribute* tool), or by layer.
 
 
 .. _templates:
