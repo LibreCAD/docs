@@ -88,26 +88,20 @@ Line thickness should also be addressed when creating a new drawing.  The defaul
 Templates
 ---------
 
-Templates are *prototype* drawings that provide the means to save basic drawing parameters and settings.  The parameters and settings include the settings defined in the :ref:`Drawing Preferences <draw-prefs>`, such as the paper format, main unit of measure and format, and dimension format.  Templates can also include layers and layer configuration, line type and thckness, pen coplor, and other drawing elements such as a border. These settings are inherited by the drawings created from the template.
+Templates are *prototype* drawings that provide the means to save basic parameters and settings so a drawing does not have to be configured each time a new one is started.  The parameters and settings include the settings defined in the :ref:`Drawing Preferences <draw-prefs>`, such as the paper format, main unit of measure and format, and dimension format.  Templates can also include layers and layer configuration, line type and thickness, pen color, and other drawing elements such as a border. These settings are inherited by the drawings created from the template.
 
-Templates are created by starting a new drawing, setting the desired :ref:`Drawing Preferences <draw-prefs>`, and adding any required drawing elements (e.g. layers).  Starting with a blank drawing in LibreCAD, select "Edit" from the menu bar and then "Current Drawing Preferences".  On the first tab labeled "Paper", set the paper size and orientation as desired.  Next, select the "Units" tab and set the options as desired.  Click the "Dimensions" tab and adjust the values as desired.  Check the remaining tabs and adjust those settings as necessary.  Click "OK" when done and save the file.  Templates can be saved to any location where the user has read / write permissons.
+Templates are created by starting a new drawing, setting the desired :ref:`Drawing Preferences <draw-prefs>`, and adding any required drawing elements (e.g. layers, borders, etc).  Starting with a blank drawing in LibreCAD, select "Edit" from the menu bar and then "Current Drawing Preferences".  On the first tab labeled "Paper", set the paper size and orientation as desired.  Next, select the "Units" tab and set the options as desired.  Click the "Dimensions" tab and adjust the values as desired.  Check the remaining tabs and adjust those settings as necessary.  Click "OK" when done.  Add the layers and other drawing elements as required.  Refer to :ref:`Layers <layers>` for details on using layers and setting the attributes.
+
+Once the template has been prepared, it can be saved to any location where the user has read / write permissons.
 
 LibreCAD supports the use of multiple templates. A LibreCAD user that plans on creating similar drawings may require only one or two templates.  A user that plans on several different types of drawings may desire multiple templates.  For example, templates can be setup for each paper size available and / or for each paper orientation.
 
-
-
-***************
-
-
-You may create other settings as desired or create and label layers, etc. To save the current settings as a template click on the "File" menu option on the top menu bar and then select "Save" or "Save As". In the file dialog box please select your drawing folder and then enter a file name in the box directly below the folder contents. The file type should be "Drawing Exchange 2007". Click the "Save" button to save the file. If an existing file name is used then you will be prompted to replace the file.
-
-To use the newly created template, select "File" from the top menu bar, then select "New From Template" option. This will start a new drawing using everything saved in the template drawing. Note, the new document is called "unnamed document"; it does not take the template name, only the template drawing contents.  Change the new document as you like. When you save it, you will be prompted for a folder location and filename.
-
+To use the newly created template, select "File" from the top menu bar and then select "New From Template" option. This will start a new drawing using the template drawing. Note that the new document is called "unnamed document" as any newly created drawing; it does not take the template name, only the template drawing contents.
 
 **************
 empty.dxf
 
-Open the file C:\Program Files (x86)\LibreCAD\resources\library\templates\empty.dxf
+Open the file ..\library\templates\empty.dxf
 Set your preferred settings in Current Drawing Preferences and save the file.
 Then, next time you open a new file, the settings are there.
 
@@ -122,7 +116,7 @@ James
 Default Template
 ~~~~~~~~~~~~~~~~
 
-When LibreCAD is first executed it opens a default drawing. This drawing can be specified as a template in the "Application Preferences" under the "Paths" tab. Select "Edit" from the top menu bar and then "Application Preferences" followed by the "Paths" tab. The last field listed is the "template" field. This should contain the full path and filename of the desired template to use as a default. The drawing specified here as a template will be used from three locations. The first is when LibreCAD is first executed and the default drawing is created. The second is when "File->New" is selected. The third is when the icon on the toolbar for "New" is clicked. Each time it will create a new drawing document. Each of the new drawings can be selected from the "Window" option on the top menu bar if they have been created or any drawing that may have been opened.
+When LibreCAD is first launched it opens a default drawing. This drawing can be specified as a template in the "Application Preferences" under the "Paths" tab. Select "Edit" from the top menu bar and then "Application Preferences" followed by the "Paths" tab. The last field listed is the "template" field. This should contain the full path and filename of the desired template to use as a default. The drawing specified here as a template will be used from three locations. The first is when LibreCAD is first executed and the default drawing is created. The second is when "File->New" is selected. The third is when the icon on the toolbar for "New" is clicked. Each time it will create a new drawing document. Each of the new drawings can be selected from the "Window" option on the top menu bar if they have been created or any drawing that may have been opened.
 
 In the "Paths" tab there are other file paths to be specified. The symbol or library folder location is called "Parts Library". This folder specification should contain the full path and name of the folder mentioned earlier in regard to parts libraries. The library folder can contain additional folders to categorize the items. For instance: floor plan, electric, electronic, landscape, flow diagram, plumbing, hardware, etc. The subfolders are required. LibreCAD does not provide a mechanism to use the library directory directly. A user could use it for template storage if they desired and then the templates could be used by the "New From Template" option or for the default template setting. The LibreCAD "Library Browser" will only present the created folders (and subfolders) with the drawings within the browser.
 
