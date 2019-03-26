@@ -96,7 +96,7 @@ The *Path* tab allows users to specify the directory paths to additional resourc
 
     - *Translations*: Language files for the GUI and / or command languages.
     - *Hatch Patterns, Fonts, Parts Libraries*: user created or obtained from other sources such as the Parts Library wiki
-    - *Template*: load the user-defined template drawing when starting the application
+    - *Template*: specify the full path and filename of a user-defined drawing template to load when launching the application or starting a *new* drawing
     - *Variable File*: load a user-defined variable file when starting the application (see the :ref:`Command Line <commandline>` guide for details on using commands / variables files.)
 
 

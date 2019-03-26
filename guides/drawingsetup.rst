@@ -98,25 +98,13 @@ LibreCAD supports the use of multiple templates. A LibreCAD user that plans on c
 
 To use the newly created template, select "File" from the top menu bar and then select "New From Template" option. This will start a new drawing using the template drawing. Note that the new document is called "unnamed document" as any newly created drawing; it does not take the template name, only the template drawing contents.
 
-**************
-empty.dxf
 
-Open the file ..\library\templates\empty.dxf
-Set your preferred settings in Current Drawing Preferences and save the file.
-Then, next time you open a new file, the settings are there.
+Default Templates
+~~~~~~~~~~~~~~~~~
 
-empty.dxf is the default template, loaded when you start up LibreCAD.
-Also, when you create a frame inside empty.dxf, you will always start with that.
-You can have more templates e.g. for different paper size or orientation and use New From Template to open them. 
+When LibreCAD is first launched it creates a new drawing using a *default template*.  Further, when a new drawing is created within LibreCAD, either from the **File -> New** menu or when the "New" icon on the toolbar is clicked, the default template is used.  The default template can be either the template included with LibreCAD or a user-specified template.
 
-Replacing the default drawing on startup (and New) has been resolved by adding a real drawing name to the end of the path for the template directory.   I located this answer under the forum for CAD-templates-blocks.
-James
+When installing LibreCAD, a resource directory is created including, among other things, a default template named *empty.dxf*.  On MS Windows, the template is found in *C:\Program Files (x86)\LibreCAD\resources\library\templates\*.  
 
-
-Default Template
-~~~~~~~~~~~~~~~~
-
-When LibreCAD is first launched it opens a default drawing. This drawing can be specified as a template in the "Application Preferences" under the "Paths" tab. Select "Edit" from the top menu bar and then "Application Preferences" followed by the "Paths" tab. The last field listed is the "template" field. This should contain the full path and filename of the desired template to use as a default. The drawing specified here as a template will be used from three locations. The first is when LibreCAD is first executed and the default drawing is created. The second is when "File->New" is selected. The third is when the icon on the toolbar for "New" is clicked. Each time it will create a new drawing document. Each of the new drawings can be selected from the "Window" option on the top menu bar if they have been created or any drawing that may have been opened.
-
-In the "Paths" tab there are other file paths to be specified. The symbol or library folder location is called "Parts Library". This folder specification should contain the full path and name of the folder mentioned earlier in regard to parts libraries. The library folder can contain additional folders to categorize the items. For instance: floor plan, electric, electronic, landscape, flow diagram, plumbing, hardware, etc. The subfolders are required. LibreCAD does not provide a mechanism to use the library directory directly. A user could use it for template storage if they desired and then the templates could be used by the "New From Template" option or for the default template setting. The LibreCAD "Library Browser" will only present the created folders (and subfolders) with the drawings within the browser.
+As an alternative to the LibreCAD provided template, a user-specified template can be configured in the :ref:`Application Preferences <app-prefs>` on the **Paths** tab.  The specified template is used instead of the default LibreCAD template when the application is launched and for new drawings.
 
