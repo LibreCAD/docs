@@ -41,7 +41,7 @@ Normal defined scales are used
 .. _entity-attribute:
 
 Line Attributes
-===============
+---------------
 
 As with many other aspect of drafting, line color, thickness and type assigned to an entity, such as a line or circle are determined by drafting convention or common practices.  Within LibreCAD, the three attributes are grouped together as a "Pen":
 
@@ -53,7 +53,7 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 
 
 Line Type & Thickness
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 Line thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, arcitectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/C paper sizes:
 
