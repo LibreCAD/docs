@@ -20,7 +20,8 @@ Other than "Reference", each of the type of dimension have a corresponding dimen
 Rules of Dimensioning
 ---------------------
 
-Each dimension should be written clearly with only one way to be interpreted.
+   - Dimension must be clearly understood by the drawing's users.
+   - Each dimension should be written clearly with only one way to be interpreted.
 There is no need to calculate, scale, or assume any dimension to define or check features of the object.
 Dimensions should be placed outside the part.
 Enough space should be provided to avoid crowding and misinterpretation.
