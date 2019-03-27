@@ -7,6 +7,7 @@ Dimensioning
 ============
 
 Dimensions are used to define length, width, height of a line entity, or the diameter of circle entity or radius of arc entity.  Types of dimensioning include:
+
    - Linear
    - Aligned
    - Vertical and horizontal
@@ -20,23 +21,27 @@ Other than "Reference", each of the type of dimension have a corresponding dimen
 Rules of Dimensioning
 ---------------------
 
-   - Dimension must be clearly understood by the drawing's users.
-   - Each dimension should be written clearly with only one way to be interpreted.
-There is no need to calculate, scale, or assume any dimension to define or check features of the object.
-Dimensions should be placed outside the part.
-Enough space should be provided to avoid crowding and misinterpretation.
-Dimensions are related to the view that best shows the entity being dimensioned.
-Each entity should be dimensioned and dimensioned only once.
-Extension lines and object lines should not overlap.
-Multiple rows of dimensions are spaced uniformly, with at least 1/4” between rows and 3/8” from views.
-Place dimensions outside of the views except for large circles.  Keep dimensions at least 3/8 inches or 10 mm from the view.
-Place longer dimensions outside of shorter ones.
-Longer dimensions are placed outside shorter ones so that witness lines do not cross dimension lines.
-Place the dimension text between the dimension lines.
-Dimension and extension lines should not cross.
-Use arrow heads at the end of the dimension lines.
-Dimension features or surfaces should be done to a logical reference point.
-Circles should be dimensioned with diameters and arcs with a radius.
-Center lines or marks should be used on all circles.
-A center line should be extended and used as an extension line.
+General:
+
+   - Dimensions must be clear, concise and complete.
+   - Provide space between dimensions to ensure legibility.
+   - There should be only one way to interprete any one dimension.
+   - The view that best shows an entity is the view that should be dimensioned.
+   - Each entity on the drawing should be dimensioned and dimensioned only once.
+   - There is no need to calculate, scale, or assume any dimension to define or check features of the object.
+   - When there are multiple lines of dimensions, the longer dimensions are to be placed outside of shorter ones.
+   - Dimension and extension lines should not cross.
+   - Extension lines and entity lines should not overlap.
+   - Use arrow heads or slash marks at the end of the dimension lines.
+
+Layout:
+
+   - Dimension features or surfaces should be referenced to a logical origin point.
+   - Except for large circles and arcs, all dimensions should be placed outside the part and spaced 10mm / 3/8" from the entity.
+   - Dimensioned circles diameters and arcs with radiuses.
+   - Center lines or center marks should be used on all circles.
+   - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between diminsion lines.
+   - Extended center lines and use as the extension line when possible.
+
+
 
