@@ -92,10 +92,15 @@ Engineer's scale
 Also see :ref:`Dimensioning <dimensioning>` for additional information on scales and scaling drawings.
 
 
+.. _entity-attribute:
+
+Attributes
+----------
+
 .. _layers:
 
 Layers
-------
+~~~~~~
 
 A basic feature of CAD is the use of layers to organize a drawing. Every entity in a drawing is on exactly one layer, however one layer can contain multiple entities. Typically entities with a common 'function' or common attributes are put on the same layer. For example, it might be might necessary to put all axis in a drawing on a layer named 'axis'.  Each layer can be defined with a "Default Pen" (see :ref: `Entity Attributes below`). Each entity can have its own attributes or have its attributes defined by the layer it is placed on. In the latter case for example you can change the colour of all the entities on the "axes" layer by setting the colour (red for example) for that layer.
 
@@ -104,7 +109,7 @@ In traditional manual drafting, a similar approach was used. Whether for Enginee
 Layers are displayed in alpha-numerical order in the layer list.  However this is does not relate to the order that each entity appears on the z-axis of the drawing.  Each entity can be raised or lowered with respect to others, and each layer can contain entities that are at different points on the z-axis.  Use the four Draw Order commands (under the Tools -> Modify -> Order menu) to move entities up or down the z-axis. 
 
 Creating a Layer
-~~~~~~~~~~~~~~~~
+````````````````
 
 Layers are usually created to hold entities with common attributes. Creating a layer is simple:
 
@@ -115,7 +120,7 @@ Layers are usually created to hold entities with common attributes. Creating a l
 
 
 Changing an Entity's Layer
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````
 
 Sometimes it is necessary to change an entity's layer. To move one or more entities between layers:
 
@@ -128,7 +133,7 @@ Alternatively activate the option *Modify layer of selected entities, at layer a
 
 
 Construction Layers
-~~~~~~~~~~~~~~~~~~~
+```````````````````
 
 A construction layer is designed to hold geometry construction lines:
 
@@ -137,17 +142,17 @@ A construction layer is designed to hold geometry construction lines:
 
 You can toggle between construction and normal mode three ways:
 
-    - clcik the right most layer icon  |icon03|
+    - When creating or modifying a layer, click the *Construction Layer* checkbox in the *Layer Setting* dialog
     - Right-click on a named layer in the *Layer List* and choose "Toggle Construction Layer".
     - Click the "Toggle construction lines" icon |icon04| / |icon05| in the *Layer List*
 
 For more details on hiding, locking and deleting layers, refer to **Layer List Dock** in :ref:`Dock Widgets <widgets>`
 
 
-.. _entity-attribute:
+.. _pens:
 
-Entity Attributes
------------------
+Pen
+~~~
 
 As with many other aspects of drafting line color, thickness and type assigned to an entity, such as a line or circle are determined by drafting convention or common practices.  Within LibreCAD, the three attributes are grouped together as a "Pen":
 
@@ -159,7 +164,7 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 
 
 Line Type & Thickness
-~~~~~~~~~~~~~~~~~~~~~
+`````````````````````
 
 Line thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, arcitectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/C paper sizes:
 
