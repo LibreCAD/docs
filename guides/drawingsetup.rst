@@ -39,7 +39,7 @@ Metric units
 
 .. csv-table:: 
    :header: "Drawing Scale", "Common Use"
-   :widths: 30, 50
+   :widths: 25, 75
 
 	"1:1", "Mockups / Samples / Small details"
 	"1:2", "Construction details"
@@ -58,7 +58,7 @@ Imperial units
 
 .. csv-table:: 
    :header: "Drawing Scale", "Ratio", "Common Use"
-   :widths: 30, 20, 50
+   :widths: 25, 10, 65
 
     "Full scale", "1:1", "Mockups / Samples / Small details"
     "3″=1′-0″", "1:4", "Small details"
@@ -79,7 +79,7 @@ Engineer's scale
 
 .. csv-table:: 
    :header: "Drawing Scale", "Ratio", "Common Use"
-   :widths: 30, 20, 50
+   :widths: 25, 10, 65
 
 	"1″=10′-0″", "120", "Details"
 	"1″=20′-0″", "240", "Details / Working plans"
@@ -97,36 +97,34 @@ Also see :ref:`Dimensioning <dimensioning>` for additional information on scales
 Layers
 ------
 
-A basic function of CAD is the use of layers to organize a drawing. Every entity in a drawing is on exactly one layer, however one layer can contain multiple entities. Typically entities with a common 'function' or common attributes are put on the same layer. For example, it might be might necessary to put all axis in a drawing on a layer named 'axis'.  Each layer can be defined with a "Default Pen" (color, line width, line style). Each entity can have its own attributes or have its attributes defined by the layer it is placed on. In the latter case for example you can change the colour of all the entities on the "axes" layer by setting the colour (red for example) for that layer.
+A basic feature of CAD is the use of layers to organize a drawing. Every entity in a drawing is on exactly one layer, however one layer can contain multiple entities. Typically entities with a common 'function' or common attributes are put on the same layer. For example, it might be might necessary to put all axis in a drawing on a layer named 'axis'.  Each layer can be defined with a "Default Pen" (see :ref: `Entity Attributes below`). Each entity can have its own attributes or have its attributes defined by the layer it is placed on. In the latter case for example you can change the colour of all the entities on the "axes" layer by setting the colour (red for example) for that layer.
 
 In traditional manual drafting, a similar approach was used. Whether for Engineering, Architectural or Construction drawing etc. layers were used to show different aspects of a drawing — for example this could be a layer set up for showing centre lines on an engineering drawing or to show different building systems, such as wiring and air conditioning. The layers were often drawn on separate transparent sheets of paper. These sheets were then overlaid one on top of another to produce final drawings.
 
-For more details on layers, refer to **Layer List Dock** in :ref:`Dock Widgets <widgets>`
-
+Layers are displayed in alpha-numerical order in the layer list.  However this is does not relate to the order that each entity appears on the z-axis of the drawing.  Each entity can be raised or lowered with respect to others, and each layer can contain entities that are at different points on the z-axis.  Use the four Draw Order commands (under the Tools -> Modify -> Order menu) to move entities up or down the z-axis. 
 
 Creating a Layer
 ~~~~~~~~~~~~~~~~
 
-Layers are usually created to hold objects with common attributes. Creating a layer is simple:.
+Layers are usually created to hold entities with common attributes. Creating a layer is simple:
 
-    - Click the "''Add a layer'' icon |icon13| - Add a new layer. *"
+    - Click the **Add a layer** icon |icon01|
     - Specify a *Layer Name*
     - Optionally specify the Color, Width and Line Type
-	- Click Ok
+	- Click **Ok**.
 
 
 Changing an Entity's Layer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sometimes it is necessary to change an enitiy's layer. This describes how to move one or more objects between layers.
+Sometimes it is necessary to change an entity's layer. To move one or more entities between layers:
 
-    - From the menu select Modify->Attributes
-    - Select the objects you want to change the layer of. See Selections for a detailed description of how to select objects
-    - Select the continue action button (double right arrow)
-    - In the Attributes dialog, drop down the Layer selection box and choose the desired layer.
+    - Select the entities to be moved to a different layer
+    - From the menu select **Tools -> Modify -> Attributes**, or click the **Attributes** icon |icon02|
+    - In the *Attributes* dialog, select the desired layer from the drop-down the Layer selection box
+	- Click **Ok**.
 
-Alternatively you can activate the option Application Preferences → Defaults → Modify layer of selected entities, at layer activation
-With this option enabled you can move objects to a layer by selecting the objects and then selecting the destination layer.
+Alternatively activate the option *Modify layer of selected entities, at layer activation* in the **Application Preferences, Defaults** tab .  With this option enabled entities can be assigned to a layer by selecting the entities and then selecting the destination layer.
 
 
 Construction Layers
@@ -139,23 +137,19 @@ A construction layer is designed to hold geometry construction lines:
 
 You can toggle between construction and normal mode three ways:
 
-    - The right most layer icon Layer icons.png
-    - Right-click on a layer and choose "Toggle Construction Layer".
-    - The checkbox in the layer settings window
+    - clcik the right most layer icon  |icon03|
+    - Right-click on a named layer in the *Layer List* and choose "Toggle Construction Layer".
+    - Click the "Toggle construction lines" icon |icon04| / |icon05| in the *Layer List*
 
-
-Ordering Layers
-~~~~~~~~~~~~~~~
-
-Layers are displayed in alpha-numerical order in the layer list.  However this is does not relate to the order that each entity appears in the z-axis of the drawing.  Each entity can be raised or lowered with respect to others, and each layer can contain entities that are at different points on the z-axis.  Use the four Draw Order commands (under the Edit → Draw Order menu) to move entities up or down the z-axis. 
+For more details on hiding, locking and deleting layers, refer to **Layer List Dock** in :ref:`Dock Widgets <widgets>`
 
 
 .. _entity-attribute:
 
-Line Attributes
----------------
+Entity Attributes
+-----------------
 
-As with many other aspect of drafting, line color, thickness and type assigned to an entity, such as a line or circle are determined by drafting convention or common practices.  Within LibreCAD, the three attributes are grouped together as a "Pen":
+As with many other aspects of drafting line color, thickness and type assigned to an entity, such as a line or circle are determined by drafting convention or common practices.  Within LibreCAD, the three attributes are grouped together as a "Pen":
 
     - Color - LibreCAD has 16 default colors, but supports the RGB color space (#000000 to #FFFFFF or 16,777,215 colors).  The initial color for entities is black.
     - Width - The default line width is 0.00mm.  Line widths of up to 2.11mm are supported.
@@ -221,7 +215,19 @@ When installing LibreCAD, a resource directory is created including, among other
 As an alternative to the LibreCAD provided template, a user-specified template can be configured in the :ref:`Application Preferences <app-prefs>` on the **Paths** tab.  The specified template is used instead of the default LibreCAD template when the application is launched and for new drawings.
 
 
-.. |icon13| image:: /images/icons/add.svg
+.. |icon01| image:: /images/icons/add.svg
+            :height: 24
+            :width: 24
+.. |icon02| image:: /images/icons/attributes.svg
+            :height: 24
+            :width: 24
+.. |icon03| image:: /images/icons/rename_active_block.svg
+            :height: 24
+            :width: 24
+.. |icon04| image:: /images/icons/construction_layer.svg
+            :height: 24
+            :width: 24
+.. |icon05| image:: /images/icons/noconstruction.svg
             :height: 24
             :width: 24
 

@@ -53,10 +53,10 @@ Printing to Scale with a Border and Title Block
 
 To print a drawing with a drawing border / title block template, but to a specific scale requires several steps:
 
-* Starts with a drawing drawn full scale (1:1),
-* Select the paper size for the print and adjust the drawing scale to suit,
-* Insert the page border and title block,
-* Print.
+- Starts with a drawing drawn full scale (1:1),
+- Select the paper size for the print and adjust the drawing scale to suit,
+- Insert the page border and title block,
+- Print.
 
 Specifically, the process is as follows.  Starting with a full-scale (1:1) drawing:
 
@@ -64,7 +64,6 @@ Specifically, the process is as follows.  Starting with a full-scale (1:1) drawi
 2. Set or confirm the paper layout for the current drawing:
 
     a. Select Options -> Current Drawing Preferences.
-
     b. Set format as desired, e.g. A4, Landscape, and click ‘OK’
 
 3. To establish the largest scale the can be used for the paper size:
