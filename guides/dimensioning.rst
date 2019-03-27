@@ -28,20 +28,15 @@ General:
    - There should be only one way to interprete any one dimension.
    - The view that best shows an entity is the view that should be dimensioned.
    - Each entity on the drawing should be dimensioned and dimensioned only once.
-   - There is no need to calculate, scale, or assume any dimension to define or check features of the object.
+   - There is no need to calculate or scale a dimension of an entity.
+   - A dimension should be referenced to a logical origin point.
    - When there are multiple lines of dimensions, the longer dimensions are to be placed outside of shorter ones.
-   - Dimension and extension lines should not cross.
-   - Extension lines and entity lines should not overlap.
-   - Use arrow heads or slash marks at the end of the dimension lines.
-
-Layout:
-
-   - Dimension features or surfaces should be referenced to a logical origin point.
    - Except for large circles and arcs, all dimensions should be placed outside the part and spaced 10mm / 3/8" from the entity.
    - Dimensioned circles diameters and arcs with radiuses.
    - Center lines or center marks should be used on all circles.
-   - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between diminsion lines.
    - Extended center lines and use as the extension line when possible.
-
-
+   - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines.
+   - Dimension and extension lines should not cross.
+   - Extension lines and entity lines should not overlap.
+   - Use arrow heads or slash marks at the end of the dimension lines.
 
