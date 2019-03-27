@@ -17,6 +17,8 @@ Dimensions are used to define length, width, height of a line entity, or the dia
 
 Other than "Reference", each of the type of dimension have a corresponding dimension :ref:`tool <tools>`.  A reference dimension can be of any type, but not used to to define an entity.  It might be for information purposes only or  an accumulation of other dimensions, etc.  The text for a reference dimension is typically enclosed in parentheses ().
 
+Dimensions are configured in the :ref:`Drawing Preferences <draw-prefs>`.  Most of the default values are acceptable for most drawings and reflect the generally accepted practices for drafting.  The value for the *General Scale* will need to be adjusted when generating a print.  Details are available in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
+
 
 Rules of Dimensioning
 ---------------------

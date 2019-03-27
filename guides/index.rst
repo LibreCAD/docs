@@ -17,5 +17,5 @@ The user guides provide the steps necessary to perform a various tasks with Libr
     Blocks <blocks>
     Dimensioning <dimensioning>
     The Command Line <commandline>
-    Printing Guides <printing>
+    Printing <printing>
 
