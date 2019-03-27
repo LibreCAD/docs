@@ -167,7 +167,7 @@ Line thickness should also be addressed when creating a new drawing.  The defaul
 
 .. csv-table:: 
    :header: "Line Weights", "Width Range", "Purpose", "Width"
-   :widths: 20, 25, 30, 25
+   :widths: 15, 20, 40, 25
 
     "Extra Thin", "0.00 to 0.10 mm", "- Hidden lines", "0.00 mm"
     "", "", "- Hatching", ""
