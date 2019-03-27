@@ -113,10 +113,10 @@ Creating a Layer
 
 Layers are usually created to hold entities with common attributes. Creating a layer is simple:
 
-    - Click the **Add a layer** icon |icon01|
-    - Specify a *Layer Name*
-    - Optionally specify the Color, Width and Line Type
-	- Click **Ok**.
+	- Click the **Add a layer** icon |icon01|.
+	- Specify a *Layer Name*.
+	- Optionally specify the Color, Width and Line Type.
+	- Click **Ok**. 
 
 
 Changing an Entity's Layer
@@ -124,9 +124,9 @@ Changing an Entity's Layer
 
 Sometimes it is necessary to change an entity's layer. To move one or more entities between layers:
 
-    - Select the entities to be moved to a different layer
-    - From the menu select **Tools -> Modify -> Attributes**, or click the **Attributes** icon |icon02|
-    - In the *Attributes* dialog, select the desired layer from the drop-down the Layer selection box
+	- Select the entities to be moved to a different layer.
+	- From the menu select **Tools -> Modify -> Attributes**, or click the **Attributes** icon |icon02|.
+	- In the *Attributes* dialog, select the desired layer from the drop-down the Layer selection box.
 	- Click **Ok**.
 
 Alternatively activate the option *Modify layer of selected entities, at layer activation* in the **Application Preferences, Defaults** tab .  With this option enabled entities can be assigned to a layer by selecting the entities and then selecting the destination layer.
@@ -137,14 +137,14 @@ Construction Layers
 
 A construction layer is designed to hold geometry construction lines:
 
-    - A construction layer won't appear on printout;
-    - All lines of a construction layer are infinite in length.
+	- A construction layer won't appear on printout.
+	- All lines of a construction layer are infinite in length.
 
 You can toggle between construction and normal mode three ways:
 
-    - When creating or modifying a layer, click the *Construction Layer* checkbox in the *Layer Setting* dialog
-    - Right-click on a named layer in the *Layer List* and choose "Toggle Construction Layer".
-    - Click the "Toggle construction lines" icon |icon04| / |icon05| in the *Layer List*
+	- When creating or modifying a layer, click the *Construction Layer* checkbox in the *Layer Settings* dialog.
+	- Right-click on a named layer in the *Layer List* and choose "Toggle Construction Layer".
+	- Click the "Toggle construction lines" icon |icon04| / |icon05| in the *Layer List*.
 
 For more details on hiding, locking and deleting layers, refer to **Layer List Dock** in :ref:`Dock Widgets <widgets>`
 
