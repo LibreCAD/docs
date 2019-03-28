@@ -218,18 +218,18 @@ As an alternative to the LibreCAD provided template, a user-specified template c
 
 
 .. |icon01| image:: /images/icons/add.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon02| image:: /images/icons/attributes.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon03| image:: /images/icons/rename_active_block.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon04| image:: /images/icons/construction_layer.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon05| image:: /images/icons/noconstruction.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 
