@@ -14,7 +14,6 @@ The user guides provide the steps necessary to perform a various tasks with Libr
    :maxdepth: 1
 
     Drawing Setup <drawingsetup>
-    Layers <layers>
     Blocks <blocks>
     Dimensioning <dimensioning>
     The Command Line <commandline>
