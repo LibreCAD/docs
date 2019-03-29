@@ -172,23 +172,26 @@ Line thickness should also be addressed when creating a new drawing.  The defaul
     "Extra Thin", "0.00, 0.05, 0.09", "- Hidden lines", "0.00 mm"
     "", "", "- Hatching", ""
     "", "", "- Reference line", ""
-    "Thin", "*0.13*, 0.15, *0.18*, 0.20, *0.25*", "- Outlines", "0.18 mm"
+    "Thin", "**0.13**, 0.15, **0.18**, 0.20, **0.25**", "- Outlines", "0.18 mm"
     "", "", "- Centre lines", ""
     "", "", "- Dimension lines", ""
     "", "", "- Leader and extension", ""
     "", "", "- Phantom lines", ""
     "", "", "- Grid lines", ""
     "", "", "- Text", ""
-    "Medium", "0.30, *0.35*, 0.40, *0.50*", "- Hidden lines", "0.35 mm"
+    "Medium", "0.30, **0.35**, 0.40, **0.50**", "- Hidden lines", "0.35 mm"
     "", "", "- Text normal (0.30 mm)", ""
     "", "", "- Text - sub-headings (0.50 mm)", ""
     "", "", "- Visible object outlines", ""
-    "Thick", "*0.70*", "- Cutting lines", "0.70 mm"
+    "Thick", "**0.70**", "- Cutting lines", "0.70 mm"
     "", "", "- Match lines", ""
     "", "", "- Section lines", ""
     "", "", "- Text - titles/major headings", ""
     "", "", "- Viewing planes", ""
-    "Extra Thick", "*1.00*", "- Title sheet border", ""
+    "Extra Thick", "**1.00**", "- Title sheet border", ""
+
+
+Note: Pen sizes shown in *bold* are ISO standard sizes.
 
 
 .. _templates:
