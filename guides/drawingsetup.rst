@@ -191,7 +191,7 @@ Line thickness should also be addressed when creating a new drawing.  The defaul
     "Extra Thick", "**1.00**", "- Title sheet border", ""
 
 
-Note: Pen sizes shown in *bold* are ISO standard sizes.
+Note: Pen sizes shown in **bold** are ISO standard sizes.
 
 
 .. _templates:
