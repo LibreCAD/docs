@@ -9,8 +9,8 @@ Dimensioning
 Dimensioning an object on a drawing provides the information necessary to be able to interpet the drawn object. Dimensioning must be:
 
    - Accurate
-   - Complete
    - Legible
+   - Complete
 
 Dimensions are used to define length, width, height of a line entity, or the diameter of circle entity or radius of arc entity.  Types of dimensioning include:
 
@@ -36,18 +36,17 @@ A dimension consists of a few parts:
 Dimension Defaults
 
 .. csv-table:: 
-   :widths:50,25,25
+   :widths:55,15,15,15
    :width:80%
    :header-rows:1
    :stub-columns:0
 
-    "Dimension Componet", "mm", "Decimal Inch", "Fractional Inch"
+    "Dimension Component", "mm", "Decimal Inch", "Fractional Inch"
     "Dimension text height", "2.5", ".100", "3/32"
     "Dimension line gap", "1.5", ".0625", "1/16
     "Arrow head", "3", ".125", "1/8
     "Extension line - Enlarge", "3", ".125", "1/8
     "Extension line - Offset", "1.5", ".0625", "1/16
-
 
 
 Refer to :ref:`Dimensions <dimn-prefs>` in the **Drawing Preferences** reference section to change the dimensioning configuration.  The default values are acceptable for most drawings and reflect the generally accepted practices for drafting.  The value for the *General Scale* will need to be adjusted when generating a print.  Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
