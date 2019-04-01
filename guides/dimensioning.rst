@@ -35,10 +35,10 @@ A dimension consists of a few parts:
 
 
 Dimension Defaults
-~~~~~~~~~~~~~~~~~~
+------------------
 
 .. csv-table:: 
-   :widths: 55, 15, 15, 15
+   :widths: 40, 20, 20, 20
    :header-rows: 1
    :stub-columns: 0
 
