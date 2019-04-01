@@ -35,7 +35,7 @@ A dimension consists of a few parts:
     :scale: 50
     :alt: Dimension parts
 
-The appearance of the dimensions are configured on the :ref:`Dimensions <dimn-prefs>` tab in the **Drawing Preferences** and as with many other aspects of a :ref: `drawing's setup <drawing-setup>`, there are some generally accepted values for dimensioning:
+The appearance of the dimensions are configured on the :ref:`Dimensions <dimn-prefs>` tab in the **Drawing Preferences** and as with many other aspects of a :ref:`drawing's setup <drawing-setup>`, there are some generally accepted values for dimensioning:
 
 .. csv-table:: 
    :widths: 40, 20, 20, 20
