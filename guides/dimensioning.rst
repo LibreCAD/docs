@@ -37,6 +37,7 @@ Dimension Defaults
 
 .. csv-table:: 
    :widths: 55, 15, 15, 15
+   :width: 80
 
     "Dimension Component", "mm", "Decimal Inch", "Fractional Inch"
     "Dimension text height", "2.5", ".100", "3/32"
