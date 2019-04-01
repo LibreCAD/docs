@@ -83,8 +83,8 @@ Example
 .. figure:: /images/dimnEg.png
     :width: 948px
     :height: 492px
-    :align: right
-    :scale: 50
+    :align: center
+    :scale: 75
     :alt: Dimension example
 
 
