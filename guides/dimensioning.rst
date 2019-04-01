@@ -6,7 +6,7 @@
 Dimensioning
 ============
 
-Dimensioning an object on a drawing provides the information necessary to be able to interpet the drawn object and ultimate produce the object, whether it be a building or a widget.  Dimensions are used to define length, width, height of a line entity, or the diameter of circle entity or radius of arc entity.  A drawing's dimensions must be:
+Dimensioning an object on a drawing provides the information necessary to be able to interpret the drawn object and ultimate produce the object, whether it be a building or a widget.  Dimensions are used to define length, width, height of a line entity, or the diameter of circle entity or radius of arc entity.  A drawing's dimensions must be:
 
    - Accurate
    - Legible
@@ -58,7 +58,7 @@ Rules for Dimensioning
 
 A few rules will help ensure dimensions must be accurate, legible and complete:
 
-   - There should be only one way to interprete any one dimension.
+   - There should be only one way to interpret any one dimension.
    - Dimension and extension lines should not cross.
    - Extension lines and entity lines should not overlap.
    - Provide space between dimensions to ensure legibility.
@@ -67,10 +67,24 @@ A few rules will help ensure dimensions must be accurate, legible and complete:
    - There is no need to calculate or scale a dimension of an entity.
    - A dimension should be referenced to a logical origin point.
    - When there are multiple lines of dimensions, the longer dimensions are to be placed outside of shorter ones.
-   - Except for large circles and arcs, all dimensions should be placed outside the part and spaced 10mm / 3/8" from the entity.
+   - Except for large circles and arcs, all dimensions should be placed outside the part and spaced 10mm / 3/8" from the entity (*).
    - Dimensioned circles diameters and arcs with radiuses.
    - Center lines or center marks should be used on all circles and arcs.
    - Extended a circle's or arc's center lines and use as extensions line when possible.
-   - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines.
+   - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines (*).
    - Use arrow heads or slash marks at the end of the dimension lines.
+
+*: The minimum spacing need to be scaled with the drawing.  For example, if the drawing is 1:10, the spacing will need to be 60 mm between dimension lines and 100 mm from the entity.
+
+
+Example
+-------
+
+.. figure:: /images/dimnEg.png
+    :width: 948px
+    :height: 492px
+    :align: right
+    :scale: 50
+    :alt: Dimension example
+
 
