@@ -33,10 +33,13 @@ A dimension consists of a few parts:
     :scale: 50
     :alt: Dimension parts
 
+
 Dimension Defaults
+~~~~~~~~~~~~~~~~~~
 
 .. csv-table:: 
    :widths: 55, 15, 15, 15
+   :width: 80 %
    :header-rows: 1
    :stub-columns: 0
 
@@ -46,26 +49,6 @@ Dimension Defaults
     "Arrow head", "3", ".125", "1/8"
     "Extension line - Enlarge", "3", ".125", "1/8"
     "Extension line - Offset", "1.5", ".0625", "1/16"
-
-
-
-.. list-table:: Frozen Delights!
-   :widths: 15 10 30
-   :header-rows: 1
-
-   * - Treat
-     - Quantity
-     - Description
-   * - Albatross
-     - 2.99
-     - On a stick!
-   * - Crunchy Frog
-     - 1.49
-     - If we took the bones out, it wouldn't be
-       crunchy, now would it?
-   * - Gannet Ripple
-     - 1.99
-     - On a stick!
 
 
 Refer to :ref:`Dimensions <dimn-prefs>` in the **Drawing Preferences** in the reference section to change the dimensioning configuration.  The default values are acceptable for most drawings and reflect the generally accepted practices for drafting.  The value for the *General Scale* will need to be adjusted when generating a print.  Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
