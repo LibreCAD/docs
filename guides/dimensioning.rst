@@ -39,7 +39,6 @@ Dimension Defaults
 
 .. csv-table:: 
    :widths: 55, 15, 15, 15
-   :width: 80 %
    :header-rows: 1
    :stub-columns: 0
 
