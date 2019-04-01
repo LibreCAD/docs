@@ -36,10 +36,13 @@ A dimension consists of a few parts:
 Dimension Defaults
 
 .. csv-table:: 
-   :header: "Dimension Component", "mm", "Decimal Inch", "Fractional Inch"
    :widths: 55, 15, 15, 15
+   :width:80%
+   :header-rows:1
+   :stub-columns:0
 
-    
+
+    "Dimension Component", "mm", "Decimal Inch", "Fractional Inch"
     "Dimension text height", "2.5", ".100", "3/32"
     "Dimension line gap", "1.5", ".0625", "1/16"
     "Arrow head", "3", ".125", "1/8"
