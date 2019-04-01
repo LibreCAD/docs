@@ -45,9 +45,9 @@ The appearance of the dimensions are configured on the :ref:`Dimensions <dimn-pr
     "Dimension Component", "mm", "Decimal Inch", "Fractional Inch"
     "Dimension text height", "2.5", ".100", "3/32"
     "Dimension line gap", "1.5", ".0625", "1/16"
-    "Arrow size", "3", ".125", "1/8"
-    "Extension line - Enlarge", "3", ".125", "1/8"
     "Extension line - Offset", "1.5", ".0625", "1/16"
+    "Extension line - Enlarge", "3", ".125", "1/8"
+    "Arrow size", "3", ".125", "1/8"
 
 
 The size of each dimension component is the 'real world' size.  That is to say that if the text height is set to 2.5 mm, even if the drawing is scaled down when printed the text would remain as 2.5 mm on the printed drawing.  The value for the *General Scale* will need to be adjusted when generating a print.  Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
