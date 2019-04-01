@@ -36,23 +36,22 @@ A dimension consists of a few parts:
 Dimension Defaults
 
 .. csv-table:: 
-   :widths:55,15,15,15
+   :header: "Dimension Component", "mm", "Decimal Inch", "Fractional Inch"
+   :widths: 55, 15, 15, 15
 
-    "Dimension Component", "mm", "Decimal Inch", "Fractional Inch"
+    
     "Dimension text height", "2.5", ".100", "3/32"
-    "Dimension line gap", "1.5", ".0625", "1/16
-    "Arrow head", "3", ".125", "1/8
-    "Extension line - Enlarge", "3", ".125", "1/8
-    "Extension line - Offset", "1.5", ".0625", "1/16
+    "Dimension line gap", "1.5", ".0625", "1/16"
+    "Arrow head", "3", ".125", "1/8"
+    "Extension line - Enlarge", "3", ".125", "1/8"
+    "Extension line - Offset", "1.5", ".0625", "1/16"
 
 
 Refer to :ref:`Dimensions <dimn-prefs>` in the **Drawing Preferences** in the reference section to change the dimensioning configuration.  The default values are acceptable for most drawings and reflect the generally accepted practices for drafting.  The value for the *General Scale* will need to be adjusted when generating a print.  Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
 
 
-Rules of Dimensioning
----------------------
-
-General:
+Rules for Dimensioning
+----------------------
 
    - Dimensions must be clear, concise and complete.
    - Provide space between dimensions to ensure legibility.
