@@ -93,10 +93,10 @@ Leaders
 While leaders do not a dimension an entity, they are closely related to dimensioning as they are important for annotating and adding clarity to entities.  Leaders provide the ability to place pointers to identify a specific area of interest when adding a note and linking it to a particulate object.  Leaders take their setting from the :ref:`Dimensions <dimn-prefs>`.
 
 .. figure:: /images/leaderEg.png
-    :width: 1062px
-    :height: 393px
+    :width: 748px
+    :height: 278px
     :align: center
-    :scale: 50
+    :scale: 75
     :alt: Leader example
 
 .. _text:
