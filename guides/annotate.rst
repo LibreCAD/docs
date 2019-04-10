@@ -6,7 +6,9 @@
 Annotating a Drawing
 ====================
 
-A drawing in and of itself provides a image of what an object might look like, but it doesn't provide a complete description of the object. ...
+A drawing in and of itself provides an image of what an object might look like, but it doesn’t provide a complete description of the object. Knowing how big the object is also very important, thus the need to provide the measurements and other textual information to describe the object.  Together, dimensions and text, is called *annotating* a drawing.
+
+Dimensioning an object on a drawing provides the information necessary to be able to interpret the drawn object and ultimate produce the object, whether it be a building or a widget.  Other textual information in the form of notes, or call-outs, etc. provide further details for the object.
 
 
 .. _dimensioning:
@@ -14,7 +16,7 @@ A drawing in and of itself provides a image of what an object might look like, b
 Dimensioning
 ------------
 
-Dimensioning an object on a drawing provides the information necessary to be able to interpret the drawn object and ultimate produce the object, whether it be a building or a widget.  Dimensions are used to define length, width, height of a line entity, or the diameter of circle entity or radius of arc entity.  A drawing's dimensions must be:
+Dimensions are used to define length, width, height of a line entity, or the diameter of circle entity or radius of arc entity.  A drawing's dimensions must be:
 
    - Accurate
    - Legible
