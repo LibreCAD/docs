@@ -78,7 +78,7 @@ A few rules will help ensure dimensions must be accurate, legible and complete:
 
 
 Example
--------
+~~~~~~~
 
 .. figure:: /images/dimnEg.png
     :width: 948px
@@ -86,5 +86,18 @@ Example
     :align: center
     :scale: 75
     :alt: Dimension example
+
+Leaders
+-------
+
+
+.. _text:
+
+Text
+====
+
+There are two types of text tools:
+	- Text: 
+	- MText: Multi-line text
 
 
