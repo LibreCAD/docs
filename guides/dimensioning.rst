@@ -90,6 +90,12 @@ Example
 Leaders
 -------
 
+.. figure:: /images/leaderEg.png
+    :width: 1062px
+    :height: 393px
+    :align: center
+    :scale: 75
+    :alt: Leader example
 
 .. _text:
 
@@ -100,4 +106,17 @@ There are two types of text tools:
 	- Text: 
 	- MText: Multi-line text
 
+.. figure:: /images/textText.png
+    :width: 557px
+    :height: 462px
+    :align: center
+    :scale: 75
+    :alt: Text dialogue
+
+.. figure:: /images/textMText.png
+    :width: 621px
+    :height: 475px
+    :align: center
+    :scale: 75
+    :alt: MText (multi-line) dialogue
 
