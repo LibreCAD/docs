@@ -77,8 +77,8 @@ A few rules will help ensure dimensions must be accurate, legible and complete:
 *: The minimum spacing need to be scaled with the drawing.  For example, if the drawing is 1:10, the spacing will need to be 60 mm between dimension lines and 100 mm from the entity.
 
 
-Example
-~~~~~~~
+Examples
+~~~~~~~~
 
 .. figure:: /images/dimnEg.png
     :width: 948px
@@ -90,11 +90,13 @@ Example
 Leaders
 -------
 
+While leaders do not a dimension an entity, they are closely related to dimensioning as they are important for annotating and adding clarity to entities.  Leaders provide the ability to place pointers to identify a specific area of interest when adding a note and linking it to a particulate object.  Leaders take their setting from the :ref:`Dimensions <dimn-prefs>`.
+
 .. figure:: /images/leaderEg.png
     :width: 1062px
     :height: 393px
     :align: center
-    :scale: 75
+    :scale: 50
     :alt: Leader example
 
 .. _text:
