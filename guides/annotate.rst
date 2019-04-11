@@ -163,7 +163,6 @@ Both text tools proved several options for the appearance an placement ofthe tes
 | Option                 | Description                                    | Text  | MText |
 +========================+================================================+=======+=======+
 | Font Settings          |                                                |       |       |
-|                        |                                                |       |       |
 | - Font                 | Select font for text                           |   X   |   X   |
 |                        |                                                |       |       |
 | - Height               | Set font height                                |   X   |   X   |
@@ -197,7 +196,10 @@ Both text tools proved several options for the appearance an placement ofthe tes
 | - *Middle*             | Places text with equidistance above and below, |   X   |   X   |
 |                        | left and right of text as defined by text box  |       |       |
 +------------------------+------------------------------------------------+-------+-------+
-| Insert symbol          | Insert predefined symbol (                     |   X   |   X   |
+| Insert symbol          | Insert predefined symbol (Diameter, degree,    |   X   |   X   |
+|                        | Plus / Minus, As, Hash, Dollar, Copyright,     |       |       |
+|                        | Registered, Paragraph, Pi, Pound, Yen, Times,  |       |       |
+|                        | Division)                                      |       |       |
 +------------------------+------------------------------------------------+-------+-------+
 | Insert Unicode:        |                                                |       |       |
 |                        |                                                |       |       |
