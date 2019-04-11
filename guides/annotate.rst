@@ -123,13 +123,13 @@ Adding text to a drawing provides addition information; build notes, drawing tit
     :width: 557px
     :height: 462px
     :align: left
-    :scale: 50
+    :scale: 60
     :alt: Text dialogue
 
 .. figure:: /images/textMText.png
     :width: 621px
     :height: 475px
     :align: right
-    :scale: 50
+    :scale: 60
     :alt: MText (multi-line) dialogue
 
