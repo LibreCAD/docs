@@ -159,6 +159,9 @@ Both text tools proved several options for the appearance an placement ofthe tes
     "Insert Unicode - Char", "Select character to insert into text", "X", "X"
     "Insert Unicode **Insert** button", "Click button to insert iunicode character into text input field", "X", "X"
 
+
+.. table::
+    :widths: 30, 50, 10, 10
 +------------------------+------------------------------------------------+-------+-------+
 | Option                 | Description                                    | Text  | MText |
 +========================+================================================+=======+=======+
@@ -195,7 +198,7 @@ Both text tools proved several options for the appearance an placement ofthe tes
 |                        | left and right of text as defined by text box  |       |       |
 +------------------------+------------------------------------------------+-------+-------+
 | Insert symbol          | Insert predefined symbol (Diameter, Degree,    |   X   |   X   |
-+------------------------+ Plus / Minus, At, Hash, Dollar, Copyright,     +-------+-------+
+|                        | Plus / Minus, At, Hash, Dollar, Copyright,     +-------+-------+
 |                        | Registered, Paragraph, Pi, Pound, Yen, Times,  |       |       |
 |                        | Division)                                      |       |       |
 +------------------------+------------------------------------------------+-------+-------+
