@@ -115,9 +115,8 @@ Text
 ----
 
 Adding text to a drawing provides addition information; build notes, drawing title and related details, and so forth.  Text can be added using two either of the two types of text tools:
-	- Text: Single line of text, with options
-	- MText: Multi-line text, with options
-
+	- Text: Single line of text
+	- MText: Multi-line text
 
 .. figure:: /images/textText.png
     :width: 557px
@@ -132,4 +131,25 @@ Adding text to a drawing provides addition information; build notes, drawing tit
     :align: right
     :scale: 50
     :alt: MText (multi-line) dialogue
+
+Both text tools proved several options for the appearance an placement ofthe test, however a couple are unique to the single-line, **Text** tool:
+
+.. csv-table:: 
+   :widths: 30, 40, 10, 10
+   :header-rows: 1
+   :stub-columns: 0
+
+    Option", "Description", "Text", "MText"
+    "Font", "Select font for text", "X", "X"
+    "Font - Height", "Set font height", "X", "X"
+    "Font - Angle", "", "X", "X"
+    "Font - Oblique", "", "X", " "
+    "Font - Width factor", "", "X", " "
+    "Font - Default line spacing", "Use default line spacing for specified font", " ", "X"
+    "Font - Line spacing", "", " ", "X"
+    "Alignment", "", "X", "X"
+    "Alignment - ", "", "X", ""
+    "Insert symbol", "", "X", "X"
+    "Insert Unicode - Page", "", "X", "X"
+    "Insert Unicode - Char", "", "X", "X"
 
