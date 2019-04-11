@@ -173,10 +173,10 @@ Both text tools proved several options for the appearance an placement ofthe tes
 | - Line spacing         |                                                |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
 | Alignment              | Place text aligned to *handle*:                |       |       |
-|                        |     top, left/center/right                     |   X   |   X   |
-|                        |     middle, left/center/right                  |   X   |   X   |
-|                        |     baseline, left/center/right                |   X   |   X   |
-|                        |     bottom, left/center/right                  |   X   |   X   |
+|                        | - top, left/center/right                       |   X   |   X   |
+|                        | - middle, left/center/right                    |   X   |   X   |
+|                        | - baseline, left/center/right                  |   X   |   X   |
+|                        | - bottom, left/center/right                    |   X   |   X   |
 +                        +------------------------------------------------+-------+-------+
 | - *Fit*                | Places text between specified points while     |   X   |   X   |
 |                        | maintaining set height                         |       |       |
