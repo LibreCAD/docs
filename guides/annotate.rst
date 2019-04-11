@@ -166,7 +166,7 @@ Both text tools proved several options for the appearance an placement ofthe tes
 | Option                 | Description                                    | Text  | MText |
 +========================+================================================+=======+=======+
 | Font Settings          |                                                |       |       |
-+------------------------+------------------------------------------------+-------+-------+
+|                        |                                                |       |       |
 | - Font                 | Select font for text                           |   X   |   X   |
 |                        |                                                |       |       |
 | - Height               | Set font height                                |   X   |   X   |
@@ -182,12 +182,12 @@ Both text tools proved several options for the appearance an placement ofthe tes
 | - Line spacing         |                                                |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
 | Alignment              | Place text aligned to *handle*:                |       |       |
-+------------------------+------------------------------------------------+-------+-------+
-|                        | - top, left/center/right                       |   X   |   X   |
-|                        | - middle, left/center/right                    |   X   |   X   |
-|                        | - baseline, left/center/right                  |   X   |   X   |
-|                        | - bottom, left/center/right                    |   X   |   X   |
-+------------------------+------------------------------------------------+-------+-------+
+| |                      |                                                |       |       |
+| |                      | - top, left/center/right                       |   X   |   X   |
+| |                      | - middle, left/center/right                    |   X   |   X   |
+| |                      | - baseline, left/center/right                  |   X   |   X   |
+| |                      | - bottom, left/center/right                    |   X   |   X   |
++                        +------------------------------------------------+-------+-------+
 | - *Fit*                | Places text between specified points while     |   X   |   X   |
 |                        | maintaining set height                         |       |       |
 +                        +------------------------------------------------+-------+-------+
@@ -198,7 +198,7 @@ Both text tools proved several options for the appearance an placement ofthe tes
 |                        | left and right of text as defined by text box  |       |       |
 +------------------------+------------------------------------------------+-------+-------+
 | Insert symbol          | Insert predefined symbol (Diameter, Degree,    |   X   |   X   |
-|                        | Plus / Minus, At, Hash, Dollar, Copyright,     +-------+-------+
+|                        | Plus / Minus, At, Hash, Dollar, Copyright,     |       |       |
 |                        | Registered, Paragraph, Pi, Pound, Yen, Times,  |       |       |
 |                        | Division)                                      |       |       |
 +------------------------+------------------------------------------------+-------+-------+
