@@ -139,7 +139,7 @@ Both text tools proved several options for the appearance an placement ofthe tes
    :header-rows: 1
    :stub-columns: 0
 
-    Option", "Description", "Text", "MText"
+    "Option", "Description", "Text", "MText"
     "Font", "Select font for text", "X", "X"
     "Font - Height", "Set font height", "X", "X"
     "Font - Angle", "Places text at specified :ref:` angle <angles>`", "X", "X"
@@ -155,6 +155,45 @@ Both text tools proved several options for the appearance an placement ofthe tes
     "Alignment - *Aligned*", "Places text between specified points while maintaining width to height ratio (scales text)", "X", ""
     "Alignment - *Middle*", "Places text with equidistance above and below, left and right of text as defined by text box", "X", ""
     "Insert symbol", "", "X", "X"
-    "Insert Unicode - Page", "", "X", "X"
-    "Insert Unicode - Char", "", "X", "X"
+    "Insert Unicode - Page", "Select unicode page to select character from", "X", "X"
+    "Insert Unicode - Char", "Select character to insert into text", "X", "X"
+    "Insert Unicode **Insert** button", "Click button to insert iunicode character into text input field", "X", "X"
+
++------------------------+------------------------------------------------+-------+-------+
+| Option                 | Description                                    | Text  | MText |
++========================+================================================+=======+=======+
+|                        |                                                |       |       |
+| Font Settings          |                                                |       |       |
+|                        |                                                |       |       |
+|   Font                 | Select font for text                           |   X   |   X   |
+|   Height               | Set font height                                |   X   |   X   |
+|   Angle                | Places text at specified :ref:`angle <angles>` |   X   |   X   |
+|   Oblique              | *Inactive*                                     |   X   |   X   |
+|   Width factor         |                                                |   X   |   X   |
+|   Default line spacing | Use default line spacing for specified font    |   X   |   X   |
+|   Line spacing         |                                                |   X   |   X   |
++------------------------+------------------------------------------------+-------+-------+
+| Alignment              | Place text aligned to *handle*:                |       |       |
+|                        |     top, left/center/right                     |   X   |   X   |
+|                        |     middle, left/center/right                  |   X   |   X   |
+|                        |     baseline, left/center/right                |   X   |   X   |
+|                        |     bottom, left/center/right                  |   X   |   X   |
++                        +------------------------------------------------+-------+-------+
+|     - *Fit*            | Places text between specified points while     |   X   |   X   |
+|                        | maintaining set height                         |       |       |
++                        +------------------------------------------------+-------+-------+
+|     - *Aligned*        | Places text between specified points while     |   X   |   X   |
+|                        | maintaining width to height ratio (scales text)|       |       |
++                        +------------------------------------------------+-------+-------+
+|     - *Middle*         | Places text with equidistance above and below, |   X   |   X   |
+|                        | left and right of text as defined by text box  |       |       |
++------------------------+------------------------------------------------+-------+-------+
+| Insert symbol          | Insert predefined symbol (                     |   X   |   X   |
++------------------------+------------------------------------------------+-------+-------+
+| Insert Unicode:        |                                                |       |       |
+|      Page              | Select unicode page to select character from   |   X   |   X   |
+|      Char              | Select character to insert into text           |   X   |   X   |
+|      **Insert** button | Click button to insert iunicode character into |   X   |   X   |
+|                        | text input field                               |       |       |
++------------------------+------------------------------------------------+-------+-------+
 
