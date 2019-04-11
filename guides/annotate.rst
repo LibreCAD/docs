@@ -6,9 +6,9 @@
 Annotating a Drawing
 ====================
 
-A drawing in and of itself provides an image of what an object might look like, but it doesn’t provide a complete description of the object. Knowing how big the object is also very important, thus the need to provide the measurements and other textual information to describe the object.  Together, dimensions and text, is called *annotating* a drawing.
+A drawing in and of itself provides an image of what an object might look like, but it doesn’t provide a complete description of the object. Knowing how big the object is also very important, thus the need to provide the measurements and other textual information to describe the drawn object.  Together, dimensions and text is called *annotating* a drawing.
 
-Dimensioning an object on a drawing provides the information necessary to be able to interpret the drawn object and ultimate produce the object, whether it be a building or a widget.  Other textual information in the form of notes, or call-outs, etc. provide further details for the object.
+Dimensioning an object on a drawing provides the information necessary to be able to interpret the object and ultimately produce the it, whether it be a building or a widget.  Other textual information in the form of notes, or call-outs, etc. provide further details for the object.
 
 
 .. _dimensioning:
@@ -114,21 +114,22 @@ While leaders do not a dimension an entity, they are closely related to dimensio
 Text
 ----
 
-There are two types of text tools:
-	- Text: 
-	- MText: Multi-line text
+Adding text to a drawing provides addition information; build notes, drawing title and related details, and so forth.  Text can be added using two either of the two types of text tools:
+	- Text: Single line of text, with options
+	- MText: Multi-line text, with options
+
 
 .. figure:: /images/textText.png
     :width: 557px
     :height: 462px
-    :align: center
+    :align: left
     :scale: 75
     :alt: Text dialogue
 
 .. figure:: /images/textMText.png
     :width: 621px
     :height: 475px
-    :align: center
+    :align: right
     :scale: 75
     :alt: MText (multi-line) dialogue
 

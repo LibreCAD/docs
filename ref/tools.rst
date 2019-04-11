@@ -186,8 +186,8 @@ Others
    :header: "Tool", "Icon", "Command", "Description"
    :widths: 40, 10, 20, 110
 
-    "MText", |icon96|, "mtxt, mtext", "Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set."
-    "Text", |icon96|, "txt, text", "Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set."
+    ":ref: `MText <text>`", |icon96|, "mtxt, mtext", "Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set."
+    ":ref: `Text <text>`", |icon96|, "txt, text", "Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set."
     "Hatch", |icon97|, "ha, hatch", "Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern or a solid fill.  Optionally define scale and angle."
     "Points", |icon99|, "po, point", "Draw a point at the assigned coordinates."
 
