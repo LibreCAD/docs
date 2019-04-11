@@ -135,20 +135,25 @@ Adding text to a drawing provides addition information; build notes, drawing tit
 Both text tools proved several options for the appearance an placement ofthe test, however a couple are unique to the single-line, **Text** tool:
 
 .. csv-table:: 
-   :widths: 30, 40, 10, 10
+   :widths: 25, 40, 8, 8
    :header-rows: 1
    :stub-columns: 0
 
     Option", "Description", "Text", "MText"
     "Font", "Select font for text", "X", "X"
     "Font - Height", "Set font height", "X", "X"
-    "Font - Angle", "", "X", "X"
-    "Font - Oblique", "", "X", " "
+    "Font - Angle", "Places text at specified :ref:` angle <angles>`", "X", "X"
+    "Font - Oblique", "*Inactive*", "X", " "
     "Font - Width factor", "", "X", " "
     "Font - Default line spacing", "Use default line spacing for specified font", " ", "X"
     "Font - Line spacing", "", " ", "X"
-    "Alignment", "", "X", "X"
-    "Alignment - ", "", "X", ""
+    "Alignment", "Place text aligned to *handle*; top, left/center/right,", "X", "X"
+    "Alignment", "Place text aligned to *handle*; middle, left/center/right,", "X", "X"
+    "Alignment", "Place text aligned to *handle*; baseline, left/center/right,", "X", " "
+    "Alignment", "Place text aligned to *handle*; bottom, left/center/right,", "X", "X"
+    "Alignment - *Fit*", "Places text between specified points while maintaining set height", "X", ""
+    "Alignment - *Aligned*", "Places text between specified points while maintaining width to height ratio (scales text)", "X", ""
+    "Alignment - *Middle*", "Places text with equidistance above and below, left and right of text as defined by text box", "X", ""
     "Insert symbol", "", "X", "X"
     "Insert Unicode - Page", "", "X", "X"
     "Insert Unicode - Char", "", "X", "X"
