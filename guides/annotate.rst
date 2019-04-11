@@ -163,8 +163,8 @@ Both text tools proved several options for the appearance an placement ofthe tes
 | Option                 | Description                                    | Text  | MText |
 +========================+================================================+=======+=======+
 | Font Settings          |                                                |       |       |
-| - Font                 | Select font for text                           |   X   |   X   |
 |                        |                                                |       |       |
+| - Font                 | Select font for text                           |   X   |   X   |
 | - Height               | Set font height                                |   X   |   X   |
 |                        |                                                |       |       |
 | - Angle                | Places text at specified :ref:`angle <angles>` |   X   |   X   |
