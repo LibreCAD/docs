@@ -213,13 +213,13 @@ Both text tools proved several options for the appearance an placement of test, 
 
 ..  Icon mapping:
 
-.. |i00| image:: /images/icons/filenew.png
+.. |i00| image:: /images/icons/librecad.png
             :height: 24
             :width: 24
-.. |i01| image:: /images/icons/fileopen.png
+.. |i01| image:: /images/icons/filenew.png
             :height: 24
             :width: 24
-.. |i02| image:: /images/icons/librecad.png
+.. |i02| image:: /images/icons/fileopen.png
             :height: 24
             :width: 24
 .. |i03| image:: /images/icons/save.png
