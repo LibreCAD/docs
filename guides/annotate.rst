@@ -185,7 +185,7 @@ Both text tools proved several options for the appearance an placement ofthe tes
 +------------------------+------------------------------------------------+-------+-------+
 |                        | Place text aligned to *handle*:                |       |       |
 |                        |                                                |       |       |
-|                        | - top, left/center/right                       |  X\\n |   X   |
+|                        | - top, left/center/right                       |  X \n |   X   |
 |                        | - middle, left/center/right                    |   X   |   X   |
 |                        | - baseline, left/center/right                  |   X   |       |
 |                        | - bottom, left/center/right                    |   X   |   X   |
