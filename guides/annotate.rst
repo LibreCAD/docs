@@ -207,7 +207,7 @@ Both text tools proved several options for the appearance an placement of test, 
 +------------------------+------------------------------------------------+-------+-------+
 | - Save Text To File    | Save text in text field to file   |i03|        |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
-| - Edit                 | Cut / Copy / Paste   |i04| / |i05| / |i06|     |   X   |   X   |
+| - Edit                 | Cut  |i04| / Copy  |i05| / Paste  |i06|        |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
 
 
