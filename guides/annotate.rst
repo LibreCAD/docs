@@ -200,14 +200,14 @@ Both text tools proved several options for the appearance an placement of test, 
 +------------------------+------------------------------------------------+-------+-------+
 | **Icons**                                                                               |
 +------------------------+------------------------------------------------+-------+-------+
-| - Clear text           | Clear text field  |i01|                        |   X   |   X   |
+| - Clear text           | Clear text field   |i01|                       |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
 | - Load Text From File  | Select text file and insert contents into      |   X   |   X   |
-|                        | field  |i02|                                   |       |       |
+|                        | field   |i02|                                  |       |       |
 +------------------------+------------------------------------------------+-------+-------+
-| - Save Text To File    | Save text in text field to file  |i03|         |   X   |   X   |
+| - Save Text To File    | Save text in text field to file   |i03|        |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
-| - Edit                 | Cut / Copy / Paste  |i04|  |i05|  |i06|        |   X   |   X   |
+| - Edit                 | Cut / Copy / Paste   |i04| / |i05| / |i06|     |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
 
 
