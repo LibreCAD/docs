@@ -200,14 +200,14 @@ Both text tools proved several options for the appearance an placement of test, 
 +------------------------+------------------------------------------------+-------+-------+
 | **Icons**                                                                               |
 +------------------------+------------------------------------------------+-------+-------+
-| - Clear text           | Clear text field |i01|                         |   X   |   X   |
+| - Clear text           | Clear text field  |i01|                        |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
 | - Load Text From File  | Select text file and insert contents into      |   X   |   X   |
-|                        | field |i02|                                    |       |       |
+|                        | field  |i02|                                   |       |       |
 +------------------------+------------------------------------------------+-------+-------+
-| - Save Text To File    | Save text in text field to file |i03|          |   X   |   X   |
+| - Save Text To File    | Save text in text field to file  |i03|         |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
-| - Edit                 | Cut / Copy / Paste |i04| / |i05| / |i06|       |   X   |   X   |
+| - Edit                 | Cut / Copy / Paste  |i04|  |i05|  |i06|        |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
 
 
@@ -216,21 +216,21 @@ Both text tools proved several options for the appearance an placement of test, 
 .. |i00| image:: /images/icons/librecad.png
             :height: 24
             :width: 24
-.. |i01| image:: /images/icons/filenew.png
+.. |i01| image:: /images/icons/new.svg
             :height: 24
             :width: 24
-.. |i02| image:: /images/icons/fileopen.png
+.. |i02| image:: /images/icons/open.svg
             :height: 24
             :width: 24
-.. |i03| image:: /images/icons/save.png
+.. |i03| image:: /images/icons/save.svg
             :height: 24
             :width: 24
-.. |i04| image:: /images/icons/cut.png
+.. |i04| image:: /images/icons/cut.svg
             :height: 24
             :width: 24
-.. |i05| image:: /images/icons/copy.png
+.. |i05| image:: /images/icons/copy.svg
             :height: 24
             :width: 24
-.. |i06| image:: /images/icons/paste
+.. |i06| image:: /images/icons/paste.svg
             :height: 24
             :width: 24
