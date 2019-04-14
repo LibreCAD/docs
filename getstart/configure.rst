@@ -122,7 +122,7 @@ Program Defaults
     - *Auto backup*: When check, a backup will be created when closing the file.  Backup files are saved to the same directory as the drawing file with a tilde (~) appended to the file name.
     - *Auto save time*: The time in minutes to perform an automatice save of the open files.  Auto files are saved to the same directory as the drawing file with a hash symbol (#) prefixed to the file name.
     - *Don't use native OS file open dialog*: When checked, LibreCAD's file open dialog is displayed when opening files.
-    - *Modify layer of selected entities, at layer activation*: ??
+    - *Modify layer of selected entities, at layer activation*: If checked, entities can be assigned to a layer by selecting the entities and then selecting the destination layer. 
 
 Clear Settings
 ``````````````
