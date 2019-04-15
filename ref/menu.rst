@@ -8,7 +8,7 @@ Main Menu
 
 Many of LibreCAD's commands are accessible through the menu bar.  Each drop down menu provides access commands, configurations and yada, yada, yada, 
 
-Each menu has a dashed line at the top.  Clicking in the dashed line allows the menu to be "torn off" as used as a floating menu.  Clicking the dot on the upper right corner of the floating menu closes it.
+Each menu has a dashed line at the top.  Clicking in the dashed line allows the menu to be "torn off" and used as a floating menu.  Clicking the dot on the upper right corner of the floating menu closes it.
 
 
 .. _file:
@@ -24,7 +24,7 @@ File
     "New from Template", |icon02|, "", "Creates a new drawing file from a template.  See :ref:`Templates <templates>` in **User Guides** for details."
     "Open", |icon03|, "[Ctrl]+o", "Open existing drawing file."
     "Save", |icon04|, "[Ctrl]+s", "Save current drawing file."
-    "Save as", |icon05|, "[Ctrl] [Shift]+q ", "Save current drawing file to a different location or with a new file name."
+    "Save as", |icon05|, "[Ctrl] [Shift]+s ", "Save current drawing file to a different location or with a new file name."
     "Import", |icon06|, "", "Import a :ref:`block <blocks>`, or bit mapped or vector images into the current drawing.  Supported bit mapped formats include: bmp, cur, gif, ico, jpeg, pbm, pgm, png, ppm, xbm, and xpm.  Vector images supported include svg, and svgz."
     "Export", |icon07|, "", "Export the current drawing as a CAM, pdf or image file. Supported bitmapped formats include: cur, jpeg, pbm, pgm, png, ppm, bmp, ico, xbm, and xpm.  Vector images supported include svg, and svgz.  Use the ''CAM'' export to save SVG (Scalable Vector Graphics) suitable for MakerCAM, EleskCAM, LaserWeb, ..."
     "Print", |icon08|, "[Ctrl]+p  ", "Produce output of the the current drawing.  See :ref:`Printing <printing-guide>` in the **User Guides** section."
@@ -43,7 +43,7 @@ Options
     "Application Preferences", |icon13|, "", "See :ref:`Application Preferences <app-prefs>` in **Getting Started** for details."
     "Current Drawing Preferences", |icon14|, "", "See :ref:`Drawing Preferences <draw-prefs>` for details."
     "Widget Options", , "", "See :ref:`Widget Options <widget-options>` for in **Customizing** details."
-    "Device Options", , "", "Select input device; mouse, tablet, trackpad or touchscreen."
+    "Device Options", , "", "Select input device: mouse, tablet, trackpad or touchscreen."
     "Reload Style Sheet", , "[Ctrl]+t", "See :ref:`Style Sheets <style-sheets>` in **Customizing** for details."
 
  

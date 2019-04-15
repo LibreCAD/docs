@@ -3,10 +3,10 @@
 
 .. _draw-prefs:
 
-Drawing Preferences
+Current Drawing Preferences
 ===================
 
-Drawing preferences two purposes, they allow users to :
+Current Drawing preferences have two purposes, they allow users to :
     1. over-ride the application defaults on a drawing by drawing basis.
     2. define specifics for the drawing's ouput, format and other drawing specific configuration.
 
@@ -25,7 +25,7 @@ Paper
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Paper
 
-The paper tab is used to define the size and orientation of the page used when generating outpot.  The output can be as a physical printed page or a electronic form such as a PDF.  The paper format is also used when previewing a drawing (File -> Print Preview).
+The paper tab is used to define the size and orientation of the page used when generating output.  The output can be as a physical printed page or a electronic form such as a PDF.  The paper format is also used when previewing a drawing (File -> Print Preview).
 
 To be able to generate output, users must select a paper size and orientation.  Paper sizes include ISO, ANSI and other sizes.  Sizes of the select page are shown in the current unit of measurement.  Custom sizes can also be select by choosing "Custom" from the dropdown box and specifying the paper width and height.
 
@@ -55,7 +55,7 @@ Length Format
    :header: "Format", "Example", "Maximum Precision", "Description"
    :widths: 15, 15, 15, 55
    
-    "**Scientific**", "1.44311E+1", "0.00000000E+1", "Significand x 10 :superscript:`n`"
+    "**Scientific**", "1.44311E+1", "0.00000000E+1", "Significant x 10 :superscript:`n`"
     "**Decimal**", "14.43112", "0.00000000",  "Integer part seperated from the fractional part of a number by a decimal"
     "**Engineering**", "1'-2.43112'' ", "0'-0.00000000'' ",  "Feet and decimal inches"
     "**Architectural**", "1'-2 7/16'' ", "0'-0 1/128'' ",  "Feet and fractional inches"
