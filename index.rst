@@ -3,6 +3,7 @@
 ====================
 LibreCAD User Manual
 ====================
+for LibreCAD ver 2.2.0
 
 .. Show the LibreCAD's splash screen
 
