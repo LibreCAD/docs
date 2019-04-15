@@ -13,7 +13,7 @@ Line
 ----
 .. csv-table::  
    :header: "Tool", "Icon", "Command", "Description"
-   :widths: 40, 10, 20, 110
+   :widths: 20, 10, 20, 50
 
     "2 points", |icon01|, "l, li, line", "Draw a line between two assigned points."
     "Angle", |icon02|, "", "Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle."
