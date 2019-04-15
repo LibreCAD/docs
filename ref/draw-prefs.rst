@@ -96,6 +96,8 @@ The grid provides an evenly spaced guides to assist with placing entities.  When
     - Crosshair: Toggles the orientation of the crosshairs (right, left, or top) when used with *Isometric Snap indicator lines* (see :ref:`Application Preferences <app-prefs>`).
 
 
+.. _dimn-prefs:
+
 Dimensions
 ----------
 
