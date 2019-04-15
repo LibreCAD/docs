@@ -29,13 +29,12 @@ Below are the sections that are in the LibreCAD User Manual with the percent com
    - Customizing             [100%]    (Including Style Sheets)
 
 - User Guides: documents that provide instruction on how to do things with LibreCAD.  These are how-to’s, but with greater details(?)
-   - Setting up a drawing    [0%]
-   - Templates               [0%]
-   - Pens                    [0%]
-   - Layers                  [33%]
+   - Setting up a drawing    [100%]
+      - Scale
+      - Attributes (layers, pens (color, line type & thickness))
+      - Templates
    - Blocks                  [33%]
-   - Dimensioning            [0%]
-   - Pens                    [10%]
+   - Dimensioning & Text     [100%]
    - The Command Line        [50%]
    - Printing Guide          [100%]
 
