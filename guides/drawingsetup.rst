@@ -38,6 +38,7 @@ Architect's Scale (SI)
    :widths: 25, 75
    :header-rows: 1
    :stub-columns: 0
+    :class: fix-table
 
     "Drawing Scale", "Common Use"
     "1:1", "Mockups / Samples / Small details"
@@ -59,6 +60,7 @@ Architect's Scale (Imperial)
     :widths: 25, 10, 65
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Drawing Scale", "Ratio", "Common Use"
     "Full scale", "1:1", "Mockups / Samples / Small details"
@@ -82,6 +84,7 @@ Engineer's scale (Imperial)
     :widths: 25, 10, 65
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Drawing Scale", "Ratio", "Common Use"
     "1″=10′-0″", "120", "Details"
@@ -175,6 +178,7 @@ Line thickness should also be addressed when creating a new drawing.  The defaul
     :widths: 15, 20, 40, 25
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Line Weights", "Pen Size (mm)", "Purpose", "Recommended"
     "Extra Thin", "0.00, 0.05, 0.09", "- Hidden lines", "0.00 mm"

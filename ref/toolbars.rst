@@ -12,6 +12,7 @@ Toolbars provide alternatives to menus for accessing application functions and d
     :widths: 30, 70
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Menu Item", "Description and/or *Menu Equivalent*"
     "Categories", "Groups commonly used drawing tools; *Tools -> Line / Circle / Curve / Ellipse / Polyline / Select / Dimension / Modify* and *Info*."

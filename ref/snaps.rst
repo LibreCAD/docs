@@ -12,6 +12,7 @@ Snaps provide the ability to pick precise locations when using a mouse.  Various
     :widths: 20, 10, 20, 50
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Menu Item", "Icon", "Command", "Description"
     "Exclusive Snap Mode", |icon01|, "", "**On**: only one snap mode is allowed.  **Off**: multiple snap modes are allowed The snap modes are remembered in each state."

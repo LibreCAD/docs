@@ -51,6 +51,7 @@ The appearance of the dimensions are configured on the :ref:`Dimensions <dimn-pr
     :widths: 40, 20, 20, 20
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Dimension Component", "mm", "Decimal Inch", "Fractional Inch"
     "Dimension text height", "2.5", ".100", "3/32"
@@ -147,6 +148,8 @@ Both text tools proved several options for the appearance an placement of test, 
 
 .. table::
     :widths: 30, 50, 10, 10
+    :class: fix-table
+
 +------------------------+------------------------------------------------+-------+-------+
 | Option                 | Description                                    | Text  | MText |
 +========================+================================================+=======+=======+
