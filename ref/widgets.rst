@@ -54,7 +54,7 @@ Dock Widget Areas
 
 .. See icon mapping a eof
 
-Docked widgets can be dragged to different areas by "grabbing" (click and drag) the title bar of the widget.  Widgets will snap into place when released in a dock area.  Widgets in the left, right, top or bottom areas can either be placed on top of existing widgets, creating tabs for each category of widget placed in that area, or place above or below the existing widget dividing the area in sections.  Dock widgets can also be resized by clicking on and dragging the edge of the widget's box to a minumum of five icons width and no shorter than the default height.
+Docked widgets can be dragged to different areas by "grabbing" (click and drag) the title bar of the widget.  Widgets will snap into place when released in a dock area.  Widgets in the left, right, top or bottom areas can either be placed on top of existing widgets, creating tabs for each category of widget placed in that area, or place above or below the existing widget dividing the area in sections.  Dock widgets can also be resized by clicking on and dragging the edge of the widget's box to a minimum of five icons width and no shorter than the default height.
 
 .. _block-list:
 
@@ -82,7 +82,7 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
     |icon12|, "''Create a block'' - Creates a block from the selected items."
     |icon13|, "''Add an empty block'' - Creates an empty block that can then be edited is a separate window (see below)."
     |icon14|, "''Remove the active block'' - Deletes the highlighted block."
-    |icon15|, "''Rename the active block'' - Rename the hightlighted block"
+    |icon15|, "''Rename the active block'' - Rename the highlighted block"
     |icon16|, "''Edit the active block in a separate window'' - Open a new drawing window to edit a new or  existing block."
     |icon17|, "''Save the active block to a file'' - Saves the highlighted block to a file."
     |icon18|, "''Insert the active block''. - Inserts the highlighted block in the current drawing at the specified reference point"
@@ -165,18 +165,19 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
 +----------------------+--------------------------------------------------------------------------+
 | Attribute            | Description                                                              |
 +======================+==========================================================================+
-| Layer Name           | The default layer name is "O", but any alpha-numeric label can be used.  |
-|                      | New layers are created with the name of the hightlighted layer with a    |
-|                      | sequence number appended.  Layers are sorted in the list alpha-          |
-|                      | numerically.                                                             |
+| Layer Name           | | The default layer name is "O", but any alpha-numeric label can be used.|
+|                      | | New layers are created with the name of the highlighted layer with a   |
+|                      | | sequence number appended.  Layers are sorted in the list alpha-        |
+|                      | | numerically.                                                           |
 +----------------------+--------------------------------------------------------------------------+
-| Construction Layer   | Toggle the construction lines off / on.  Construction lines are intended |
-|                      | as temporary lines and drawn to ''infinity''".                           |
+| Construction Layer   | | Toggle the construction lines off / on.  Construction lines are        |
+|                      | | intended as temporary lines and drawn to ''infinity''".                |
 +----------------------+--------------------------------------------------------------------------+
-| Default Pen:         | - Color: Select from default or custom colors.                           |
-|                      | - Width: Select from predefined line widths from 0.00 to 2.11 mm.        |
-|                      | - Type: Select from predefined line types: Continuous, or Dot, Dash, Dash|
-|                      |   Dot, Divide, Center, or Border (normal, "tiny", "small", or "large").  |
+| Default Pen:         | | - Color: Select from default or custom colors.                         |
+|                      | | - Width: Select from predefined line widths from 0.00 to 2.11 mm.      |
+|                      | | - Type: Select from predefined line types: Continuous, or Dot, Dash,   |
+|                      | |   Dash Dot, Divide, Center, or Border (normal, "tiny", "small", or     |
+|                      | |   "large").                                                            |
 +----------------------+--------------------------------------------------------------------------+
 
 The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used.
@@ -205,7 +206,7 @@ Icons to the left of each layer act on the layers individually.  The layer opera
     :scale: 100
     :alt: Layer Context Menu
 
-Right-clicking on a layer opens a pop-up menu that provides equivalent operations to the item marked with an asterix (*).
+Right-clicking on a layer opens a popup menu that provides equivalent operations to the item marked with an asterisk (*).
 
 More details on creating and using :ref:`layers <layers>` can be found in the **User Guides**.
 
@@ -245,7 +246,7 @@ Pen Wizard Dock
     :scale: 67
     :alt: Pen Wizard Dock
 
-The Pen Wizard allows users to create a palette of favorite colors for the drawing tools.  Colors can be selected from the existing colors via the drop-down list or created as a custom colors via the |icon31| button to the right of the drop-down list.  Pressing the "Add to favorites" [ |icon30| ] button to the left will add the color to the list of favorites below.  Drag-and-drop the colors in the list to arrange them in the prefered order.
+The Pen Wizard allows users to create a palette of favorite colors for the drawing tools.  Colors can be selected from the existing colors via the drop-down list or created as a custom colors via the |icon31| button to the right of the drop-down list.  Pressing the "Add to favorites" [ |icon30| ] button to the left will add the color to the list of favorites below.  Drag-and-drop the colors in the list to arrange them in the preferred order.
 
 Once colors have been added to the list, set the active pen color by double-clicking a favorite color.
 

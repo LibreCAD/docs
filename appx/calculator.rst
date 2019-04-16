@@ -9,9 +9,12 @@ Calculator Operators and Functions
 Typing "cal" at the command line will toggle the calculator mode on and off.
 
 .. csv-table:: 
-   :header: "Name", "Function / Operation", "Usage"
-   :widths: 20, 60, 30 
+    :widths: 10, 50, 40 
+    :header-rows: 1
+    :stub-columns: 0
+    :class: fix-table
     
+    "Name", "Function / Operation", "Usage"
     "\+", "addition", "x+y"
     "\-", "subtraction", "x-y"
     "\*", "multiplication", "x*y"
