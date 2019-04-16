@@ -1,12 +1,7 @@
 /* Corrects issue with table exceeding web page width  */
+/* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
 
-/* override table width restrictions */
-.wy-table-responsive table td, .wy-table-responsive table th {
+.fix-table td {
     white-space: normal !important;
 }
 
-.wy-table-responsive {
-    margin-bottom: 24px;
-    max-width: 100%;
-    overflow: visible;
-}

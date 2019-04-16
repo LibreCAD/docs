@@ -20,6 +20,7 @@ File
     :widths: 20, 10, 15, 55
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Menu Item", "Icon", "Short-cut", "Description"
     "New", |icon01|, "[Ctrl]+n", "Creates a new drawing file."
