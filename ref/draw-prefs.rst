@@ -159,10 +159,10 @@ Dimensions
 +-----------------------------+-------------------------------------------------------------------+
 | Arrow size                  | Length of dimension (and leader) arrow.                           |
 +-----------------------------+-------------------------------------------------------------------+
-| Tick size                   | Length of dimension tick to from end of dimension line in each    |
-|                             | direction, e.g. a length of 1 will result in a total length of 2  |
-|                             | units. (Anything greater than ''0'' will result in a *tick*       |
-|                             | instead of a dimension *arrow*).                                  |
+| | Tick size                 | Length of dimension tick to from end of dimension line in each    |
+| |                           | direction, e.g. a length of 1 will result in a total length of 2  |
+| |                           | units. (Anything greater than ''0'' will result in a *tick*       |
+| |                           | instead of a dimension *arrow*).                                  |
 +-----------------------------+-------------------------------------------------------------------+
 | Color                       | Tick line color, independent of layer settings.                   |
 +-----------------------------+-------------------------------------------------------------------+
@@ -174,9 +174,9 @@ Dimensions
 +-----------------------------+-------------------------------------------------------------------+
 | Linear precision            | (See *Length Format* under **Units** above.)                      |
 +-----------------------------+-------------------------------------------------------------------+
-| Linear zeros                | Remove leading, trailing, 0' oand / or 0'' from linear dimensions.|
+| Linear zeros                | Remove leading, trailing, 0' and / or 0'' from linear dimensions.|
 +-----------------------------+-------------------------------------------------------------------+
-| Decimal separators          | Set the dDecimal separator to a period [.], or comma [,].         |
+| Decimal separators          | Set the decimal separator to a period [.], or comma [,].         |
 +-----------------------------+-------------------------------------------------------------------+
 | Angular units               | (See *Length Format* under **Units** above.)                      |
 +-----------------------------+-------------------------------------------------------------------+
