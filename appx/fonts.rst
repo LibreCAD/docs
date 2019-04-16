@@ -7,10 +7,13 @@ Fonts
 =====
 
 .. csv-table:: 
-   :header: "Font Name","Font Filename","Font Type","Technical (\*)", "Sample"
-   :widths: 30, 30, 40, 20, 30
+    :widths: 15, 25, 40, 10, 10
+    :header-rows: 1
+    :stub-columns: 0
+    :class: fix-table
    
-    "amiri-regular", "amiri-regular.lff", "Serif", " ", |font01 |
+    "Font Name","Font Filename","Font Type","Technical (\*)", "Sample"
+    "amiri-regular", "amiri-regular.lff", "Serif", " ", |font01|
     "azomix_i", "azomix_i.lff", "Sans Serif ","X", |font02|
     "azomix", "azomix.lff", "Sans Serif ","X", |font03|
     "cursive", "cursive.lff", "Sans Serif ","X", |font04|

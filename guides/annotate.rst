@@ -171,42 +171,44 @@ Both text tools proved several options for the appearance an placement of test, 
 +------------------------+------------------------------------------------+-------+-------+
 | **Alignment**                                                                           | 
 +------------------------+------------------------------------------------+-------+-------+
-|                        | Place text aligned to *handle*:                |       |       |
-|                        |                                                |       |       |
+|                        | Place text aligned to *handle*:                | |     | |     |
+|                        |                                                | |     | |     |
 |                        | - top, left/center/right                       | | X   | | X   |
 |                        | - middle, left/center/right                    | | X   | | X   |
 |                        | - baseline, left/center/right                  | | X   |       |
 |                        | - bottom, left/center/right                    | | X   | | X   |
 +------------------------+------------------------------------------------+-------+-------+
-| - *Fit*                | Places text between specified points while     |   X   |   X   |
-|                        | maintaining set height                         |       |       |
+| - *Fit*                | | Places text between specified points while   |   X   |   X   |
+|                        | | maintaining set height                       |       |       |
 +------------------------+------------------------------------------------+-------+-------+
-| - *Aligned*            | Places text between specified points while     |   X   |   X   |
-|                        | maintaining width to height ratio (scales text)|       |       |
+| - *Aligned*            | | Places text between specified points while   |   X   |   X   |
+|                        | | maintaining width to height ratio (scales    |       |       |
+|                        | | text)                                        |       |       |
 +------------------------+------------------------------------------------+-------+-------+
-| - *Middle*             | Places text with equidistance above and below, |   X   |   X   |
-|                        | left and right of text as defined by text box  |       |       |
+| - *Middle*             | | Places text with equidistant above and       |   X   |   X   |
+|                        | | below, left and right of text as defined by  |       |       |
+|                        | | text box                                     |       |       |
 +------------------------+------------------------------------------------+-------+-------+
-| Insert symbol          | Insert predefined symbol (Diameter, Degree,    |   X   |   X   |
-|                        | Plus / Minus, At, Hash, Dollar, Copyright,     |       |       |
-|                        | Registered, Paragraph, Pi, Pound, Yen, Times,  |       |       |
-|                        | Division)                                      |       |       |
+| Insert symbol          | | Insert predefined symbol (Diameter, Degree,  |   X   |   X   |
+|                        | | Plus / Minus, At, Hash, Dollar, Copyright,   |       |       |
+|                        | | Registered, Paragraph, Pi, Pound, Yen, Times,|       |       |
+|                        | | Division)                                    |       |       |
 +------------------------+------------------------------------------------+-------+-------+
 | **Insert Unicode**                                                                      |
 +------------------------+------------------------------------------------+-------+-------+
-| - Page                 | Select unicode page to select character from   |   X   |   X   |
+| - Page                 | Select Unicode page to select character from   |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
 | - Char                 | Select character to insert into text           |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
-| - **Insert** button    | Click button to insert unicode character into  |   X   |   X   |
-|                        | text input field                               |       |       |
+| - **Insert** button    | | Click button to insert Unicode character     |   X   |   X   |
+|                        | | into text input field                        |       |       |
 +------------------------+------------------------------------------------+-------+-------+
 | **Icons**                                                                               |
 +------------------------+------------------------------------------------+-------+-------+
 | - Clear text           | Clear text field   |i01|                       |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
-| - Load Text From File  | Select text file and insert contents into      |   X   |   X   |
-|                        | field   |i02|                                  |       |       |
+| - Load Text From File  | | Select text file and insert contents into    |   X   |   X   |
+|                        | | field   |i02|                                |       |       |
 +------------------------+------------------------------------------------+-------+-------+
 | - Save Text To File    | Save text in text field to file   |i03|        |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+

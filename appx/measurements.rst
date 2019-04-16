@@ -9,9 +9,12 @@ Systems of Measurement
 LibreCAD supports a large number of measurement systems/units:
 
 .. csv-table::
-   :header: "Unit", "Abbreviation", "System", "Equivalences", "Uses (\*)"
-   :widths: 20, 20, 10, 40, 60
+    :widths: 15, 10, 10, 20, 45
+    :header-rows: 1
+    :stub-columns: 0
+    :class: fix-table
 
+    "Unit", "Abbr.", "System", "Equivalences", "Uses (\*)"
     "Inch", "in", "Imperial", "3 barleycorns", "Widely used in the United States, Canada, and the United Kingdom."
     "Foot", "ft", "Imperial", "Size 46 (EU) shoe size",  "Still widely used in the United States, Canada, and the United Kingdom."
     "Mile", "mi", "Imperial", "0.2756 of a Dutch mile", "Used way too often in other than a ''international mile''."
