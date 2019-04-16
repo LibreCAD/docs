@@ -35,9 +35,10 @@ Architect's Scale (SI)
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table:: 
-   :widths: 25, 75
-   :header-rows: 1
-   :stub-columns: 0
+    :widths: 25, 75
+    :header-rows: 1
+    :stub-columns: 0
+    :class: fix-table
 
     "Drawing Scale", "Common Use"
     "1:1", "Mockups / Samples / Small details"
@@ -59,15 +60,16 @@ Architect's Scale (Imperial)
     :widths: 25, 10, 65
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Drawing Scale", "Ratio", "Common Use"
     "Full scale", "1:1", "Mockups / Samples / Small details"
     "3″=1′-0″", "1:4", "Small details"
-​    "1 1⁄2″=1′-0″", "1:8", "Small details"
+    "1 1⁄2″=1′-0″", "1:8", "Small details"
     "1″=1′-0″", "1:12", "Small details / Construction details"
     ​"3⁄4″=1′-0″", "1:16", "Construction details / Wall sections"
     ​"1⁄2″=1′-0″", "1:24", "Building sections"
-   ​ "3⁄8″=1′-0″", "1:32", "Wall sections / Building sections"
+    "3⁄8″=1′-0″", "1:32", "Wall sections / Building sections"
     "1⁄4″=1′-0″", "1:48", "Building sections / Floor plans / Elevations"
     ​"3⁄16″=1′-0″", "1:64", "Floor plans / Elevations"
     ​"1⁄8″=1′-0″", "1:96", "Floor plans / Elevations / Site plans"
@@ -82,6 +84,7 @@ Engineer's scale (Imperial)
     :widths: 25, 10, 65
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Drawing Scale", "Ratio", "Common Use"
     "1″=10′-0″", "120", "Details"
@@ -175,6 +178,7 @@ Line thickness should also be addressed when creating a new drawing.  The defaul
     :widths: 15, 20, 40, 25
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Line Weights", "Pen Size (mm)", "Purpose", "Recommended"
     "Extra Thin", "0.00, 0.05, 0.09", "- Hidden lines", "0.00 mm"

@@ -15,6 +15,7 @@ Line
     :widths: 20, 10, 20, 50
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
     "2 points", |icon01|, "l, li, line", "Draw a line between two assigned points."
@@ -41,6 +42,7 @@ Circle
     :widths: 20, 10, 20, 50
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
     "Centre, Point", |icon18|, "ci, circle", "Draw a circle with a given radius by assigning a centre point and a point on the circumference."
@@ -63,6 +65,7 @@ Curve
     :widths: 20, 10, 20, 50
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
     "Center, Point, Angles", |icon30|, "", "Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc."
@@ -82,6 +85,7 @@ Ellipse
     :widths: 20, 10, 20, 50
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
     "Ellipse (Axis)", |icon35|, "", "Draw an ellipse by assigning a centre point, a point on the circumference of major access and a point on the circumference the minor access."
@@ -97,6 +101,7 @@ Polyline
     :widths: 20, 10, 20, 50
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
     "Polyline", |icon43|, "pl, polyline", "Draw an open or closed continuous line consisting of one or more straight line or arc segments defined by endpoints and / or radius or angle for arcs."
@@ -115,6 +120,7 @@ Select
     :widths: 20, 10, 20, 50
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
     "Deselect all", |icon59|, "tn", "Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc] action)."
@@ -135,6 +141,7 @@ Dimension
     :widths: 20, 10, 20, 50
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
     "Aligned", |icon61|, "da", "Apply dimension lines and text aligned to an existing entity by selecting start and end points on a line segment and placement point for the text."
@@ -153,6 +160,7 @@ Modify
     :widths: 20, 10, 20, 50
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
     "Order", "", "", "Order entities within a layer.  Selected entities can be moved to top, bottom, *raised* (moved forward) over another entity or *lowered* (moved backwards) behind an entity."
@@ -187,6 +195,7 @@ Info
     :widths: 20, 10, 20, 50
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
     "Distance Point to Point", |icon90|, "dpp, dist", "Provides distance, cartesian and polar coordinates between two specified points."
@@ -204,10 +213,11 @@ Others
     :widths: 20, 10, 20, 50
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
-    ":ref: `MText <text>`", |icon96|, "mtxt, mtext", "Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set."
-    ":ref: `Text <text>`", |icon96|, "txt, text", "Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set."
+    ":ref:`MText <text>`", |icon96|, "mtxt, mtext", "Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set."
+    ":ref:`Text <text>`", |icon96|, "txt, text", "Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set."
     "Hatch", |icon97|, "ha, hatch", "Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern or a solid fill.  Optionally define scale and angle."
     "Points", |icon99|, "po, point", "Draw a point at the assigned coordinates."
 

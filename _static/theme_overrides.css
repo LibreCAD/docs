@@ -1,0 +1,7 @@
+/* Corrects issue with table exceeding web page width  */
+/* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
+
+.fix-table td {
+    white-space: normal !important;
+}
+

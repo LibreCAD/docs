@@ -43,6 +43,7 @@ Dock Widget Areas
     :widths: 20, 10, 70
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Tool", "Icon", "Description"
     "Left", |icon01|, "Shows / hide the dock widgets located on the left side of the drawing window."
@@ -73,6 +74,7 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
     :widths: 10, 90
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Icon", "Description"
     |icon10|, "''Show all blocks'' - Makes all the blocks in the current drawing visible."
@@ -128,6 +130,7 @@ The Layer List Dock provides the functions to manage layers and a list of layers
     :widths: 10, 90
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Icon", "Description"
     |icon10|, "''Show all layers'' - Makes all the layers in the current drawing visible. (*: ''Freeze'')"
@@ -155,22 +158,26 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
 
-+---------------------+---------------------------------------------------------------------------+
-| Attribute           | Description                                                               |
-+=====================+===========================================================================+
-| Layer Name          | The default layer name is "O", but any alpha-numeric label can be used.   |
-|                     | New layers are created with the name of the hightlighted layer with a     |
-|                     | sequence number appended.  Layers are sorted in the list alpha-           |
-|                     | numerically.                                                              |
-+---------------------+---------------------------------------------------------------------------+
-| Construction Layer  | Toggle the construction lines off / on.  Construction lines are intended  |
-|                     | as temporary lines and drawn to ''infinity''".                            |
-+---------------------+---------------------------------------------------------------------------+
-| Default Pen:        | - Color: Select from default or custom colors.                            |
-|                     | - Width: Select from predefined line widths from 0.00 to 2.11 mm.         |
-|                     | - Type: Select from predefined line types: Continuous, or Dot, Dash, Dash |
-|                     |   Dot, Divide, Center, or Border (normal, "tiny", "small", or "large").   |
-+---------------------+---------------------------------------------------------------------------+
+.. table::
+    :widths: 25, 75
+    :class: fix-table
+
++----------------------+--------------------------------------------------------------------------+
+| Attribute            | Description                                                              |
++======================+==========================================================================+
+| Layer Name           | The default layer name is "O", but any alpha-numeric label can be used.  |
+|                      | New layers are created with the name of the hightlighted layer with a    |
+|                      | sequence number appended.  Layers are sorted in the list alpha-          |
+|                      | numerically.                                                             |
++----------------------+--------------------------------------------------------------------------+
+| Construction Layer   | Toggle the construction lines off / on.  Construction lines are intended |
+|                      | as temporary lines and drawn to ''infinity''".                           |
++----------------------+--------------------------------------------------------------------------+
+| Default Pen:         | - Color: Select from default or custom colors.                           |
+|                      | - Width: Select from predefined line widths from 0.00 to 2.11 mm.        |
+|                      | - Type: Select from predefined line types: Continuous, or Dot, Dash, Dash|
+|                      |   Dot, Divide, Center, or Border (normal, "tiny", "small", or "large").  |
++----------------------+--------------------------------------------------------------------------+
 
 The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used.
 
@@ -180,6 +187,7 @@ Icons to the left of each layer act on the layers individually.  The layer opera
     :widths: 25, 75
     :header-rows: 1
     :stub-columns: 0
+    :class: fix-table
 
     "Icon", "Description"
     "|icon10| / |icon11|", "Show / hide layer. *"

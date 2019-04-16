@@ -112,11 +112,20 @@ html_static_path = ['_static']
 ##}
 
 ### Table width fix for Read the Docs Sphinx theme
-html_context = {
-    'css_files': [
-        '_static/theme_overrides.css',  # override wide tables in RTD theme
-        ],
-     }
+
+### Alt 1
+## html_context = {
+##     'css_files': [
+##         '_static/theme_overrides.css',  # override wide tables in RTD theme
+##         ],
+##      }
+
+### Alt 2
+def setup(app):
+   app.add_stylesheet('theme_overrides.css')
+### Add ":class: fix-table" to CSV table ref
+
+
 
 # -- Options for HTMLHelp output ------------------------------------------
 
