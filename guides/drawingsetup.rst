@@ -35,9 +35,9 @@ Architect's Scale (SI)
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table:: 
-   :widths: 25, 75
-   :header-rows: 1
-   :stub-columns: 0
+    :widths: 25, 75
+    :header-rows: 1
+    :stub-columns: 0
     :class: fix-table
 
     "Drawing Scale", "Common Use"
