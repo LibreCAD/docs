@@ -9,9 +9,11 @@ Toolbars
 Toolbars provide alternatives to menus for accessing application functions and drawing tools.  See :ref:`Application Menu <menu>` or :ref:`Drawing Tools <tools>` for complete descriptions.
 
 .. csv-table:: 
-   :header: "Menu Item", "Description and/or *Menu Equivalent*"
-   :widths: 30, 90
+    :widths: 30, 70
+    :header-rows: 1
+    :stub-columns: 0
 
+    "Menu Item", "Description and/or *Menu Equivalent*"
     "Categories", "Groups commonly used drawing tools; *Tools -> Line / Circle / Curve / Ellipse / Polyline / Select / Dimension / Modify* and *Info*."
     "Circles", "*Tools -> Circle*."
     "Creators",  "Access menu and toolbar Creators. *Widgets -> Menu Creator* / *Toolbar Creator*.  Also see :ref:`Customizing LibreCAD’s Interface <customize>`."

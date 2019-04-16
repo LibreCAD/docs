@@ -40,9 +40,11 @@ Dock Widget Areas
 -----------------
 
 .. csv-table::  
-   :header: "Tool", "Icon", "Description"
-   :widths: 20, 10, 120
+    :widths: 20, 10, 70
+    :header-rows: 1
+    :stub-columns: 0
 
+    "Tool", "Icon", "Description"
     "Left", |icon01|, "Shows / hide the dock widgets located on the left side of the drawing window."
     "Right", |icon02|, "Shows / hide the dock widgets located on the right side of the drawing window."
     "Top", |icon03|, "Shows / hide the dock widgets located on the top of the drawing window."
@@ -68,9 +70,11 @@ Block List Dock
 The Block List Dock provides the functions to manage blocks and a list of blocks that are active in the drawing.  Block functions include:
 
 .. csv-table:: 
-   :header: "Icon", "Description"
-   :widths: 10, 90
+    :widths: 10, 90
+    :header-rows: 1
+    :stub-columns: 0
 
+    "Icon", "Description"
     |icon10|, "''Show all blocks'' - Makes all the blocks in the current drawing visible."
     |icon11|, "''Hide all blocks'' - Hides all blocks in the active drawing."
     |icon12|, "''Create a block'' - Creates a block from the selected items."
@@ -121,9 +125,11 @@ Layer List Dock
 The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing. The entry line on top of the dock allows to filter by layer names (e.g. "*01" would show all names ending by "01").  Layer functions include:
 
 .. csv-table:: 
-   :header: "Icon", "Description"
-   :widths: 10, 90
+    :widths: 10, 90
+    :header-rows: 1
+    :stub-columns: 0
 
+    "Icon", "Description"
     |icon10|, "''Show all layers'' - Makes all the layers in the current drawing visible. (*: ''Freeze'')"
     |icon11|, "''Hide all layers'' - Hides all layers in the active drawing.  (*: ''Defreeze'')"
     |icon13|, "''Add a layer'' - Add a new layer. *"
@@ -171,9 +177,11 @@ The lower portion of the dock shows a list of layers in the current drawing and 
 Icons to the left of each layer act on the layers individually.  The layer operations are:
 
 .. csv-table:: 
-   :header: "Icon", "Description"
-   :widths: 25, 75
+    :widths: 25, 75
+    :header-rows: 1
+    :stub-columns: 0
 
+    "Icon", "Description"
     "|icon10| / |icon11|", "Show / hide layer. *"
     "|icon20| / |icon21|", "Lock / unlock layer."
     "|icon22| / |icon23|", "Print / don't print layer. *"

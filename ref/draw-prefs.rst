@@ -3,10 +3,10 @@
 
 .. _draw-prefs:
 
-Current Drawing Preferences
+Drawing Preferences
 ===================
 
-Current Drawing preferences have two purposes, they allow users to :
+Drawing preferences have two purposes, they allow users to :
     1. over-ride the application defaults on a drawing by drawing basis.
     2. define specifics for the drawing's ouput, format and other drawing specific configuration.
 
@@ -52,9 +52,11 @@ Length Format
 ~~~~~~~~~~~~~
 
 .. csv-table:: 
-   :header: "Format", "Example", "Maximum Precision", "Description"
-   :widths: 15, 15, 15, 55
+    :widths: 15, 15, 15, 55
+    :header-rows: 1
+    :stub-columns: 0
    
+    "Format", "Example", "Maximum Precision", "Description"
     "**Scientific**", "1.44311E+1", "0.00000000E+1", "Significant x 10 :superscript:`n`"
     "**Decimal**", "14.43112", "0.00000000",  "Integer part seperated from the fractional part of a number by a decimal"
     "**Engineering**", "1'-2.43112'' ", "0'-0.00000000'' ",  "Feet and decimal inches"
@@ -68,9 +70,11 @@ Angle Format
 ~~~~~~~~~~~~
 
 .. csv-table:: 
-   :header: "Format", "Example", "Maximum Precision", "Description"
-   :widths: 15, 15, 15, 55
+    :widths: 15, 15, 15, 55
+    :header-rows: 1
+    :stub-columns: 0
 
+    "Format", "Example", "Maximum Precision", "Description"
 	"**Decimal Degrees**", "30.5 |deg|", "0.00000000", "Integer part separated from the fractional part of a number by a decimal"
 	"**Deg/Min/Sec**", "30 |deg| 32' 0'' ", "0 |deg| 00' 00.0000'' ", "Degrees [ |deg| ] / Minutes ( ', 1/60 of a degree) / Seconds ( '', 1/60 of a minute)"
 	"**Gradians**", "33.9g", "0.00000000g", "1/100 of a right angle"
@@ -109,53 +113,74 @@ Dimensions
     :alt: LibreCAD Drawing Preferences - Dimensions
 
 
-.. csv-table::
-    :header: "Setting", "Description"
+.. table::
     :widths: 30, 70
 
-    "General Scale", "Adjusts the **sizes** of the text and arrows by the factor provided."
-
-.. csv-table:: **Text size & position**
-    :header: "Setting", "Description"
-    :widths: 30, 70
-
-    "Length factor", "Adjusts the *dimension value* by the factor provided.  The entity remains the length as drawn."
-    "Text Style", "Sets the :ref:`font <fonts>` used for dimension text."
-    "Text Height", "Sets the text height, measured in the  units defined on the *Units* tab."
-    "Text alignment", "Aligns the text parallel and offset to the dimension line or horizontal centered on the dimension line."
-    "Dimension line gap", "Sets the space between the dimension line and the dimension text."
-    "Color", "Set the color of the dimension lines and text."
-
-.. csv-table:: **Extension lines**
-    :header: "Setting", "Description"
-    :widths: 30, 70
-
-    "Offset", "Gap beetween entity and dimension extention line."
-    "Enlarge", "Length of extention line beyond dimension line."
-    "Fixed length", "Fixed length of extension line measured from the dimension line towards the dimensioned entity."
-    "Color", "Extension line color, independent of layer settings."
-    "Width", "Extension line width, independent of layer settings."
-
-.. csv-table:: **Dimension lines, arrows and ticks**
-    :header: "Setting", "Description"
-    :widths: 30, 70
-
-    "Arrow size", "Length of dimension (and leader) arrow."
-    "Tick size", "Length of dimension tick to from end of dimension line in each direction, e.g. a length of 1 will result in a total length of 2 units. (Anything greater than ''0'' will result in a *tick* instead of a dimension *arrow*)."
-    "Color", "Tick line color, independent of layer settings."
-    "Width", "Tick line width, independent of layer settings."
-
-.. csv-table:: **Format units**
-    :header: "Setting", "Description"
-    :widths: 30, 70
-
-    "Linear units", "(See *Length Format* under **Units** above.)"
-    "Linear precision", "(See *Length Format* under **Units** above.)"
-    "Linear zeros", "Remove leading, trailing, 0' oand / or 0'' from linear dimensions."
-    "Decimal separators", "Set the dDecimal separator to a period [.], or comma [,]."
-    "Angular units", "(See *Length Format* under **Units** above.)"
-    "Angular precision", "(See *Length Format* under **Units** above.)"
-    "Angular zeros", "Remove leading or trailing zeros from angular dimensions."
++-----------------------------+-------------------------------------------------------------------+
+| Setting                     | Description                                                       |
++=============================+===================================================================+
+| General Scale               | Adjusts the **sizes** of the text and arrows by the factor        |
+|                             | provided.                                                         |
++-----------------------------+-------------------------------------------------------------------+
+| **Text size & position**                                                                        |
++-----------------------------+-------------------------------------------------------------------+
+| Length factor               | Adjusts the *dimension value* by the factor provided.  The entity |
+|                             | remains the length as drawn.                                      |
++-----------------------------+-------------------------------------------------------------------+
+| Text Style                  | Sets the :ref:`font <fonts>` used for dimension text.             |
++-----------------------------+-------------------------------------------------------------------+
+| Text Height                 | Sets the text height, measured in the  units defined on the       |
+|                             | *Units* tab.                                                      |
++-----------------------------+-------------------------------------------------------------------+
+| Text alignment              | Aligns the text parallel and offset to the dimension line or      |
+|                             | horizontal centered on the dimension line.                        |
++-----------------------------+-------------------------------------------------------------------+
+| Dimension line gap          | Sets the space between the dimension line and the dimension text. |
++-----------------------------+-------------------------------------------------------------------+
+| Color                       | Set the color of the dimension lines and text.                    |
++-----------------------------+-------------------------------------------------------------------+
+| **Extension lines**                                                                             |
++-----------------------------+-------------------------------------------------------------------+
+| Offset                      | Gap beetween entity and dimension extention line.                 |
++-----------------------------+-------------------------------------------------------------------+
+| Enlarge                     | Length of extention line beyond dimension line.                   |
++-----------------------------+-------------------------------------------------------------------+
+| Fixed length                | Fixed length of extension line measured from the dimension line   |
+|                             | towards the dimensioned entity.                                   |
++-----------------------------+-------------------------------------------------------------------+
+| Color                       | Extension line color, independent of layer settings.              |
++-----------------------------+-------------------------------------------------------------------+
+| Width                       | Extension line width, independent of layer settings.              |
++-----------------------------+-------------------------------------------------------------------+
+| **Dimension lines, arrows and ticks**                                                           |
++-----------------------------+-------------------------------------------------------------------+
+| Arrow size                  | Length of dimension (and leader) arrow.                           |
++-----------------------------+-------------------------------------------------------------------+
+| Tick size                   | Length of dimension tick to from end of dimension line in each    |
+|                             | direction, e.g. a length of 1 will result in a total length of 2  |
+|                             | units. (Anything greater than ''0'' will result in a *tick*       |
+|                             | instead of a dimension *arrow*).                                  |
++-----------------------------+-------------------------------------------------------------------+
+| Color                       | Tick line color, independent of layer settings.                   |
++-----------------------------+-------------------------------------------------------------------+
+| Width                       | Tick line width, independent of layer settings.                   |
++-----------------------------+-------------------------------------------------------------------+
+| **Format units**                                                                                |
++-----------------------------+-------------------------------------------------------------------+
+| Linear units                | (See *Length Format* under **Units** above.)                      |
++-----------------------------+-------------------------------------------------------------------+
+| Linear precision            | (See *Length Format* under **Units** above.)                      |
++-----------------------------+-------------------------------------------------------------------+
+| Linear zeros                | Remove leading, trailing, 0' oand / or 0'' from linear dimensions.|
++-----------------------------+-------------------------------------------------------------------+
+| Decimal separators          | Set the dDecimal separator to a period [.], or comma [,].         |
++-----------------------------+-------------------------------------------------------------------+
+| Angular units               | (See *Length Format* under **Units** above.)                      |
++-----------------------------+-------------------------------------------------------------------+
+| Angular precision           | (See *Length Format* under **Units** above.)                      |
++-----------------------------+-------------------------------------------------------------------+
+| Angular zeros               | Remove leading or trailing zeros from angular dimensions.         |
++-----------------------------+-------------------------------------------------------------------+
 
 
 Splines

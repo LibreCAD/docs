@@ -48,9 +48,9 @@ A dimension consists of a few parts:
 The appearance of the dimensions are configured on the :ref:`Dimensions <dimn-prefs>` tab in the **Drawing Preferences** and as with many other aspects of a :ref:`drawing's setup <drawing-setup>`, there are some generally accepted values for dimensioning:
 
 .. csv-table:: 
-   :widths: 40, 20, 20, 20
-   :header-rows: 1
-   :stub-columns: 0
+    :widths: 40, 20, 20, 20
+    :header-rows: 1
+    :stub-columns: 0
 
     "Dimension Component", "mm", "Decimal Inch", "Fractional Inch"
     "Dimension text height", "2.5", ".100", "3/32"
