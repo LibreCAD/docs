@@ -174,9 +174,9 @@ Dimensions
 +-----------------------------+-------------------------------------------------------------------+
 | Linear precision            | (See *Length Format* under **Units** above.)                      |
 +-----------------------------+-------------------------------------------------------------------+
-| Linear zeros                | Remove leading, trailing, 0' and / or 0'' from linear dimensions.|
+| Linear zeros                | Remove leading, trailing, 0' and / or 0'' from linear dimensions. |
 +-----------------------------+-------------------------------------------------------------------+
-| Decimal separators          | Set the decimal separator to a period [.], or comma [,].         |
+| Decimal separators          | Set the decimal separator to a period [.], or comma [,].          |
 +-----------------------------+-------------------------------------------------------------------+
 | Angular units               | (See *Length Format* under **Units** above.)                      |
 +-----------------------------+-------------------------------------------------------------------+
