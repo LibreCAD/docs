@@ -171,7 +171,7 @@ Both text tools proved several options for the appearance an placement of test, 
 +------------------------+------------------------------------------------+-------+-------+
 | **Alignment**                                                                           | 
 +------------------------+------------------------------------------------+-------+-------+
-|                        | Place text aligned to *handle*:                |       |       |
+|                        | Place text aligned to *handle*:                | |     | |     |
 |                        |                                                | |     | |     |
 |                        | - top, left/center/right                       | | X   | | X   |
 |                        | - middle, left/center/right                    | | X   | | X   |
