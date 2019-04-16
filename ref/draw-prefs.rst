@@ -122,8 +122,8 @@ Dimensions
 +-----------------------------+-------------------------------------------------------------------+
 | Setting                     | Description                                                       |
 +=============================+===================================================================+
-| General Scale               | Adjusts the **sizes** of the text and arrows by the factor        |
-|                             | provided.                                                         |
+| General Scale               | | Adjusts the **sizes** of the text and arrows by the factor      |
+|                             | | provided.                                                       |
 +-----------------------------+-------------------------------------------------------------------+
 | **Text size & position**                                                                        |
 +-----------------------------+-------------------------------------------------------------------+
@@ -159,10 +159,10 @@ Dimensions
 +-----------------------------+-------------------------------------------------------------------+
 | Arrow size                  | Length of dimension (and leader) arrow.                           |
 +-----------------------------+-------------------------------------------------------------------+
-| | Tick size                 | Length of dimension tick to from end of dimension line in each    |
-| |                           | direction, e.g. a length of 1 will result in a total length of 2  |
-| |                           | units. (Anything greater than ''0'' will result in a *tick*       |
-| |                           | instead of a dimension *arrow*).                                  |
+| Tick size                   | Length of dimension tick to from end of dimension line in each    |
+|                             | direction, e.g. a length of 1 will result in a total length of 2  |
+|                             | units. (Anything greater than ''0'' will result in a *tick*       |
+|                             | instead of a dimension *arrow*).                                  |
 +-----------------------------+-------------------------------------------------------------------+
 | Color                       | Tick line color, independent of layer settings.                   |
 +-----------------------------+-------------------------------------------------------------------+
