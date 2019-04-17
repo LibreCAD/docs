@@ -9,11 +9,12 @@ Creating Entities
 To follow...
 
 
-Adjusting Entities
+Modifying Entities
 ------------------
 
-Using 'handles', to follow...
+Not to be confused with the "Modify" tools, but for using 'handles', attribute and properties.  To follow...
 
+Also, "selecting" entities.  To follow...
 
 Changing Attributes
 ~~~~~~~~~~~~~~~~~~~
