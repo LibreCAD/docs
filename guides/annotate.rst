@@ -6,7 +6,7 @@
 Annotating a Drawing
 ====================
 
-A drawing in and of itself provides an image of what an object might look like, but it doesn’t provide a complete description of the object. Knowing how big the object is also very important, thus the need to provide the measurements and other textual information to describe the drawn object.  Together, dimensions and text is called *annotating* a drawing.
+A drawing in and of itself provides an image of what the object might look like, but it doesn’t provide a complete description of the object. Knowing how big the object is also very important, thus the need to provide the measurements and other textual information to describe the drawn object.  Together, dimensions and text is called *annotating* a drawing.
 
 Dimensioning an object on a drawing provides the information necessary to be able to interpret the object and ultimately produce the it, whether it be a building or a widget.  Other textual information in the form of notes, or call-outs, etc. provide further details for the object.
 
@@ -16,7 +16,7 @@ Dimensioning an object on a drawing provides the information necessary to be abl
 Dimensioning
 ------------
 
-Dimensions are used to define length, width, height of a line entity, or the diameter of circle entity or radius of arc entity.  A drawing's dimensions must be:
+Dimensions are used to define length, width, height, angle of a line entity, or the diameter of circle entity, or radius of arc entity.  A drawing's dimensions must be:
 
    - Accurate
    - Legible
@@ -60,8 +60,7 @@ The appearance of the dimensions are configured on the :ref:`Dimensions <dimn-pr
     "Extension line - Enlarge", "3", ".125", "1/8"
     "Arrow size", "3", ".125", "1/8"
 
-
-The size of each dimension component is the 'real world' size.  That is to say that if the text height is set to 2.5 mm, even if the drawing is scaled down when printed the text would remain as 2.5 mm on the printed drawing.  The value for the *General Scale* will need to be adjusted when generating a print.  Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
+The size of each dimension component set in the configuration should be the desired 'real world' size.  That is to say that if the text height is set to 2.5 mm, even if the drawing is scaled down when printed the text should remain as 2.5 mm on the printed drawing.  If the drawing is printed full scale the dimension text will appear correctly, however if the drawing is scaled up or down the value for the *General Scale* needs to be adjusted.  Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
 
 
 Rules for Dimensioning
@@ -115,7 +114,7 @@ While leaders do not a dimension an entity, they are closely related to dimensio
 Text
 ----
 
-Adding text to a drawing provides addition information; build notes, drawing title and related details, and so forth.  Text can be added using two either of the two types of text tools:
+Adding text to a drawing provides addition information; build notes, drawing title and related details, and so forth.  Text can be added using either of the two types of text tools:
 	- Text: Single line of text
 	- MText: Multi-line text
 
@@ -144,7 +143,7 @@ Adding text to a drawing provides addition information; build notes, drawing tit
 |
 |
 
-Both text tools proved several options for the appearance an placement of test, however a couple are unique to the single-line **Text** tool, as shown below:
+Both tools proved several options for the appearance and placement of text, however a couple are unique to the single-line **Text** tool, as shown below:
 
 .. table::
     :widths: 30, 50, 10, 10
@@ -153,7 +152,7 @@ Both text tools proved several options for the appearance an placement of test, 
 +------------------------+------------------------------------------------+-------+-------+
 | Option                 | Description                                    | Text  | MText |
 +========================+================================================+=======+=======+
-| **Font Settings**                                                                       |
+| **Font Settings:**                                                                       |
 +------------------------+------------------------------------------------+-------+-------+
 | - Font                 | Select font for text                           |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
@@ -169,7 +168,7 @@ Both text tools proved several options for the appearance an placement of test, 
 +------------------------+------------------------------------------------+-------+-------+
 | - Line spacing         |                                                |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
-| **Alignment**                                                                           | 
+| **Alignment:**                                                                           | 
 +------------------------+------------------------------------------------+-------+-------+
 |                        | Place text aligned to *handle*:                | |     | |     |
 |                        |                                                | |     | |     |
@@ -194,7 +193,7 @@ Both text tools proved several options for the appearance an placement of test, 
 |                        | | Registered, Paragraph, Pi, Pound, Yen, Times,|       |       |
 |                        | | Division)                                    |       |       |
 +------------------------+------------------------------------------------+-------+-------+
-| **Insert Unicode**                                                                      |
+| **Insert Unicode:**                                                                      |
 +------------------------+------------------------------------------------+-------+-------+
 | - Page                 | Select Unicode page to select character from   |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
@@ -203,7 +202,7 @@ Both text tools proved several options for the appearance an placement of test, 
 | - **Insert** button    | | Click button to insert Unicode character     |   X   |   X   |
 |                        | | into text input field                        |       |       |
 +------------------------+------------------------------------------------+-------+-------+
-| **Icons**                                                                               |
+| **Icons:**                                                                               |
 +------------------------+------------------------------------------------+-------+-------+
 | - Clear text           | Clear text field   |i01|                       |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
