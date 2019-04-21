@@ -6,16 +6,28 @@
 Building from Source
 ====================
 
+.. note::
+
+    *This section is currently being updated.
+
+
+For users wanting to run the cutting-edge version of LibreCAD it will be neccesary to compile it on the operating system.  There are a couple of prerequisite that are required:
+
+   - Qt development framework
+   - boost software library
+   - git distributed version control system (optional)
+
+
 Git and GitHub
 --------------
-
-The source code for LibreCAD is hosted on GitHub (https://github.com/LibreCAD/LibreCAD/).  The source can be download or cloned
+The source code for LibreCAD is hosted on GitHub (https://github.com/LibreCAD/LibreCAD/).  The source can be download or cloned.  For users in who want to stay on the cuttinge-edge and update frequently, it is recommended they use git to keep the source code current, otherwise it can be downloaded as a zip file.
 
 
 Building on Linux
 -----------------
 
 Install dependencies
+~~~~~~~~~~~~~~~~~~~~
 
 First gather the required packages::
 
@@ -23,42 +35,47 @@ First gather the required packages::
     qttools5-dev qtchooser qttools5-dev-tools libmuparser-dev librsvg2-bin\
     libboost-dev libfreetype6-dev libicu-dev pkg-config
 
-You also have to either install the qt5-default package ("apt install qt5-default") or use qtchooser prior to running qmake (e.g., "qtchooser -qt5"). If you have not cloned the LibreCAD repository
+You also have to either install the qt5-default package ("apt install qt5-default") or use qtchooser prior to running qmake (e.g., "qtchooser -qt5").
+
+
+Obtain Source Code
+~~~~~~~~~~~~~~~~~~
 
 If you have a local LibreCAD repository, continue to Update a local LibreCAD repository instead
 
-If ~/develop does not exist, create this folder::
+If ~/develop does not exist, create this folder:
 
    $ mkdir -p ~/develop/LibreCAD 
 
-Clone the LibreCAD repository, please note this is needed only once::
+Clone the LibreCAD repository, please note this is needed only once:
 
    $ cd ~/develop/
    $ git clone https://github.com/LibreCAD/LibreCAD.git
 
-Update a local LibreCAD repository::
+Update a local LibreCAD repository:
 
    $ cd ~/develop/LibreCAD/
    $ git checkout master
    $ git pull -r
 
-Build LibreCAD::
+
+Build LibreCAD
+~~~~~~~~~~~~~~
 
    $ qmake -r
    $ make -j4
 
-if building is successful, the generated executable is at ./unix/librecad, and you may launch LibreCAD::
+If building LibreCAD is successful, an executable is at created and can be found in ./unix/librecad, and you may launch LibreCAD:
 
    $ ./unix/librecad &
 
 
-Detailed steps are here: [1]
-Building LibreCAD 2.0 on Windows
+Building on MS Windows
+----------------------
+
 Cloning the source package
 
 To clone LibreCAD source code by command line:
-
-::
 
    git clone https://github.com/LibreCAD/LibreCAD.git
 
@@ -81,7 +98,7 @@ Updating local source
 
 
 Qt
---
+~~
 
 Download Qt from : Qt download. Offline installer with MinGW is recommended instead of the Windows online installer. Qt-5.4.1 for Windows 32 bit (MinGW 4.9.1) is used as an example in this article.
 
@@ -177,13 +194,9 @@ If everything was OK, the installer (LibreCAD-installer.exe) can be found in the
 
 (When LibreCAD Release version was built from Qt Creator, use build-win-setup.bat to create the windows installer.)
 
-Other instructions:
 
-    How_to_built_LibreCAD_(master_branch)_on_Windows.
-    LibreCad from source
-
-Building LibreCAD-2.0 on OS/X
-LibreCAD in MacPorts
+Building on macOS
+-----------------
 
 Starting from version 2.0.2, LibreCAD is included MacPorts, which can be downloaded from http://www.macports.org/install.php
 
