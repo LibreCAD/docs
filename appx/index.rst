@@ -11,10 +11,11 @@ Appendices
    :maxdepth: 1
 
     Online Resources <resources>
-    Building from Source <build>
     LibreCAD Fonts <fonts>
+    Hatches <hatches>
     Languages <languages>
     Systems of Measurement <measurements>
     Calculator Functions <calculator>
+    Building from Source <build>
     Contributing <contributing>
     Licenses <licenses>
