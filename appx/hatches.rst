@@ -6,6 +6,8 @@
 Hatches
 =======
 
+**Unless shown otherwise, hatch patterns are shown at 1:1 scale (1x)**
+
 .. csv-table:: 
     :widths: 33, 33, 33
     :header-rows: 1
@@ -35,9 +37,6 @@ Hatches
     |hatch61|, |hatch62|, |hatch63|
     "", |hatch64|, ""
 
-
-
-**Unless shown otherwise, hatch patterns are shown at 1:1 scale (1x)**
 
 ..  Hatch mapping:
 
@@ -144,7 +143,7 @@ Hatches
 .. |hatch34| image:: /images/hatch/gost_liquid.png
             :height: 165
             :width: 150
-.. |hatch34| image:: /images/hatch/gost_metal.png
+.. |hatch35| image:: /images/hatch/gost_metal.png
             :height: 165
             :width: 150
 .. |hatch36| image:: /images/hatch/gost_non-metal.png
@@ -228,7 +227,7 @@ Hatches
 .. |hatch62| image:: /images/hatch/triangle_a.png
             :height: 165
             :width: 150
-.. |hatch63| image:: /images/hatch/triangle_b"
+.. |hatch63| image:: /images/hatch/triangle_b.png
             :height: 165
             :width: 150
 .. |hatch64| image:: /images/hatch/Solid.png
