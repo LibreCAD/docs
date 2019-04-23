@@ -52,14 +52,14 @@ if building is successful, the generated executable is at ./unix/librecad, and y
    $ ./unix/librecad &
 
 
-Detailed steps are here: [1]
-Building LibreCAD 2.0 on Windows
+Building on Windows
+-------------------
+
 Cloning the source package
 
 To clone LibreCAD source code by command line:
 
 ::
-
    git clone https://github.com/LibreCAD/LibreCAD.git
 
 On Windows, you may alternatively:
@@ -68,8 +68,10 @@ On Windows, you may alternatively:
     - press the windows-key and then type git
     - select "Git GUI"
     - after the program loads select "Clone existing repository"
+
         - enter source location: git://github.com/LibreCAD/LibreCAD.git
         - enter target directory: where you want the project on your hard drive
+
     - press clone and then wait for it to download
 
 Updating local source
@@ -80,22 +82,33 @@ Updating local source
     - input: git pull -r
 
 
-Qt
---
+Install dependencies
+~~~~~~~~~~~~~~~~~~~~
+
+Qt Framework
+`````````````
 
 Download Qt from : Qt download. Offline installer with MinGW is recommended instead of the Windows online installer. Qt-5.4.1 for Windows 32 bit (MinGW 4.9.1) is used as an example in this article.
 
 Install Qt (including Qt-Creator) to C:\Qt\5.4\ (the default path prompted by Qt installer). The MinGW tools will be in C:\Qt\5.4\mingw491_32\bin by default.
+
+
 muParser
+````````
 
 On Windows, muParser is not required to build LibreCAD since LibreCAD-2.0.4, because LibreCAD uses by default a patched version of muParser included within LibreCAD source.
+
+
 Custom files
+````````````
 
 If you only care about building with Qt Creator, then you only need to read the boost and custom.pro section. The other custom files are for when you want to create an installer.
 
 If you are planning to contribute, don't edit the librecad.pro, build-windows.bat and nsis-5.4.nsi files to fit your local settings. This would result in changes for git you have to care about in each commit, pull and push. Instead create the files custom.pro, custom-windows.bat and custom.nsh, which are ignored by git, and set your local settings there.
-boost and custom.pro
 
+
+boost and custom.pro
+````````````````````
 Download boost from: boost download.
 
 Unzip the boost files to the directory: C:\boost\ -- the extracted folder would be: C:\boost\boost_1_60_0\ .
@@ -107,7 +120,9 @@ In librecad/src edit the custom.pro (or custom.pri) file accordingly :
    BOOST_DIR = C:/boost/boost_1_60_0/
    BOOST_LIBDIR = C:/boost/boost_1_60_0/
 
+
 custom-windows.bat
+``````````````````
 
 A command line building script file is added as scripts/build-windows.bat. To be able to use this batch file, you need to have your Qt and NSIS directories set up first. Default values for Qt_Dir, MINGW_VER and NSIS_DIR are set in file scripts/set-windows-env.bat:
 
@@ -116,14 +131,14 @@ A command line building script file is added as scripts/build-windows.bat. To be
    set MINGW_VER=mingw482_32
 
 To change these default settings you have to create the file scripts/custom-windows.bat and overwrite the different settings without effect to the SCM (git).
+
 Example for scripts/custom-windows.bat:
 
    set Qt_DIR=C:\Qt\5.4
    set NSIS_DIR=C:\PROGRA~2\NSIS
    set MINGW_VER=mingw491_32
 
-There are issues with the NSIS_DIR path on 64 Bit Windows. When NSIS is installed in the Program Files (x86) folder and NSIS_DIR is added to the PATH, something goes wrong in the build process.
-In this case use the command dir /X \ and get an output like this:
+There are issues with the NSIS_DIR path on 64 Bit Windows. When NSIS is installed in the Program Files (x86) folder and NSIS_DIR is added to the PATH, something goes wrong in the build process.  In this case use the command dir /X \ and get an output like this:
 
    09/02/2014  09:50 PM    <DIR>          PROGRA~1     Program Files
    10/27/2014  12:33 PM    <DIR>          PROGRA~2     Program Files (x86)
@@ -148,13 +163,15 @@ Example for scripts\postprocess-windows\custom.nsh:
 
 These settings indicate Qt-5.4 is installed at C:\Qt\5.4 and it comes with Qt-Creator in C:\Qt\Tools\QtCreator and qmake.exe in C:\Qt\5.4\mingw491_32\bin
 
-If you use an other Qt Version, e.g. Qt 5.4, where the master branch default is Qt 5.3.x, you have to use scripts\postprocess-windows\nsis-5.4.nsi for building the installer package.
-Then you have to add this line to scripts/custom-windows.bat:
+If you use an other Qt Version, e.g. Qt 5.4, where the master branch default is Qt 5.3.x, you have to use scripts\postprocess-windows\nsis-5.4.nsi for building the installer package.  Then you have to add this line to scripts/custom-windows.bat:
 
    set LC_NSIS_FILE=nsis-5.4.nsi
 
 This line tells the build-win-setup.bat script to use nsis-5.4.nsi instead of nsis-5.3.nsi, which is currently default setting on master branch.
+
+
 Building LibreCAD in Qt-Creator
+```````````````````````````````
 
 Launch Qt-Creator and open the librecad.pro project file within the LibreCAD source folder. Accept Qt path detected by Qt-Creator by clicking "Configure Project" button, if the project is not configured yet.
 
