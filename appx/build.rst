@@ -47,11 +47,13 @@ This step only needs to be done once to create the initial cloned repository.  I
 Create a directory for the repository in the *home* directory:
 
 ::
+
    $ mkdir -p ~/develop/LibreCAD 
 
 Clone the LibreCAD source code repository:
 
 ::
+
    $ cd ~/develop/
    $ git clone https://github.com/LibreCAD/LibreCAD.git
 
@@ -61,9 +63,10 @@ When this steps is finished a complete copy of the source code will found in the
 Update a Local Repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once a local repository has been created it can be updated as changes (bug fixes and / or new features) are added to the source code.
+Once a local repository has been created it can be updated as changes (bug fixes and / or new features) are added to the source code with:
 
 ::
+
    $ cd ~/develop/LibreCAD/
    $ git checkout master
    $ git pull -r
@@ -75,6 +78,7 @@ Build LibreCAD
 When the source code is copied to the local repository, ~/develop/LibreCAD/, it can be compiled with the following commands:
 
 ::
+
    $ cd ~/develop/LibreCAD/
    $ qmake -r
    $ make -j4
@@ -82,6 +86,7 @@ When the source code is copied to the local repository, ~/develop/LibreCAD/, it 
 If the build is successful an executable is created, ~/develop/LibreCAD/unix/librecad, and LibreCAD can be launched by typing:
 
 ::
+
    $ ./unix/librecad &
 
 
@@ -116,6 +121,7 @@ Download boost from: boost download.
 Unzip the boost files to the directory:
 
 ::
+
   md C:\boost\
 
  -- the extracted folder would be: C:\boost\boost_1_60_0\ .
@@ -136,6 +142,7 @@ Cloning the source package
 To clone LibreCAD source code by command line:
 
 ::
+
    git clone https://github.com/LibreCAD/LibreCAD.git
 
 On Windows, you may alternatively:
@@ -275,7 +282,10 @@ Other instructions:
     How_to_built_LibreCAD_(master_branch)_on_Windows.
     LibreCad from source
 
-Building LibreCAD-2.0 on OS/X
+
+Building on macOS
+-----------------
+
 LibreCAD in MacPorts
 
 Starting from version 2.0.2, LibreCAD is included MacPorts, which can be downloaded from http://www.macports.org/install.php
