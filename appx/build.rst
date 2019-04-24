@@ -31,6 +31,7 @@ Install Tools and Dependencies
 Install the required tools and libraries (Qt, boost, muparser, etc.):
 
 ::
+
    $ sudo apt install g++ gcc make git-core qtbase5-dev libqt5svg5-dev\
     qttools5-dev qtchooser qttools5-dev-tools libmuparser-dev librsvg2-bin\
     libboost-dev libfreetype6-dev libicu-dev pkg-config
@@ -82,7 +83,6 @@ If the build is successful an executable is created, ~/develop/LibreCAD/unix/lib
 
 ::
    $ ./unix/librecad &
-
 
 
 Building on Windows
