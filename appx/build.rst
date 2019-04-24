@@ -15,15 +15,21 @@ The tools and dependencies required to build LibreCAD are:
     - boost software library
     - muParser math expression parser library
 
+If you are a developer and want to contribute to LibreCAD see the :ref:`Contributing <contributing>` section in the **Appendics**.
+
 
 Git and GitHub
 --------------
 
-The source code for LibreCAD is hosted on GitHub (https://github.com/LibreCAD/LibreCAD/).  The source can be download or cloned.  These instruction use "cloning" to allow users to update and build LibreCAD as the source code is updated.
+The source code for LibreCAD is hosted on GitHub (https://github.com/LibreCAD/LibreCAD/) and can be download or cloned.  These instruction use "cloning" to allow users to update and build LibreCAD as the source code is updated.
 
 
 Building on Linux
 -----------------
+
+.. note::
+
+    These instructions are for Debian based Linux distributions.
 
 Install Tools and Dependencies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -93,30 +99,43 @@ If the build is successful an executable is created, ~/develop/LibreCAD/unix/lib
 Building on Windows
 -------------------
 
-https://wiki.librecad.org/index.php?title=How_to_built_LibreCAD_(master_branch)_on_Windows.
+.. note::
+
+    *This section is currently being updated.*
+
+
 https://wiki.librecad.org/index.php/LibreCAD_Installation_from_Source#Building_LibreCAD_2.0_on_Windows
+https://wiki.librecad.org/index.php?title=How_to_built_LibreCAD_(master_branch)_on_Windows.
 
 
 Install Tools and Dependencies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Git
+```
+
+There are several ways to install git on MS Windows.  These build instructions utilize the command line version included with the `GitHub Desktop <https://desktop.github.com/>`_.
+
+Another option is to use the "almost official" `Git for Windows <https://git-scm.com/download/win>`_.  See https://gitforwindows.org for more information.
+
+
 Qt Framework
 `````````````
 
-Download Qt from : Qt download. Offline installer with MinGW is recommended instead of the Windows online installer. Qt-5.4.1 for Windows 32 bit (MinGW 4.9.1) is used as an example in this article.
+Download the open source version of Qt from `Qt download <https://www.qt.io/download>`_.  Install Qt (including Qt-Creator) to the default path prompted by Qt installer. 
 
-Install Qt (including Qt-Creator) to C:\Qt\5.4\ (the default path prompted by Qt installer). The MinGW tools will be in C:\Qt\5.4\mingw491_32\bin by default.
+The MinGW tools will be in C:\Qt\5.4\mingw491_32\bin by default.
 
 
 muParser
 ````````
 
-On Windows, muParser is not required to build LibreCAD since LibreCAD-2.0.4, because LibreCAD uses by default a patched version of muParser included within LibreCAD source.
+muParser is not required on Windows to build LibreCAD as a patched version of the muParser library is  included in the LibreCAD source code since LibreCAD version 2.0.4.
 
-boost and custom.pro
+Boost
 ~~~~~
 
-Download boost from: boost download.
+Download boost from `Boost downloada <https://www.boost.org/users/download/>`_.
 
 Unzip the boost files to the directory:
 
@@ -128,16 +147,14 @@ Unzip the boost files to the directory:
 
 Verify that you have the file C:\boost\boost_1_60_0\booststrap.bat. You don't have to build boost in order to build LibreCAD, because LibreCAD only uses headers.
 
-In librecad/src edit the custom.pro (or custom.pri) file accordingly :
+In librecad/src edit the custom.pro file accordingly:
 
    BOOST_DIR = C:/boost/boost_1_60_0/
    BOOST_LIBDIR = C:/boost/boost_1_60_0/
 
 
-
-
-Cloning the source package
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cloning the Repository
+~~~~~~~~~~~~~~~~~~~~~~
 
 To clone LibreCAD source code by command line:
 
@@ -286,46 +303,50 @@ Other instructions:
 Building on macOS
 -----------------
 
-LibreCAD in MacPorts
+.. note::
 
-Starting from version 2.0.2, LibreCAD is included MacPorts, which can be downloaded from http://www.macports.org/install.php
+    *This section is currently being updated.*
 
-To install LibreCAD by MacPorts:
+http://forum.librecad.org/Help-wanted-to-build-on-MacOS-td5717273.html
 
-Optional, update package list
 
-   $ sudo port selfupdate
 
-Install the LibreCAD package
-
-   $ sudo port install librecad
-
-Following steps describe steps to build LibreCAD manually.
-Alternative: Building from Downloaded Source Code
-Install dependecies
+Install Tools and Dependencies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Install QT and a new gcc, which should be version 4.7 or later (gcc-4.8 or later is recommended).
 
-Install a version of Qt, boost and freetype, for example
+Install a version of Qt, boost and freetype, for example:
+
+::
 
    $ sudo port install gcc48 qt4-creator-mac qt4-mac boost freetype
 
 or
 
+::
+
    $ sudo port install gcc49 qt5-creator-mac qt5-mac boost freetype
 
 Again, if you are running an OS/X version before Mavericks(10.9), you may have to select gcc-4.8 (or later) as the default compiler:
+
+::
 
    $ sudo port select gcc
 
 Accept mp-gcc48(or later) as the current active gcc.
 
 Please note LibreCAD uses a patched version muparser, and the muparser package from MacPorts is not a required dependency any more.
-Get Latest LibreCAD Source Code
+
+
+Clone the Repository
+~~~~~~~~~~~~~~~~~~~~
 
 To test the latest LibreCAD version, you may clone the official repository, and this cloning only needs to be done once. The latest development version of LibreCAD-2.0 is the master branch.
 
-Alternatively, you may download source code zipballs/tarballs from github: https://github.com/LibreCAD/LibreCAD/releases
+Alternatively, you may download source code zipballs/tarballs from github: https://github.com/LibreCAD/LibreCAD/releases:
+
+::
 
     $ sudo port install git-core
     $ mkdir -p ~/github
@@ -334,6 +355,8 @@ Alternatively, you may download source code zipballs/tarballs from github: https
 
 The last git command will clone the official LibreCAD repository to a folder ~/github/LibreCAD/ If you have a previous cloned repository, say, in ~/github/LibreCAD/ , you can update the code by:
 
+::
+
    $ cd ~/github/LibreCAD/
    $ git fetch origin
    $ git checkout master
@@ -341,22 +364,32 @@ The last git command will clone the official LibreCAD repository to a folder ~/g
 
 To be able to rely on pkg-config to find libraries, you may add the following to custom.pro
 
+::
+
    $ echo "QT_CONFIG -= no-pkg-config" >> custom.pro
 
 Select the right compiler
 
 LibreCAD doesn't build with the default llvm-gcc42. For example you may choose gcc48 by:
 
+::
+
    $ sudo port install gcc48
    $ sudo port select --set gcc mp-gcc48
 
-Building LibreCAD
 
-On OS/X 10.9 or newer, use spec macx-g++ is the default. Alternatively, you may use the system default clang++ compiler instead of gcc。
+Build LibreCAD
+~~~~~~~~~~~~~~
+
+On OS/X 10.9 or newer, use spec macx-g++ is the default. Alternatively, you may use the system default clang++ compiler instead of gcc:
+
+::
 
    $ qmake librecad.pro -r -spec macx-g++
 
-On OS/X version 10.8 or older, run the following command to build a makefile in the LibreCAD source folder (as in our example, ~/github/LibreCAD/ )
+On OS/X version 10.8 or older, run the following command to build a makefile in the LibreCAD source folder (as in our example, ~/github/LibreCAD/ ):
+
+::
 
    $ qmake librecad.pro -r -spec mkspec/macports
 
@@ -364,20 +397,29 @@ If the previous step is successful, you can build LibreCAD by issuing:
 
    $ make -j4
 
-After a successful build, the generated executible of LibreCAD can be found as
+After a successful build, the generated executible of LibreCAD can be found as:
+
+::
 
    LibreCAD.app/Contents/MacOS/LibreCAD
 
-By the building script
 
-Alternatively, you may try the building script comes with LibreCAD at scripts/build-osx.sh to build an DMG file. On OS/X 10.9 or newer::
+By the building script
+~~~~~~~~~~~~~~~~~~~~~~
+
+Alternatively, you may try the building script comes with LibreCAD at scripts/build-osx.sh to build an DMG file. On OS/X 10.9 or newer:
+
+::
 
    $ cd ~/github/LibreCAD/
    $ cd scripts/
    $ ./build-osx.sh
 
-On OS/X 10.8 or older, you may have to edit the build-osx.sh to qmake command lines like::
+On OS/X 10.8 or older, you may have to edit the build-osx.sh to qmake command lines like:
+
+::
 
    qmake -r -spec mkspec/macports
 
-to use the qmake mkspec shipped within LibreCAD source code. 
+to use the qmake mkspec shipped within LibreCAD source code.
+
