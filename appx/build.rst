@@ -133,7 +133,7 @@ muParser
 muParser is not required on Windows to build LibreCAD as a patched version of the muParser library is  included in the LibreCAD source code since LibreCAD version 2.0.4.
 
 Boost
-~~~~~
+`````
 
 Download boost from `Boost downloada <https://www.boost.org/users/download/>`_.
 
@@ -182,43 +182,12 @@ Updating local source
     - input: git pull -r
 
 
-Install dependencies
-~~~~~~~~~~~~~~~~~~~~
-
-Qt Framework
-`````````````
-
-Download Qt from : Qt download. Offline installer with MinGW is recommended instead of the Windows online installer. Qt-5.4.1 for Windows 32 bit (MinGW 4.9.1) is used as an example in this article.
-
-Install Qt (including Qt-Creator) to C:\Qt\5.4\ (the default path prompted by Qt installer). The MinGW tools will be in C:\Qt\5.4\mingw491_32\bin by default.
-
-
-muParser
-````````
-
-On Windows, muParser is not required to build LibreCAD since LibreCAD-2.0.4, because LibreCAD uses by default a patched version of muParser included within LibreCAD source.
-
-
 Custom files
 ````````````
 
 If you only care about building with Qt Creator, then you only need to read the boost and custom.pro section. The other custom files are for when you want to create an installer.
 
 If you are planning to contribute, don't edit the librecad.pro, build-windows.bat and nsis-5.4.nsi files to fit your local settings. This would result in changes for git you have to care about in each commit, pull and push. Instead create the files custom.pro, custom-windows.bat and custom.nsh, which are ignored by git, and set your local settings there.
-
-
-boost and custom.pro
-````````````````````
-Download boost from: boost download.
-
-Unzip the boost files to the directory: C:\boost\ -- the extracted folder would be: C:\boost\boost_1_60_0\ .
-
-Verify that you have the file C:\boost\boost_1_60_0\booststrap.bat. You don't have to build boost in order to build LibreCAD, because LibreCAD only uses headers.
-
-In librecad/src edit the custom.pro (or custom.pri) file accordingly :
-
-   BOOST_DIR = C:/boost/boost_1_60_0/
-   BOOST_LIBDIR = C:/boost/boost_1_60_0/
 
 
 custom-windows.bat
@@ -405,7 +374,7 @@ After a successful build, the generated executible of LibreCAD can be found as:
 
 
 By the building script
-~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````
 
 Alternatively, you may try the building script comes with LibreCAD at scripts/build-osx.sh to build an DMG file. On OS/X 10.9 or newer:
 
