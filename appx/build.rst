@@ -6,56 +6,132 @@
 Building from Source
 ====================
 
+Building from the source code allows users to run the cutting-edge version of LibreCAD that includes fixes and possibly new features.  The instructions are as complete as possible to provide the necessary steps to allow any user to build LibreCAD from the source code, however some understanding of the operating system and installing of the required tools and dependencies is required.
+
+The tools and dependencies required to build LibreCAD are:
+
+    - git distributed version control system
+    - Qt development framework
+    - boost software library
+    - muParser math expression parser library
+
+
 Git and GitHub
 --------------
 
-The source code for LibreCAD is hosted on GitHub (https://github.com/LibreCAD/LibreCAD/).  The source can be download or cloned
+The source code for LibreCAD is hosted on GitHub (https://github.com/LibreCAD/LibreCAD/).  The source can be download or cloned.  These instruction use "cloning" to allow users to update and build LibreCAD as the source code is updated.
 
 
 Building on Linux
 -----------------
 
-Install dependencies
+Install Tools and Dependencies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-First gather the required packages::
+Install the required tools and libraries (Qt, boost, muparser, etc.):
 
+::
    $ sudo apt install g++ gcc make git-core qtbase5-dev libqt5svg5-dev\
     qttools5-dev qtchooser qttools5-dev-tools libmuparser-dev librsvg2-bin\
     libboost-dev libfreetype6-dev libicu-dev pkg-config
 
-You also have to either install the qt5-default package ("apt install qt5-default") or use qtchooser prior to running qmake (e.g., "qtchooser -qt5"). If you have not cloned the LibreCAD repository
+You also have to either install the qt5-default package ("apt install qt5-default") or use qtchooser prior to running qmake (e.g., "qtchooser -qt5"). 
 
-If you have a local LibreCAD repository, continue to Update a local LibreCAD repository instead
 
-If ~/develop does not exist, create this folder::
+Clone the Repository
+~~~~~~~~~~~~~~~~~~~~
 
+This step only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**Update a Local Repository**" below.
+
+Create a directory for the repository in the *home* directory:
+
+::
    $ mkdir -p ~/develop/LibreCAD 
 
-Clone the LibreCAD repository, please note this is needed only once::
+Clone the LibreCAD source code repository:
 
+::
    $ cd ~/develop/
    $ git clone https://github.com/LibreCAD/LibreCAD.git
 
-Update a local LibreCAD repository::
+When this steps is finished a complete copy of the source code will found in the ~/develop/LibreCAD directory.
 
+
+Update a Local Repository
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Once a local repository has been created it can be updated as changes (bug fixes and / or new features) are added to the source code.
+
+::
    $ cd ~/develop/LibreCAD/
    $ git checkout master
    $ git pull -r
 
-Build LibreCAD::
 
+Build LibreCAD
+~~~~~~~~~~~~~~
+
+When the source code is copied to the local repository, ~/develop/LibreCAD/, it can be compiled with the following commands:
+
+::
+   $ cd ~/develop/LibreCAD/
    $ qmake -r
    $ make -j4
 
-if building is successful, the generated executable is at ./unix/librecad, and you may launch LibreCAD::
+If the build is successful an executable is created, ~/develop/LibreCAD/unix/librecad, and LibreCAD can be launched by typing:
 
+::
    $ ./unix/librecad &
+
 
 
 Building on Windows
 -------------------
 
+https://wiki.librecad.org/index.php?title=How_to_built_LibreCAD_(master_branch)_on_Windows.
+https://wiki.librecad.org/index.php/LibreCAD_Installation_from_Source#Building_LibreCAD_2.0_on_Windows
+
+
+Install Tools and Dependencies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Qt Framework
+`````````````
+
+Download Qt from : Qt download. Offline installer with MinGW is recommended instead of the Windows online installer. Qt-5.4.1 for Windows 32 bit (MinGW 4.9.1) is used as an example in this article.
+
+Install Qt (including Qt-Creator) to C:\Qt\5.4\ (the default path prompted by Qt installer). The MinGW tools will be in C:\Qt\5.4\mingw491_32\bin by default.
+
+
+muParser
+````````
+
+On Windows, muParser is not required to build LibreCAD since LibreCAD-2.0.4, because LibreCAD uses by default a patched version of muParser included within LibreCAD source.
+
+boost and custom.pro
+~~~~~
+
+Download boost from: boost download.
+
+Unzip the boost files to the directory:
+
+::
+  md C:\boost\
+
+ -- the extracted folder would be: C:\boost\boost_1_60_0\ .
+
+Verify that you have the file C:\boost\boost_1_60_0\booststrap.bat. You don't have to build boost in order to build LibreCAD, because LibreCAD only uses headers.
+
+In librecad/src edit the custom.pro (or custom.pri) file accordingly :
+
+   BOOST_DIR = C:/boost/boost_1_60_0/
+   BOOST_LIBDIR = C:/boost/boost_1_60_0/
+
+
+
+
 Cloning the source package
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To clone LibreCAD source code by command line:
 
