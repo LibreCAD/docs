@@ -140,14 +140,12 @@ Boost
 
 Download the current release of the boost library "zip" file from `Boost downloads <https://www.boost.org/users/download/>`_.  Create a folder named `boost` on `C:\\` and unzip the files to the folder.  Note the folder name the boost library was extracted to, e.g. `C:\\boost\\boost_1_70_0\\`.
 
-*After* obtaining the LibreCAD source code (below), open the `custom.pro` file in ` \\develop\\LibreCAD\\librecad\\src` folder and add the following two lines:
+*After* obtaining the LibreCAD source code (below), open the `custom.pro` file in ` \\develop\\LibreCAD\\librecad\\src` folder and add the following two lines (**Note the forward slashes in the path.**):
 
 ::
 
    BOOST_DIR = C:/boost/boost_1_70_0/
-   BOOST_LIBDIR = C:/boost\boost_1_70_0/
-
-**Note the forward slash in the path.**
+   BOOST_LIBDIR = C:/boost/boost_1_70_0/
 
 
 Cloning the Repository
@@ -161,10 +159,11 @@ Via the Git GUI
 
 To create the initial cloned repository, launch the Git GUI (**Start -> All Programs -> Git -> Git GUI**):
 
-   - Select "Clone Existing Repository"
-   - Enter source location: git://github.com/LibreCAD/LibreCAD.git
-   - Enter target directory: e.g. `C:\\develop\\LibreCAD`
-   - Click **Clone** and then wait for it to download
+   - Select **Clone Existing Repository**
+   - Enter the `Source Location`: git://github.com/LibreCAD/LibreCAD.git
+   - Enter a 'Target Directory`: e.g. `C:\\develop\\LibreCAD`
+   - Click **Clone** and then wait a few moments the download to complete (The Git GUI window will appear with the LibreCAD repository open)
+   - Close the Git GUI window (**Repository -> Quit**)
 
 
 Via the Git Command Line
@@ -204,29 +203,21 @@ To clone LibreCAD source code open the Git command line (**Start -> All Programs
 Build LibreCAD in Qt Creator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the `librecad.pro` project file within the LibreCAD source folder.  If the project is not yet configured accept the Qt path detected by Qt Creator by clicking "Configure Project" button.
+.. note::
 
-Disable the Shadow build option in Debug and Release configuration in both configurations and save the project.
+   Prior to building, update the `custom.pro` file with the boost pathes as noted previously.
 
-Select librecad as building target in Qt Creator (instead of tff2lff, which is another choice)
+Launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the `librecad.pro` project file within the LibreCAD source folder (**File -> Open File or Project**).  If the project is not yet configured accept the Qt paths detected by Qt Creator by clicking **Configure Project** button.
 
-If everything is good up to this point, you can build and run LibreCAD within Qt-Creator.
+Click the **Project** icon on the left side of the Qt Creator window.  Disable the "Shadow build" option in Debug, Profile and Release configurations, and save the project (**File -> Save All**).
 
-Note that adding -j to the make arguments can significantly improve build time.
+If everything is good up to this point, you can build and run LibreCAD in Qt Creator by clicking the **Build** icon on the lower left side.
 
+If the build is successful an executable is created, `C:\develop\LibreCAD\Windows\librecad.exe`, and LibreCAD can be launched by Clicking **Start -> Run** and typing:
 
-Building Windows Installer
-``````````````````````````
+::
 
-    press the windows-key and type qt
-    select Qt 5.4 for desktop
-    input: cd "C:\librecad\scripts" (or where ever your local source is)
-    input: build-windows.bat
-
-The last step of build-windows.bat is calling NSIS to create the LibreCAD-Installer.exe.
-If everything was OK, the installer (LibreCAD-installer.exe) can be found in the generated folder within LibreCAD source folder.
-
-(When LibreCAD Release version was built from Qt Creator, use build-win-setup.bat to create the windows installer.)
+   > C:\develop\LibreCAD\windows\librecad.exe
 
 
 Building on macOS
