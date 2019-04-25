@@ -102,14 +102,15 @@ If the build is successful an executable is created, ~/develop/LibreCAD/unix/lib
 Building on Windows
 -------------------
 
+
 .. note::
 
-    *This section is currently being updated.*
+    *This section is currently being updated.*  Please provide any feedback on the build process on the LibreCAD forum: http://forum.librecad.org/Help-wanted-to-build-on-Windows-td5717272.html
+
 
 Also see:
 
    https://wiki.librecad.org/index.php/LibreCAD_Installation_from_Source#Building_LibreCAD_2.0_on_Windows
-   https://wiki.librecad.org/index.php?title=How_to_built_LibreCAD_(master_branch)_on_Windows.
 
 
 Install Tools and Dependencies
@@ -140,7 +141,7 @@ Boost
 
 Download the current release of the boost library "zip" file from `Boost downloads <https://www.boost.org/users/download/>`_.  Create a folder named `boost` on `C:\\` and unzip the files to the folder.  Note the folder name the boost library was extracted to, e.g. `C:\\boost\\boost_1_70_0\\`.
 
-*After* obtaining the LibreCAD source code (below), open the `custom.pro` file in ` \\develop\\LibreCAD\\librecad\\src` folder and add the following two lines (**Note the forward slashes in the path.**):
+*After* obtaining the LibreCAD source code (below), open the `custom.pro` file in ` \\develop\\LibreCAD\\librecad\\src` folder and add the following two lines (**note the forward slashes in the path.**):
 
 ::
 
@@ -225,9 +226,7 @@ Building on macOS
 
 .. note::
 
-    *This section is currently being updated.*
-
-http://forum.librecad.org/Help-wanted-to-build-on-MacOS-td5717273.html
+    *This section is currently being updated.*  Please provide any feedback on the build process on the LibreCAD forum: http://forum.librecad.org/Help-wanted-to-build-on-MacOS-td5717273.html 
 
 
 
