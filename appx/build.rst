@@ -106,9 +106,10 @@ Building on Windows
 
     *This section is currently being updated.*
 
+Also see:
 
-https://wiki.librecad.org/index.php/LibreCAD_Installation_from_Source#Building_LibreCAD_2.0_on_Windows
-https://wiki.librecad.org/index.php?title=How_to_built_LibreCAD_(master_branch)_on_Windows.
+   https://wiki.librecad.org/index.php/LibreCAD_Installation_from_Source#Building_LibreCAD_2.0_on_Windows
+   https://wiki.librecad.org/index.php?title=How_to_built_LibreCAD_(master_branch)_on_Windows.
 
 
 Install Tools and Dependencies
@@ -125,8 +126,7 @@ Another option is to use the `GitHub Desktop <https://desktop.github.com/>`_.
 Qt Framework
 `````````````
 
-Download the open source version of the **Qt Online Installer** from `Qt download <https://www.qt.io/download>`_.  Install Qt to the default path prompted by Qt installer.  On the *Select Components* page include the latest version of **MinGW**.  No other componetnts need to be selected.
-
+Download the open source version of the **Qt Online Installer** from `Qt download <https://www.qt.io/download>`_.  Install Qt to the default path prompted by the installer.  On the *Select Components* page include the latest version of **MinGW**.  No other components need to be selected.
 
 
 muParser
@@ -152,10 +152,24 @@ Verify that you have the file C:\\boost\\boost_1_70_0\\booststrap.bat. You don't
 Cloning the Repository
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Git Command Line
-````````````````
+This step only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**update the repository**" below.
 
-To clone LibreCAD source code open the Git command line (**Programs -> Git -> Git CMD**) and type:
+
+Via the Git GUI
+```````````````
+
+To create the initial cloned repository, launch the Git GUI (**Start -> All Programs -> Git -> Git GUI**):
+
+   - Select "Clone Existing Repository"
+   - Enter source location: git://github.com/LibreCAD/LibreCAD.git
+   - Enter target directory: where you want the project on your hard drive, e.g. `C:\\develop\\LibreCAD`
+   - Click **Clone** and then wait for it to download
+
+
+Via the Git Command Line
+````````````````````````
+
+To clone LibreCAD source code open the Git command line (**Start -> All Programs -> Git -> Git CMD**) and type:
 
 ::
 
@@ -164,96 +178,44 @@ To clone LibreCAD source code open the Git command line (**Programs -> Git -> Gi
    > git clone https://github.com/LibreCAD/LibreCAD.git
 
 
-Git GUI
-```````
+Update the Repository
+~~~~~~~~~~~~~~~~~~~~~
 
-Alternatively the Git GUI (**Programs -> Git -> Git GUI**) can be used:
+Via the Git GUI
+```````````````
 
-    - Launch the program and select "Clone Existing Repository"
-
-        - Enter source location: git://github.com/LibreCAD/LibreCAD.git
-        - Enter target directory: where you want the project on your hard drive, e.g. `C:\\develop\\`
-
-    - Click **Clone** and then wait for it to download
-
-Updating local source
-
-    - press the windows-key and then type git
-    - select "Git Bash"
-    - input: cd /c/your_project_folder
-    - input: git pull -r
+To update the repository launch the Git GUI (**Start -> All Programs -> Git -> Git GUI**):
+   - Select the LibreCAD under "Open Recent Repository"
+   - From the menubar, select **Remote -> Fetch from -> origin**
 
 
-Custom files
-````````````
+Via the Git Command Line
+````````````````````````
 
-If you only care about building with Qt Creator, then you only need to read the boost and custom.pro section. The other custom files are for when you want to create an installer.
+To clone LibreCAD source code open the Git command line (**Start -> All Programs -> Git -> Git CMD**) and type:
 
-If you are planning to contribute, don't edit the librecad.pro, build-windows.bat and nsis-5.4.nsi files to fit your local settings. This would result in changes for git you have to care about in each commit, pull and push. Instead create the files custom.pro, custom-windows.bat and custom.nsh, which are ignored by git, and set your local settings there.
+::
 
-
-custom-windows.bat
-``````````````````
-
-A command line building script file is added as scripts/build-windows.bat. To be able to use this batch file, you need to have your Qt and NSIS directories set up first. Default values for Qt_Dir, MINGW_VER and NSIS_DIR are set in file scripts/set-windows-env.bat:
-
-   set Qt_DIR=C:\Qt\Qt5.3.2\5.3
-   set NSIS_DIR=C:\Program Files (x86)\NSIS
-   set MINGW_VER=mingw482_32
-
-To change these default settings you have to create the file scripts/custom-windows.bat and overwrite the different settings without effect to the SCM (git).
-
-Example for scripts/custom-windows.bat:
-
-   set Qt_DIR=C:\Qt\5.4
-   set NSIS_DIR=C:\PROGRA~2\NSIS
-   set MINGW_VER=mingw491_32
-
-There are issues with the NSIS_DIR path on 64 Bit Windows. When NSIS is installed in the Program Files (x86) folder and NSIS_DIR is added to the PATH, something goes wrong in the build process.  In this case use the command dir /X \ and get an output like this:
-
-   09/02/2014  09:50 PM    <DIR>          PROGRA~1     Program Files
-   10/27/2014  12:33 PM    <DIR>          PROGRA~2     Program Files (x86)
-   08/16/2014  10:49 PM    <DIR>                       Qt
-
-You need the short name of the Program Files (x86) folder. With that information set NSIS_DIR like following in scripts/custom-windows.bat to avoid the issues:
-
-   set NSIS_DIR=C:\PROGRA~2\NSIS
-
-custom.nsh
-
-By default, LibreCAD uses NSIS to generate installers in Windows.
-
-If you would like to build an installer for Windows, you will need the tool. You can use the lastest NSIS version.
-
-You need to setup your Qt_Dir, Mingw_Ver and Qt_Version in the scripts\postprocess-windows\custom.nsh file if they don't match the default settings in scripts\postprocess-windows\nsis-5.4.nsi.
-Example for scripts\postprocess-windows\custom.nsh:
-
-   !define Qt_Dir "C:\Qt"
-   !define Qt_Version "5.4"
-   !define Mingw_Ver "mingw491_32"
-
-These settings indicate Qt-5.4 is installed at C:\Qt\5.4 and it comes with Qt-Creator in C:\Qt\Tools\QtCreator and qmake.exe in C:\Qt\5.4\mingw491_32\bin
-
-If you use an other Qt Version, e.g. Qt 5.4, where the master branch default is Qt 5.3.x, you have to use scripts\postprocess-windows\nsis-5.4.nsi for building the installer package.  Then you have to add this line to scripts/custom-windows.bat:
-
-   set LC_NSIS_FILE=nsis-5.4.nsi
-
-This line tells the build-win-setup.bat script to use nsis-5.4.nsi instead of nsis-5.3.nsi, which is currently default setting on master branch.
+   > cd \develop\LibreCAD
+   > git pull -r
 
 
-Build LibreCAD in Qt-Creator
+Build LibreCAD in Qt Creator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Launch Qt-Creator and open the librecad.pro project file within the LibreCAD source folder. Accept Qt path detected by Qt-Creator by clicking "Configure Project" button, if the project is not configured yet.
+Launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the librecad.pro project file within the LibreCAD source folder. Accept Qt path detected by Qt Creator by clicking "Configure Project" button, if the project is not configured yet.
 
-Take care about the Shadow build option in Debug and Release configuration. Disable this option in both configurations and save the project.
+Disable the Shadow build option in Debug and Release configuration in both configurations and save the project.
 
 Select librecad as building target in Qt Creator (instead of tff2lff, which is another choice)
 
 If everything is good up to this point, you can build and run LibreCAD within Qt-Creator.
 
 Note that adding -j to the make arguments can significantly improve build time.
-Building Windows installer
+
+
+Building Windows Installer
+``````````````````````````
 
     press the windows-key and type qt
     select Qt 5.4 for desktop
@@ -264,11 +226,6 @@ The last step of build-windows.bat is calling NSIS to create the LibreCAD-Instal
 If everything was OK, the installer (LibreCAD-installer.exe) can be found in the generated folder within LibreCAD source folder.
 
 (When LibreCAD Release version was built from Qt Creator, use build-win-setup.bat to create the windows installer.)
-
-Other instructions:
-
-    How_to_built_LibreCAD_(master_branch)_on_Windows.
-    LibreCad from source
 
 
 Building on macOS
@@ -299,7 +256,7 @@ or
 
    $ sudo port install gcc49 qt5-creator-mac qt5-mac boost freetype
 
-Again, if you are running an OS/X version before Mavericks(10.9), you may have to select gcc-4.8 (or later) as the default compiler:
+Again, if you are running a macOS version before Mavericks(10.9), you may have to select gcc-4.8 (or later) as the default compiler:
 
 ::
 
@@ -313,7 +270,7 @@ Please note LibreCAD uses a patched version muparser, and the muparser package f
 Clone the Repository
 ~~~~~~~~~~~~~~~~~~~~
 
-To test the latest LibreCAD version, you may clone the official repository, and this cloning only needs to be done once. The latest development version of LibreCAD-2.0 is the master branch.
+To test the latest LibreCAD version, you may clone the official repository, and this cloning only needs to be done once.
 
 Alternatively, you may download source code zipballs/tarballs from github: https://github.com/LibreCAD/LibreCAD/releases:
 
