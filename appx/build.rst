@@ -137,11 +137,11 @@ muParser is not required on Windows to build LibreCAD as a patched version of th
 Boost
 `````
 
-Download the current release of the boost library "zip" file from `Boost downloads <https://www.boost.org/users/download/>`_.  Create a folder named `boost` on `C:\\` and unzip the boost files to the folder.  Note the folder the boost library has been extracted to, e.g. `C:\\boost\\boost_1_70_0\\`.
+Download the current release of the boost library "zip" file from `Boost downloads <https://www.boost.org/users/download/>`_.  Create a folder named `boost` on `C:\\` and unzip the boost files to the folder.  Note the folder the boost library was extracted to, e.g. `C:\\boost\\boost_1_70_0\\`.
 
 Verify that you have the file C:\\boost\\boost_1_70_0\\booststrap.bat. You don't have to build boost in order to build LibreCAD as LibreCAD only uses headers.
 
-*After* obtaining the LibreCAD source code (below), open the `custom.pro` file in ` \develop\LibreCAD\librecad\\src` folder and edit the path accordingly:
+*After* obtaining the LibreCAD source code (below), open the `custom.pro` file in ` \\develop\\LibreCAD\\librecad\\src` folder and edit the path accordingly:
 
 ::
 
@@ -155,7 +155,7 @@ Cloning the Repository
 Git Command Line
 ````````````````
 
-To clone LibreCAD source code open the Git command line (** Programs -> Git -> Git CMD** ) and type:
+To clone LibreCAD source code open the Git command line (**Programs -> Git -> Git CMD**) and type:
 
 ::
 
@@ -167,14 +167,14 @@ To clone LibreCAD source code open the Git command line (** Programs -> Git -> G
 Git GUI
 ```````
 
-Alternatively the Git GUI ** Programs -> Git -> Git GUI**) can be used:
+Alternatively the Git GUI (**Programs -> Git -> Git GUI**) can be used:
 
-    - after the program loads select "Clone existing repository"
+    - Launch the program and select "Clone Existing Repository"
 
-        - enter source location: git://github.com/LibreCAD/LibreCAD.git
-        - enter target directory: where you want the project on your hard drive, e.g.C:\\develop\\
+        - Enter source location: git://github.com/LibreCAD/LibreCAD.git
+        - Enter target directory: where you want the project on your hard drive, e.g. `C:\\develop\\`
 
-    - press clone and then wait for it to download
+    - Click **Clone** and then wait for it to download
 
 Updating local source
 
