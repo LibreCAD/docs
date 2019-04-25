@@ -139,14 +139,14 @@ muParser is not required to build LibreCAD on Windows as a patched version of th
 Boost
 `````
 
-Download the current release of the boost library "zip" file from `Boost downloads <https://www.boost.org/users/download/>`_.  Create a folder named `boost` on `C:\\` and unzip the files to the folder.  Note the folder name the boost library was extracted to, e.g. `C:\\boost\\boost_1_70_0\\`.
+Download the current release of the boost library "zip" file from `Boost downloads <https://www.boost.org/users/download/>`_.  Create a folder named `boost` on `C:\\` and unzip the files to the folder.  Note the folder name the boost library was extracted to, e.g. `C:\\boost\\boost_1_60_0\\`.
 
 *After* obtaining the LibreCAD source code (below), open the `custom.pro` file in ` \\develop\\LibreCAD\\librecad\\src` folder and add the following two lines (**note the forward slashes in the path.**):
 
 ::
 
-   BOOST_DIR = C:/boost/boost_1_70_0/
-   BOOST_LIBDIR = C:/boost/boost_1_70_0/
+   BOOST_DIR = C:/boost/boost_1_60_0/
+   BOOST_LIBDIR = C:/boost/boost_1_60_0/
 
 
 Cloning the Repository
