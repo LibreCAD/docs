@@ -48,10 +48,14 @@ Install the required tools and libraries (Qt, boost, muparser, etc.):
 You also have to either install the qt5-default package ("apt install qt5-default") or use qtchooser prior to running qmake (e.g., "qtchooser -qt5"). 
 
 
-Clone the Repository
-~~~~~~~~~~~~~~~~~~~~
+Get the Source Code
+~~~~~~~~~~~~~~~~~~~
 
-This step only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**Update the Repository**" below.
+Cloning the repository only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**Update the Repository**" below.
+
+
+Clone the Repository
+````````````````````
 
 Create a directory for the repository in the *home* directory:
 
@@ -70,7 +74,7 @@ When this steps is finished a complete copy of the source code will found in the
 
 
 Update the Repository
-~~~~~~~~~~~~~~~~~~~~~
+`````````````````````
 
 Once a local repository has been created it can be updated as changes (bug fixes and / or new features) are added to the source code with:
 
@@ -149,14 +153,18 @@ Download the current release of the boost library "zip" file from `Boost downloa
    BOOST_LIBDIR = C:/boost/boost_1_60_0/
 
 
-Cloning the Repository
-~~~~~~~~~~~~~~~~~~~~~~
+Get the Source Code
+~~~~~~~~~~~~~~~~~~~
 
-This step only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**update the repository**" below.
+Cloning the repository only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**Update the Repository**" below.
+
+
+Cloning the Repository
+``````````````````````
 
 
 Via the Git GUI
-```````````````
+^^^^^^^^^^^^^^^
 
 To create the initial cloned repository, launch the Git GUI (**Start -> All Programs -> Git -> Git GUI**):
 
@@ -168,7 +176,7 @@ To create the initial cloned repository, launch the Git GUI (**Start -> All Prog
 
 
 Via the Git Command Line
-````````````````````````
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 To clone LibreCAD source code open the Git command line (**Start -> All Programs -> Git -> Git CMD**) and type:
 
@@ -180,10 +188,10 @@ To clone LibreCAD source code open the Git command line (**Start -> All Programs
 
 
 Update the Repository
-~~~~~~~~~~~~~~~~~~~~~
+`````````````````````
 
 Via the Git GUI
-```````````````
+^^^^^^^^^^^^^^^
 
 To update the repository launch the Git GUI (**Start -> All Programs -> Git -> Git GUI**):
    - Select the LibreCAD under "Open Recent Repository"
@@ -191,7 +199,7 @@ To update the repository launch the Git GUI (**Start -> All Programs -> Git -> G
 
 
 Via the Git Command Line
-````````````````````````
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 To clone LibreCAD source code open the Git command line (**Start -> All Programs -> Git -> Git CMD**) and type:
 
