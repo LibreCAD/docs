@@ -190,20 +190,7 @@ To clone LibreCAD source code open the Git command line (**Start -> All Programs
 Update the Repository
 `````````````````````
 
-Via the Git GUI
-^^^^^^^^^^^^^^^
-
-To update the repository launch the Git GUI (**Start -> All Programs -> Git -> Git GUI**):
-
-   - Select the **LibreCAD** under "Open Recent Repository"
-   - From the menubar select **Remote -> Fetch from -> origin**
-
-
-
-Via the Git Command Line
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-To clone LibreCAD source code open the Git command line (**Start -> All Programs -> Git -> Git CMD**) and type:
+Once a local repository has been created it can be updated as changes (bug fixes and / or new features) are added to the source code.  To update LibreCAD source code open the Git command line (**Start -> All Programs -> Git -> Git CMD**) and type:
 
 ::
 
