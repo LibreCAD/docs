@@ -255,8 +255,14 @@ Accept mp-gcc48(or later) as the current active gcc.
 Please note LibreCAD uses a patched version muparser, and the muparser package from MacPorts is not a required dependency any more.
 
 
-Clone the Repository
-~~~~~~~~~~~~~~~~~~~~
+Get the Source Code
+~~~~~~~~~~~~~~~~~~~
+
+Cloning the repository only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**Update the Repository**" below.
+
+
+Cloning the Repository
+``````````````````````
 
 To test the latest LibreCAD version, you may clone the official repository, and this cloning only needs to be done once.
 
@@ -269,7 +275,13 @@ Alternatively, you may download source code zipballs/tarballs from github: https
     $ cd ~/github
     $ git clone https://github.com/LibreCAD/LibreCAD.git
 
-The last git command will clone the official LibreCAD repository to a folder ~/github/LibreCAD/ If you have a previous cloned repository, say, in ~/github/LibreCAD/ , you can update the code by:
+The last git command will clone the official LibreCAD repository to a folder ~/github/LibreCAD/ 
+
+
+Update the Repository
+`````````````````````
+
+Once a local repository has been created it can be updated as changes (bug fixes and / or new features) are added to the source code.  If you have a previous cloned repository, say, in ~/github/LibreCAD/ , you can update the code by:
 
 ::
 
@@ -278,13 +290,19 @@ The last git command will clone the official LibreCAD repository to a folder ~/g
    $ git checkout master
    $ git rebase origin/master
 
+
+Build LibreCAD
+~~~~~~~~~~~~~~
+
 To be able to rely on pkg-config to find libraries, you may add the following to custom.pro
 
 ::
 
    $ echo "QT_CONFIG -= no-pkg-config" >> custom.pro
 
+
 Select the right compiler
+`````````````````````````
 
 LibreCAD doesn't build with the default llvm-gcc42. For example you may choose gcc48 by:
 
@@ -293,9 +311,6 @@ LibreCAD doesn't build with the default llvm-gcc42. For example you may choose g
    $ sudo port install gcc48
    $ sudo port select --set gcc mp-gcc48
 
-
-Build LibreCAD
-~~~~~~~~~~~~~~
 
 On OS/X 10.9 or newer, use spec macx-g++ is the default. Alternatively, you may use the system default clang++ compiler instead of gcc:
 
