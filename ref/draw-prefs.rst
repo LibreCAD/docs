@@ -25,11 +25,15 @@ Paper
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Paper
 
-The paper tab is used to define the size and orientation of the page used when generating output.  The output can be as a physical printed page or a electronic form such as a PDF.  The paper format is also used when previewing a drawing (File -> Print Preview).
+The paper tab is used to define the size, orientation and margins of the page used when generating output.  The output can be as a physical printed page or an electronic form such as a PDF.  Layout of the page with specified settings may be checked in Preview section.  The paper format is also used when previewing a drawing (File -> Print Preview).
 
 To be able to generate output, users must select a paper size and orientation.  Paper sizes include ISO, ANSI and other sizes.  Sizes of the select page are shown in the current unit of measurement.  Custom sizes can also be select by choosing "Custom" from the drop-down box and specifying the paper width and height.
 
 Orientation can be selected for any page size and is either "Landscape" (long edge horizontal) or "Portrait" (long edge vertical).
+
+Margins determine the printable area of a page.  Specified fields at the edges of the page are marked with gray color and always stay empty on the output.
+
+If tiled printing is used to output the drawing, use "Number of pages" section to set a horizontal and a vertical number of pages.  For more details about the tiled printing see :ref:`Printing Guide <printing-guide>`.
 
 
 Units
