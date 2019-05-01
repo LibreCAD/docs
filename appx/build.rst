@@ -6,7 +6,9 @@
 Building from Source
 ====================
 
-Building from the source code allows users to run the cutting-edge version of LibreCAD that includes bug fixes and possibly new features.  The instructions are as complete as possible to provide the necessary steps to allow any user to build LibreCAD from the source code, however some understanding of the operating system and installing of the required tools and dependencies is required.
+Building from the source code allows users to run the cutting-edge version of LibreCAD that includes bug fixes and possibly new features.  LibreCAD can compiled to run on multiple operating systems; Linux, Microsoft Windows and macOS.    The process differs depending on the OS.  The instructions are as complete as possible to provide the necessary steps to allow any user to build LibreCAD from the source code, however some understanding of the operating system and installing of the required tools and dependencies is required.
+
+The source code is hosted on GitHub and is common to all three operating systems.  It can be download as a "zip" archive or cloned using "git".  These instructions use the download option, however cloning is recommended if users want to update and build LibreCAD as the source code is updated.  See below for instructions for using :ref:`cloning <cloning>`.
 
 The tools and dependencies required to build LibreCAD are:
 
@@ -17,8 +19,6 @@ The tools and dependencies required to build LibreCAD are:
     - git distributed version control system (optional)
 
 If you are a developer and want to contribute to LibreCAD see the :ref:`Contributing <contributing>` section in the **Appendics**.
-
-The source code for LibreCAD is hosted on GitHub and can be download as a "zip" archive or cloned using "git".  These instructions use the download option, however cloning is recommended if users want to update and build LibreCAD as the source code is updated.  See below for instructions for using :ref:`cloning <cloning>`.
 
 
 Download the Source Code
@@ -53,7 +53,7 @@ You also have to either install the qt5-default package ("apt install qt5-defaul
 Build LibreCAD
 ~~~~~~~~~~~~~~
 
-When the source code is copied to the local repository, ~/dev/LibreCAD/, it can be compiled with the following commands:
+Extract the contents of the source code zip file, "LibreCAD-master.zip", to a build directory (e.g ~/dev/LibreCAD).  Once the source code has been extracted compiled it with the following commands:
 
 ::
 
@@ -88,7 +88,7 @@ Install Tools and Dependencies
 Qt Framework
 `````````````
 
-Download the open source version of the **Qt Offline Installer** from Qt download <https://www.qt.io/download>.  Install Qt to the default path prompted by the installer.  On the *Select Components* page include the latest version of **MinGW** under the most recent version of Qt, e.g. `MinGW 7.3.0 32-bit` and `Qt 5.12.3` respectively.  No other components are needed.
+The Windows version of Qt includes both the required framework library and the compiler.  Download the open source version of the **Qt Offline Installer** from Qt download <https://www.qt.io/download>.  Install Qt to the default path prompted by the installer.  On the *Select Components* page include the latest version of the compiler, **MinGW**, under the most recent version of Qt, e.g. `MinGW 7.3.0 32-bit` and `Qt 5.12.3` respectively.  No other components are needed.
 
 
 Boost
@@ -96,7 +96,7 @@ Boost
 
 Download the current release of the boost library "zip" file from `Boost downloads <https://www.boost.org/users/download/>`_.  Create a folder named `boost` on `C:\\` and unzip the files to the folder.  Note the folder name the boost library was extracted to, e.g. `C:\\boost\\boost_1_70_0\\`.
 
-*After* obtaining the LibreCAD source code (below), open the `custom.pro` file in ` \\dev\\LibreCAD\\librecad\\src` folder and add the following two lines (**note the forward slashes in the path.**):
+*After* extracting the LibreCAD source code (below), open the `custom.pro` file in ` \\dev\\LibreCAD\\librecad\\src` folder and add the following two lines (**note the forward slashes in the path.**):
 
 ::
 
@@ -110,14 +110,14 @@ muParser
 muParser is not required to build LibreCAD on Windows as a patched version of the muParser library has been included in the LibreCAD source code since LibreCAD version 2.0.4.
 
 
-
-
 Build LibreCAD in Qt Creator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Extract the contents of the source code zip file, "LibreCAD-master.zip", to a build directory (e.g C:\\dev\\LibreCAD).
+
 .. note::
 
-   Prior to building, update the `custom.pro` file with the boost pathes as noted previously.
+   Prior to building, update the `custom.pro` file with the boost paths as noted previously.
 
 Launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the `librecad.pro` project file within the LibreCAD source folder (**File -> Open File or Project**).  If the project is not yet configured accept the Qt paths detected by Qt Creator by clicking **Configure Project** button.
 
@@ -274,14 +274,14 @@ to use the qmake mkspec shipped within LibreCAD source code.
 .. _cloning:
 
 Cloning the Source Code
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 "Git" is a *open source distributed version control system*, or for the purposes here, the means to obtain the source code needed to build LibreCAD.
 
 Cloning the repository only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**Update the Repository**" below.
 
 
-Clone the Repository
+Clone the Repository (Linux and macOS)
 ````````````````````
 
 Create a directory for the repository in the *home* directory:
@@ -313,17 +313,16 @@ Once a local repository has been created it can be updated as changes (bug fixes
 
 
 
-Git
+
+
+Windows
+
+Cloning thGit
 ```
 
 There are several git clients available for MS Windows.  These build instructions utilize the "almost official" `Git for Windows <https://gitforwindows.org>`_ client.  Download the installer from https://git-scm.com/download/win and install it accepting the default values.
 
-Another option is to use the `GitHub Desktop <https://desktop.github.com/>`_.
-
-Get the Source Code
-~~~~~~~~~~~~~~~~~~~
-
-Cloning the repository only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**Update the Repository**" below.
+Another option is to use the `GitHub Desktop <https://desktop.github.com/>`_.e repository only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**Update the Repository**" below.
 
 
 Cloning the Repository
