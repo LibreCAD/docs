@@ -18,7 +18,7 @@ The tools and dependencies required to build LibreCAD are:
     - muParser math expression parser library
     - git distributed version control system (optional)
 
-If you are a developer and want to contribute to LibreCAD see the :ref:`Contributing <contributing>` section in the **Appendics**.
+If you are a developer and want to contribute to LibreCAD see the :ref:`Contributing <contributing>` section in the **Appendices**.
 
 
 Download the Source Code
@@ -43,11 +43,11 @@ Install the required tools and libraries (compiler, Qt, boost, muparser, etc.):
 
 ::
 
-   $ sudo apt install g++ gcc make git-core qtbase5-dev libqt5svg5-dev\
-    qttools5-dev qtchooser qttools5-dev-tools libboost-dev libmuparser-dev\
-    librsvg2-bin libfreetype6-dev libicu-dev pkg-config
+   $ sudo apt install g++ gcc make qtbase5-dev libqt5svg5-dev qttools5-dev\
+    qtchooser qttools5-dev-tools libboost-dev libmuparser-dev librsvg2-bin\
+    libfreetype6-dev libicu-dev pkg-config
 
-You also have to either install the qt5-default package ("apt install qt5-default") or use qtchooser prior to running qmake (e.g., "qtchooser -qt5"). 
+You also have to either install the qt5-default package (`apt install qt5-default`) or use qtchooser prior to running qmake (`qtchooser -qt5`). 
 
 
 Build LibreCAD
@@ -94,14 +94,8 @@ The Windows version of Qt includes both the required framework library and the c
 Boost
 `````
 
-Download the current release of the boost library "zip" file from `Boost downloads <https://www.boost.org/users/download/>`_.  Create a folder named `boost` on `C:\\` and unzip the files to the folder.  Note the folder name the boost library was extracted to, e.g. `C:\\boost\\boost_1_70_0\\`.
+Download the current release of the boost library "zip" file from Boost downloads <https://www.boost.org/users/download/>.  Create a folder named `boost` on `C:\\dev\\` and unzip the files to the folder.  Note the folder name the boost library was extracted to, e.g. `C:\\dev\\boost\\boost_1_70_0\\`.
 
-*After* extracting the LibreCAD source code (below), open the `custom.pro` file in ` \\dev\\LibreCAD\\librecad\\src` folder and add the following two lines (**note the forward slashes in the path.**):
-
-::
-
-   BOOST_DIR = C:/boost/boost_1_70_0/
-   BOOST_LIBDIR = C:/boost/boost_1_70_0/
 
 
 muParser
@@ -113,11 +107,16 @@ muParser is not required to build LibreCAD on Windows as a patched version of th
 Build LibreCAD in Qt Creator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Extract the contents of the source code zip file, "LibreCAD-master.zip", to a build directory (e.g C:\\dev\\LibreCAD).
+Extract the contents of the source code zip file, "LibreCAD-master.zip", to a build folder (e.g C:\\dev\\LibreCAD).
 
 .. note::
 
-   Prior to building, update the `custom.pro` file with the boost paths as noted previously.
+*After* extracting the LibreCAD source code, open the `custom.pro` file in `.\\librecad\\src` under the build folder and add the following two lines (**note the forward slashes in the path.**):
+
+::
+
+   BOOST_DIR = C:/dev/boost/boost_1_70_0/
+   BOOST_LIBDIR = C:/dev/boost/boost_1_70_0/
 
 Launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the `librecad.pro` project file within the LibreCAD source folder (**File -> Open File or Project**).  If the project is not yet configured accept the Qt paths detected by Qt Creator by clicking **Configure Project** button.
 
@@ -142,99 +141,50 @@ Building on macOS
     *This section is currently being updated.*  Please provide any feedback on the build process on the LibreCAD forum: http://forum.librecad.org/Help-wanted-to-build-on-MacOS-td5717273.html 
 
 
-
 Install Tools and Dependencies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Install QT and a new gcc, which should be version 4.7 or later (gcc-4.8 or later is recommended).
-
-Install a version of Qt, boost and freetype, for example:
-
-::
-
-   $ sudo port install gcc48 qt4-creator-mac qt4-mac boost freetype
-
-or
+Install the required tools and libraries (compiler, Qt, boost, muparser, etc.).  The compiler, gcc, should be version 4.7 or later (gcc-4.9 or later is recommended).
 
 ::
 
    $ sudo port install gcc49 qt5-creator-mac qt5-mac boost freetype
 
-Again, if you are running a macOS version before Mavericks(10.9), you may have to select gcc-4.8 (or later) as the default compiler:
+
+LibreCAD doesn't build with the default llvm-gcc42.  It is necessary to select gcc-4.9 (or later) as the default compiler:
 
 ::
 
-   $ sudo port select gcc
+   $ sudo port select --set gcc mp-gcc49
 
-Accept mp-gcc48(or later) as the current active gcc.
-
-Please note LibreCAD uses a patched version muparser, and the muparser package from MacPorts is not a required dependency any more.
+On OS/X 10.9 or newer use spec macx-g++ as the default.
 
 
-Get the Source Code
-~~~~~~~~~~~~~~~~~~~
+muParser
+````````
 
-Cloning the repository only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**Update the Repository**" below.
-
-
-Cloning the Repository
-``````````````````````
-
-To test the latest LibreCAD version, you may clone the official repository, and this cloning only needs to be done once.
-
-Alternatively, you may download source code zipballs/tarballs from github: https://github.com/LibreCAD/LibreCAD/releases:
-
-::
-
-    $ sudo port install git-core
-    $ mkdir -p ~/github
-    $ cd ~/github
-    $ git clone https://github.com/LibreCAD/LibreCAD.git
-
-The last git command will clone the official LibreCAD repository to a folder ~/github/LibreCAD/ 
-
-
-Update the Repository
-`````````````````````
-
-Once a local repository has been created it can be updated as changes (bug fixes and / or new features) are added to the source code.  If you have a previous cloned repository, say, in ~/github/LibreCAD/ , you can update the code by:
-
-::
-
-   $ cd ~/github/LibreCAD/
-   $ git fetch origin
-   $ git checkout master
-   $ git rebase origin/master
+muParser is not required to build LibreCAD on macOS as a patched version of the muParser library has been included in the LibreCAD source code.
 
 
 Build LibreCAD
 ~~~~~~~~~~~~~~
 
-To be able to rely on pkg-config to find libraries, you may add the following to custom.pro
+Extract the contents of the source code zip file, "LibreCAD-master.zip", to a build directory (e.g ~/dev/LibreCAD).
+
+To be able to rely on pkg-config to find libraries, the path must be added to the configuration file.  *After* extracting the LibreCAD source code, add the following to `custom.pro`:
 
 ::
 
+   $ cd ~/dev/LibreCAD/
    $ echo "QT_CONFIG -= no-pkg-config" >> custom.pro
 
-
-Select the right compiler
-`````````````````````````
-
-LibreCAD doesn't build with the default llvm-gcc42. For example you may choose gcc48 by:
-
-::
-
-   $ sudo port install gcc48
-   $ sudo port select --set gcc mp-gcc48
-
-
-On OS/X 10.9 or newer, use spec macx-g++ is the default. Alternatively, you may use the system default clang++ compiler instead of gcc:
+With the source code is extracted and the file edits complete, LibreCAD can be compiled with the following commands:
 
 ::
 
    $ qmake librecad.pro -r -spec macx-g++
 
-On OS/X version 10.8 or older, run the following command to build a makefile in the LibreCAD source folder (as in our example, ~/github/LibreCAD/ ):
+Alternatively, you may use the system default clang++ compiler instead of gcc.  On OS/X version 10.8 or older, run the following command to build a makefile in the LibreCAD source folder (as in our example, ~/dev/LibreCAD/ ):
 
 ::
 
@@ -242,33 +192,16 @@ On OS/X version 10.8 or older, run the following command to build a makefile in 
 
 If the previous step is successful, you can build LibreCAD by issuing:
 
+::
+
    $ make -j4
 
-After a successful build, the generated executible of LibreCAD can be found as:
+If the build is successful the generated executable of LibreCAD can be found as:
 
 ::
 
    LibreCAD.app/Contents/MacOS/LibreCAD
 
-
-By the building script
-``````````````````````
-
-Alternatively, you may try the building script comes with LibreCAD at scripts/build-osx.sh to build an DMG file. On OS/X 10.9 or newer:
-
-::
-
-   $ cd ~/github/LibreCAD/
-   $ cd scripts/
-   $ ./build-osx.sh
-
-On OS/X 10.8 or older, you may have to edit the build-osx.sh to qmake command lines like:
-
-::
-
-   qmake -r -spec mkspec/macports
-
-to use the qmake mkspec shipped within LibreCAD source code.
 
 
 .. _cloning:
@@ -276,28 +209,34 @@ to use the qmake mkspec shipped within LibreCAD source code.
 Cloning the Source Code
 -----------------------
 
-"Git" is a *open source distributed version control system*, or for the purposes here, the means to obtain the source code needed to build LibreCAD.
+"Git" is a *open source distributed version control system* used by the developers to maintain LibreCAD's source code.
 
-Cloning the repository only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**Update the Repository**" below.
+Cloning the repository only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**Update the Repository**".
 
 
-Clone the Repository (Linux and macOS)
-````````````````````
+Linux
+~~~~~
 
-Create a directory for the repository in the *home* directory:
-
-::
-
-   $ mkdir -p ~/dev/LibreCAD 
-
-Clone the LibreCAD source code repository:
+Install the git tools if not previously installed:
 
 ::
 
-   $ cd ~/dev/
+   $ sudo apt install git-core 
+
+
+
+Create the Repository 
+``````````````````````
+
+Create a directory for the repository in the *home* directory and clone the source code:
+
+::
+
+   $ mkdir -p ~/dev
+   $ cd ~/dev
    $ git clone https://github.com/LibreCAD/LibreCAD.git
 
-When this steps is finished a complete copy of the source code will found in the ~/dev/LibreCAD directory.
+When this steps is finished a complete copy of the source code will found in the `~/dev/LibreCAD directory`.
 
 
 Update the Repository
@@ -312,22 +251,16 @@ Once a local repository has been created it can be updated as changes (bug fixes
    $ git pull -r
 
 
-
-
-
 Windows
+~~~~~~~
 
-Cloning thGit
-```
+There are several git clients available for MS Windows.  These build instructions utilize the "almost official" `Git for Windows <https://gitforwindows.org>`_ client.  If it hasn'r been previously installed , download the installer from https://git-scm.com/download/win and install it accepting the default values.
 
-There are several git clients available for MS Windows.  These build instructions utilize the "almost official" `Git for Windows <https://gitforwindows.org>`_ client.  Download the installer from https://git-scm.com/download/win and install it accepting the default values.
-
-Another option is to use the `GitHub Desktop <https://desktop.github.com/>`_.e repository only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**Update the Repository**" below.
+Another option is to use the `GitHub Desktop <https://desktop.github.com/>`_.
 
 
-Cloning the Repository
-``````````````````````
-
+Create the Repository
+`````````````````````
 
 Via the Git GUI
 ^^^^^^^^^^^^^^^
@@ -340,6 +273,8 @@ To create the initial cloned repository, launch the Git GUI (**Start -> All Prog
    - Click **Clone** and then wait a few moments the download to complete (The Git GUI window will appear with the LibreCAD repository open)
    - Close the Git GUI window (**Repository -> Quit**)
 
+When this steps is finished a complete copy of the source code will found in the `C:\\dev\\LibreCAD` directory.
+
 
 Via the Git Command Line
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -348,7 +283,7 @@ To clone LibreCAD source code open the Git command line (**Start -> All Programs
 
 ::
 
-   > md \dev\LibreCAD
+   > md \dev
    > cd \dev
    > git clone https://github.com/LibreCAD/LibreCAD.git
 
@@ -364,4 +299,39 @@ Once a local repository has been created it can be updated as changes (bug fixes
    > git pull -r
 
 
+macOS
+~~~~~
+
+Install the git tools if not previously installed:
+
+::
+
+   $ sudo port install git-core
+
+
+Create the Repository 
+``````````````````````
+
+Create a directory for the repository in the *home* directory and clone the source code:
+
+::
+
+    $ mkdir -p ~/dev
+    $ cd ~/dev
+    $ git clone https://github.com/LibreCAD/LibreCAD.git
+
+When this steps is finished a complete copy of the source code will found in the `~/dev/LibreCAD` directory.
+
+
+Update the Repository
+`````````````````````
+
+Once a local repository has been created it can be updated as changes (bug fixes and / or new features) are added to the source code.  If you have a previous cloned repository, say, in ~/github/LibreCAD/ , you can update the code by:
+
+::
+
+   $ cd ~/dev/LibreCAD/
+   $ git fetch origin
+   $ git checkout master
+   $ git rebase origin/master
 
