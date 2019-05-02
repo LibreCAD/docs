@@ -131,6 +131,8 @@ If everything is good up to this point, you can build and run LibreCAD in Qt Cre
 
    Build fails on Windows.  Refer to `LibreCAD source code compile problem #930 <https://github.com/LibreCAD/LibreCAD/issues/930>` for a fix.
 
+   Also Qt DLLs need to be copied...
+
 If the build is successful an executable is created, `.\\windows\\librecad.exe`, and LibreCAD can be launched by Clicking **Start -> Run** and typing:
 
 ::
