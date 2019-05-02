@@ -26,8 +26,6 @@ Download the Source Code
 
 Go to the LibreCAD Github page (https://github.com/LibreCAD/LibreCAD).  On the **<> Code** tab, click on the "Clone or Download" button and then click "Download ZIP".  Save the zip file "LibreCAD-master.zip".  
 
-Create a "development" directory for the source code and related libraries, e.g `~/dev/` for Linux / macOS or `C:\dev\` for MS Windows.  
-
 
 .. _buildLinux:
 
@@ -55,7 +53,7 @@ You also have to either install the qt5-default package (`apt install qt5-defaul
 Build LibreCAD
 ~~~~~~~~~~~~~~
 
-Create a "development" directory for the source code and related libraries, e.g `~/dev/`.  Extract the contents of the source code zip file, "LibreCAD-master.zip", to the development directory, resulting in a sub-directory with the LibreCAD source code, e.g ~/dev/LibreCAD-master.  Once the source code has been extracted, compiled it with the following commands:
+Create a "development" directory for the source code and related libraries, e.g `~/dev/`.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory, resultiung in a sub-directory with the LibreCAD source code, e.g `~/dev/LibreCAD-master`.  Once the source code has been extracted, compiled it with the following commands:
 
 ::
 
@@ -63,7 +61,7 @@ Create a "development" directory for the source code and related libraries, e.g 
    $ qmake -r
    $ make -j4
 
-If the build is successful an executable is created, ~/dev/LibreCAD-master/unix/librecad, and LibreCAD can be launched by typing:
+If the build is successful an executable is created, `~/dev/LibreCAD-master/unix/librecad`, and LibreCAD can be launched by typing:
 
 ::
 
@@ -96,7 +94,7 @@ The Windows version of Qt includes both the required framework library and the c
 Boost
 `````
 
-Download the current release of the boost library "zip" file from Boost downloads <https://www.boost.org/users/download/>.
+Download the current release of the boost library "zip" file from Boost downloads <https://www.boost.org/users/download/>.  Click on the link to download the current Windows library, e.g. `boost_1_70_0.zip` and save the zip file. 
 
 
 
@@ -109,18 +107,18 @@ muParser is not required to build LibreCAD on Windows as a patched version of th
 Build LibreCAD in Qt Creator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Create a "development" folder for the source code and related libraries, e.g `C:\dev\`.  Extract the contents of the source code zip file, "LibreCAD-master.zip", resulting in a folder with the LibreCAD source code, e.g `C:\dev\LibreCAD-master`.
+Create a "development" folder for the source code and related libraries, e.g `C:\\dev\\`.  Extract the contents of the source code zip file, "LibreCAD-master.zip", resulting in a folder with the LibreCAD source code, e.g `C:\\dev\\LibreCAD-master`.
 
 Extract the boost library the files to the development folder.  Note the folder name the boost library was extracted to, e.g. `C:\\dev\\boost_1_70_0\\`.
 
 .. note::
 
-*After* extracting the LibreCAD source code, open the `custom.pro` file in `.\\librecad\\src` under the build folder and add the following two lines (**note the forward slashes in the path.**):
+*After* extracting the LibreCAD source code, open the `custom.pro` file in `.\\librecad\\src` under the development folder and add the following two lines (**note the forward slashes in the path.**):
 
 ::
 
-   BOOST_DIR = C:/dev/boost/boost_1_70_0/
-   BOOST_LIBDIR = C:/dev/boost/boost_1_70_0/
+   BOOST_DIR = C:/dev/boost_1_70_0/
+   BOOST_LIBDIR = C:/dev/boost_1_70_0/
 
 Launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the `librecad.pro` project file within the LibreCAD source folder (**File -> Open File or Project**).  If the project is not yet configured accept the Qt paths detected by Qt Creator by clicking **Configure Project** button.
 
