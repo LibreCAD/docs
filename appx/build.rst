@@ -8,8 +8,6 @@ Building from Source
 
 Building from the source code allows users to run the cutting-edge version of LibreCAD that includes bug fixes and possibly new features.  LibreCAD can compiled to run on multiple operating systems; Linux, Microsoft Windows and macOS.    The process differs depending on the OS.  The instructions are as complete as possible to provide the necessary steps to allow any user to build LibreCAD from the source code, however some understanding of the operating system and installing of the required tools and dependencies is required.
 
-The source code is hosted on GitHub and is common to all three operating systems.  It can be download as a "zip" archive or cloned using "git".  These instructions use the download option, however cloning is recommended if users want to update and build LibreCAD as the source code is updated.  See below for instructions for using :ref:`cloning <cloning>`.
-
 The tools and dependencies required to build LibreCAD are:
 
     - c++ compiler and related utilities
@@ -24,7 +22,9 @@ If you are a developer and want to contribute to LibreCAD see the :ref:`Contribu
 Download the Source Code
 ------------------------
 
-Go to the LibreCAD Github page (https://github.com/LibreCAD/LibreCAD).  On the **<> Code** tab, click on the "Clone or Download" button and then click "Download ZIP".  Save the zip file "LibreCAD-master.zip".  
+The source code is hosted on GitHub and is common to all three operating systems.  It can be download as a "zip" archive or cloned using "git".  These instructions use the download option, however cloning is recommended if users want to update and build LibreCAD as the source code is updated.  See below for instructions for using :ref:`cloning <cloning>`.
+
+Go to the LibreCAD Github page (https://github.com/LibreCAD/LibreCAD).  On the **<> Code** tab, click on the "Clone or Download" button and then click "Download ZIP".  Save the zip file `LibreCAD-master.zip`.  
 
 
 .. _buildLinux:
@@ -53,7 +53,7 @@ You also have to either install the qt5-default package (`apt install qt5-defaul
 Build LibreCAD
 ~~~~~~~~~~~~~~
 
-Create a "development" directory for the source code and related libraries, e.g `~/dev/`.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory, resultiung in a sub-directory with the LibreCAD source code, e.g `~/dev/LibreCAD-master`.  Once the source code has been extracted, compiled it with the following commands:
+Create a "development" directory for the source code and related libraries, e.g `~/dev/`.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Compiled LibreCAD with the following commands:
 
 ::
 
@@ -94,7 +94,7 @@ The Windows version of Qt includes both the required framework library and the c
 Boost
 `````
 
-Download the current release of the boost library "zip" file from Boost downloads <https://www.boost.org/users/download/>.  Click on the link to download the current Windows library, e.g. `boost_1_70_0.zip` and save the zip file. 
+Download the current release of the boost library "zip" file from Boost downloads <https://www.boost.org/users/download/>.  Click on the link to download the current Windows library, e.g. `boost_1_70_0.zip` and save the file. 
 
 
 
@@ -107,7 +107,7 @@ muParser is not required to build LibreCAD on Windows as a patched version of th
 Build LibreCAD in Qt Creator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Create a "development" folder for the source code and related libraries, e.g `C:\\dev\\`.  Extract the contents of the source code zip file, "LibreCAD-master.zip", resulting in a folder with the LibreCAD source code, e.g `C:\\dev\\LibreCAD-master`.
+Create a "development" folder for the source code and related libraries, e.g `C:\\dev\\`.  Extract the contents of the source code zip file, "LibreCAD-master.zip".  When complete a copy of the source code will found in the `C:\\dev\\LibreCAD-master` folder.
 
 Extract the boost library the files to the development folder.  Note the folder name the boost library was extracted to, e.g. `C:\\dev\\boost_1_70_0\\`.
 
@@ -171,13 +171,13 @@ muParser is not required to build LibreCAD on macOS as a patched version of the 
 Build LibreCAD
 ~~~~~~~~~~~~~~
 
-Extract the contents of the source code zip file, "LibreCAD-master.zip", to a build directory (e.g ~/dev/LibreCAD).
+Create a "development" directory for the source code and related libraries, e.g `~/dev/`.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Compile LibreCAD as shown below.
 
 To be able to rely on pkg-config to find libraries, the path must be added to the configuration file.  *After* extracting the LibreCAD source code, add the following to `custom.pro`:
 
 ::
 
-   $ cd ~/dev/LibreCAD/
+   $ cd ~/dev/LibreCAD-master/
    $ echo "QT_CONFIG -= no-pkg-config" >> custom.pro
 
 With the source code is extracted and the file edits complete, LibreCAD can be compiled with the following commands:
@@ -238,7 +238,7 @@ Create a directory for the repository in the *home* directory and clone the sour
    $ cd ~/dev
    $ git clone https://github.com/LibreCAD/LibreCAD.git
 
-When this steps is finished a complete copy of the source code will found in the `~/dev/LibreCAD directory`.
+When this steps is finished a complete copy of the source code will found in the `~/dev/LibreCAD` directory.
 
 
 Update the Repository
@@ -275,7 +275,7 @@ To create the initial cloned repository, launch the Git GUI (**Start -> All Prog
    - Click **Clone** and then wait a few moments the download to complete (The Git GUI window will appear with the LibreCAD repository open)
    - Close the Git GUI window (**Repository -> Quit**)
 
-When this steps is finished a complete copy of the source code will found in the `C:\\dev\\LibreCAD` directory.
+When this steps is finished a complete copy of the source code will found in the `C:\\dev\\LibreCAD` folder.
 
 
 Via the Git Command Line
