@@ -53,7 +53,7 @@ You also have to either install the qt5-default package (`apt install qt5-defaul
 Build LibreCAD
 ~~~~~~~~~~~~~~
 
-Create a "development" directory for the source code and related libraries, e.g `~/dev/`.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Compiled LibreCAD with the following commands:
+Create a development directory for the source code and related libraries, e.g `~/dev/`.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Compiled LibreCAD with the following commands:
 
 ::
 
@@ -107,7 +107,7 @@ muParser is not required to build LibreCAD on Windows as a patched version of th
 Build LibreCAD in Qt Creator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Create a "development" folder for the source code and related libraries, e.g `C:\\dev\\`.  Extract the contents of the source code zip file, "LibreCAD-master.zip".  When complete a copy of the source code will found in the `C:\\dev\\LibreCAD-master` folder.
+Create a development folder for the source code and related libraries, e.g `C:\\dev\\`.  Extract the contents of the source code zip file, "LibreCAD-master.zip".  When complete a copy of the source code will found in the `C:\\dev\\LibreCAD-master` folder.
 
 Extract the boost library the files to the development folder.  Note the folder name the boost library was extracted to, e.g. `C:\\dev\\boost_1_70_0\\`.
 
@@ -120,11 +120,16 @@ Extract the boost library the files to the development folder.  Note the folder 
    BOOST_DIR = C:/dev/boost_1_70_0/
    BOOST_LIBDIR = C:/dev/boost_1_70_0/
 
-Launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the `librecad.pro` project file within the LibreCAD source folder (**File -> Open File or Project**).  If the project is not yet configured accept the Qt paths detected by Qt Creator by clicking **Configure Project** button.
+Launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the `librecad.pro` project file from the LibreCAD source folder (**File -> Open File or Project** and go to `C:\\dev\\LibreCAD-master\\`).  The project should open to **Configure Project**.  Ensure a "kit", e.g. `Desktop Qt 5.12.3 MinGW 32-bit` is checked and click the **Configure Project** button.  It will take a few momonets for the project to open and parse.
 
-Click the **Project** icon on the left side of the Qt Creator window.  Disable the "Shadow build" option in Debug, Profile and Release configurations, and save the project (**File -> Save All**).
+Click the **Project** icon on the left side of the Qt Creator window.  Disable the "Shadow build" option in the *Debug*, *Profile* and *Release*  build configurations.  Each build configuration can be selected from the drop down below **Build Settings**. Save the project (**File -> Save All**).
 
 If everything is good up to this point, you can build and run LibreCAD in Qt Creator by clicking the **Build** icon on the lower left side.
+
+
+.. note::
+
+   Build fails on Windows.  Refer to `LibreCAD source code compile problem #930 <https://github.com/LibreCAD/LibreCAD/issues/930>` for a fix.
 
 If the build is successful an executable is created, `C:\dev\LibreCAD\Windows\librecad.exe`, and LibreCAD can be launched by Clicking **Start -> Run** and typing:
 
@@ -171,7 +176,7 @@ muParser is not required to build LibreCAD on macOS as a patched version of the 
 Build LibreCAD
 ~~~~~~~~~~~~~~
 
-Create a "development" directory for the source code and related libraries, e.g `~/dev/`.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Compile LibreCAD as shown below.
+Create a development directory for the source code and related libraries, e.g `~/dev/`.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Compile LibreCAD as shown below.
 
 To be able to rely on pkg-config to find libraries, the path must be added to the configuration file.  *After* extracting the LibreCAD source code, add the following to `custom.pro`:
 
