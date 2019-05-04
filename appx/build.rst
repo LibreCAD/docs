@@ -24,7 +24,7 @@ Download the Source Code
 
 The source code is hosted on GitHub and is common to all three operating systems.  It can be download as a "zip" archive or cloned using "git".  These instructions use the download option, however cloning is recommended if users want to update and build LibreCAD as the source code is updated.  See below for instructions for using :ref:`cloning <cloning>`.
 
-Go to the LibreCAD Github page (https://github.com/LibreCAD/LibreCAD).  On the **<> Code** tab, click on the "Clone or Download" button and then click "Download ZIP".  Save the zip file `LibreCAD-master.zip`.  
+Go to the LibreCAD GitHub page (https://github.com/LibreCAD/LibreCAD).  On the **<> Code** tab, click on the "Clone or Download" button and then click "Download ZIP".  Save the zip file `LibreCAD-master.zip`.  
 
 
 .. _buildLinux:
@@ -121,9 +121,9 @@ Extract the boost library the files to the development folder.  Note the folder 
 
 .. note::
 
-	In order to successfully build LibreCAD on Windows, a few source code edits are required.  Refer to `LibreCAD source code compile problem #930 <https://github.com/LibreCAD/LibreCAD/issues/930>`_ for more details.  Perform the following edit in the two files as noted:
+	In order to successfully build LibreCAD on Windows, a few source code edits are required.  Refer to `LibreCAD source code compile problem #930 <https://github.com/LibreCAD/LibreCAD/issues/930>`_ for more details.  Perform the following edits in the two files as noted:
 
-	In the file .\LibreCAD-master\librecad\src\lib\math\rs_math.cpp:
+	In the file .\\LibreCAD-master\\librecad\\src\\lib\\math\\rs_math.cpp:
 
 	::
 
@@ -135,7 +135,7 @@ Extract the boost library the files to the development folder.  Note the folder 
 		  std::cout << QString::fromStdWString(e.GetMsg()).toStdString() << std::endl; 
              // <-- std::cout << e.GetMsg() << std::endl;
 
-	In the file .\LibreCAD-master\plugins\plotequation\plot.cpp:
+	In the file .\\LibreCAD-master\\plugins\\plotequation\\plot.cpp:
 
 	::
 
@@ -156,7 +156,7 @@ Extract the boost library the files to the development folder.  Note the folder 
              //<-- std::cout <<e.GetMsg() << std::endl;
 
 
-After completing the required edits, launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the `librecad.pro` project file from the LibreCAD source folder (**File -> Open File or Project** and go to `C:\\dev\\LibreCAD-master\\`).  The project should open to **Configure Project**.  Ensure a "kit", e.g. `Desktop Qt 5.12.3 MinGW 32-bit` is checked and click the **Configure Project** button.  It will take a few momonets for the project to open and parse.
+After completing the required edits, launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the `librecad.pro` project file from the LibreCAD source folder (**File -> Open File or Project** and go to `C:\\dev\\LibreCAD-master\\`).  The project should open to **Configure Project**.  Ensure a "kit", e.g. `Desktop Qt 5.12.3 MinGW 32-bit` is checked and click the **Configure Project** button.  It will take a few moments for the project to open and parse.
 
 Click the **Project** icon on the left side of the Qt Creator window.  Disable the "Shadow build" option in the *Debug*, *Profile* and *Release*  build configurations.  Each build configuration can be selected from the drop down below **Build Settings**. Save the project (**File -> Save All**).
 
@@ -165,7 +165,7 @@ If everything is good up to this point, you can build and run LibreCAD in Qt Cre
 
 .. note::
 
-	If the build is successful an executable is created; `.\\LibreCAD-master\\windows\\librecad.exe`.  However, to run LibreCAD, several DLLs are required.  The DLLs are found in the `C:\\Qt\\Qt5.12.3\\5.12.3\\mingw73_32\\bin` folder and need to be copied to the same directory as the executable (or included in the *path*).  The DLLs are:
+	If the build is successful an executable is created: `.\\LibreCAD-master\\windows\\librecad.exe`.  However, to run LibreCAD, several DLLs are required.  The DLLs are found in the `C:\\Qt\\Qt5.12.3\\5.12.3\\mingw73_32\\bin` folder and need to be copied to the same directory as the executable (or included in the *path*).  The DLLs are:
 
 	   - libgcc_s_dw2-1.dll
 	   - libstdc++-6.dll
