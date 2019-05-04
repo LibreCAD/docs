@@ -160,7 +160,7 @@ After completing the required edits, launch Qt Creator (**Start -> All Programs 
 
 Click the **Project** icon on the left side of the Qt Creator window.  Disable the "Shadow build" option in the *Debug*, *Profile* and *Release*  build configurations.  Each build configuration can be selected from the drop down below **Build Settings**. Save the project (**File -> Save All**).
 
-With the configuration complete, run the build process in Qt Creator by clicking the Build icon on the lower left side.  If the build is successful an executable is created: .\\LibreCAD-master\\windows\\librecad.exe.
+With the configuration complete, run the build process in Qt Creator by clicking the **Build** icon on the lower left side.  If the build is successful an executable is created: .\\LibreCAD-master\\windows\\librecad.exe.
 
 
 .. note::
