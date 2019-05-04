@@ -73,13 +73,11 @@ If the build is successful an executable is created, `~/dev/LibreCAD-master/unix
 Building on Windows
 -------------------
 
+Building LibreCAD on Windows is a little more involved and requires a few additional steps.  Please read these instructions carefully.
+
 .. note::
 
     *This section is currently being updated.*  Please provide any feedback on the build process on the LibreCAD forum: http://forum.librecad.org/Help-wanted-to-build-on-Windows-td5717272.html
-
-Also see:
-
-   https://wiki.librecad.org/index.php/LibreCAD_Installation_from_Source#Building_LibreCAD_2.0_on_Windows
 
 
 Install Tools and Dependencies
@@ -113,12 +111,56 @@ Extract the boost library the files to the development folder.  Note the folder 
 
 .. note::
 
-*After* extracting the LibreCAD source code, open the `custom.pro` file in `.\\librecad\\src` under the development folder and add the following two lines (**note the forward slashes in the path.**):
+*After* extracting the LibreCAD source code, open the `custom.pro` file in `.\\LibreCAD-master\\librecad\\src` under the development folder and add the following two lines (**note the forward slashes in the path.**):
 
 ::
 
    BOOST_DIR = C:/dev/boost_1_70_0/
    BOOST_LIBDIR = C:/dev/boost_1_70_0/
+
+.. note::
+
+	In order to successfully build LibreCAD on Windows, a few source code edits are required.  Refer to `LibreCAD source code compile problem #930 <https://github.com/LibreCAD/LibreCAD/issues/930>`_ for more details.  Perform the following edit in the two files as noted: 
+
+	In the file .\LibreCAD-master\librecad\src\lib\math\rs_math.cpp:
+
+	   Line:323
+
+		  p.DefineConst(L"pi",M_PI); // <-- p.DefineConst("pi",M_PI);
+
+	   Line:324
+
+		  p.SetExpr(expr_copy.toStdWString()); // <--p.SetExpr(expr_copy.toStdString())
+
+	   Line:330
+
+		  std::cout << QString::fromStdWString(e.GetMsg()).toStdString() << std::endl; // <-- std::cout << e.GetMsg() << std::endl;
+
+	In the file .\LibreCAD-master\plugins\plotequation\plot.cpp:
+
+	   Line:60~64
+
+		  p.DefineConst(L"pi",M_PI); //<-- p.DefineConst("pi",M_PI);
+		  p.DefineConst(L"e",M_E); //<-- p.DefineConst("e",M_E);
+		  p.DefineVar(L"x", &equationVariable); //<-- p.DefineVar("x", &equationVariable);
+		  p.DefineVar(L"t", &equationVariable); //<-- p.DefineVar("t", &equationVariable);
+		  p.SetExpr(startValue.toStdWString()); //<-- p.SetExpr(startValue.toStdString());
+
+	   Line:67
+
+		  p.SetExpr(endValue.toStdWString()); //<-- p.SetExpr(endValue.toStdString());
+
+	   Line:70
+
+		  p.SetExpr(equation1.toStdWString()); //<-- p.SetExpr(equation1.toStdString());
+
+	   Line:80
+
+		  p.SetExpr(equation2.toStdWString()); //<-- p.SetExpr(equation2.toStdString());
+
+	   Line:90
+
+		  std::cout << QString::fromStdWString(e.GetMsg()).toStdString() << std::endl; //<-- std::cout <<e.GetMsg() << std::endl;
 
 Launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the `librecad.pro` project file from the LibreCAD source folder (**File -> Open File or Project** and go to `C:\\dev\\LibreCAD-master\\`).  The project should open to **Configure Project**.  Ensure a "kit", e.g. `Desktop Qt 5.12.3 MinGW 32-bit` is checked and click the **Configure Project** button.  It will take a few momonets for the project to open and parse.
 
@@ -129,7 +171,7 @@ If everything is good up to this point, you can build and run LibreCAD in Qt Cre
 
 .. note::
 
-   Build fails on Windows.  Refer to `LibreCAD source code compile problem #930 <https://github.com/LibreCAD/LibreCAD/issues/930>` for a fix.
+   
 
    Also Qt DLLs need to be copied...
 
@@ -343,4 +385,10 @@ Once a local repository has been created it can be updated as changes (bug fixes
    $ git fetch origin
    $ git checkout master
    $ git rebase origin/master
+
+
+
+Also see:
+
+   https://wiki.librecad.org/index.php/LibreCAD_Installation_from_Source
 
