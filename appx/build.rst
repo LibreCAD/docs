@@ -160,12 +160,12 @@ After completing the required edits, launch Qt Creator (**Start -> All Programs 
 
 Click the **Project** icon on the left side of the Qt Creator window.  Disable the "Shadow build" option in the *Debug*, *Profile* and *Release*  build configurations.  Each build configuration can be selected from the drop down below **Build Settings**. Save the project (**File -> Save All**).
 
-If everything is good up to this point, you can build and run LibreCAD in Qt Creator by clicking the **Build** icon on the lower left side.
+With the configuration complete, run the build process in Qt Creator by clicking the Build icon on the lower left side.  If the build is successful an executable is created: .\\LibreCAD-master\\windows\\librecad.exe.
 
 
 .. note::
 
-	If the build is successful an executable is created: `.\\LibreCAD-master\\windows\\librecad.exe`.  However, to run LibreCAD, several DLLs are required.  The DLLs are found in the `C:\\Qt\\Qt5.12.3\\5.12.3\\mingw73_32\\bin` folder and need to be copied to the same directory as the executable (or included in the *path*).  The DLLs are:
+	Several *Dynamic-link libraries (DLL)* are required to run LibreCAD.  The DLLs are found in the C:\\Qt\\Qt5.12.3\\5.12.3\\mingw73_32\\bin folder and need to be copied to the same directory as the executable (or included in the path). The DLLs are:
 
 	   - libgcc_s_dw2-1.dll
 	   - libstdc++-6.dll
