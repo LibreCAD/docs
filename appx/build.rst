@@ -121,46 +121,35 @@ Extract the boost library the files to the development folder.  Note the folder 
 
 .. note::
 
-	In order to successfully build LibreCAD on Windows, a few source code edits are required.  Refer to `LibreCAD source code compile problem #930 <https://github.com/LibreCAD/LibreCAD/issues/930>`_ for more details.  Perform the following edit in the two files as noted: 
+	In order to successfully build LibreCAD on Windows, a few source code edits are required.  Refer to `LibreCAD source code compile problem #930 <https://github.com/LibreCAD/LibreCAD/issues/930>`_ for more details.  Perform the following edit in the two files as noted:
+
 
 	In the file .\LibreCAD-master\librecad\src\lib\math\rs_math.cpp:
 
+::
 	   Line:323
-
 		  p.DefineConst(L"pi",M_PI); // <-- p.DefineConst("pi",M_PI);
-
 	   Line:324
-
 		  p.SetExpr(expr_copy.toStdWString()); // <--p.SetExpr(expr_copy.toStdString())
-
 	   Line:330
-
 		  std::cout << QString::fromStdWString(e.GetMsg()).toStdString() << std::endl; // <-- std::cout << e.GetMsg() << std::endl;
 
+::
+
 	In the file .\LibreCAD-master\plugins\plotequation\plot.cpp:
-
 	   Line:60~64
-
 		  p.DefineConst(L"pi",M_PI); //<-- p.DefineConst("pi",M_PI);
 		  p.DefineConst(L"e",M_E); //<-- p.DefineConst("e",M_E);
 		  p.DefineVar(L"x", &equationVariable); //<-- p.DefineVar("x", &equationVariable);
 		  p.DefineVar(L"t", &equationVariable); //<-- p.DefineVar("t", &equationVariable);
 		  p.SetExpr(startValue.toStdWString()); //<-- p.SetExpr(startValue.toStdString());
-
 	   Line:67
-
 		  p.SetExpr(endValue.toStdWString()); //<-- p.SetExpr(endValue.toStdString());
-
 	   Line:70
-
 		  p.SetExpr(equation1.toStdWString()); //<-- p.SetExpr(equation1.toStdString());
-
 	   Line:80
-
 		  p.SetExpr(equation2.toStdWString()); //<-- p.SetExpr(equation2.toStdString());
-
 	   Line:90
-
 		  std::cout << QString::fromStdWString(e.GetMsg()).toStdString() << std::endl; //<-- std::cout <<e.GetMsg() << std::endl;
 
 
