@@ -6,7 +6,7 @@
 Building from Source
 ====================
 
-Building from the source code allows users to run the cutting-edge version of LibreCAD that includes bug fixes and possibly new features.  LibreCAD can compiled to run on multiple operating systems; Linux, Microsoft Windows and macOS.    The process differs depending on the OS.  The instructions are as complete as possible to provide the necessary steps to allow any user to build LibreCAD from the source code, however some understanding of the operating system and installing of the required tools and dependencies is required.
+Building from the source code allows users to run the cutting-edge version of LibreCAD that includes bug fixes and possibly new features.  LibreCAD can compiled to run on multiple operating systems; Linux, Microsoft Windows and macOS.  The process differs depending on the OS.  The instructions are as complete as possible to provide the necessary steps to allow any user to build LibreCAD from the source code, however some understanding of the operating system and installing of the required tools and dependencies is required.
 
 The tools and dependencies required to build LibreCAD are:
 
@@ -22,9 +22,9 @@ If you are a developer and want to contribute to LibreCAD see the :ref:`Contribu
 Download the Source Code
 ------------------------
 
-The source code is hosted on GitHub and is common to all three operating systems.  It can be download as a "zip" archive or cloned using "git".  These instructions use the download option, however cloning is recommended if users want to update and build LibreCAD as the source code is updated.  See below for instructions for using :ref:`cloning <cloning>`.
+The source code is hosted on GitHub and is common to all three operating systems.  It can be download as a "zip" archive or cloned using "git".  These instructions use the download option.  Go to the LibreCAD GitHub page (https://github.com/LibreCAD/LibreCAD).  On the **<> Code** tab, click on the "Clone or Download" button and then click "Download ZIP".  Save the zip file `LibreCAD-master.zip`.
 
-Go to the LibreCAD GitHub page (https://github.com/LibreCAD/LibreCAD).  On the **<> Code** tab, click on the "Clone or Download" button and then click "Download ZIP".  Save the zip file `LibreCAD-master.zip`.  
+Cloning is recommended if users want to build LibreCAD more frequently as the source code is updated.  More information about GitHub, git tools, and creating a local source code repository can be found on LibreCAD's Development wiki (https://github.com/LibreCAD/LibreCAD/wiki).
 
 
 .. _buildLinux:
@@ -253,143 +253,4 @@ If the build is successful the generated executable of LibreCAD can be found as:
 ::
 
    LibreCAD.app/Contents/MacOS/LibreCAD
-
-
-
-.. _cloning:
-
-Cloning the Source Code
------------------------
-
-"Git" is a *open source distributed version control system* used by the developers to maintain LibreCAD's source code.
-
-Cloning the repository only needs to be done once to create the initial cloned repository.  If local LibreCAD repository already exists continue to "**Update the Repository**".
-
-
-Linux
-~~~~~
-
-Install the git tools if not previously installed:
-
-::
-
-   $ sudo apt install git-core 
-
-
-
-Create the Repository 
-``````````````````````
-
-Create a directory for the repository in the *home* directory and clone the source code:
-
-::
-
-   $ mkdir -p ~/dev
-   $ cd ~/dev
-   $ git clone https://github.com/LibreCAD/LibreCAD.git
-
-When this steps is finished a complete copy of the source code will found in the `~/dev/LibreCAD` directory.
-
-
-Update the Repository
-`````````````````````
-
-Once a local repository has been created it can be updated as changes (bug fixes and / or new features) are added to the source code with:
-
-::
-
-   $ cd ~/dev/LibreCAD/
-   $ git checkout master
-   $ git pull -r
-
-
-Windows
-~~~~~~~
-
-There are several git clients available for MS Windows.  These build instructions utilize the "almost official" `Git for Windows <https://gitforwindows.org>`_ client.  If it hasn'r been previously installed , download the installer from https://git-scm.com/download/win and install it accepting the default values.
-
-Another option is to use the `GitHub Desktop <https://desktop.github.com/>`_.
-
-
-Create the Repository
-`````````````````````
-
-Via the Git GUI
-^^^^^^^^^^^^^^^
-
-To create the initial cloned repository, launch the Git GUI (**Start -> All Programs -> Git -> Git GUI**):
-
-   - Select **Clone Existing Repository**
-   - Enter the `Source Location`: git://github.com/LibreCAD/LibreCAD.git
-   - Enter a 'Target Directory`: e.g. `C:\\dev\\LibreCAD`
-   - Click **Clone** and then wait a few moments the download to complete (The Git GUI window will appear with the LibreCAD repository open)
-   - Close the Git GUI window (**Repository -> Quit**)
-
-When this steps is finished a complete copy of the source code will found in the `C:\\dev\\LibreCAD` folder.
-
-
-Via the Git Command Line
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-To clone LibreCAD source code open the Git command line (**Start -> All Programs -> Git -> Git CMD**) and type:
-
-::
-
-   > md \dev
-   > cd \dev
-   > git clone https://github.com/LibreCAD/LibreCAD.git
-
-
-Update the Repository
-`````````````````````
-
-Once a local repository has been created it can be updated as changes (bug fixes and / or new features) are added to the source code.  To update LibreCAD source code open the Git command line (**Start -> All Programs -> Git -> Git CMD**) and type:
-
-::
-
-   > cd \dev\LibreCAD
-   > git pull -r
-
-
-macOS
-~~~~~
-
-Install the git tools if not previously installed:
-
-::
-
-   $ sudo port install git-core
-
-
-Create the Repository 
-``````````````````````
-
-Create a directory for the repository in the *home* directory and clone the source code:
-
-::
-
-    $ mkdir -p ~/dev
-    $ cd ~/dev
-    $ git clone https://github.com/LibreCAD/LibreCAD.git
-
-When this steps is finished a complete copy of the source code will found in the `~/dev/LibreCAD` directory.
-
-
-Update the Repository
-`````````````````````
-
-Once a local repository has been created it can be updated as changes (bug fixes and / or new features) are added to the source code.  If you have a previous cloned repository, say, in ~/github/LibreCAD/ , you can update the code by:
-
-::
-
-   $ cd ~/dev/LibreCAD/
-   $ git fetch origin
-   $ git checkout master
-   $ git rebase origin/master
-
-
-
-Also see:
-
-   https://wiki.librecad.org/index.php/LibreCAD_Installation_from_Source
 
