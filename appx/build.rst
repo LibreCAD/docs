@@ -36,6 +36,7 @@ Building on Linux
 
     These instructions are for Debian based Linux distributions.
 
+
 Install Tools and Dependencies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -162,20 +163,26 @@ Extract the boost library the files to the development folder.  Note the folder 
 
 		  std::cout << QString::fromStdWString(e.GetMsg()).toStdString() << std::endl; //<-- std::cout <<e.GetMsg() << std::endl;
 
-Launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the `librecad.pro` project file from the LibreCAD source folder (**File -> Open File or Project** and go to `C:\\dev\\LibreCAD-master\\`).  The project should open to **Configure Project**.  Ensure a "kit", e.g. `Desktop Qt 5.12.3 MinGW 32-bit` is checked and click the **Configure Project** button.  It will take a few momonets for the project to open and parse.
+
+After completing the required edits, launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the `librecad.pro` project file from the LibreCAD source folder (**File -> Open File or Project** and go to `C:\\dev\\LibreCAD-master\\`).  The project should open to **Configure Project**.  Ensure a "kit", e.g. `Desktop Qt 5.12.3 MinGW 32-bit` is checked and click the **Configure Project** button.  It will take a few momonets for the project to open and parse.
 
 Click the **Project** icon on the left side of the Qt Creator window.  Disable the "Shadow build" option in the *Debug*, *Profile* and *Release*  build configurations.  Each build configuration can be selected from the drop down below **Build Settings**. Save the project (**File -> Save All**).
 
 If everything is good up to this point, you can build and run LibreCAD in Qt Creator by clicking the **Build** icon on the lower left side.
 
+If the build is successful an executable is created; `.\\LibreCAD-master\\windows\\librecad.exe`.  To run LibreCAD, several DLLs are required.  The DLLs are found in the `C:\\Qt\\Qt5.12.3\\5.12.3\\mingw73_32\\bin` folder and need to be copied to the same directory as the executable (or included in the *path*).  The DLLs are:
 
-.. note::
+   - libgcc_s_dw2-1.dll
+   - libstdc++-6.dll
+   - libwinpthread-1.dll
+   - Qt5Core.dll
+   - Qt5Gui.dll
+   - Qt5PrintSupport.dll
+   - Qt5Svg.dll
+   - Qt5Widgets.dll
 
-   
 
-   Also Qt DLLs need to be copied...
-
-If the build is successful an executable is created, `.\\windows\\librecad.exe`, and LibreCAD can be launched by Clicking **Start -> Run** and typing:
+Once the DLLs have been copied to the executable folder, LibreCAD can be launched by Clicking **Start -> Run** and typing:
 
 ::
 
