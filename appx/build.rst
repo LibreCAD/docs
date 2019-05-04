@@ -127,6 +127,7 @@ Extract the boost library the files to the development folder.  Note the folder 
 	In the file .\LibreCAD-master\librecad\src\lib\math\rs_math.cpp:
 
 ::
+
 	   Line:323
 		  p.DefineConst(L"pi",M_PI); // <-- p.DefineConst("pi",M_PI);
 	   Line:324
@@ -134,9 +135,10 @@ Extract the boost library the files to the development folder.  Note the folder 
 	   Line:330
 		  std::cout << QString::fromStdWString(e.GetMsg()).toStdString() << std::endl; // <-- std::cout << e.GetMsg() << std::endl;
 
+	In the file .\LibreCAD-master\plugins\plotequation\plot.cpp:
+
 ::
 
-	In the file .\LibreCAD-master\plugins\plotequation\plot.cpp:
 	   Line:60~64
 		  p.DefineConst(L"pi",M_PI); //<-- p.DefineConst("pi",M_PI);
 		  p.DefineConst(L"e",M_E); //<-- p.DefineConst("e",M_E);
