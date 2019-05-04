@@ -112,12 +112,12 @@ Extract the boost library the files to the development folder.  Note the folder 
 
 .. note::
 
-*After* extracting the LibreCAD source code, open the `custom.pro` file in `.\\LibreCAD-master\\librecad\\src` under the development folder and add the following two lines (**note the forward slashes in the path.**):
+	*After* extracting the LibreCAD source code, open the `custom.pro` file in `.\\LibreCAD-master\\librecad\\src` under the development folder and add the following two lines (**note the forward slashes in the path.**):
 
-::
+	::
 
-   BOOST_DIR = C:/dev/boost_1_70_0/
-   BOOST_LIBDIR = C:/dev/boost_1_70_0/
+	   BOOST_DIR = C:/dev/boost_1_70_0/
+	   BOOST_LIBDIR = C:/dev/boost_1_70_0/
 
 .. note::
 
@@ -170,17 +170,19 @@ Click the **Project** icon on the left side of the Qt Creator window.  Disable t
 
 If everything is good up to this point, you can build and run LibreCAD in Qt Creator by clicking the **Build** icon on the lower left side.
 
-If the build is successful an executable is created; `.\\LibreCAD-master\\windows\\librecad.exe`.  To run LibreCAD, several DLLs are required.  The DLLs are found in the `C:\\Qt\\Qt5.12.3\\5.12.3\\mingw73_32\\bin` folder and need to be copied to the same directory as the executable (or included in the *path*).  The DLLs are:
 
-   - libgcc_s_dw2-1.dll
-   - libstdc++-6.dll
-   - libwinpthread-1.dll
-   - Qt5Core.dll
-   - Qt5Gui.dll
-   - Qt5PrintSupport.dll
-   - Qt5Svg.dll
-   - Qt5Widgets.dll
+.. note::
 
+	If the build is successful an executable is created; `.\\LibreCAD-master\\windows\\librecad.exe`.  However, to run LibreCAD, several DLLs are required.  The DLLs are found in the `C:\\Qt\\Qt5.12.3\\5.12.3\\mingw73_32\\bin` folder and need to be copied to the same directory as the executable (or included in the *path*).  The DLLs are:
+
+	   - libgcc_s_dw2-1.dll
+	   - libstdc++-6.dll
+	   - libwinpthread-1.dll
+	   - Qt5Core.dll
+	   - Qt5Gui.dll
+	   - Qt5PrintSupport.dll
+	   - Qt5Svg.dll
+	   - Qt5Widgets.dll
 
 Once the DLLs have been copied to the executable folder, LibreCAD can be launched by Clicking **Start -> Run** and typing:
 
