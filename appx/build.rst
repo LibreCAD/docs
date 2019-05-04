@@ -6,7 +6,7 @@
 Building from Source
 ====================
 
-Building from the source code allows users to run the cutting-edge version of LibreCAD that includes bug fixes and possibly new features.  LibreCAD can compiled to run on multiple operating systems; Linux, Microsoft Windows and macOS.  The process differs depending on the OS.  The instructions are as complete as possible to provide the necessary steps to allow any user to build LibreCAD from the source code, however some understanding of the operating system and installing of the required tools and dependencies is required.
+Building from the source code allows users to run the cutting-edge version of LibreCAD that includes bug fixes and possibly new features.  LibreCAD can be compiled to run on multiple operating systems; Linux, Microsoft Windows, and macOS.  The process differs depending on the OS.  The instructions are as complete as possible to provide the necessary steps to allow any user to build LibreCAD from the source code, however some understanding of the operating system and installation of the required tools and dependencies is required.
 
 The tools and dependencies required to build LibreCAD are:
 
@@ -22,9 +22,11 @@ If you are a developer and want to contribute to LibreCAD see the :ref:`Contribu
 Download the Source Code
 ------------------------
 
-The source code is hosted on GitHub and is common to all three operating systems.  It can be download as a "zip" archive or cloned using "git".  These instructions use the download option.  Go to the LibreCAD GitHub page (https://github.com/LibreCAD/LibreCAD).  On the **<> Code** tab, click on the "Clone or Download" button and then click "Download ZIP".  Save the zip file `LibreCAD-master.zip`.
+The source code is hosted on GitHub and is common to all three operating systems.  It can be download as a "zip" archive or cloned using "git".  These instructions use the download option.
 
-Cloning is recommended if users want to build LibreCAD more frequently as the source code is updated.  More information about GitHub, git tools, and creating a local source code repository can be found on LibreCAD's Development wiki (https://github.com/LibreCAD/LibreCAD/wiki).
+Go to the LibreCAD GitHub page (https://github.com/LibreCAD/LibreCAD) to download the source code.  On the **<> Code** tab, click on the "Clone or Download" button and then click "Download ZIP".  Save the zip file; `LibreCAD-master.zip`.
+
+Cloning is suggested if users want to build LibreCAD more frequently as the source code is updated.  More information about GitHub, git tools, and creating a local source code repository can be found on LibreCAD's Development wiki (https://github.com/LibreCAD/LibreCAD/wiki).
 
 
 .. _buildLinux:
