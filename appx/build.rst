@@ -10,7 +10,7 @@ Building from the source code allows users to run the cutting-edge version of Li
 
 The tools and dependencies required to build LibreCAD are:
 
-    - c++ compiler and related utilities
+    - C++ compiler and related utilities
     - Qt development framework
     - Boost C++ source library
     - muParser math expression parser library
