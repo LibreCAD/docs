@@ -20,7 +20,7 @@ Line
     :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
-    "2 points", |icon01|, "l, li, line", "| Draw a line between two assigned points.
+    "2 points", |icon01|, "l, li, line", "Draw a line between two assigned points.
         | **Tool Options:** 
         | |tlopt14|"
     "Angle", |icon02|, "", "Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle.  **Tool Options:** |tlopt07|"
