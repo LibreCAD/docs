@@ -14,7 +14,7 @@ Several drawing tools require additional parameters.  The tools that have additi
 Line
 ----
 .. csv-table::  
-    :widths: 20, 10, 20, 50
+    :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
@@ -41,7 +41,7 @@ Line
 Circle
 ------
 .. csv-table:: 
-    :widths: 20, 10, 20, 50
+    :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
@@ -64,7 +64,7 @@ Circle
 Curve
 -----
 .. csv-table:: 
-    :widths: 20, 10, 20, 50
+    :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
@@ -84,7 +84,7 @@ Curve
 Ellipse
 -------
 .. csv-table:: 
-    :widths: 20, 10, 20, 50
+    :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
@@ -100,7 +100,7 @@ Ellipse
 Polyline
 --------
 .. csv-table:: 
-    :widths: 20, 10, 20, 50
+    :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
@@ -119,7 +119,7 @@ Polyline
 Select
 ------
 .. csv-table:: 
-    :widths: 20, 10, 20, 50
+    :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
@@ -140,7 +140,7 @@ Select
 Dimension
 ---------
 .. csv-table:: 
-    :widths: 20, 10, 20, 50
+    :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
@@ -159,7 +159,7 @@ Dimension
 Modify
 ------
 .. csv-table:: 
-    :widths: 20, 10, 20, 50
+    :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
@@ -194,7 +194,7 @@ Modify
 Info
 ----
 .. csv-table:: 
-    :widths: 20, 10, 20, 50
+    :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
@@ -212,7 +212,7 @@ Info
 Others
 ------
 .. csv-table:: 
-    :widths: 20, 10, 20, 50
+    :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
