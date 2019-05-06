@@ -22,6 +22,7 @@ Line
     "Tool", "Icon", "Command", "Description"
     "2 points", |icon01|, "l, li, line", "
         | Draw a line between two assigned points.
+        |
         | **Tool Options:** 
         | |tlopt14|"
     "Angle", |icon02|, "", "
@@ -97,7 +98,8 @@ Circle
         | |tlopt01|"
     "3 Points", |icon22|, "c3, circle3", "
         | Draw a circle assigning three points on the circumference."
-    "Centre, Radius", |icon19|, "", "Draw a circle with a given radius centred at an assigned point on the circumference.
+    "Centre, Radius", |icon19|, "", "
+        | Draw a circle with a given radius centred at an assigned point on the circumference.
         | **Tool Options:** 
         | |tlopt01|"
     "Tangential, 2 Circles, 1 Point", |icon26|, "", "
@@ -133,7 +135,9 @@ Curve
     "Arc Tangential", |icon34|, "", "
         | Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg).
         | **Tool Options:** 
-        | |tlopt02| or |tlopt04|"
+        | |tlopt02| 
+        | or
+        | |tlopt04|"
     "Spline", |icon41|, "spl, spline", "
         | Draw an open or closed spline (curve) by assigning control points and a given degree of freedom (1 - 3).
         | **Tool Options:** 
@@ -217,7 +221,8 @@ Select
         | Select all entities on visible layers ([Ctrl]-[A])."
     "Select Entity", |icon51|, "", "
         | Select, or deselect, one or more entities (default cursor action)."
-    "(De-)Select Contour", |icon54|, "", "Select or deselected entities connected by shared points."
+    "(De-)Select Contour", |icon54|, "", "
+        | Select or deselected entities connected by shared points."
     "Select Window", |icon52|, "", "
         | Select one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L) (default cursor ""drag"" action)."
     "Deselect Window", |icon53|, "", "
@@ -309,7 +314,9 @@ Modify
     "Offset",  |icon79| , "o, pa, offset, parallel", "
         | Copy a selected entity to a defined distance in the specified direction."
     "Bevel", |icon80|, "ch, bevel", "
-        | Create a sloping edge between two intersecting line segments with defined by a setback on each segment. |tlopt16|"
+        | Create a sloping edge between two intersecting line segments with defined by a setback on each segment.
+        | **Tool Options:** 
+        | |tlopt16|"
     "Fillet", |icon81|, "fi, fillet", "
         | Create a rounded edge between two intersecting line segments with defined radius.
         | **Tool Options:** 
