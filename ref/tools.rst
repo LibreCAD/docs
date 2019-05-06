@@ -8,6 +8,8 @@ Drawing Tools
 
 The drawing tools are used to create and modify entities such as lines, circles, etc. in a drawing.  Commands can be selected from the menu, toolbars or entered via the :ref:`command line <commandline>`.
 
+Several drawing tools require additional parameters.  The tools that have additional parameters will provide prompts on the **Tool Options** toolbar.  *This toolbar should always be enabled.*  If the tool options do not appear, from the menu, select **Widgets -> Toolbar ->** and enable **Tool Options**.  The tools that have options are shown in the table below.
+
 
 Line
 ----
@@ -512,4 +514,78 @@ Others
 .. |icon99| image:: /images/icons/points.svg
             :height: 24
             :width: 24
+
+
+..  Tool Options mapping:
+
+.. |tlopt01| image:: images/toolOptions/toCircleRad.png
+            :height: 32
+            :width: 178
+.. |tlopt02| image:: images/toolOptions/toCurveAng.png
+            :height: 32
+            :width: 283
+.. |tlopt03| image:: images/toolOptions/toCurve.png
+            :height: 32
+            :width: 139
+.. |tlopt04| image:: images/toolOptions/toCurveRad.png
+            :height: 32
+            :width: 283
+.. |tlopt05| image:: images/toolOptions/toDimnLin.png
+            :height: 32
+            :width: 681
+.. |tlopt06| image:: images/toolOptions/toDimn.png
+            :height: 32
+            :width: 424
+.. |tlopt07| image:: images/toolOptions/toLineAngle.png
+            :height: 32
+            :width: 338
+.. |tlopt08| image:: images/toolOptions/toLineAngRel.png
+            :height: 32
+            :width: 288
+.. |tlopt09| image:: images/toolOptions/toLineBisct.png
+            :height: 32
+            :width: 317
+.. |tlopt10| image:: images/toolOptions/toLineHorzVert.png
+            :height: 32
+            :width: 338
+.. |tlopt11| image:: images/toolOptions/toLineOrtho.png
+            :height: 32
+            :width: 231
+.. |tlopt12| image:: images/toolOptions/toLineParlOff.png
+            :height: 32
+            :width: 231
+.. |tlopt13| image:: images/toolOptions/toLineParlPt.png
+            :height: 32
+            :width: 143
+.. |tlopt14| image:: images/toolOptions/toLine.png
+            :height: 32
+            :width: 179
+.. |tlopt15| image:: images/toolOptions/toLinePoly.png
+            :height: 32
+            :width: 159
+.. |tlopt16| image:: images/toolOptions/toModBevel.png
+            :height: 32
+            :width: 404
+.. |tlopt17| image:: images/toolOptions/toModFillet.png
+            :height: 32
+            :width: 210
+.. |tlopt18| image:: images/toolOptions/toModLen.png
+            :height: 32
+            :width: 168
+.. |tlopt19| image:: images/toolOptions/toPoly1.png
+            :height: 32
+            :width: 348
+.. |tlopt20| image:: images/toolOptions/toPoly2.png
+            :height: 32
+            :width: 192
+.. |tlopt21| image:: images/toolOptions/toPrtPreview.png
+            :height: 32
+            :width: 289
+.. |tlopt22| image:: images/toolOptions/toSpline1.png
+            :height: 32
+            :width: 261
+.. |tlopt23| image:: images/toolOptions/toSpline2.png
+            :height: 32
+            :width: 231
+
 
