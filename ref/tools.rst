@@ -216,8 +216,8 @@ Polyline
         | Delete one or more nodes between selected nodes of an existing polyline."
     "Trim segments", |icon48|, "", "
         | Extend two seperate non-parallel segments of an existing polyline to intersect at a new node."
-    "Create Equidistant Polylines", |icon49|, "", "D
-        | raw a given number of polylines parallel to a selected existing polyline with a given distance between lines.
+    "Create Equidistant Polylines", |icon49|, "", "
+        | Draw a given number of polylines parallel to a selected existing polyline with a given distance between lines.
         | 
         | **Tool Options:** 
         | |tlopt20|"
