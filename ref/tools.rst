@@ -146,7 +146,7 @@ Dimension
     :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
-    "Aligned", |icon61|, "da", "Apply dimension lines and text aligned to an existing entity by selecting start and end points on a line segment and placement point for the text."
+    "Aligned", |icon61|, "da", "Apply dimension lines and text aligned to an existing entity by selecting start and end points on a line segment and placement point for the text.  **Tool Options:** |tlopt06|"
     "Linear", |icon62|, "dr", "Apply dimension lines and text at an defined angle to an entity by selecting start and end points on a line segment and placement point for the text.  **Tool Options:** |tlopt05|"
     "Horizontal", |icon63|, "dh", "Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.  **Tool Options:** |tlopt06|"
     "Vertical", |icon64|, "dv", "Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.  **Tool Options:** |tlopt06|"
@@ -587,5 +587,8 @@ Others
 .. |tlopt23| image:: /images/toolOptions/toSpline2.png
             :height: 32
             :width: 231
+.. |tlopt24| image:: /images/toolOptions/toText.png
+            :height: 32
+            :width: 307
 
 
