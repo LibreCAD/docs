@@ -73,8 +73,8 @@ Curve
     "Center, Point, Angles", |icon30|, "", "Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc.  Tool Options: |tlopt03|"
     "3 Points", |icon32|, "a, ar, arc", "Draw a curve (arc) by assigning three points on the circumference of the arc defining the start position, a point on the circumference and end position of the arc."
     "Arc Tangential", |icon34|, "", "Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg).  Tool Options: |tlopt02| or |tlopt04|"
-    "Spline", |icon41|, "spl, spline", "Draw an open or closed spline (curve) by assigning control points and a given degree of freedom (1 - 3).  |tlopt22|"
-    "Spline through points", |icon42|, "stp, spline2", "Draw an open or closed spline (curve) by defining points on the spline. |tlopt23|"
+    "Spline", |icon41|, "spl, spline", "Draw an open or closed spline (curve) by assigning control points and a given degree of freedom (1 - 3).  Tool Options: |tlopt22|"
+    "Spline through points", |icon42|, "stp, spline2", "Draw an open or closed spline (curve) by defining points on the spline.  Tool Options: |tlopt23|"
     "Ellipse Arc (Axis)", |icon36|, "", "N/A"
     "Freehand Line", |icon05|, "fhl, free", "Draw a non-geometric line."
 ..
@@ -112,7 +112,7 @@ Polyline
     "Delete node", |icon46|, "", "Delete selected node of an existing polyline."
     "Delete between two nodes", |icon47|, "", "Delete one or more nodes between selected nodes of an existing polyline."
     "Trim segments", |icon48|, "", "Extend two seperate non-parallel segments of an existing polyline to intersect at a new node."
-    "Create Equidistant Polylines", |icon49|, "", "Draw a given number of polylines parallel to a selected existing polyline with a given distance between lines. |tlopt20|"
+    "Create Equidistant Polylines", |icon49|, "", "Draw a given number of polylines parallel to a selected existing polyline with a given distance between lines.  Tool Options: |tlopt20|"
     "Create Polyline from Existing Segments", |icon50|, "", "Create polyline from two or more existing seperate line or arc segments forming a continuous line."
 
 
