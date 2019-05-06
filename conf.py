@@ -126,7 +126,7 @@ def setup(app):
 ### Add ":class: fix-table" to CSV table ref
 
 ### Fix for table text indent
-##html_style = 'css/mystyle.css'
+html_style = 'indent_overrides..css'
 
 
 # -- Options for HTMLHelp output ------------------------------------------
