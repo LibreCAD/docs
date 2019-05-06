@@ -124,21 +124,28 @@ Curve
     :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
-    "Center, Point, Angles", |icon30|, "", "Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc.
+    "Center, Point, Angles", |icon30|, "", "
+        | Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc.
         | **Tool Options:** 
         | |tlopt03|"
-    "3 Points", |icon32|, "a, ar, arc", "Draw a curve (arc) by assigning three points on the circumference of the arc defining the start position, a point on the circumference and end position of the arc."
-    "Arc Tangential", |icon34|, "", "Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg).
+    "3 Points", |icon32|, "a, ar, arc", "
+        | Draw a curve (arc) by assigning three points on the circumference of the arc defining the start position, a point on the circumference and end position of the arc."
+    "Arc Tangential", |icon34|, "", "
+        | Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg).
         | **Tool Options:** 
         | |tlopt02| or |tlopt04|"
-    "Spline", |icon41|, "spl, spline", "Draw an open or closed spline (curve) by assigning control points and a given degree of freedom (1 - 3).
+    "Spline", |icon41|, "spl, spline", "
+        | Draw an open or closed spline (curve) by assigning control points and a given degree of freedom (1 - 3).
         | **Tool Options:** 
         | |tlopt22|"
-    "Spline through points", |icon42|, "stp, spline2", "Draw an open or closed spline (curve) by defining points on the spline.
+    "Spline through points", |icon42|, "stp, spline2", "
+        | Draw an open or closed spline (curve) by defining points on the spline.
         | **Tool Options:** 
         | |tlopt23|"
-    "Ellipse Arc (Axis)", |icon36|, "", "N/A"
-    "Freehand Line", |icon05|, "fhl, free", "Draw a non-geometric line."
+    "Ellipse Arc (Axis)", |icon36|, "", "
+        | N/A"
+    "Freehand Line", |icon05|, "fhl, free", "
+        | Draw a non-geometric line."
 ..
     "Concentric", |icon33|, "", "Draw a curve (arc) concentric, with the same centre point, to an existing curve (arc) with a defined offset.(*)"
 
@@ -152,11 +159,16 @@ Ellipse
     :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
-    "Ellipse (Axis)", |icon35|, "", "Draw an ellipse by assigning a centre point, a point on the circumference of major access and a point on the circumference the minor access."
-    "Ellipse Foci Point", |icon37|, "", "Draw an ellipse by assigning two foci points and a point  on the circumference."
-    "Ellipse 4 Point", |icon38|, "", "Draw an ellipse assigning four points on the circumference."
-    "Ellipse Center and 3 Points", |icon39| , "", "Draw an ellipse by assigning a centre point three points on the circumference."
-    "Ellipse Inscribed", |icon40| , "ei, ie", "Draw a Ellipse constrained by four existing non-parallel line segments."
+    "Ellipse (Axis)", |icon35|, "", "
+        | Draw an ellipse by assigning a centre point, a point on the circumference of major access and a point on the circumference the minor access."
+    "Ellipse Foci Point", |icon37|, "", "
+        | Draw an ellipse by assigning two foci points and a point  on the circumference."
+    "Ellipse 4 Point", |icon38|, "", "
+        | Draw an ellipse assigning four points on the circumference."
+    "Ellipse Center and 3 Points", |icon39| , "", "
+        | Draw an ellipse by assigning a centre point three points on the circumference."
+    "Ellipse Inscribed", |icon40| , "ei, ie", "
+        | Draw a Ellipse constrained by four existing non-parallel line segments."
 
 
 Polyline
@@ -168,16 +180,26 @@ Polyline
     :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
-    "Polyline", |icon43|, "pl, polyline", "Draw an open or closed continuous line consisting of one or more straight line or arc segments defined by endpoints and / or radius or angle for arcs. |tlopt19|"
-    "Add node", |icon44|, "", "Add node to existing polyline. (Use ""Snap on Entity"" to place new node on segment.)"
-    "Append node", |icon45|, "", "Add one or more segments to an existing polyline by selecting polyine and adding new node endpoint."
-    "Delete node", |icon46|, "", "Delete selected node of an existing polyline."
-    "Delete between two nodes", |icon47|, "", "Delete one or more nodes between selected nodes of an existing polyline."
-    "Trim segments", |icon48|, "", "Extend two seperate non-parallel segments of an existing polyline to intersect at a new node."
-    "Create Equidistant Polylines", |icon49|, "", "Draw a given number of polylines parallel to a selected existing polyline with a given distance between lines.
+    "Polyline", |icon43|, "pl, polyline", "
+        | Draw an open or closed continuous line consisting of one or more straight line or arc segments defined by endpoints and / or radius or angle for arcs.
+        | **Tool Options:** 
+        | |tlopt19|"
+    "Add node", |icon44|, "", "
+        | Add node to existing polyline. (Use ""Snap on Entity"" to place new node on segment.)"
+    "Append node", |icon45|, "", "
+        | Add one or more segments to an existing polyline by selecting polyine and adding new node endpoint."
+    "Delete node", |icon46|, "", "
+        | Delete selected node of an existing polyline."
+    "Delete between two nodes", |icon47|, "", "
+        | Delete one or more nodes between selected nodes of an existing polyline."
+    "Trim segments", |icon48|, "", "
+        | Extend two seperate non-parallel segments of an existing polyline to intersect at a new node."
+    "Create Equidistant Polylines", |icon49|, "", "D
+        | raw a given number of polylines parallel to a selected existing polyline with a given distance between lines.
         | **Tool Options:** 
         | |tlopt20|"
-    "Create Polyline from Existing Segments", |icon50|, "", "Create polyline from two or more existing seperate line or arc segments forming a continuous line."
+    "Create Polyline from Existing Segments", |icon50|, "", "
+        | Create polyline from two or more existing seperate line or arc segments forming a continuous line."
 
 
 Select
@@ -189,16 +211,25 @@ Select
     :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
-    "Deselect all", |icon59|, "tn", "Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc] action)."
-    "Select All", |icon58|, "sa", "Select all entities on visible layers ([Ctrl]-[A])."
-    "Select Entity", |icon51|, "", "Select, or deselect, one or more entities (default cursor action)."
+    "Deselect all", |icon59|, "tn", "
+        | Deselect all entities on visible layers ([Ctrl]-[K] or default [Esc] action)."
+    "Select All", |icon58|, "sa", "
+        | Select all entities on visible layers ([Ctrl]-[A])."
+    "Select Entity", |icon51|, "", "
+        | Select, or deselect, one or more entities (default cursor action)."
     "(De-)Select Contour", |icon54|, "", "Select or deselected entities connected by shared points."
-    "Select Window", |icon52|, "", "Select one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L) (default cursor ""drag"" action)."
-    "Deselect Window", |icon53|, "", "Deselect one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L)."
-    "Select Intersected Entities", |icon55|, "", "Select on or more entities crossed by selection line."
-    "Deselect Intersected Entities", |icon56|, "", "Deselect on or more entities crossed by selection line."
-    "(De-)Select Layer", |icon57|, "", "Select or deselected all entities on the layer of the selected entity."
-    "Invert Selection", |icon60|, "", "Select all un-selected entities will deselecting all selected entities."
+    "Select Window", |icon52|, "", "
+        | Select one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L) (default cursor ""drag"" action)."
+    "Deselect Window", |icon53|, "", "
+        | Deselect one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L)."
+    "Select Intersected Entities", |icon55|, "", "
+        | Select on or more entities crossed by selection line."
+    "Deselect Intersected Entities", |icon56|, "", "
+        | Deselect on or more entities crossed by selection line."
+    "(De-)Select Layer", |icon57|, "", "
+        | Select or deselected all entities on the layer of the selected entity."
+    "Invert Selection", |icon60|, "", "
+        | Select all un-selected entities will deselecting all selected entities."
 
 
 Dimension
@@ -210,28 +241,36 @@ Dimension
     :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
-    "Aligned", |icon61|, "da", "Apply dimension lines and text aligned to an existing entity by selecting start and end points on a line segment and placement point for the text.
+    "Aligned", |icon61|, "da", "
+        | Apply dimension lines and text aligned to an existing entity by selecting start and end points on a line segment and placement point for the text.
         | **Tool Options:** 
         | |tlopt06|"
-    "Linear", |icon62|, "dr", "Apply dimension lines and text at an defined angle to an entity by selecting start and end points on a line segment and placement point for the text.
+    "Linear", |icon62|, "dr", "
+        | Apply dimension lines and text at an defined angle to an entity by selecting start and end points on a line segment and placement point for the text.
         | **Tool Options:** 
         | |tlopt05|"
-    "Horizontal", |icon63|, "dh", "Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.
+    "Horizontal", |icon63|, "dh", "
+        | Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.
         | **Tool Options:** 
         | |tlopt06|"
-    "Vertical", |icon64|, "dv", "Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.
+    "Vertical", |icon64|, "dv", "
+        | Apply dimension lines and text aligned to an entity by selecting start and end points on a line segment and placement point for the text.
         | **Tool Options:** 
         | |tlopt06|"
-    "Radial", |icon65|, "dimradial", "Apply dimension lines and text a circle's or arc's radius by selecting entity and placement point for the text.
+    "Radial", |icon65|, "dimradial", "
+        | Apply dimension lines and text a circle's or arc's radius by selecting entity and placement point for the text.
         | **Tool Options:** 
         | |tlopt06|"
-    "Diametric", |icon66|, "dimdiameter", "Apply dimension lines and text a circle's or arc's diameter by selecting entity and placement point for the text.
+    "Diametric", |icon66|, "dimdiameter", "
+        | Apply dimension lines and text a circle's or arc's diameter by selecting entity and placement point for the text.
         | **Tool Options:** 
         | |tlopt06|"
-    "Angular", |icon67|, "dimangular", "Apply angular dimension by selecting two existing non-parallel line segments and placement point for the text.
+    "Angular", |icon67|, "dimangular", "
+        | Apply angular dimension by selecting two existing non-parallel line segments and placement point for the text.
         | **Tool Options:** 
         | |tlopt06|"
-    "Leader", |icon68|, "ld", "Draw a text leader by by selecting start (arrow location), intermediate and end points."
+    "Leader", |icon68|, "ld", "
+        | Draw a text leader by by selecting start (arrow location), intermediate and end points."
 
 
 Modify
@@ -243,27 +282,52 @@ Modify
     :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
-    "Order", "", "", "Order entities within a layer.  Selected entities can be moved to top, bottom, *raised* (moved forward) over another entity or *lowered* (moved backwards) behind an entity."
-    "Move / Copy", |icon69|, "mv", "Move a selected entity by defining a reference point and a relative target point. Optionally keep the original entity (Copy), create mulitple copies and / or alter attributes and layer."
-    "Rotate", |icon70|, "ro", "Rotate a selected entity around a rotation point, moving the entity from a reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
-    "Scale", |icon71|, "sz", "Increase or decrease the size of a selected entity from a reference point by a defined factor for both axis.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer."
-    "Mirror", |icon72|, "mi", "Create a mirror image of a selected entity around an axis defined by two points.  Optionally keep the original entity and / or alter attributes and layer."
-    "Move and Rotate", |icon73|, "", "Move a selected entity by defining a reference point and a relative target point and rotataing the entity at a given angle.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer."
-    "Rotate Two", |icon74|, "", "Rotate a selected entity around an absolute rotation point, while rotating the entity around a relative reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
-    "Revert direction", |icon75|, "revert", "Swap start and end points of one or more selected entities."
-    "Trim",  |icon76| , "tm, trim", "Cut the length of a line entity to an intersecting line entity."
-    "Trim Two",  |icon77| , "t2, tm2", "Cut the lengthes of two intersecting lines to the point of intersection."
-    "Lengthen",  |icon78| , "le", "Extend the length of a line entity to an intersecting line entity. |tlopt18|"
-    "Offset",  |icon79| , "o, pa, offset, parallel", "Copy a selected entity to a defined distance in the specified direction."
-    "Bevel", |icon80|, "ch, bevel", "Create a sloping edge between two intersecting line segments with defined by a setback on each segment. |tlopt16|"
-    "Fillet", |icon81|, "fi, fillet", "Create a rounded edge between two intersecting line segments with defined radius. |tlopt17|"
-    "Divide",  |icon82| , "di, div, cut", "Divide, or break, al line at the selected ''cutting'' point."
-    "Stretch", |icon83|, "ss", "Move a selected portion of a drawing by defining a reference point and a relative target point."
-    "Properties", |icon84|, "mp, prop", "Modify the attributes of ''one or more'' selected entities, including Layer, Pen color, Pen width, and Pen Line type."
-    "Attributes", |icon85|, "ma, attr", "Modify the common attributes of ''one or more'' selected entities, including Layer, Pen color, Pen width, and Pen Line type."
-    "Explode Text into Letters", |icon86|, "", "Separate a string of text into individual character entities."
-    "Explode", |icon87|, "xp", "Separate one or more selected blocks or compound entities into individual entities."
-    "Delete selected", |icon88| , "[Del], er", "Delete one or more selected entities."
+    "Order", "", "", "
+        | Order entities within a layer.  Selected entities can be moved to top, bottom, *raised* (moved forward) over another entity or *lowered* (moved backwards) behind an entity."
+    "Move / Copy", |icon69|, "mv", "
+        | Move a selected entity by defining a reference point and a relative target point. Optionally keep the original entity (Copy), create mulitple copies and / or alter attributes and layer."
+    "Rotate", |icon70|, "ro", "
+        | Rotate a selected entity around a rotation point, moving the entity from a reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
+    "Scale", |icon71|, "sz", "
+        | Increase or decrease the size of a selected entity from a reference point by a defined factor for both axis.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer."
+    "Mirror", |icon72|, "mi", "
+        | reate a mirror image of a selected entity around an axis defined by two points.  Optionally keep the original entity and / or alter attributes and layer."
+    "Move and Rotate", |icon73|, "", "
+        | Move a selected entity by defining a reference point and a relative target point and rotataing the entity at a given angle.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer."
+    "Rotate Two", |icon74|, "", "
+        | Rotate a selected entity around an absolute rotation point, while rotating the entity around a relative reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
+    "Revert direction", |icon75|, "revert", "
+        | Swap start and end points of one or more selected entities."
+    "Trim",  |icon76| , "tm, trim", "
+        | Cut the length of a line entity to an intersecting line entity."
+    "Trim Two",  |icon77| , "t2, tm2", "
+        | Cut the lengthes of two intersecting lines to the point of intersection."
+    "Lengthen",  |icon78| , "le", "
+        | Extend the length of a line entity to an intersecting line entity.
+        | **Tool Options:** 
+        | |tlopt18|"
+    "Offset",  |icon79| , "o, pa, offset, parallel", "
+        | Copy a selected entity to a defined distance in the specified direction."
+    "Bevel", |icon80|, "ch, bevel", "
+        | Create a sloping edge between two intersecting line segments with defined by a setback on each segment. |tlopt16|"
+    "Fillet", |icon81|, "fi, fillet", "
+        | Create a rounded edge between two intersecting line segments with defined radius.
+        | **Tool Options:** 
+        | |tlopt17|"
+    "Divide",  |icon82| , "di, div, cut", "
+        | Divide, or break, al line at the selected ''cutting'' point."
+    "Stretch", |icon83|, "ss", "
+        | Move a selected portion of a drawing by defining a reference point and a relative target point."
+    "Properties", |icon84|, "mp, prop", "
+        | Modify the attributes of ''one or more'' selected entities, including Layer, Pen color, Pen width, and Pen Line type."
+    "Attributes", |icon85|, "ma, attr", "
+        | Modify the common attributes of ''one or more'' selected entities, including Layer, Pen color, Pen width, and Pen Line type."
+    "Explode Text into Letters", |icon86|, "", "
+        | Separate a string of text into individual character entities."
+    "Explode", |icon87|, "xp", "
+        | Separate one or more selected blocks or compound entities into individual entities."
+    "Delete selected", |icon88| , "[Del], er", "
+        | Delete one or more selected entities."
 .. 
     "Delete", |iconNN|, "er", "Mark one or more entities to be deleted, press [Enter] to complete operation."
     "Delete Freehand", |iconNN|, "", "Delete segment within a polyline define by two points. (Use ''Snap on Entity'' to place points.)"
@@ -278,11 +342,16 @@ Info
     :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
-    "Distance Point to Point", |icon90|, "dpp, dist", "Provides distance, cartesian and polar coordinates between two specified points."
-    "Distance Entity to Point", |icon91|, "", "Provides shortest distance selected entity and specified point."
-    "Angle between two lines", |icon92|, "ang, angle", "Provides angle between two selected line segments, measured counter-clockwise."
-    "Total length of selected entities", |icon93|, "", "Provides total length of one or more selected entities (length of line segment, circle circimference, etc)."
-    "Polygonal Area", |icon94|, "ar, area", "Provides area and circumference of polygon defined by three or more specified points."
+    "Distance Point to Point", |icon90|, "dpp, dist", "
+        | Provides distance, cartesian and polar coordinates between two specified points."
+    "Distance Entity to Point", |icon91|, "", "
+        | Provides shortest distance selected entity and specified point."
+    "Angle between two lines", |icon92|, "ang, angle", "
+        | Provides angle between two selected line segments, measured counter-clockwise."
+    "Total length of selected entities", |icon93|, "", "
+        | Provides total length of one or more selected entities (length of line segment, circle circimference, etc)."
+    "Polygonal Area", |icon94|, "ar, area", "
+        | Provides area and circumference of polygon defined by three or more specified points."
 ..
     "Point inside contour", |icon89|, "", "Provides indication of point being inside or outside of the selected ''closed'' contour (polygon, circle, ployline, etc)."
 
@@ -296,14 +365,18 @@ Others
     :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
-    ":ref:`MText <text>`", |icon96|, "mtxt, mtext", "Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set.
+    ":ref:`MText <text>`", |icon96|, "mtxt, mtext", "
+        | Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set.
         | **Tool Options:** 
         | |tlopt24|"
-    ":ref:`Text <text>`", |icon96|, "txt, text", "Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set.
+    ":ref:`Text <text>`", |icon96|, "txt, text", "
+        | Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set.
         | **Tool Options:** 
         | |tlopt24|"
-    "Hatch", |icon97|, "ha, hatch", "Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern or a solid fill.  Optionally define scale and angle."
-    "Points", |icon99|, "po, point", "Draw a point at the assigned coordinates."
+    "Hatch", |icon97|, "ha, hatch", "
+        | Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern or a solid fill.  Optionally define scale and angle."
+    "Points", |icon99|, "po, point", "
+        | Draw a point at the assigned coordinates."
 
 ..
     "Insert Image", |icon98|, "", "Insert an image, bitmapped or vector, at a specified point.  Optionally define angle, scale factor and DPI."
