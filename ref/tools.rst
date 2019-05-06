@@ -24,41 +24,56 @@ Line
         | Draw a line between two assigned points.
         | **Tool Options:** 
         | |tlopt14|"
-    "Angle", |icon02|, "", "Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle.
+    "Angle", |icon02|, "", "
+        | Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle.
         | **Tool Options:** 
         | |tlopt07|"
-    "Horizontal", |icon03|, "", "Draw a horizontal line from an assigned point defining the start, middle or end of the line and with an assigned length.
+    "Horizontal", |icon03|, "", "
+        | Draw a horizontal line from an assigned point defining the start, middle or end of the line and with an assigned length.
         | **Tool Options:** 
         | |tlopt10|"
-    "Vertical", |icon04|, "ver, vertical", "Draw a vertical line from an assigned point defining the start, middle or end of the line and with an assigned length.
+    "Vertical", |icon04|, "ver, vertical", "
+        | Draw a vertical line from an assigned point defining the start, middle or end of the line and with an assigned length.
         | **Tool Options:** 
         | |tlopt10|"
-    "Rectangle", |icon06|, "rec, rect, rectangle", "Draw a rectagle by assigning the points of two diagonally opposite corners. "
-    "Parallel through point", |icon07|, "pp, ptp", "Draw a given number of lines parallel to a selected existing line through an assigned point.
+    "Rectangle", |icon06|, "rec, rect, rectangle", "
+        | Draw a rectagle by assigning the points of two diagonally opposite corners. "
+    "Parallel through point", |icon07|, "pp, ptp", "
+        | Draw a given number of lines parallel to a selected existing line through an assigned point.
         | **Tool Options:** 
         | |tlopt13|"
-    "Parallel", |icon08|, "o, pa, offset, parallel", "Draw a given number of lines parallel to a selected existing line with a given distance between lines.
+    "Parallel", |icon08|, "o, pa, offset, parallel", "
+        | Draw a given number of lines parallel to a selected existing line with a given distance between lines.
         | **Tool Options:** 
         | |tlopt12|"
-    "Bisector", |icon09|, "bi, bisect", "Draw a given number of lines bisecting two existing non-parallel lines (e.g. at an angle to each other with or without a common point). 
+    "Bisector", |icon09|, "bi, bisect", "
+        | Draw a given number of lines bisecting two existing non-parallel lines (e.g. at an angle to each other with or without a common point). 
         | **Tool Options:** 
         | |tlopt09|"
-    "Tangent (P,C)", |icon10|, "tanpc, tangentpc", "Draw a line from an assigned point tangent to an existing circle."
-    "Tangent (C,C)", |icon11|, "", "Draw a line tangent to two existing circles."
-    "Tangent Orthogonal", |icon12|, "", "Draw a line tangent to an existing circle and perpendicular to an existing line."
-    "Orthogonal", |icon13|, "ortho, perp", "Draw a line of a given length perpendicular to an existing line placing the centre at an assigned point.
+    "Tangent (P,C)", |icon10|, "tanpc, tangentpc", "
+        | Draw a line from an assigned point tangent to an existing circle."
+    "Tangent (C,C)", |icon11|, "", "
+        | Draw a line tangent to two existing circles."
+    "Tangent Orthogonal", |icon12|, "", "
+        | Draw a line tangent to an existing circle and perpendicular to an existing line."
+    "Orthogonal", |icon13|, "ortho, perp", "
+        | Draw a line of a given length perpendicular to an existing line placing the centre at an assigned point.
         | **Tool Options:** 
         | |tlopt11|"
-    "Relative Angle", |icon14|, "", "Draw a line with a given length and at a given angle relative to an existing line placing the centre of the line at an assigned point.
+    "Relative Angle", |icon14|, "", "
+        | Draw a line with a given length and at a given angle relative to an existing line placing the centre of the line at an assigned point.
         | **Tool Options:** 
         | |tlopt08|"
-    "Polygon (Cen,Cor)", |icon15|, "pl, polyline", "Draw a polygon with a given number of sides assigning the centre point and point of one vertex.
+    "Polygon (Cen,Cor)", |icon15|, "pl, polyline", "
+        | Draw a polygon with a given number of sides assigning the centre point and point of one vertex.
         | **Tool Options:** 
         | |tlopt15|"
-    "Polygon (Cen,Tan)", |icon16|, "", "Draw a polygon with a given number of sides assigning the centre point and point of the centre of one side.
+    "Polygon (Cen,Tan)", |icon16|, "", "
+        | Draw a polygon with a given number of sides assigning the centre point and point of the centre of one side.
         | **Tool Options:** 
         | |tlopt15|"
-    "Polygon (Cor,Cor)", |icon17|, "poly2, polygon2v", "Draw a polygon with a given number of sides assigning the two points of one side.
+    "Polygon (Cor,Cor)", |icon17|, "poly2, polygon2v", "
+        | Draw a polygon with a given number of sides assigning the two points of one side.
         | **Tool Options:** 
         | |tlopt15|"
 
@@ -72,21 +87,29 @@ Circle
     :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
-    "Centre, Point", |icon18|, "ci, circle", "Draw a circle with a given radius by assigning a centre point and a point on the circumference."
-    "2 Points", |icon20|, "c2, circle2", "Draw a circle with a given diameter by assigning two opposite points on the circumference."
-    "2 Points, Radius", |icon21|, "", "Draw a circle with two points on the circumference and with an assigned radius.
+    "Centre, Point", |icon18|, "ci, circle", "
+        | Draw a circle with a given radius by assigning a centre point and a point on the circumference."
+    "2 Points", |icon20|, "c2, circle2", "
+        | Draw a circle with a given diameter by assigning two opposite points on the circumference."
+    "2 Points, Radius", |icon21|, "", "
+        | Draw a circle with two points on the circumference and with an assigned radius.
         | **Tool Options:** 
         | |tlopt01|"
-    "3 Points", |icon22|, "c3, circle3", "Draw a circle assigning three points on the circumference."
+    "3 Points", |icon22|, "c3, circle3", "
+        | Draw a circle assigning three points on the circumference."
     "Centre, Radius", |icon19|, "", "Draw a circle with a given radius centred at an assigned point on the circumference.
         | **Tool Options:** 
         | |tlopt01|"
-    "Tangential, 2 Circles, 1 Point", |icon26|, "", "Draw a circle tangential to two existing circles and assigning a centre point to establish the radius."
-    "Tangential, 2 Points", |icon27|, "", "Draw a circle tangential to an existing circle and define the diameter and placement by assigning two points on the circumference."
-    "Tangential, 2 Circles, Radius", |icon28|, "", "Draw a circle tangential to two existing circles with a given radius.
+    "Tangential, 2 Circles, 1 Point", |icon26|, "", "
+        | Draw a circle tangential to two existing circles and assigning a centre point to establish the radius."
+    "Tangential, 2 Points", |icon27|, "", "
+        | Draw a circle tangential to an existing circle and define the diameter and placement by assigning two points on the circumference."
+    "Tangential, 2 Circles, Radius", |icon28|, "", "
+        | Draw a circle tangential to two existing circles with a given radius.
         | **Tool Options:** 
         | |tlopt01|"
-    "Tangential, 3 Circles", |icon29|, "ct3, tan3", "Draw a circle tangential to three existing circles and/or lines."
+    "Tangential, 3 Circles", |icon29|, "ct3, tan3", "
+        | Draw a circle tangential to three existing circles and/or lines."
 ..
     "Concentric", |icon23|, "", "Draw a circle concentric, with the same centre point, to an existing circle."
     "Circle Inscribed", |icon24|, "", "Draw a circle inside an existing polygon of four sides or more."
