@@ -519,73 +519,73 @@ Others
 
 ..  Tool Options mapping:
 
-.. |tlopt01| image:: images/toolOptions/toCircleRad.png
+.. |tlopt01| image:: /images/toolOptions/toCircleRad.png
             :height: 32
             :width: 178
-.. |tlopt02| image:: images/toolOptions/toCurveAng.png
+.. |tlopt02| image:: /images/toolOptions/toCurveAng.png
             :height: 32
             :width: 283
-.. |tlopt03| image:: images/toolOptions/toCurve.png
+.. |tlopt03| image:: /images/toolOptions/toCurve.png
             :height: 32
             :width: 139
-.. |tlopt04| image:: images/toolOptions/toCurveRad.png
+.. |tlopt04| image:: /images/toolOptions/toCurveRad.png
             :height: 32
             :width: 283
-.. |tlopt05| image:: images/toolOptions/toDimnLin.png
+.. |tlopt05| image:: /images/toolOptions/toDimnLin.png
             :height: 32
             :width: 681
-.. |tlopt06| image:: images/toolOptions/toDimn.png
+.. |tlopt06| image:: /images/toolOptions/toDimn.png
             :height: 32
             :width: 424
-.. |tlopt07| image:: images/toolOptions/toLineAngle.png
+.. |tlopt07| image:: /images/toolOptions/toLineAngle.png
             :height: 32
             :width: 338
-.. |tlopt08| image:: images/toolOptions/toLineAngRel.png
+.. |tlopt08| image:: /images/toolOptions/toLineAngRel.png
             :height: 32
             :width: 288
-.. |tlopt09| image:: images/toolOptions/toLineBisct.png
+.. |tlopt09| image:: /images/toolOptions/toLineBisct.png
             :height: 32
             :width: 317
-.. |tlopt10| image:: images/toolOptions/toLineHorzVert.png
+.. |tlopt10| image:: /images/toolOptions/toLineHorzVert.png
             :height: 32
             :width: 338
-.. |tlopt11| image:: images/toolOptions/toLineOrtho.png
+.. |tlopt11| image:: /images/toolOptions/toLineOrtho.png
             :height: 32
             :width: 231
-.. |tlopt12| image:: images/toolOptions/toLineParlOff.png
+.. |tlopt12| image:: /images/toolOptions/toLineParlOff.png
             :height: 32
             :width: 231
-.. |tlopt13| image:: images/toolOptions/toLineParlPt.png
+.. |tlopt13| image:: /images/toolOptions/toLineParlPt.png
             :height: 32
             :width: 143
-.. |tlopt14| image:: images/toolOptions/toLine.png
+.. |tlopt14| image:: /images/toolOptions/toLine.png
             :height: 32
             :width: 179
-.. |tlopt15| image:: images/toolOptions/toLinePoly.png
+.. |tlopt15| image:: /images/toolOptions/toLinePoly.png
             :height: 32
             :width: 159
-.. |tlopt16| image:: images/toolOptions/toModBevel.png
+.. |tlopt16| image:: /images/toolOptions/toModBevel.png
             :height: 32
             :width: 404
-.. |tlopt17| image:: images/toolOptions/toModFillet.png
+.. |tlopt17| image:: /images/toolOptions/toModFillet.png
             :height: 32
             :width: 210
-.. |tlopt18| image:: images/toolOptions/toModLen.png
+.. |tlopt18| image:: /images/toolOptions/toModLen.png
             :height: 32
             :width: 168
-.. |tlopt19| image:: images/toolOptions/toPoly1.png
+.. |tlopt19| image:: /images/toolOptions/toPoly1.png
             :height: 32
             :width: 348
-.. |tlopt20| image:: images/toolOptions/toPoly2.png
+.. |tlopt20| image:: /images/toolOptions/toPoly2.png
             :height: 32
             :width: 192
-.. |tlopt21| image:: images/toolOptions/toPrtPreview.png
+.. |tlopt21| image:: /images/toolOptions/toPrtPreview.png
             :height: 32
             :width: 289
-.. |tlopt22| image:: images/toolOptions/toSpline1.png
+.. |tlopt22| image:: /images/toolOptions/toSpline1.png
             :height: 32
             :width: 261
-.. |tlopt23| image:: images/toolOptions/toSpline2.png
+.. |tlopt23| image:: /images/toolOptions/toSpline2.png
             :height: 32
             :width: 231
 
