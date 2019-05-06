@@ -8,7 +8,7 @@ Drawing Tools
 
 The drawing tools are used to create and modify entities such as lines, circles, etc. in a drawing.  Commands can be selected from the menu, toolbars or entered via the :ref:`command line <commandline>`.
 
-Several drawing tools require additional parameters.  The tools that have additional parameters will provide prompts on the **Tool Options** toolbar.  *This toolbar should always be enabled.*  If the tool options do not appear, from the menu, select **Widgets -> Toolbar ->** and enable **Tool Options**.  The tools that have options are shown in the table below.
+Several drawing tools require additional parameters and will provide prompts on the **Tool Options** toolbar.  *This toolbar should always be enabled.*  If the tool options do not appear, from the menu select **Widgets -> Toolbar ->** and enable **Tool Options**.  The tools that have options are shown in the table below.
 
 
 Line
@@ -20,7 +20,7 @@ Line
     :class: fix-table
 
     "Tool", "Icon", "Command", "Description"
-    "2 points", |icon01|, "l, li, line", "| Draw a line between two assigned points.  | **Tool Options:** |tlopt14|"
+    "2 points", |icon01|, "l, li, line", "Draw a line between two assigned points.  **Tool Options:** |tlopt14|"
     "Angle", |icon02|, "", "Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle.  **Tool Options:** |tlopt07|"
     "Horizontal", |icon03|, "", "Draw a horizontal line from an assigned point defining the start, middle or end of the line and with an assigned length.  **Tool Options:** |tlopt10|"
     "Vertical", |icon04|, "ver, vertical", "Draw a vertical line from an assigned point defining the start, middle or end of the line and with an assigned length.  **Tool Options:** |tlopt10|"
