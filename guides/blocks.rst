@@ -18,7 +18,7 @@ Inserted blocks are all linked. Changes to one inserted block will be reflected 
 
 
 Creating a Block
-----------------
+~~~~~~~~~~~~~~~~
 
 The are a couple of different ways to create a block.
 
@@ -27,7 +27,7 @@ The are a couple of different ways to create a block.
 
 
 From a Drawing
-~~~~~~~~~~~~~~
+``````````````
 
     - Draw the object to be converted to a block
     - Select all the entities that make up the object
@@ -37,7 +37,7 @@ From a Drawing
 
 
 From an Empty Block
-~~~~~~~~~~~~~~~~~~~
+```````````````````
 
     - Click on the "Add an empty block" icon |icon12|.  Provide a unique name for the new block and click "OK".  The new block will appear in the **Block List** dock.
     - Select the new block in the **Block List** and click the **Edit the active block in a separate window** icon |icon16|.
@@ -46,7 +46,7 @@ From an Empty Block
 
 
 Using Blocks
-------------
+~~~~~~~~~~~~
 
     - Select a block in the **Block List**.
     - Click on the "Insert the active block" |icon18|.
@@ -61,7 +61,7 @@ Blocks can also be cut, copied, and pasted using the normal edit commands.  For 
 
 
 Saving Blocks
--------------
+~~~~~~~~~~~~~
 
 Blocks can be saved to a seperate file and used in other drawings or added to a user library.  To save the block:
 
@@ -71,7 +71,7 @@ Blocks can be saved to a seperate file and used in other drawings or added to a 
 
 
 Block Libraries
-===============
+---------------
 
 You can also use the library browser. Set the path in Application Preferences, and have blocks in sub-directories of that path.
 Part Libraries and Symbols for 2D CAD systems
@@ -82,7 +82,7 @@ Once installed, these Part Libraries can be viewed with the Library Browser so t
 
 
 Installation
-------------
+~~~~~~~~~~~~
 
 The easiest method of installation, which does not require Windows Administrator or Linux Root privileges, is to create a new folder named "library" on your Desktop or in your Documents. Download any of these Part Libraries and unzip (Extract) them into the new "library" folder, then go up a level, right-click on the folder's icon and select "Properties". The path to this folder (Location) should be something similar to "C:\Documents and Settings\Guest\Desktop" or "/home/guest/Documents", therefore the full path to the unzipped Part Libraries within it would be "C:\Documents and Settings\Guest\Desktop\library\" or "/home/guest/Documents/library/" (remember to include the final "\" or "/" after "library"). Make a note of this full path, Restore LibreCAD, select: "Edit > Application Preferences > Paths", type the full path into the box marked "Part Libraries", select "OK", then re-start LibreCAD.
 
