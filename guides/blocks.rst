@@ -18,7 +18,7 @@ Inserted blocks are all linked. Changes to one inserted block will be reflected 
 
 
 Creating a Block
-~~~~~~~~~~~~~~~~
+----------------
 
 The are a couple of different ways to create a block.
 
@@ -27,7 +27,7 @@ The are a couple of different ways to create a block.
 
 
 From a Drawing
-``````````````
+~~~~~~~~~~~~~~
 
     - Draw the object to be converted to a block
     - Select all the entities that make up the object
@@ -37,7 +37,7 @@ From a Drawing
 
 
 From an Empty Block
-```````````````````
+~~~~~~~~~~~~~~~~~~~
 
     - Click on the "Add an empty block" icon |icon12|.  Provide a unique name for the new block and click "OK".  The new block will appear in the **Block List** dock.
     - Select the new block in the **Block List** and click the **Edit the active block in a separate window** icon |icon16|.
@@ -46,7 +46,7 @@ From an Empty Block
 
 
 Using Blocks
-~~~~~~~~~~~~
+------------
 
     - Select a block in the **Block List**.
     - Click on the "Insert the active block" |icon18|.
@@ -61,7 +61,7 @@ Blocks can also be cut, copied, and pasted using the normal edit commands.  For 
 
 
 Saving Blocks
-~~~~~~~~~~~~~
+-------------
 
 Blocks can be saved to a seperate file and used in other drawings or added to a user library.  To save the block:
 
