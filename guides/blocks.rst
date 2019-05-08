@@ -57,7 +57,7 @@ Blocks can also be cut, copied, and pasted using the normal edit commands.  For 
     - Select a block in the current drawing.
     - Press [Ctrl]+[c] (or **Edit -> Copy** from the menu)
     - Within the current drawing or switch to a new drawing and press [Ctrl]+[v] (or **Edit -> Paste**)
-    - Specified point to place the block.
+    - Specified a point in the drawing to place the block.
 
 
 Saving Blocks
@@ -73,13 +73,10 @@ Blocks can be saved to a seperate file and used in other drawings or added to a 
 Block Libraries
 ---------------
 
-As noted previously, LibreCAD includes several categories of blocks in its library, e.g. algorithm, elektro, plan/air_water, plan/architect, etc.
+As noted previously, LibreCAD includes several categories of blocks in its library, e.g. algorithm, elektro, plan/air_water, plan/architect, etc.  To use blocks from the :ref:`Block Library <widget-libBrowser>`, selct the block from the tree view and click **Insert**. Specified a point in the drawing to place the block.
 
 .. note::
-    Insert a block form the library into the drawing once.  If additional 
-
-
-
+    Insert a block from the library into the drawing only once.  If the same block is needed more than once, add subsequent inserts from the **Block List**.  Inserting a block from the **Library Browser** multiple times will create multiple independent copies of the block in the **Block List**.
 
 
 Adding Blocks to the Library
