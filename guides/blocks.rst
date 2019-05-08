@@ -73,21 +73,25 @@ Blocks can be saved to a seperate file and used in other drawings or added to a 
 Block Libraries
 ---------------
 
+As noted previously, LibreCAD includes several categories of blocks in its library, e.g. algorithm, elektro, plan/air_water, plan/architect, etc.
+
+.. note::
+    Insert a block form the library into the drawing once.  If additional 
+
+
+
+
+
+Adding Blocks to the Library
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 You can also use the library browser. Set the path in Application Preferences, and have blocks in sub-directories of that path.
-Part Libraries and Symbols for 2D CAD systems
+
+The easiest method of installation, which does not require Windows Administrator or Linux Root privileges, is to create a new folder named "library" on your Desktop or in your Documents. Download any of these Part Libraries and unzip (Extract) them into the new "library" folder, then go up a level, right-click on the folder's icon and select "Properties". The path to this folder (Location) should be something similar to "C:\Documents and Settings\Guest\Desktop" or "/home/guest/Documents", therefore the full path to the unzipped Part Libraries within it would be "C:\Documents and Settings\Guest\Desktop\library\" or "/home/guest/Documents/library/" (remember to include the final "\" or "/" after "library"). Make a note of this full path, Restore LibreCAD, select: "Edit > Application Preferences > Paths", type the full path into the box marked "Part Libraries", select "OK", then re-start LibreCAD.
 
 In the "Paths" tab there are other file paths to be specified. The symbol or library folder location is called "Parts Library". This folder specification should contain the full path and name of the folder mentioned earlier in regard to parts libraries. The library folder can contain additional folders to categorize the items. For instance: floor plan, electric, electronic, landscape, flow diagram, plumbing, hardware, etc. The subfolders are required. LibreCAD does not provide a mechanism to use the library directory directly. A user could use it for template storage if they desired and then the templates could be used by the "New From Template" option or for the default template setting. The LibreCAD "Library Browser" will only present the created folders (and subfolders) with the drawings within the browser.
 
 Once installed, these Part Libraries can be viewed with the Library Browser so that parts can be inserted into your drawings (start LibreCAD, then select: "View > Toolbars > Library Browser"). On insertion, each part is converted into a block which can be re-inserted many times.
-
-
-Installation
-~~~~~~~~~~~~
-
-The easiest method of installation, which does not require Windows Administrator or Linux Root privileges, is to create a new folder named "library" on your Desktop or in your Documents. Download any of these Part Libraries and unzip (Extract) them into the new "library" folder, then go up a level, right-click on the folder's icon and select "Properties". The path to this folder (Location) should be something similar to "C:\Documents and Settings\Guest\Desktop" or "/home/guest/Documents", therefore the full path to the unzipped Part Libraries within it would be "C:\Documents and Settings\Guest\Desktop\library\" or "/home/guest/Documents/library/" (remember to include the final "\" or "/" after "library"). Make a note of this full path, Restore LibreCAD, select: "Edit > Application Preferences > Paths", type the full path into the box marked "Part Libraries", select "OK", then re-start LibreCAD.
-
-These Part Libraries are universal, that is, they have been tested on 32-bit and 64-bit systems, Windows and Linux: 
-
 
 ..  Icon mapping:
 
