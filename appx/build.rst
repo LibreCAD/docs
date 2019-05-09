@@ -129,7 +129,7 @@ Click the **Project** icon on the left side of the Qt Creator window.  Disable t
 With the configuration complete, run the build process in Qt Creator by clicking the **Build** icon on the lower left side.  If the build is successful an executable is created: .\\LibreCAD-master\\windows\\librecad.exe.
 
 
-.. note::
+.. important::
 
 	Several *Dynamic-link libraries (DLL)* are required to run LibreCAD.  The DLLs are found in the C:\\Qt\\Qt5.12.3\\5.12.3\\mingw73_32\\bin folder and need to be copied to the same directory as the executable (or included in the path). The DLLs are:
 
