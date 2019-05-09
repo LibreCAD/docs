@@ -6,11 +6,11 @@
 Blocks
 ======
 
-*Blocks* are a small reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *inserts*, are composed of geometric shapes (lines, arcs, etc.) and can also include text and dimensions.
+*Blocks* are a small reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *inserts*, are composed of geometric shapes (lines, arcs, etc.) and can also include text and dimensions.  LibreCAD includes several libraries of blocks that can be inserted into a drawing or users can create their own.
 
 .. Insert image example:
 
-The are two "dock widgets" for managing blocks.  The :ref:`Block List Dock <widget-blockList>` for managing blocks *within the current drawing* and the :ref:`Library Browser Dock <widget-libBrowser>` that shows the *collection of blocks available* and allows users to insert blocks into the current drawing.  See :ref:`Dock Widgets <widgets>` in the **Reference** section for more details.  LibreCAD includes several libraries of blocks that can be inserted into a drawing.
+The are two "dock widgets" for managing blocks.  The :ref:`Block List <widget-blockList>` dock for managing blocks *within the current drawing* and the :ref:`Library Browser <widget-libBrowser>` dock that shows the *collection of blocks available* and allows users to insert blocks into the current drawing.  See :ref:`Dock Widgets <widgets>` in the **Reference** section for more details.
 
 When inserted into a drawing, a block is treated as a single entity.  Blocks can be inserted from the **Block List** into the same drawing more than once with different locations, scale and rotation angle.  Inserted blocks are all linked. Changes to one inserted block will be reflected in all instances of the block.
 
@@ -24,8 +24,8 @@ The are a couple of different ways to create a block.
     Create blocks on their own layer.  The layer will be added to the drawing when a block is inserted.
 
 
-From a Drawing
-~~~~~~~~~~~~~~
+From an Existing Drawing
+~~~~~~~~~~~~~~~~~~~~~~~~
 
     - Draw the object to be converted to a block
     - Select all the entities that make up the object
