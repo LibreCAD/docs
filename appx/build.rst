@@ -6,7 +6,12 @@
 Building from Source
 ====================
 
-Building from the source code allows users to run the cutting-edge version of LibreCAD that includes bug fixes and possibly new features.  LibreCAD can be compiled to run on multiple operating systems; Linux, Microsoft Windows, and macOS.  The process differs depending on the OS.  The instructions are as complete as possible to provide the necessary steps to allow any user to build LibreCAD from the source code, however some understanding of the operating system and installation of the required tools and dependencies is required.
+Building from the source code allows users to run the cutting-edge version of LibreCAD that includes bug fixes and possibly new features.  LibreCAD can be compiled to run on multiple operating systems; Linux, Microsoft Windows, and macOS.  The process differs depending on the OS.
+
+ .. important::
+    The instructions are as complete as possible to provide the necessary steps to allow any user to build LibreCAD from the source code, however some understanding of the operating system and installation of the required tools and dependencies is required.  The instructions are intended for users that want to try the cutting-edge version of LibreCAD and are **not** intended for to replace the instructions for building packages or contributing to the LibreCAD project.
+
+    If you are a developer and want to contribute to LibreCAD see the :ref:`Contributing <contributing>` section in the **Appendices**.
 
 The tools and dependencies required to build LibreCAD are:
 
@@ -15,8 +20,6 @@ The tools and dependencies required to build LibreCAD are:
     - Boost C++ source library
     - muParser math expression parser library
     - git distributed version control system (optional)
-
-If you are a developer and want to contribute to LibreCAD see the :ref:`Contributing <contributing>` section in the **Appendices**.
 
 
 Download the Source Code
@@ -98,7 +101,6 @@ Boost
 Download the current release of the boost library "zip" file from Boost downloads <https://www.boost.org/users/download/>.  Click on the link to download the current Windows library, e.g. `boost_1_70_0.zip` and save the file. 
 
 
-
 muParser
 ````````
 
@@ -112,7 +114,7 @@ Create a development folder for the source code and related libraries, e.g `C:\\
 
 Extract the boost library the files to the development folder.  Note the folder name the boost library was extracted to, e.g. `C:\\dev\\boost_1_70_0\\`.
 
-.. note::
+.. attention::
 
 	*After* extracting the LibreCAD source code, open the `custom.pro` file in `.\\LibreCAD-master\\librecad\\src` under the development folder and add the following two lines (**note the forward slashes in the path.**):
 
@@ -121,44 +123,8 @@ Extract the boost library the files to the development folder.  Note the folder 
 	   BOOST_DIR = C:/dev/boost_1_70_0/
 	   BOOST_LIBDIR = C:/dev/boost_1_70_0/
 
-.. note::
 
-	In order to successfully build LibreCAD on Windows, a few source code edits are required.  Refer to `LibreCAD source code compile problem #930 <https://github.com/LibreCAD/LibreCAD/issues/930>`_ for more details.  Perform the following edits in the two files as noted:
-
-	In the file .\\LibreCAD-master\\librecad\\src\\lib\\math\\rs_math.cpp:
-
-	::
-
-	   Line:323
-		  p.DefineConst(L"pi",M_PI); // <-- p.DefineConst("pi",M_PI);
-	   Line:324
-		  p.SetExpr(expr_copy.toStdWString()); // <--p.SetExpr(expr_copy.toStdString())
-	   Line:330
-		  std::cout << QString::fromStdWString(e.GetMsg()).toStdString() << std::endl; 
-             // <-- std::cout << e.GetMsg() << std::endl;
-
-	In the file .\\LibreCAD-master\\plugins\\plotequation\\plot.cpp:
-
-	::
-
-	   Line:60~64
-		  p.DefineConst(L"pi",M_PI); //<-- p.DefineConst("pi",M_PI);
-		  p.DefineConst(L"e",M_E); //<-- p.DefineConst("e",M_E);
-		  p.DefineVar(L"x", &equationVariable); //<-- p.DefineVar("x", &equationVariable);
-		  p.DefineVar(L"t", &equationVariable); //<-- p.DefineVar("t", &equationVariable);
-		  p.SetExpr(startValue.toStdWString()); //<-- p.SetExpr(startValue.toStdString());
-	   Line:67
-		  p.SetExpr(endValue.toStdWString()); //<-- p.SetExpr(endValue.toStdString());
-	   Line:70
-		  p.SetExpr(equation1.toStdWString()); //<-- p.SetExpr(equation1.toStdString());
-	   Line:80
-		  p.SetExpr(equation2.toStdWString()); //<-- p.SetExpr(equation2.toStdString());
-	   Line:90
-		  std::cout << QString::fromStdWString(e.GetMsg()).toStdString() << std::endl;
-             //<-- std::cout <<e.GetMsg() << std::endl;
-
-
-After completing the required edits, launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the `librecad.pro` project file from the LibreCAD source folder (**File -> Open File or Project** and go to `C:\\dev\\LibreCAD-master\\`).  The project should open to **Configure Project**.  Ensure a "kit", e.g. `Desktop Qt 5.12.3 MinGW 32-bit` is checked and click the **Configure Project** button.  It will take a few moments for the project to open and parse.
+After completing the required edit, launch Qt Creator (**Start -> All Programs -> Qt -> Qt Creator**) and open the `librecad.pro` project file from the LibreCAD source folder (**File -> Open File or Project** and go to `C:\\dev\\LibreCAD-master\\`).  The project should open to **Configure Project**.  Ensure a "kit", e.g. `Desktop Qt 5.12.3 MinGW 32-bit` is checked and click the **Configure Project** button.  It will take a few moments for the project to open and parse.
 
 Click the **Project** icon on the left side of the Qt Creator window.  Disable the "Shadow build" option in the *Debug*, *Profile* and *Release*  build configurations.  Each build configuration can be selected from the drop down below **Build Settings**. Save the project (**File -> Save All**).
 
