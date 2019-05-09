@@ -61,7 +61,7 @@ Blocks can also be cut, copied, and pasted using the normal edit commands.  For 
 Saving Blocks
 -------------
 
-Blocks can be saved to a seperate file and used in other drawings or added to a user library.  To save the block:
+Blocks can be saved to a separate file and used in other drawings or added to a user library.  To save the block:
 
     - Select a block in the **Block List**.
     - Click the **Save the active block to a file** icon |icon17|.
@@ -77,18 +77,17 @@ LibreCAD includes several categories of blocks in its library; algorithm, elektr
     Insert a block from the library into the drawing only once.  If the same block is needed more than once, add  subsequent blocks from the **Block List**.  Inserting a block from the **Library Browser** multiple times will create multiple *independent* copies of the block in the **Block List**.
 
 
-Adding Blocks to the Library
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Adding to the Library
+~~~~~~~~~~~~~~~~~~~~~
 
-LibreCAD can be configured to show user-defined blocks in the library browser in addition to the blocks included with LibreCAD.  Set the "Part Libraries" path in :ref:`Application Preferences <app-prefs>` on the **Paths** tab to point to a directory or folder with the user-defined blocks.  SubFor example, if a user's block library is in the home directory (~/PartsLib/building or C:\\Users\\*UserName*\\Documents\\PartsLib\\building\\
+Additional part libraries can be added for blocks created by users, libraries downloaded from the LibreCAD wiki (https://wiki.librecad.org/index.php?title=Part_Libraries) or from other internet resources.  LibreCAD can be configured to show user-defined blocks in the library browser *in addition* to the blocks included with LibreCAD.  
 
-Blocks within the path and sub-directories of that path.
+The easiest method of installation, which does not require or Linux Root privileges or Windows Administrator access, is to create a new directory such as "PartsLibrary" in the home directory or "Documents" folder.  The path to this directory would be something similar to "/home/*UserName*/PartsLibrary/" or "C:\\Users\\*UserName*\\Documents\\PartsLibrary\\".  Blocks and libraries can then be placed under the parent "PartsLibrary" directory.  The sub-directories will create categories that will appear in the tree view of the **Library Browser**.  
 
-The easiest method of installation, which does not require Windows Administrator or Linux Root privileges, is to create a new folder named "library" on your Desktop or in your Documents. Download any of these Part Libraries and unzip (Extract) them into the new "library" folder, then go up a level, right-click on the folder's icon and select "Properties". The path to this folder (Location) should be something similar to "C:\Documents and Settings\Guest\Desktop" or "/home/guest/Documents", therefore the full path to the unzipped Part Libraries within it would be "C:\Documents and Settings\Guest\Desktop\library\" or "/home/guest/Documents/library/" (remember to include the final "\" or "/" after "library"). Make a note of this full path, Restore LibreCAD, select: "Edit > Application Preferences > Paths", type the full path into the box marked "Part Libraries", select "OK", then re-start LibreCAD.
+.. important::
+    Do not place blocks directly in the parent parts library directory.  Blocks must be  placed in sub-directories to the parent libraries directory to appear in the **Library Browser**.
 
-In the "Paths" tab there are other file paths to be specified. The symbol or library folder location is called "Parts Library". This folder specification should contain the full path and name of the folder mentioned earlier in regard to parts libraries. The library folder can contain additional folders to categorize the items. For instance: floor plan, electric, electronic, landscape, flow diagram, plumbing, hardware, etc. The subfolders are required. LibreCAD does not provide a mechanism to use the library directory directly. A user could use it for template storage if they desired and then the templates could be used by the "New From Template" option or for the default template setting. The LibreCAD "Library Browser" will only present the created folders (and subfolders) with the drawings within the browser.
-
-Once installed, the blocks in the part libraries can be viewed in the **Library Browser** and inserted into a drawings.
+To include the new blocks in the **Library Browser** tree view, edit LibreCAD's :ref:`Application Preferences <app_prefs>` to add the path to the directory or folder with the user-defined blocks.  From the menus, select **Options -> Application Preferences** and select the **Paths** tab.  Type the full path to the part library, e.g. /home/*UserName*/PartsLibrary/ or C:\\Users\\*UserName*\\Documents\\PartsLibrary\\, into the text-box labelled "Part Libraries" and click "OK".  Click the **Rebuild** button on the **Library Browser** dock and the new libraries will appear in the tree view.
 
 
 ..  Icon mapping:
