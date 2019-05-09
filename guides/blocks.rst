@@ -10,7 +10,7 @@ Blocks
 
 .. Insert image example:
 
-The are two "dock widgets" for managing blocks.  The :ref:`Block List Dock <widget-blockList> for managing blocks *within the current drawing*.  The :ref:`Library Browser Dock <widget-libBrowser>` that shows the *collection of blocks available* and allows users to insert blocks into the current drawing.  See :ref:`Dock Widgets <widgets>` in the **Reference** section for more details.  LibreCAD includes several libraries of blocks that can be inserted into a drawing.
+The are two "dock widgets" for managing blocks.  The :ref:`Block List Dock <widget-blockList>` for managing blocks *within the current drawing* and the :ref:`Library Browser Dock <widget-libBrowser>` that shows the *collection of blocks available* and allows users to insert blocks into the current drawing.  See :ref:`Dock Widgets <widgets>` in the **Reference** section for more details.  LibreCAD includes several libraries of blocks that can be inserted into a drawing.
 
 When inserted into a drawing, a block is treated as a single entity.  Blocks can be inserted from the **Block List** into the same drawing more than once with different locations, scale and rotation angle.  Inserted blocks are all linked. Changes to one inserted block will be reflected in all instances of the block.
 
