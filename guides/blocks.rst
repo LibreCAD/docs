@@ -6,15 +6,13 @@
 Blocks
 ======
 
-*Blocks* are a small reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *inserts*, are composed of geometric shapes (lines, arcs, etc.) and can also include text and dimensions.  When inserted into a drawing, a block is treated as a single entity with common attributes (layer and pen).  Blocks can be inserted into the same drawing more than once with different locations, scale and rotation angle.
+*Blocks* are a small reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *inserts*, are composed of geometric shapes (lines, arcs, etc.) and can also include text and dimensions.
 
 .. Insert image example:
 
-The are two "dock widgets" for managing blocks.  The :ref:`Block List Dock <widget-blockList> for managing blocks *within the current drawing*.  The :ref:`Library Browser Dock <widget-libBrowser>` that shows the *collection of blocks available* and allows users to insert blocks into the current drawing.  See :ref:`Dock Widgets <widgets>` in the **Reference** section for more details.  LibreCAD includes several libraries of blocks that can be inserted into a drawing.  
+The are two "dock widgets" for managing blocks.  The :ref:`Block List Dock <widget-blockList> for managing blocks *within the current drawing*.  The :ref:`Library Browser Dock <widget-libBrowser>` that shows the *collection of blocks available* and allows users to insert blocks into the current drawing.  See :ref:`Dock Widgets <widgets>` in the **Reference** section for more details.  LibreCAD includes several libraries of blocks that can be inserted into a drawing.
 
-Blocks can also be created and used within the current drawing or saved to a *user library*.  
-
-Inserted blocks are all linked. Changes to one inserted block will be reflected in all instances of the block.
+When inserted into a drawing, a block is treated as a single entity.  Blocks can be inserted from the **Block List** into the same drawing more than once with different locations, scale and rotation angle.  Inserted blocks are all linked. Changes to one inserted block will be reflected in all instances of the block.
 
 
 Creating a Block
@@ -23,7 +21,7 @@ Creating a Block
 The are a couple of different ways to create a block.
 
 .. tip::
-    Create blocks on their own layer.  The layer will bew added to the drawing when a block is inserted.
+    Create blocks on their own layer.  The layer will be added to the drawing when a block is inserted.
 
 
 From a Drawing
@@ -73,22 +71,25 @@ Blocks can be saved to a seperate file and used in other drawings or added to a 
 Block Libraries
 ---------------
 
-As noted previously, LibreCAD includes several categories of blocks in its library, e.g. algorithm, elektro, plan/air_water, plan/architect, etc.  To use blocks from the :ref:`Block Library <widget-libBrowser>`, selct the block from the tree view and click **Insert**. Specified a point in the drawing to place the block.
+LibreCAD includes several categories of blocks in its library; algorithm, elektro, plan/air_water, plan/architect, etc.  To use blocks from the :ref:`Block Library <widget-libBrowser>`, select the block from the tree view, click **Insert** and specify a point in the drawing to place the block.
 
 .. note::
-    Insert a block from the library into the drawing only once.  If the same block is needed more than once, add subsequent inserts from the **Block List**.  Inserting a block from the **Library Browser** multiple times will create multiple independent copies of the block in the **Block List**.
+    Insert a block from the library into the drawing only once.  If the same block is needed more than once, add  subsequent blocks from the **Block List**.  Inserting a block from the **Library Browser** multiple times will create multiple *independent* copies of the block in the **Block List**.
 
 
 Adding Blocks to the Library
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can also use the library browser. Set the path in Application Preferences, and have blocks in sub-directories of that path.
+LibreCAD can be configured to show user-defined blocks in the library browser in addition to the blocks included with LibreCAD.  Set the "Part Libraries" path in :ref:`Application Preferences <app-prefs>` on the **Paths** tab to point to a directory or folder with the user-defined blocks.  SubFor example, if a user's block library is in the home directory (~/PartsLib/building or C:\\Users\\*UserName*\\Documents\\PartsLib\\building\\
+
+Blocks within the path and sub-directories of that path.
 
 The easiest method of installation, which does not require Windows Administrator or Linux Root privileges, is to create a new folder named "library" on your Desktop or in your Documents. Download any of these Part Libraries and unzip (Extract) them into the new "library" folder, then go up a level, right-click on the folder's icon and select "Properties". The path to this folder (Location) should be something similar to "C:\Documents and Settings\Guest\Desktop" or "/home/guest/Documents", therefore the full path to the unzipped Part Libraries within it would be "C:\Documents and Settings\Guest\Desktop\library\" or "/home/guest/Documents/library/" (remember to include the final "\" or "/" after "library"). Make a note of this full path, Restore LibreCAD, select: "Edit > Application Preferences > Paths", type the full path into the box marked "Part Libraries", select "OK", then re-start LibreCAD.
 
 In the "Paths" tab there are other file paths to be specified. The symbol or library folder location is called "Parts Library". This folder specification should contain the full path and name of the folder mentioned earlier in regard to parts libraries. The library folder can contain additional folders to categorize the items. For instance: floor plan, electric, electronic, landscape, flow diagram, plumbing, hardware, etc. The subfolders are required. LibreCAD does not provide a mechanism to use the library directory directly. A user could use it for template storage if they desired and then the templates could be used by the "New From Template" option or for the default template setting. The LibreCAD "Library Browser" will only present the created folders (and subfolders) with the drawings within the browser.
 
-Once installed, these Part Libraries can be viewed with the Library Browser so that parts can be inserted into your drawings (start LibreCAD, then select: "View > Toolbars > Library Browser"). On insertion, each part is converted into a block which can be re-inserted many times.
+Once installed, the blocks in the part libraries can be viewed in the **Library Browser** and inserted into a drawings.
+
 
 ..  Icon mapping:
 
