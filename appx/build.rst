@@ -114,8 +114,6 @@ Create a development folder for the source code and related libraries, e.g `C:\\
 
 Extract the boost library the files to the development folder.  Note the folder name the boost library was extracted to, e.g. `C:\\dev\\boost_1_70_0\\`.
 
-.. attention::
-
 	*After* extracting the LibreCAD source code, open the `custom.pro` file in `.\\LibreCAD-master\\librecad\\src` under the development folder and add the following two lines (**note the forward slashes in the path.**):
 
 	::
