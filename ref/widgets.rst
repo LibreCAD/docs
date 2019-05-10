@@ -36,6 +36,8 @@ Dock widgets are available for these :ref:`Drawing Tools <tools>`:
     - Polyline.
 
 
+.. _widget-dockAreas:
+
 Dock Widget Areas
 -----------------
 
@@ -56,7 +58,8 @@ Dock Widget Areas
 
 Docked widgets can be dragged to different areas by "grabbing" (click and drag) the title bar of the widget.  Widgets will snap into place when released in a dock area.  Widgets in the left, right, top or bottom areas can either be placed on top of existing widgets, creating tabs for each category of widget placed in that area, or place above or below the existing widget dividing the area in sections.  Dock widgets can also be resized by clicking on and dragging the edge of the widget's box to a minimum of five icons width and no shorter than the default height.
 
-.. _block-list:
+
+.. _widget-blockList:
 
 Block List Dock
 ---------------
@@ -92,6 +95,8 @@ The lower portion of the dock shows a list of blocks in the current drawing.  Th
 .. See icon mapping a eof
 
 
+.. _widget-cmdLine:
+
 Command Line Dock
 -----------------
 
@@ -112,6 +117,8 @@ In addition to command input, the command line provides access to a built in cal
 
 Further details on using the :ref:`command line <commandline>` are in the **User Guides**.
 
+
+.. _widget-layerList:
 
 Layer List Dock
 ---------------
@@ -214,6 +221,8 @@ More details on creating and using :ref:`layers <layers>` can be found in the **
 |
 
 
+.. _widget-libBrowser:
+
 Library Browser Dock
 --------------------
 
@@ -235,6 +244,8 @@ LibreCAD includes several libraries and additional libraries can be specified by
 |
 |
 
+
+.. _widget-penWiz:
 
 Pen Wizard Dock
 ---------------
