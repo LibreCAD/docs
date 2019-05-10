@@ -3,15 +3,19 @@
 
 .. _cmdline:
 
-Using the Command Line
-======================
+The Command Line
+================
 
 LibreCAD's command line offers users an alternative to using the mouse to draw.  Using the keyboard to select tools and enter coordinates can provide greater speed and accuracy when creating drawings.  The command line provides other usefull feature not available using the mouse:
 
-   - a Calculator
-   - 
+   - Multi-command input
+   - A calculator
+
+https://wiki.librecad.org/index.php?title=User_Interface
+
 
 Using the Command line
+----------------------
 
 You can press the Space-bar or [Ctrl + M] to activate the command line.
 
@@ -32,15 +36,16 @@ l
 
 To use the two letter format li you do not have to activate the commandline. Just type li and LibreCAD displays the prompt. If you wish to continue drawing with just mouse input, you click on drawing to enter the point, or click on the tools palette to select the snap mode or whatever.
 
-Clear commands from commands window
+
+Clear the Command Line
+~~~~~~~~~~~~~~~~~~~~~~
 
 To clear the list of commands from the command window - type "clear" in the command line.
 
-Drawing
--------
 
+Drawing Entities
+~~~~~~~~~~~~~~~~
 
-Drawing entities
 Drawing a point
 
 point
@@ -72,6 +77,11 @@ Produce points as described in the point section. After producing a line segment
 If there are at least two segments drawn, you can close the line (draw a segment to the point where you started) by entering close into the command line. To finish drawing lines you press [Esc]
 
 All line segments created can be selected individually. With Polyline all seg
+
+
+Multi-Command Input
+-------------------
+
 
 Calculator
 ----------
