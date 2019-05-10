@@ -15,8 +15,8 @@ The user guides provide the steps necessary to perform a various tasks with Libr
 
     Drawing Setup <drawingsetup>
     Drawing and Modifying <draw>
-    Blocks <blocks>
     Dimensioning and Text <annotate>
-    The Command Line <commandline>
+    Blocks <blocks>
+    The Command Line <cmdline>
     Printing <printing>
 
