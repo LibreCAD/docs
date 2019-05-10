@@ -125,6 +125,8 @@ def setup(app):
    app.add_stylesheet('theme_overrides.css')
 ### Add ":class: fix-table" to CSV table ref
 
+### Fix for table text indent - BREAKS FORMAT
+##html_style = 'indent_overrides..css'
 
 
 # -- Options for HTMLHelp output ------------------------------------------

@@ -1,0 +1,10 @@
+
+/* Adjusts indent in tables when forcing line break */
+/* https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell */
+
+@import "theme.css";
+
+table.docutils div.line-block {
+    margin-left: 0;
+}
+
