@@ -6,22 +6,46 @@
 The Command Line
 ================
 
-LibreCAD's command line offers users an alternative to using the mouse to draw.  Using the keyboard to select tools and enter coordinates can provide greater speed and accuracy when creating drawings.  The command line provides other usefull feature not available using the mouse:
+LibreCAD's command line offers users an alternative to using the mouse to draw.  Using the keyboard to select tools and enter coordinates can provide greater speed and accuracy when creating drawings.  The command line provides other useful features not available using the mouse:
 
    - Multi-command input
    - A calculator
 
-https://wiki.librecad.org/index.php?title=User_Interface
+The command line is displayed in its own :ref:`dock widget <widget-cmdLine>` and consists of three components
+
+   1. Command prompt
+   2. Command output window
+   3. Button that displays a drop-down menu that includes:
+
+      - Toggle *Keycode Mode* off or on
+      - Load a Command file
+      - Paste commands
 
 
-Using the Command line
+Command line Functions
 ----------------------
 
-You can press the Space-bar or [Ctrl + M] to activate the command line.
+When the command line is active the "Command:" (above of where input appears) turns blue.  The :ref:`command line <widget-cmdLine>` is activated by in a variety of ways:
 
-When the command line is active the "Command:" (left of where input appears) turns blue. So now when you press a key you are entering commands.
+   1. Start typing any command, e.g. li, rect, etc. and then [Enter] or the [Space-bar].
+   2. Press the [Space-bar], type any command and then [Enter] or the [Space-bar].
+   3. Press [Ctrl + M], any command and then [Enter] or the [Space-bar].
+   4. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.
 
-You press the Escape key to leave the command line and another Escape to cancel what you have written on the command line.
+
+   A new button with a drop-down menu has been added to the command-line
+
+   Command-line output is automatically copied when highlighted.
+   Keycode mode automatically accepts 2 character commands. In other words, you don't need to press enter.
+
+
+      -Toggling keycode mode no longer requires restarting LibreCAD. If a 2 character command is not recognized, you can continue with a longer command.
+
+    Spacebar now accepts commands like Enter.
+
+
+Pressing [Esc] cancels what the cuurent command line prompt.  Pressing it a second time cancels the current command.
+
 
 It is possible to enter a partial command, like cir and press Tab to have the command completed to circle. If you type too short a segment of a command, such as c and press Tab, the command output will show "ch, circle, cut" because the command segment you typed in isn't unique.
 
@@ -81,10 +105,26 @@ All line segments created can be selected individually. With Polyline all seg
 
 Multi-Command Input
 -------------------
+    Multi-command input can be separated by semicolons: ci;0,0;10
+    Command files (command input separated by newlines) can be loaded from the new command-line button
+    Multi-command input can be assigned to a variable; values can also contain variables (they are read recursively)
+    Relative coordinates such as @10,20 can also be written as 10..20 (allowing for keypad input)
+
+::
+
+a=ci;0,0;10
+b=ci;10,0;10
+c=\a;\b;kill
+\c
+
+    A variable file can be set to load at startup via Application Preferences -> Paths -> Variable File
+
 
 
 Calculator
 ----------
+
+The 'cal' command now toggles a calculator mode.
 
 "cal", use command line as a math expression calculator. Some examples:
 
