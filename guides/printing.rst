@@ -90,6 +90,39 @@ Specifically, the process is as follows.  Starting with a full-scale (1:1) drawi
 8. Click the ‘Print’  |icon01| button.
 
 
+Tiled Printing
+-----------------
+
+To print a drawing to the specific scale that greater than an available paper, use so-called "tiled printing".  In this case the drawing is outputted in parts that can be glued together to get the original drawing.  With a drawing opened in LibreCAD:
+
+1. Select File -> Print Preview or click the ‘Print Preview’ |icon02| button.
+2. Set or confirm the paper layout for the current drawing:
+
+    a. Select Options -> Current Drawing Preferences.
+    b. Set format as desired, e.g. A4, Landscape, and click ‘OK’
+    c. The page is represented by the shadowed rectangle in the print preview.
+
+3. Select the desired scale from the drop-down box on the toolbar.
+4. Click the ‘Calculate number of pages...’ |icon07| button from the toolbar.  In print preview will be shown the multiple pages placed side by side and the drawing in the center of it.  Note: Number of pages may be changed through Options -> Current Drawing Preferences on Paper tab.
+5. The drawing can be re-positioned on the pages by moving the pages behind the drawing.  Click and hold anywhere in the drawing space and drag the paper to the desired position.
+6. Select File -> Print or click the ‘Print’ |icon01| button.
+7. Select the printer on the Print dialogue and confirm the properties by clicking the ‘Properties’ button.  Adjust the properties if necessary and then click ‘OK’.
+8. Click the ‘Print’ button.
+
+In case when a page has the margins (margins > 0) the print preview takes on a special look.  Namely the margins between a neighbor pages aren't shown.  It makes possible to represent the printable areas of all pages as one whole area and to show an undivided drawing.  Or in other words, the print preview looks like the drawing was outputted and glued together without excess margins.
+
+Next example shows the print preview (left) and the output of tiled printing with the margins (right):
+
+.. figure:: /images/tiledPrint.png
+    :width: 650px
+    :height: 300px
+    :align: center
+    :scale: 100
+    :alt: Tiled print preview and output
+
+The sequence of the output is from bottom left page to top right page.  In the picture above the order of the output is marked by numbers.
+
+
 ..  Icon mapping:
 
 .. |icon01| image:: /images/icons/print.svg
@@ -108,6 +141,9 @@ Specifically, the process is as follows.  Starting with a full-scale (1:1) drawi
             :height: 18
             :width: 18
 .. |icon06| image:: /images/icons/printscale.png
+            :height: 18
+            :width: 18
+.. |icon07| image:: /images/icons/multi_pages.svg
             :height: 18
             :width: 18
 
