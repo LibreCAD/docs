@@ -6,51 +6,59 @@
 The Command Line
 ================
 
-LibreCAD's command line offers users an alternative to using the mouse to draw.  Using the keyboard to select tools and enter coordinates can provide greater speed and accuracy when creating drawings.  The command line provides other useful features not available using the mouse:
+LibreCAD's command line offers users an alternative to using the mouse to select tools and draw.  Using the keyboard to select tools and enter coordinates can provide greater speed and accuracy when creating drawings.  The command line provides other useful features not available using the mouse:
 
    - Multi-command input
    - A calculator
 
 The command line is displayed in its own :ref:`dock widget <widget-cmdLine>` and consists of three components
 
-   1. Command prompt
-   2. Command output window
+   1. Command prompt.
+   2. Command output window.
    3. Button that displays a drop-down menu that includes:
 
-      - Toggle *Keycode Mode* off or on
-      - Load a Command file
-      - Paste commands
+      - Toggle *Keycode Mode* off or on.
+      - Load a Command file.
+      - Paste commands.
+      - Toggle whitespace use within the command text.
 
 
-Command line Functions
+Command Line Functions
 ----------------------
 
-When the command line is active the text, initially "Command:", above of where input appears turns blue.  The command line is activated by in a variety of ways:
+The commands available to use are shown in the :ref:`Drawing Tools <tools>` reference.  Additional prompts will indicate the next input required such as coordinates or an action.  The command line is activated by in a variety of ways:
 
-   1. Start typing any command, e.g. li, rect, etc. and then [Enter] or the [Space-bar].
-   2. Press the [Space-bar], type any command and then [Enter] or the [Space-bar].
-   3. Press [Ctrl + M], any command and then [Enter] or the [Space-bar].
-   4. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.
+   1. Start typing any command, e.g. li, rect, etc. and then [Enter] or the [Space bar].
+   2. Press the [Space bar], type any command and then [Enter] or the [Space bar].
+   3. Press [Ctrl + M], any command and then [Enter] or the [Space bar].
+   4. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.  Pressing [Enter] is not required.
 
-When using the command line, type a command as shown in the :ref:`Drawing Tools <tools>` reference.  Additional prompts will indicate the next input required such as coordinates or an action.  :ref:`Coordinates<coordinates>` can be typed in a variety of formats:
+Initially the command line prompt above the input text box reads "Command:".  When it is actived the text turns blue.  Additional prompts will indicate the next input required such as coordinates or the next action action available.  For example, when using the command line to draw a line:
 
-   - 
+::
+   Command:
+   li
+   Specify first point
+   0,0
+   Specify next point
+   @10,0
+   Specify next point or [undo]
+   @0,10
+   ...
+
+.. tip::
+   In addition to the comma separated :ref:`coordinates<coordinates>`, *relative* coordinates can also be entered using the numeric keypad using the format *X..Y*, i.e. typing *10..20* is equivalent to *@10,20*.  Using the two decimals is faster than typing the comma.
+
+   The *Keycode Mode* permits the use of **two letter** commands and eliminates the need to press [Enter] after typing the command. 
+
+   Pressing the [Space bar] is an alternative to pressing [Enter] after each command.
 
 
-   Command-line output is automatically copied when highlighted.
-   Keycode mode automatically accepts 2 character commands. In other words, you don't need to press enter.
-
-    Relative coordinates such as @10,20 can also be written as 10..20 (allowing for keypad input)
-
-      -Toggling keycode mode no longer requires restarting LibreCAD. If a 2 character command is not recognized, you can continue with a longer command.
-
-    Spacebar now accepts commands like Enter.
+It is possible to enter a partial command, such as "cir", and press [Tab] to have the command completed to "circle". If text entered is not unique to a single command the command output will show all the possible commands starting with the text provide.  For example, typing "c" and pressing [Tab] will list "ch", circle" and "cut" the command output.
 
 
-Pressing [Esc] cancels what the cuurent command line prompt.  Pressing it a second time cancels the current command.
-
-
-It is possible to enter a partial command, like cir and press Tab to have the command completed to circle. If you type too short a segment of a command, such as c and press Tab, the command output will show "ch, circle, cut" because the command segment you typed in isn't unique.
+Next edit
+*********
 
 Many commands prompt you on the command line asking for further input. They tell you what input they expect - a point for example - and list other possibilities in the square bracket. For example if you type command polyline and draw at least two segments you get prompted Specify next point or [undo/close]. This means that the program is expecting a point (from the command line or by clicking on drawing area), or you can select the Undo or Close option. You can do that by typing on the command line or by clicking on buttons on the context toolbar called Tool Options.
 
@@ -63,11 +71,6 @@ l
 
 To use the two letter format li you do not have to activate the commandline. Just type li and LibreCAD displays the prompt. If you wish to continue drawing with just mouse input, you click on drawing to enter the point, or click on the tools palette to select the snap mode or whatever.
 
-
-Clear the Command Line
-~~~~~~~~~~~~~~~~~~~~~~
-
-To clear the list of commands from the command window - type "clear" in the command line.
 
 
 Drawing Entities
@@ -104,6 +107,12 @@ Produce points as described in the point section. After producing a line segment
 If there are at least two segments drawn, you can close the line (draw a segment to the point where you started) by entering close into the command line. To finish drawing lines you press [Esc]
 
 All line segments created can be selected individually. With Polyline all seg
+
+
+Clear the Command Line
+~~~~~~~~~~~~~~~~~~~~~~
+
+To clear the list of commands from the command window - type "clear" in the command line.
 
 
 Multi-Command Input
