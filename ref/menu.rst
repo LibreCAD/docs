@@ -115,7 +115,7 @@ Plugins
     "Gear plugin", , "", "Draw a gear by selecting the center of gear and defining parameters such as number of teeth, modulus, etc."
     "ESRI Shapefile", , "", "Import GIS geospatial vector data shapefile (i.e. maps)."
     "List entities", , "", "List the selected entities along with their properties such as ID, layer, color, line type, line thickness, coordinates."
-    "Read PIC file", , "", "Import Pic graphics language diagrams".
+    "Read PIC file", , "", "Import Pic graphics language diagrams."
     "Plot plugin", , "", "Plot a mathematical function or a parametric function using the drawing coordinate system. The formula, start value, end value and step value are required. The plot can be lines, a polyline or a spline."
     "Same properties", , "", "Apply the properties of a reference entity to selected entities. The modified properties are layer, color, line type and line thickness."
     "Sample plugin", , "", "Draw a line by specifying the X and Y coordinates of end points."
