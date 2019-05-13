@@ -25,19 +25,22 @@ The command line is displayed in its own :ref:`dock widget <widget-cmdLine>` and
 Command line Functions
 ----------------------
 
-When the command line is active the "Command:" (above of where input appears) turns blue.  The :ref:`command line <widget-cmdLine>` is activated by in a variety of ways:
+When the command line is active the text, initially "Command:", above of where input appears turns blue.  The command line is activated by in a variety of ways:
 
    1. Start typing any command, e.g. li, rect, etc. and then [Enter] or the [Space-bar].
    2. Press the [Space-bar], type any command and then [Enter] or the [Space-bar].
    3. Press [Ctrl + M], any command and then [Enter] or the [Space-bar].
    4. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.
 
+When using the command line, type a command as shown in the :ref:`Drawing Tools <tools>` reference.  Additional prompts will indicate the next input required such as coordinates or an action.  :ref:`Coordinates<coordinates>` can be typed in a variety of formats:
 
-   A new button with a drop-down menu has been added to the command-line
+   - 
+
 
    Command-line output is automatically copied when highlighted.
    Keycode mode automatically accepts 2 character commands. In other words, you don't need to press enter.
 
+    Relative coordinates such as @10,20 can also be written as 10..20 (allowing for keypad input)
 
       -Toggling keycode mode no longer requires restarting LibreCAD. If a 2 character command is not recognized, you can continue with a longer command.
 
@@ -108,7 +111,6 @@ Multi-Command Input
     Multi-command input can be separated by semicolons: ci;0,0;10
     Command files (command input separated by newlines) can be loaded from the new command-line button
     Multi-command input can be assigned to a variable; values can also contain variables (they are read recursively)
-    Relative coordinates such as @10,20 can also be written as 10..20 (allowing for keypad input)
 
 ::
 
