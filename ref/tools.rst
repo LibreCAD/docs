@@ -304,6 +304,8 @@ Dimension
         | Draw a text leader by by selecting start (arrow location), intermediate and end points."
 
 
+.. _tool-modify:
+
 Modify
 ------
 .. csv-table:: 
