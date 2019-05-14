@@ -36,6 +36,7 @@ The commands available to use are shown in the :ref:`Drawing Tools <tools>` refe
 Initially the command line prompt above the input text box reads "Command:".  When it is actived the text turns blue.  Additional prompts will indicate the next input required such as coordinates or the next action action available.  For example, when using the command line to draw a line:
 
 ::
+
    Command:
    li
    Specify first point
