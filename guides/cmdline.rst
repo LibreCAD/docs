@@ -105,25 +105,27 @@ Save the file as "multiCmd.txt". In LibreCAD select "Load Command File" from the
 .. Next edit:
 *************
 
-
 Calculator
 ----------
 
-LibreCAD includes a built-in calculator that uses the command line interface.  Typing "cal" on the command line toggles the calculator mode on and off.
+LibreCAD includes a built-in calculator that uses the command line interface.  Typing "cal" on the command line toggles the *calculator mode* on and off.  With the calculator mode on, math expressions typed on the command line will display the results in the output window.  
 
 "cal", use command line as a math expression calculator. Some examples:
 
-   cal 1+1
-   cal sin(pi/6)
-   cal log(2)
+   1+1
+   sin(pi/6)
+   log(2)
+   6^5
 
-The command line has a built in calculator that can be accessed with the cal command.
 
-Constants:
+A complete list of operators and function can be found in the :ref:`appendex<calc>`.
 
+Constants
+~~~~~~~~~
     pi = 3.14159265359
 
-Operators:
+Operators
+~~~~~~~~~
 
 addition:
 cal 6+5
@@ -138,9 +140,9 @@ division:
 cal 6/5
 
 six to the fifth power:
-cal 6^5
 
-Functions:
+Functions
+~~~~~~~~~
 
 square root:
 cal sqrt(5)
@@ -149,19 +151,11 @@ cal sqrt(3^2 + 4^2)
 average:
 cal avg(6,5)
 
-Trigonometric functions:
+Trigonometric functions
+~~~~~~~~~~~~~~~~~~~~~~~
 
-Note these functions take radians.
-degrees*pi/180 = radians
+Note these functions take radians (radians = degrees*pi/180)
 
-sine:
-cal sin(6*pi/180)
-
-cosine:
-cal cos(6d)
-
-tangent:
-cal tan(6deg)
 
 
 Command Alias File
