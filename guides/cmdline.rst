@@ -81,8 +81,10 @@ The format of the configuration file is ``<alias>[Tab]<command-untranslated>``. 
 
 ::
 
+   ...
    l	line
    li	line
+   ...
 
 Aliases can be added, modified to suit users' preferences.  The file is found in the following locations:
 
