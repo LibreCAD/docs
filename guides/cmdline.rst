@@ -70,29 +70,12 @@ Either can be used can be used to enter new values.  The current value on the co
 The command output window displays the command history, error messages, and other output (see **Calculator** below).  The text in the output window can be copied simply by highlighting it.  The text is automatically copied to the clipboard and can be pasted into another document.  The output window can be cleared of all text by typing "clear" in the command line.
 
 
-.. Next edit:
-*************
-
-
 Multi-Command Input
 -------------------
 
 Command input can be combined and entered on a single line by separating the commands and other input with semicolons.  Entering ``li;0,0;10..0;0..10;-10..0;c;k`` on the command line will draw a 10 x 10 square.  
 
-Command input can also be loaded from text files.  Entering the commands and other input into a text file separating each with a newline:
-
-::
-
-  li
-  0,0
-  @10,0
-  @0,10
-  @-10,0
-  c
-
-
- (Command input separated by newlines) can be loaded from the new command-line button
-Multi-command input can be assigned to a variable; values can also contain variables (they are read recursively)
+Multi-command input can be assigned to a variable and variables can also contain other variables (they are read recursively)
 
 ::
 
@@ -101,14 +84,32 @@ Multi-command input can be assigned to a variable; values can also contain varia
    c=\a;\b;kill
    \c
 
-A variable file can be set to load at startup via Application Preferences -> Paths -> Variable File
 
+Command input can also be loaded from text files.  Entering the commands and other input into a text file separating each with a newline.  For example, create a text file and enter the following commands:
+
+::
+
+   li
+   0,0
+   @10,0
+   @0,10
+   @-10,0
+   c
+   k
+
+Save the file as "multiCmd.txt". In LibreCAD select "Load Command File" from the the drop-down menu by clicking the command line button (lower right corner of the **Command Line Dock**).  Locate the file and click the **Open** button.  The above commands will draw a 10 x 10 square.
+
+ .. Not working: A "variable file" can be set to load at startup via **:ref:`Application Preferences<app-prefs> -> Paths -> Variable File**.  Point the path to the text file created above will draw a 10 x 10 square every time LibreCAd is launched.
+
+
+.. Next edit:
+*************
 
 
 Calculator
 ----------
 
-The 'cal' command now toggles a calculator mode.
+LibreCAD includes a built-in calculator that uses the command line interface.  Typing "cal" on the command line toggles the calculator mode on and off.
 
 "cal", use command line as a math expression calculator. Some examples:
 
