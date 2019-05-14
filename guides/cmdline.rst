@@ -63,7 +63,7 @@ When the command line is activated the prompt above the input text box, initiall
 The available commands are shown in the :ref:`Tools<tools>` reference.  Many of the commands have multiple forms.  For exmple the *2 points* line tools can be selected on the command line by typing "l", "li" or "line".  Some tools will provide command line prompts in addition to the **Tool Options**.  For example the "Parallel" line tools displays:
 
    - a **Tool Options** toolbar: |tlopt12|
-   - A command prompt: '''Specify Distance <10> or select entity or [through]'''
+   - A command prompt: ``Specify Distance <10> or select entity or [through]``
 
 Either can be used.
 
