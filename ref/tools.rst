@@ -6,10 +6,12 @@
 Drawing Tools
 =============
 
-The drawing tools are used to create and modify entities such as lines, circles, etc. in a drawing.  Commands can be selected from the menu, toolbars or entered via the :ref:`command line <commandline>`.
+The drawing tools are used to create and modify entities such as lines, circles, etc. in a drawing.  Commands can be selected from the menu, toolbars or entered via the :ref:`command line <cmdline>`.
 
-Several drawing tools require additional parameters and will provide prompts on the **Tool Options** toolbar.  *This toolbar should always be enabled.*  If the tool options do not appear, from the menu select **Widgets -> Toolbar ->** and enable **Tool Options**.  The tools that have options are shown in the table below.
+Several drawing tools require additional parameters and will provide prompts on the **Tool Options** toolbar.  *This toolbar should always be enabled.*  If the tool options do not appear, from the menu select **Widgets -> Toolbar ->** and enable **Tool Options**.  If using the :ref:`command line<widget-cmdLine>`, the same tool options are available via the toolbar or the command line.  The tools that have options are shown in the table below.
 
+
+.. _tool-line:
 
 Line
 ----
@@ -89,6 +91,8 @@ Line
         | |tlopt15|"
 
 
+.. _tool-circle:
+
 Circle
 ------
 .. csv-table:: 
@@ -129,6 +133,8 @@ Circle
     "Concentric", |icon23|, "", "Draw a circle concentric, with the same centre point, to an existing circle."
     "Circle Inscribed", |icon24|, "", "Draw a circle inside an existing polygon of four sides or more."
 
+
+.. _tool-curve:
 
 Curve
 -----
@@ -171,6 +177,8 @@ Curve
     "Concentric", |icon33|, "", "Draw a curve (arc) concentric, with the same centre point, to an existing curve (arc) with a defined offset.(*)"
 
 
+.. _tool-ellipse:
+
 Ellipse
 -------
 .. csv-table:: 
@@ -191,6 +199,8 @@ Ellipse
     "Ellipse Inscribed", |icon40| , "ei, ie", "
         | Draw a Ellipse constrained by four existing non-parallel line segments."
 
+
+.. _tool-polyline:
 
 Polyline
 --------
@@ -225,6 +235,8 @@ Polyline
         | Create polyline from two or more existing seperate line or arc segments forming a continuous line."
 
 
+.. _tool-select:
+
 Select
 ------
 .. csv-table:: 
@@ -255,6 +267,8 @@ Select
     "Invert Selection", |icon60|, "", "
         | Select all un-selected entities will deselecting all selected entities."
 
+
+.. _tool-dimension:
 
 Dimension
 ---------
@@ -303,6 +317,8 @@ Dimension
     "Leader", |icon68|, "ld", "
         | Draw a text leader by by selecting start (arrow location), intermediate and end points."
 
+
+.. _tool-modify:
 
 Modify
 ------
@@ -369,6 +385,8 @@ Modify
     "Delete Freehand", |iconNN|, "", "Delete segment within a polyline define by two points. (Use ''Snap on Entity'' to place points.)"
 
 
+.. _tool-info:
+
 Info
 ----
 .. csv-table:: 
@@ -391,6 +409,8 @@ Info
 ..
     "Point inside contour", |icon89|, "", "Provides indication of point being inside or outside of the selected ''closed'' contour (polygon, circle, ployline, etc)."
 
+
+.. _tool-other:
 
 Others
 ------

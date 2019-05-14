@@ -62,10 +62,6 @@ Cartesian
 
 The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is the horizontal axis and Y is the vertical axis.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be "100,75", as shown here.
 
-.. note:
-
-Coordinates can also be written as 10..20 which allows for :ref:`numeric keypad <keyboard>` input.
-
 
 Polar
 `````
@@ -115,7 +111,10 @@ The last coordinate defined when creating an entity becomes a temporary referenc
 
 When using cartesian coordinates for example, to set a 75 units above and 65 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
 
-|
+.. note::
+
+   Relative coordinates can also be written as 10..20 (equivalent to @10,20) which allows for :ref:`numeric keypad <keyboard>` input when using the :ref:`command line<widget-cmdLine>`.
+
 
 .. figure:: /images/byAbsCoorRelPolar.png
     :width: 800px

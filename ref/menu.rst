@@ -110,14 +110,14 @@ Plugins
 
     "Menu Item", "Icon", "Short-cut", "Description"
     "Align", , "", "Align selected entities to a reference by defining the final positions of 2 initial points."
-    "Read ascii points", , "", "Read points from a text file. Each line of the file is a point defined by an ID, x coordinate, y coordinate, z coordinate, optional code. Each field can be separated by a comma, a tab or a space. The decimal separator is the point (.). The points can be connected with a line. ID, coordinate or code fields can be plotted as text."
-    "Divide", , "", "Divide a line or a circle with n sections. A tick can be located at the limit of each section to better show each limit and the size of this tick can be defined as a percentage. The line or the circle can be broken at the limit of each section."
-    "Gear plugin", , "", "Draw a gear by selecting the center of gear and defining parameters such as : number of teeth, modulus, etc."
-    "ESRI Shapefile", , "", ""
-    "List entities", , "", "List the selected entities along with their properties such as : ID, layer, color, line type, line thickness, coordinates."
-    "Read PIC file", , "", ""
-    "Plot plugin", , "", "Plot a mathematical function or a parametric function using the drawing coordinate system. The formula, start value, end value and step  value are required. The plot can be lines, a polyline or a spline."
-    "Same properties", , "", "Apply the properties of a reference entity to selected entities. The modified properties are : layer, color, line type and line thickness."
+    "Read ascii points", , "", "Read points from a text file. Each line of the file is a point defined by an ID, X coordinate, Y coordinate, Z coordinate and an optional code. Each field can be separated by a comma, a tab or a space. The decimal separator is the point (.). The points can be connected with a line, ID, or coordinate and code fields can be plotted as text."
+    "Divide", , "", "Divide a line or a circle with *n* sections. A tick can be located at the limit of each section to show each limit.  The size of this tick can be defined as a percentage of the segment length. The line or the circle can be broken at the limit of each section using :ref:`Divide <tool-modify>` tool."
+    "Gear plugin", , "", "Draw a gear by selecting the center of gear and defining parameters such as number of teeth, modulus, etc."
+    "ESRI Shapefile", , "", "Import GIS geospatial vector data shapefile (i.e. maps). **Warning:** The import process will lock LibreCAD until it is complete and large files can be very time consuming."
+    "List entities", , "", "List the selected entities along with their properties such as ID, layer, color, line type, line thickness, coordinates."
+    "Read PIC file", , "", "Import Pic graphics language diagrams."
+    "Plot plugin", , "", "Plot a mathematical function or a parametric function using the drawing coordinate system. The formula, start value, end value and step value are required. The plot can be lines, a polyline or a spline."
+    "Same properties", , "", "Apply the properties of a reference entity to selected entities. The modified properties are layer, color, line type and line thickness."
     "Sample plugin", , "", "Draw a line by specifying the X and Y coordinates of end points."
 
 

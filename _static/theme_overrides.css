@@ -1,7 +1,26 @@
+/* Change theme color to LibreCAD's themes */
+/*
+
+.wy-side-nav-search, .wy-nav-top {
+    background: #547a29 !important;
+}
+*/
+
 /* Corrects issue with table exceeding web page width  */
 /* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
+/*  Add ":class: fix-table" to CSV table ref */
 
 .fix-table td {
     white-space: normal !important;
+}
+
+
+/* Adjusts indent in tables when forcing line break */
+/* https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell */
+
+/* @import "theme.css"; */
+
+table.docutils div.line-block {
+    margin-left: 0;
 }
 
