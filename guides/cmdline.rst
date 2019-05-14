@@ -26,14 +26,16 @@ The command line is displayed in its own :ref:`dock widget <widget-cmdLine>` and
 Command Line Functions
 ----------------------
 
-The commands available to use are shown in the :ref:`Drawing Tools <tools>` reference.  Additional prompts will indicate the next input required such as coordinates or an action.  The command line is activated by in a variety of ways:
+The commands available to use are shown in the :ref:`Drawing Tools <tools>` reference.  The command line is activated by in a variety of ways:
 
    1. Start typing any command, e.g. li, rect, etc. and then [Enter] or the [Space bar].
    2. Press the [Space bar], type any command and then [Enter] or the [Space bar].
    3. Press [Ctrl + M], any command and then [Enter] or the [Space bar].
    4. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.  Pressing [Enter] is not required.
 
-When the command line is activated the prompt above the input text box, initially showing "Command:", turns blue.  After typing a command the prompt will indicate the next input required such as coordinates and / or the next action available.  For example, after drawing at least two segments of a line the prompt reads "Specify next point or [close/undo]".  LibreCAD is expecting another set of coordinates to be entered, or the shape (with a minimum of two segments) can be closed or the last actions can be reversed.  "Close" or "undo" can be entered on the command line or by clicking on buttons on the :ref:`Tool Options<tools>` toolbar.  For example, to draw a square using the "2 points line" tool from the command line:
+When the command line is activated the prompt above the input text box, initially showing "Command:", turns blue.  After typing a command the prompt will indicate the next input required such as coordinates and / or the next action available.  Pressing [Esc] will cancel the current action and pressing it a second time will cancel the operation.
+
+For example, when using the **2 Points** line tool the first prompt shows "Specify first point" and the second "Specify next point".  After drawing at least two segments of a line the next prompt reads "Specify next point or [close/undo]".  LibreCAD is expecting another set of coordinates to be entered, or the shape (with a minimum of two segments) can be closed or the last actions can be reversed.  "Close" or "undo" can be entered on the command line or by clicking on buttons on the :ref:`Tool Options<tools>` toolbar.  For example, to draw a square using the "2 Points line" tool from the command line:
 
 ::
 
@@ -50,7 +52,7 @@ When the command line is activated the prompt above the input text box, initiall
    close
 
 .. tip::
-   In addition to the comma separated :ref:`coordinates<coordinates>`, *relative* coordinates can also be entered using the numeric keypad using the format *X..Y*, i.e. typing *10..20* is equivalent to *@10,20*.  Using the two decimals is faster than typing the comma.
+   In addition to the comma separated coordinates`, :ref:`relative* coordinates<coordinates> can also be entered using the numeric keypad using the format *X..Y*, i.e. typing *10..20* is equivalent to *@10,20*.  Using the two decimals is faster than typing the comma.
 
    The *Keycode Mode* permits the use of **two letter** commands and eliminates the need to press [Enter] after typing the command. 
 
@@ -58,9 +60,10 @@ When the command line is activated the prompt above the input text box, initiall
 
    Pressing [c] or [u] followed by [Enter] can be used instead of typing "close" or "undo".
 
+
 *Tab completion* can be used on the command line when entering commands.  Enter a partial command such as "cir" followed by press [Tab] will complete the command to "circle".  If text entered is not unique to a single command the command output will show all the possible commands starting with the text provided.  For example, typing [c] and pressing [Tab] will list "circle", "circle2", "circle3", "circlecr" and "cut" in the command output.
 
-The available commands are shown in the :ref:`Tools<tools>` reference.  Many of the commands have multiple forms.  For example the *2 points* line tools can be selected on the command line by typing "l", "li" or "line".  Many tools display the **Tool Options** toolbar when selected.  Some tools will also provide command line prompts in addition to the **Tool Options**.  For example the "Parallel" line tools displays:
+The available commands are shown in the :ref:`Tools<tools>` reference.  Many of the commands have multiple forms.  For example the *2 Points* line tools can be selected on the command line by typing "l", "li" or "line".  Many tools display the **Tool Options** toolbar when selected.  Some tools will also provide command line prompts in addition to the **Tool Options**.  For example the "Parallel" line tools displays:
 
    - a command prompt: ``Specify Distance <10> or select entity or [through]``
    - a **Tool Options** toolbar: |tlopt12|
@@ -74,7 +77,7 @@ Command Aliases
 ---------------
 
 As previously noted many of the commands in LibreCAD have multiple forms.  The long *untranslated* form is the native command and the short forms are *aliases* to the long form.  For example, "l" and "li" are aliases to "line".  The aliases are defined in the ``librecad.alias`` configuration file.
-The format of the configuration file is ``<alias>[Tab]<command-untranslated>``.  The default aliases for the **2 points** line appears as:
+The format of the configuration file is ``<alias>[Tab]<command-untranslated>``.  The default aliases for the **2 Points** line appears as:
 
 ::
 
@@ -83,7 +86,7 @@ The format of the configuration file is ``<alias>[Tab]<command-untranslated>``. 
    li	line
    ...
 
-Aliases can be added, modified to suit users' preferences.  The file is found in the following locations:
+Aliases can be added or modified to suit users' preferences.  The file is found in the following locations:
 
    - **Linux**: $HOME/.local/share/LibreCAD/LibreCAD/librecad.alias
    - **Windows**: C:\\Users\\ *{UserName}*\\AppData\\Local\\LibreCAD\\librecad.alias
