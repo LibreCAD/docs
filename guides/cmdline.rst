@@ -70,9 +70,6 @@ Either can be used can be used to enter new values.  The current value on the co
 The command output window displays the command history, error messages, and other output (see **Calculator** below).  The text in the output window can be copied simply by highlighting it.  The text is automatically copied to the clipboard and can be pasted into another document.  The output window can be cleared of all text by typing "clear" in the command line.
 
 
-.. Next edit:
-*************
-
 Command Aliases
 ---------------
 
