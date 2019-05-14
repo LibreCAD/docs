@@ -60,21 +60,17 @@ When the command line is activated the prompt above the input text box, initiall
 
 *Tab completion* can be used on the command line when entering commands.  Enter a partial command such as "cir" followed by press [Tab] will complete the command to "circle".  If text entered is not unique to a single command the command output will show all the possible commands starting with the text provided.  For example, typing [c] and pressing [Tab] will list "circle", "circle2", "circle3", "circlecr" and "cut" in the command output.
 
-The available commands are shown in the :ref:`Tools<tools>` reference.  Many of the commands have multiple forms.  For exmple the *2 points* line tools can be selected on the command line by typing "l", "li" or "line".
+The available commands are shown in the :ref:`Tools<tools>` reference.  Many of the commands have multiple forms.  For exmple the *2 points* line tools can be selected on the command line by typing "l", "li" or "line".  Some tools will provide command line prompts in addition to the **Tool Options**.  For example the "Parallel" line tools displays:
 
+   - a **Tool Options** toolbar: |tlopt12|
+   - A command prompt: '''Specify Distance <10> or select entity or [through]'''
+
+Either can be used.
 
 .. Next edit:
 *************
 
 When there is some value already set and valid, for example when you use command offset, the current value is in sharp brackets, like so: Specify distance <5> or select entity or [Through]. So you see that value for offset is 5 and you can either set a new value by typing it into the command line or using the Tool Options toolbar or you can start drawing parallel entities.
-
-
-
-Drawing Entities
-~~~~~~~~~~~~~~~~
-
-Drawing a point
-
 
 
 Clear the Command Line
@@ -177,5 +173,9 @@ Mac:
     $HOME/Library/Application Support/LibreCAD/librecad.alias
 
 
-https://wiki.librecad.org/index.php?title=A_short_manual_for_use_from_the_command_line
-https://wiki.librecad.org/index.php?title=LibreCAD_users_Manual#Using_Command_Line
+
+.. images:
+
+.. |tlopt12| image:: /images/toolOptions/toLineParlOff.png
+            :height: 32
+            :width: 231
