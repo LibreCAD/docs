@@ -105,23 +105,6 @@ Save the file as "multiCmd.txt". In LibreCAD select "Load Command File" from the
 .. Next edit:
 *************
 
-Calculator
-----------
-
-LibreCAD includes a built-in calculator that uses the command line interface.  Typing "cal" on the command line toggles the *calculator mode* on and off.  With the calculator mode on, math expressions typed on the command line will display the results in the output window.  Some examples:
-
-|   1+1
-|   sqrt(3^2 + 4^2)
-|   sin(pi/6)
-|   6^5
-
-A complete list of operators and function can be found in the :ref:`appendex<calc>`.
-
-.. note:: The constant pi = 3.14159265359
-
-.. note:: Trigonometric functions use radians (radians = degrees*pi/180)
-
-
 Command Alias File
 ------------------
 
@@ -139,6 +122,23 @@ Mac:
 
     $HOME/Library/Application Support/LibreCAD/librecad.alias
 
+
+Calculator
+----------
+
+LibreCAD includes a built-in calculator that uses the command line interface.  Typing "cal" on the command line toggles the *calculator mode* on and off.  With the calculator mode on, math expressions typed on the command line will display the results in the output window, e.g. typing ``1+1`` displays ``1+1 = 2`` in the output window.  Some other examples are:
+
+|   ``sqrt(3^2 + 4^2) = 5``
+|   ``sin(pi/6) = 0.5``
+|   ``6^5 = 7776``
+
+If the cal mode is *off* entering a math exparession will result in an error message such as ``Unknown command: 1+1``.
+
+A complete list of operators and functions can be found in the :ref:`appendex<calc>`.
+
+.. note:: The constant pi is defined in LibreCAD as 3.14159265359.
+
+.. note:: Trigonometric functions use radians (radians = degrees*pi/180).
 
 
 .. images:
