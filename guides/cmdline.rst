@@ -62,21 +62,16 @@ When the command line is activated the prompt above the input text box, initiall
 
 The available commands are shown in the :ref:`Tools<tools>` reference.  Many of the commands have multiple forms.  For exmple the *2 points* line tools can be selected on the command line by typing "l", "li" or "line".  Some tools will provide command line prompts in addition to the **Tool Options**.  For example the "Parallel" line tools displays:
 
+   - a command prompt: ``Specify Distance <10> or select entity or [through]``
    - a **Tool Options** toolbar: |tlopt12|
-   - A command prompt: ``Specify Distance <10> or select entity or [through]``
 
-Either can be used.
+Either can be used can be used to enter new values.  The current value on the command line is displayed in angle brackets as shown above.  To change the value from the command line, type the value and press [Enter].
+
+The command output window displays the command history, error messages, and other output (see **Calculator** below).  The text in the output window can be copied simply by highlighting it.  The text is automatically copied to the clipboard and can be pasted into another document.  The output window can be cleared of all text by typing "clear" in the command line.
+
 
 .. Next edit:
 *************
-
-When there is some value already set and valid, for example when you use command offset, the current value is in sharp brackets, like so: Specify distance <5> or select entity or [Through]. So you see that value for offset is 5 and you can either set a new value by typing it into the command line or using the Tool Options toolbar or you can start drawing parallel entities.
-
-
-Clear the Command Line
-~~~~~~~~~~~~~~~~~~~~~~
-
-To clear the list of commands from the command output window - type "clear" in the command line.
 
 
 Multi-Command Input
