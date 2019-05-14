@@ -77,9 +77,21 @@ The command output window displays the command history, error messages, and othe
 Multi-Command Input
 -------------------
 
-Command input can be entered on a single line by separating the input with semicolons.  Entering ``li;0,0;10..0;0..10;-10..0;c;k`` on the command line will draw a 10 x 10 square.
+Command input can be combined and entered on a single line by separating the commands and other input with semicolons.  Entering ``li;0,0;10..0;0..10;-10..0;c;k`` on the command line will draw a 10 x 10 square.  
 
-Command files (command input separated by newlines) can be loaded from the new command-line button
+Command input can also be loaded from text files.  Entering the commands and other input into a text file separating each with a newline:
+
+::
+
+  li
+  0,0
+  @10,0
+  @0,10
+  @-10,0
+  c
+
+
+ (Command input separated by newlines) can be loaded from the new command-line button
 Multi-command input can be assigned to a variable; values can also contain variables (they are read recursively)
 
 ::
