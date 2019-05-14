@@ -60,7 +60,7 @@ When the command line is activated the prompt above the input text box, initiall
 
 *Tab completion* can be used on the command line when entering commands.  Enter a partial command such as "cir" followed by press [Tab] will complete the command to "circle".  If text entered is not unique to a single command the command output will show all the possible commands starting with the text provided.  For example, typing [c] and pressing [Tab] will list "circle", "circle2", "circle3", "circlecr" and "cut" in the command output.
 
-The available commands are shown in the :ref:`Tools<tools>` reference.
+The available commands are shown in the :ref:`Tools<tools>` reference.  Many of the commands have multiple forms.  For exmple the *2 points* line tools can be selected on the command line by typing "l", "li" or "line".
 
 
 .. Next edit:
@@ -97,7 +97,7 @@ Multi-command input can be assigned to a variable; values can also contain varia
    c=\a;\b;kill
    \c
 
-    A variable file can be set to load at startup via Application Preferences -> Paths -> Variable File
+A variable file can be set to load at startup via Application Preferences -> Paths -> Variable File
 
 
 
