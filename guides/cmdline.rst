@@ -33,7 +33,7 @@ The commands available to use are shown in the :ref:`Drawing Tools <tools>` refe
    3. Press [Ctrl + M], any command and then [Enter] or the [Space bar].
    4. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.  Pressing [Enter] is not required.
 
-Initially the command line prompt above the input text box reads "Command:".  When it is actived the text turns blue.  Additional prompts will indicate the next input required such as coordinates or the next action action available.  For example, when using the command line to draw a line:
+When the command line is activated the prompt above the input text box, initially showing "Command:", turns blue.  After typing a command the prompt will indicate the next input required such as coordinates and / or the next action available.  For example, after drawing at least two segments of a line the prompt reads "Specify next point or [close/undo]".  LibreCAD is expecting another set of coordinates to be entered, or the shape (with a minumum of two segments) can be closed or the last actions can be reversed.  "Close" or "undo" can be entered on the command line or by clicking on buttons on the **Tool Options** toolbar called.  For example, when using the command line to draw a line:
 
 ::
 
@@ -43,9 +43,11 @@ Initially the command line prompt above the input text box reads "Command:".  Wh
    0,0
    Specify next point
    @10,0
-   Specify next point or [undo]
+   Specify next point or [close/undo]
    @0,10
-   ...
+   Specify next point or [close/undo]
+   @-10,0
+   close
 
 .. tip::
    In addition to the comma separated :ref:`coordinates<coordinates>`, *relative* coordinates can also be entered using the numeric keypad using the format *X..Y*, i.e. typing *10..20* is equivalent to *@10,20*.  Using the two decimals is faster than typing the comma.
@@ -54,14 +56,14 @@ Initially the command line prompt above the input text box reads "Command:".  Wh
 
    Pressing the [Space bar] is an alternative to pressing [Enter] after each command.
 
+   Alternatively [c] or [u] can be used instead of typing "close" or "undo".
+
 
 It is possible to enter a partial command, such as "cir", and press [Tab] to have the command completed to "circle". If text entered is not unique to a single command the command output will show all the possible commands starting with the text provide.  For example, typing "c" and pressing [Tab] will list "ch", circle" and "cut" the command output.
 
 
-Next edit
-*********
-
-Many commands prompt you on the command line asking for further input. They tell you what input they expect - a point for example - and list other possibilities in the square bracket. For example if you type command polyline and draw at least two segments you get prompted Specify next point or [undo/close]. This means that the program is expecting a point (from the command line or by clicking on drawing area), or you can select the Undo or Close option. You can do that by typing on the command line or by clicking on buttons on the context toolbar called Tool Options.
+.. Next edit:
+*************
 
 When there is some value already set and valid, for example when you use command offset, the current value is in sharp brackets, like so: Specify distance <5> or select entity or [Through]. So you see that value for offset is 5 and you can either set a new value by typing it into the command line or using the Tool Options toolbar or you can start drawing parallel entities.
 
