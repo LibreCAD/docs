@@ -108,54 +108,18 @@ Save the file as "multiCmd.txt". In LibreCAD select "Load Command File" from the
 Calculator
 ----------
 
-LibreCAD includes a built-in calculator that uses the command line interface.  Typing "cal" on the command line toggles the *calculator mode* on and off.  With the calculator mode on, math expressions typed on the command line will display the results in the output window.  
+LibreCAD includes a built-in calculator that uses the command line interface.  Typing "cal" on the command line toggles the *calculator mode* on and off.  With the calculator mode on, math expressions typed on the command line will display the results in the output window.  Some examples:
 
-"cal", use command line as a math expression calculator. Some examples:
-
-   1+1
-   sin(pi/6)
-   log(2)
-   6^5
-
+|   1+1
+|   sqrt(3^2 + 4^2)
+|   sin(pi/6)
+|   6^5
 
 A complete list of operators and function can be found in the :ref:`appendex<calc>`.
 
-Constants
-~~~~~~~~~
-    pi = 3.14159265359
+.. note:: The constant pi = 3.14159265359
 
-Operators
-~~~~~~~~~
-
-addition:
-cal 6+5
-
-subtraction:
-cal 6-5
-
-multiplication:
-cal 6*5
-
-division:
-cal 6/5
-
-six to the fifth power:
-
-Functions
-~~~~~~~~~
-
-square root:
-cal sqrt(5)
-cal sqrt(3^2 + 4^2)
-
-average:
-cal avg(6,5)
-
-Trigonometric functions
-~~~~~~~~~~~~~~~~~~~~~~~
-
-Note these functions take radians (radians = degrees*pi/180)
-
+.. note:: Trigonometric functions use radians (radians = degrees*pi/180)
 
 
 Command Alias File
@@ -165,7 +129,7 @@ You can define command aliases by changing the alias configuration file and rest
 
 Linux:
 
-    $HOME/.local/share/data/LibreCAD/librecad.alias
+    $HOME/.local/share/LibreCAD/LibreCAD/librecad.alias
 
 Windows:
 
