@@ -20,7 +20,6 @@ The command line is displayed in its own :ref:`dock widget <widget-cmdLine>` and
       - Toggle *Keycode Mode* off or on.
       - Load a Command file.
       - Paste commands.
-      - Toggle whitespace use within the command text.
 
 
 Command Line Functions
