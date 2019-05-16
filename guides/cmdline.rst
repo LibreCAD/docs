@@ -124,7 +124,7 @@ Multi-command input can be assigned to a variable and variables can also contain
 
 Enter each line of the text above on the command line.  When ``\c`` is entered, two overlappiing circles with a radius of 10 are drawn.  The ``\`` character is an escape character that allows the command line to interpret the variable name as an action.  In the above example ``\c`` expands to ``ci;0,0;10;ci;10,0;10;kill``.
 
-A "variable file" can be set to load at startup via **:ref:`Application Preferences<app-prefs>` -> Paths -> Variable File**.  Save the first three line of the above example to a text file and configure the path to the text file.  Restart LibreCAD and when ``\c`` is entered at the command line the two circles are drawn.
+A "variable file" can be set to load at startup via :ref:`Application Preferences<app-prefs>` **-> Paths -> Variable File**.  Save the first three line of the above example to a text file and configure the path to the text file.  Restart LibreCAD and when ``\c`` is entered at the command line the two circles are drawn.
 
 
 Calculator
