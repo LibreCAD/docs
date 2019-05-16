@@ -20,7 +20,7 @@ Below are the sections that are in the LibreCAD User Manual with the percent com
 
 - References: technical descriptions of the tools, functions, widgets, etc.  Following the menu structure, it would include:
    - Fundamentals            [100%]    (Including "The Coordinate System")
-   - Application Menu        [98%]     (Require descriptions for a couple of plug-ins.)
+   - Application Menu        [100%]
    - Drawing Tools           [100%]
    - Snapping                [100%]
    - Toolbars                [100%]
@@ -36,7 +36,7 @@ Below are the sections that are in the LibreCAD User Manual with the percent com
    - Drawing and Modifying   [5%]
    - Blocks                  [100%]
    - Dimensioning & Text     [100%]
-   - The Command Line        [50%]
+   - The Command Line        [100%]
    - Printing Guide          [100%]
 
 - Appendics

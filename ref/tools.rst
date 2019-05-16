@@ -32,7 +32,7 @@ Line
         | 
         | **Tool Options:** 
         | |tlopt07|"
-    "Horizontal", |icon03|, "", "
+    "Horizontal", |icon03|, "hor, horizontal", "
         | Draw a horizontal line from an assigned point defining the start, middle or end of the line and with an assigned length.
         | 
         | **Tool Options:** 

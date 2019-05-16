@@ -6,198 +6,147 @@
 The Command Line
 ================
 
-LibreCAD's command line offers users an alternative to using the mouse to draw.  Using the keyboard to select tools and enter coordinates can provide greater speed and accuracy when creating drawings.  The command line provides other useful features not available using the mouse:
+LibreCAD's command line offers users an alternative to using the mouse to select tools and draw.  Using the keyboard to select tools and enter coordinates can provide greater speed and accuracy when creating drawings.  The command line provides other useful features not available using the mouse:
 
    - Multi-command input
    - A calculator
 
 The command line is displayed in its own :ref:`dock widget <widget-cmdLine>` and consists of three components
 
-   1. Command prompt
-   2. Command output window
+   1. Command prompt.
+   2. Command output window.
    3. Button that displays a drop-down menu that includes:
 
-      - Toggle *Keycode Mode* off or on
-      - Load a Command file
-      - Paste commands
+      - Toggle *Keycode Mode* off or on.
+      - Load a Command file.
+      - Paste commands.
 
 
-Command line Functions
+Command Line Functions
 ----------------------
 
-When the command line is active the text, initially "Command:", above of where input appears turns blue.  The command line is activated by in a variety of ways:
+The commands available to use are shown in the :ref:`Drawing Tools <tools>` reference.  The command line is activated by in a variety of ways:
 
-   1. Start typing any command, e.g. li, rect, etc. and then [Enter] or the [Space-bar].
-   2. Press the [Space-bar], type any command and then [Enter] or the [Space-bar].
-   3. Press [Ctrl + M], any command and then [Enter] or the [Space-bar].
-   4. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.
+   1. Start typing any command, e.g. li, rect, etc. and then [Enter] or the [Space bar].
+   2. Press the [Space bar], type any command and then [Enter] or the [Space bar].
+   3. Press [Ctrl + M], any command and then [Enter] or the [Space bar].
+   4. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.  Pressing [Enter] is not required.
 
-When using the command line, type a command as shown in the :ref:`Drawing Tools <tools>` reference.  Additional prompts will indicate the next input required such as coordinates or an action.  :ref:`Coordinates<coordinates>` can be typed in a variety of formats:
+When the command line is activated the prompt above the input text box, initially showing "Command:", turns blue.  After typing a command the prompt will indicate the next input required such as coordinates and / or the next action available.  Pressing [Esc] will cancel the current action and pressing it a second time will cancel the operation.
 
-   - 
+For example, when using the **2 Points** line tool the first prompt shows "Specify first point" and the second "Specify next point".  After drawing at least two segments of a line the next prompt reads "Specify next point or [close/undo]".  LibreCAD is expecting another set of coordinates to be entered, or the shape (with a minimum of two segments) can be closed or the last actions can be reversed.  "Close" or "undo" can be entered on the command line or by clicking on buttons on the :ref:`Tool Options<tools>` toolbar.  For example, to draw a square using the "2 Points line" tool from the command line:
 
+::
 
-   Command-line output is automatically copied when highlighted.
-   Keycode mode automatically accepts 2 character commands. In other words, you don't need to press enter.
+   Command:
+   li
+   Specify first point
+   0,0
+   Specify next point
+   @10,0
+   Specify next point or [close/undo]
+   @0,10
+   Specify next point or [close/undo]
+   @-10,0
+   close
 
-    Relative coordinates such as @10,20 can also be written as 10..20 (allowing for keypad input)
+.. tip::
+   In addition to the comma separated coordinates`, :ref:`relative* coordinates<coordinates> can also be entered using the numeric keypad using the format *X..Y*, i.e. typing *10..20* is equivalent to *@10,20*.  Using the two decimals is faster than typing the comma.
 
-      -Toggling keycode mode no longer requires restarting LibreCAD. If a 2 character command is not recognized, you can continue with a longer command.
+   The *Keycode Mode* permits the use of **two letter** commands and eliminates the need to press [Enter] after typing the command. 
 
-    Spacebar now accepts commands like Enter.
+   Pressing the [Space bar] is an alternative to pressing [Enter] after each command.
 
-
-Pressing [Esc] cancels what the cuurent command line prompt.  Pressing it a second time cancels the current command.
-
-
-It is possible to enter a partial command, like cir and press Tab to have the command completed to circle. If you type too short a segment of a command, such as c and press Tab, the command output will show "ch, circle, cut" because the command segment you typed in isn't unique.
-
-Many commands prompt you on the command line asking for further input. They tell you what input they expect - a point for example - and list other possibilities in the square bracket. For example if you type command polyline and draw at least two segments you get prompted Specify next point or [undo/close]. This means that the program is expecting a point (from the command line or by clicking on drawing area), or you can select the Undo or Close option. You can do that by typing on the command line or by clicking on buttons on the context toolbar called Tool Options.
-
-When there is some value already set and valid, for example when you use command offset, the current value is in sharp brackets, like so: Specify distance <5> or select entity or [Through]. So you see that value for offset is 5 and you can either set a new value by typing it into the command line or using the Tool Options toolbar or you can start drawing parallel entities.
-
-Every command I describe below has a long format and a short format. For example the command for drawing a line has three formats:
-line
-li
-l
-
-To use the two letter format li you do not have to activate the commandline. Just type li and LibreCAD displays the prompt. If you wish to continue drawing with just mouse input, you click on drawing to enter the point, or click on the tools palette to select the snap mode or whatever.
+   Pressing [c] or [u] followed by [Enter] can be used instead of typing "close" or "undo".
 
 
-Clear the Command Line
-~~~~~~~~~~~~~~~~~~~~~~
+*Tab completion* can be used on the command line when entering commands.  Enter a partial command such as "cir" followed by press [Tab] will complete the command to "circle".  If text entered is not unique to a single command the command output will show all the possible commands starting with the text provided.  For example, typing [c] and pressing [Tab] will list "circle", "circle2", "circle3", "circlecr" and "cut" in the command output.
 
-To clear the list of commands from the command window - type "clear" in the command line.
+The available commands are shown in the :ref:`Tools<tools>` reference.  Many of the commands have multiple forms.  For example the *2 Points* line tools can be selected on the command line by typing "l", "li" or "line".  Many tools display the **Tool Options** toolbar when selected.  Some tools will also provide command line prompts in addition to the **Tool Options**.  For example the "Parallel" line tools displays:
 
+   - a command prompt: ``Specify Distance <10> or select entity or [through]``
+   - a **Tool Options** toolbar: |tlopt12|
 
-Drawing Entities
-~~~~~~~~~~~~~~~~
+Either can be used can be used to enter new values.  The current value on the command line is displayed in angle brackets as shown above.  To change the value from the command line, type the value and press [Enter].
 
-Drawing a point
-
-point
-po
-Specify location
-
-You type point or po on the command line. LibreCad prompts you to with "Specify Location".
-
-After selecting any desired snapping options on the main toolbar you can respond by clicking with the mouse on the drawing area to enter points. Or you can produce points by entering into the command line:
-
-    10,20[enter] - to place point at coordinates x=10, y=20 from the origin - point x=0, y=0
-        @30,40[enter] - to place point at coordinates that are at distance x=30, y=40 from the last drawn point. So x=10+30=40 and y=20+40=60.
-
-    50<45[enter] - to place point at the distance 50 from origin, at 45 angle degree. The positive x axis is at 0 degrees, the positive y axis is at 90 degrees. So degrees are measured at counter clockwise direction from horizontal.
-
-    @60<15[enter] - to place point at the distance 60 at 15 angle degree from the last drawn point.
-
-Drawing a line
-
-line
-li
-l
-Specify first point
-Specify next point
-Specify next point or [undo]
-
-Produce points as described in the point section. After producing a line segment, any following points create a line segment with the point that precedes them.
-
-If there are at least two segments drawn, you can close the line (draw a segment to the point where you started) by entering close into the command line. To finish drawing lines you press [Esc]
-
-All line segments created can be selected individually. With Polyline all seg
+The command output window displays the command history, error messages, and other output (see **Calculator** below).  The text in the output window can be copied simply by highlighting it.  The text is automatically copied to the clipboard and can be pasted into another document.  The output window can be cleared of all text by typing "clear" in the command line.
 
 
 Multi-Command Input
 -------------------
-    Multi-command input can be separated by semicolons: ci;0,0;10
-    Command files (command input separated by newlines) can be loaded from the new command-line button
-    Multi-command input can be assigned to a variable; values can also contain variables (they are read recursively)
+
+Command input can be combined and entered on a single line by separating the commands and other input with semicolons.  Entering ``li;0,0;10..0;0..10;-10..0;c;k`` on the command line will draw a 10 x 10 square.  A list of commands, separated by a newline (return), can be copied and pasted using **Past multiple commands** from the command line button (lower right corner of the **Command Line Dock**).
+
+Command input can also be loaded from text files.  Entering the commands and other input into a text file separating each with a newline.  For example, create a text file and enter the following commands:
 
 ::
 
-a=ci;0,0;10
-b=ci;10,0;10
-c=\a;\b;kill
-\c
+   li
+   0,0
+   @10,0
+   @0,10
+   @-10,0
+   c
+   k
 
-    A variable file can be set to load at startup via Application Preferences -> Paths -> Variable File
+Save the file as "multiCmd.txt". In LibreCAD select "Load Command File" from the the drop-down menu by clicking the command line button.  Locate the file and click the **Open** button.  The above commands will draw a 10 x 10 square.
 
+Multi-command input can be assigned to a variable and variables can also contain other variables (they are read recursively):
+
+::
+
+   a=ci;0,0;10
+   b=ci;10,0;10
+   c=\a;\b;kill
+   \c
+
+Enter each line of the text above on the command line.  When ``\c`` is entered, two overlappiing circles with a radius of 10 are drawn.  The ``\`` character is an escape character that allows the command line to interpret the variable name as an action.  In the above example ``\c`` expands to ``ci;0,0;10;ci;10,0;10;kill``.
+
+A "variable file" can be set to load at startup via :ref:`Application Preferences<app-prefs>` **-> Paths -> Variable File**.  Save the first three line of the above example to a text file and configure the path to the text file.  Restart LibreCAD and when ``\c`` is entered at the command line the two circles are drawn.
+
+
+Command Aliases
+---------------
+
+As previously noted many of the commands in LibreCAD have multiple forms.  The long *untranslated* form is the native command and the short forms are *aliases* to the long form.  For example, "l" and "li" are aliases to "line".  The aliases are defined in the ``librecad.alias`` configuration file.
+The format of the configuration file is ``<alias>[Tab]<command-untranslated>``.  The default aliases for the **2 Points** line appears as:
+
+::
+
+   ...
+   l	line
+   li	line
+   ...
+
+Aliases can be added or modified to suit users' preferences.  The file is found in the following locations:
+
+   - **Linux**: $HOME/.local/share/LibreCAD/LibreCAD/librecad.alias
+   - **Windows**: C:\\Users\\ *{UserName}*\\AppData\\Local\\LibreCAD\\librecad.alias
+   - **macOS**: $HOME/Library/Application Support/LibreCAD/librecad.alias
+
+.. note:: Only change the alias and *not* the long *untranslated* form.
 
 
 Calculator
 ----------
 
-The 'cal' command now toggles a calculator mode.
+LibreCAD includes a built-in calculator that uses the command line interface.  Typing "cal" on the command line toggles the *calculator mode* on and off.  With the calculator mode on, math expressions typed on the command line will display the results in the output window, e.g. typing ``1+1`` displays ``1+1 = 2`` in the output window.  Some other examples are:
 
-"cal", use command line as a math expression calculator. Some examples:
+|   ``sqrt(3^2 + 4^2) = 5``
+|   ``sin(pi/6) = 0.5``
+|   ``6^5 = 7776``
 
-   cal 1+1
-   cal sin(pi/6)
-   cal log(2)
+If the cal mode is *off* entering a math expression will result in an error message such as ``Unknown command: 1+1``.
 
-The command line has a built in calculator that can be accessed with the cal command.
+A complete list of operators and functions can be found in the :ref:`appendix<calc>`.
 
-Constants:
+.. note:: The constant pi is defined in LibreCAD as 3.14159265359.
 
-    pi = 3.14159265359
-
-Operators:
-
-addition:
-cal 6+5
-
-subtraction:
-cal 6-5
-
-multiplication:
-cal 6*5
-
-division:
-cal 6/5
-
-six to the fifth power:
-cal 6^5
-
-Functions:
-
-square root:
-cal sqrt(5)
-cal sqrt(3^2 + 4^2)
-
-average:
-cal avg(6,5)
-
-Trigonometric functions:
-
-Note these functions take radians.
-degrees*pi/180 = radians
-
-sine:
-cal sin(6*pi/180)
-
-cosine:
-cal cos(6d)
-
-tangent:
-cal tan(6deg)
+.. note:: Trigonometric functions use radians (radians = degrees*pi/180).
 
 
-Command Alias File
-------------------
+.. images:
 
-You can define command aliases by changing the alias configuration file and restarting LibreCAD.
-
-Linux:
-
-    $HOME/.local/share/data/LibreCAD/librecad.alias
-
-Windows:
-
-    C:\Users\[USERNAME]\AppData\Local\LibreCAD\librecad.alias
-
-Mac:
-
-    $HOME/Library/Application Support/LibreCAD/librecad.alias
-
-
-https://wiki.librecad.org/index.php?title=A_short_manual_for_use_from_the_command_line
-https://wiki.librecad.org/index.php?title=LibreCAD_users_Manual#Using_Command_Line
+.. |tlopt12| image:: /images/toolOptions/toLineParlOff.png
+            :height: 32
+            :width: 231
