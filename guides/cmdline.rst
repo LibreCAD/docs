@@ -72,6 +72,39 @@ Either can be used can be used to enter new values.  The current value on the co
 The command output window displays the command history, error messages, and other output (see **Calculator** below).  The text in the output window can be copied simply by highlighting it.  The text is automatically copied to the clipboard and can be pasted into another document.  The output window can be cleared of all text by typing "clear" in the command line.
 
 
+Multi-Command Input
+-------------------
+
+Command input can be combined and entered on a single line by separating the commands and other input with semicolons.  Entering ``li;0,0;10..0;0..10;-10..0;c;k`` on the command line will draw a 10 x 10 square.  A list of commands, separated by a newline (return), can be copied and pasted using **Past multiple commands** from the command line button (lower right corner of the **Command Line Dock**).
+
+Command input can also be loaded from text files.  Entering the commands and other input into a text file separating each with a newline.  For example, create a text file and enter the following commands:
+
+::
+
+   li
+   0,0
+   @10,0
+   @0,10
+   @-10,0
+   c
+   k
+
+Save the file as "multiCmd.txt". In LibreCAD select "Load Command File" from the the drop-down menu by clicking the command line button.  Locate the file and click the **Open** button.  The above commands will draw a 10 x 10 square.
+
+Multi-command input can be assigned to a variable and variables can also contain other variables (they are read recursively):
+
+::
+
+   a=ci;0,0;10
+   b=ci;10,0;10
+   c=\a;\b;kill
+   \c
+
+Enter each line of the text above on the command line.  When ``\c`` is entered, two overlappiing circles with a radius of 10 are drawn.  The ``\`` character is an escape character that allows the command line to interpret the variable name as an action.  In the above example ``\c`` expands to ``ci;0,0;10;ci;10,0;10;kill``.
+
+A "variable file" can be set to load at startup via :ref:`Application Preferences<app-prefs>` **-> Paths -> Variable File**.  Save the first three line of the above example to a text file and configure the path to the text file.  Restart LibreCAD and when ``\c`` is entered at the command line the two circles are drawn.
+
+
 Command Aliases
 ---------------
 
@@ -92,39 +125,6 @@ Aliases can be added or modified to suit users' preferences.  The file is found 
    - **macOS**: $HOME/Library/Application Support/LibreCAD/librecad.alias
 
 .. note:: Only change the alias and *not* the long *untranslated* form.
-
-
-Multi-Command Input
--------------------
-
-Command input can be combined and entered on a single line by separating the commands and other input with semicolons.  Entering ``li;0,0;10..0;0..10;-10..0;c;k`` on the command line will draw a 10 x 10 square.  
-
-Command input can also be loaded from text files.  Entering the commands and other input into a text file separating each with a newline.  For example, create a text file and enter the following commands:
-
-::
-
-   li
-   0,0
-   @10,0
-   @0,10
-   @-10,0
-   c
-   k
-
-Save the file as "multiCmd.txt". In LibreCAD select "Load Command File" from the the drop-down menu by clicking the command line button (lower right corner of the **Command Line Dock**).  Locate the file and click the **Open** button.  The above commands will draw a 10 x 10 square.
-
-Multi-command input can be assigned to a variable and variables can also contain other variables (they are read recursively):
-
-::
-
-   a=ci;0,0;10
-   b=ci;10,0;10
-   c=\a;\b;kill
-   \c
-
-Enter each line of the text above on the command line.  When ``\c`` is entered, two overlappiing circles with a radius of 10 are drawn.  The ``\`` character is an escape character that allows the command line to interpret the variable name as an action.  In the above example ``\c`` expands to ``ci;0,0;10;ci;10,0;10;kill``.
-
-A "variable file" can be set to load at startup via :ref:`Application Preferences<app-prefs>` **-> Paths -> Variable File**.  Save the first three line of the above example to a text file and configure the path to the text file.  Restart LibreCAD and when ``\c`` is entered at the command line the two circles are drawn.
 
 
 Calculator
