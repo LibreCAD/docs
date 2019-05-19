@@ -46,9 +46,12 @@ From an Empty Block
 Using Blocks
 ------------
 
+Quick way
+~~~~~~~~~
+
     - Select a block in the **Block List**.
     - Click on the **Insert the active block** icon |icon18|.
-    - Place the block at the desired location within the drawing.  Optionally specify a rotation angle and / or a scale factor for the block.
+    - Place the block at the desired location within the drawing.
 
 Blocks can also be cut, copied, and pasted using the normal edit commands.  For example, to copy a block from one drawing to another:
 
@@ -56,6 +59,37 @@ Blocks can also be cut, copied, and pasted using the normal edit commands.  For 
     - Press [Ctrl]+[c] (or **Edit -> Copy** from the menu)
     - Within the current drawing or switch to a new drawing and press [Ctrl]+[v] (or **Edit -> Paste**)
     - Specified a point in the drawing to place the block.
+
+
+Advanced way
+~~~~~~~~~~~~
+
+Inserting block capability can be expanded through the *Tool Option* bar features before the block is inserted. 
+
+.. figure:: /images/toolOptions/toBlockInsert.png
+    :width: 617px
+    :height: 34px
+    :align: center
+    :scale: 75
+    :alt: Block insert tool option bar
+
+These features can be of two types:
+    - Related to block transformations: *Angle* of rotation and scale *Factor*.
+    - Related to block patterns: *Array* (grid size) and *Spacing* between columns and rows of the array.
+
+In the same block insertion, it is possible to combine transformations and pattern: a pattern of defined size and spacing is created then the pattern is rotated and finally the block entities are scaled but the spacing distances remain as defined.
+
+    - Select a block in the **Block List**.
+    - Click on the **Insert the active block** icon |icon18|.
+    - Type the angle of rotation in *Angle* field, if any. See :ref:`Angles in LibreCAD <fundamentals>`.
+    - Type the scale factor in *Factor* field, if any. It is the same scale factor as in :ref:`Modify <tools>`.
+    - Define the numbers of columns and rows in *Array* area to create a pattern. Otherwise keep 1 for columns and rows.
+    - Type the *Column spacing* distance between each column of the array. This is the distance between 2 block insertion points of 2 adjacent columns. 
+    - Type the *Row spacing* distance between each row of the array. This is the distance between 2 block insertion points of 2 adjacent rows. 
+    - Place the block at the desired location within the drawing. The insertion point of the pattern is the insertion point of the extreme lower and extreme left item in the array.
+
+.. note::
+    Using a pattern of 3x2 blocks will gather all entities of the 6 array items in *one block instance*. So selecting one entity of the 6-pattern will select the 6 array items. If this is not the intent then use the Rotate and Move commands with *Multiple copies*.
 
 
 Saving Blocks
