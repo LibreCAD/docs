@@ -31,13 +31,13 @@ From an Existing Drawing
     - Select all the entities that make up the object
     - Click on the **Create Block** |icon12|.
     - Specify the reference point for the block.  The reference point is used to locate the object when it is inserted into the drawing.
-    - Provide a unique name for the new block and click "OK".  The new block will appear in the **Block List** dock.
+    - Provide a unique name for the new block and click **OK**.  The new block will appear in the **Block List** dock.
 
 
 From an Empty Block
 ~~~~~~~~~~~~~~~~~~~
 
-    - Click on the "Add an empty block" icon |icon12|.  Provide a unique name for the new block and click "OK".  The new block will appear in the **Block List** dock.
+    - Click on the **Add an empty block** icon |icon12|.  Provide a unique name for the new block and click **OK**.  The new block will appear in the **Block List** dock.
     - Select the new block in the **Block List** and click the **Edit the active block in a separate window** icon |icon16|.
     - Draw the object.  The drawing's origin (0, 0) will become the reference point for the block.
     - Close the new block's drawing window and the block will be saved.
@@ -47,8 +47,8 @@ Using Blocks
 ------------
 
     - Select a block in the **Block List**.
-    - Click on the "Insert the active block" |icon18|.
-    - Place the block at the desired location within the drawing.  optionally specify a rotation angle and / or a scale factor for the block.
+    - Click on the **Insert the active block** icon |icon18|.
+    - Place the block at the desired location within the drawing.  Optionally specify a rotation angle and / or a scale factor for the block.
 
 Blocks can also be cut, copied, and pasted using the normal edit commands.  For example, to copy a block from one drawing to another:
 
@@ -65,7 +65,7 @@ Blocks can be saved to a separate file and used in other drawings or added to a 
 
     - Select a block in the **Block List**.
     - Click the **Save the active block to a file** icon |icon17|.
-    - Select a file location, specify a file name and Click **Save**.
+    - Select a file location, specify a file name and click **Save**.
 
 
 Block Libraries
