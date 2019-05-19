@@ -37,7 +37,7 @@ From an Existing Drawing
 From an Empty Block
 ~~~~~~~~~~~~~~~~~~~
 
-    - Click on the **Add an empty block** icon |icon12|.  Provide a unique name for the new block and click **OK**.  The new block will appear in the **Block List** dock.
+    - Click on the **Add an empty block** icon |icon13|.  Provide a unique name for the new block and click **OK**.  The new block will appear in the **Block List** dock.
     - Select the new block in the **Block List** and click the **Edit the active block in a separate window** icon |icon16|.
     - Draw the object.  The drawing's origin (0, 0) will become the reference point for the block.
     - Close the new block's drawing window and the block will be saved.
