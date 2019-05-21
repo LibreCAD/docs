@@ -110,6 +110,15 @@ LibreCAD includes several categories of blocks in its library; algorithm, elektr
 .. note::
     Insert a block from the library into the drawing only once.  If the same block is needed more than once, add  subsequent blocks from the **Block List**.  Inserting a block from the **Library Browser** multiple times will create multiple *independent* copies of the block in the **Block List**.
 
+Blocks located in a library can be rotated and scaled through the *Tool Option* bar features before their insertion. The rotation angle and the scale factor behave as for regular block.
+
+.. figure:: /images/toolOptions/toBlockLib.png
+    :width: 317px
+    :height: 33px
+    :align: center
+    :scale: 75
+    :alt: Block from library insertion tool option bar
+
 
 Adding to the Library
 ~~~~~~~~~~~~~~~~~~~~~
