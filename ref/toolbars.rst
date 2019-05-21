@@ -102,6 +102,12 @@ Inserting a block from a library can be enhanced through the *Tool Option* bar f
     :scale: 75
     :alt: Block from library insertion tool option bar
 
+.. csv-table:: 
+    :widths: 30, 70
+    :header-rows: 1
+    :stub-columns: 0
+    :class: fix-table
+    
     "Option Item", "Description"
     "Angle", "Defines the angle of rotation, if any. See :ref:`Angles in LibreCAD <fundamentals>`."
     "Factor", "Defines the scale factor, if any. It is the same scale factor as in :ref:`Modify <tools>`."
