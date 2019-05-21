@@ -88,6 +88,25 @@ The **Block Insert** capability can be expanded through the *Tool Option* bar fe
     "Spacing", "Defines the distance between each column of the array and the distance between each row. The distance is measured between 2 insertion points of 2 adjacent blocks."
 
 
+.. _library:
+
+Block insert from a library
+---------------------------
+
+Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted. Please refer also to :ref:`Blocks <blocks>` usage.
+
+.. figure:: /images/toolOptions/toBlockLib.png
+    :width: 317px
+    :height: 33px
+    :align: center
+    :scale: 75
+    :alt: Block from library insertion tool option bar
+
+    "Option Item", "Description"
+    "Angle", "Defines the angle of rotation, if any. See :ref:`Angles in LibreCAD <fundamentals>`."
+    "Factor", "Defines the scale factor, if any. It is the same scale factor as in :ref:`Modify <tools>`."
+
+
 ..  Icon mapping:
 
 .. |icon00| image:: /images/icons/printscale.png
