@@ -44,7 +44,7 @@ Print Preview
 
 The **Print Preview** toolbar enables to set the print output up as desired regardless of output format (pdf or paper). The print view can be configured after selecting **File -> Print Preview** through the menu. A combination of scale value, color status and drawing position relative to paper allows customed print output. The steps are detailed in :ref:`printing guide <printing>`.
 
-.. important::
+ .. important::
     You cannot set the print output up with the menus nor by typing commands. Please make sure the *Tool Option* toolbar is visible.
 
 .. csv-table:: 
