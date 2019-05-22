@@ -31,13 +31,13 @@ From an Existing Drawing
     - Select all the entities that make up the object
     - Click on the **Create Block** |icon12|.
     - Specify the reference point for the block.  The reference point is used to locate the object when it is inserted into the drawing.
-    - Provide a unique name for the new block and click "OK".  The new block will appear in the **Block List** dock.
+    - Provide a unique name for the new block and click **OK**.  The new block will appear in the **Block List** dock.
 
 
 From an Empty Block
 ~~~~~~~~~~~~~~~~~~~
 
-    - Click on the "Add an empty block" icon |icon12|.  Provide a unique name for the new block and click "OK".  The new block will appear in the **Block List** dock.
+    - Click on the **Add an empty block** icon |icon13|.  Provide a unique name for the new block and click **OK**.  The new block will appear in the **Block List** dock.
     - Select the new block in the **Block List** and click the **Edit the active block in a separate window** icon |icon16|.
     - Draw the object.  The drawing's origin (0, 0) will become the reference point for the block.
     - Close the new block's drawing window and the block will be saved.
@@ -46,9 +46,12 @@ From an Empty Block
 Using Blocks
 ------------
 
+Quick way
+~~~~~~~~~
+
     - Select a block in the **Block List**.
-    - Click on the "Insert the active block" |icon18|.
-    - Place the block at the desired location within the drawing.  optionally specify a rotation angle and / or a scale factor for the block.
+    - Click on the **Insert the active block** icon |icon18|.
+    - Place the block at the desired location within the drawing.
 
 Blocks can also be cut, copied, and pasted using the normal edit commands.  For example, to copy a block from one drawing to another:
 
@@ -58,6 +61,37 @@ Blocks can also be cut, copied, and pasted using the normal edit commands.  For 
     - Specified a point in the drawing to place the block.
 
 
+Advanced way
+~~~~~~~~~~~~
+
+Inserting block capability can be expanded through the *Tool Option* bar features before the block is inserted. 
+
+.. figure:: /images/toolOptions/toBlockInsert.png
+    :width: 617px
+    :height: 34px
+    :align: center
+    :scale: 75
+    :alt: Block insert tool option bar
+
+These features can be of two types:
+    - Related to block transformations: *Angle* of rotation and scale *Factor*.
+    - Related to block patterns: *Array* (grid size) and *Spacing* between columns and rows of the array.
+
+In the same block insertion, it is possible to combine transformations and pattern: a pattern of defined size and spacing is created then the pattern is rotated and finally the block entities are scaled but the spacing distances remain as defined.
+
+    - Select a block in the **Block List**.
+    - Click on the **Insert the active block** icon |icon18|.
+    - Type the angle of rotation in *Angle* field, if any. See :ref:`Angles in LibreCAD <fundamentals>`.
+    - Type the scale factor in *Factor* field, if any. It is the same scale factor as in :ref:`Modify <tools>`.
+    - Define the numbers of columns and rows in *Array* area to create a pattern. Otherwise keep 1 for columns and rows.
+    - Type the *Column spacing* distance between each column of the array. This is the distance between 2 block insertion points of 2 adjacent columns. 
+    - Type the *Row spacing* distance between each row of the array. This is the distance between 2 block insertion points of 2 adjacent rows. 
+    - Place the block at the desired location within the drawing. The insertion point of the pattern is the insertion point of the extreme lower and extreme left item in the array.
+
+.. note::
+    Using a pattern of 3x2 blocks will gather all entities of the 6 array items in *one block instance*. So selecting one entity of the 6-pattern will select the 6 array items. If this is not the intent then use the Rotate and Move commands with *Multiple copies*.
+
+
 Saving Blocks
 -------------
 
@@ -65,7 +99,7 @@ Blocks can be saved to a separate file and used in other drawings or added to a 
 
     - Select a block in the **Block List**.
     - Click the **Save the active block to a file** icon |icon17|.
-    - Select a file location, specify a file name and Click **Save**.
+    - Select a file location, specify a file name and click **Save**.
 
 
 Block Libraries
@@ -75,6 +109,15 @@ LibreCAD includes several categories of blocks in its library; algorithm, elektr
 
 .. note::
     Insert a block from the library into the drawing only once.  If the same block is needed more than once, add  subsequent blocks from the **Block List**.  Inserting a block from the **Library Browser** multiple times will create multiple *independent* copies of the block in the **Block List**.
+
+Blocks located in a library can be rotated and scaled through the *Tool Option* bar features before their insertion. The rotation angle and the scale factor behave as for regular block.
+
+.. figure:: /images/toolOptions/toBlockLib.png
+    :width: 317px
+    :height: 33px
+    :align: center
+    :scale: 75
+    :alt: Block from library insertion tool option bar
 
 
 Adding to the Library

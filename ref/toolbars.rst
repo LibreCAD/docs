@@ -61,6 +61,58 @@ The **Print Preview** toolbar enables to set the print output up as desired rega
     "Multipages", |icon04|, "Determines the number of pages needed to print the drawing based on the defined scale and the paper size selected in *Drawing Preferences*."
 
 
+.. _insert:
+
+Block insert
+------------
+
+The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. Please refer also to :ref:`Blocks <blocks>` usage.
+
+.. figure:: /images/toolOptions/toBlockInsert.png
+    :width: 617px
+    :height: 34px
+    :align: center
+    :scale: 75
+    :alt: Block insert tool option bar
+
+.. csv-table:: 
+    :widths: 30, 70
+    :header-rows: 1
+    :stub-columns: 0
+    :class: fix-table
+    
+    "Option Item", "Description"
+    "Angle", "Defines the angle of rotation, if any. See :ref:`Angles in LibreCAD <fundamentals>`."
+    "Factor", "Defines the scale factor, if any. It is the same scale factor as in :ref:`Modify <tools>`."
+    "Array", "Defines the numbers of columns and rows to create a pattern of selected block. Otherwise keep 1 for columns and rows."
+    "Spacing", "Defines the distance between each column of the array and the distance between each row. The distance is measured between 2 insertion points of 2 adjacent blocks."
+
+
+.. _library:
+
+Block insert from a library
+---------------------------
+
+Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted. Please refer also to :ref:`Blocks <blocks>` usage.
+
+.. figure:: /images/toolOptions/toBlockLib.png
+    :width: 317px
+    :height: 33px
+    :align: center
+    :scale: 75
+    :alt: Block from library insertion tool option bar
+
+.. csv-table:: 
+    :widths: 30, 70
+    :header-rows: 1
+    :stub-columns: 0
+    :class: fix-table
+    
+    "Option Item", "Description"
+    "Angle", "Defines the angle of rotation, if any. See :ref:`Angles in LibreCAD <fundamentals>`."
+    "Factor", "Defines the scale factor, if any. It is the same scale factor as in :ref:`Modify <tools>`."
+
+
 ..  Icon mapping:
 
 .. |icon00| image:: /images/icons/printscale.png
