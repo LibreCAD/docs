@@ -1,10 +1,15 @@
 /* Change theme color to LibreCAD's themes */
-/*
 
+/* Sidebar header (and topbar for mobile) */
 .wy-side-nav-search, .wy-nav-top {
     background: #547a29 !important;
 }
-*/
+
+/* Sidebar */
+.wy-nav-side {
+    background: #466522;
+}
+
 
 /* Corrects issue with table exceeding web page width  */
 /* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
