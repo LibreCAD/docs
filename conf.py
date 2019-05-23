@@ -85,8 +85,8 @@ todo_include_todos = True
 # a list of builtin themes.
 #
 ##html_theme = 'alabaster'
-##html_theme = 'sphinx_rtd_theme'
-html_theme = 'classic'
+##html_theme = 'classic'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -144,7 +144,7 @@ htmlhelp_basename = 'LibreCADdoc'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
-    # 'papersize': 'letterpaper',
+     'papersize': 'letterpaper',
 
     # The font size ('10pt', '11pt' or '12pt').
     #
