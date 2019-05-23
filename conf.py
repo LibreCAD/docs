@@ -92,7 +92,7 @@ html_theme = 'sphinx_rtd_theme'
 # documentation.
 #
 html_theme_options = {
-   "sidebarbgcolor": "#a2cf6f"
+   "sidebarbgcolor": #a2cf6f
 #   sidebarbtncolor (CSS color): Background color for the sidebar collapse button (used when collapsiblesidebar is    True).
 #   sidebartextcolor (CSS color): Text color for the sidebar.
 #   sidebarlinkcolor (CSS color): Link color for the sidebar.
