@@ -1,17 +1,19 @@
 /* Change theme color to LibreCAD's themes */
+/* See conf.py, html_theme_options */
 
-/* Sidebar header (and topbar for mobile) */
+/* Sidebar header (and topbar for mobile)
 .wy-side-nav-search, .wy-nav-top {
     background: #547a29 !important;
 }
+ */
 
-/* Sidebar */
+/* Sidebar - need to change the text color
 .wy-nav-side {
-/*    background: #466522;*/
+*    background: #466522;*
     background: #a2cf6f;
     color: #000000;
 }
-
+*/
 
 /* Corrects issue with table exceeding web page width  */
 /* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */

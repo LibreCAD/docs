@@ -91,7 +91,15 @@ html_theme = 'sphinx_rtd_theme'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+   sidebarbgcolor: #a2cf6f,
+#   sidebarbtncolor (CSS color): Background color for the sidebar collapse button (used when collapsiblesidebar is    True).
+#   sidebartextcolor (CSS color): Text color for the sidebar.
+#   sidebarlinkcolor (CSS color): Link color for the sidebar.
+#   relbarbgcolor (CSS color): Background color for the relation bar.
+#   relbartextcolor (CSS color): Text color for the relation bar.
+#   relbarlinkcolor (CSS color): Link color for the relation bar.
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
