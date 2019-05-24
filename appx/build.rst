@@ -39,7 +39,7 @@ Building on Linux
 
 .. note::
 
-    These instructions are for Debian based Linux distributions.
+    These instructions are for building LibreCAD on Debian and other derivatives.  Further instructions for building LibreCAD on other Linux distributions (openSUSE, Red Hat, FreeBSD) and generic Unix distributions can be found on the GitHub Developers wiki (https://github.com/LibreCAD/LibreCAD/wiki) in the **Build from Source** section. 
 
 
 Install Tools and Dependencies
@@ -80,10 +80,6 @@ Building on Windows
 -------------------
 
 Building LibreCAD on Windows is a little more involved and requires a few additional steps.  Please read these instructions carefully.
-
-.. note::
-
-    *This section is currently being updated.*  Please provide any feedback on the build process on the LibreCAD forum: http://forum.librecad.org/Help-wanted-to-build-on-Windows-td5717272.html
 
 
 Install Tools and Dependencies
@@ -147,6 +143,10 @@ Once the DLLs have been copied to the executable folder, LibreCAD can be launche
 ::
 
    > C:\dev\LibreCAD-master\windows\librecad.exe
+
+.. note::
+
+	Detailed instructions for building LibreCAD on Windows can be found on the GitHub Developers wiki (https://github.com/LibreCAD/LibreCAD/wiki) in the **Build from Source** section.  Additional instructions are available for building LibreCAD in **Visual Studio 2013** and newer.
 
 
 .. _buildMac:
