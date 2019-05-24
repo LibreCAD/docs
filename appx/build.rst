@@ -146,7 +146,7 @@ Once the DLLs have been copied to the executable folder, LibreCAD can be launche
 
 .. note::
 
-	Detailed instructions for building LibreCAD on Windows can be found on the GitHub Developers wiki (https://github.com/LibreCAD/LibreCAD/wiki) in the **Build from Source** section.  Additional instructions are available for building LibreCAD in **Visual Studio 2013** and newer.
+	Detailed instructions for building LibreCAD on Windows, including instructions for building LibreCAD in **Visual Studio 2013** and newer, can be found on the GitHub Developers wiki (https://github.com/LibreCAD/LibreCAD/wiki) in the **Build from Source** section.
 
 
 .. _buildMac:
