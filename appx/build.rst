@@ -39,7 +39,7 @@ Building on Linux
 
 .. note::
 
-    These instructions are for building LibreCAD on Debian and other derivatives.  Further instructions for building LibreCAD on other Linux distributions (openSUSE, Red Hat, FreeBSD) and generic Unix can be found on the GitHub Developers wiki (https://github.com/LibreCAD/LibreCAD/wiki) in the **Build from source** section. 
+    These instructions are for building LibreCAD on **Debian** and other derivatives.  Further instructions for building LibreCAD on other Linux distributions (openSUSE, Red Hat, FreeBSD) and generic Unix can be found on the GitHub Developers wiki (https://github.com/LibreCAD/LibreCAD/wiki) in the **Build from source** section. 
 
 
 Install Tools and Dependencies
