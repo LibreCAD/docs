@@ -104,7 +104,7 @@ Download the current release of the boost library "zip" file from Boost download
 muParser
 ````````
 
-muParser is not required to build LibreCAD on Windows as a patched version of the muParser library has been included in the LibreCAD source code since LibreCAD version 2.0.4.
+muParser is not required to build LibreCAD on Windows as the library is now included with the LibreCAD source code.
 
 
 Build LibreCAD in Qt Creator
