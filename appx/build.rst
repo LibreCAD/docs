@@ -92,7 +92,7 @@ Install Tools and Dependencies
 Qt Framework
 `````````````
 
-The Windows version of Qt includes both the required framework library and the compiler.  Download the open source version of the **Qt Offline Installer** from Qt download <https://www.qt.io/download>.  Install Qt to the default path prompted by the installer.  On the *Select Components* page include the latest version of the compiler, **MinGW**, under the most recent version of Qt, e.g. `MinGW 7.3.0 32-bit` and `Qt 5.12.3` respectively.  No other components are needed.
+The Windows version of Qt includes both the required framework library and the compiler.  Download the *open source* version of the **Qt Online Installer** from Qt download <https://www.qt.io/download>.  Install Qt to the default path prompted by the installer.  On the *Select Components* page include the latest version of the compiler, **MinGW**, under the most recent version of Qt, e.g. `MinGW 7.3.0 32-bit` and `Qt 5.12.3` respectively.  No other components are needed.
 
 
 Boost
