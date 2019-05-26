@@ -92,7 +92,7 @@ Install Tools and Dependencies
 Qt Framework
 `````````````
 
-The Windows version of Qt includes both the required framework library and the compiler.  Download the *open source* version of the **Qt Online Installer** from Qt download <https://www.qt.io/download>.  Launch the installer accepting the defaults.  Install Qt to the default path prompted by the installer, e.g. `C:\\Qt\\Qt5.12.3`.  On the *Select Components* page expand the tree view under the most recent version of Qt, e.g. `Qt 5.12.3`, and select the latest version of the **MinGW** compiler; `MinGW 7.3.0 (32-bit or 64 bit as required)`.  No other components are needed.
+The Windows version of Qt includes both the required framework library and the compiler.  Download the *open source* version of the **Qt Online Installer** from Qt download <https://www.qt.io/download>.  Launch the installer accepting the defaults.  Install Qt to the default path prompted by the installer, e.g. `C:\\Qt`.  On the *Select Components* page expand the tree view under the most recent version of Qt, e.g. `Qt 5.12.3`, and select the latest version of the **MinGW** compiler; `MinGW 7.3.0 (32-bit or 64 bit as required)`.  No other components are needed.
 
 
 Boost
@@ -131,7 +131,7 @@ With the configuration complete, run the build process in Qt Creator by clicking
 
 .. important::
 
-	Several *Dynamic-link libraries (DLL)* are required to run LibreCAD.  The DLLs are found in the C:\\Qt\\Qt5.12.3\\5.12.3\\mingw73_32\\bin folder and need to be copied to the same directory as the executable (or included in the path). The DLLs are:
+	Several *Dynamic-link libraries (DLL)* are required to run LibreCAD.  The DLLs are found in the C:\\Qt\\5.12.3\\mingw73_32\\bin folder (or mingw73_64) and need to be copied to the same directory as the executable (or included in the path). The DLLs are:
 
 	   - libgcc_s_dw2-1.dll
 	   - libstdc++-6.dll
