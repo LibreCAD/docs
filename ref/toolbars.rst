@@ -67,10 +67,10 @@ The **Print Preview** toolbar is used to set up the print output as desired rega
     :class: fix-table
     
     "Option Item", "Icon", "Description"
-    "Scale", |icon00|, "Defines the scale of the drawing based on its size and the paper size selected in :ref:`Drawing Preferences <draw-prefs>`. It is also possible to freely adjust the scale to a specific value proposed in the list or enter a custom value with colon (:). Check the *Fixed Scale* checkbox locks the actual scale."
-    "Toggle Black/White", |icon01|, "Toggles all the colors of entities from colored to Black/White."
+    "Scale", , "Displays the scale of the drawing based on its size and the paper size selected in :ref:`Drawing Preferences <draw-prefs>`. It is also possible to adjust the scale to a specific value to a value in the drop down  list or enter a custom values seperated by the colon (:). Checking the *Fixed Scale* checkbox locks the scale."
+    "Toggle Black/White", |icon01|, "Toggles the colors of all entities from color to black/white."
     "Center to page", |icon02|, "Centers the drawing to the paper size selected in *Drawing Preferences*."
-    "Fit to page", |icon03|, "Fit the drawing to the paper size selected."
+    "Fit to page", |icon03|, "Fits the drawing to the paper size selected."
     "Multipages", |icon04|, "Determines the number of pages needed to print the drawing based on the defined scale and the paper size selected in *Drawing Preferences*."
 
 
