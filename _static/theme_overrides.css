@@ -8,8 +8,8 @@
 
 /* Sidebar - need to change the text color */
 .wy-nav-side {
-*    background: #466522;*
-    background: #a2cf6f;
+    background: #466522;
+/*    background: #a2cf6f;*/
     color: #000000;
 }
 
