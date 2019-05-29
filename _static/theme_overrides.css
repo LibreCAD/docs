@@ -2,14 +2,13 @@
 
 /* Sidebar header (and topbar for mobile) */
 .wy-side-nav-search, .wy-nav-top {
-    background: #547a29 !important;
+    background: #466522 !important;
 }
 
 
 /* Sidebar - need to change the text color */
 .wy-nav-side {
-    background: #466522;
-/*    background: #a2cf6f;*/
+    background: #547a29;
     color: #000000;
 }
 
