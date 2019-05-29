@@ -13,13 +13,13 @@
 
 /* Sidebar text */
 .wy-nav .wy-menu-vertical {
-  header
-    color: #7eb63d
-  a
-    color: #f8fbf4
-    &:hover
-      background-color: #f8fbf4
-      color: #000000
+   header
+      color: #7eb63d;
+   a
+      color: #f8fbf4;
+   &:hover;
+      background-color: #f8fbf4;
+      color: #000000;
 }
 
 /* Corrects issue with table exceeding web page width  */
