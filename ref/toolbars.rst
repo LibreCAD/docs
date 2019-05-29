@@ -37,15 +37,27 @@ Toolbars provide alternatives to menus for accessing application functions and d
     "View", ":ref:`View <view>` options."
 
 
+Other Tools Options
+-------------------
+
+
 .. _preview:
 
 Print Preview
--------------
+~~~~~~~~~~~~~
 
 The **Print Preview** toolbar enables to set the print output up as desired regardless of output format (pdf or paper). The print view can be configured after selecting **File -> Print Preview** through the menu. A combination of scale value, color status and drawing position relative to paper allows customed print output. The steps are detailed in :ref:`printing guide <printing>`.
 
  .. important::
     You cannot set the print output up with the menus nor by typing commands. Please make sure the *Tool Option* toolbar is visible.
+
+.. figure:: /images/toolOptions/toPrtPreview.png
+    :width: 316px
+    :height: 35px
+    :align: left
+    :scale: 100
+    :alt:  Print Preview tool option bar
+
 
 .. csv-table:: 
     :widths: 20, 10, 70
@@ -63,16 +75,19 @@ The **Print Preview** toolbar enables to set the print output up as desired rega
 
 .. _insert:
 
-Block insert
-------------
+Inserting Blocks
+~~~~~~~~~~~~~~~~
 
-The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. Please refer also to :ref:`Blocks <blocks>` usage.
+From Block List
+```````````````
+
+The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. Refer also to :ref:`Blocks <blocks>` for usage.
 
 .. figure:: /images/toolOptions/toBlockInsert.png
     :width: 617px
     :height: 34px
-    :align: center
-    :scale: 75
+    :align: left
+    :scale: 100
     :alt: Block insert tool option bar
 
 .. csv-table:: 
@@ -90,16 +105,16 @@ The **Block Insert** capability can be expanded through the *Tool Option* bar fe
 
 .. _library:
 
-Block insert from a library
----------------------------
+From Block Library
+``````````````````
 
-Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted. Please refer also to :ref:`Blocks <blocks>` usage.
+Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted. Refer also to :ref:`Blocks <blocks>` for usage.
 
 .. figure:: /images/toolOptions/toBlockLib.png
     :width: 317px
     :height: 33px
-    :align: center
-    :scale: 75
+    :align: left
+    :scale: 10"0
     :alt: Block from library insertion tool option bar
 
 .. csv-table:: 
