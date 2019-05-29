@@ -54,7 +54,7 @@ The **Print Preview** toolbar enables to set the print output up as desired rega
 .. figure:: /images/toolOptions/toPrtPreview.png
     :width: 316px
     :height: 35px
-    :align: left
+    :align: right
     :scale: 100
     :alt:  Print Preview tool option bar
 
@@ -89,7 +89,7 @@ The **Block Insert** capability can be expanded through the *Tool Option* bar fe
 .. figure:: /images/toolOptions/toBlockInsert.png
     :width: 617px
     :height: 34px
-    :align: left
+    :align: right
     :scale: 100
     :alt: Block insert tool option bar
 
@@ -120,8 +120,8 @@ Inserting a block from a library can be enhanced through the *Tool Option* bar f
 .. figure:: /images/toolOptions/toBlockLib.png
     :width: 317px
     :height: 33px
-    :align: left
-    :scale: 10"0
+    :align: right
+    :scale: 100
     :alt: Block from library insertion tool option bar
 
 |
