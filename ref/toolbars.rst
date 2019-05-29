@@ -44,7 +44,7 @@ Other Tools Options
     Print Preview and Block operations require the use of the **Tool Options** toolbar as the are no menu or command line equivalencies. Ensure the Tool Option toolbar is enabled (**Widgets -> Toolbars** and check **Tool Options**).
 
 
-.. _preview:
+.. _print-preview-toolopt:
 
 Print Preview
 ~~~~~~~~~~~~~
@@ -74,12 +74,13 @@ The **Print Preview** toolbar is used to set up the print output as desired rega
     "Multipages", |icon04|, "Determines the number of pages needed to print the drawing based on the defined scale and the paper size selected in *Drawing Preferences*."
 
 
-.. _insert:
+.. _blk-insert-toolopt:
 
 Inserting Blocks
 ~~~~~~~~~~~~~~~~
 
 There are two block insert operations with corresponding Tool Option toolbars.  For further details on using blocks refer to :ref:`Blocks <blocks>` in the User Guides.
+
 
 From Block List
 ```````````````
@@ -106,8 +107,6 @@ The **Block Insert** capability can be expanded through the *Tool Option* bar fe
     "Array", "Defines the numbers of columns and rows to create a pattern of selected block. Otherwise keep 1 for columns and rows."
     "Spacing", "Defines the distance between each column of the array and the distance between each row. The distance is measured between 2 insertion points of 2 adjacent blocks."
 
-
-.. _library:
 
 From Block Library
 ``````````````````
