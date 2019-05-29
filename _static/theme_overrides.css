@@ -5,13 +5,22 @@
     background: #466522 !important;
 }
 
-
-/* Sidebar - need to change the text color */
+/* Sidebar */
 .wy-nav-side {
     background: #547a29;
     color: #000000;
 }
 
+/* Sidebar text */
+.wy-nav .wy-menu-vertical {
+  header
+    color: #7eb63d
+  a
+    color: #f8fbf4
+    &:hover
+      background-color: #f8fbf4
+      color: #000000
+}
 
 /* Corrects issue with table exceeding web page width  */
 /* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
