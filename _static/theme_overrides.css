@@ -7,25 +7,24 @@
 
 /* Sidebar */
 .wy-nav-side {
-    background: #547a29;
+    background: #547a29 !important;
     color: #000000;
 }
 
-
-/* Sidebar text */
+/* Sidebar menu */
 .wy-menu-vertical a:hover {
-  background-color: #7eb63d;
+    background-color: #7eb63d !important;
 }
 
-/* Sidebar text
+/* Sidebar menu options 
 .wy-nav .wy-menu-vertical {
-   header
-      color: #7eb63d;
-   a
-      color: #f8fbf4;
-   &:hover;
-      background-color: #f8fbf4;
-      color: #000000;
+    header
+        color: #7eb63d;
+    a
+        color: #f8fbf4;
+    &:hover;
+        background-color: #f8fbf4;
+        color: #000000;
 }*/
 
 /* Corrects issue with table exceeding web page width  */
