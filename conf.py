@@ -93,13 +93,21 @@ html_theme = 'sphinx_rtd_theme'
 # documentation.
 #
 html_theme_options = {
-#   "sidebarbgcolor": "green"
-#   sidebarbtncolor (CSS color): Background color for the sidebar collapse button (used when collapsiblesidebar is    True).
-#   sidebartextcolor (CSS color): Text color for the sidebar.
-#   sidebarlinkcolor (CSS color): Link color for the sidebar.
-#   relbarbgcolor (CSS color): Background color for the relation bar.
-#   relbartextcolor (CSS color): Text color for the relation bar.
-#   relbarlinkcolor (CSS color): Link color for the relation bar.
+## Options for sphinx_rtd_theme:
+#   'canonical_url': '',
+#   'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
+#   'logo_only': False,
+#   'display_version': True,
+#   'prev_next_buttons_location': 'bottom',
+#   'style_external_links': False,
+#   'vcs_pageview_mode': '',
+#   'style_nav_header_background': 'white',
+    # Toc options
+#   'collapse_navigation': True,
+#   'sticky_navigation': True,
+#   'navigation_depth': 4,
+#   'includehidden': True,
+#   'titles_only': False
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -121,16 +129,9 @@ html_static_path = ['_static']
 ##}
 
 ### Theme overrides
+## Theme overrides defined in _static/theme_overrides.css
 def setup(app):
    app.add_stylesheet('theme_overrides.css')
-
-
-### Alt for method for theme overrides
-## html_context = {
-##     'css_files': [
-##         '_static/theme_overrides.css',  # override wide tables in RTD theme
-##         ],
-##      }
 
 
 # -- Options for HTMLHelp output ------------------------------------------
@@ -148,7 +149,7 @@ latex_elements = {
 
     # The font size ('10pt', '11pt' or '12pt').
     #
-    # 'pointsize': '10pt',
+     'pointsize': '10pt',
 
     # Additional stuff for the LaTeX preamble.
     #
@@ -209,5 +210,4 @@ epub_cover = ('/images/splash_librecad.png', '')
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
 
