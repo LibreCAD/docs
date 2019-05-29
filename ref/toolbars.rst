@@ -49,7 +49,7 @@ Other Tools Options
 Print Preview
 ~~~~~~~~~~~~~
 
-The **Print Preview** toolbar is used to set up the print output as desired regardless of output format (pdf or paper). The print preview can be configured after selecting **File -> Print Preview** through the menu. A combination of scale value, color status and drawing position relative to paper allows customed print output. The steps are detailed in :ref:`printing guide <printing>`.
+The **Print Preview** toolbar is used to set up the print output as desired regardless of output format (pdf or paper). The print preview can be configured after selecting **File -> Print Preview** through the menu.  A combination of scale value, color status and drawing position relative to paper allows customed print output. The steps are detailed in :ref:`printing guide <printing>`.
 
 
 .. figure:: /images/toolOptions/toPrtPreview.png
@@ -79,10 +79,12 @@ The **Print Preview** toolbar is used to set up the print output as desired rega
 Inserting Blocks
 ~~~~~~~~~~~~~~~~
 
+There are two block insert operations with corresponding Tool Option toolbars.  For further details on using blocks refer to :ref:`Blocks <blocks>` in the User Guides.
+
 From Block List
 ```````````````
 
-The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. Refer to :ref:`Blocks <blocks>` for usage.
+The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. 
 
 .. figure:: /images/toolOptions/toBlockInsert.png
     :width: 617px
@@ -110,7 +112,7 @@ The **Block Insert** capability can be expanded through the *Tool Option* bar fe
 From Block Library
 ``````````````````
 
-Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted. Refer to :ref:`Blocks <blocks>` for usage.
+Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted.
 
 .. figure:: /images/toolOptions/toBlockLib.png
     :width: 317px
