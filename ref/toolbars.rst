@@ -58,9 +58,6 @@ The **Print Preview** toolbar enables to set the print output up as desired rega
     :scale: 100
     :alt:  Print Preview tool option bar
 
-|
-|
-
 
 .. csv-table:: 
     :widths: 20, 10, 70
@@ -93,9 +90,6 @@ The **Block Insert** capability can be expanded through the *Tool Option* bar fe
     :scale: 100
     :alt: Block insert tool option bar
 
-|
-|
-
 
 .. csv-table:: 
     :widths: 30, 70
@@ -123,9 +117,6 @@ Inserting a block from a library can be enhanced through the *Tool Option* bar f
     :align: center
     :scale: 100
     :alt: Block from library insertion tool option bar
-
-|
-|
 
 
 .. csv-table:: 
