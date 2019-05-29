@@ -134,7 +134,7 @@ Inserting a block from a library can be enhanced through the *Tool Option* bar f
 
 ..  Icon mapping:
 
-.. |icon00| image:: /images/icons/printscale.png
+.. |icon00| image: /images/icons/librecad.png
             :height: 24
             :width: 24    
 .. |icon01| image:: /images/icons/black_n_white_mode.svg
