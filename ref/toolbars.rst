@@ -41,7 +41,7 @@ Other Tools Options
 -------------------
 
  .. important::
-    Print Preview and Block operations require the use of the **Tool Options** toolbar as the are no menu or command line equivalency. Ensure the Tool Option toolbar is visible (**widgets -> Toolbars**, check **Tool Options**).
+    Print Preview and Block operations require the use of the **Tool Options** toolbar as the are no menu or command line equivalencies. Ensure the Tool Option toolbar is visible (**widgets -> Toolbars**, check **Tool Options**).
 
 .. _preview:
 
