@@ -41,14 +41,15 @@ Other Tools Options
 -------------------
 
  .. important::
-    Print Preview and Block operations require the use of the **Tool Options** toolbar as the are no menu or command line equivalencies. Ensure the Tool Option toolbar is visible (**widgets -> Toolbars**, check **Tool Options**).
+    Print Preview and Block operations require the use of the **Tool Options** toolbar as the are no menu or command line equivalencies. Ensure the Tool Option toolbar is enabled (**Widgets -> Toolbars** and check **Tool Options**).
+
 
 .. _preview:
 
 Print Preview
 ~~~~~~~~~~~~~
 
-The **Print Preview** toolbar enables to set the print output up as desired regardless of output format (pdf or paper). The print view can be configured after selecting **File -> Print Preview** through the menu. A combination of scale value, color status and drawing position relative to paper allows customed print output. The steps are detailed in :ref:`printing guide <printing>`.
+The **Print Preview** toolbar is used to set up the print output as desired regardless of output format (pdf or paper). The print preview can be configured after selecting **File -> Print Preview** through the menu. A combination of scale value, color status and drawing position relative to paper allows customed print output. The steps are detailed in :ref:`printing guide <printing>`.
 
 
 .. figure:: /images/toolOptions/toPrtPreview.png
@@ -81,7 +82,7 @@ Inserting Blocks
 From Block List
 ```````````````
 
-The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. Refer also to :ref:`Blocks <blocks>` for usage.
+The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. Refer to :ref:`Blocks <blocks>` for usage.
 
 .. figure:: /images/toolOptions/toBlockInsert.png
     :width: 617px
@@ -109,7 +110,7 @@ The **Block Insert** capability can be expanded through the *Tool Option* bar fe
 From Block Library
 ``````````````````
 
-Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted. Refer also to :ref:`Blocks <blocks>` for usage.
+Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted. Refer to :ref:`Blocks <blocks>` for usage.
 
 .. figure:: /images/toolOptions/toBlockLib.png
     :width: 317px
