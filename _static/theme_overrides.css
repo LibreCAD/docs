@@ -13,8 +13,8 @@
 
 
 /* Sidebar text */
-.wy-nav .wy-menu-vertical hover {
-   color: #7eb63d;
+.wy-menu-vertical a:hover {
+  background-color: #7eb63d;
 }
 
 /* Sidebar text
