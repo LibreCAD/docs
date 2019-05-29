@@ -37,8 +37,8 @@ Toolbars provide alternatives to menus for accessing application functions and d
     "View", ":ref:`View <view>` options."
 
 
-Other Tools Options
--------------------
+Other Toolbars
+--------------
 
  .. important::
     Print Preview and Block operations require the use of the **Tool Options** toolbar as the are no menu or command line equivalencies. Ensure the Tool Option toolbar is enabled (**Widgets -> Toolbars** and check **Tool Options**).
