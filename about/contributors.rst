@@ -19,7 +19,7 @@ Some of those that have contributed, directly or indirectly, include:
     - Dli
     - Fabrice
     - Ferdi
-    - Gary S  (User Manual Maintainer)
+    - Gary S  (Maintainer)
     - R\. van Twisk
     - Ravas
     - Richard M Brown
