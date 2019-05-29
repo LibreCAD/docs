@@ -134,8 +134,8 @@ def setup(app):
    app.add_stylesheet('theme_overrides.css')
 
 ## Added LibreCAD icon
-html_logo = 'images/icons/librecad.png'
-html_favicon = 'images/icons/librecad.png'
+html_logo = ['images/icons/librecad.png']
+html_favicon = ['images/icons/librecad.ico']
 
 # -- Options for HTMLHelp output ------------------------------------------
 
