@@ -9,21 +9,6 @@ Fundamentals
 To be able to use LibreCAD effectively, there are a few concepts that need to be understood.  While basic drawings can be created with very little setup, as they become more complex further consideration to the elements of a complete drawing is important.  This section offers an introduction to some concepts that are important to creating a complex drawing, but by no means is it exhaustive.  The  rest of the Reference section provides a description of the tools used to create and modify drawings.  General examples and guidence is offered in the :ref:`User Guide <guides>` section.
 
 
-Entities
---------
-
-An entity is a geometric shape; a line, circle, arc, etc.  A collection of entities is what forms a drawing.  In addition to the basic information that describes the geometry of an entity, there are two more elements that further define an entity:
-
-    - :ref:`Pens <pens>` describes the appearance of an entity, either on screen or in printed output with three additional properties:
-
-        - Color
-        - Width
-        - Line Type
-
-    - :ref:`Layers <layers>` provide a means to organize drawing and manage the properties of multiple entities.
-    - *Pen* or *Layers* properties *can* have a specific meaning, but vary by industry or an organization's standards and a complete description is beyond the scope of this manual.
-
-
 .. _coordinates: 
 
 The Coordinate System
@@ -159,33 +144,88 @@ All angles in LibreCAD are measured in 360 degrees in an anti-clockwise directio
 |
 
 
-.. _placing-entities: 
 
-Placing Entities
-~~~~~~~~~~~~~~~~
+.. _entities: 
+
+Entities
+--------
+
+An entity is a geometric shape; a line, circle, arc, etc.  A collection of entities is what forms a drawing.  In addition to the basic information that describes the geometry of an entity, there are two more elements that further define an entity:
+
+    - :ref:`Pens <pens>` describes the appearance of an entity, either on screen or in printed output with three additional properties:
+
+        - Color
+        - Width
+        - Line Type
+
+    - :ref:`Layers <layers>` provide a means to organize drawing and manage the properties of multiple entities.
+    - *Pen* or *Layers* properties *can* have a specific meaning, but vary by industry or an organization's standards and a complete description is beyond the scope of this manual.
+
+
+Creating Entities
+~~~~~~~~~~~~~~~~~
 
 There are two methods for defining coordinates when drawing entities in LibreCAD.  Users can use either the keyboard and type coordinates, or by using a mouse or other pointing devices.
 
-.. _keyboard:
 
-Keyboard
-````````
+Using a Mouse
+`````````````
+
+Entities' coordinates can also be located graphically using a mouse or other pointing device.  Using a mouse is less precise, but may be acceptable for 'rough' sketches or other freehand work.  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps`.  
+
+
+Using the Keyboard
+```````````````````
 
 Coordinate values, whether cartesian or polar, can be typed at the :ref:`command line <commandline>` in the formats as previously noted.  LibreCAD offers an additional method for typing cartesian coordinates when using the numeric keypad; type two decimal points (".") in lieu of the comma between the X and Y values.  For example, "10..20" is equivelent to typing "10,20".  This method can also be used for relative cartesian coordinates, e.g. @15..25.
 
 Text input is also required by tool options where distance, angle, etc. are needed.
 
-Mouse
-`````
 
-Entities' coordinates can also be located graphically using a mouse or other pointing device.  Using a mouse is less precise, but may be acceptable for 'rough' sketches or other freehand work.  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps`.  
+Selecting Entities
+~~~~~~~~~~~~~~~~~~
 
+Selecting entities allow them to be modified or deleted.  Some operations can be applied to groups of selected entities and other can only be applied to one entity at a time.  There are a variety of ways that entities can be selected:
+
+   - Single click on an entity.  Holding the [Shift] key while clicking will allow additional entities to be selected.
+   - Click and drag a selection box:
+
+      - Left to right while moving down or up to select entities enclosed within the selection window’s boundary (blue selection box).
+      - Right to left  while moving down or up toselect entities enclosed within the window’s boundary and crossed by the selection boundary (green selection box)
+
+   -  type “sa” at the command line to select all entities.
+
+Deselect selected entities by typing “tn” at the command line or pressing [Esc].  Note that it might be might be necessary to press [Esc] twice if a command it active.
+
+Also see the :ref:`Select<tool-select>` tools for additional methods to select and deselect entities.
+
+
+Entity Handles
+~~~~~~~~~~~~~~
+
+Selected entities display “handles”.  Handles allow the entities to be manipulated; lengthened, moved or enlarged depending on the type of entity:
+
+.. figure:: /images/handleEg.png
+    :width: 1364px
+    :height: 547px
+    :align: right
+    :scale: 50
+    :alt: Entity Handles
+
+
+- Entities that consist of a single segment, such as lines, arcs and polyline segments, have a start handle and an end handle.  Either handle can be clicked and dragged into a new position.
+- Handles on circles or other entities that consist of multiple segments allow it to be manipulated in a variety of ways depending on the type of entity.  For example:
+
+   - A rectangle’s corner can be dragged to a new position creating other quadrilaterals.
+   - A circle can be increased or decreased in size.
+   - The end points of the edges of a polygon can be be repositioned.
+   - Dimension text and lines can be repositioned
 
 
 .. _isometric:
 
 Isometric Drawings
-~~~~~~~~~~~~~~~~~~
+------------------
 
 LibreCAD can also be used to create drawings with an **isometric** projection.  Creating isometric drawings is similar to creating orthaganol drawings, but with an additional consideration towards the perspective of the drawing.  The **Grid** tab of :ref:`Drawing Preferences <draw-prefs>` allows users to set the grid to suit isomentric drawings.  Setting the "Snap Indicator Lines" on the **Appearance** tab on the :ref:`Application Preferences <app-prefs>` to *Isometric* will also assist in with locating entities.
 
