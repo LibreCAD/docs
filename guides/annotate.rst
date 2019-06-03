@@ -152,7 +152,7 @@ Both tools proved several options for the appearance and placement of text, howe
 +------------------------+------------------------------------------------+-------+-------+
 | Option                 | Description                                    | Text  | MText |
 +========================+================================================+=======+=======+
-| **Font Settings:**                                                                       |
+| **Font Settings:**                                                                      |
 +------------------------+------------------------------------------------+-------+-------+
 | - Font                 | Select font for text                           |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
@@ -168,7 +168,7 @@ Both tools proved several options for the appearance and placement of text, howe
 +------------------------+------------------------------------------------+-------+-------+
 | - Line spacing         |                                                |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
-| **Alignment:**                                                                           | 
+| **Alignment:**                                                                          | 
 +------------------------+------------------------------------------------+-------+-------+
 |                        | Place text aligned to *handle*:                | |     | |     |
 |                        |                                                | |     | |     |
@@ -193,7 +193,7 @@ Both tools proved several options for the appearance and placement of text, howe
 |                        | | Registered, Paragraph, Pi, Pound, Yen, Times,|       |       |
 |                        | | Division)                                    |       |       |
 +------------------------+------------------------------------------------+-------+-------+
-| **Insert Unicode:**                                                                      |
+| **Insert Unicode:**                                                                     |
 +------------------------+------------------------------------------------+-------+-------+
 | - Page                 | Select Unicode page to select character from   |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
@@ -202,7 +202,7 @@ Both tools proved several options for the appearance and placement of text, howe
 | - **Insert** button    | | Click button to insert Unicode character     |   X   |   X   |
 |                        | | into text input field                        |       |       |
 +------------------------+------------------------------------------------+-------+-------+
-| **Icons:**                                                                               |
+| **Icons:**                                                                              |
 +------------------------+------------------------------------------------+-------+-------+
 | - Clear text           | Clear text field   |i01|                       |   X   |   X   |
 +------------------------+------------------------------------------------+-------+-------+
