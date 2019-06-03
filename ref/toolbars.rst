@@ -37,15 +37,28 @@ Toolbars provide alternatives to menus for accessing application functions and d
     "View", ":ref:`View <view>` options."
 
 
-.. _preview:
-
-Print Preview
--------------
-
-The **Print Preview** toolbar enables to set the print output up as desired regardless of output format (pdf or paper). The print view can be configured after selecting **File -> Print Preview** through the menu. A combination of scale value, color status and drawing position relative to paper allows customed print output. The steps are detailed in :ref:`printing guide <printing>`.
+Other Toolbars
+--------------
 
  .. important::
-    You cannot set the print output up with the menus nor by typing commands. Please make sure the *Tool Option* toolbar is visible.
+    Print Preview and Block operations require the use of the **Tool Options** toolbar as the are no menu or command line equivalencies. Ensure the Tool Option toolbar is enabled (**Widgets -> Toolbars** and check **Tool Options**).
+
+
+.. _print-preview-toolopt:
+
+Print Preview
+~~~~~~~~~~~~~
+
+The **Print Preview** toolbar is used to set up the print output as desired regardless of output format (pdf or paper). The print preview can be configured after selecting **File -> Print Preview** through the menu.  A combination of scale value, color status and drawing position relative to paper allows customed print output. The steps are detailed in :ref:`printing guide <printing>`.
+
+
+.. figure:: /images/toolOptions/toPrtPreview.png
+    :width: 316px
+    :height: 35px
+    :align: center
+    :scale: 100
+    :alt:  Print Preview tool option bar
+
 
 .. csv-table:: 
     :widths: 20, 10, 70
@@ -54,26 +67,33 @@ The **Print Preview** toolbar enables to set the print output up as desired rega
     :class: fix-table
     
     "Option Item", "Icon", "Description"
-    "Scale", |icon00|, "Defines the scale of the drawing based on its size and the paper size selected in :ref:`Drawing Preferences <draw-prefs>`. It is also possible to freely adjust the scale to a specific value proposed in the list or enter a custom value with colon (:). Check the *Fixed Scale* checkbox locks the actual scale."
-    "Toggle Black/White", |icon01|, "Toggles all the colors of entities from colored to Black/White."
+    "Scale", , "Displays the scale of the drawing based on its size and the paper size selected in :ref:`Drawing Preferences <draw-prefs>`. It is also possible to adjust the scale to a specific value to a value in the drop down  list or enter a custom values seperated by the colon (:). Checking the *fixed* checkbox locks the scale to the set value."
+    "Toggle Black/White", |icon01|, "Toggles the colors of all entities from color to black/white."
     "Center to page", |icon02|, "Centers the drawing to the paper size selected in *Drawing Preferences*."
-    "Fit to page", |icon03|, "Fit the drawing to the paper size selected."
+    "Fit to page", |icon03|, "Fits the drawing to the paper size selected."
     "Multipages", |icon04|, "Determines the number of pages needed to print the drawing based on the defined scale and the paper size selected in *Drawing Preferences*."
 
 
-.. _insert:
+.. _blk-insert-toolopt:
 
-Block insert
-------------
+Inserting Blocks
+~~~~~~~~~~~~~~~~
 
-The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. Please refer also to :ref:`Blocks <blocks>` usage.
+There are two block insert operations with corresponding Tool Option toolbars.  For further details on using blocks refer to :ref:`Blocks <blocks>` in the User Guides.
+
+
+From Block List
+```````````````
+
+The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. 
 
 .. figure:: /images/toolOptions/toBlockInsert.png
     :width: 617px
     :height: 34px
     :align: center
-    :scale: 75
+    :scale: 100
     :alt: Block insert tool option bar
+
 
 .. csv-table:: 
     :widths: 30, 70
@@ -88,19 +108,18 @@ The **Block Insert** capability can be expanded through the *Tool Option* bar fe
     "Spacing", "Defines the distance between each column of the array and the distance between each row. The distance is measured between 2 insertion points of 2 adjacent blocks."
 
 
-.. _library:
+From Block Library
+``````````````````
 
-Block insert from a library
----------------------------
-
-Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted. Please refer also to :ref:`Blocks <blocks>` usage.
+Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted.
 
 .. figure:: /images/toolOptions/toBlockLib.png
     :width: 317px
     :height: 33px
     :align: center
-    :scale: 75
+    :scale: 100
     :alt: Block from library insertion tool option bar
+
 
 .. csv-table:: 
     :widths: 30, 70
@@ -115,7 +134,7 @@ Inserting a block from a library can be enhanced through the *Tool Option* bar f
 
 ..  Icon mapping:
 
-.. |icon00| image:: /images/icons/printscale.png
+.. |icon00| image: /images/icons/librecad.png
             :height: 24
             :width: 24    
 .. |icon01| image:: /images/icons/black_n_white_mode.svg
