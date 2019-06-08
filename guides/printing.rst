@@ -43,7 +43,7 @@ To print a drawing without a drawing border / title block template but to a spec
 4. Select the desired scaled from the drop-down box on the toolbar.
 5. Click the **Center to Page** button |icon04| from the toolbar.  
 6. The drawing can be re-positioned on the page by moving the page behind the drawing.  Click and hold anywhere in the drawing space and drag the paper to the desired position.  Pressing [Shift] allows only *horizontal* movements of paper and pressing [Ctrl] allows only *vertical* movements.
-7. Select File -> Print or click the ‘Print’ button |icon01|.
+7. Select **File -> Print** or click the **Print** button |icon01|.
 8. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** button.  Adjust the properties if necessary and then click **OK.**
 9. Click the **Print** button.
 
