@@ -90,6 +90,19 @@ Specifically, the process is as follows.  Starting with a full-scale (1:1) drawi
 8. Click the **Print** button |icon01|.
 
 
+Printing to Scale with dimensions
+---------------------------------
+
+For a drawing drawn full scale (1:1) with dimensions, the size of dimensioning texts and arrows needs to be adjusted depending on the printing scale. If not then the default text size (i.e. 2.5 mm) will apply and it may not be appropriate for large scale drawings.
+
+Once the printing scale is defined (see previous sections), the size of dimensions can be adjusted in :ref:`Drawing Preferences <draw-prefs>` with the parameters *General Scale*. It is recommended to enter the printing scale number as input value for *General Scale* (i.e. 50 for a printing scale of 1:50). Since the printing scale of the drawing is 1:50, the dimension *General Scale* is 50 and the default text size is 2.5 mm, the printing size of the dimension text will be : 1/50 * 50 *2.5 = 2.5 mm.
+
+This allows to obtain always the same dimension size on print output regardless of drawing scale !
+
+.. note:: The size of texts which are dimensions cannot be modified through Dimension Drawing Preferences. So it has to be adjusted in the same way using **Tools -> Modify -> Properties**.
+
+
+
 Tiled Printing
 -----------------
 
