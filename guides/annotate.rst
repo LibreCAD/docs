@@ -8,7 +8,7 @@ Annotating a Drawing
 
 A drawing in and of itself provides an image of what the object might look like, but it doesn’t provide a complete description of the object. Knowing how big the object is also very important, thus the need to provide the measurements and other textual information to describe the drawn object.  Together, dimensions and text is called *annotating* a drawing.
 
-Dimensioning an object on a drawing provides the information necessary to be able to interpret the object and ultimately produce the it, whether it be a building or a widget.  Other textual information in the form of notes, or call-outs, etc. provide further details for the object.
+Dimensioning an object on a drawing provides the information necessary to be able to interpret the object and ultimately produce the it, whether it be a building or a widget.  Other textual information in the form of notes, call-outs, etc. provide further details for the drawn object.
 
 
 .. _dimensioning:
@@ -16,7 +16,7 @@ Dimensioning an object on a drawing provides the information necessary to be abl
 Dimensioning
 ------------
 
-Dimensions are used to define length, width, height, angle of a line entity, or the diameter of circle entity, or radius of arc entity.  A drawing's dimensions must be:
+Dimensions are used to define length, width, height, and/or angle of a line entity, the diameter of circle entity, or radius of arc entity.  A drawing's dimensions must be:
 
    - Accurate
    - Legible
@@ -25,18 +25,18 @@ Dimensions are used to define length, width, height, angle of a line entity, or 
 
 Types of Dimensions
 ~~~~~~~~~~~~~~~~~~~
-LibreCAD supports the following type of dimensions:
+LibreCAD supports the following types of dimensions:
 
-    - Aligned - parallel to a line between two points
-    - Linear - distance between two points from any angle of interest, default is 0 (horizontal) and is changed via *Properties* toolbar
-    - Horizontal - horizontal distance between two points, Linear with a starting angle of 0°
-    - Vertical - vertical distance between two points, Linear with a starting angle of 90°
-    - Radial - radius of an arc
-    - Diametric - diameter of a circle
-    - Angular - angle between two lines or linear parts of objects
-    - Leader - not a dimension per se, but used for notes in drawings
+    - Aligned - parallel to a line
+    - Linear - distance between two points from any angle of interest.  The default is 0 (horizontal) and is changed via "Properties" toolbar
+    - Horizontal - horizontal distance between two points.
+    - Vertical - vertical distance between two points.
+    - Radial - radius of an arc.
+    - Diametric - diameter of a circle.
+    - Angular - angle between two lines or linear parts of objects.
+    - Leader - not a dimension per se, but used for notes in drawings.
 
-A dimension consists of a few parts:
+A dimension consists of several parts:
 
 .. figure:: /images/dimnDesc.png
     :width: 1441px
@@ -60,13 +60,16 @@ The appearance of the dimensions are configured on the :ref:`Dimensions <dimn-pr
     "Extension line - Enlarge", "3", ".125", "1/8"
     "Arrow size", "3", ".125", "1/8"
 
-The size of each dimension component set in the configuration should be the desired 'real world' size.  That is to say that if the text height is set to 2.5 mm, even if the drawing is scaled down when printed the text should remain as 2.5 mm on the printed drawing.  If the drawing is printed full scale the dimension text will appear correctly, however if the drawing is scaled up or down the value for the *General Scale* needs to be adjusted.  Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
+.. note::
+    The size of each dimension component: "Text Height", "Arrow size", etc. should be set to the desired "real world" size in the configuration.  That is to say if the desired text height is 2.5 mm when printed, the "Text Height" should remain set as 2.5 mm.  If the drawing is printed full scale (1:1) the dimension text will appear correctly.  However if the drawing is scaled up or down the "General Scale" needs to be adjusted accordingly.  The "General Scale" is set to the *inverse* of the printing scale.  For example, if the printed scale is determined to be 1:4, the "General Scale" should be set to 4 (4:1).
+
+    Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
 
 
 Rules for Dimensioning
 ~~~~~~~~~~~~~~~~~~~~~~
 
-A few rules will help ensure dimensions must be accurate, legible and complete:
+A few rules will help to ensure dimensions are accurate, legible and complete:
 
    - There should be only one way to interpret any one dimension.
    - Dimension and extension lines should not cross.
@@ -84,7 +87,8 @@ A few rules will help ensure dimensions must be accurate, legible and complete:
    - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines (*).
    - Use arrow heads or slash marks at the end of the dimension lines.
 
-*: The minimum spacing need to be scaled with the drawing.  For example, if the drawing is 1:10, the spacing will need to be 60 mm between dimension lines and 100 mm from the entity.
+.. note::
+   *: The minimum spacing bewteen dimension lines needs to be scaled with the drawing.  For example, if the drawing is 1:10, the spacing will need to be adjusted to 60 mm between dimension lines and 100 mm from the entity.
 
 
 Examples
@@ -100,7 +104,7 @@ Examples
 Leaders
 -------
 
-While leaders do not a dimension an entity, they are closely related to dimensioning as they are important for annotating and adding clarity to entities.  Leaders provide the ability to place pointers to identify a specific area of interest when adding a note and linking it to a particulate object.  Leaders take their setting from the :ref:`Dimensions <dimn-prefs>`.
+While leaders do not dimension an entity, they are closely related to dimensioning as they are important for annotating and adding clarity to entities.  Leaders provide the ability to place pointers to identify a specific area of interest when adding a note and linking it to a particulate object.  Leaders take their settings from the :ref:`Dimensions <dimn-prefs>`.
 
 .. figure:: /images/leaderEg.png
     :width: 748px
@@ -108,6 +112,7 @@ While leaders do not a dimension an entity, they are closely related to dimensio
     :align: center
     :scale: 75
     :alt: Leader example
+
 
 .. _text:
 
