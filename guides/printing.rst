@@ -48,6 +48,18 @@ To print a drawing without a drawing border / title block template but to a spec
 9. Click the **Print** button.
 
 
+Printing to Scale with dimensions
+---------------------------------
+
+.. important:: For a drawing drawn full scale (1:1) with dimensions, the size of dimensioning text and arrows needs to be adjusted for the print output. These sizes will depend on the desired scale of the print output. If they are not adjusted then the defined text size will apply and it may not be appropriate for large or small scale drawings.
+
+Once the printing scale is defined (see previous sections), the size of dimensions can be adjusted in :ref:`Drawing Preferences <draw-prefs>` with the parameter *General Scale*. It is recommended to enter the printing scale number as input value for *General Scale* (i.e. 50 for a printing scale of 1:50). Since the printing scale of the drawing is 1:50, the dimension *General Scale* is 50 and the default text size is 2.5 mm, the printing size of the dimension text will be : 1/50 * 50 *2.5 = 2.5 mm.
+
+Setting the *General Scale* adjusts dimension text to the correct size for the print output. "The *General Scale* does NOT adjust the dimension line spacing. The dimension line spacing may need to be adjusted after changing the *General Scale*.
+
+.. note:: The size of texts which are dimensions cannot be modified through Dimension Drawing Preferences. So it has to be adjusted in the same way using **Tools -> Modify -> Properties**.
+
+
 Printing to Scale with a Border and Title Block
 -----------------------------------------------
 
@@ -88,19 +100,6 @@ Specifically, the process is as follows.  Starting with a full-scale (1:1) drawi
 6. Select **File -> Print** or click the **Print** button |icon01|.
 7. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** button.  Adjust the properties if necessary and then click **OK**.
 8. Click the **Print** button |icon01|.
-
-
-Printing to Scale with dimensions
----------------------------------
-
-For a drawing drawn full scale (1:1) with dimensions, the size of dimensioning texts and arrows needs to be adjusted depending on the printing scale. If not then the default text size (i.e. 2.5 mm) will apply and it may not be appropriate for large scale drawings.
-
-Once the printing scale is defined (see previous sections), the size of dimensions can be adjusted in :ref:`Drawing Preferences <draw-prefs>` with the parameters *General Scale*. It is recommended to enter the printing scale number as input value for *General Scale* (i.e. 50 for a printing scale of 1:50). Since the printing scale of the drawing is 1:50, the dimension *General Scale* is 50 and the default text size is 2.5 mm, the printing size of the dimension text will be : 1/50 * 50 *2.5 = 2.5 mm.
-
-This allows to obtain always the same dimension size on print output regardless of drawing scale !
-
-.. note:: The size of texts which are dimensions cannot be modified through Dimension Drawing Preferences. So it has to be adjusted in the same way using **Tools -> Modify -> Properties**.
-
 
 
 Tiled Printing
