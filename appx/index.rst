@@ -13,6 +13,7 @@ Appendices
     Online Resources <resources>
     LibreCAD Fonts <fonts>
     Hatches <hatches>
+    Line Types <lineTypes>
     Languages <languages>
     Systems of Measurement <measurements>
     Drawing Scales <scales>

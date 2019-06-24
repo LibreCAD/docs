@@ -184,7 +184,7 @@ Different types of lines are used for different purposes.  LibreCAD includes sev
     "Center", |image25|, "Marks center of circle, arc or any symmetrical object."
     "Border", |image26|, "Used for drawing border around perimeter of sheet."
 
-Other than ”Continuous”, the other non-continuous lines are available in default, ”tiny” (1/6x default), ”small” (1/2x) and ”large (2x)”.
+Other than ”Continuous”, the other non-continuous lines are available in default, ”tiny” (1/6x default), ”small” (1/2x) and ”large (2x)”.  A complete list of :ref:`line types <lineTypes>` are shwon in the appendix.
 
 .. Note::
    Intervals in non-continuous line types with white spaces remain constant when scaled.  ”tiny” should be used in most cases.
