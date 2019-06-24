@@ -88,25 +88,6 @@ As an alternative to the LibreCAD provided template, a user-specified template c
 
 ..  Image mapping (no "align" allowed/required):
 
-.. |image01| image:: /images/coloursStd.png
-             :width: 140px
-             :height: 439px
-             :scale: 100
-             :alt: Standard color selector
-.. |image02| image:: /images/coloursCustom.png
-             :width: 490px
-             :height: 295px
-             :scale: 67
-             :alt: Custom colors
-.. |image03| image:: /images/colourCustom.png
-             :width: 436px
-             :height: 426px
-             :scale: 67
-             :alt: Custom color selector
-.. |image10| image:: /images/coloursCustomAdd.png
-             :width: 48
-             :height: 32
-             :scale: 50
 .. |image20| image:: /images/ltContinuous.png
              :width: 160
              :height: 20
