@@ -429,4 +429,39 @@ LibreCAD can also be used to create drawings with an **isometric** projection.  
              :width: 48
              :height: 32
              :scale: 50
+.. |image20| image:: /images/ltContinuous.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Continuous
+.. |image21| image:: /images/ltDot.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Dot
+.. |image22| image:: /images/ltDash.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Dash
+.. |image23| image:: /images/ltDashDot.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Dash Dot
+.. |image24| image:: /images/ltDivide.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Divide
+.. |image25| image:: /images/ltCenter.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Center
+.. |image26| image:: /images/ltBorder.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Border
 
