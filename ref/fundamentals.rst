@@ -152,7 +152,7 @@ Entities
 
 An entity is a geometric shape; a line, circle, arc, etc.  A collection of entities is what forms a drawing.  In addition to the basic information that describes the geometry of an entity, there are two more *attributes* that further define an entity:
 
-    - :ref:`Layers <layers>` provide a means to organize drawing and manage the properties of multiple entities.
+    - :ref:`Layers <entity-layers>` provide a means to organize drawing and manage the properties of multiple entities.
     - :ref:`Pens <entity-pen>` describes the appearance of an entity, either on screen or in printed output with three additional properties:
 
         - Color
