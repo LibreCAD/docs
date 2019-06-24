@@ -3,8 +3,8 @@
 
 .. _scales:
 
-Scales
-======
+Common Drawing Scales
+=====================
 
 Architect's Scale (SI)
 ~~~~~~~~~~~~~~~~~~~~~~

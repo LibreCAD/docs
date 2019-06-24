@@ -28,12 +28,12 @@ Two of the tabs, *Paper* and *Dimensions* require attention prior to generating 
 The "Paper format", e.g. paper size and orientation, to be used is an important to consideration when setting the drawing preferences.  The Paper Format is entirely up to the user to determine, based on what is available (depending on the printer or printing service that is being used).  While it can be done at anytime, determining the Paper Format sooner than later will help determine the "General Scale".  
 
 .. Tip::
-   Setting the General Scale prior to dimensioning a drawing is a suggested as it will determine the appropriate line spacing for dimensions.  See :ref:`Dimensioning <dimensioning>` for additional information.
+   Setting the General Scale *prior to dimensioning a drawing* will help determine the appropriate line spacing for dimensions.  See :ref:`Dimensioning <dimensioning>` for additional information.
 
 Determining the General Scale parameter for the best results is simple, it is the *inverse* of the printing scale obtained prior to printing.  For example, if a print scale is determined to be "1:4", the General Scale is "4" (4:1).  Setting the General Scale to the inverse of the print scale results in the dimension text being the defined size, e.g. 2.5mm, on the printed drawing.  The drawing is scaled down to fit the page and the dimension text is scaled up to be legible.  See the :ref:`Printing Guide <printing-guide>` for details.
 
 
-While any scale factor can be used, there are common scales used when **printing** different types of drawings.  Refer to  :ref:`Scales <scales>` in the appendix for some examples.
+While any scale can be used when **printing** a drawing there are commonly used scales for different types of drawings.  Refer to  :ref:`Scales <scales>` in the appendix for some examples.
 
 
 .. _entity-attributes:
@@ -87,7 +87,7 @@ You can toggle between construction and normal mode three ways:
 	- Right-click on a named layer in the *Layer List* and choose "Toggle Construction Layer".
 	- Click the "Toggle construction lines" icon |icon04| / |icon05| in the *Layer List*.
 
-For more details on hiding, locking and deleting layers, refer to **Layer List Dock** in :ref:`Dock Widgets <widgets>`
+For more details on hiding, locking and deleting layers, refer to :ref:`Layer List Dock <widget-layerList>` in the Dock Widgets Reference section.
 
 
 .. _pens:
@@ -102,6 +102,9 @@ As with many other aspects of drafting line color, thickness and type assigned t
     - **Line Type** - The default line type is "Continuous" (e.g. solid).  Other line types included with LibreCAD are Dot, Dash, Divide, Center, and Border.
 
 The pen attributes can be defined for a single entity (via the *Properties* tool) , by a group of selected entities (via the *Attribute* tool), or by layer.
+
+.. note::
+   Just as with entities, "pens" can also be applied to layers.  See :ref:`Layer List Dock <widget-layerList>` for details on setting a layer's attributes.
 
 
 Color

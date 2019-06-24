@@ -37,11 +37,11 @@
    /* Wrap text */
    white-space: normal !important;
    /* Set table borders */
-   border: 1px solid black !important;
-   /* Striped table */
+   border: 1px solid black;
+   /* Striped table 
    tr: nth-child(odd){
       background-color: #f2f2f2 !important;
-   }
+   }*/
 }
 
 /* Old table width fix - to be deleted */
@@ -56,12 +56,12 @@
    /* Wrap text */
    white-space: normal !important;
    /* Remove ALL table borders */
-   border: none !important;
+   border: none;
    /* Remove table shading */
-   background-color: white !important;
+   background-color: white;
    /* Align text to top left */
-   vertical-align: top !important;
-   text-align: left !important;
+   vertical-align: top;
+   text-align: left;
 }
 
 /* Adjusts indent in tables when forcing line break */

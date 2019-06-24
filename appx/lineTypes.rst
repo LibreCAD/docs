@@ -12,4 +12,4 @@ Line Types
            :scale: 50
            :alt: Standard line types
 
-**Image can be printed 1:1 using scale at bottom.**
+**Image can be printed 1:1 using scale shown at bottom.**
