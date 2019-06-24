@@ -153,7 +153,7 @@ Entities
 An entity is a geometric shape; a line, circle, arc, etc.  A collection of entities is what forms a drawing.  In addition to the basic information that describes the geometry of an entity, there are two more *attributes* that further define an entity:
 
     - :ref:`Layers <layers>` provide a means to organize drawing and manage the properties of multiple entities.
-    - :ref:`Pens <pens>` describes the appearance of an entity, either on screen or in printed output with three additional properties:
+    - :ref:`Pens <entity-pen>` describes the appearance of an entity, either on screen or in printed output with three additional properties:
 
         - Color
         - Width
@@ -164,27 +164,12 @@ An entity is a geometric shape; a line, circle, arc, etc.  A collection of entit
    *Pen* or *Layers* properties *can* have a specific meaning, but vary by industry or an organization's standards and a complete description is beyond the scope of this manual.
 
 
-.. _entity-attributes:
-
-Attributes
-~~~~~~~~~~
-
-Attributes are the charteristics of an entity and include:
-
-   - Layers provide a means to organize a drawing and manage the properties of multiple entities.
-   - "Pen" describes the appearance of an entity, either on screen or in printed output with three additional properties:
-
-      - Color
-      - Width
-      - Line type
-
-
 .. _entity-layers:
 
 Layers
 ``````
 
-A basic feature of CAD is the use of layers to organize a drawing. Every entity in a drawing is on exactly one layer, however one layer can contain multiple entities. Typically entities with a common 'function' or common attributes are put on the same layer. For example, it might be might necessary to put all axis in a drawing on a layer named 'axis'.  Each layer can be defined with a "Default Pen" (see :ref: `Pens <pens>` below). Each entity can have its own attributes or have its attributes defined by the layer it is placed on. In the latter case for example you can change the colour of all the entities on the "axes" layer by setting the colour (red for example) for that layer.
+A basic feature of CAD is the use of layers to organize a drawing. Every entity in a drawing is on exactly one layer, however one layer can contain multiple entities. Typically entities with a common 'function' or common attributes are put on the same layer. For example, it might be might necessary to put all axis in a drawing on a layer named 'axis'.  Each layer can be defined with a "Default Pen" (see :ref: `Pens <entity-pen>` below). Each entity can have its own attributes or have its attributes defined by the layer it is placed on. In the latter case for example you can change the colour of all the entities on the "axes" layer by setting the colour (red for example) for that layer.
 
 In traditional manual drafting, a similar approach was used. Whether for Engineering, Architectural or Construction drawing etc. layers were used to show different aspects of a drawing — for example this could be a layer set up for showing centre lines on an engineering drawing or to show different building systems, such as wiring and air conditioning. The layers were often drawn on separate transparent sheets of paper. These sheets were then overlaid one on top of another to produce final drawings.
 
