@@ -9,7 +9,7 @@ Line Types
 .. image:: /images/lineTypesAll.png
            :width: 1406px
            :height: 1980px
-           :scale: 67
+           :scale: 50
            :alt: Standard line types
 
 **Image can be printed 1:1 using scale at bottom.**
