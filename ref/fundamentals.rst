@@ -159,7 +159,6 @@ An entity is a geometric shape; a line, circle, arc, etc.  A collection of entit
         - Width
         - Line Type
 
-
 .. note::
    *Pen* or *Layers* properties *can* have a specific meaning, but vary by industry or an organization's standards and a complete description is beyond the scope of this manual.
 
@@ -167,7 +166,7 @@ An entity is a geometric shape; a line, circle, arc, etc.  A collection of entit
 .. _entity-layers:
 
 Layers
-``````
+~~~~~~
 
 A basic feature of CAD is the use of layers to organize a drawing. Every entity in a drawing is on exactly one layer, however one layer can contain multiple entities. Typically entities with a common 'function' or common attributes are put on the same layer. For example, it might be might necessary to put all axis in a drawing on a layer named 'axis'.  Each layer can be defined with a "Default Pen" (see :ref: `Pens <entity-pen>` below). Each entity can have its own attributes or have its attributes defined by the layer it is placed on. In the latter case for example you can change the colour of all the entities on the "axes" layer by setting the colour (red for example) for that layer.
 
@@ -176,7 +175,7 @@ In traditional manual drafting, a similar approach was used. Whether for Enginee
 Layers are displayed in alpha-numerical order in the layer list.  However this is does not relate to the order that each entity appears on the z-axis of the drawing.  Each entity can be raised or lowered with respect to others, and each layer can contain entities that are at different points on the z-axis.  Use the four Draw Order commands (under the **Tools -> Modify -> Order menu**) to move entities up or down the z-axis. 
 
 Creating a Layer
-^^^^^^^^^^^^^^^^
+````````````````
 
 Layers are usually created to hold entities with common attributes. Creating a layer is simple:
 
@@ -187,7 +186,7 @@ Layers are usually created to hold entities with common attributes. Creating a l
 
 
 Construction Layers
-^^^^^^^^^^^^^^^^^^^
+```````````````````
 
 A construction layer is designed to hold geometry construction lines:
 
@@ -206,7 +205,7 @@ For more details on hiding, locking and deleting layers, refer to :ref:`Layer Li
 .. _entity-pen:
 
 Pen
-```
+~~~
 
 As with many other aspects of drafting line color, thickness and type assigned to an entity, such as a line or circle are determined by drafting conventions or common practices.  Within LibreCAD, the three attributes are grouped together as a "Pen":
 
@@ -221,7 +220,7 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 
 
 Color
-^^^^^
+````
 
 .. csv-table::
    :widths: 70 30
@@ -242,9 +241,8 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
    |image02|, |image03|
 
 
-
 Width
-^^^^^
+`````
 
 Line width or thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, arcitectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/C paper sizes:
 
@@ -281,7 +279,7 @@ Note: Pen sizes shown in **bold** are ISO standard sizes.
 
 
 Line Type
-^^^^^^^^^
+`````````
 
 Different types of lines are used for different purposes.  LibreCAD includes several commonly used line types:
 
