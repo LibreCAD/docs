@@ -15,6 +15,7 @@ Appendices
     Hatches <hatches>
     Languages <languages>
     Systems of Measurement <measurements>
+    Drawing Scales <scales>
     Calculator Functions <calculator>
     Building from Source <build>
     Contributing <contributing>

@@ -25,83 +25,31 @@ Two of the tabs, *Paper* and *Dimensions* require attention prior to generating 
     1. "Paper format" on the *Paper* tab: Selecting a paper size and orientation will determine the "print scale" used for final output.  The print scale also used to determine the "General Scale".
     2. "General Scale" on the *Dimensions* tab: The dimension text and related parameters can be adjusted to suit the output.
 
-The "Paper format", e.g. paper size and orientation, to be used is an important to consideration when setting the drawing preferences.  While it can be done at anytime, determining the Paper Format sooner than later will help determine the "General Scale".  The Paper Format is entirely up to the user to determine, based on what is available (depending on the printer or printing service that is being used).
+The "Paper format", e.g. paper size and orientation, to be used is an important to consideration when setting the drawing preferences.  The Paper Format is entirely up to the user to determine, based on what is available (depending on the printer or printing service that is being used).  While it can be done at anytime, determining the Paper Format sooner than later will help determine the "General Scale".  
 
-Determining the General Scale parameter for the best results is simple, it is the *inverse* of the printing scale obtained prior to printing.  For example, if a print scale is determined to be "1:4", the General Scale is "4" (4:1).  See the :ref:`Printing Guide <printing-guide>` for details.  Setting the General Scale to the inverse of the print scale results in the dimension text being the defined size, e.g. 2.5mm, on the printed drawing.  The drawing is scaled down to fit the page and the dimension text is scaled up to be legible.  More details can be found in the :ref:`Printing Guides <printing>`.
+.. Tip::
+   Setting the General Scale prior to dimensioning a drawing is a suggested as it will determine the appropriate line spacing for dimensions.  See :ref:`Dimensioning <dimensioning>` for additional information.
 
-While any scale factor can be used, there are common scales used when printing the different types of drawings:
-
-Architect's Scale (SI)
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. csv-table:: 
-    :widths: 25, 75
-    :header-rows: 1
-    :stub-columns: 0
-    :class: fix-table
-
-    "Drawing Scale", "Common Use"
-    "1:1", "Mockups / Samples / Small details"
-    "1:2", "Construction details"
-    "1:5", "Construction details"
-    "1:10", "Construction details / Wall sections"
-    "1:20", "Building sections"
-    "1:50", "Building sections / Floor plans / Elevations"
-    "1:100", "Floor plans / Elevations"
-    "1:200", "Floor plans / Elevations / Site plans"
-    "1:500", "Site plans"
-    "1:1000", "Area plans"
+Determining the General Scale parameter for the best results is simple, it is the *inverse* of the printing scale obtained prior to printing.  For example, if a print scale is determined to be "1:4", the General Scale is "4" (4:1).  Setting the General Scale to the inverse of the print scale results in the dimension text being the defined size, e.g. 2.5mm, on the printed drawing.  The drawing is scaled down to fit the page and the dimension text is scaled up to be legible.  See the :ref:`Printing Guide <printing-guide>` for details.
 
 
-Architect's Scale (Imperial)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. csv-table:: 
-    :widths: 25, 10, 65
-    :header-rows: 1
-    :stub-columns: 0
-    :class: fix-table
-
-    "Drawing Scale", "Ratio", "Common Use"
-    "Full scale", "1:1", "Mockups / Samples / Small details"
-    "3″=1′-0″", "1:4", "Small details"
-    "1 1⁄2″=1′-0″", "1:8", "Small details"
-    "1″=1′-0″", "1:12", "Small details / Construction details"
-    ​"3⁄4″=1′-0″", "1:16", "Construction details / Wall sections"
-    ​"1⁄2″=1′-0″", "1:24", "Building sections"
-    "3⁄8″=1′-0″", "1:32", "Wall sections / Building sections"
-    "1⁄4″=1′-0″", "1:48", "Building sections / Floor plans / Elevations"
-    ​"3⁄16″=1′-0″", "1:64", "Floor plans / Elevations"
-    ​"1⁄8″=1′-0″", "1:96", "Floor plans / Elevations / Site plans"
-    ​"3⁄32″=1′0″", "1:128", ""
-    ​"1⁄16″=1′-0″", "1:192", "Site plan"
-
-
-Engineer's scale (Imperial)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. csv-table:: 
-    :widths: 25, 10, 65
-    :header-rows: 1
-    :stub-columns: 0
-    :class: fix-table
-
-    "Drawing Scale", "Ratio", "Common Use"
-    "1″=10′-0″", "120", "Details"
-    "1″=20′-0″", "240", "Details / Working plans"
-    "1″=30′-0″", "360", "Working plans"
-    "1″=40′-0″", "480", "Working plans"
-    "1″=50′-0″", "600", "Working plans"
-    "1″=60′-0″", "720", "Working plans"
-    "1″=100′-0″", "1200", "Area plans"
-
-Also see :ref:`Dimensioning <dimensioning>` for additional information on scales and scaling drawings.
+While any scale factor can be used, there are common scales used when **printing** different types of drawings.  Refer to  :ref:`Scales <scales>` in the appendix for some examples.
 
 
 .. _entity-attributes:
 
 Attributes
 ----------
+
+Attributes are the charteristics of an entity and include:
+
+   - Layers provide a means to organize a drawing and manage the properties of multiple entities.
+   - "Pen" describes the appearance of an entity, either on screen or in printed output with three additional properties:
+
+      - Color
+      - Width
+      - Line type
+
 
 .. _layers:
 
@@ -121,21 +69,8 @@ Layers are usually created to hold entities with common attributes. Creating a l
 
 	- Click the **Add a layer** icon |icon01|.
 	- Specify a *Layer Name*.
-	- Optionally specify the Color, Width and Line Type.
+	- Optionally specify the Color, Width and Line Type for the layer.
 	- Click **Ok**. 
-
-
-Changing an Entity's Layer
-``````````````````````````
-
-Sometimes it is necessary to change an entity's layer. To move one or more entities between layers:
-
-	- Select the entities to be moved to a different layer.
-	- From the menu select **Tools -> Modify -> Attributes**, or click the **Attributes** icon |icon02|.
-	- In the *Attributes* dialog, select the desired layer from the drop-down the Layer selection box.
-	- Click **Ok**.
-
-Alternatively activate the option *Modify layer of selected entities, at layer activation* in the **Application Preferences, Defaults** tab .  With this option enabled entities can be assigned to a layer by selecting the entities and then selecting the destination layer.
 
 
 Construction Layers
@@ -160,7 +95,7 @@ For more details on hiding, locking and deleting layers, refer to **Layer List D
 Pen
 ~~~
 
-As with many other aspects of drafting line color, thickness and type assigned to an entity, such as a line or circle are determined by drafting convention or common practices.  Within LibreCAD, the three attributes are grouped together as a "Pen":
+As with many other aspects of drafting line color, thickness and type assigned to an entity, such as a line or circle are determined by drafting conventions or common practices.  Within LibreCAD, the three attributes are grouped together as a "Pen":
 
     - **Color** - LibreCAD has 16 default colors, but supports the RGB color space (#000000 to #FFFFFF or 16,777,215 colors).  The initial color for entities is black.
     - **Width** - The default line width is 0.00mm.  Line widths of up to 2.11mm are supported.
@@ -169,16 +104,39 @@ As with many other aspects of drafting line color, thickness and type assigned t
 The pen attributes can be defined for a single entity (via the *Properties* tool) , by a group of selected entities (via the *Attribute* tool), or by layer.
 
 
-Line Type & Thickness
-`````````````````````
+Color
+`````
 
-Line thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, arcitectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/C paper sizes:
+.. csv-table::
+   :widths: 70 30
+   :class: table-no-borders
+
+   "The color for an entity can be selected from the ”Color” selection drop-down menu.  The drop-down menu allows the color to be selected ”By Layer”, ”By Block”, from the ”Custom” color selector, or chosen quickly from one of the 16 pre-defined colors: 
+
+   Selecting ”By Layer” will assign the color that was defined for the layer (see above) to the entity.  If the layer's selected color is subsequently changed all entities on the layer will be assigned the layer's color.
+
+   When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the color that was defined for the block to the added entity.  If the block's color is subsequently changed all entities in the block will be assigned the block's color.", " |image01| "
+
+Selecting ”Custom” will allow a selection from a palette of 36 colors and shades of grey or from a user defined colors.  User defined colors are created by clicking the Add button |image10| and then selecting the *hue* and *value* from the color selection tool.  User defined colors can be modified by right-clicking on a user defined color and selecting a new *hue* and *value*.  A maximum of eight user defined colors can be added.
+
+.. csv-table::
+   :widths: 50 50
+   :class: table-no-borders
+
+   |image02|, |image03|
+
+
+
+Width
+`````
+
+Line width or thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, arcitectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/C paper sizes:
 
 .. csv-table:: 
     :widths: 15, 20, 40, 25
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-wrap-text
 
     "Line Weights", "Pen Size (mm)", "Purpose", "Recommended"
     "Extra Thin", "0.00, 0.05, 0.09", "- Hidden lines", "0.00 mm"
@@ -204,6 +162,32 @@ Line thickness should also be addressed when creating a new drawing.  The defaul
 
 
 Note: Pen sizes shown in **bold** are ISO standard sizes.
+
+
+Line Type
+`````````
+
+Different types of lines are used for different purposes.  LibreCAD includes several commonly used line types:
+
+.. csv-table:: 
+    :widths: 20, 20, 60
+    :header-rows: 1
+    :stub-columns: 0
+    :class: table-wrap-text
+
+    "Line Type", "Example", "Purpose"
+    "Continuous", |image20|, "Object or visible, dimension, extention and construction lines."
+    "Dot", |image21|, ""
+    "Dash", |image22|, "Hidden lines and phantom lines (long dash)."
+    "Dash Dot", |image23|, ""
+    "Divide", |image24|, "Marks location (cross) section of object."
+    "Center", |image25|, "Marks center of circle, arc or any symmetrical object."
+    "Border", |image26|, "Used for drawing border around perimeter of sheet."
+
+Other than ”Continuous”, the other non-continuous lines are available in default, ”tiny” (1/6x default), ”small” (1/2x) and ”large (2x)”.
+
+.. Note::
+   Intervals in non-continuous line types with white spaces remain constant when scaled.  ”tiny” should be used in most cases.
 
 
 .. _templates:
@@ -232,6 +216,8 @@ When installing LibreCAD, a resource directory is created including, among other
 As an alternative to the LibreCAD provided template, a user-specified template can be configured in the :ref:`Application Preferences <app-prefs>` on the **Paths** tab.  The specified template is used instead of the default LibreCAD template when the application is launched and for new drawings.
 
 
+..  Icon mapping:
+
 .. |icon01| image:: /images/icons/add.svg
             :height: 18
             :width: 18
@@ -247,4 +233,62 @@ As an alternative to the LibreCAD provided template, a user-specified template c
 .. |icon05| image:: /images/icons/noconstruction.svg
             :height: 18
             :width: 18
+
+
+..  Image mapping (no "align" allowed/required):
+
+.. |image01| image:: /images/coloursStd.png
+             :width: 140px
+             :height: 439px
+             :scale: 100
+             :alt: Standard color selector
+.. |image02| image:: /images/coloursCustom.png
+             :width: 490px
+             :height: 295px
+             :scale: 67
+             :alt: Custom colors
+.. |image03| image:: /images/colourCustom.png
+             :width: 436px
+             :height: 426px
+             :scale: 67
+             :alt: Custom color selector
+.. |image10| image:: /images/coloursCustomAdd.png
+             :width: 48
+             :height: 32
+             :scale: 50
+.. |image20| image:: /images/ltContinuous.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Continuous
+.. |image21| image:: /images/ltDot.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Dot
+.. |image22| image:: /images/ltDash.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Dash
+.. |image23| image:: /images/ltDashDot.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Dash Dot
+.. |image24| image:: /images/ltDivide.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Divide
+.. |image25| image:: /images/ltCenter.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Center
+.. |image26| image:: /images/ltBorder.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Border
 

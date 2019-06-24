@@ -1,19 +1,21 @@
+@import url("//media.readthedocs.org/css/sphinx_rtd_theme.css");
+
 /* Change theme color to LibreCAD's themes */
 
 /* Sidebar header (and topbar for mobile) */
 .wy-side-nav-search, .wy-nav-top {
-    background: #466522 !important;
+   background: #466522 !important;
 }
 
 /* Sidebar */
 .wy-nav-side {
-    background: #547a29 !important;
-    color: #000000;
+   background: #547a29 !important;
+   color: #000000;
 }
 
 /* Sidebar menu */
 .wy-menu-vertical a:hover {
-    background-color: #7eb63d !important;
+   background-color: #7eb63d !important;
 }
 
 /* Sidebar menu options 
@@ -27,21 +29,41 @@
         color: #000000;
 }*/
 
-/* Corrects issue with table exceeding web page width  */
+/* Wrap text in table instead of scollbars */
 /* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
-/*  Add ":class: fix-table" to CSV table ref */
+/*  Add ":class: table-fix-width" to table definitions */
 
-.fix-table td {
-    white-space: normal !important;
+.table-wrap-text table, th, td {
+   /* Wrap text */
+   white-space: normal !important;
+   /* Set table borders */
+   border: 1px solid black !important;
+   /* Striped table */
+   tr: nth-child(odd){
+      background-color: #f2f2f2 !important;
+   }
 }
 
+/* Old table width fix - to be deleted */
+.fix-table td {
+   /* Wrap text */
+   white-space: normal;
+}
+
+
+/* Table for layout purposes; no border or shading */
+.table-no-borders table, th, td {
+   /* Wrap text */
+   white-space: normal !important;
+   /* Remove ALL table borders */
+   border: none !important;
+   /* Remove table shading */
+   background-color: white !important;
+   /* Align text to top left */
+   vertical-align: top !important;
+   text-align: left !important;
+}
 
 /* Adjusts indent in tables when forcing line break */
 /* https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell */
-
-/* @import "theme.css"; */
-
-table.docutils div.line-block {
-    margin-left: 0;
-}
 
