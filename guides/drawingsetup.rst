@@ -32,7 +32,6 @@ The "Paper format", e.g. paper size and orientation, to be used is an important 
 
 Determining the General Scale parameter for the best results is simple, it is the *inverse* of the printing scale obtained prior to printing.  For example, if a print scale is determined to be "1:4", the General Scale is "4" (4:1).  Setting the General Scale to the inverse of the print scale results in the dimension text being the defined size, e.g. 2.5mm, on the printed drawing.  The drawing is scaled down to fit the page and the dimension text is scaled up to be legible.  See the :ref:`Printing Guide <printing-guide>` for details.
 
-
 While any scale can be used when **printing** a drawing there are commonly used scales for different types of drawings.  Refer to  :ref:`Scales <scales>` in the appendix for some examples.
 
 
@@ -69,39 +68,5 @@ As an alternative to the LibreCAD provided template, a user-specified template c
 
 ..  Image mapping (no "align" allowed/required):
 
-.. |image20| image:: /images/ltContinuous.png
-             :width: 160
-             :height: 20
-             :scale: 100
-             :alt: Continuous
-.. |image21| image:: /images/ltDot.png
-             :width: 160
-             :height: 20
-             :scale: 100
-             :alt: Dot
-.. |image22| image:: /images/ltDash.png
-             :width: 160
-             :height: 20
-             :scale: 100
-             :alt: Dash
-.. |image23| image:: /images/ltDashDot.png
-             :width: 160
-             :height: 20
-             :scale: 100
-             :alt: Dash Dot
-.. |image24| image:: /images/ltDivide.png
-             :width: 160
-             :height: 20
-             :scale: 100
-             :alt: Divide
-.. |image25| image:: /images/ltCenter.png
-             :width: 160
-             :height: 20
-             :scale: 100
-             :alt: Center
-.. |image26| image:: /images/ltBorder.png
-             :width: 160
-             :height: 20
-             :scale: 100
-             :alt: Border
+
 
