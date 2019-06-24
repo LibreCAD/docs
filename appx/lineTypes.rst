@@ -6,8 +6,9 @@
 Line Types
 ==========
 
-**Unless shown otherwise, hatch patterns are shown at 1:1 scale (1x)**
-
 .. image:: /images/lineTypesAll.png
            :width: 1406
-           :height: 2184
+           :height: 1980
+
+
+**Image can be printed 1:1 using scale at bottom.**
