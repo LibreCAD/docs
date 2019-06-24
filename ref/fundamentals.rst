@@ -389,6 +389,25 @@ Isometric Drawings
 LibreCAD can also be used to create drawings with an **isometric** projection.  Creating isometric drawings is similar to creating orthaganol drawings, but with an additional consideration towards the perspective of the drawing.  The **Grid** tab of :ref:`Drawing Preferences <draw-prefs>` allows users to set the grid to suit isomentric drawings.  Setting the "Snap Indicator Lines" on the **Appearance** tab on the :ref:`Application Preferences <app-prefs>` to *Isometric* will also assist in with locating entities.
 
 
+..  Icon mapping:
+
+.. |icon01| image:: /images/icons/add.svg
+            :height: 18
+            :width: 18
+.. |icon02| image:: /images/icons/attributes.svg
+            :height: 18
+            :width: 18
+.. |icon03| image:: /images/icons/rename_active_block.svg
+            :height: 18
+            :width: 18
+.. |icon04| image:: /images/icons/construction_layer.svg
+            :height: 18
+            :width: 18
+.. |icon05| image:: /images/icons/noconstruction.svg
+            :height: 18
+            :width: 18
+
+
 ..  Image mapping (no "align" allowed/required):
 
 .. |image01| image:: /images/coloursStd.png

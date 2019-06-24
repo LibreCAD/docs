@@ -67,25 +67,6 @@ When installing LibreCAD, a resource directory is created including, among other
 As an alternative to the LibreCAD provided template, a user-specified template can be configured in the :ref:`Application Preferences <app-prefs>` on the **Paths** tab.  The specified template is used instead of the default LibreCAD template when the application is launched and for new drawings.
 
 
-..  Icon mapping:
-
-.. |icon01| image:: /images/icons/add.svg
-            :height: 18
-            :width: 18
-.. |icon02| image:: /images/icons/attributes.svg
-            :height: 18
-            :width: 18
-.. |icon03| image:: /images/icons/rename_active_block.svg
-            :height: 18
-            :width: 18
-.. |icon04| image:: /images/icons/construction_layer.svg
-            :height: 18
-            :width: 18
-.. |icon05| image:: /images/icons/noconstruction.svg
-            :height: 18
-            :width: 18
-
-
 ..  Image mapping (no "align" allowed/required):
 
 .. |image20| image:: /images/ltContinuous.png
