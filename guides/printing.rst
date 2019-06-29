@@ -48,17 +48,16 @@ To print a drawing without a drawing border / title block template but to a spec
 9. Click the **Print** button.
 
 
-Printing to Scale with dimensions
+Printing to Scale with Dimensions
 ---------------------------------
 
-.. important:: For a drawing drawn full scale (1:1) with dimensions, the size of dimensioning text and arrows needs to be adjusted for the print output. These sizes will depend on the desired scale of the print output. If they are not adjusted then the defined text size will apply and it may not be appropriate for large or small scale drawings.
+.. important:: For a drawing drawn full scale (1:1) with dimensions, the size of dimensioning features needs to be adjusted for the print output. These sizes will depend on the desired scale of the print output. If they are not adjusted then the defined text size will apply and it may not be appropriate for large or small scale drawings.
 
 Once the printing scale is defined (see previous section), the size of dimensions can be adjusted in :ref:`Drawing Preferences <draw-prefs>` with the parameter *General Scale*. It is recommended to enter the printing scale number as input value for *General Scale* (i.e. 50 for a printing scale of 1:50). Since the printing scale of the drawing is 1:50, the dimension *General Scale* is 50 and the default text size is 2.5 mm, the printing size of the dimension text will be : 1/50 * 50 *2.5 = 2.5 mm.
 
-Setting the *General Scale* adjusts dimension text to the correct size for the print output. The *General Scale* does NOT adjust the dimension line spacing. The dimension line spacing may need to be adjusted after changing the *General Scale*.
-
 .. note:: The size of annotations, which are not dimensions, cannot be modified through Dimension Drawing Preferences. So it has to be adjusted with the same factor using **Tools -> Modify -> Properties**.
 
+It is recommended to check that the final appearance of dimensioning features for the print output suits your need.
 
 Printing to Scale with a Border and Title Block
 -----------------------------------------------
