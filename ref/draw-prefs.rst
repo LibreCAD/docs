@@ -10,7 +10,7 @@ Drawing preferences have two purposes, they allow users to :
     1. override the application defaults on a drawing by drawing basis.
     2. define specifics for the drawing's output, format and other drawing specific configuration.
 
-The preferences can be configured by selecting Options -> Current Drawing Preferences.  There are five tabs for managing the drawing preferences; Paper, Units, Grid, Dimensions and Splines.
+The preferences can be configured by selecting **Options -> Current Drawing Preferences**.  There are five tabs for managing the drawing preferences: *Paper*, *Units*, *Grid*, *Dimensions* and *Splines*.
 
 
 Paper
@@ -25,15 +25,15 @@ Paper
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Paper
 
-The paper tab is used to define the size, orientation and margins of the page used when generating output.  The output can be as a physical printed page or an electronic form such as a PDF.  Layout of the page with specified settings may be checked in Preview section.  The paper format is also used when previewing a drawing (File -> Print Preview).
+The *Paper* tab is used to define the size, orientation and margins of the page used when generating output.  The output can be as a physical printed page or an electronic form such as a PDF.  Layout of the page with specified settings may be checked in Preview section.  The paper format is also used when previewing a drawing (**File -> Print Preview**).
 
-To be able to generate output, users must select a paper size and orientation.  Paper sizes include ISO, ANSI and other sizes.  Sizes of the select page are shown in the current unit of measurement.  Custom sizes can also be select by choosing "Custom" from the drop-down box and specifying the paper width and height.
+To be able to generate output, users must select a paper size and orientation.  Paper sizes include ISO, ANSI and other sizes.  Sizes of the select page are shown in the current unit of measurement.  Custom sizes can also be select by choosing *Custom* from the drop-down box and specifying the paper width and height.
 
-Orientation can be selected for any page size and is either "Landscape" (long edge horizontal) or "Portrait" (long edge vertical).
+Orientation can be selected for any page size and is either *Landscape* (long edge horizontal) or *Portrait* (long edge vertical).
 
 Margins determine the printable area of a page.  Specified fields at the edges of the page are marked with gray color and always stay empty on the output.
 
-If tiled printing is used to output the drawing, use "Number of pages" section to set a horizontal and a vertical number of pages.  For more details about the tiled printing see :ref:`Printing Guide <printing-guide>`.
+If tiled printing is used to output the drawing, use *Number of pages* section to set a horizontal and a vertical number of pages.  For more details about the tiled printing see :ref:`Printing Guide <printing-guide>`.
 
 
 Units
@@ -100,9 +100,9 @@ Grid
 
 The grid provides an evenly spaced guides to assist with placing entities.  When used with :ref:`snaps <snaps>` place can be precise.  The **Grid** tab has the following options:
 
-    - Show Grid: Toggles the grid markers between visible or not visible. The grid can also be toggled with [Ctrl]-g or by using the grid button of the :ref:'view <view>' toolbar.  This setting does not affect the use of "Snap to Grid".
-    - Grid X and Y Spacing: Sets the minimum frequency of the grid markers.  Values can be selected from the drop-down box.  Other values can be typed directly into the text box.  "Auto" sets the frequency of markers to a spacing suitable to the current zoom level.
-    - Orthogonal or Isometric Grid: Selects the grid to use.  *Orthogonal* place the grid at right angles to the X and Y axis.  *Isometric* places the markers at 30 |deg| to horizontal for guiding :ref:`isometric drawings <isometric>`.
+    - *Show Grid*: Toggles the grid markers between visible or not visible. The grid can also be toggled with [Ctrl]-g or by using the grid button of the :ref:`view <view>` toolbar.  This setting does not affect the use of "Snap to Grid".
+    - Grid X and Y Spacing: Sets the minimum frequency of the grid markers.  Values can be selected from the drop-down box.  Other values can be typed directly into the text box.  *Auto* sets the frequency of markers to a spacing suitable to the current zoom level.
+    - *Orthogonal* or *Isometric Grid*: Selects the grid to use.  *Orthogonal* place the grid at right angles to the X and Y axis.  *Isometric* places the markers at 30 |deg| to horizontal for guiding :ref:`isometric drawings <isometric>`.
     - Cross-hair: Toggles the orientation of the cross-hairs (right, left, or top) when used with *Isometric Snap indicator lines* (see :ref:`Application Preferences <app-prefs>`).
 
 
@@ -200,7 +200,7 @@ Splines
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Splines
 
-The single parameter, "Number of line segments per spline patch", affects the 'smoothness' of a spline.  The greater the value, the 'smoother the spline will be drawn.
+The single parameter *Number of line segments per spline patch* affects the 'smoothness' of a spline.  The greater the value, the 'smoother' the spline will be drawn.
 
 |
 |
