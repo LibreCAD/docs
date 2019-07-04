@@ -9,6 +9,8 @@ Printing Guide
 These steps for printing assume the drawing to be printed was drawn full-scale (1:1).
 
 
+.. _print-easy:
+
 Printing, Quick and Easy
 ------------------------
 
@@ -26,6 +28,8 @@ To print a drawing without a drawing border / title block template or a specific
 5. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** button.  Adjust the properties if necessary and then click **OK**.
 6. Click the **Print** button.
 
+
+.. _print-scale:
 
 Printing to Scale
 -----------------
@@ -47,6 +51,8 @@ To print a drawing without a drawing border / title block template but to a spec
 8. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** button.  Adjust the properties if necessary and then click **OK.**
 9. Click the **Print** button.
 
+
+.. _print-border:
 
 Printing to Scale with a Border and Title Block
 -----------------------------------------------
@@ -90,8 +96,10 @@ Specifically, the process is as follows.  Starting with a full-scale (1:1) drawi
 8. Click the **Print** button |icon01|.
 
 
+.. _print-tiled:
+
 Tiled Printing
------------------
+--------------
 
 To print a drawing to the specific scale that greater than an available paper, use so-called "tiled printing".  In this case, the drawing is outputted in parts that can be glued together to get the original drawing.  With a drawing opened in LibreCAD:
 

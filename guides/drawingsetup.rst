@@ -16,23 +16,23 @@ As noted, there are a many drawing parameters to be considered to suit the drawi
 Scale
 -----
 
-Setting the scale of a drawing is the easy part, drawings should be created **full-scale** (1:1)!  The zooming abilities of LibreCAD will make the whole drawing fit in the display window or zoom into the fine detail.  On the other hand, when producing output the drawing will need to be scaled to fit the "page".  Generally output is a printed page, but it can also be a pdf, or :ref:`exported to another image format <file>`.
+Setting the scale of a drawing is the easy part, drawings should be created *full-scale* (1:1)!  The zooming abilities of LibreCAD will make the whole drawing fit in the display window or zoom into the fine detail.  On the other hand, when producing output the drawing will need to be scaled to fit the "page".  Generally output is a printed page, but it can also be a pdf, or :ref:`exported to another image format <file>`.  While these two points seem contradict each other as a full-scale drawing of something very large, like a building, would require an equally large text size for notes and dimensions to appear correctly when the drawing is scaled down to print on an "A1" page.  Trying to determine the dimension text size for a large object would be tedious at best, but a feature of LibreCAD makes it simple.  It is addressed by the "General Scale" on the "Dimensions" tab of the **Drawing Preferences**.  The "General Scale" is used to adjust the dimension text, arrows and related parameters to the sizes suitable for the required page format.
 
-While these two points seem contradict each other as a full-scale drawing of something very large, like a building, would require equally large text size for notes and dimensions when the drawing is scaled down to print on an "A1" page.  Trying to determine the text size for a large object would be tedious at best, but the features available in  LibreCAD makes it simple.  It is addressed by the "General Scale" on the *Dimensions* tab.
+Determining the value for the "General Scale" for the best results is simple, it is the *inverse* of the print scale obtained prior to printing.  For example, if a print scale is determined to be "1:10", the "General Scale" is 10 (10:1).  Setting the "General Scale" to the inverse of the print scale results in the dimension text being the defined size, e.g. 2.5mm, on the printed drawing.  The drawing is scaled down to fit the page and the dimension text is scaled up to be legible.  The print scale can be determined by using LibreCAD's print preview feature.  See :ref:`Printing to Scale <print-scale>` in the Printing Guide for more details.
 
-Two of the tabs, *Paper* and *Dimensions* require attention prior to generating output.  Specifically, the two parameters are:
+There are two tabs in **Drawing Preferences**, "Paper" and "Dimensions", require attention.  Specifically, on the two tabs, the parameters that need to be addressed are:
 
-    1. "Paper format" on the *Paper* tab: Selecting a paper size and orientation will determine the "print scale" used for final output.  The print scale also used to determine the "General Scale".
-    2. "General Scale" on the *Dimensions* tab: The dimension text and related parameters can be adjusted to suit the output.
+      1. "Format" on the "Paper" tab: Selecting a paper size and orientation will determine the *print scale* used for final output.  The print scale is used to determine the "General Scale" as noted above.
+      2. "General Scale" on the "Dimensions" tab: The dimension text and related parameters can be adjusted to suit the output.
 
-The "Paper format", e.g. paper size and orientation, to be used is an important to consideration when setting the drawing preferences.  The Paper Format is entirely up to the user to determine, based on what is available (depending on the printer or printing service that is being used).  While it can be done at anytime, determining the Paper Format sooner than later will help determine the "General Scale".  
+The "Format", e.g. paper size and orientation, to be used is an important to consideration when setting the drawing preferences.  The format is entirely up to the user to determine, based on what is available (depending on the printer or printing service that is being used).  While it can be done at anytime, establishing the format sooner than later will help determine the "General Scale".  
 
 .. Tip::
-   Setting the General Scale *prior to dimensioning a drawing* will help determine the appropriate line spacing for dimensions.  See :ref:`Dimensioning <dimensioning>` for additional information.
+   Setting the paper size *after drawing the object but prior to dimensioning a drawing* will help determine the print scale, the "General scale", and subsequently the appropriate line spacing for dimensions.  See :ref:`Dimensioning <dimensioning>` for additional information.
 
-Determining the General Scale parameter for the best results is simple, it is the *inverse* of the printing scale obtained prior to printing.  For example, if a print scale is determined to be "1:4", the General Scale is "4" (4:1).  Setting the General Scale to the inverse of the print scale results in the dimension text being the defined size, e.g. 2.5mm, on the printed drawing.  The drawing is scaled down to fit the page and the dimension text is scaled up to be legible.  See the :ref:`Printing Guide <printing-guide>` for details.
+   Be sure to allow room on the drawing for dimension lines and text when determining the print scale.
 
-While any scale can be used when **printing** a drawing there are commonly used scales for different types of drawings.  Refer to  :ref:`Scales <scales>` in the appendix for some examples.
+   While any scale can be used when **printing** a drawing there are commonly used scales for different types of drawings.  Refer to  :ref:`Scales <scales>` in the appendix for some examples.
 
 
 Using Layers
