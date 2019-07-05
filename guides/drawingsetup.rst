@@ -38,7 +38,7 @@ The "Format", e.g. paper size and orientation, to be used is an important to con
 Using Layers
 ------------
 
-Layers help organize drawings by allowing users to place and manage related entites.  Layers can be thought of transparent drawing sheets inserted and placed on top of one another and temporarily or permanently removed.  Layers have the added advantage in that the :ref:`pen <entity-pen>`attributes can be modified for all entities on the layer.  Layers are added, removed, hidden and modified using the :ref:`Layer List Dock <widget-layerList>`.
+Layers help organize drawings by allowing users to place and manage related entites.  Layers can be thought of transparent drawing sheets inserted and placed on top of one another and temporarily or permanently removed.  Layers have the added advantage in that the :ref:`pen <entity-pen>` attributes can be modified for all entities on the layer.  Layers are added, removed, hidden and modified using the :ref:`Layer List Dock <widget-layerList>`.
 
 .. note::
    Note that layer **0** is a special layer and should not be used.  Create at least one new layer for the drawing.
