@@ -47,6 +47,10 @@ Hiding layers while drawing reduces the *visual complexity* and makes it easier 
 
 Layers that have been completed can be *locked*.  Locking layers prevents accidental changes and can improve the performance when working with very large complex drawings.
 
+
+Construction Layers
+~~~~~~~~~~~~~~~~~~~
+
 A layer designated as a "Construction Layer" is special layer used to create reference geometry to help align other drawing entities.  A contruction layer:
 
     - contains lines that are an infinite length, and
