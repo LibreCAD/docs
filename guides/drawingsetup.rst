@@ -63,7 +63,7 @@ Ordering Layers and Entities
 Layers are displayed in alpha-numeric order in the layer list.  However, the order of the layers do not relate to the order that entities appear in the drawing.  Each entity can be raised, *moved up*, or lowered, *moved down*, with respect to others.  Each layer can contain entities that are at different points.  Use the commands in **Tools -> Modify -> Order** to move entities up or down.
 
 .. csv-table:: 
-    :widths: 60, 40
+    :widths: 25, 25, 75
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
