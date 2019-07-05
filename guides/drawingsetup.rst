@@ -27,7 +27,7 @@ There are two tabs in **Drawing Preferences**, "Paper" and "Dimensions", require
 
 The "Format", e.g. paper size and orientation, to be used is an important to consideration when setting the drawing preferences.  The format is entirely up to the user to determine, based on what is available (depending on the printer or printing service that is being used).  While it can be done at anytime, establishing the format sooner than later will help determine the "General Scale".  
 
-.. Tip::
+.. tip::
    Setting the paper size *after drawing the object but prior to dimensioning a drawing* will help determine the print scale, the "General scale", and subsequently the appropriate line spacing for dimensions.  See :ref:`Dimensioning <dimensioning>` for additional information.
 
    Be sure to allow room on the drawing for dimension lines and text when determining the print scale.
@@ -38,6 +38,37 @@ The "Format", e.g. paper size and orientation, to be used is an important to con
 Using Layers
 ------------
 
+Layers help organize drawings by allowing users to place and manage related entites.  Layers can be thought of transparent drawing sheets inserted and placed on top of one another and temporarily or permanently removed.  Layers have the added advantage in that the :ref:`pen <entity-pen>`attributes can be modified for all entities on the layer.  Layers are added, removed, hidden and modified using the :ref:`Layer List Dock <widget-layerList>`.
+
+.. note::
+   Note that layer **0** is a special layer and should not be used.  Create at least one new layer for the drawing.
+
+Hiding layers while drawing reduces the *visual complexity* and makes it easier to focus on the current drawing efforts.
+
+Layers that have been completed can be *locked*.  Locking layers prevents accidental changes and can improve the performance when working with very large complex drawings.
+
+A layer designated as a "Construction Layer" is special layer used to create reference geometry to help align other drawing entities.  A contruction layer:
+
+    - contains lines that are an infinite length, and
+    - won't appear on printed drawings.
+
+
+Ordering Layers and Entities
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Layers are displayed in alpha-numeric order in the layer list.  However, the order of the layers do not relate to the order that entities appear in the drawing.  Each entity can be raised, *moved up*, or lowered, *moved down*, with respect to others.  Each layer can contain entities that are at different points.  Use the commands in **Tools -> Modify -> Order** to move entities up or down.
+
+.. csv-table:: 
+    :widths: 60, 40
+    :header-rows: 1
+    :stub-columns: 0
+    :class: fix-table
+
+    Action, Key, Result
+    move to top, [Home], Moves the selected entity to the *top* most position.
+    move to bottom, [End],  Moves the selected entity to the *bottom* most position.
+    raise over entity, [Page Up],  Moves the selected entity *up* one relative position.
+    lower after entity, [Page Down],  Moves the selected entity *down* one relative position.
 
 
 .. _templates:
