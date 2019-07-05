@@ -14,7 +14,7 @@ The user guides provide the steps necessary to perform a various tasks with Libr
    :maxdepth: 1
 
     Drawing Setup <drawingsetup>
-    Drawing and Modifying <draw>
+    Drawing and Modifying <drawing>
     Dimensioning and Text <annotate>
     Blocks <blocks>
     The Command Line <cmdline>
