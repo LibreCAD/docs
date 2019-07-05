@@ -68,11 +68,11 @@ Layers are displayed in alpha-numeric order in the layer list.  However, the ord
     :stub-columns: 0
     :class: fix-table
 
-    Action, Key, Result
-    move to top, [Home], Moves the selected entity to the *top* most position.
-    move to bottom, [End],  Moves the selected entity to the *bottom* most position.
-    raise over entity, [Page Up],  Moves the selected entity *up* one relative position.
-    lower after entity, [Page Down],  Moves the selected entity *down* one relative position.
+    "Action", "Key", "Result"
+    "move to top", "[Home]", "Moves the selected entity to the *top* most position."
+    "move to bottom", "[End]",  "Moves the selected entity to the *bottom* most position."
+    "raise over entity", "[Page Up]",  "Moves the selected entity *up* one relative position."
+    "lower after entity", "[Page Down]",  "Moves the selected entity *down* one relative position."
 
 
 .. _templates:
