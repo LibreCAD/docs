@@ -150,16 +150,158 @@ All angles in LibreCAD are measured in 360 degrees in an anti-clockwise directio
 Entities
 --------
 
-An entity is a geometric shape; a line, circle, arc, etc.  A collection of entities is what forms a drawing.  In addition to the basic information that describes the geometry of an entity, there are two more elements that further define an entity:
+An entity is a geometric shape; a line, circle, arc, etc.  A collection of entities is what forms a drawing.  In addition to the basic information that describes the geometry of an entity, there are two more *attributes* that further define an entity:
 
-    - :ref:`Pens <pens>` describes the appearance of an entity, either on screen or in printed output with three additional properties:
+    - :ref:`Layers <entity-layers>` provide a means to organize drawing and manage the properties of multiple entities.
+    - :ref:`Pens <entity-pen>` describes the appearance of an entity, either on screen or in printed output with three additional properties:
 
         - Color
         - Width
         - Line Type
 
-    - :ref:`Layers <layers>` provide a means to organize drawing and manage the properties of multiple entities.
-    - *Pen* or *Layers* properties *can* have a specific meaning, but vary by industry or an organization's standards and a complete description is beyond the scope of this manual.
+.. note::
+   *Pen* or *Layers* properties *can* have a specific meaning, but vary by industry or an organization's standards and a complete description is beyond the scope of this manual.
+
+
+.. _entity-layers:
+
+Layers
+~~~~~~
+
+A basic feature of CAD is the use of layers to organize a drawing. Every entity in a drawing is on exactly one layer, however one layer can contain multiple entities. Typically entities with a common 'function' or common attributes are put on the same layer. For example, it might be might necessary to put all axis in a drawing on a layer named 'axis'.  Each layer can be defined with a "Default Pen" (see :ref: `Pens <entity-pen>` below). Each entity can have its own attributes or have its attributes defined by the layer it is placed on. In the latter case for example you can change the colour of all the entities on the "axes" layer by setting the colour (red for example) for that layer.
+
+In traditional manual drafting, a similar approach was used. Whether for Engineering, Architectural or Construction drawing etc. layers were used to show different aspects of a drawing — for example this could be a layer set up for showing centre lines on an engineering drawing or to show different building systems, such as wiring and air conditioning. The layers were often drawn on separate transparent sheets of paper. These sheets were then overlaid one on top of another to produce final drawings.
+
+Layers are displayed in alpha-numerical order in the layer list.  However this is does not relate to the order that each entity appears on the z-axis of the drawing.  Each entity can be raised or lowered with respect to others, and each layer can contain entities that are at different points on the z-axis.  Use the four Draw Order commands (under the **Tools -> Modify -> Order menu**) to move entities up or down the z-axis. 
+
+Creating a Layer
+````````````````
+
+Layers are usually created to hold entities with common attributes. Creating a layer is simple:
+
+	- Click the **Add a layer** icon |icon01|.
+	- Specify a *Layer Name*.
+	- Optionally specify the Color, Width and Line Type for the layer.
+	- Click **Ok**. 
+
+
+Construction Layers
+```````````````````
+
+A construction layer is designed to hold geometry construction lines:
+
+	- A construction layer won't appear on printout.
+	- All lines of a construction layer are infinite in length.
+
+You can toggle between construction and normal mode three ways:
+
+	- When creating or modifying a layer, click the *Construction Layer* checkbox in the *Layer Settings* dialog.
+	- Right-click on a named layer in the *Layer List* and choose "Toggle Construction Layer".
+	- Click the "Toggle construction lines" icon |icon04| / |icon05| in the *Layer List*.
+
+For more details on hiding, locking and deleting layers, refer to :ref:`Layer List Dock <widget-layerList>` in the Dock Widgets Reference section.
+
+
+.. _entity-pen:
+
+Pen
+~~~
+
+As with many other aspects of drafting line color, thickness and type assigned to an entity, such as a line or circle are determined by drafting conventions or common practices.  Within LibreCAD, the three attributes are grouped together as a "Pen":
+
+    - **Color** - LibreCAD has 16 default colors, but supports the RGB color space (#000000 to #FFFFFF or 16,777,215 colors).  The initial color for entities is black.
+    - **Width** - The default line width is 0.00mm.  Line widths of up to 2.11mm are supported.
+    - **Line Type** - The default line type is "Continuous" (e.g. solid).  Other line types included with LibreCAD are Dot, Dash, Divide, Center, and Border.
+
+The pen attributes can be defined for a single entity (via the *Properties* tool) , by a group of selected entities (via the *Attribute* tool), or by layer.
+
+.. note::
+   Just as with entities, "pens" can also be applied to layers.  See :ref:`Layer List Dock <widget-layerList>` for details on setting a layer's attributes.
+
+
+Color
+````
+
+.. csv-table::
+   :widths: 70 30
+   :class: table-no-borders
+
+   "The color for an entity can be selected from the ”Color” selection drop-down menu.  The drop-down menu allows the color to be selected ”By Layer”, ”By Block”, from the ”Custom” color selector, or chosen quickly from one of the 16 pre-defined colors: 
+
+   Selecting ”By Layer” will assign the color that was defined for the layer (see above) to the entity.  If the layer's selected color is subsequently changed all entities on the layer will be assigned the layer's color.
+
+   When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the color that was defined for the block to the added entity.  If the block's color is subsequently changed all entities in the block will be assigned the block's color.", " |image01| "
+
+Selecting ”Custom” will allow a selection from a palette of 36 colors and shades of grey or from a user defined colors.  User defined colors are created by clicking the Add button |image10| and then selecting the *hue* and *value* from the color selection tool.  User defined colors can be modified by right-clicking on a user defined color and selecting a new *hue* and *value*.  A maximum of eight user defined colors can be added.
+
+.. csv-table::
+   :widths: 50 50
+   :class: table-no-borders
+
+   |image02|, |image03|
+
+
+Width
+`````
+
+Line width or thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, arcitectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/C paper sizes:
+
+.. csv-table:: 
+    :widths: 15, 20, 40, 25
+    :header-rows: 1
+    :stub-columns: 0
+    :class: table-wrap-text
+
+    "Line Weights", "Pen Size (mm)", "Purpose", "Recommended"
+    "Extra Thin", "0.00, 0.05, 0.09", "- Hidden lines", "0.00 mm"
+    "", "", "- Hatching", ""
+    "", "", "- Reference line", ""
+    "Thin", "**0.13**, 0.15, **0.18**, 0.20, **0.25**", "- Outlines", "0.18 mm"
+    "", "", "- Centre lines", ""
+    "", "", "- Dimension lines", ""
+    "", "", "- Leader and extension", ""
+    "", "", "- Phantom lines", ""
+    "", "", "- Grid lines", ""
+    "", "", "- Text", ""
+    "Medium", "0.30, **0.35**, 0.40, **0.50**", "- Hidden lines", "0.35 mm"
+    "", "", "- Text normal (0.30 mm)", ""
+    "", "", "- Text - sub-headings (0.50 mm)", ""
+    "", "", "- Visible object outlines", ""
+    "Thick", "**0.70**", "- Cutting lines", "0.70 mm"
+    "", "", "- Match lines", ""
+    "", "", "- Section lines", ""
+    "", "", "- Text - titles/major headings", ""
+    "", "", "- Viewing planes", ""
+    "Extra Thick", "**1.00**", "- Title sheet border", ""
+
+
+Note: Pen sizes shown in **bold** are ISO standard sizes.
+
+
+Line Type
+`````````
+
+Different types of lines are used for different purposes.  LibreCAD includes several commonly used line types:
+
+.. csv-table:: 
+    :widths: 20, 20, 60
+    :header-rows: 1
+    :stub-columns: 0
+    :class: table-wrap-text
+
+    "Line Type", "Example", "Purpose"
+    "Continuous", |image20|, "Object or visible, dimension, extention and construction lines."
+    "Dot", |image21|, ""
+    "Dash", |image22|, "Hidden lines and phantom lines (long dash)."
+    "Dash Dot", |image23|, ""
+    "Divide", |image24|, "Marks location (cross) section of object."
+    "Center", |image25|, "Marks center of circle, arc or any symmetrical object."
+    "Border", |image26|, "Used for drawing border around perimeter of sheet."
+
+Other than ”Continuous”, the other non-continuous lines are available in default, ”tiny” (1/6x default), ”small” (1/2x) and ”large (2x)”.  A complete list of :ref:`line types <lineTypes>` are shown in the appendix.
+
+.. Note::
+   Intervals for non-continuous line types with white spaces remain constant when scaled.  ”Tiny” should be used in most cases.
 
 
 Creating Entities
@@ -228,4 +370,81 @@ Isometric Drawings
 ------------------
 
 LibreCAD can also be used to create drawings with an **isometric** projection.  Creating isometric drawings is similar to creating orthaganol drawings, but with an additional consideration towards the perspective of the drawing.  The **Grid** tab of :ref:`Drawing Preferences <draw-prefs>` allows users to set the grid to suit isomentric drawings.  Setting the "Snap Indicator Lines" on the **Appearance** tab on the :ref:`Application Preferences <app-prefs>` to *Isometric* will also assist in with locating entities.
+
+
+..  Icon mapping:
+
+.. |icon01| image:: /images/icons/add.svg
+            :height: 18
+            :width: 18
+.. |icon02| image:: /images/icons/attributes.svg
+            :height: 18
+            :width: 18
+.. |icon03| image:: /images/icons/rename_active_block.svg
+            :height: 18
+            :width: 18
+.. |icon04| image:: /images/icons/construction_layer.svg
+            :height: 18
+            :width: 18
+.. |icon05| image:: /images/icons/noconstruction.svg
+            :height: 18
+            :width: 18
+
+
+..  Image mapping (no "align" allowed/required):
+
+.. |image01| image:: /images/coloursStd.png
+             :width: 140px
+             :height: 439px
+             :scale: 100
+             :alt: Standard color selector
+.. |image02| image:: /images/coloursCustom.png
+             :width: 490px
+             :height: 295px
+             :scale: 67
+             :alt: Custom colors
+.. |image03| image:: /images/colourCustom.png
+             :width: 436px
+             :height: 426px
+             :scale: 67
+             :alt: Custom color selector
+.. |image10| image:: /images/coloursCustomAdd.png
+             :width: 48
+             :height: 32
+             :scale: 50
+.. |image20| image:: /images/ltContinuous.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Continuous
+.. |image21| image:: /images/ltDot.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Dot
+.. |image22| image:: /images/ltDash.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Dash
+.. |image23| image:: /images/ltDashDot.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Dash Dot
+.. |image24| image:: /images/ltDivide.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Divide
+.. |image25| image:: /images/ltCenter.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Center
+.. |image26| image:: /images/ltBorder.png
+             :width: 160
+             :height: 20
+             :scale: 100
+             :alt: Border
 
