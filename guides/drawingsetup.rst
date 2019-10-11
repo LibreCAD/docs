@@ -125,19 +125,6 @@ Layers are usually created to hold entities with common attributes. Creating a l
 	- Click **Ok**. 
 
 
-Changing an Entity's Layer
-``````````````````````````
-
-Sometimes it is necessary to change an entity's layer. To move one or more entities between layers:
-
-	- Select the entities to be moved to a different layer.
-	- From the menu select **Tools -> Modify -> Attributes**, or click the **Attributes** icon |icon02|.
-	- In the *Attributes* dialog, select the desired layer from the drop-down the Layer selection box.
-	- Click **Ok**.
-
-Alternatively activate the option *Modify layer of selected entities, at layer activation* in the **Application Preferences, Defaults** tab .  With this option enabled entities can be assigned to a layer by selecting the entities and then selecting the destination layer.
-
-
 Construction Layers
 ```````````````````
 
