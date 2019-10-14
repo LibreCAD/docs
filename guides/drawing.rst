@@ -3,6 +3,9 @@
 
 .. _drawing:
 
+Drawing
+=======
+
 As with many programs, there are a multitude of ways to generate the final output.  LibreCAD is the same - there are many ways to obtain the same results - far too many to be able document an example for each one in a User Guide.  For users it is inmportant know what tools are available and how to apply them.
 
 This section of the User Guide brings together many other parts of the LibreCAD manual and will show how to use a variety tools to **create** and **modify** drawings.  Be sure to reads through the **Reference** section, particularly the :ref:`Fundamentals <fundamentals>`, the :ref:`Drawing Tools <tools>` and the :ref: `Snapping <snaps>` sections to obtain an understanding of the basic operation of LibreCAD and its various tools.
@@ -12,7 +15,7 @@ This section of the User Guide brings together many other parts of the LibreCAD 
 
 
 Creating Entities
-=================
+-----------------
 
 Creating new geometric entities all use similar methods.  Generally,  creating an entity requires placement of a minimum of two points (Well, unless the entity being drawn is a point), or a single point and an additional parameter such as length or radius.  In some case the same result can be obtained using several different methods.  For example, drawing a vertical line can be done via keyboard entry to select a tool and then define two points with the *absolute* or *relative* *Cartesian* coordinates:
 
@@ -123,7 +126,7 @@ All of the above examples create the oblect by drawing individual lines.  A comp
 
 
 Modifying Entities
-==================
+------------------
 
 Not to be confused with the "Modify" tools, but for using 'handles', attribute and properties.  To follow...
 
