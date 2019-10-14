@@ -3,7 +3,7 @@
 
 .. _drawing:
 
-Creating and Modifying Drawings
+Creating and Modifying Entities
 ===============================
 
 As with many programs, there are a multitude of ways to generate the final output.  LibreCAD is the same - there are many ways to obtain the same results - far too many to be able document an example for each one in a User Guide.  For users it is inmportant know what tools are available and how to apply them.
