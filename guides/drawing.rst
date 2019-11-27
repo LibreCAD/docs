@@ -71,16 +71,14 @@ Drawings are generally created with multiple lines segments with the end of one 
 
 ::
 
-li
-0,500
-0,0
-@600,0
-@300<90
-k
+   li
+   0,500
+   0,0
+   @600,0
+   @300<90
+   k
 
 Using the mouse, or another pointing device, along with the "Snaps" provide an alternative to using the command line for creating drawings.  As with the command line, there are multiple line tools that can be used to produce the same result.  For example, adding the to the the previous example, a horizontal line can be added using various methods:
-
-::
 
    Click the "2 points" line tool icon.
    Enable the "Snap on Endpoints" snap tool and click close to the end of the line at *absolute coordinate* 0,500.
@@ -91,15 +89,12 @@ A combination of the "2 Points" line tool the "Restrict Horizontal" snap tool ca
 
 Alternatively, the line can be drawn with the "Horizontal" line tool:
 
-::
    Click the "Horizontal" line tool icon.
    On the "Tool Options" tool bar specify a length of 400 units and the "Snap Point" at the "Start".
    With the "Snap on Endpoints" enabled click close to the end of the line at *absolute coordinate* 0,500.  Clicking the mouse should result in a horizontal line ending at 400,500.
    Press [Esc] to exit the complete the command.
 
 Being that the end points of the existing lines have been defined, the "2 Point" line tool and "Snap on Endpoints" can quickly complete the outline:
-
-::
 
    Click the "2 points" line tool icon.
    Enable the "Snap on Endpoints" snap tool and click close to the end of the line at *absolute coordinate* 400,500.
@@ -108,7 +103,6 @@ Being that the end points of the existing lines have been defined, the "2 Point"
 
 Another option is to draw the line at the desired angle:
 
-::
    Click the "Angle" line tool icon.
    On the "Tool Options" tool bar specify an angle of 135, a length of 200 units and the "Snap Point" at the "Start".
    With the "Snap on Endpoints" enabled click close to the end of the line at *absolute coordinate* 600,300.  Clicking the mouse should result in a line angled up and to the left.  The line is too long, but can be *trimmed* to suit (see "Modifying Entities" below).
@@ -122,10 +116,18 @@ All of the above examples create the oblect by drawing individual lines.  A comp
    600,500
    k
 
-
+And then modify it using the ** *Modify* ** tools.
 
 
 Modifying Entities
+------------------
+
+There are a variety of tools that can be used to modify existing entities.  The tools cam be found in the the **Tools -> Modify** menu or as a :ref:`dock widget <widgets>`.  These tools allow entities, depending on the type, to be moved, rotated, scaled, mirrored, lengths increased or decreased, divided (i.e. split), etc.  A complete list and descriptions of the tools are found in the :ref:`Drawing Tools - Modify <tool-modify>` reference section.
+
+
+
+
+Adjusting Entities
 ------------------
 
 Not to be confused with the "Modify" tools, but for using 'handles', attribute and properties.  To follow...
