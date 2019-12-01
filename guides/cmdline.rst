@@ -52,7 +52,7 @@ For example, when using the **2 Points** line tool the first prompt shows "Speci
    close
 
 .. tip::
-   In addition to the comma separated coordinates`, :ref:`relative* coordinates<coordinates> can also be entered using the numeric keypad using the format *X..Y*, i.e. typing *10..20* is equivalent to *@10,20*.  Using the two decimals is faster than typing the comma.
+   In addition to the comma separated coordinates, :ref:`relative* coordinates<coordinates>` can also be entered using the numeric keypad using the format *X..Y*, i.e. typing *10..20* is equivalent to *@10,20*.  Using the two decimals is faster than typing the comma.
 
    The *Keycode Mode* permits the use of **two letter** commands and eliminates the need to press [Enter] after typing the command. 
 
