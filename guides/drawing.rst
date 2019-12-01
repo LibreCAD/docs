@@ -53,8 +53,10 @@ Or, other tools can also be used achieve the same result:
 
 ::
 
-   ver   (Ensure the "Length" is set to "500" and the "Snap Point:" is "Start" in the **Tool Options** textbox.)
+   ver   
    0,0
+
+   (Note: Ensure the "Length" is set to "500" and the "Snap Point:" is "Start" in the **Tool Options** textbox.)
 
 The tool and method used is entirely up to the user to obtain the desired results. The use of a particular tool may be determined by the next operation to quickly extend or repeat the entity.  A good understanding of the available tools allows the user to select the appropriate tool for the current operation.
 
@@ -130,7 +132,10 @@ There are a variety of tools that can be used to modify existing entities.  The 
 Continuing with the previous example - starting with a rectangle - the shape can be modified as required with the **Bevel** tool:
 
 ::
-   ch   (ensure with "Trim" is checked and "Length 1" and "Length 2" is set at "200" in the **Tool Options**.)
+
+   ch
+
+   (Note: Ensure with "Trim" is checked and "Length 1" and "Length 2" is set at "200" in the **Tool Options**.)
 
 As prompted in the "Command Line", select the first entity (the top horizontal line of the rectangle) and then the second entity (the right vertical line of the rectangle).  Press [Esc] to exit the command.
 
