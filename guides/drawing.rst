@@ -53,7 +53,7 @@ Or, other tools can also be used achieve the same result:
 
 ::
 
-   ver (with a the "Length" set at "500" in the **Tool Options** textbox.)
+   ver   (Ensure the "Length" is set to "500" and the "Snap Point:" is "Start" in the **Tool Options** textbox.)
    0,0
 
 The tool and method used is entirely up to the user to obtain the desired results. The use of a particular tool may be determined by the next operation to quickly extend or repeat the entity.  A good understanding of the available tools allows the user to select the appropriate tool for the current operation.
@@ -107,7 +107,10 @@ Another option is to draw the line at the desired angle:
    On the "Tool Options" tool bar specify an angle of 135, a length of 200 units and the "Snap Point" at the "Start".
    With the "Snap on Endpoints" enabled click close to the end of the line at *absolute coordinate* 600,300.  Clicking the mouse should result in a line angled up and to the left.  The line is too long, but can be *trimmed* to suit (see "Modifying Entities" below).
 
-All of the above examples create the oblect by drawing individual lines.  A completely different approach is to start with a rectangle:
+Which ever of the above methods is used, the result should be:   (Insert image)
+
+
+All of the above examples create the object by drawing individual lines.  A completely different approach is to start with a rectangle:
 
 ::
 
@@ -122,9 +125,19 @@ And then modify it using the ** *Modify* ** tools.
 Modifying Entities
 ------------------
 
-There are a variety of tools that can be used to modify existing entities.  The tools cam be found in the the **Tools -> Modify** menu or as a :ref:`dock widget <widgets>`.  These tools allow entities, depending on the type, to be moved, rotated, scaled, mirrored, lengths increased or decreased, divided (i.e. split), etc.  A complete list and descriptions of the tools are found in the :ref:`Drawing Tools - Modify <tool-modify>` reference section.
+There are a variety of tools that can be used to modify existing entities.  The tools cam be found in the **Tools -> Modify** menu or as a :ref:`dock widget <widgets>`.  These tools allow entities, depending on the type, to be moved, rotated, scaled, mirrored, lengths increased or decreased, divided (i.e. split), etc.  A complete list and descriptions of the tools can be found in the :ref:`Drawing Tools - Modify <tool-modify>` reference section.
 
+Continuing with the previous example - starting with a rectangle - the shape can be modified as required with the **Bevel** tool:
 
+::
+   ch   (ensure with "Trim" is checked and "Length 1" and "Length 2" is set at "200" in the **Tool Options**.)
+
+As prompted in the "Command Line", select the first entity (the top horizontal line of the rectangle) and then the second entity (the right vertical line of the rectangle).  Press [Esc] to exit the command.
+
+The result should appear as: (Insert image)
+
+   
+   
 
 
 Adjusting Entities
