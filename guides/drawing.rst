@@ -18,7 +18,7 @@ This section of the User Guide brings together many other parts of the LibreCAD 
 Creating Entities
 -----------------
 
-Creating new geometric entities all use similar methods.  Generally,  creating an entity requires placement of a minimum of two points (Well, unless the entity being drawn is a point), or a single point and an additional parameter such as length or radius.  In some case the same result can be obtained using several different methods.  For example, drawing a vertical line can be done via keyboard entry to select a tool and then define two points with the *absolute* or *relative* *Cartesian* coordinates:
+Creating new geometric entities all use similar methods.  Generally,  creating an entity requires placement of a minimum of two points (Well, unless the entity being drawn is a point), or a single point and an additional parameter such as length or radius.  In some case the same result can be obtained using several different methods.  For example, drawing a vertical line can be done via keyboard entry using the ref:`command line<widget-cmdLine>` to select a tool and then define two points with the *absolute* or *relative* *Cartesian* coordinates:
 
 Absolute Cartesian coordinates:
 
@@ -89,8 +89,7 @@ Using the mouse, or another pointing device, along with the "Snaps" provide an a
 
    - Click the "2 points" line tool icon.
    - Enable the "Snap on Endpoints" snap tool and click close to the end of the line at *absolute coordinate* 0,500.
-   - Drag the mouse to the right and, with the "Snap on Grid" snap enabled, place a point at 400,500.  
-   - Clicking the mouse should result in a horizontal line ending at 400,500.
+   - Drag the mouse to the right and, with the "Snap on Grid" snap enabled, place a point at 400,500.  Clicking the mouse should result in a horizontal line ending at precisely at 400,500.
    - Press [Esc] to exit the complete the command.
 
 .. note::
@@ -115,7 +114,7 @@ Being that the end points of the existing lines have been defined, the "2 Point"
 Another option is to draw the line at the desired angle:
 
    - Click the "Angle" line tool icon.
-   - On the "Tool Options" tool bar specify an angle of 135, a length of 200 units and the "Snap Point" at the "Start".
+   - On the "Tool Options" tool bar specify an *Angle* of "135", a *Length* of "200" units and the *Snap Point* at the "Start".
    - With the "Snap on Endpoints" enabled click close to the end of the line at *absolute coordinate* 600,300.  Clicking the mouse should result in a line angled up and to the left.  The line is too long, but can be *trimmed* to suit (see "Modifying Entities" below).
 
 Which ever of the above methods is used, the result should be:   (Insert image)
@@ -130,7 +129,27 @@ All of the above examples create the object by drawing individual lines.  A comp
    600,500
    k
 
-And then modify it using the **Modify** tools.
+And then modify it using the **Modify** tools (see below).
+
+Circles can be added in a similar fashion.  It can be drawn by specifying the coordinates of the centre and of a point on the circumference:
+
+::
+
+   ci
+   200,300
+   @0,100
+   k
+
+
+A circle can also be drawn with the **Circle, Radius** tool:
+
+   - Click the "Circle, Radius" tool icon.
+   - On the "Tool Options" tool bar specify a *Radius* of "100".
+   - With the "Snap on grid" place the centre of the circle at *absolute coordinate* 200,300.
+   - Press [Esc] to exit the command.
+
+The drawing should now appear as: (insert image)
+
 
 
 Modifying Entities
@@ -138,7 +157,7 @@ Modifying Entities
 
 There are a variety of tools that can be used to modify existing entities.  The tools cam be found in the **Tools -> Modify** menu or as a :ref:`dock widget <widgets>`.  These tools allow entities, depending on the type, to be moved, rotated, scaled, mirrored, lengths increased or decreased, divided (i.e. split), etc.  A complete list and descriptions of the tools can be found in the :ref:`Drawing Tools - Modify <tool-modify>` reference section.
 
-Continuing with the previous example - starting with a rectangle - the shape can be modified as required with the **Bevel** tool:
+Continuing with the previous example - starting with a rectangle - the shape can be modified as required with the **Bevel** (or "chamfer") tool:
 
 ::
 
@@ -146,12 +165,21 @@ Continuing with the previous example - starting with a rectangle - the shape can
 
 (Note: Ensure with "Trim" is checked and "Length 1" and "Length 2" is set at "200" in the **Tool Options**.)
 
-   As prompted in the "Command Line", select the first entity (the top horizontal line of the rectangle) and then the second entity (the right vertical line of the rectangle).  Press [Esc] to exit the command.
+As prompted in the "Command Line" dock, and on the Status Bar, select the first entity (the top horizontal line of the rectangle) and then the second entity (the right vertical line of the rectangle).  Press [Esc] to exit the command.
 
-The result should appear as: (Insert image)
+**Fillets** (rounding a corner) are done in a similar manner:
 
-   
-   
+::
+
+   fi
+
+(Note: Ensure with "Trim" is checked and "Radius" is set at "50" in the **Tool Options**.)
+
+As prompted in the "Command Line" dock, and on the Status Bar, select the first entity (the bottom horizontal line of the rectangle) and then the second entity (the left vertical line of the rectangle).  Press [Esc] to exit the command.
+
+The drawing should appear as: (Insert image)
+  
+
 
 
 Adjusting Entities
