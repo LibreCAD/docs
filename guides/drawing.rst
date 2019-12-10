@@ -48,7 +48,7 @@ It can also be done with relative *polar* coordinates:
    500<90
    k
 
-The same line can also be drawn using just the mouse.  With **Snap on Grid** [icon] enabled:
+The same line can also be drawn using just the mouse.  With **Snap on Grid** |icon03| enabled:
 
    - Select the **2 Points** line tool [icon]
    - Click at *0,0* and then
@@ -178,15 +178,15 @@ As prompted in the "Command Line" dock, and on the Status Bar, select the first 
 .. note::
    Ensure with "Trim" is checked and "Radius" is set at "50" in the **Tool Options**.
 
-   - As prompted in the "Command Line" dock, and on the Status Bar, select the first entity (the bottom horizontal line of the rectangle) and then 
-   - select the second entity (the left vertical line of the rectangle).
-   - Press [Esc] to exit the command.
+- As prompted in the "Command Line" dock, and on the Status Bar, select the first entity (the bottom horizontal line of the rectangle) and then 
+- select the second entity (the left vertical line of the rectangle).
+- Press [Esc] to exit the command.
 
 The drawing should appear as: (Insert image)
   
 A previous example above left a diagonal line that is too long.  The length can be easily trimmed:
 
-   - Click the "Trim" icon [insert icon]
+   - Click the "Trim" icon |icon76|
    - Click the top horizontal line.  This line is the "limiting entity" that determines where the second line is going to be trimmed to.
    - Click the line to be trimmed, the "entitiy to trim" anywhere along the line that is to be kept (below the top horizontal line).
    - Press [Esc] to exit the command.
@@ -228,4 +228,11 @@ Changing Properties
 
 To follow...
 
+..  Icon mapping:
+.. |icon03| image:: /images/icons/snap_grid.svg
+            :height: 24
+            :width: 24
+.. |icon76| image:: /images/icons/trim.svg
+            :height: 24
+            :width: 24
 
