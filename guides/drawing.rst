@@ -64,7 +64,7 @@ Or, other tools can also be used achieve the same result:
 .. note::
    Ensure the *Length* is set to "500" and the *Snap Point:* is "Start" in the **Tool Options** textbox.
 
-The tool and method used is entirely up to the user to obtain the desired results. The use of a particular tool may be determined by the next operation to quickly extend or repeat the entity.  A good understanding of the available tools allows the user to select the appropriate tool for the current operation.
+The tool and method used is entirely up to the user to obtain the desired results. The use of a particular tool may be determined by the next operation that allows the drawing to be quickly extended.  A good understanding of the available tools allows the user to select the appropriate tool for the current operation.
 
 While the above example always start at *0,0*, the initial point can be placed anywhere:
 
@@ -152,7 +152,6 @@ A circle of a given size can also be drawn with a known radius:
 The drawing should now appear as: (insert image)
 
 
-
 Modifying Entities
 ------------------
 
@@ -192,21 +191,14 @@ A previous example above left a diagonal line that is too long.  The length can 
    - Press [Esc] to exit the command.
 
 
+Attributes and Properties
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
+As shown in the :ref:`Entities <entities>` section in the **Fundamentals**, an entitiy consist of "Pens" (color, width, line type) and "Layers".  These attributes can be changed using one of two :ref:`**Modify <tool-modify>` tools:
 
+   - Attributes: allows the Pen or Layers to be change for one or more entities.
+   - Properties: allows the Pen, Layers or geometry to changed *one* entity.
 
-Adjusting Entities
-------------------
-
-Not to be confused with the "Modify" tools, but for using 'handles', attribute and properties.  To follow...
-
-Also, "selecting" entities.  To follow...
-
-
-Changing Attributes
-~~~~~~~~~~~~~~~~~~~
-
-More to follow...
 
 Changing an Entity's Layer
 ``````````````````````````
@@ -220,11 +212,9 @@ Sometimes it is necessary to change an entity's layer. To move one or more entit
 
 Alternatively activate the option *Modify layer of selected entities, at layer activation* in the **Application Preferences, Defaults** tab .  With this option enabled entities can be assigned to a layer by selecting the entities and then selecting the destination layer.
 
-
-
-
 Changing Properties
 ~~~~~~~~~~~~~~~~~~~
+
 
 To follow...
 
