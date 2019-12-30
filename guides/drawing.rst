@@ -32,9 +32,9 @@ Absolute Cartesian coordinates:
 
 Or, relative Cartesian coordinates: 
 
-.. sidebar:: Cartesian coordinates
+.. sidebar:: Relative Coordinates
 
-   *@0,500* places the next point 0 units horinzonatally (X axis) and 500 units vertically (Y axis) from the previously placed point.
+   "@" designates *relative coordinates*.  The *@0,500* relative Cartesian coordinates places the next point 0 units horinzonatally (X axis) and 500 units vertically (Y axis) from the previously placed point.
 
 ::
 
