@@ -40,6 +40,7 @@ Or, relative Cartesian coordinates:
    k
 
 .. topic:: Info
+
    *@0,500* places the next point 0 units horinzonatally (X axis) and 500 units vertically (Y axis) from the previously placed point.
 
 It can also be done with relative *polar* coordinates:
@@ -52,7 +53,17 @@ It can also be done with relative *polar* coordinates:
    k
 
 .. topic:: Info
+
    *500<90* places the next point 500 units 90 degrees from the previously placed point.
+
+
+.. sidebar:: Sidebar Title
+    :subtitle: Optional Sidebar Subtitle
+
+    Subsequent indented lines comprise
+    the body of the sidebar, and are
+    interpreted as body elements.
+
 
 The same line can also be drawn using just the mouse.  With **Snap on Grid** |icon03| enabled:
 
