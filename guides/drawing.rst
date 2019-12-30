@@ -30,7 +30,7 @@ Absolute Cartesian coordinates:
    k
 
 
-Or, Relative Cartesian coordinates: 
+Or, relative Cartesian coordinates: 
 
 ::
 
@@ -38,6 +38,9 @@ Or, Relative Cartesian coordinates:
    0,0
    @0,500
    k
+
+.. info::
+   *@0,500* places the next point 0 units horinzonatally (X axis) and 500 units vertically (Y axis) from the previously placed point.
 
 It can also be done with relative *polar* coordinates:
 
@@ -48,13 +51,16 @@ It can also be done with relative *polar* coordinates:
    500<90
    k
 
+.. info::
+   *500<90* places the next point 500 units 90 degrees from the previously placed point.
+
 The same line can also be drawn using just the mouse.  With **Snap on Grid** |icon03| enabled:
 
    - Select the **2 Points** line tool [icon]
    - Click at *0,0* and then
    - Click at *0,500* (use the **Status Bar** to locate the correct coordinates).
 
-Or, other tools can also be used achieve the same result:
+Other tools can also be used achieve the same result:
 
 ::
 
@@ -191,13 +197,18 @@ A previous example above left a diagonal line that is too long.  The length can 
    - Press [Esc] to exit the command.
 
 
+Many of the other tools work in a similar manner.  
+
+
 Attributes and Properties
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As shown in the :ref:`Entities <entities>` section in the **Fundamentals**, an entitiy consist of "Pens" (color, width, line type) and "Layers".  These attributes can be changed using one of two :ref:`**Modify <tool-modify>` tools:
+As shown in the :ref:`Entities <entities>` section in **Fundamentals**, an entitiy consist of "Pens" (color, width, line type) and "Layers".  These attributes can be changed using one of two :ref:`Modify <tool-modify>` tools:
 
-   - Attributes: allows the Pen or Layers to be change for one or more entities.
-   - Properties: allows the Pen, Layers or geometry to changed *one* entity.
+   - Attributes: allows the "Pen" or "Layers" to be modified for one or more entities.
+   - Properties: allows the "Pen", "Layers" or geometry to modified *one* entity.
+
+Both tools operate in a similar fashion and for similar purposes but there are a couple of key differences.  The **Attributes** tool allows a change to the attibutes to be applied to *one or more selected entities* while the **Properities** tool can only be used for a *single selected entity*.  In addition, the **Properties** tool allows the *geometry* to be edited.  The geometry of an entity will vary be the type of entity.  For example a line's geometry consist of the X and Y coordinates of the endpoints, while a circles geometry consists of the X /Y coordinates of the centre of the circle and its radius.  
 
 
 Changing an Entity's Layer
