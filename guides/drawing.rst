@@ -39,8 +39,7 @@ Or, relative Cartesian coordinates:
    @0,500
    k
 
-.. sidebar:: Sidebar Title
-    :subtitle: Cartesian coordinates
+.. sidebar:: Cartesian coordinates
 
    *@0,500* places the next point 0 units horinzonatally (X axis) and 500 units vertically (Y axis) from the previously placed point.
 
@@ -53,8 +52,7 @@ It can also be done with relative *polar* coordinates:
    500<90
    k
 
-.. sidebar:: Sidebar Title
-    :subtitle: Polar* Coordinates
+.. sidebar:: Polar Coordinates
 
        *500<90* places the next point 500 units 90 degrees from the previously placed point.
 
