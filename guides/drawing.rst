@@ -32,6 +32,10 @@ Absolute Cartesian coordinates:
 
 Or, relative Cartesian coordinates: 
 
+.. sidebar:: Cartesian coordinates
+
+   *@0,500* places the next point 0 units horinzonatally (X axis) and 500 units vertically (Y axis) from the previously placed point.
+
 ::
 
    li
@@ -39,11 +43,12 @@ Or, relative Cartesian coordinates:
    @0,500
    k
 
-.. sidebar:: Cartesian coordinates
-
-   *@0,500* places the next point 0 units horinzonatally (X axis) and 500 units vertically (Y axis) from the previously placed point.
 
 It can also be done with relative *polar* coordinates:
+
+.. sidebar:: Polar Coordinates
+
+       *500<90* places the next point 500 units 90 degrees from the previously placed point.
 
 ::
 
@@ -52,9 +57,7 @@ It can also be done with relative *polar* coordinates:
    500<90
    k
 
-.. sidebar:: Polar Coordinates
 
-       *500<90* places the next point 500 units 90 degrees from the previously placed point.
 
 The same line can also be drawn using just the mouse.  With **Snap on Grid** |icon03| enabled:
 
