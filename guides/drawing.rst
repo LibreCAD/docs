@@ -39,7 +39,7 @@ Or, relative Cartesian coordinates:
    @0,500
    k
 
-.. topic:: Relative Coordinates
+.. note:: Relative Coordinates
 
    "@" designates *relative coordinates*.  The *@0,500* relative Cartesian coordinates places the next point 0 units horinzonatally (X axis) and 500 units vertically (Y axis) from the previously placed point.
 
@@ -52,9 +52,9 @@ It can also be done with relative *polar* coordinates:
    500<90
    k
 
-.. topic:: Polar Coordinates
+.. note:: Polar Coordinates
 
-       *500<90* places the next point 500 units 90 degrees from the previously placed point.
+       "<" designates a *polar coordinate*.  The *500<90* polar coordinate places the next point 500 units 90 degrees from the X axis of the previously placed point.
 
 
 The same line can also be drawn using just the mouse.  With **Snap on Grid** |icon03| enabled:
