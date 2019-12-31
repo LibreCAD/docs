@@ -130,12 +130,11 @@ Another option is to draw the line at the desired angle:
 Whichever of the above methods is used, the result should be:
 
 .. figure:: /images/widget01.png
-    :width: 785px
-    :height: 623px
-    :align: right
-    :scale: 50
-    :alt: 
-
+    :width: 500px
+    :height: 450px
+    :align: center
+    :scale: 66
+    :alt: Widget 
 
 All of the above examples create the object by drawing individual lines.  A completely different approach is to start with a rectangle:
 
@@ -168,11 +167,11 @@ A circle of a given size can also be drawn with a known radius:
 The drawing should now appear as: 
 
 .. figure:: /images/widget02.png
-    :width: 785px
-    :height: 623px
-    :align: right
-    :scale: 50
-    :alt: 
+    :width: 500px
+    :height: 450px
+    :align: center
+    :scale: 66
+    :alt: Widget 
 
 
 Modifying Entities
@@ -207,11 +206,11 @@ As prompted in the "Command Line" dock, and on the Status Bar, select the first 
 The drawing should appear as:
 
 .. figure:: /images/widget03.png
-    :width: 785px
-    :height: 623px
-    :align: right
-    :scale: 50
-    :alt: 
+    :width: 500px
+    :height: 450px
+    :align: center
+    :scale: 66
+    :alt: Widget 
 
   
 A previous example above left a diagonal line that is too long.  The length can be easily trimmed:
