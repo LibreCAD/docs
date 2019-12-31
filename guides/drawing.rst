@@ -39,9 +39,9 @@ Or, relative Cartesian coordinates:
    @0,500
    k
 
-.. note:: Relative Coordinates
+.. note::
 
-   "@" designates *relative coordinates*.  The *@0,500* relative Cartesian coordinates places the next point 0 units horinzonatally (X axis) and 500 units vertically (Y axis) from the previously placed point.
+   "@" designates **relative coordinates**.  The *@0,500* relative Cartesian coordinates places the next point 0 units horinzonatally (X axis) and 500 units vertically (Y axis) from the previously placed point.
 
 It can also be done with relative *polar* coordinates:
 
@@ -52,9 +52,9 @@ It can also be done with relative *polar* coordinates:
    500<90
    k
 
-.. note:: Polar Coordinates
+.. note::
 
-       "<" designates a *polar coordinate*.  The *500<90* polar coordinate places the next point 500 units 90 degrees from the X axis of the previously placed point.
+       "<" designates a **polar coordinate**.  The *500<90* polar coordinate places the next point 500 units 90 degrees from the X axis of the previously placed point.
 
 
 The same line can also be drawn using just the mouse.  With **Snap on Grid** |icon03| enabled:
@@ -127,7 +127,14 @@ Another option is to draw the line at the desired angle:
    - On the "Tool Options" tool bar specify an *Angle* of "135", a *Length* of "300" units and the *Snap Point* at the "Start".
    - With the "Snap on Endpoints" enabled, click close to the end of the line at *absolute coordinate* 600,300.  Clicking the mouse should result in a line angled up and to the left.  The line is too long, but can be *trimmed* to suit (see "*Modifying Entities*" below).
 
-Whichever of the above methods is used, the result should be:   (Insert image)
+Whichever of the above methods is used, the result should be:
+
+.. figure:: /images/widget01.png
+    :width: 785px
+    :height: 623px
+    :align: right
+    :scale: 50
+    :alt: 
 
 
 All of the above examples create the object by drawing individual lines.  A completely different approach is to start with a rectangle:
@@ -158,7 +165,14 @@ A circle of a given size can also be drawn with a known radius:
    - With the "Snap on grid" place the centre of the circle at *absolute coordinate* 200,300.
    - Press [Esc] to exit the command, or click the right mouse button once.
 
-The drawing should now appear as: (insert image)
+The drawing should now appear as: 
+
+.. figure:: /images/widget02.png
+    :width: 785px
+    :height: 623px
+    :align: right
+    :scale: 50
+    :alt: 
 
 
 Modifying Entities
@@ -190,7 +204,15 @@ As prompted in the "Command Line" dock, and on the Status Bar, select the first 
 - select the second entity (the left vertical line of the rectangle).
 - Press [Esc] to exit the command.
 
-The drawing should appear as: (Insert image)
+The drawing should appear as:
+
+.. figure:: /images/widget03.png
+    :width: 785px
+    :height: 623px
+    :align: right
+    :scale: 50
+    :alt: 
+
   
 A previous example above left a diagonal line that is too long.  The length can be easily trimmed:
 
