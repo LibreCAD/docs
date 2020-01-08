@@ -121,13 +121,7 @@ Being that the end points of the existing lines have been established, the outli
    - Drag the mouse to the right and down and place a point close to 600,300.  Clicking the mouse should result in a line angled down and to the right, closing the object's outline.
    - Press [Esc] to exit the command.
 
-Another option is to draw the line at the desired angle:
-
-   - Click the **Angle** line tool icon.
-   - On the "Tool Options" tool bar specify an *Angle* of "135", a *Length* of "300" units and the *Snap Point* at the "Start".
-   - With the "Snap on Endpoints" enabled, click close to the end of the line at *absolute coordinate* 600,300.  Clicking the mouse should result in a line angled up and to the left.  The line is too long, but can be *trimmed* to suit (see "*Modifying Entities*" below).
-
-Whichever of the above methods is used, the result should be:
+Whichever of the above methods is used, the result should be similar to:
 
 .. figure:: /images/widget01.png
     :width: 500px
@@ -135,6 +129,14 @@ Whichever of the above methods is used, the result should be:
     :align: center
     :scale: 66
     :alt: Widget 
+
+Another option is to draw the line at the desired angle:
+
+   - Click the **Angle** line tool icon.
+   - On the "Tool Options" tool bar specify an *Angle* of "135", a *Length* of "300" units and the *Snap Point* at the "Start".
+   - With the "Snap on Endpoints" enabled, click close to the end of the line at *absolute coordinate* 600,300.  Clicking the mouse should result in a line angled up and to the left.
+
+This option will result in a image similar to what is shown above, but with the diagonal line being a bit too long.  The line can be *trimmed* to suit (see "*Modifying Entities*" below).
 
 All of the above examples create the object by drawing individual lines.  A completely different approach is to start with a rectangle:
 
@@ -177,7 +179,7 @@ The drawing should now appear as:
 Modifying Entities
 ------------------
 
-There are a variety of tools that can be used to modify existing entities.  The tools cam be found in the **Tools -> Modify** menu or as a :ref:`dock widget <widgets>`.  These tools allow entities, depending on the type, to be moved, rotated, scaled, mirrored, lengths increased or decreased, divided (i.e. split), etc.  A complete list and descriptions of the tools can be found in the :ref:`Drawing Tools - Modify <tool-modify>` reference section.
+There are a variety of tools that can be used to modify existing entities.  The tools cam be found in the **Tools -> Modify** menu or as a drawing tool :ref:`dock widget <widgets>`.  These tools allow entities, depending on the type, to be moved, rotated, scaled, mirrored, lengths increased or decreased, divided (i.e. split), etc.  A complete list and descriptions of the tools can be found in the :ref:`Drawing Tools - Modify <tool-modify>` reference section.
 
 Continuing with the previous example - starting with a rectangle - the shape can be modified as required with the **Bevel** (or "chamfer") tool:
 
@@ -220,35 +222,37 @@ A previous example above left a diagonal line that is too long.  The length can 
    - Click the line to be trimmed, the "entitiy to trim" anywhere along the line that is to be kept (below the top horizontal line).
    - Press [Esc] to exit the command.
 
+Many of the other Modify tools work in a similar manner.  Tools are available to move, rotate, scale and mirror entities.  Lines can be have the direction reversed (start and end point swapped), lengthened, trimmed, offset and divided.
 
-Many of the other tools work in a similar manner.  
 
+Changing Attributes and Properties
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Attributes and Properties
-~~~~~~~~~~~~~~~~~~~~~~~~~
+As shown in the :ref:`Entities <entities>` section in **Fundamentals**, an entity consists of "Pens" (color, width, line type) and "Layers".  These attributes can be changed using one of two :ref:`Modify <tool-modify>` tools:
 
-As shown in the :ref:`Entities <entities>` section in **Fundamentals**, an entitiy consist of "Pens" (color, width, line type) and "Layers".  These attributes can be changed using one of two :ref:`Modify <tool-modify>` tools:
+   - **Attributes**: allows the "Pen" or "Layers" to be modified for one or more entities.
+   - **Properties**: allows the "Pen", "Layers" or geometry *of a single entity* to be modified.
 
-   - Attributes: allows the "Pen" or "Layers" to be modified for one or more entities.
-   - Properties: allows the "Pen", "Layers" or geometry to modified *one* entity.
+Both tools operate in a similar fashion and for similar purposes, but there are a couple of key differences.  The **Attributes** tool allows a change to the attibutes to be applied to *one or more selected entities* while the **Properities** tool can only be used for a *single entity*.  In addition, the **Properties** tool allows the *geometry* to be edited.  The geometry of an entity will vary be the type of entity.  For example a line's geometry consist of the X and Y coordinates of the endpoints, while a circles geometry consists of the X /Y coordinates of the centre of the circle and its radius.  
 
-Both tools operate in a similar fashion and for similar purposes but there are a couple of key differences.  The **Attributes** tool allows a change to the attibutes to be applied to *one or more selected entities* while the **Properities** tool can only be used for a *single selected entity*.  In addition, the **Properties** tool allows the *geometry* to be edited.  The geometry of an entity will vary be the type of entity.  For example a line's geometry consist of the X and Y coordinates of the endpoints, while a circles geometry consists of the X /Y coordinates of the centre of the circle and its radius.  
 
 
 Changing an Entity's Layer
 ``````````````````````````
-
 Sometimes it is necessary to change an entity's layer. To move one or more entities between layers:
 
 	- Select the entities to be moved to a different layer.
-	- From the menu select **Tools -> Modify -> Attributes**, or click the **Attributes** icon |icon02|.
+	- From the menu select **Tools -> Modify -> Attributes**, or click the **Attributes** icon |icon85|.
 	- In the *Attributes* dialog, select the desired layer from the drop-down the Layer selection box.
 	- Click **Ok**.
 
-Alternatively activate the option *Modify layer of selected entities, at layer activation* in the **Application Preferences, Defaults** tab .  With this option enabled entities can be assigned to a layer by selecting the entities and then selecting the destination layer.
+.. hint::
+   Entities can also be moved from one layer to another by selecting one or more entities and then selecting the new *destination* layer in the **Layer List** dock.  To use this method the *Modify layer of selected entities, at layer activation* option on the **Application Preferences** **Defaults** tab must be enabled.
+
 
 Changing Properties
 ~~~~~~~~~~~~~~~~~~~
+
 
 
 To follow...
@@ -258,6 +262,12 @@ To follow...
             :height: 24
             :width: 24
 .. |icon76| image:: /images/icons/trim.svg
+            :height: 24
+            :width: 24
+.. |icon84| image:: /images/icons/properties.svg
+            :height: 24
+            :width: 24
+.. |icon85| image:: /images/icons/attributes.svg
             :height: 24
             :width: 24
 
