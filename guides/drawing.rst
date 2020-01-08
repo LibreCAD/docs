@@ -325,7 +325,7 @@ Some entities, such as a polyline, have limited properties available that can be
 Also, the properties of a specific entity type, e.g. line, does not vary even if the specific tool used to create the entity varies.  A line drawn with the **2 Point** line tool will have the same properties as a line drawn with **Angle** tool. 
 
 .. csv-table::
-    :widths: 25, 25, 50
+    :widths: 15, 25, 60
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
