@@ -333,7 +333,7 @@ Also, the properties of a specific entity type, e.g. line, does not vary even if
     "Entity Type", "Drawing Tool", "Properties"
     "Line", "2 points, Angle, Horizontal, etc", "Start and end point X/Y coordinates"
     "Circle", "”Centre, Point”, 2 Points, etc", "Center point X/Y coordinates, radius"
-    "Curve", "'Centre, Point', 2 Points, etc", "| Center point X/Y coordinates, radius,
+    "Curve", "”Center, Point, Angles”, 3 Points, etc", "| Center point X/Y coordinates, radius,
     start/end angle"
     "Ellipse", "Ellipse (Axis), Ellipse Foci Point, etc", "| Center point X/Y coordinates, 
      major/minor axis, rotation, start/end angle"
