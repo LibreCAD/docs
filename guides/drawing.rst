@@ -324,24 +324,13 @@ Some entities, such as a polyline, have limited properties available that can be
 
 Also, the properties of a specific entity type, e.g. line, does not vary even if the specific tool used to create the entity varies.  A line drawn with the **2 Point** line tool will have the same properties as a line drawn with **Angle** tool. 
 
-.. csv-table:: Entity Properties
+.. csv-table::
    :widths: 25 25 50
    :header-rows: 1
    :stub-columns: 0
 
    "Entity Type", "Entity Tool", "Entity Properties"
    "Line”, "2 points, Angle, Horizontal, etc", "Start and end point X/Y coordinates"
-   "Circle", "”Centre, Point”, 2 Points, etc", "Center point X/Y coordinates, radius"
-   "Curve", "'Centre, Point', 2 Points, etc", "| Center point X/Y coordinates, radius,
-    start/end angle"
-   "Ellipse", "Ellipse (Axis), Ellipse Foci Point, etc", "| Center point X/Y coordinates, 
-    major/minor axis, rotation, start/end angle"
-   "Polyline", "Polyline, Rectangle", "Open or closed"
-   "Text", "Text", "| Text, font, text height/angle/width factor,
-   alignment, special characters"
-   "MText", "MText", "| Text, font, text height/angle/line spacing,
-   alignment, special characters"
-   "Dimension", "Aligned, Linear, etc", "Label, special symbol"
 
 
 
