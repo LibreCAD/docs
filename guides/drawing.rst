@@ -95,6 +95,13 @@ Drawings are generally created with multiple lines segments with the end of one 
    @300<90
    k
 
+.. figure:: /images/widget00.png
+    :width: 600px
+    :height: 550px
+    :align: right
+    :scale: 66
+    :alt: Widget
+
 Using the mouse, or another pointing device, along with the "Snaps" provide an alternative to using the command line for creating drawings.  As with the command line, there are multiple line tools that can be used to produce the same result.  For example, adding the to the the previous example, a horizontal line can be added using various methods:
 
    - Click the **2 Points** line tool icon.
@@ -114,6 +121,13 @@ Alternatively, a horizontal line can be added:
    - With the "Snap on Endpoints" enabled click close to the end of the line at *absolute coordinate* 0,500.  Clicking the mouse should result in a horizontal line ending at 400,500.
    - Press [Esc] to exit the complete the command.
 
+.. figure:: /images/widget01.png
+    :width: 600px
+    :height: 550px
+    :align: right
+    :scale: 66
+    :alt: Widget
+
 Being that the end points of the existing lines have been established, the outline can be  completed quickly with the addition of a line:
 
    - Click the **2 Points** line tool icon.
@@ -123,12 +137,13 @@ Being that the end points of the existing lines have been established, the outli
 
 Whichever of the above methods is used, the result should be similar to:
 
-.. figure:: /images/widget01.png
-    :width: 500px
-    :height: 450px
-    :align: center
+.. figure:: /images/widget02.png
+    :width: 600px
+    :height: 550px
+    :align: right
     :scale: 66
-    :alt: Widget 
+    :alt: Widget
+
 
 Another option is to draw the line at the desired angle:
 
@@ -136,7 +151,14 @@ Another option is to draw the line at the desired angle:
    - On the "Tool Options" tool bar specify an *Angle* of "135", a *Length* of "300" units and the *Snap Point* at the "Start".
    - With the "Snap on Endpoints" enabled, click close to the end of the line at *absolute coordinate* 600,300.  Clicking the mouse should result in a line angled up and to the left.
 
-This option will result in a image similar to what is shown above, but with the diagonal line being a bit too long.  The line can be *trimmed* to suit (see "*Modifying Entities*" below).
+This option will result in a image similar to what is shown above, but with the diagonal line being a bit too long.  The line can be *trimmed* to suit (see "*Modifying Entities*" below):
+
+.. figure:: /images/widget02a.png
+    :width: 600px
+    :height: 550px
+    :align: right
+    :scale: 66
+    :alt: Widget
 
 All of the above examples create the object by drawing individual lines.  A completely different approach is to start with a rectangle:
 
@@ -147,7 +169,7 @@ All of the above examples create the object by drawing individual lines.  A comp
    600,500
    k
 
-And then modify it (see below).
+And then modify it with the "Bevel" tool (see below).
 
 Circles can be added in a similar fashion.  It can be drawn by specifying the coordinates of the centre and of a point on the circumference:
 
@@ -168,12 +190,12 @@ A circle of a given size can also be drawn with a known radius:
 
 The drawing should now appear as: 
 
-.. figure:: /images/widget02.png
-    :width: 500px
-    :height: 450px
-    :align: center
+.. figure:: /images/widget03.png
+    :width: 600px
+    :height: 550px
+    :align: right
     :scale: 66
-    :alt: Widget 
+    :alt: Widget
 
 
 Modifying Entities
@@ -187,7 +209,7 @@ Continuing with the previous example - starting with a rectangle - the shape can
 
    ch
 
-.. note::
+.. admonition::
    Ensure with "Trim" is checked and "Length 1" and "Length 2" is set at "200" in the **Tool Options**.
 
 As prompted in the "Command Line" dock, and on the Status Bar, select the first entity (the top horizontal line of the rectangle) and then the second entity (the right vertical line of the rectangle).  Press [Esc] to exit the command.
@@ -207,7 +229,7 @@ As prompted in the "Command Line" dock, and on the Status Bar, select the first 
 
 The drawing should appear as:
 
-.. figure:: /images/widget03.png
+.. figure:: /images/widget04.png
     :width: 500px
     :height: 450px
     :align: center
@@ -222,7 +244,10 @@ A previous example above left a diagonal line that is too long.  The length can 
    - Click the line to be trimmed, the "entitiy to trim" anywhere along the line that is to be kept (below the top horizontal line).
    - Press [Esc] to exit the command.
 
-Many of the other Modify tools work in a similar manner.  Tools are available to move, rotate, scale and mirror entities.  Lines can be have the direction reversed (start and end point swapped), lengthened, trimmed, offset and divided.
+.. note::
+   These example do not provide an example of every tool available in LibreCAD, but is intended to show the basic operation of some of the drawing and modifications tools and illustrate that there are many ways to achieve the same result using a variety of methods.  
+
+   Many of the other drawing ansd modifying tools work in a similar manner.  Tools are available to move, rotate, scale and mirror entities.  Lines can be have the direction reversed (start and end point swapped), lengthened, trimmed, offset and divided.
 
 
 Changing Attributes and Properties
