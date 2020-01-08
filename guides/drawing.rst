@@ -245,7 +245,7 @@ A previous example above left a diagonal line that is too long.  The length can 
    - Press [Esc] to exit the command.
 
 .. important:: 
-   These examples do not provide an example of every tool available in LibreCAD, but is intended to show the basic operation of some of the drawing and modifications tools.  Many of the other drawing and modifying tools work in a similar manner.  Tools are available to move, rotate, scale and mirror entities.  Lines can be have the direction reversed (start and end point swapped), lengthened, trimmed, offset and divided.
+   These examples do not provide an example of every tool available in LibreCAD, but is intended to show the basic operation of some of the drawing and modifications tools.  Most of the other drawing and modifying tools work in a similar manner.  Being familiar with the Drawing and Modifying tools in the Reference section will help determine what tool can be used in a particular situation.
 
    These examples also illustrate that there are multiple ways to achieve the same result using a variety of methods.  There is no one best method.  The particular method used may depend on the state of the drawing and how existing entities can be used to *build* on, or perhaps it is a simple matter of using *your* preferred drawing / modifying tools.
 
@@ -294,7 +294,7 @@ The **Proprieties** tool operates in a similar manner, but the tool need to be s
 Geometry (Properties)
 ~~~~~~~~~~~~~~~~~~~~~
 
-The **Proprieties** tool also allows the *geometry* of an entity to be changed.  The geometry available depaend on the type of entity, for example:
+The **Proprieties** tool also allows the *geometry* of an entity to be changed.  The geometry is the information used to describe the entity.  The geometry available depends on the type of entity, for example:
 
 .. figure:: /images/propLine.png
     :width: 550px
@@ -313,6 +313,25 @@ The **Proprieties** tool also allows the *geometry* of an entity to be changed. 
     :alt: Properties - MText
 
     Properties - MText
+
+Some entities, such as a polyline, have limited properties available that can be changed.  Other entities, such as Text, have many properties that can be changes (including the test itself).
+
+Also, the properties of a specifc entity type, e.g. line, does not vary even if the specific tool used to create the entity varies.  A line drawn with th **2 Point** line tool will have the same properties as a line drawn with **Angle** tool. 
+
+.. csv-table:: Entity Properties
+   :widths: 25 25 50
+   :header-rows: 1
+   :stub-columns: 0
+
+   ”Entity Type”, "Entity Tool", ”Entity Properties”
+   ”Line”, "2 points, Angle, Horizontal, etc", ”Start and end point X/Y coordinates”
+   "Circle", "'Centre, Point', 2 Points, etc", "Center point X/Y coordinates, radius"
+   "Curve", "'Centre, Point', 2 Points, etc", "Center point X/Y coordinates, radius, start/end angle"
+   "Ellipse", "Ellipse (Axis), Ellipse Foci Point, etc", "Center point X/Y coordinates, major/minor axis, rotation, start/end angle"
+   "Polyline", "Polyline, Rectangle", "Open or closed"
+   "Text", "Text", "Text, font, text height/angle/width factor, alignment, special characters"
+   "MText", "MText", "Text, font, text height/angle/line spacing, alignment, special characters"
+   "Dimension", "Aligned, Linear, etc", "Label, special symbol"
 
 
 
