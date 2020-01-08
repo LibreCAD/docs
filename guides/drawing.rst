@@ -250,8 +250,8 @@ A previous example above left a diagonal line that is too long.  The length can 
    These examples also illustrate that there are multiple ways to achieve the same result using a variety of methods.  There is no one best method.  The particular method used may depend on the state of the drawing and how existing entities can be used to *build* on, or perhaps it is a simple matter of using *your* preferred drawing / modifying tools.
 
 
-Attributes and Properties
--------------------------
+Modifying Attributes and Properties
+-----------------------------------
 
 As shown in the :ref:`Entities <entities>` section in **Fundamentals**, an entity consists of "Pens" (color, width, line type) and "Layers".  These *attributes* can be changed using one of two :ref:`Modify <tool-modify>` tools:
 
@@ -261,26 +261,60 @@ As shown in the :ref:`Entities <entities>` section in **Fundamentals**, an entit
 Both tools operate in a similar fashion and for similar purposes, but there are a couple of key differences.  The **Attributes** tool allows a change to the attributes to be applied to *one or more selected entities* while the **Proprieties** tool can only be used for a *single entity*.  In addition, the **Properties** tool allows the *geometry* to be edited.  The geometry of an entity will vary be the type of entity.  For example a line's geometry consist of the X and Y coordinates of the endpoints, while a circles geometry consists of the X /Y coordinates of the centre of the circle and its radius.  
 
 
-Changing an Entity's Layer
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Layers and Pens
+~~~~~~~~~~~~~~~
 
-Sometimes it is necessary to change an entity's layer. To move one or more entities between layers:
+Change an entity's layer is similar with both the **Attributes** and **Proprieties** tools.
 
-	- Select the entities to be moved to a different layer.
+Using the **Attributes** to change an entity's layer:
+
+	- Select the entity (or entities) to be moved to a different layer.
 	- From the menu select **Tools -> Modify -> Attributes**, or click the **Attributes** icon |icon85|.
-	- In the *Attributes* dialog, select the desired layer from the drop-down the Layer selection box.
+	- In the *Attributes* dialog, select the desired layer from the drop-down *Layer* selection box.
 	- Click **Ok**.
 
 .. hint::
    Entities can also be moved from one layer to another by selecting one or more entities and then selecting the new *destination* layer in the **Layer List** dock.  To use this method the *Modify layer of selected entities, at layer activation* option on the **Application Preferences** **Defaults** tab must be enabled.
 
+In a similar manner the color, width and/or line type can be changed:
 
-Properties
-~~~~~~~~~~
+	- Select the entity (or entities) to be moved to a different layer.
+	- From the menu select **Tools -> Modify -> Attributes**, or click the **Attributes** icon |icon85|.
+	- In the *Attributes* dialog, select the desired pen attribute from the drop-down *Color, Width* and/or *Line type* selection box.
+	- Click **Ok**.
+
+The **Proprieties** tool operates in a similar manner, but the tool need to be selected *before* selecting an entity:
+
+	- From the menu select **Tools -> Modify -> Proprieties**, or click the **Proprieties** icon |icon84|.
+	- Select the entity.
+	- In the *Proprieties* dialog, select the desired layer or pen attribute from the appropriate selection box.
+	- Click **Ok**.
 
 
+Geometry (Properties)
+~~~~~~~~~~~~~~~~~~~~~
 
-To follow...
+The **Proprieties** tool also allows the *geometry* of an entity to be changed.  The geometry available depaend on the type of entity, for example:
+
+.. figure:: /images/propLine.png
+    :width: 550px
+    :height: 291px
+    :align: left
+    :scale: 50
+    :alt: Properties - Line
+
+    Properties - Line
+
+.. figure:: /images/propMText.png
+    :width: 693px
+    :height: 478px
+    :align: right
+    :scale: 50
+    :alt: Properties - MText
+
+    Properties - MText
+
+
 
 ..  Icon mapping:
 .. |icon03| image:: /images/icons/snap_grid.svg
