@@ -331,6 +331,7 @@ Also, the properties of a specific entity type, e.g. line, does not vary even if
     :class: fix-table
 
     "Entity Type", "Drawing Tool", "Properties"
+    "Line”, "2 points, Angle, Horizontal, etc", "Start and end point X/Y coordinates"
 
 
 ..  Icon mapping:
