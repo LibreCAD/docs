@@ -41,7 +41,7 @@ Or, relative Cartesian coordinates:
 
 .. note::
 
-   "@" designates **relative coordinates**.  The *@0,500* relative Cartesian coordinates places the next point 0 units horinzonatally (X axis) and 500 units vertically (Y axis) from the previously placed point.
+   "@" designates **relative coordinates**.  The *@0,500* relative Cartesian coordinates places the next point 0 units horizontally (X axis) and 500 units vertically (Y axis) from the previously placed point.
 
 It can also be done with relative *polar* coordinates:
 
@@ -71,7 +71,7 @@ Other tools can also be used achieve the same result:
    0,0
 
 .. note::
-   Ensure the *Length* is set to "500" and the *Snap Point:* is "Start" in the **Tool Options** textbox.
+   Ensure the *Length* is set to "500" and the *Snap Point:* is "Start" in the **Tool Options** text box.
 
 The tool and method used is entirely up to the user to obtain the desired results. The use of a particular tool may be determined by the next operation that allows the drawing to be quickly extended.  A good understanding of the available tools allows the user to select the appropriate tool for the current operation.
 
@@ -241,29 +241,29 @@ A previous example above left a diagonal line that is too long.  The length can 
 
    - Click the "Trim" icon |icon76|
    - Click the top horizontal line.  This line is the "limiting entity" that determines where the second line is going to be trimmed to.
-   - Click the line to be trimmed, the "entitiy to trim" anywhere along the line that is to be kept (below the top horizontal line).
+   - Click the line to be trimmed, the "entity to trim" anywhere along the line that is to be kept (below the top horizontal line).
    - Press [Esc] to exit the command.
 
 .. important:: 
-   These example do not provide an example of every tool available in LibreCAD, but is intended to show the basic operation of some of the drawing and modifications tools and illustrate that there are many ways to achieve the same result using a variety of methods.  
+   These examples do not provide an example of every tool available in LibreCAD, but is intended to show the basic operation of some of the drawing and modifications tools.  Many of the other drawing and modifying tools work in a similar manner.  Tools are available to move, rotate, scale and mirror entities.  Lines can be have the direction reversed (start and end point swapped), lengthened, trimmed, offset and divided.
 
-   Many of the other drawing ansd modifying tools work in a similar manner.  Tools are available to move, rotate, scale and mirror entities.  Lines can be have the direction reversed (start and end point swapped), lengthened, trimmed, offset and divided.
+   These examples also illustrate that there are multiple ways to achieve the same result using a variety of methods.  There is no one best method.  The particular method used may depend on the state of the drawing and how existing entities can be used to *build* on, or perhaps it is a simple matter of using *your* preferred drawing / modifying tools.
 
 
-Changing Attributes and Properties
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Attributes and Properties
+-------------------------
 
-As shown in the :ref:`Entities <entities>` section in **Fundamentals**, an entity consists of "Pens" (color, width, line type) and "Layers".  These attributes can be changed using one of two :ref:`Modify <tool-modify>` tools:
+As shown in the :ref:`Entities <entities>` section in **Fundamentals**, an entity consists of "Pens" (color, width, line type) and "Layers".  These *attributes* can be changed using one of two :ref:`Modify <tool-modify>` tools:
 
    - **Attributes**: allows the "Pen" or "Layers" to be modified for one or more entities.
    - **Properties**: allows the "Pen", "Layers" or geometry *of a single entity* to be modified.
 
-Both tools operate in a similar fashion and for similar purposes, but there are a couple of key differences.  The **Attributes** tool allows a change to the attibutes to be applied to *one or more selected entities* while the **Properities** tool can only be used for a *single entity*.  In addition, the **Properties** tool allows the *geometry* to be edited.  The geometry of an entity will vary be the type of entity.  For example a line's geometry consist of the X and Y coordinates of the endpoints, while a circles geometry consists of the X /Y coordinates of the centre of the circle and its radius.  
-
+Both tools operate in a similar fashion and for similar purposes, but there are a couple of key differences.  The **Attributes** tool allows a change to the attributes to be applied to *one or more selected entities* while the **Proprieties** tool can only be used for a *single entity*.  In addition, the **Properties** tool allows the *geometry* to be edited.  The geometry of an entity will vary be the type of entity.  For example a line's geometry consist of the X and Y coordinates of the endpoints, while a circles geometry consists of the X /Y coordinates of the centre of the circle and its radius.  
 
 
 Changing an Entity's Layer
-``````````````````````````
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Sometimes it is necessary to change an entity's layer. To move one or more entities between layers:
 
 	- Select the entities to be moved to a different layer.
@@ -275,8 +275,8 @@ Sometimes it is necessary to change an entity's layer. To move one or more entit
    Entities can also be moved from one layer to another by selecting one or more entities and then selecting the new *destination* layer in the **Layer List** dock.  To use this method the *Modify layer of selected entities, at layer activation* option on the **Application Preferences** **Defaults** tab must be enabled.
 
 
-Changing Properties
-~~~~~~~~~~~~~~~~~~~
+Properties
+~~~~~~~~~~
 
 
 
