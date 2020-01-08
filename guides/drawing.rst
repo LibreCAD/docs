@@ -97,9 +97,9 @@ Drawings are generally created with multiple lines segments with the end of one 
 
 .. figure:: /images/widget00.png
     :width: 600px
-    :height: 550px
-    :align: right
-    :scale: 66
+    :height: 500px
+    :align: center
+    :scale: 50
     :alt: Widget
 
 Using the mouse, or another pointing device, along with the "Snaps" provide an alternative to using the command line for creating drawings.  As with the command line, there are multiple line tools that can be used to produce the same result.  For example, adding the to the the previous example, a horizontal line can be added using various methods:
@@ -123,9 +123,9 @@ Alternatively, a horizontal line can be added:
 
 .. figure:: /images/widget01.png
     :width: 600px
-    :height: 550px
-    :align: right
-    :scale: 66
+    :height: 500px
+    :align: center
+    :scale: 50
     :alt: Widget
 
 Being that the end points of the existing lines have been established, the outline can be  completed quickly with the addition of a line:
@@ -139,9 +139,9 @@ Whichever of the above methods is used, the result should be similar to:
 
 .. figure:: /images/widget02.png
     :width: 600px
-    :height: 550px
-    :align: right
-    :scale: 66
+    :height: 500px
+    :align: center
+    :scale: 50
     :alt: Widget
 
 
@@ -155,9 +155,9 @@ This option will result in a image similar to what is shown above, but with the 
 
 .. figure:: /images/widget02a.png
     :width: 600px
-    :height: 550px
-    :align: right
-    :scale: 66
+    :height: 500px
+    :align: center
+    :scale: 50
     :alt: Widget
 
 All of the above examples create the object by drawing individual lines.  A completely different approach is to start with a rectangle:
@@ -192,9 +192,9 @@ The drawing should now appear as:
 
 .. figure:: /images/widget03.png
     :width: 600px
-    :height: 550px
-    :align: right
-    :scale: 66
+    :height: 500px
+    :align: center
+    :scale: 50
     :alt: Widget
 
 
@@ -209,7 +209,7 @@ Continuing with the previous example - starting with a rectangle - the shape can
 
    ch
 
-.. admonition::
+.. note::
    Ensure with "Trim" is checked and "Length 1" and "Length 2" is set at "200" in the **Tool Options**.
 
 As prompted in the "Command Line" dock, and on the Status Bar, select the first entity (the top horizontal line of the rectangle) and then the second entity (the right vertical line of the rectangle).  Press [Esc] to exit the command.
@@ -230,10 +230,10 @@ As prompted in the "Command Line" dock, and on the Status Bar, select the first 
 The drawing should appear as:
 
 .. figure:: /images/widget04.png
-    :width: 500px
-    :height: 450px
+    :width: 600px
+    :height: 500px
     :align: center
-    :scale: 66
+    :scale: 50
     :alt: Widget 
 
   
@@ -244,7 +244,7 @@ A previous example above left a diagonal line that is too long.  The length can 
    - Click the line to be trimmed, the "entitiy to trim" anywhere along the line that is to be kept (below the top horizontal line).
    - Press [Esc] to exit the command.
 
-.. note::
+.. important:: 
    These example do not provide an example of every tool available in LibreCAD, but is intended to show the basic operation of some of the drawing and modifications tools and illustrate that there are many ways to achieve the same result using a variety of methods.  
 
    Many of the other drawing ansd modifying tools work in a similar manner.  Tools are available to move, rotate, scale and mirror entities.  Lines can be have the direction reversed (start and end point swapped), lengthened, trimmed, offset and divided.
