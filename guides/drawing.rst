@@ -1,7 +1,7 @@
 .. User Manual, LibreCAD v2.2.x
 
 
-.. _draw-edit:
+.. _draw_edit:
 
 Creating and Editing Entities
 =============================
