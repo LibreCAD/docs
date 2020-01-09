@@ -213,7 +213,8 @@ There are a variety of tools that can be used to modify existing entities.  The 
 
       ch
 
-   Ensure with "Trim" is checked and "Length 1" and "Length 2" is set at "200" in the **Tool Options**.
+   .. note::
+      Ensure with "Trim" is checked and "Length 1" and "Length 2" is set at "200" in the **Tool Options**.
 
    As prompted on the Status Bar, and in the "Command Line" dock, select the first entity (the top horizontal line of the rectangle) and then the second entity (the right vertical line of the rectangle).  Press [Esc] to exit the command.
 
