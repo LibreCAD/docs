@@ -1,10 +1,10 @@
 .. User Manual, LibreCAD v2.2.x
 
 
-.. _drawing:
+.. _draw-edit:
 
-Creating and Modifying Entities
-===============================
+Creating and Editing Entities
+=============================
 
 Drawing geometric shapes, or *entities* is familiar to many people that have used drawing and paint programs.  
 As with many programs, there are a multitude of ways to generate the desired results.  LibreCAD is the same - there are many ways to obtain the same results in a completed drawing - far too many to be able document an example for each one in a User Guide.  For users it is important know what tools are available and how to apply them.
@@ -200,8 +200,8 @@ The drawing should now appear as:
     :alt: Widget
 
 
-Modifying Entities
-------------------
+Editing Entities
+----------------
 
 There are a variety of tools that can be used to modify existing entities.  The tools cam be found in the **Tools -> Modify** menu or as a drawing tool :ref:`dock widget <widgets>`.  These tools allow entities, depending on the type, to be moved, rotated, scaled, mirrored, lengths increased or decreased, divided (i.e. split), etc.  A complete list and descriptions of the tools can be found in the :ref:`Drawing Tools - Modify <tool-modify>` reference section.
 
