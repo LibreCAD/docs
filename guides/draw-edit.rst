@@ -203,9 +203,9 @@ The drawing should now appear as:
 Editing Entities
 ----------------
 
-There are a variety of tools that can be used to modify existing entities.  The tools cam be found in the **Tools -> Modify** menu or as a drawing tool :ref:`dock widget <widgets>`.  These tools allow entities, depending on the type, to be moved, rotated, scaled, mirrored, lengths increased or decreased, divided (i.e. split), etc.  A complete list and descriptions of the tools can be found in the :ref:`Drawing Tools - Modify <tool-modify>` reference section.
+There are a variety of tools that can be used to edit and modify existing entities.  The tools are found in the **Tools -> Modify** menu or as a drawing tool :ref:`dock widget <widgets>`.  These tools allow entities, depending on the type, to be moved, rotated, scaled, mirrored, lengths increased or decreased, divided (i.e. split), etc.  A complete list and descriptions of the tools can be found in the :ref:`Drawing Tools - Modify <tool-modify>` reference section.
 
-Round the lower left corner with the **Fillets** tool:
+A rounded corner can be added to the drawing's the lower left corner with the **Fillets** tool:
 
 ::
 
@@ -256,8 +256,8 @@ A previous example above left a diagonal line that is too long.  The length can 
    These examples also illustrate that there are multiple ways to achieve the same result using a variety of methods.  There is no one best method.  The particular method used may depend on the state of the drawing and how existing entities can be used to build on, or perhaps it is a simple matter of using a preferred drawing / modifying tool.
 
 
-Modifying Attributes and Properties
------------------------------------
+Editing Attributes and Properties
+---------------------------------
 
 As shown in the :ref:`Entities <entities>` section in **Fundamentals**, an entity consists of "Pens" (color, width, line type) and "Layers".  These *attributes* can be changed using one of two :ref:`Modify <tool-modify>` tools:
 
