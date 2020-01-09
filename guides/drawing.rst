@@ -9,7 +9,7 @@ Creating and Modifying Entities
 Drawing geometric shapes, or *entities* is familiar to many people that have used drawing and paint programs.  
 As with many programs, there are a multitude of ways to generate the desired results.  LibreCAD is the same - there are many ways to obtain the same results in a completed drawing - far too many to be able document an example for each one in a User Guide.  For users it is important know what tools are available and how to apply them.
 
-This section of the User Guide brings together many other parts of the LibreCAD manual and will show how to use a variety tools to **create** and **modify** drawings.  Be sure to read through the **Reference** section, particularly the :ref:`Fundamentals <fundamentals>`, the :ref:`Drawing Tools <tools>` and the :ref:`Snapping <snaps>` sections to obtain an understanding of the basic operation of LibreCAD and its various tools.
+This section of the User Guide brings together many other parts of the LibreCAD manual and will show how to use a variety tools to *create* and *modify* drawings.  Be sure to read through the **Reference** section, particularly the :ref:`Fundamentals <fundamentals>`, the :ref:`Drawing Tools <tools>` and the :ref:`Snapping <snaps>` sections to obtain an understanding of the basic operation of LibreCAD and its various tools.
 
 .. note::
    The examples below use both the the command line and the mouse for input.  In cases where the command line is used and additional input is required because of a **Tool Option** (see Drawing Tools) see the *note* below the command text.  Where the mouse is the primary form of input, the instruction are provided in bullet point form.
@@ -160,16 +160,18 @@ This option will result in a image similar to what is shown above, but with the 
     :scale: 50
     :alt: Widget
 
-All of the above examples create the object by drawing individual lines.  A completely different approach is to start with a rectangle:
+.. sidebar:: Alternate
 
-::
+   All of the above examples create the object by drawing individual lines.  A completely different approach is to start   with a *rectangle*:
 
-   rec
-   0,0
-   600,500
-   k
+   ::
 
-And then modify it with the "Bevel" tool (see below).
+      rec
+      0,0
+      600,500
+      k
+
+   And then modify it with the "Bevel" tool (**see below**).
 
 Circles can be added in a similar fashion.  It can be drawn by specifying the coordinates of the centre and of a point on the circumference:
 
@@ -245,9 +247,9 @@ A previous example above left a diagonal line that is too long.  The length can 
    - Press [Esc] to exit the command.
 
 .. important:: 
-   These examples do not provide an example of every tool available in LibreCAD, but is intended to show the basic operation of some of the drawing and modifications tools.  Most of the other drawing and modifying tools work in a similar manner.  Being familiar with the Drawing and Modifying tools in the Reference section will help determine what tool can be used in a particular situation.
+   These examples do not provide an example of every tool available in LibreCAD, but is intended to show the basic operation of some of the drawing and modifications tools.  Most of the other drawing and modifying tools work in a similar manner.  Being familiar with the :ref:`Drawing <tools>` and :ref:`Modify <tool-modify>` tools in the **Reference** section will help determine what tool can be used in a particular situation.
 
-   These examples also illustrate that there are multiple ways to achieve the same result using a variety of methods.  There is no one best method.  The particular method used may depend on the state of the drawing and how existing entities can be used to *build* on, or perhaps it is a simple matter of using *your* preferred drawing / modifying tools.
+   These examples also illustrate that there are multiple ways to achieve the same result using a variety of methods.  There is no one best method.  The particular method used may depend on the state of the drawing and how existing entities can be used to build on, or perhaps it is a simple matter of using a preferred drawing / modifying tool.
 
 
 Modifying Attributes and Properties
