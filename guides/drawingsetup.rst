@@ -8,102 +8,43 @@ Setting up a Drawing
 
 As with other software; word processors, spreadsheets, etc, there are many ways a user can to setup or configure a new document.  With LibreCAD, that document is a drawing.  Some of the preferences for a drawing will be governed by drafting conventions, some will be determined by organizational requirements, and others might just be personal preferences.  The drawing's setup is largely determined by the :ref:`Drawing Preferences <draw-prefs>`.
 
-Under normal circumstances, after the initial installation and :ref:`configuration <configure>`, little if any configuration needs to done to be able to *create* a new drawing.  During the initial setup, the default :ref:`unit of measure <measurements>` was set (defaulting to *millimeter*) and doesn't need to be changed.  The unit of measure should be set to the unit most frequently used as it is used for all new drawings.  If necessary, the default unit of measure can be changed in the :ref:`Application Preferences <app-prefs>` or overridden for a single drawing in the Drawing Preferences.
+Under normal circumstances, after the initial installation and :ref:`configuration <configure>`, little if any configuration needs to done when starting a new drawing.  During the initial setup, the default :ref:`unit of measure <measurements>` was set (defaulting to *millimeter*).  The unit of measure should be set to the unit most frequently used as it is used for all new drawings and doesn't need to be changed.  If necessary, the default unit of measure can be changed in the :ref:`Application Preferences <app-prefs>` or overridden for a single drawing in the Drawing Preferences.
 
-As noted, there are a many drawing parameters to be considered to suit the drawing requirements and final appearance.  The majority of these settings can be left as the defaults as LibreCAD's defaults reflect normal drafting conventions and practices, such as the "Text Height" of 2.5mm / .10" / 3/32", etc.  Other preferences and attributes, such as layer, line thickness and type, pen colors, etc. can also be changed to suit users' requirements.
+There are a many drawing parameters to be considered to suit the drawing requirements and final appearance.  The majority of these settings can be left as the defaults as LibreCAD's defaults reflect normal drafting conventions and practices, such as the "Text Height" of 2.5mm / .10" / 3/32", etc.  Other preferences and attributes, such as layer, line thickness and type, pen colors, etc. can also be changed to suit users' requirements.
 
 
 Scale
 -----
 
-Setting the scale of a drawing is the easy part, drawings should be created **full-scale** (1:1)!  The zooming abilities of LibreCAD will make the whole drawing fit in the display window or zoom into the fine detail.  On the other hand, when producing output the drawing will need to be scaled to fit the "page".  Generally output is a printed page, but it can also be a pdf, or :ref:`exported to another image format <file>`.
+Setting the scale of a drawing is the easy part, drawings should be created *full-scale* (1:1)!  The zooming abilities of LibreCAD will make the whole drawing fit in the display window or zoom into the fine detail.  On the other hand, when producing output the drawing will need to be scaled to fit the *page*.  Generally output is a printed page, but it can also be a pdf, or :ref:`exported to another image format <file>`.  While these two points seem contradict each other as a full-scale drawing of something very large, like a building, would require an equally large text size for notes and dimensions to appear correctly , for example, when the drawing is scaled down to print on an "A1" page.  Trying to determine the dimension text size for a large object would be tedious at best, but a feature of LibreCAD makes it simple.  It is addressed by the "General Scale" on the "Dimensions" tab of the **Drawing Preferences**.  The "General Scale" is used to adjust the dimension text, arrows and related parameters to the sizes suitable for the required page format.
 
-While these two points seem contradict each other as a full-scale drawing of something very large, like a building, would require equally large text size for notes and dimensions when the drawing is scaled down to print on an "A1" page.  Trying to determine the text size for a large object would be tedious at best, but the features available in  LibreCAD makes it simple.  It is addressed by the "General Scale" on the *Dimensions* tab.
+Determining the value for the "General Scale" for the best results is simple, it is the *inverse* of the print scale obtained prior to printing.  For example, if a print scale is determined to be "1:10", the "General Scale" is 10 (10:1).  Setting the "General Scale" to the inverse of the print scale results in the dimension text being the defined size, e.g. 2.5mm, on the printed drawing.  The drawing is scaled down to fit the page and the dimension text is scaled up to be legible.  The print scale can be determined by using LibreCAD's print preview feature.  See :ref:`Printing to Scale <print-scale>` in the Printing Guide for more details.
 
-Two of the tabs, *Paper* and *Dimensions* require attention prior to generating output.  Specifically, the two parameters are:
+There are two tabs in **Drawing Preferences**, "Paper" and "Dimensions", require attention when determining and setting the scale values.  Specifically the parameters that need to be addressed are:
 
-    1. "Paper format" on the *Paper* tab: Selecting a paper size and orientation will determine the "print scale" used for final output.  The print scale also used to determine the "General Scale".
-    2. "General Scale" on the *Dimensions* tab: The dimension text and related parameters can be adjusted to suit the output.
+      1. "Format" on the "Paper" tab: Selecting a paper size and orientation will determine the *print scale* used for final output.  The print scale is used to determine the "General Scale" as noted above.
+      2. "General Scale" on the "Dimensions" tab: Setting the "General Scale" will adjust the dimension text and related parameters to suit the output.
 
-The "Paper format", e.g. paper size and orientation, to be used is an important to consideration when setting the drawing preferences.  While it can be done at anytime, determining the Paper Format sooner than later will help determine the "General Scale".  The Paper Format is entirely up to the user to determine, based on what is available (depending on the printer or printing service that is being used).
+The "Format", e.g. paper size and orientation, to be used is an important to consideration when setting the drawing preferences.  The format is entirely up to the user to determine, based on what is available (depending on the printer or printing service that is being used).  While it can be done at anytime, establishing the format sooner than later will help determine the "General Scale".  
 
-Determining the General Scale parameter for the best results is simple, it is the *inverse* of the printing scale obtained prior to printing.  For example, if a print scale is determined to be "1:4", the General Scale is "4" (4:1).  See the :ref:`Printing Guide <printing-guide>` for details.  Setting the General Scale to the inverse of the print scale results in the dimension text being the defined size, e.g. 2.5mm, on the printed drawing.  The drawing is scaled down to fit the page and the dimension text is scaled up to be legible.  More details can be found in the :ref:`Printing Guides <printing>`.
+.. tip::
+   Setting the paper size *after drawing the object but prior to dimensioning a drawing* will help determine the print scale, the "General scale", and subsequently the appropriate line spacing for dimensions.  See :ref:`Dimensioning <dimensioning>` for additional information.
 
-While any scale factor can be used, there are common scales used when printing the different types of drawings:
+   Be sure to allow room on the drawing for dimension lines and text when determining the print scale.
 
-Architect's Scale (SI)
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. csv-table:: 
-    :widths: 25, 75
-    :header-rows: 1
-    :stub-columns: 0
-    :class: fix-table
-
-    "Drawing Scale", "Common Use"
-    "1:1", "Mockups / Samples / Small details"
-    "1:2", "Construction details"
-    "1:5", "Construction details"
-    "1:10", "Construction details / Wall sections"
-    "1:20", "Building sections"
-    "1:50", "Building sections / Floor plans / Elevations"
-    "1:100", "Floor plans / Elevations"
-    "1:200", "Floor plans / Elevations / Site plans"
-    "1:500", "Site plans"
-    "1:1000", "Area plans"
+   While any scale can be used when **printing** a drawing there are commonly used scales for different types of drawings.  Refer to  :ref:`Scales <scales>` in the appendix for some examples.
 
 
-Architect's Scale (Imperial)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Using Layers
+------------
 
-.. csv-table:: 
-    :widths: 25, 10, 65
-    :header-rows: 1
-    :stub-columns: 0
-    :class: fix-table
+Layers help organize drawings by allowing users to place and manage related entites.  Layers can be thought of transparent drawing sheets inserted and placed on top of one another and temporarily or permanently removed.  Layers have the added advantage in that the :ref:`pen <entity-pen>` attributes can be modified for all entities on the layer.  Layers are added, removed, hidden and modified using the :ref:`Layer List Dock <widget-layerList>`.
 
-    "Drawing Scale", "Ratio", "Common Use"
-    "Full scale", "1:1", "Mockups / Samples / Small details"
-    "3″=1′-0″", "1:4", "Small details"
-    "1 1⁄2″=1′-0″", "1:8", "Small details"
-    "1″=1′-0″", "1:12", "Small details / Construction details"
-    ​"3⁄4″=1′-0″", "1:16", "Construction details / Wall sections"
-    ​"1⁄2″=1′-0″", "1:24", "Building sections"
-    "3⁄8″=1′-0″", "1:32", "Wall sections / Building sections"
-    "1⁄4″=1′-0″", "1:48", "Building sections / Floor plans / Elevations"
-    ​"3⁄16″=1′-0″", "1:64", "Floor plans / Elevations"
-    ​"1⁄8″=1′-0″", "1:96", "Floor plans / Elevations / Site plans"
-    ​"3⁄32″=1′0″", "1:128", ""
-    ​"1⁄16″=1′-0″", "1:192", "Site plan"
+.. note::
+   Note that layer **0** is a special layer and should not be used.  Create at least one new layer for the drawing.
 
+Hiding layers while drawing reduces the *visual complexity* and makes it easier to focus on the current drawing efforts.
 
-Engineer's scale (Imperial)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. csv-table:: 
-    :widths: 25, 10, 65
-    :header-rows: 1
-    :stub-columns: 0
-    :class: fix-table
-
-    "Drawing Scale", "Ratio", "Common Use"
-    "1″=10′-0″", "120", "Details"
-    "1″=20′-0″", "240", "Details / Working plans"
-    "1″=30′-0″", "360", "Working plans"
-    "1″=40′-0″", "480", "Working plans"
-    "1″=50′-0″", "600", "Working plans"
-    "1″=60′-0″", "720", "Working plans"
-    "1″=100′-0″", "1200", "Area plans"
-
-Also see :ref:`Dimensioning <dimensioning>` for additional information on scales and scaling drawings.
-
-
-.. _entity-attributes:
-
-Attributes
-----------
-
-.. _layers:
 
 Layers
 ~~~~~~
@@ -123,74 +64,35 @@ Layers are usually created to hold entities with common attributes. Creating a l
 	- Specify a *Layer Name*.
 	- Optionally specify the Color, Width and Line Type.
 	- Click **Ok**. 
+  
+Layers that have been completed can be *locked*.  Locking layers prevents accidental changes and can improve the performance when working with very large complex drawings.
 
 
 Construction Layers
-```````````````````
+~~~~~~~~~~~~~~~~~~~
 
-A construction layer is designed to hold geometry construction lines:
+A layer designated as a "Construction Layer" is special layer used to create reference geometry to help align other drawing entities.  A contruction layer:
 
-	- A construction layer won't appear on printout.
-	- All lines of a construction layer are infinite in length.
-
-You can toggle between construction and normal mode three ways:
-
-	- When creating or modifying a layer, click the *Construction Layer* checkbox in the *Layer Settings* dialog.
-	- Right-click on a named layer in the *Layer List* and choose "Toggle Construction Layer".
-	- Click the "Toggle construction lines" icon |icon04| / |icon05| in the *Layer List*.
-
-For more details on hiding, locking and deleting layers, refer to **Layer List Dock** in :ref:`Dock Widgets <widgets>`
+    - contains lines that are an infinite length, and
+    - won't appear on printed drawings.
 
 
-.. _pens:
+Ordering Layers and Entities
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pen
-~~~
-
-As with many other aspects of drafting line color, thickness and type assigned to an entity, such as a line or circle are determined by drafting convention or common practices.  Within LibreCAD, the three attributes are grouped together as a "Pen":
-
-    - **Color** - LibreCAD has 16 default colors, but supports the RGB color space (#000000 to #FFFFFF or 16,777,215 colors).  The initial color for entities is black.
-    - **Width** - The default line width is 0.00mm.  Line widths of up to 2.11mm are supported.
-    - **Line Type** - The default line type is "Continuous" (e.g. solid).  Other line types included with LibreCAD are Dot, Dash, Divide, Center, and Border.
-
-The pen attributes can be defined for a single entity (via the *Properties* tool) , by a group of selected entities (via the *Attribute* tool), or by layer.
-
-
-Line Type & Thickness
-`````````````````````
-
-Line thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, arcitectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/C paper sizes:
+Layers are displayed in alpha-numeric order in the layer list.  However, the order of the layers do not relate to the order that entities appear in the drawing.  Each entity can be raised, *moved up*, or lowered, *moved down*, with respect to others.  Each layer can contain entities that are at different points.  Use the commands in **Tools -> Modify -> Order** to move entities up or down.
 
 .. csv-table:: 
-    :widths: 15, 20, 40, 25
+    :widths: 25, 25, 75
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
 
-    "Line Weights", "Pen Size (mm)", "Purpose", "Recommended"
-    "Extra Thin", "0.00, 0.05, 0.09", "- Hidden lines", "0.00 mm"
-    "", "", "- Hatching", ""
-    "", "", "- Reference line", ""
-    "Thin", "**0.13**, 0.15, **0.18**, 0.20, **0.25**", "- Outlines", "0.18 mm"
-    "", "", "- Centre lines", ""
-    "", "", "- Dimension lines", ""
-    "", "", "- Leader and extension", ""
-    "", "", "- Phantom lines", ""
-    "", "", "- Grid lines", ""
-    "", "", "- Text", ""
-    "Medium", "0.30, **0.35**, 0.40, **0.50**", "- Hidden lines", "0.35 mm"
-    "", "", "- Text normal (0.30 mm)", ""
-    "", "", "- Text - sub-headings (0.50 mm)", ""
-    "", "", "- Visible object outlines", ""
-    "Thick", "**0.70**", "- Cutting lines", "0.70 mm"
-    "", "", "- Match lines", ""
-    "", "", "- Section lines", ""
-    "", "", "- Text - titles/major headings", ""
-    "", "", "- Viewing planes", ""
-    "Extra Thick", "**1.00**", "- Title sheet border", ""
-
-
-Note: Pen sizes shown in **bold** are ISO standard sizes.
+    "Action", "Key", "Result"
+    "move to top", "[Home]", "Moves the selected entity to the *top* most position."
+    "move to bottom", "[End]",  "Moves the selected entity to the *bottom* most position."
+    "raise over entity", "[Page Up]",  "Moves the selected entity *up* one relative position."
+    "lower after entity", "[Page Down]",  "Moves the selected entity *down* one relative position."
 
 
 .. _templates:
@@ -219,19 +121,7 @@ When installing LibreCAD, a resource directory is created including, among other
 As an alternative to the LibreCAD provided template, a user-specified template can be configured in the :ref:`Application Preferences <app-prefs>` on the **Paths** tab.  The specified template is used instead of the default LibreCAD template when the application is launched and for new drawings.
 
 
-.. |icon01| image:: /images/icons/add.svg
-            :height: 18
-            :width: 18
-.. |icon02| image:: /images/icons/attributes.svg
-            :height: 18
-            :width: 18
-.. |icon03| image:: /images/icons/rename_active_block.svg
-            :height: 18
-            :width: 18
-.. |icon04| image:: /images/icons/construction_layer.svg
-            :height: 18
-            :width: 18
-.. |icon05| image:: /images/icons/noconstruction.svg
-            :height: 18
-            :width: 18
+..  Image mapping (no "align" allowed/required):
+
+
 

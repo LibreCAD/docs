@@ -11,10 +11,12 @@ Appendices
    :maxdepth: 1
 
     Online Resources <resources>
-    LibreCAD Fonts <fonts>
+    Line Types <lineTypes>
     Hatches <hatches>
+    Fonts <fonts>
     Languages <languages>
     Systems of Measurement <measurements>
+    Drawing Scales <scales>
     Calculator Functions <calculator>
     Building from Source <build>
     Contributing <contributing>
