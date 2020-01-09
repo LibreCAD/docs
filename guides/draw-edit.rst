@@ -200,8 +200,8 @@ The drawing should now appear as:
     :alt: Widget
 
 
-Editing Entities
-----------------
+Modifying Entities
+------------------
 
 There are a variety of tools that can be used to edit and modify existing entities.  The tools are found in the **Tools -> Modify** menu or as a drawing tool :ref:`dock widget <widgets>`.  These tools allow entities, depending on the type, to be moved, rotated, scaled, mirrored, lengths increased or decreased, divided (i.e. split), etc.  A complete list and descriptions of the tools can be found in the :ref:`Drawing Tools - Modify <tool-modify>` reference section.
 
