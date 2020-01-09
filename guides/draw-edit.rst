@@ -256,8 +256,8 @@ A previous example above left a diagonal line that is too long.  The length can 
    These examples also illustrate that there are multiple ways to achieve the same result using a variety of methods.  There is no one best method.  The particular method used may depend on the state of the drawing and how existing entities can be used to build on, or perhaps it is a simple matter of using a preferred drawing / modifying tool.
 
 
-Editing Attributes and Properties
----------------------------------
+Changing Attributes and Properties
+----------------------------------
 
 As shown in the :ref:`Entities <entities>` section in **Fundamentals**, an entity consists of "Pens" (color, width, line type) and "Layers".  These *attributes* can be changed using one of two :ref:`Modify <tool-modify>` tools:
 
