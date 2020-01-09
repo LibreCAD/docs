@@ -45,6 +45,26 @@ Layers help organize drawings by allowing users to place and manage related enti
 
 Hiding layers while drawing reduces the *visual complexity* and makes it easier to focus on the current drawing efforts.
 
+
+Layers
+~~~~~~
+
+A basic feature of CAD is the use of layers to organize a drawing. Every entity in a drawing is on exactly one layer, however one layer can contain multiple entities. Typically entities with a common 'function' or common attributes are put on the same layer. For example, it might be might necessary to put all axis in a drawing on a layer named 'axis'.  Each layer can be defined with a "Default Pen" (see :ref: `Pens <pens>` below). Each entity can have its own attributes or have its attributes defined by the layer it is placed on. In the latter case for example you can change the colour of all the entities on the "axes" layer by setting the colour (red for example) for that layer.
+
+In traditional manual drafting, a similar approach was used. Whether for Engineering, Architectural or Construction drawing etc. layers were used to show different aspects of a drawing — for example this could be a layer set up for showing centre lines on an engineering drawing or to show different building systems, such as wiring and air conditioning. The layers were often drawn on separate transparent sheets of paper. These sheets were then overlaid one on top of another to produce final drawings.
+
+Layers are displayed in alpha-numerical order in the layer list.  However this is does not relate to the order that each entity appears on the z-axis of the drawing.  Each entity can be raised or lowered with respect to others, and each layer can contain entities that are at different points on the z-axis.  Use the four Draw Order commands (under the **Tools -> Modify -> Order menu**) to move entities up or down the z-axis. 
+
+Creating a Layer
+````````````````
+
+Layers are usually created to hold entities with common attributes. Creating a layer is simple:
+
+	- Click the **Add a layer** icon |icon01|.
+	- Specify a *Layer Name*.
+	- Optionally specify the Color, Width and Line Type.
+	- Click **Ok**. 
+  
 Layers that have been completed can be *locked*.  Locking layers prevents accidental changes and can improve the performance when working with very large complex drawings.
 
 
