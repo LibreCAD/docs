@@ -47,7 +47,7 @@ Snaps provide the ability to pick precise locations when using a mouse.  Various
 .. |icon04| image:: /images/icons/snap_endpoints.svg
             :height: 24
             :width: 24
-.. |icon05| image:: /images/icons/snap_free.svg
+.. |icon05| image:: /images/icons/snap_entity.svg
             :height: 24
             :width: 24
 .. |icon06| image:: /images/icons/snap_center.svg
