@@ -142,7 +142,7 @@ The Layer List Dock provides the functions to manage layers and a list of layers
     "Icon", "Description"
     |icon10|, "”Show all layers” - Makes all the layers in the current drawing visible. (\*: ”Freeze”)"
     |icon11|, "”Hide all layers” - Hides all layers in the active drawing.  (\*: ”Defreeze”)"
-    |icon13|, "”Add a layer” - Add a new layer. *"
+    |icon13|, "”Add a layer” - Add a new layer. * (Shortcut [Ctrl]+[L])"
     |icon14|, "”Remove the current layer” - Remove the highlighted layer. *"
     |icon15|, "”Modify layer attributes / rename” - Modify the layer's attributes and / or rename the layer. *"
 
