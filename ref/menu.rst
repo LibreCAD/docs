@@ -91,7 +91,7 @@ View
     "Draft", |icon28|, "[Ctrl]+d", "Toggles to or from ''Draft Mode''."
     "Redraw", |icon29|, "[Ctrl]+r / *zr, rg, regen, redraw*", "Refreshes the view of the current drawing."
     "Zoom In", |icon30|, "[Ctrl]+[+]", "Increase view of drawing by 25% increments."
-    "Zoom Out", |icon31|, "", "Decrease view of drawing by 20% increments."
+    "Zoom Out", |icon31|, "[Ctrl]+[-]", "Decrease view of drawing by 20% increments."
     "Auto Zoom", |icon32|, "*za*", "Resize the view of the drawing to fill the drawing window."
     "Previous View", |icon33|, "*zv*", "Revert to the previous zoom level of the drawing."
     "Window Zoom", |icon34|, "*zw*", "Increase the view of the selecteed area to fill the drawing window."
