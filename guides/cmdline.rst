@@ -31,7 +31,8 @@ The commands available to use are shown in the :ref:`Drawing Tools <tools>` refe
    2. Press the [Space bar], type any command and then [Enter] or the [Space bar].
    3. Press [Ctrl + M], any command and then [Enter] or the [Space bar].
    4. Press [Shift], any command and then [Enter] or the [Space bar].
-   5. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.  Pressing [Enter] is not required. 
+   5. Press [F1], any command and then [Enter] or the [Space bar].
+   6. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.  Pressing [Enter] is not required. 
 
 When the command line is activated the prompt above the input text box, initially showing "Command:", turns blue.  After typing a command the prompt will indicate the next input required such as coordinates and / or the next action available.  Pressing [Esc] will cancel the current action and pressing it a second time will cancel the operation.
 
