@@ -21,17 +21,16 @@ There are two dock widgets for managing blocks.  The :ref:`Block List <widget-bl
 
    - Blocks inserted from the **Block List**:
 
-      #. Each block can be placed at a different locations, scale, rotation angle, and/or can be placed in an array.
-      #. Blocks inserted from the same block in the **Block List** is called an *instance*.  If a block is inserted from the same block multiple times the *instances*  of the block are linked.  **Changes to one instance of the block will be reflected in all instances of that block.**
+      #. Each block can be placed at a different locations, scale, rotation angle, and can also be placed in an array.
+      #. Blocks inserted from the same block in the **Block List** is called an *instance*.  If a block is inserted from the same block multiple times all the *instances*  of the block are linked.  **Changes to one instance of the block will be reflected in all instances of that block.**
 
    - Blocks inserted from the **Library Browser**:
 
       #. Each block can be placed at a different location, rotation angle and/or scale.
-      #. Blocks inserted multiple times will create a new instance of the block in the **Block List** each time it is inserted.  The blocks will numbered sequentially (*BlockName1*, *BlockName2*, ...)
-      #. The inserted blocks will be independent of each other.
+      #. Blocks inserted multiple times will create a new instance of the block in the **Block List** each time it is inserted.  The blocks will numbered sequentially (*BlockName1*, *BlockName2*, ...)  The inserted blocks will be independent of each other.
 
 
-.. _ugblockslist:
+.. _ugBlocksList:
 
 Using the Block List
 --------------------
@@ -43,7 +42,7 @@ Blocks can be created in the current drawing for use within the drawing.  There 
 
    #. From an existing object:
 
-        - Select layer "0" and draw the object to be converted to a block.
+        - Ensure layer "0" is selected and draw the object to be converted to a block.
         - Select all the entities that make up the object.
         - Click on the **Create Block** |icon12|.
         - Specify the reference point for the block.  The reference point is used to locate the object when it is inserted into the drawing.
@@ -51,10 +50,10 @@ Blocks can be created in the current drawing for use within the drawing.  There 
 
    #. From an empty block:
 
-        - Click on the **Add an empty block** icon |icon13|.  Provide a unique name for the new block and click **OK**.  The new block will appear in the **Block List** dock.
+        - Click on the **Add an empty block** icon |icon13|.  Provide a unique name for the new block and click **OK**.  The new empty block will appear in the **Block List** dock.
         - Select the new block in the **Block List** and click the **Edit the active block in a separate window** icon |icon16|.
-        - Select layer "0" and draw the object.  The drawing's origin (0, 0) will become the reference point for the block.
-        - Close the new block's drawing window and the block will be saved.
+        - Ensure layer "0" is selected and draw the object.  The drawing's origin (0, 0) will become the reference point for the block.
+        - Close the new block's drawing window and the new block will be saved.
 
 
 .. important::
@@ -71,22 +70,7 @@ Blocks can be created in the current drawing for use within the drawing.  There 
 Inserting Blocks
 ~~~~~~~~~~~~~~~~
 
-.. note::
-
-    Blocks will be inserted on the current layer.  Do not use layer "0".
-
-Blocks can be inserted from the **Block List** or from the **Library Browser** (see :ref:`below <uglibbrowser>`).  Additional options are available when inserting blocks from the **Block List**.
-
-To insert a block:
-
-    - Select a layer.
-    - Select a block in the **Block List**.
-    - Click on the **Insert the active block** icon |icon18|.
-    - Set the rotation angle, scale and array columns, rows and spacing as needed.
-    - Place the block at the desired location within the drawing.
-    - Place additional copies of the block or press [Esc] to exit the command.
-
-Additional options are available when inserting a block through the *Tool Option* bar. 
+Blocks can be inserted from the **Block List** or from the **Library Browser** (see :ref:`below <ugLibBrowser>`).  Additional options are available when inserting blocks from the **Block List**.
 
 .. figure:: /images/toolOptions/toBlockInsert.png
     :width: 617px
@@ -95,8 +79,19 @@ Additional options are available when inserting a block through the *Tool Option
     :scale: 75
     :alt: Block insert tool option bar
 
+
     - Block can be rotated by the specified *Angle* and scaled by the *Factor*.
     - A pattern of blocks can be created by specifying an *Array* (number of columns and rows) and *Spacing* (space between the columns and rows).
+
+To insert a block:
+
+    - Select a layer (other than layer "0").
+    - Select a block in the **Block List**.
+    - Click on the **Insert the active block** icon |icon18|.
+    - Set the rotation angle, scale and array columns, rows and spacing as needed.
+    - Place the block at the desired location within the drawing.
+    - Place additional copies of the block or press [Esc] to exit the command.
+
 
 In the same block insertion, it is possible to combine transformations and pattern: a pattern of defined size and spacing is created then the pattern is rotated and finally the block entities are scaled but the spacing distances remain as defined.
 
@@ -143,7 +138,7 @@ Blocks can be saved to a separate file and used in other drawings or added to a 
     When saving blocks to be added to the block library it is *recommended that the block's entities be placed on* **layer "0"** and layer "0" is the only layer in the drawing.  Blocks adopt the attributes of the layer they are inserted on.  If multiple layers are used when creating the block, those layers will be added to the drawing with unintended consequences.
 
 
-.. _uglibbrowser:
+.. _ugLibBrowser:
 
 Using the Library Browser
 -------------------------
@@ -157,6 +152,9 @@ LibreCAD includes several categories of blocks in its library; algorithm, elektr
 
     Only insert multiple *inserts* of a block from the **Library Browser** if they are to be independent.
 
+
+Inserting Blocks
+~~~~~~~~~~~~~~~~
 
 Blocks located in a library can be rotated and scaled through the *Tool Option* bar when inserted. The rotation angle and the scale factor behave as they do for a block inserted from the **Block List**.
 
