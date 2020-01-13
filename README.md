@@ -33,7 +33,7 @@ Below are the sections that are in the LibreCAD User Manual with the percent com
       - Scale
       - Attributes (layers, pens (color, line type & thickness))
       - Templates
-   - Drawing and Modifying   [5%]
+   - Drawing and Modifying   [100%]
    - Blocks                  [100%]
    - Dimensioning & Text     [100%]
    - The Command Line        [100%]
