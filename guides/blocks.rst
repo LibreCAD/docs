@@ -89,10 +89,9 @@ To insert a single block:
     - Select a layer for the inserted blocks.
     - Select a block in the **Block List**.
     - Click on the **Insert the active block** icon |icon18|.
-    - Set the rotation angle in the *Angle* field and the scale factor in the *Factor* field as required.
-  (See :ref:`Angles <angles>` in **Fundamentals** and "Scale" in :ref:`Modify <tool-modify>` tools for more information.) 
+    - Set the rotation angle in the *Angle* field and the scale factor in the *Factor* field as required.  (See :ref:`Angles <angles>` in **Fundamentals** and "Scale" in :ref:`Modify <tool-modify>` tools for more information.) 
 
-        - The array values remain as "1"and spacing values remain as "1.0".
+        - The *Array* values remain as "1" and *Spacing* values remain as "1.0".
 
     - Place the block at the desired location within the drawing.
     - Adjust the rotation angle and scale as needed and place additional copies of the block, or press [Esc] to exit the command.
