@@ -59,13 +59,13 @@ Blocks can be created in the current drawing for use within the drawing.  There 
 
 .. important::
 
-    Layer "0" has a special significance.  It is the default layer for new drawings.  More importantly in the context of blocks, it is equivalent to "no layer", similar in the way that *color "By Block"* is equal to no specified color and *line type "By Block"* is equal to no specified line type.  **Genarally layer "0" should only be used when creating blocks and should be the only layer in a drawing for a block.**
+    Layer "0" has a special significance.  It is the default layer for new drawings.  More importantly in the context of blocks, it is equivalent to "no layer", similar in the way that *color "By Block"* is equal to no specified color and *line type "By Block"* is equal to no specified line type.  **Generally layer "0" should only be used when creating blocks and should be the only layer in a drawing for a block.**
 
     Pay particular attention to the :ref:`Attributes <attributes>` when creating blocks.  In addition to the specific attributes, pen attributes (Color, Width, Line Type) also include "By Layer" and "By Block".
 
     #. Blocks with specific attributes (e.g. color set to blue, width set to 0.18 mm, etc) will retain those attributes when inserted into a drawing.  The block needs to be edited to change any of the attributes.
     #. Blocks with the attributes set to "By Layer" will adopt the attributes of the layer they are inserted to.  The block's attributes will change if the layer's attributes are changed.
-    #. Blocks with the attributes set to "By Block" will intially adopt the attributes assigned to the layer.  The attributes can be changed with the **Attribute** tool.
+    #. Blocks with the attributes set to "By Block" will initially adopt the attributes assigned to the layer.  The attributes can be changed with the **Attribute** tool.
 
 
 Inserting Blocks
@@ -116,7 +116,7 @@ To insert and array of blocks:
         - the entire array is rotated around the lower left corner of the array.
         - The blocks are rotated as the array is rotated and the spacing remains as defined even if the block entities are scaled.
 
-    Using an array will treat all blocks in the array as a *single block instance*.  Selecting one entity of the array will select the all blocks in the array.  To keep instance seperate, insert multiple instances from the block list or create additional copies with the "Move / Copy" tool or normal edit commands (cut, copy, paste).
+    Using an array will treat all blocks in the array as a *single block instance*.  Selecting one entity of the array will select the all blocks in the array.  To keep instance separate, insert multiple instances from the block list or create additional copies with the "Move / Copy" tool or normal edit commands (cut, copy, paste).
 
 
 Editing a Block
@@ -203,7 +203,7 @@ Blocks can also be inserted from as a file from other sources.  With an open dra
     - Place the block at the desired location within the drawing.
     - Adjust the options as needed and place additional copies of the block or press [Esc] to exit the command.
 
-As with inserting a block from the **Library Browser**, inserting a block multiple times will create a new instance of the block in the **Block List** each time it is inserted, each with a sequentially numbered block name after the initial block insert.  When using blocks from external files the same layer critera applies (i.e. layer "0", ...)
+As with inserting a block from the **Library Browser**, inserting a block multiple times will create a new instance of the block in the **Block List** each time it is inserted, each with a sequentially numbered block name after the initial block insert.  When using blocks from external files the same layer criteria applies (i.e. layer "0", ...)
 
 
 
