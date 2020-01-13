@@ -6,7 +6,7 @@
 Blocks
 ======
 
-*Blocks* are a small reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *inserts*, are composed of geometric shapes (lines, arcs, etc.) and can also include text and dimensions.  Blocks can be created within the current drawing and used within the drawing repeatedly.  LibreCAD includes several libraries of blocks that can be inserted into a drawing.
+*Blocks* are a small reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *instances* or *inserts*, are composed of geometric shapes (lines, arcs, etc.) and can also include text and dimensions.  Blocks can be created within the current drawing and used within the drawing repeatedly.  LibreCAD also includes several libraries of blocks that can be inserted into a drawing.
 
 .. figure:: /images/blockSample.png
     :width: 677px
@@ -21,8 +21,8 @@ There are two dock widgets for managing blocks.  The :ref:`Block List <widget-bl
 
    - Blocks inserted from the **Block List**:
 
-      #. Each block can be placed at a different locations, scale, rotation angle, and in addition, can be placed in an array.
-      #. Blocks inserted from the same instance of a block in the **Block List** multiple times are linked.  **Changes to one inserted block will be reflected in all instances of that block.**
+      #. Each block can be placed at a different locations, scale, rotation angle, and/or can be placed in an array.
+      #. Blocks inserted from the same block in the **Block List** is called an *instance*.  If a block is inserted from the same block multiple times the *instances*  of the block are linked.  **Changes to one instance of the block will be reflected in all instances of that block.**
 
    - Blocks inserted from the **Library Browser**:
 
@@ -56,23 +56,26 @@ Blocks can be created in the current drawing for use within the drawing.  There 
         - Select layer "0" and draw the object.  The drawing's origin (0, 0) will become the reference point for the block.
         - Close the new block's drawing window and the block will be saved.
 
+
 .. important::
+
+    Layer "0" is a special layer that is equivalent to "no layer", similar to *color "By Block"* is equal to no specified color and *line type "By Block"* is equal to no specified line type.  It is also the default layer for new drawings.  **Genarally layer "0" should only be used when creating blocks and should be the only layer in the drawing.**
+
     Pay particular attention to the :ref:`Attributes <attributes>` when creating blocks.  In addition to the specific attributes, pen attributes (Color, Width, Line Type) also include "By Layer" and "By Block".
 
     #. Blocks with specific attributes (e.g. color set to blue, width set to 0.18 mm, etc) will retain those attributes when inserted.  The block needs to be edited to change any attribute.
     #. Blocks with the attributes set to "By Layer" will adopt the attributes of the layer they are inserted to.
     #. Blocks with the attributes set to "By Block" will intially adopt the attributes assigned to the layer.  The attributes can be changed with the **Attribute** tool.
 
-    Layer "0" is a a special layer that is equivalent to "no layer", similar to *color "By Block"* is equal to no specified color and *line type "By Block"* is equal to no specified line type.  Layer "0" should only be used when creating blocks and should be the only layer in the drawing.
-
 
 Inserting Blocks
 ~~~~~~~~~~~~~~~~
 
 .. note::
+
     Blocks will be inserted on the current layer.  Do not use layer "0".
 
-Blocks can be inserted from the **Block List** or from the **Library Browser** (see below).  Additional options are available when inserting blocks from the **Block List**.
+Blocks can be inserted from the **Block List** or from the **Library Browser** (see :ref:`below <uglibbrowser>`).  Additional options are available when inserting blocks from the **Block List**.
 
 To insert a block:
 
@@ -136,6 +139,7 @@ Blocks can be saved to a separate file and used in other drawings or added to a 
     - Select a file location, specify a file name and click **Save**.
 
 .. admonition:: Saving blocks
+
     When saving blocks to be added to the block library it is *recommended that the block's entities be placed on* **layer "0"** and layer "0" is the only layer in the drawing.  Blocks adopt the attributes of the layer they are inserted on.  If multiple layers are used when creating the block, those layers will be added to the drawing with unintended consequences.
 
 
@@ -147,7 +151,7 @@ Using the Library Browser
 LibreCAD includes several categories of blocks in its library; algorithm, elektro, plan/air_water, plan/architect, etc.  To use blocks from the :ref:`Block Library <widget-libBrowser>`, select the block from the tree view, click **Insert** and specify a point in the drawing to place the block.
 
 
-. admonition:: Recommendation
+.. admonition:: Recommendation
 
     When using blocks from the library, insert a *single* *insert* from the **Library Browser** and then insert subsequent *instances* from the **Block List**.  Inserting the block from the **Block List** retains the link between instances of the same block insert.  If a block is edited from the **Block List**, all instances of the block will show the changes.
 
@@ -181,6 +185,7 @@ Additional part libraries can be added for blocks created by users, libraries do
 The easiest method of installation, which does not require or Linux Root privileges or Windows Administrator access, is to create a new directory such as "PartsLibrary" in the home directory or "Documents" folder.  The path to this directory would be something similar to "/home/*{Username}*/PartsLibrary/" or "C:\\Users\\ *{Username}*\\Documents\\PartsLibrary\\ ".  Blocks and libraries can then be placed under the parent "PartsLibrary" directory.  The sub-directories will create categories that will appear in the tree view of the **Library Browser**.  
 
 .. important::
+
     Do not place blocks directly in the parent parts library directory.  Blocks must be  placed in sub-directories to the parent libraries directory to appear in the **Library Browser**.
 
 To include the new blocks in the **Library Browser** tree view, edit LibreCAD's :ref:`Application Preferences <app-prefs>` to add the path to the directory or folder with the user-defined blocks.  From the menus, select **Options -> Application Preferences** and select the **Paths** tab.  Type the full path to the part library, e.g. /home/*{Username}*/PartsLibrary/ or C:\\Users\\ *{Username}*\\Documents\\PartsLibrary\\ , into the text-box labelled "Part Libraries" and click "OK".  Click the **Rebuild** button on the **Library Browser** dock and the new libraries will appear in the tree view.
