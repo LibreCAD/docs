@@ -83,37 +83,39 @@ Blocks can be inserted from the **Block List** or from the **Library Browser** (
     - Block can be rotated by the specified *Angle* and scaled by the *Factor*.
     - A pattern of blocks can be created by specifying an *Array* (number of columns and rows) and *Spacing* (space between the columns and rows).
 
-To insert a block:
+To insert a single block:
 
-    - Select a layer (other than layer "0").
+    - Select a layer for the inserted blocks.
     - Select a block in the **Block List**.
     - Click on the **Insert the active block** icon |icon18|.
-    - Set the rotation angle, scale and array columns, rows and spacing as needed.
+    - Set the rotation angle, scale as needed.
     - Place the block at the desired location within the drawing.
-    - Place additional copies of the block or press [Esc] to exit the command.
+    - Adjust the rotation angle and scale as needed and place additional copies of the block or press [Esc] to exit the command.
 
+Transformations (rotation, scale) and an array can be combined in a single block insertion.  The rotation angle is applied to the entire array however the scale and spacing is applied to the individual blocks within the array.
 
-In the same block insertion, it is possible to combine transformations and pattern: a pattern of defined size and spacing is created then the pattern is rotated and finally the block entities are scaled but the spacing distances remain as defined.
+To insert and array of blocks:
 
+    - Select a layer for the inserted blocks.
     - Select a block in the **Block List**.
     - Click on the **Insert the active block** icon |icon18|.
     - Set the angle of rotation in *Angle* field as required. (See :ref:`Angles<angles>` in **Fundamentals**.)
-    - Set the scale factor in *Factor* field as required.  It is the same scale factor as in :ref:`Modify <tool-modify>`.
-    - Define the numbers of columns and rows in *Array* area to create a pattern as required.  Otherwise keep 1 in both fields to insert a single block.
-    - Set the *Column spacing* distance between each column of the array. This is the distance between 2 block insertion points of 2 adjacent columns. 
-    - Set the *Row spacing* distance between each row of the array. This is the distance between 2 block insertion points of 2 adjacent rows. 
+    - Set the scale factor in *Factor* field as required.  (See "Scale" in :ref:`Modify <tool-modify>` tools.)
+    - set the numbers of columns and rows in *Array* to create the required pattern.
+    - Set the *column spacing*. This is the distance between two block insertion points of two adjacent columns. 
+    - Set the *row spacing*. This is the distance between two block insertion points of two adjacent rows. 
     - Place the block at the desired location within the drawing. The insertion point of the pattern is the insertion point of the lower-left item in the array.
+    - Adjust the options as needed and place additional copies of the block or press [Esc] to exit the command.
 
 .. note::
-    Using an array will treat all blocks in the array as a *single block instance*.  Selecting one entity of the array will select the all blocks in the array. If this is not the intent, insert multiple copies from the block list or create additional copies with the "Move / Copy" tool.
 
-.. note::
-    Blocks can also be cut, copied, and pasted using the normal edit commands.  For example, to copy a block from one drawing to another:
+    When multiple options are applied to an array of blocks, the pattern is created as follows:
 
-    - Select a block in the current drawing.
-    - Press [Ctrl]+[c] (or **Edit -> Copy** from the menu)
-    - Within the current drawing or switch to a new drawing and press [Ctrl]+[v] (or **Edit -> Paste**)
-    - Specified a point in the drawing to place the block.
+        - the defined scale and spacing, and then
+        - the pattern is rotated.
+        - The spacing remains as defined if the block entities are scaled.
+
+    Using an array will treat all blocks in the array as a *single block instance*.  Selecting one entity of the array will select the all blocks in the array.  To keep instance seperate, insert multiple instances from the block list or create additional copies with the "Move / Copy" tool or normal edit commands (cut, copy, paste).
 
 
 Editing a Block
@@ -133,9 +135,9 @@ Blocks can be saved to a separate file and used in other drawings or added to a 
     - Click the **Save the active block to a file** icon |icon17|.
     - Select a file location, specify a file name and click **Save**.
 
-.. admonition:: Saving blocks
+.. admonition:: Recommendation when Saving blocks
 
-    When saving blocks to be added to the block library it is *recommended that the block's entities be placed on* **layer "0"** and layer "0" is the only layer in the drawing.  Blocks adopt the attributes of the layer they are inserted on.  If multiple layers are used when creating the block, those layers will be added to the drawing with unintended consequences.
+    When saving blocks to be added to the block library it is recommended that the block's entities be placed on **layer "0"** and layer "0" is the *only layer* in the drawing.  Additional layers in the block's drawing will be added to a drawing when the block is inserted with unintended consequences.
 
 
 .. _ugLibBrowser:
@@ -167,24 +169,24 @@ Blocks located in a library can be rotated and scaled through the *Tool Option* 
 
 To insert a block:
 
-    - Select a layer.
+    - Select a layer for the inserted blocks.
     - Select a block in the **Library Browser**.
     - Click on the **Insert** button.
     - Set the rotation angle and scale as needed. 
     - Place the block at the desired location within the drawing.
-    - Place additional copies of the block or press [Esc] to exit the command.
+    - Adjust the options as needed and place additional copies of the block or press [Esc] to exit the command.
 
 
 Adding to the Library
 ~~~~~~~~~~~~~~~~~~~~~
 
-Additional part libraries can be added for blocks created by users, libraries downloaded from the LibreCAD wiki (https://wiki.librecad.org/index.php?title=Part_Libraries) or from other internet resources.  LibreCAD can be configured to show user-defined blocks in the library browser *in addition* to the blocks included with LibreCAD.  
+Additional parts and libraries can be added for blocks created by users, libraries downloaded from the LibreCAD wiki (https://wiki.librecad.org/index.php?title=Part_Libraries) or from other internet resources.  LibreCAD can be configured to show user-defined blocks in the library browser *in addition* to the blocks included with LibreCAD.  
 
 The easiest method of installation, which does not require or Linux Root privileges or Windows Administrator access, is to create a new directory such as "PartsLibrary" in the home directory or "Documents" folder.  The path to this directory would be something similar to "/home/*{Username}*/PartsLibrary/" or "C:\\Users\\ *{Username}*\\Documents\\PartsLibrary\\ ".  Blocks and libraries can then be placed under the parent "PartsLibrary" directory.  The sub-directories will create categories that will appear in the tree view of the **Library Browser**.  
 
 .. important::
 
-    Do not place blocks directly in the parent parts library directory.  Blocks must be  placed in sub-directories to the parent libraries directory to appear in the **Library Browser**.
+    Do not place blocks directly in the parent directory of the  parts library.  Blocks must be  placed in sub-directories to the parent libraries directory to appear in the **Library Browser**.
 
 To include the new blocks in the **Library Browser** tree view, edit LibreCAD's :ref:`Application Preferences <app-prefs>` to add the path to the directory or folder with the user-defined blocks.  From the menus, select **Options -> Application Preferences** and select the **Paths** tab.  Type the full path to the part library, e.g. /home/*{Username}*/PartsLibrary/ or C:\\Users\\ *{Username}*\\Documents\\PartsLibrary\\ , into the text-box labelled "Part Libraries" and click "OK".  Click the **Rebuild** button on the **Library Browser** dock and the new libraries will appear in the tree view.
 
