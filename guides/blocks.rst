@@ -6,61 +6,77 @@
 Blocks
 ======
 
-*Blocks* are a small reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *inserts*, are composed of geometric shapes (lines, arcs, etc.) and can also include text and dimensions.  LibreCAD includes several libraries of blocks that can be inserted into a drawing or users can create their own.
+*Blocks* are a small reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *inserts*, are composed of geometric shapes (lines, arcs, etc.) and can also include text and dimensions.  Blocks can be created within the current drawing and used within the drawing repeatedly.  LibreCAD also includes several libraries of blocks that can be inserted into a drawing.
 
-.. Insert image example:
+.. Insert image example: blockSample.png
 
-The are two "dock widgets" for managing blocks.  The :ref:`Block List <widget-blockList>` dock for managing blocks *within the current drawing* and the :ref:`Library Browser <widget-libBrowser>` dock that shows the *collection of blocks available*.  Both widgets allow users to insert blocks into the current drawing, but there are a couple of important differences:
+.. figure:: /images/blockSample.png
+    :width: 677px
+    :height: 423px
+    :align: center
+    :scale: 75
+    :alt: Block sample
 
-   #. Blocks inserted from the **Library Browser**:
+    Block sample (Library Browser -> misc -> t-part)
+
+The are two dock widgets for managing blocks.  The :ref:`Block List <widget-blockList>` dock for managing blocks *within the current drawing* and the :ref:`Library Browser <widget-libBrowser>` dock that displays a *collection of available blocks*.  Both widgets allow users to insert blocks into the current drawing, but there are a couple of important differences:
+
+   - Blocks inserted from the **Block List**:
+
+      #. Each block can be placed at a different locations, scale, rotation angle, and in addition, can be placed in an array.
+      #. Blocks inserted from the same instance of a block in the **Block List** multiple times are linked.  **Changes to one inserted block will be reflected in all instances of that block.**
+
+   - Blocks inserted from the **Library Browser**:
 
       #. Each block can be placed at a different location, rotation angle and/or scale.
       #. Blocks inserted multiple times will create a new instance of the block in the **Block List** each time it is inserted.  The blocks will numbered sequentially (*BlockName1*, *BlockName2*, ...)
       #. The inserted blocks will be independent of each other.
 
-   #. Blocks inserted from the **Block List**:
+.. admonition:: Recommendation
+    When using blocks from the library, insert a *single* instance from the **Library Browser** and then insert subsequent instances from the **Block List**.  Inserting the block from the **Block List** retains the link between inserts of the same block and allows the block to be edited if necessary.
 
-      #. Each block can be placed at a different locations, scale, rotation angle, and can be placed in an array.
-      #. Blocks inserted into a drawing from the **Library Browser** once and then subsequently inserted from the **Block List** multiple times are linked.  **Changes to one inserted block will be reflected in all instances of that block.**
+    Only insert multiple instances of a block from the **Library Browser** if they are to be independent.
 
 
 Creating a Block
 ----------------
 
-The are a couple of different ways to create a block:
+Blocks can be created in the current drawing for use within the drawing.  There are two ways to create a block:
 
-   #. From an Existing Drawing
+   #. From an existing object:
 
-        - Draw the object to be converted to a block.
+        - Select layer "0" and draw the object to be converted to a block.
         - Select all the entities that make up the object.
         - Click on the **Create Block** |icon12|.
         - Specify the reference point for the block.  The reference point is used to locate the object when it is inserted into the drawing.
         - Provide a unique name for the new block and click **OK**.  The new block will appear in the **Block List** dock.
 
-
-   #. From an Empty Block
+   #. From an empty block:
 
         - Click on the **Add an empty block** icon |icon13|.  Provide a unique name for the new block and click **OK**.  The new block will appear in the **Block List** dock.
         - Select the new block in the **Block List** and click the **Edit the active block in a separate window** icon |icon16|.
-        - Draw the object.  The drawing's origin (0, 0) will become the reference point for the block.
+        - Select layer "0" and draw the object.  The drawing's origin (0, 0) will become the reference point for the block.
         - Close the new block's drawing window and the block will be saved.
 
-.. tip::
-    Create blocks on their own layer.
+.. important::
+    Pay particular attention to the :ref: `Attributes<attributes>` when creating blocks.  In addition to the specific attributes, pen attributes (Color, Width, Line Type) also include "By Layer" and "By Block".
+
+    #. Blocks with specific attributes (e.g. color set to blue, width set to 0.18 mm, etc) will retain those attributes when inserted.  The block needs to be edited to change any attribute.
+    #. Blocks with the attributes set to "By Layer" will adopt the attributes of the layer they are inserted to.
+    #. Blocks with the attributes set to "By Block" will intially adopt the attributes assigned to the layer.  The attributes can be changed with the **Attribute** tool.
+
+    Layer "0" is a a special layer that is equivalent to "no layer", similar to color "By Block" is equal to no specified color and line type "By Block" is equal to no specified line type.  Layer "0" should only be used when creating blocks and should be the only layer in the drawing.
 
 
 Inserting Blocks
 ----------------
 
-Basic
-~~~~~
+.. note::
+    Blocks will be inserted on the current layer.  Do not use layer "0".  
 
     - Select a block in the **Block List**.
     - Click on the **Insert the active block** icon |icon18|.
     - Place the block at the desired location within the drawing.
-
-Advanced
-~~~~~~~~
 
 Inserting block capability can be expanded through the *Tool Option* bar features before the block is inserted. 
 
@@ -79,15 +95,15 @@ In the same block insertion, it is possible to combine transformations and patte
 
     - Select a block in the **Block List**.
     - Click on the **Insert the active block** icon |icon18|.
-    - Set the angle of rotation in *Angle* field as required. See :ref:`Angles in LibreCAD <angles>`.
-    - Set the scale factor in *Factor* field as required. It is the same scale factor as in :ref:`Modify <tools>`.
-    - Define the numbers of columns and rows in *Array* area to create a pattern.  Otherwise keep 1 for columns and rows to insert a single block.
-    - Type the *Column spacing* distance between each column of the array. This is the distance between 2 block insertion points of 2 adjacent columns. 
-    - Type the *Row spacing* distance between each row of the array. This is the distance between 2 block insertion points of 2 adjacent rows. 
-    - Place the block at the desired location within the drawing. The insertion point of the pattern is the insertion point of the extreme lower and extreme left item in the array.
+    - Set the angle of rotation in *Angle* field as required. (See :ref:`Angles<angles>` in **Fundamentals**.)
+    - Set the scale factor in *Factor* field as required.  It is the same scale factor as in :ref:`Modify <tool-modify>`.
+    - Define the numbers of columns and rows in *Array* area to create a pattern as required.  Otherwise keep 1 in both fields to insert a single block.
+    - Set the *Column spacing* distance between each column of the array. This is the distance between 2 block insertion points of 2 adjacent columns. 
+    - Set the *Row spacing* distance between each row of the array. This is the distance between 2 block insertion points of 2 adjacent rows. 
+    - Place the block at the desired location within the drawing. The insertion point of the pattern is the insertion point of the lower-left item in the array.
 
 .. note::
-    Using a pattern of 3x2 blocks will gather all entities of the 6 array items in *one block instance*. So selecting one entity of the 6-pattern will select the 6 array items. If this is not the intent then use the Rotate and Move commands with *Multiple copies*.
+    Using an array will treat all blocks in the array as a *single block instance*.  Selecting one entity of the array will select the all blocks in the array. If this is not the intent, insert multiple copies from the block list or create additional copies with the "Move / Copy" tool.
 
 .. note::
     Blocks can also be cut, copied, and pasted using the normal edit commands.  For example, to copy a block from one drawing to another:
@@ -102,11 +118,8 @@ Editing a Block
 ~~~~~~~~~~~~~~~
 
     - Select a block in the **Block List** and click the **Edit the active block in a separate window** icon |icon16|.
-    - Edit the block drawing.
+    - Edit the block as necessary.
     - Close the block's drawing window and the block will be saved and all instances of the block will be updated in the current drawing.
-
-.. note::
-    Currently only blocks created in the drawing as a new block can be edited.  Blocks inserted from the library Browser cannot be edited.
 
 
 Saving Blocks
@@ -118,14 +131,14 @@ Blocks can be saved to a separate file and used in other drawings or added to a 
     - Click the **Save the active block to a file** icon |icon17|.
     - Select a file location, specify a file name and click **Save**.
 
+.. admonition:: Saving blocks
+    When saving blocks to be added to the block library it is *recommended that the block's entities be placed on* **layer "0"** and layer "0" is the only layer in the drawing.  Blocks adopt the attributes of the layer they are inserted on.  If multiple layers are used when creating the block, those layers will be added to the drawing with unintended consequences.
+
 
 Block Libraries
 ---------------
 
 LibreCAD includes several categories of blocks in its library; algorithm, elektro, plan/air_water, plan/architect, etc.  To use blocks from the :ref:`Block Library <widget-libBrowser>`, select the block from the tree view, click **Insert** and specify a point in the drawing to place the block.
-
-.. note::
-    Insert a block from the library into the drawing only once.  If the same block is needed more than once, add  subsequent blocks from the **Block List**.  Inserting a block from the **Library Browser** multiple times will create multiple *independent* copies of the block in the **Block List**.
 
 Blocks located in a library can be rotated and scaled through the *Tool Option* bar features before their insertion. The rotation angle and the scale factor behave as for regular block.
 
