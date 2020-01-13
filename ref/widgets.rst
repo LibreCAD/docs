@@ -80,15 +80,15 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
     :class: fix-table
 
     "Icon", "Description"
-    |icon10|, "''Show all blocks'' - Makes all the blocks in the current drawing visible."
-    |icon11|, "''Hide all blocks'' - Hides all blocks in the active drawing."
-    |icon12|, "''Create a block'' - Creates a block from the selected items."
-    |icon13|, "''Add an empty block'' - Creates an empty block that can then be edited is a separate window (see below)."
-    |icon14|, "''Remove the active block'' - Deletes the highlighted block."
-    |icon15|, "''Rename the active block'' - Rename the highlighted block"
-    |icon16|, "''Edit the active block in a separate window'' - Open a new drawing window to edit a new or  existing block."
-    |icon17|, "''Save the active block to a file'' - Saves the highlighted block to a file."
-    |icon18|, "''Insert the active block''. - Inserts the highlighted block in the current drawing at the specified reference point"
+    |icon10|, "”Show all blocks” - Makes all the blocks in the current drawing visible."
+    |icon11|, "”Hide all blocks” - Hides all blocks in the active drawing."
+    |icon12|, "”Create a block” - Creates a block from the selected items."
+    |icon13|, "”Add an empty block” - Creates an empty block that can then be edited is a separate window (see below)."
+    |icon14|, "”Remove the active block” - Deletes the highlighted block."
+    |icon15|, "”Rename the active block” - Rename the highlighted block"
+    |icon16|, "”Edit the active block in a separate window” - Open a new drawing window to edit a new or  existing block."
+    |icon17|, "”Save the active block to a file” - Saves the highlighted block to a file."
+    |icon18|, "”Insert the active block”. - Inserts the highlighted block in the current drawing at the specified reference point"
 
 The lower portion of the dock shows a list of blocks in the current drawing.  The blocks in the above example are named "a3", "d1", "d2", and "d4".  More details on creating and using :ref:`blocks <blocks>` can be found in the **User Guides**.
 
@@ -131,7 +131,7 @@ Layer List Dock
     :alt: Layer List Dock
 
 
-The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing. The entry line on top of the dock allows to filter by layer names (e.g. "*01" would show all names ending by "01").  Layer functions include:
+The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing. The entry line on top of the dock allows to filter by layer names (e.g. "\*01" would show all names ending by "01").  Layer functions include:
 
 .. csv-table:: 
     :widths: 10, 90
@@ -140,11 +140,11 @@ The Layer List Dock provides the functions to manage layers and a list of layers
     :class: fix-table
 
     "Icon", "Description"
-    |icon10|, "''Show all layers'' - Makes all the layers in the current drawing visible. (*: ''Freeze'')"
-    |icon11|, "''Hide all layers'' - Hides all layers in the active drawing.  (*: ''Defreeze'')"
-    |icon13|, "''Add a layer'' - Add a new layer. *"
-    |icon14|, "''Remove the current layer'' - Remove the highlighted layer. *"
-    |icon15|, "''Modify layer attributes / rename'' - Modify the layer's attributes and / or rename the layer. *"
+    |icon10|, "”Show all layers” - Makes all the layers in the current drawing visible. (\*: ”Freeze”)"
+    |icon11|, "”Hide all layers” - Hides all layers in the active drawing.  (\*: ”Defreeze”)"
+    |icon13|, "”Add a layer” - Add a new layer. * (Shortcut [Ctrl]+[L])"
+    |icon14|, "”Remove the current layer” - Remove the highlighted layer. *"
+    |icon15|, "”Modify layer attributes / rename” - Modify the layer's attributes and / or rename the layer. *"
 
 .. See icon mapping a eof
 
@@ -178,7 +178,7 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
 |                      | | numerically.                                                           |
 +----------------------+--------------------------------------------------------------------------+
 | Construction Layer   | | Toggle the construction lines off / on.  Construction lines are        |
-|                      | | intended as temporary lines and drawn to ''infinity''".                |
+|                      | | intended as temporary lines and drawn to ”infinity”".                |
 +----------------------+--------------------------------------------------------------------------+
 | Default Pen:         | | - Color: Select from default or custom colors.                         |
 |                      | | - Width: Select from predefined line widths from 0.00 to 2.11 mm.      |
