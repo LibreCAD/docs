@@ -326,7 +326,7 @@ The **Proprieties** tool also allows the *geometry* of an entity to be changed. 
 |
 |
 
-Some entities, such as a polyline, have limited properties available that can be changed.  Other entities, such as Text, have many properties that can be changes (including the test itself).
+Some entities, such as a polyline, have limited properties available that can be changed.  Other entities, such as Text, have many properties that can be changes (including the text itself).
 
 Also, the properties of a specific entity type, e.g. line, does not vary even if the specific tool used to create the entity varies.  A line drawn with the **2 Point** line tool will have the same properties as a line drawn with **Angle** tool. 
 
