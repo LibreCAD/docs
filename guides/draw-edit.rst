@@ -349,7 +349,8 @@ Also, the properties of a specific entity type, e.g. line, does not vary even if
     "MText", "MText", "| Text, font, text height/angle/line spacing,
                          alignment, special characters"
     "Dimension", "Aligned, Linear, etc", "Label, special symbol"
-
+    "Blocks", "Block List, Library Browser", "| Insertion point X/Y coordinates, scale X/Y,
+                                                rotation angle, array rows / columns and spacing"
 
 ..  Icon mapping:
 .. |icon03| image:: /images/icons/snap_grid.svg
