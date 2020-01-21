@@ -222,7 +222,7 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 
 
 Color
-````
+`````
 
 .. csv-table::
    :widths: 70 30
