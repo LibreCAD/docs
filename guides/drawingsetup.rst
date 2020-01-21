@@ -122,6 +122,3 @@ As an alternative to the LibreCAD provided template, a user-specified template c
 
 
 ..  Image mapping (no "align" allowed/required):
-
-
-
