@@ -13,6 +13,8 @@ Under normal circumstances, after the initial installation and :ref:`configurati
 There are a many drawing parameters to be considered to suit the drawing requirements and final appearance.  The majority of these settings can be left as the defaults as LibreCAD's defaults reflect normal drafting conventions and practices, such as the "Text Height" of 2.5mm / .10" / 3/32", etc.  Other preferences and attributes, such as layer, line thickness and type, pen colors, etc. can also be changed to suit users' requirements.
 
 
+.. _su-scale:
+
 Scale
 -----
 
@@ -44,6 +46,7 @@ Layers help organize drawings by allowing users to place and manage related enti
    Note that layer **0** is a special layer and should not be used.  Create at least one new layer for the drawing.
 
 Hiding layers while drawing reduces the *visual complexity* and makes it easier to focus on the current drawing efforts.
+
 
 .. _su-layers:
 
