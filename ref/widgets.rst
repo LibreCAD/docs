@@ -215,7 +215,7 @@ Icons to the left of each layer act on the layers individually.  The layer opera
 
 Right-clicking on a layer opens a popup menu that provides equivalent operations to the item marked with an asterisk (*).
 
-More details on creating and using :ref:`layers <layers>` can be found in the :ref:`Drawing Setup <drawingsetup>` section of the **User Guides**.
+More details on creating and using :ref:`layers <layers>` can be found in the :ref:`Drawing Setup <drawing-setup>` section of the **User Guides**.
 
 |
 |
@@ -233,7 +233,7 @@ Library Browser Dock
     :scale: 67
     :alt: Library Browser Dock
 
-The Library Browser Dock shows blocks available from the defined libraries and allows users to insert blocks into the current drawing.  To insert a block, select a block from one of the categories by clicking on it, e.g. "d1" and click the "Insert" button.  Specify a reference point in the drawing window with a mouse click or by entering coordinates at the command prompt.  Once inserted into the drawing, the block is shown in the :ref:`Block List Dock <block-list>`.
+The Library Browser Dock shows blocks available from the defined libraries and allows users to insert blocks into the current drawing.  To insert a block, select a block from one of the categories by clicking on it, e.g. "d1" and click the "Insert" button.  Specify a reference point in the drawing window with a mouse click or by entering coordinates at the command prompt.  Once inserted into the drawing, the block is shown in the :ref:`Block List Dock <ugBlocksList>`.
 
 LibreCAD includes several libraries and additional libraries can be specified by defining a path to user libraries in the :ref:`Application Preferences <app-prefs>`, "Path" tab as shown in **Getting Started**.
 
