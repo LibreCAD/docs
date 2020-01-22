@@ -321,7 +321,7 @@ Entities' coordinates can also be located graphically using a mouse or other poi
 Using the Keyboard
 ```````````````````
 
-Coordinate values, whether cartesian or polar, can be typed at the :ref:`command line <commandline>` in the formats as previously noted.  LibreCAD offers an additional method for typing cartesian coordinates when using the numeric keypad; type two decimal points (".") in lieu of the comma between the X and Y values.  For example, "10..20" is equivelent to typing "10,20".  This method can also be used for relative cartesian coordinates, e.g. @15..25.
+Coordinate values, whether cartesian or polar, can be typed at the :ref:`command line <cmdline>` in the formats as previously noted.  LibreCAD offers an additional method for typing cartesian coordinates when using the numeric keypad; type two decimal points (".") in lieu of the comma between the X and Y values.  For example, "10..20" is equivelent to typing "10,20".  This method can also be used for relative cartesian coordinates, e.g. @15..25.
 
 Text input is also required by tool options where distance, angle, etc. are needed.
 
