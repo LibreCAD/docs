@@ -162,10 +162,11 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 |
 |
 |
+|
+|
 
 Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
 
-.. removal of vertical bars may affect text wrap in table
 
 .. table::
     :widths: 25, 75
