@@ -45,7 +45,7 @@ Layers help organize drawings by allowing users to place and manage related enti
 
 Hiding layers while drawing reduces the *visual complexity* and makes it easier to focus on the current drawing efforts.
 
-.. _layers:
+.. _su-layers:
 
 Layers
 ~~~~~~
