@@ -88,7 +88,7 @@ A few rules will help to ensure dimensions are accurate, legible and complete:
    - Use arrow heads or slash marks at the end of the dimension lines.
 
 .. note::
-   * The minimum spacing between dimension lines needs to be scaled with the drawing.  For example, if the drawing is 1:10, the spacing will need to be adjusted to 60 mm between dimension lines and 100 mm from the entity.
+   The minimum spacing between dimension lines needs to be scaled with the drawing.  For example, if the drawing is 1:10, the spacing will need to be adjusted to 60 mm between dimension lines and 100 mm from the entity.
 
 
 Examples
