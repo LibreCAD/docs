@@ -24,7 +24,7 @@ To print a drawing without a drawing border / title block template or a specific
     c. The page is represented by the shadowed rectangle in the print preview.
 
 3. Click the **Fit to Page** button |icon05| on the toolbar.  This ensure the drawing is scaled to fit and centered on the page.
-4. Select **File -> Print** or click the **Print button** |icon01|.
+4. Select **File -> Print** or click the **Print** button |icon01|.
 5. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** button.  Adjust the properties if necessary and then click **OK**.
 6. Click the **Print** button.
 
