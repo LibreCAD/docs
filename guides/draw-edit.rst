@@ -319,6 +319,7 @@ The **Proprieties** tool also allows the *geometry* of an entity to be changed. 
     :alt: Properties - MText
 
     Properties - MText
+
 |
 |
 |

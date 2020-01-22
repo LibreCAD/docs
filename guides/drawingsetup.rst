@@ -13,6 +13,8 @@ Under normal circumstances, after the initial installation and :ref:`configurati
 There are a many drawing parameters to be considered to suit the drawing requirements and final appearance.  The majority of these settings can be left as the defaults as LibreCAD's defaults reflect normal drafting conventions and practices, such as the "Text Height" of 2.5mm / .10" / 3/32", etc.  Other preferences and attributes, such as layer, line thickness and type, pen colors, etc. can also be changed to suit users' requirements.
 
 
+.. _su-scale:
+
 Scale
 -----
 
@@ -45,6 +47,8 @@ Layers help organize drawings by allowing users to place and manage related enti
 
 Hiding layers while drawing reduces the *visual complexity* and makes it easier to focus on the current drawing efforts.
 
+
+.. _su-layers:
 
 Layers
 ~~~~~~
@@ -116,12 +120,9 @@ Default Templates
 
 When LibreCAD is first launched it creates a new drawing using a *default template*.  Further, when a new drawing is created within LibreCAD, either from the **File -> New** menu or when the "New" icon on the toolbar is clicked, the default template is used.  The default template can be either the template included with LibreCAD or a user-specified template.
 
-When installing LibreCAD, a resource directory is created including, among other things, a default template named *empty.dxf*.  On MS Windows, the template is found in *C:\Program Files (x86)\LibreCAD\resources\library\templates\*.  
+When installing LibreCAD, a resource directory is created including, among other things, a default template named *empty.dxf*.  On MS Windows, the template is found in *C:\\Program Files (x86)\\LibreCAD\\resources\\library\\templates\\*.
 
 As an alternative to the LibreCAD provided template, a user-specified template can be configured in the :ref:`Application Preferences <app-prefs>` on the **Paths** tab.  The specified template is used instead of the default LibreCAD template when the application is launched and for new drawings.
 
 
 ..  Image mapping (no "align" allowed/required):
-
-
-

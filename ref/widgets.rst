@@ -115,7 +115,7 @@ Note that LibreCAD is designed with emphasis on mouse input and at the moment so
 
 In addition to command input, the command line provides access to a built in calculator.  The calculator can be invoked with the *cal* command.  The available :ref:`operators and functions <calc>` can be found in the **Appendix**.
 
-Further details on using the :ref:`command line <commandline>` are in the **User Guides**.
+Further details on using the :ref:`command line <cmdline>` are in the **User Guides**.
 
 
 .. _widget-layerList:
@@ -165,6 +165,8 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
 
+.. removal of vertical bars may affect text wrap in table
+
 .. table::
     :widths: 25, 75
     :class: fix-table
@@ -172,19 +174,19 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
 +----------------------+--------------------------------------------------------------------------+
 | Attribute            | Description                                                              |
 +======================+==========================================================================+
-| Layer Name           | | The default layer name is "O", but any alpha-numeric label can be used.|
-|                      | | New layers are created with the name of the highlighted layer with a   |
-|                      | | sequence number appended.  Layers are sorted in the list alpha-        |
-|                      | | numerically.                                                           |
+| Layer Name           |  The default layer name is "O", but any alpha-numeric label can be used. |
+|                      |  New layers are created with the name of the highlighted layer with a    |
+|                      |  sequence number appended.  Layers are sorted in the list alpha-         |
+|                      |  numerically.                                                            |
 +----------------------+--------------------------------------------------------------------------+
-| Construction Layer   | | Toggle the construction lines off / on.  Construction lines are        |
-|                      | | intended as temporary lines and drawn to ”infinity”".                |
+| Construction Layer   |  Toggle the construction lines off / on.  Construction lines are         |
+|                      |  intended as temporary lines and drawn to ”infinity”".                   |
 +----------------------+--------------------------------------------------------------------------+
-| Default Pen:         | | - Color: Select from default or custom colors.                         |
-|                      | | - Width: Select from predefined line widths from 0.00 to 2.11 mm.      |
-|                      | | - Type: Select from predefined line types: Continuous, or Dot, Dash,   |
-|                      | |   Dash Dot, Divide, Center, or Border (normal, "tiny", "small", or     |
-|                      | |   "large").                                                            |
+| Default Pen:         |  - Color: Select from default or custom colors.                          |
+|                      |  - Width: Select from predefined line widths from 0.00 to 2.11 mm.       |
+|                      |  - Type: Select from predefined line types: Continuous, or Dot, Dash,    |
+|                      |    Dash Dot, Divide, Center, or Border (normal, "tiny", "small", or      |
+|                      |    "large").                                                             |
 +----------------------+--------------------------------------------------------------------------+
 
 The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used.
@@ -215,7 +217,7 @@ Icons to the left of each layer act on the layers individually.  The layer opera
 
 Right-clicking on a layer opens a popup menu that provides equivalent operations to the item marked with an asterisk (*).
 
-More details on creating and using :ref:`layers <layers>` can be found in the :ref:`Drawing Setup <drawingsetup>` section of the **User Guides**.
+More details on creating and using :ref:`layers <layers>` can be found in the :ref:`Drawing Setup <drawing-setup>` section of the **User Guides**.
 
 |
 |
@@ -233,7 +235,7 @@ Library Browser Dock
     :scale: 67
     :alt: Library Browser Dock
 
-The Library Browser Dock shows blocks available from the defined libraries and allows users to insert blocks into the current drawing.  To insert a block, select a block from one of the categories by clicking on it, e.g. "d1" and click the "Insert" button.  Specify a reference point in the drawing window with a mouse click or by entering coordinates at the command prompt.  Once inserted into the drawing, the block is shown in the :ref:`Block List Dock <block-list>`.
+The Library Browser Dock shows blocks available from the defined libraries and allows users to insert blocks into the current drawing.  To insert a block, select a block from one of the categories by clicking on it, e.g. "d1" and click the "Insert" button.  Specify a reference point in the drawing window with a mouse click or by entering coordinates at the command prompt.  Once inserted into the drawing, the block is shown in the :ref:`Block List Dock <ugBlocksList>`.
 
 LibreCAD includes several libraries and additional libraries can be specified by defining a path to user libraries in the :ref:`Application Preferences <app-prefs>`, "Path" tab as shown in **Getting Started**.
 
