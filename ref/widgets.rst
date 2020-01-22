@@ -115,7 +115,7 @@ Note that LibreCAD is designed with emphasis on mouse input and at the moment so
 
 In addition to command input, the command line provides access to a built in calculator.  The calculator can be invoked with the *cal* command.  The available :ref:`operators and functions <calc>` can be found in the **Appendix**.
 
-Further details on using the :ref:`command line <commandline>` are in the **User Guides**.
+Further details on using the :ref:`command line <cmdline>` are in the **User Guides**.
 
 
 .. _widget-layerList:
