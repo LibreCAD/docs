@@ -211,16 +211,14 @@ Help
 .. |icon11| image:: /images/icons/quit.svg
             :height: 24
             :width: 24
-.. |icon12| image /images/icons/
+
 .. |icon13| image:: /images/icons/settings.svg
             :height: 24
             :width: 24
 .. |icon14| image:: /images/icons/drawing_settings.svg
             :height: 24
             :width: 24
-.. |icon15| image /images/icons/
-.. |icon16| image /images/icons/
-.. |icon17| image /images/icons/
+
 .. |icon18| image:: /images/icons/cursor.svg
             :height: 24
             :width: 24
@@ -242,8 +240,7 @@ Help
 .. |icon24| image:: /images/icons/delete.svg
             :height: 24
             :width: 24
-.. |icon25| image /images/icons/
-.. |icon26| image /images/icons/
+
 .. |icon27| image:: /images/icons/grid.svg
             :height: 24
             :width: 24
@@ -277,6 +274,3 @@ Help
 .. |icon37| image:: /images/icons/create_toolbar.svg
             :height: 24
             :width: 24
-.. |icon38| image /images/icons/
-.. |icon39| image /images/icons/
-.. |icon40| image /images/icons/
