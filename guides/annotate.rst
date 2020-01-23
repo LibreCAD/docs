@@ -120,6 +120,7 @@ Text
 ----
 
 Adding text to a drawing provides addition information; build notes, drawing title and related details, and so forth.  Text can be added using either of the two types of text tools:
+
 	- Text: Single line of text
 	- MText: Multi-line text
 
