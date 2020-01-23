@@ -218,7 +218,7 @@ Icons to the left of each layer act on the layers individually.  The layer opera
 
 Right-clicking on a layer opens a popup menu that provides equivalent operations to the item marked with an asterisk (*).
 
-More details on creating and using :ref:`layers <layers>` can be found in the :ref:`Drawing Setup <drawing-setup>` section of the **User Guides**.
+More details on creating and using :ref:`layers <su-layers>` can be found in the :ref:`Drawing Setup <drawing-setup>` section of the **User Guides**.
 
 |
 |
