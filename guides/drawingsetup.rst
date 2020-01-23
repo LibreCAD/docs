@@ -126,3 +126,11 @@ As an alternative to the LibreCAD provided template, a user-specified template c
 
 
 ..  Image mapping (no "align" allowed/required):
+
+
+
+..  Icon mapping:
+
+.. |icon01| image:: /images/icons/visible.svg
+            :height: 24
+            :width: 24
