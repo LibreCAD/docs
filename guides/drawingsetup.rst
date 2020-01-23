@@ -131,6 +131,6 @@ As an alternative to the LibreCAD provided template, a user-specified template c
 
 ..  Icon mapping:
 
-.. |icon01| image:: /images/icons/layeradd.png
+.. |icon01| image:: /images/icons/add.svg
             :height: 24
             :width: 24
