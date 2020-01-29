@@ -1,12 +1,14 @@
 # docs
 [![Documentation Status](https://readthedocs.org/projects/librecad/badge/?version=latest)](https://librecad.readthedocs.io/en/latest/?badge=latest)
 
-This is the [LibreCAD documentation](https://librecad.readthedocs.io/) which can be read online or downloaded in PDF or ePub formats. The repository contains multiple versions and formats hosted on [readthedocs.org](https://readthedocs.org/).
+This is the **LibreCAD User Manual** documentation source repository.  The manual can be read online at https://librecad.readthedocs.io/ (or downloaded in PDF or ePub formats). The repository will contain multiple versions of the manual corresponding with each release of LibreCAD.
 
-The documentation is created using a markup language called "reStructuredText" (http://docutils.sourceforge.net/rst.html).  For those interested in contributing to the documentation, look to **LibreCAD-doc** on the LibreCAD forum (http://forum.librecad.org/).
+The documentation is created using a markup language called "reStructuredText" (http://docutils.sourceforge.net/rst.html).  For those interested in contributing to the documentation, refer to the documentation wiki (https://github.com/LibreCAD/docs/wiki) and **LibreCAD-doc** on the LibreCAD forum (http://forum.librecad.org/).
 
 
 Below are the sections that are in the LibreCAD User Manual with the percent complete [%].
+
+Initial Draft:
 
 - About
    - Copyright               [100%]
