@@ -80,6 +80,7 @@ Blocks can be inserted from the **Block List** or from the **Library Browser** (
     :scale: 75
     :alt: Block List insertion tool options
 
+..
 
     - Block can be rotated by the specified *Angle* and scaled by the *Factor*.
     - A pattern of blocks can be created by specifying the number of columns and rows in the *Array* and *Spacing* between the columns and rows.

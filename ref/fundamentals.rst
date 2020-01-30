@@ -66,6 +66,7 @@ The *Polar* coordinate system uses one distance and one angle to locate a point 
 |
 |
 |
+|
 
 
 Defining Coordinate Locations
@@ -95,6 +96,8 @@ The last coordinate defined when creating an entity becomes a temporary referenc
     :alt: Absolute & Relative Cartesian Coordinates
 
 When using cartesian coordinates for example, to set a 65 units above and 75 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
+
+|
 
 .. note::
 
@@ -222,7 +225,7 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 
 
 Color
-````
+`````
 
 .. csv-table::
    :widths: 70 30
@@ -317,11 +320,12 @@ Using a Mouse
 
 Entities' coordinates can also be located graphically using a mouse or other pointing device.  Using a mouse is less precise, but may be acceptable for 'rough' sketches or other freehand work.  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps`.  
 
+.. _keyboard: 
 
 Using the Keyboard
 ```````````````````
 
-Coordinate values, whether cartesian or polar, can be typed at the :ref:`command line <commandline>` in the formats as previously noted.  LibreCAD offers an additional method for typing cartesian coordinates when using the numeric keypad; type two decimal points (".") in lieu of the comma between the X and Y values.  For example, "10..20" is equivelent to typing "10,20".  This method can also be used for relative cartesian coordinates, e.g. @15..25.
+Coordinate values, whether cartesian or polar, can be typed at the :ref:`command line <cmdline>` in the formats as previously noted.  LibreCAD offers an additional method for typing cartesian coordinates when using the numeric keypad; type two decimal points (".") in lieu of the comma between the X and Y values.  For example, "10..20" is equivelent to typing "10,20".  This method can also be used for relative cartesian coordinates, e.g. @15..25.
 
 Text input is also required by tool options where distance, angle, etc. are needed.
 
@@ -449,4 +453,3 @@ LibreCAD can also be used to create drawings with an **isometric** projection.  
              :height: 20
              :scale: 100
              :alt: Border
-

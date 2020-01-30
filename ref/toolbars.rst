@@ -49,7 +49,7 @@ Other Toolbars
 Print Preview
 ~~~~~~~~~~~~~
 
-The **Print Preview** toolbar is used to set up the print output as desired regardless of output format (pdf or paper). The print preview can be configured after selecting **File -> Print Preview** through the menu.  A combination of scale value, color status and drawing position relative to paper allows customed print output. The steps are detailed in :ref:`printing guide <printing>`.
+The **Print Preview** toolbar is used to set up the print output as desired regardless of output format (pdf or paper). The print preview can be configured after selecting **File -> Print Preview** through the menu.  A combination of scale value, color status and drawing position relative to paper allows customed print output. The steps are detailed in :ref:`printing guide <printing-guide>`.
 
 
 .. figure:: /images/toolOptions/toPrtPreview.png
@@ -134,9 +134,6 @@ Inserting a block from a library can be enhanced through the *Tool Option* bar f
 
 ..  Icon mapping:
 
-.. |icon00| image: /images/icons/librecad.png
-            :height: 24
-            :width: 24    
 .. |icon01| image:: /images/icons/black_n_white_mode.svg
             :height: 24
             :width: 24        
