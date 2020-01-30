@@ -8,9 +8,9 @@ The documentation is created using a markup language called "reStructuredText" (
 
 Below are the sections that are in the LibreCAD User Manual with the percent complete [%].
 
-Initial Draft                [100%]
+Initial Draft:               [100%]
 
-Manual Review and Edits
+Manual Review and Edits:
 
 - About
    - Copyright               [0%]
