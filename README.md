@@ -8,45 +8,47 @@ The documentation is created using a markup language called "reStructuredText" (
 
 Below are the sections that are in the LibreCAD User Manual with the percent complete [%].
 
-Initial Draft:
+Initial Draft                [100%]
+
+Manual Review and Edits
 
 - About
-   - Copyright               [100%]
-   - Contributors            [100%]
+   - Copyright               [0%]
+   - Contributors            [0%]
 
 - Getting Started
-   - Install                 [100%]
-   - Configure               [100%]    (Setting up / configuring LibreCAD)
+   - Install                 [0%]
+   - Configure               [0%]    (Setting up / configuring LibreCAD)
 
 - References: technical descriptions of the tools, functions, widgets, etc.  Following the menu structure, it would include:
-   - Fundamentals            [100%]    (Including "The Coordinate System")
-   - Application Menu        [100%]
-   - Drawing Tools           [100%]
-   - Snapping                [100%]
-   - Toolbars                [100%]
-   - Dock Widgets            [100%]
-   - Drawing Preferences     [100%]
-   - Customizing             [100%]    (Including Style Sheets)
+   - Fundamentals            [0%]    (Including "The Coordinate System")
+   - Application Menu        [0%]
+   - Drawing Tools           [0%]
+   - Snapping                [0%]
+   - Toolbars                [0%]
+   - Dock Widgets            [0%]
+   - Drawing Preferences     [0%]
+   - Customizing             [0%]    (Including Style Sheets)
 
 - User Guides: documents that provide instruction on how to do things with LibreCAD.  These are how-to’s, but with greater details(?)
-   - Drawing Setup           [100%]
+   - Drawing Setup           [0%]
       - Scale
       - Attributes (layers, pens (color, line type & thickness))
       - Templates
-   - Drawing and Modifying   [100%]
-   - Blocks                  [100%]
-   - Dimensioning & Text     [100%]
-   - The Command Line        [100%]
-   - Printing Guide          [100%]
+   - Drawing and Modifying   [0%]
+   - Blocks                  [0%]
+   - Dimensioning & Text     [0%]
+   - The Command Line        [0%]
+   - Printing Guide          [0%]
 
 - Appendics
-   - Online Resources        [100%]
-   - Fonts                   [100%]
-   - Hatches                 [100%]
-   - Languages               [100%]
-   - Systems of Measurement  [100%]
-   - Calculator              [100%]    (Operators and Functions)
-   - Building from Source    [90%]
-   - Contributing            [100%]
-   - Licenses                [100%]
+   - Online Resources        [0%]
+   - Fonts                   [0%]
+   - Hatches                 [0%]
+   - Languages               [0%]
+   - Systems of Measurement  [0%]
+   - Calculator              [0%]    (Operators and Functions)
+   - Building from Source    [0%]
+   - Contributing            [0%]
+   - Licenses                [0%]
 
