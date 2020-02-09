@@ -11,29 +11,29 @@ The documentation is created using a markup language called "reStructuredText" (
 
 Section | Initial Draft | Review / Edit | Comment
 --- | --- | --- | ---
-**About** |   |   |   
-   Copyright | [100%] | [0%] |   
-   Contributors | [100%] | [0%] |   
-**Getting Started** |   |   |   
+**About** |   |   | All about LibreCAD and the User Manual.
+   Copyright | [100%] | [0%] | 
+   Contributors | [100%] | [0%] | 
+**Getting Started** |   |   | Downloading, installing and configuring LibreCAD.
    Install | [100%] | [0%] |
-   Configure | [100%] | [0%] | Setting up / configuring LibreCAD
+   Configure | [100%] | [0%] | 
 **References** |   |   | Technical descriptions of the tools, functions, widgets, etc.
-   Fundamentals | [100%] | [0%] | Including "The Coordinate System"
+   Fundamentals | [100%] | [0%] | Including "The Coordinate System".
    Application Menu | [100%] | [0%] |
    Drawing Tools | [100%] | [0%] |
    Snapping | [100%] | [0%] |
    Toolbars | [100%] | [0%] |
    Dock Widgets | [100%] | [0%] |
    Drawing Preferences | [100%] | [0%] |
-   Customizing | [100%] | [0%] | Including Style Sheets
-**User Guides** |   |   | Genric documents that provide instructions on how to do things with LibreCAD.
-   Drawing Setup | [100%] | [0%] | Scale, layers and templates
+   Customizing | [100%] | [0%] | Including Style Sheets.
+**User Guides** |   |   |  Generic instructions on how to do a few things with LibreCAD.
+   Drawing Setup | [100%] | [0%] | Scale, layers and templates.
    Drawing and Modifying | [100%] | [0%] |
    Blocks | [100%] | [0%] |
    Dimensioning & Text | [100%] | [0%] |
    The Command Line | [100%] | [0%] |
    Printing Guide | [100%] | [0%] |
-**Appendics** |   |   | 
+**Appendices** |   |   | Miscellaneous information about LibreCAD.
    Online Resources | [100%] | [0%] | Web site, forum, wiki
    Fonts | [100%] | [0%] |
    Hatches | [100%] | [0%] |
