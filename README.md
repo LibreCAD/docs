@@ -11,7 +11,7 @@ Below are the sections that are in the LibreCAD User Manual with the percent com
 
 Section | Initial Draft | Review / Edit | Comment
 --- | --- | --- | ---
-- About |   |   |   
+About |   |   |   
    - Copyright | [100%] | [0%] |   
    - Contributors | [100%] | [0%] |   
 
