@@ -239,6 +239,7 @@ When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the c
 
 .. Force end of left / right text wrap
 .. figure:: /images/whiteLine.png
+    :width: 768px
     :align: center
 
 
