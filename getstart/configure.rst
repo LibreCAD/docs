@@ -1,6 +1,6 @@
 .. User Manual, LibreCAD v2.2.x
 
-.. include:: ./notice.rst
+.. include:: /notice.rst
 
 
 .. _configure: 
@@ -111,11 +111,6 @@ Defaults
     :align: right
     :scale: 50
     :alt: LibreCAD Application Window - Defaults
-
-.. figure:: /images/whiteLine.png
-    :align: center
-    :alt: Forced end of left / right wrap
-
 Drawing Defaults
 ````````````````
 
@@ -129,6 +124,11 @@ Program Defaults
     - *Auto save time*: The time in minutes to perform an automatice save of the open files.  Auto files are saved to the same directory as the drawing file with a hash symbol (#) prefixed to the file name.
     - *Don't use native OS file open dialog*: When checked, LibreCAD's file open dialog is displayed when opening files.
     - *Modify layer of selected entities, at layer activation*: If checked, entities can be assigned to a layer by selecting the entities and then selecting the destination layer. 
+
+.. figure:: /images/whiteLine.png
+    :align: center
+    :alt: Forced end of left / right wrap
+
 
 Clear Settings
 ``````````````
