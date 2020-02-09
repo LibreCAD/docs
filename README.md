@@ -1,7 +1,7 @@
 # docs
 [![Documentation Status](https://readthedocs.org/projects/librecad/badge/?version=latest)](https://librecad.readthedocs.io/en/latest/?badge=latest)
 
-This is the **LibreCAD User Manual** documentation source repository.  The manual can be read online at https://librecad.readthedocs.io/ (or downloaded in PDF or ePub formats). The repository will contain multiple versions of the manual corresponding with each release of LibreCAD.
+This is the **LibreCAD User Manual** documentation source repository.  The manual can be read online at https://librecad.readthedocs.io/ (~~or downloaded in PDF or ePub formats~~). The repository will contain multiple versions of the manual corresponding with each release of LibreCAD.
 
 The documentation is created using a markup language called "reStructuredText" (http://docutils.sourceforge.net/rst.html).  For those interested in contributing to the documentation, refer to the documentation wiki (https://github.com/LibreCAD/docs/wiki) and **LibreCAD-doc** on the LibreCAD forum (http://forum.librecad.org/).
 
@@ -34,7 +34,7 @@ Section | Initial Draft | Review / Edit | Comment
    The Command Line | [100%] | [0%] |
    Printing Guide | [100%] | [0%] |
 **Appendics** |   |   | 
-   Online Resources | [100%] | [0%] |
+   Online Resources | [100%] | [0%] | Web site, forum, wiki
    Fonts | [100%] | [0%] |
    Hatches | [100%] | [0%] |
    Languages | [100%] | [0%] |
