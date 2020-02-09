@@ -1,5 +1,8 @@
 .. User Manual, LibreCAD v2.2.x
 
+.. Default include
+.. include:: /notice.rst
+
 
 .. _tools: 
    
@@ -43,7 +46,7 @@ Line
         | **Tool Options:** 
         | |tlopt10|"
     "Rectangle", |icon06|, "rec, rect, rectangle", "
-        | Draw a rectagle by assigning the points of two diagonally opposite corners. "
+        | Draw a rectangle by assigning the points of two diagonally opposite corners. "
     "Parallel through point", |icon07|, "pp, ptp", "
         | Draw a given number of lines parallel to a selected existing line through an assigned point.
         | 
@@ -153,7 +156,7 @@ Curve
     "3 Points", |icon32|, "a, ar, arc", "
         | Draw a curve (arc) by assigning three points on the circumference of the arc defining the start position, a point on the circumference and end position of the arc."
     "Arc Tangential", |icon34|, "", "
-        | Draw a curve (arc) tangential to the end of an exsiting line segment with a defined radius or angle (deg).
+        | Draw a curve (arc) tangential to the end of an existing line segment with a defined radius or angle (deg).
         | 
         | **Tool Options:** 
         | |tlopt02| 
@@ -219,20 +222,20 @@ Polyline
     "Add node", |icon44|, "", "
         | Add node to existing polyline. (Use ""Snap on Entity"" to place new node on segment.)"
     "Append node", |icon45|, "", "
-        | Add one or more segments to an existing polyline by selecting polyine and adding new node endpoint."
+        | Add one or more segments to an existing polyline by selecting polyline and adding new node endpoint."
     "Delete node", |icon46|, "", "
         | Delete selected node of an existing polyline."
     "Delete between two nodes", |icon47|, "", "
         | Delete one or more nodes between selected nodes of an existing polyline."
     "Trim segments", |icon48|, "", "
-        | Extend two seperate non-parallel segments of an existing polyline to intersect at a new node."
+        | Extend two separate non-parallel segments of an existing polyline to intersect at a new node."
     "Create Equidistant Polylines", |icon49|, "", "
         | Draw a given number of polylines parallel to a selected existing polyline with a given distance between lines.
         | 
         | **Tool Options:** 
         | |tlopt20|"
     "Create Polyline from Existing Segments", |icon50|, "", "
-        | Create polyline from two or more existing seperate line or arc segments forming a continuous line."
+        | Create polyline from two or more existing separate line or arc segments forming a continuous line."
 
 
 .. _tool-select:
@@ -255,13 +258,13 @@ Select
     "(De-)Select Contour", |icon54|, "", "
         | Select or deselected entities connected by shared points."
     "Select Window", |icon52|, "", "
-        | Select one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L) (default cursor ""drag"" action)."
+        | Select one or more entities enclosed by selection window (L to R), or crossed by selection window (R to L) (default cursor ""drag"" action)."
     "Deselect Window", |icon53|, "", "
-        | Deselect one or more enties enclosed by selection window (L to R), or crossed by selection window (R to L)."
+        | Deselect one or more entities enclosed by selection window (L to R), or crossed by selection window (R to L)."
     "Select Intersected Entities", |icon55|, "", "
-        | Select on or more entities crossed by selection line."
+        | Select one or more entities crossed by selection line."
     "Deselect Intersected Entities", |icon56|, "", "
-        | Deselect on or more entities crossed by selection line."
+        | Deselect one or more entities crossed by selection line."
     "(De-)Select Layer", |icon57|, "", "
         | Select or deselected all entities on the layer of the selected entity."
     "Invert Selection", |icon60|, "", "
@@ -332,15 +335,15 @@ Modify
     "Order", "", "", "
         | Order entities within a layer.  Selected entities can be moved to top, bottom, *raised* (moved forward) over another entity or *lowered* (moved backwards) behind an entity."
     "Move / Copy", |icon69|, "mv", "
-        | Move a selected entity by defining a reference point and a relative target point. Optionally keep the original entity (Copy), create mulitple copies and / or alter attributes and layer."
+        | Move a selected entity by defining a reference point and a relative target point. Optionally keep the original entity (Copy), create multiple copies and / or alter attributes and layer."
     "Rotate", |icon70|, "ro", "
         | Rotate a selected entity around a rotation point, moving the entity from a reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
     "Scale", |icon71|, "sz", "
-        | Increase or decrease the size of a selected entity from a reference point by a defined factor for both axis.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer."
+        | Increase or decrease the size of a selected entity from a reference point by a defined factor for both axis.  Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
     "Mirror", |icon72|, "mi", "
-        | reate a mirror image of a selected entity around an axis defined by two points.  Optionally keep the original entity and / or alter attributes and layer."
+        | create a mirror image of a selected entity around an axis defined by two points.  Optionally keep the original entity and / or alter attributes and layer."
     "Move and Rotate", |icon73|, "", "
-        | Move a selected entity by defining a reference point and a relative target point and rotataing the entity at a given angle.  Optionally keep the original entity, create mulitple copies and / or alter attributes and layer."
+        | Move a selected entity by defining a reference point and a relative target point and rotating the entity at a given angle.  Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
     "Rotate Two", |icon74|, "", "
         | Rotate a selected entity around an absolute rotation point, while rotating the entity around a relative reference point to a target point. Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
     "Revert direction", |icon75|, "revert", "
@@ -348,7 +351,7 @@ Modify
     "Trim",  |icon76| , "tm, trim", "
         | Cut the length of a line entity to an intersecting line entity."
     "Trim Two",  |icon77| , "t2, tm2", "
-        | Cut the lengthes of two intersecting lines to the point of intersection."
+        | Cut the lengths of two intersecting lines to the point of intersection."
     "Lengthen",  |icon78| , "le", "
         | Extend the length of a line entity to an intersecting line entity.
         | 
@@ -367,7 +370,7 @@ Modify
         | **Tool Options:** 
         | |tlopt17|"
     "Divide",  |icon82| , "di, div, cut", "
-        | Divide, or break, al line at the selected ''cutting'' point."
+        | Divide, or break, a line at the selected ''cutting'' point."
     "Stretch", |icon83|, "ss", "
         | Move a selected portion of a drawing by defining a reference point and a relative target point."
     "Properties", |icon84|, "mp, prop", "
@@ -403,11 +406,11 @@ Info
     "Angle between two lines", |icon92|, "ang, angle", "
         | Provides angle between two selected line segments, measured counter-clockwise."
     "Total length of selected entities", |icon93|, "", "
-        | Provides total length of one or more selected entities (length of line segment, circle circimference, etc)."
+        | Provides total length of one or more selected entities (length of line segment, circle circumference, etc.)."
     "Polygonal Area", |icon94|, "ar, area", "
         | Provides area and circumference of polygon defined by three or more specified points."
 ..
-    "Point inside contour", |icon89|, "", "Provides indication of point being inside or outside of the selected ''closed'' contour (polygon, circle, ployline, etc)."
+    "Point inside contour", |icon89|, "", "Provides indication of point being inside or outside of the selected ''closed'' contour (polygon, circle, ployline, etc.)."
 
 
 .. _tool-other:

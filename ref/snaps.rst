@@ -1,5 +1,8 @@
 .. User Manual, LibreCAD v2.2.x
 
+.. Default include
+.. include:: /notice.rst
+
 
 .. _snaps:
 

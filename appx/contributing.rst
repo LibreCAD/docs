@@ -9,7 +9,7 @@ Contributing
 Code
 ----
 
-If you are a developer, outstanding in C++, or a beginner we can use all the help.  With a bit of determination, the IRC channel, Zulip chat and the Libre-CAD-dev mailing list, we can help you getting started and making progress.  The source code is hosted on GitHub (https://github.com/LibreCAD/LibreCAD).  A good starting point for developers is the LibreCAD Developer's wiki on GitHub (https://github.com/LibreCAD/LibreCAD/wiki/Git-and-GitHub).
+If you are a developer, outstanding in C++, or a beginner we can use all the help.  With a bit of determination, the IRC channel, Zulip chat and the Libre-CAD-dev mailing list, we can help you get started and making progress.  The source code is hosted on GitHub (https://github.com/LibreCAD/LibreCAD).  A good starting point for developers is the LibreCAD Developer's wiki on GitHub (https://github.com/LibreCAD/LibreCAD/wiki/Git-and-GitHub).
 
 The :ref:`Online Resource <resources>` section provides links to further information on downloading and building LibreCAD.
 

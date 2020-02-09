@@ -1,5 +1,8 @@
 .. User Manual, LibreCAD v2.2.x
 
+.. Default include
+.. include:: /notice.rst
+
 
 .. _customize:
 
@@ -43,7 +46,7 @@ To delete an existing menu:
     #. Click the **Destroy** button
 
 
-Custom menus can also be assigned to a keyboard short-cut to make them easily accessable:
+Custom menus can also be assigned to a keyboard short-cut to make them easily accessible:
 
 .. figure:: /images/menuAssign.png
     :width: 208px

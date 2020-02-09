@@ -1,12 +1,15 @@
 .. User Manual, LibreCAD v2.2.x
 
+.. Default include
+.. include:: /notice.rst
+
 
 .. _toolbars:
 
 Toolbars
 ========
 
-Toolbars provide alternatives to menus for accessing application functions and drawing tools.  See :ref:`Application Menu <menu>` or :ref:`Drawing Tools <tools>` for complete descriptions.
+Toolbars provide an alternative to the menus for accessing application functions and drawing tools.  See :ref:`Application Menu <menu>` or :ref:`Drawing Tools <tools>` for complete descriptions.
 
 .. csv-table:: 
     :widths: 30, 70
@@ -41,7 +44,7 @@ Other Toolbars
 --------------
 
  .. important::
-    Print Preview and Block operations require the use of the **Tool Options** toolbar as the are no menu or command line equivalencies. Ensure the Tool Option toolbar is enabled (**Widgets -> Toolbars** and check **Tool Options**).
+    Print Preview and Block operations require the use of the **Tool Options** toolbar as there are no menu or command line equivalencies. Ensure the Tool Option toolbar is enabled (**Widgets -> Toolbars** and check **Tool Options**).
 
 
 .. _print-preview-toolopt:
@@ -67,7 +70,7 @@ The **Print Preview** toolbar is used to set up the print output as desired rega
     :class: fix-table
     
     "Option Item", "Icon", "Description"
-    "Scale", , "Displays the scale of the drawing based on its size and the paper size selected in :ref:`Drawing Preferences <draw-prefs>`. It is also possible to adjust the scale to a specific value to a value in the drop down  list or enter a custom values seperated by the colon (:). Checking the *fixed* checkbox locks the scale to the set value."
+    "Scale", , "Displays the scale of the drawing based on its size and the paper size selected in :ref:`Drawing Preferences <draw-prefs>`. It is also possible to adjust the scale to a specific value to a value in the drop down  list or enter a custom values separated by the colon (:). Checking the *fixed* checkbox locks the scale to the set value."
     "Toggle Black/White", |icon01|, "Toggles the colors of all entities from color to black/white."
     "Center to page", |icon02|, "Centers the drawing to the paper size selected in *Drawing Preferences*."
     "Fit to page", |icon03|, "Fits the drawing to the paper size selected."

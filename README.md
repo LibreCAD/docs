@@ -1,52 +1,46 @@
 # docs
 [![Documentation Status](https://readthedocs.org/projects/librecad/badge/?version=latest)](https://librecad.readthedocs.io/en/latest/?badge=latest)
 
-This is the **LibreCAD User Manual** documentation source repository.  The manual can be read online at https://librecad.readthedocs.io/ (or downloaded in PDF or ePub formats). The repository will contain multiple versions of the manual corresponding with each release of LibreCAD.
+This is the **LibreCAD User Manual** documentation source repository.  The manual can be read online at https://librecad.readthedocs.io/ (~~or downloaded in PDF or ePub formats~~). The repository will contain multiple versions of the manual corresponding with each release of LibreCAD.
 
-The documentation is created using a markup language called "reStructuredText" (http://docutils.sourceforge.net/rst.html).  For those interested in contributing to the documentation, refer to the documentation wiki (https://github.com/LibreCAD/docs/wiki) and **LibreCAD-doc** on the LibreCAD forum (http://forum.librecad.org/).
+The documentation is created using a markup language called "reStructuredText" (http://docutils.sourceforge.net/rst.html).  For those interested in contributing to the documentation, refer to the **documentation wiki** (https://github.com/LibreCAD/docs/wiki) and **LibreCAD-doc** on the LibreCAD forum (http://forum.librecad.org/).
 
 
-Below are the sections that are in the LibreCAD User Manual with the percent complete [%].
+## Status 
 
-Initial Draft:
 
-- About
-   - Copyright               [100%]
-   - Contributors            [100%]
-
-- Getting Started
-   - Install                 [100%]
-   - Configure               [100%]    (Setting up / configuring LibreCAD)
-
-- References: technical descriptions of the tools, functions, widgets, etc.  Following the menu structure, it would include:
-   - Fundamentals            [100%]    (Including "The Coordinate System")
-   - Application Menu        [100%]
-   - Drawing Tools           [100%]
-   - Snapping                [100%]
-   - Toolbars                [100%]
-   - Dock Widgets            [100%]
-   - Drawing Preferences     [100%]
-   - Customizing             [100%]    (Including Style Sheets)
-
-- User Guides: documents that provide instruction on how to do things with LibreCAD.  These are how-to’s, but with greater details(?)
-   - Drawing Setup           [100%]
-      - Scale
-      - Attributes (layers, pens (color, line type & thickness))
-      - Templates
-   - Drawing and Modifying   [100%]
-   - Blocks                  [100%]
-   - Dimensioning & Text     [100%]
-   - The Command Line        [100%]
-   - Printing Guide          [100%]
-
-- Appendics
-   - Online Resources        [100%]
-   - Fonts                   [100%]
-   - Hatches                 [100%]
-   - Languages               [100%]
-   - Systems of Measurement  [100%]
-   - Calculator              [100%]    (Operators and Functions)
-   - Building from Source    [90%]
-   - Contributing            [100%]
-   - Licenses                [100%]
+Section | Initial Draft | Review / Edit | Comment
+--- | --- | --- | ---
+**About** |   |   | All about LibreCAD and the User Manual.
+   Copyright | [100%] | [0%] | 
+   Contributors | [100%] | [0%] | 
+**Getting Started** |   |   | Downloading, installing and configuring LibreCAD.
+   Install | [100%] | [0%] |
+   Configure | [100%] | [0%] | 
+**References** |   |   | Technical descriptions of the tools, functions, widgets, etc.
+   Fundamentals | [100%] | [0%] | Including "The Coordinate System".
+   Application Menu | [100%] | [0%] |
+   Drawing Tools | [100%] | [0%] |
+   Snapping | [100%] | [0%] |
+   Toolbars | [100%] | [0%] |
+   Dock Widgets | [100%] | [0%] |
+   Drawing Preferences | [100%] | [0%] |
+   Customizing | [100%] | [0%] | Including Style Sheets.
+**User Guides** |   |   |  Generic instructions on how to do a few things with LibreCAD.
+   Drawing Setup | [100%] | [0%] | Scale, layers and templates.
+   Drawing and Modifying | [100%] | [0%] |
+   Blocks | [100%] | [0%] |
+   Dimensioning & Text | [100%] | [0%] |
+   The Command Line | [100%] | [0%] |
+   Printing Guide | [100%] | [0%] |
+**Appendices** |   |   | Miscellaneous information about LibreCAD.
+   Online Resources | [100%] | [0%] | Web site, forum, wiki
+   Fonts | [100%] | [0%] |
+   Hatches | [100%] | [0%] |
+   Languages | [100%] | [0%] |
+   Systems of Measurement | [100%] | [0%] |
+   Calculator | [100%] | [0%] | Operators and Functions
+   Building from Source | [100%] | [0%] |
+   Contributing | [100%] | [0%] |
+   Licenses | [100%] | [0%] |
 

@@ -1,12 +1,15 @@
 .. User Manual, LibreCAD v2.2.x
 
+.. Default include
+.. include:: /notice.rst
+
 
 .. _fundamentals: 
 
 Fundamentals
 ============
 
-To be able to use LibreCAD effectively, there are a few concepts that need to be understood.  While basic drawings can be created with very little setup, as they become more complex further consideration to the elements of a complete drawing is important.  This section offers an introduction to some concepts that are important to creating a complex drawing, but by no means is it exhaustive.  The  rest of the Reference section provides a description of the tools used to create and modify drawings.  General examples and guidence is offered in the :ref:`User Guide <guides>` section.
+To be able to use LibreCAD effectively, there are a few concepts that need to be understood.  While basic drawings can be created with very little setup, as they become more complex further consideration to the elements of a complete drawing is important.  This section offers an introduction to some concepts that are important to creating a complex drawing, but by no means is it exhaustive.  The  rest of the Reference section provides a description of the tools used to create and modify drawings.  General examples and guidance is offered in the :ref:`User Guide <guides>` section.
 
 
 .. _coordinates: 
@@ -14,7 +17,7 @@ To be able to use LibreCAD effectively, there are a few concepts that need to be
 The Coordinate System
 ---------------------
 
-Understanding the coordinates systems and how coordinates work in LibreCAD is necessary to produce precise and accurate drawings.  Every entity (e.g. a line, circle, etc.) that is drawn in LibreCAD can be drawn with precision, placed accurately using coordinates.  LibreCAD supports two drawing perspectives; orthaganol and isometric.  Orthaganol is the default perspective for creating two dimensional (2D) drawings.  An :ref:`isometric <isometric>` projection allows LibreCAD to represent a three-dimensional object in two dimensions, sometimes refered to as "2.5D".
+Understanding the coordinates systems and how coordinates work in LibreCAD is necessary to produce precise and accurate drawings.  Every entity (e.g. a line, circle, etc.) that is drawn in LibreCAD can be drawn with precision, placed accurately using coordinates.  LibreCAD supports two drawing perspectives; orthogonal and isometric.  Orthogonal is the default perspective for creating two dimensional (2D) drawings.  An :ref:`isometric <isometric>` projection allows LibreCAD to represent a three-dimensional object in two dimensions, sometimes referred to as "2.5D".
 
 In libreCAD`s 2D coordinate system *X* units are measured horizontally and *Y* units are measured vertically.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.  All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and represented by a red cross.  The coordinates at this point are 0,0.  Every entity drawn can be located in relation to this origin.
 
@@ -47,6 +50,10 @@ Cartesian
 
 The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is the horizontal axis and Y is the vertical axis.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be "100,75", as shown here.
 
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :align: center
+
 
 Polar
 `````
@@ -60,13 +67,9 @@ Polar
 
 The *Polar* coordinate system uses one distance and one angle to locate a point in a drawing.  In LibreCAD the polar coordinates take the form *100 < 45*, indicating a line 100 units long and at an angle of 45 degrees as shown.
 
-|
-|
-|
-|
-|
-|
-|
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :align: center
 
 
 Defining Coordinate Locations
@@ -79,7 +82,7 @@ In LibreCAD lines, points, arcs, polylines, circles, and many more entities can 
 Absolute
 ````````
 
-When using Absolute coordinates, whether cartisian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<45" as shown in the two images above.
+When using Absolute coordinates, whether Cartesian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<45" as shown in the two images above.
 
 .. _relative:
 
@@ -97,9 +100,12 @@ The last coordinate defined when creating an entity becomes a temporary referenc
 
 When using cartesian coordinates for example, to set a 65 units above and 75 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
 
-|
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :align: center
 
-.. note::
+
+.. hint::
 
    Relative coordinates can also be written as 10..20 (equivalent to @10,20) which allows for :ref:`numeric keypad <keyboard>` input when using the :ref:`command line<widget-cmdLine>`.
 
@@ -114,13 +120,9 @@ When using cartesian coordinates for example, to set a 65 units above and 75 uni
 
 As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
 
-|
-|
-|
-|
-|
-|
-|
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :align: center
 
 
 .. _angles: 
@@ -135,17 +137,11 @@ Angles in LibreCAD
     :scale: 50
     :alt: Polar Coordinates
 
-All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction beginning from 0 degrees (the 3 o'clock position). The *<* symbol is used toi designat e an angle whn using polar coordinates, e.g.50<45.
+All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction beginning from 0 degrees (the 3 o'clock position). The *<* symbol is used to designate an angle when using polar coordinates, e.g.50<45.
 
-|
-|
-|
-|
-|
-|
-|
-|
-
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :align: center
 
 
 .. _entities: 
@@ -227,29 +223,50 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 Color
 `````
 
-.. csv-table::
-   :widths: 70 30
-   :class: table-no-borders
+.. image:: /images/coloursStd.png
+    :width: 140px
+    :height: 439px
+    :align: right
+    :scale: 100
+    :alt: Standard color selector
 
-   "The color for an entity can be selected from the ”Color” selection drop-down menu.  The drop-down menu allows the color to be selected ”By Layer”, ”By Block”, from the ”Custom” color selector, or chosen quickly from one of the 16 pre-defined colors: 
+The color for an entity can be selected from the ”Color” selection drop-down menu.  The drop-down menu allows the color to be selected ”By Layer”, ”By Block”, from the ”Custom” color selector, or chosen quickly from one of the 16 pre-defined colors: 
 
-   Selecting ”By Layer” will assign the color that was defined for the layer (see above) to the entity.  If the layer's selected color is subsequently changed all entities on the layer will be assigned the layer's color.
+Selecting ”By Layer” will assign the color that was defined for the layer (see above) to the entity.  If the layer's selected color is subsequently changed all entities on the layer will be assigned the layer's color.
 
-   When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the color that was defined for the block to the added entity.  If the block's color is subsequently changed all entities in the block will be assigned the block's color.", " |image01| "
+When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the color that was defined for the block to the added entity.  If the block's color is subsequently changed all entities in the block will be assigned the block's color.
+
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :width: 750px
+    :align: center
 
 Selecting ”Custom” will allow a selection from a palette of 36 colors and shades of grey or from a user defined colors.  User defined colors are created by clicking the Add button |image10| and then selecting the *hue* and *value* from the color selection tool.  User defined colors can be modified by right-clicking on a user defined color and selecting a new *hue* and *value*.  A maximum of eight user defined colors can be added.
 
-.. csv-table::
-   :widths: 50 50
-   :class: table-no-borders
+.. image:: /images/coloursCustom.png
+    :width: 490px
+    :height: 295px
+    :align: left
+    :scale: 67
+    :alt: Custom colors
 
-   |image02|, |image03|
+.. image:: /images/colourCustom.png
+    :width: 436px
+    :height: 426px
+    :align: right
+    :scale: 67
+    :alt: Custom color selector
+
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :width: 750px
+    :align: center
 
 
 Width
 `````
 
-Line width or thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, arcitectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/C paper sizes:
+Line width or thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, architectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/C paper sizes:
 
 .. csv-table:: 
     :widths: 15, 20, 40, 25
@@ -262,7 +279,7 @@ Line width or thickness should also be addressed when creating a new drawing.  T
     "", "", "- Hatching", ""
     "", "", "- Reference line", ""
     "Thin", "**0.13**, 0.15, **0.18**, 0.20, **0.25**", "- Outlines", "0.18 mm"
-    "", "", "- Centre lines", ""
+    "", "", "- Center lines", ""
     "", "", "- Dimension lines", ""
     "", "", "- Leader and extension", ""
     "", "", "- Phantom lines", ""
@@ -295,7 +312,7 @@ Different types of lines are used for different purposes.  LibreCAD includes sev
     :class: table-wrap-text
 
     "Line Type", "Example", "Purpose"
-    "Continuous", |image20|, "Object or visible, dimension, extention and construction lines."
+    "Continuous", |image20|, "Object or visible, dimension, extension and construction lines."
     "Dot", |image21|, ""
     "Dash", |image22|, "Hidden lines and phantom lines (long dash)."
     "Dash Dot", |image23|, ""
@@ -325,7 +342,7 @@ Entities' coordinates can also be located graphically using a mouse or other poi
 Using the Keyboard
 ```````````````````
 
-Coordinate values, whether cartesian or polar, can be typed at the :ref:`command line <cmdline>` in the formats as previously noted.  LibreCAD offers an additional method for typing cartesian coordinates when using the numeric keypad; type two decimal points (".") in lieu of the comma between the X and Y values.  For example, "10..20" is equivelent to typing "10,20".  This method can also be used for relative cartesian coordinates, e.g. @15..25.
+Coordinate values, whether cartesian or polar, can be typed at the :ref:`command line <cmdline>` in the formats as previously noted.  LibreCAD offers an additional method for typing cartesian coordinates when using the numeric keypad; type two decimal points (".") in lieu of the comma between the X and Y values.  For example, "10..20" is equivalent to typing "10,20".  This method can also be used for relative cartesian coordinates, e.g. @15..25.
 
 Text input is also required by tool options where distance, angle, etc. are needed.
 
@@ -339,7 +356,7 @@ Selecting entities allow them to be modified or deleted.  Some operations can be
    - Click and drag a selection box:
 
       - Left to right while moving down or up to select entities enclosed within the selection window’s boundary (blue selection box).
-      - Right to left  while moving down or up toselect entities enclosed within the window’s boundary and crossed by the selection boundary (green selection box)
+      - Right to left  while moving down or up to select entities enclosed within the window’s boundary and crossed by the selection boundary (green selection box)
 
    -  type “sa” at the command line to select all entities.
 
@@ -366,7 +383,7 @@ Selected entities display “handles”.  Handles allow the entities to be manip
 
    - A rectangle’s corner can be dragged to a new position creating other quadrilaterals.
    - A circle can be increased or decreased in size.
-   - The end points of the edges of a polygon can be be repositioned.
+   - The end points of the edges of a polygon can be repositioned.
    - Dimension text and lines can be repositioned
 
 
@@ -375,7 +392,7 @@ Selected entities display “handles”.  Handles allow the entities to be manip
 Isometric Drawings
 ------------------
 
-LibreCAD can also be used to create drawings with an **isometric** projection.  Creating isometric drawings is similar to creating orthaganol drawings, but with an additional consideration towards the perspective of the drawing.  The **Grid** tab of :ref:`Drawing Preferences <draw-prefs>` allows users to set the grid to suit isomentric drawings.  Setting the "Snap Indicator Lines" on the **Appearance** tab on the :ref:`Application Preferences <app-prefs>` to *Isometric* will also assist in with locating entities.
+LibreCAD can also be used to create drawings with an **isometric** projection.  Creating isometric drawings is similar to creating orthogonal drawings, but with an additional consideration towards the perspective of the drawing.  The **Grid** tab of :ref:`Drawing Preferences <draw-prefs>` allows users to set the grid to suit isometric drawings.  Setting the "Snap Indicator Lines" on the **Appearance** tab on the :ref:`Application Preferences <app-prefs>` to *Isometric* will also assist in with locating entities.
 
 
 ..  Icon mapping:
@@ -399,21 +416,8 @@ LibreCAD can also be used to create drawings with an **isometric** projection.  
 
 ..  Image mapping (no "align" allowed/required):
 
-.. |image01| image:: /images/coloursStd.png
-             :width: 140px
-             :height: 439px
-             :scale: 100
-             :alt: Standard color selector
-.. |image02| image:: /images/coloursCustom.png
-             :width: 490px
-             :height: 295px
-             :scale: 67
-             :alt: Custom colors
-.. |image03| image:: /images/colourCustom.png
-             :width: 436px
-             :height: 426px
-             :scale: 67
-             :alt: Custom color selector
+
+
 .. |image10| image:: /images/coloursCustomAdd.png
              :width: 48
              :height: 32

@@ -9,7 +9,7 @@ Building from Source
 Building from the source code allows users to run the cutting-edge version of LibreCAD that includes bug fixes and possibly new features.  LibreCAD can be compiled to run on multiple operating systems; Linux, Microsoft Windows, and macOS.  The process differs depending on the OS.
 
  .. important::
-    The instructions are as complete as possible to provide the necessary steps to allow any user to build LibreCAD from the source code, however some understanding of the operating system and installation of the required tools and dependencies is required.  The instructions are intended for users that want to try the cutting-edge version of LibreCAD and are **not** intended for to replace the instructions for building packages or contributing to the LibreCAD project.
+    The instructions are as complete as possible to provide the necessary steps to allow any user to build LibreCAD from the source code, however some understanding of the operating system and installation of the required tools and dependencies is required.  The instructions are intended for users that want to try the cutting-edge version of LibreCAD and are **not** intended to replace the instructions for building packages or contributing to the LibreCAD project.
 
     If you are a developer and want to contribute to LibreCAD see the :ref:`Contributing <contributing>` section in the **Appendices**.
 

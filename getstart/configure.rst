@@ -1,5 +1,8 @@
 .. User Manual, LibreCAD v2.2.x
 
+.. Default include
+.. include:: /notice.rst
+
 
 .. _configure: 
 
@@ -73,13 +76,13 @@ Appearance
     :scale: 50
     :alt: LibreCAD Application Preferences - Appearance
 
-There are three categories on the "Appearence" tab that allows the user to change the look and behaviour of LibreCAD.
+There are three categories on the "Appearance" tab that allows the user to change the look and behaviour of LibreCAD.
 
-The *Graphic View* category has options for the snap indicator style and shape, scrollbars and grid.  Use the *Snap Indicator Lines* to select the style for orthogonal (Crosshair, Crosshair 2 or Spiderweb) or isometric (Isometric) projections.  The *Anti-alias* setting, if supported by the hardware, when checked will reduce jagged edgdes of diagonal lines, circles, etc.
+The *Graphic View* category has options for the snap indicator style and shape, scrollbars and grid.  Use the *Snap Indicator Lines* to select the style for orthogonal (Crosshair, Crosshair 2 or Spiderweb) or isometric (Isometric) projections.  The *Anti-alias* setting, if supported by the hardware, when checked will reduce jagged edges of diagonal lines, circles, etc.
 
 The *Language* categories allows the the user to select the language used in the GUI and command line.  Supported languages can be found in the :ref:`appendix <languages>`.
 
-Thirdly, the *Graphic Colors* section allow custom colors to be selected for the snap indicator, drawing background,  grid, and other indicators (selections, highlighted items and Handlles).  Users can select predefined colors from the drop down menu or select their own from the color selector.
+Thirdly, the *Graphic Colors* section allow custom colors to be selected for the snap indicator, drawing background,  grid, and other indicators (selections, highlighted items and Handles).  Users can select predefined colors from the drop down menu or select their own from the color selector.
 
 
 Path
@@ -110,19 +113,25 @@ Defaults
     :scale: 50
     :alt: LibreCAD Application Window - Defaults
 
+
 Drawing Defaults
 ````````````````
 
-    *Unit*: Defines the :ref:`default unit of measure <measurements>` for all new drawings.  The default can be over-ridden by setting the unit of measure in the Drawing preferences or template.  {{Add links}}
+    *Unit*: Defines the :ref:`default unit of measure <measurements>` for all new drawings.  The default can be overridden by setting the unit of measure in the Drawing preferences or template.
 
 
 Program Defaults
 ````````````````
 
-    - *Auto backup*: When check, a backup will be created when closing the file.  Backup files are saved to the same directory as the drawing file with a tilde (~) appended to the file name.
-    - *Auto save time*: The time in minutes to perform an automatice save of the open files.  Auto files are saved to the same directory as the drawing file with a hash symbol (#) prefixed to the file name.
+    - *Auto backup*: When checked, a backup will be created when closing the file.  Backup files are saved to the same directory as the drawing file with a tilde (~) appended to the file name.
+    - *Auto save time*: The time in minutes to perform an automatic save of the open files.  Auto files are saved to the same directory as the drawing file with a hash symbol (#) prefixed to the file name.
     - *Don't use native OS file open dialog*: When checked, LibreCAD's file open dialog is displayed when opening files.
     - *Modify layer of selected entities, at layer activation*: If checked, entities can be assigned to a layer by selecting the entities and then selecting the destination layer. 
+
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :align: center
+
 
 Clear Settings
 ``````````````

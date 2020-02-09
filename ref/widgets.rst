@@ -1,16 +1,19 @@
 .. User Manual, LibreCAD v2.2.x
 
+.. Default include
+.. include:: /notice.rst
+
 
 .. _widgets: 
 
 Dock Widgets
 =============
 
-Dock widgets serve two purposes; they provide alternative method to access drawing tools, and additional tools or features:
+Dock widgets are small movable windows that serve two purposes: (1) quick access to the drawing tools, and (2) access to additional features not available from a menu including:
 
-    - Block List
-    - Command Line
-    - Layer List
+    - Block List,
+    - Command Line,
+    - Layer List,
     - Library Browser, and
     - Pen Wizard.
 
@@ -22,16 +25,16 @@ Dock widgets serve two purposes; they provide alternative method to access drawi
     :scale: 100
     :alt: Lines Dock
 
-    Drawing tool dock example; Line
+    Drawing tool dock example: Line
 
-Dock widgets are available for these :ref:`Drawing Tools <tools>`:
+As an alternative to the **Tools** menu, the Dock widgets provide more convenient way to access the :ref:`Drawing Tools <tools>`:
 
-    - Circle
-    - Curve
-    - Dimension
-    - Ellipse
-    - Info
-    - Line
+    - Circle,
+    - Curve,
+    - Dimension,
+    - Ellipse,
+    - Info,
+    - Line,
     - Modify, and
     - Polyline.
 
@@ -52,11 +55,13 @@ Dock Widget Areas
     "Right", |icon02|, "Shows / hide the dock widgets located on the right side of the drawing window."
     "Top", |icon03|, "Shows / hide the dock widgets located on the top of the drawing window."
     "Bottom", |icon04|, "Shows / hide the dock widgets located on the bottom of the drawing window."
-    "Floating", |icon05|, "Shows / hide the dock widgets floating within the drawing window or out side of the drawing applications."
+    "Floating", |icon05|, "Shows / hide the dock widgets floating within the drawing window or outside of the drawing applications."
 
 .. See icon mapping a eof
 
-Docked widgets can be dragged to different areas by "grabbing" (click and drag) the title bar of the widget.  Widgets will snap into place when released in a dock area.  Widgets in the left, right, top or bottom areas can either be placed on top of existing widgets, creating tabs for each category of widget placed in that area, or place above or below the existing widget dividing the area in sections.  Dock widgets can also be resized by clicking on and dragging the edge of the widget's box to a minimum of five icons width and no shorter than the default height.
+Dock widgets can be moved to different areas by "grabbing" (left clicking and dragging) the title bar of the widget and releasing it in a new location.  A widget can be left *floating* inside or outside of the drawing window, or placed in one of the four dock areas (left, right, top or bottom).  Widgets can be placed either on top of an existing widget in any of the dock areas creating a tab for each of the widgets.  Widgets can also be place above or below an existing widget dividing the area into multiple sections.  
+
+In addition, dock widgets can be resized by clicking and dragging the edge of the widget's box.  A widget has a minimum width of five icons and can be no shorter than the default height.
 
 
 .. _widget-blockList:
@@ -64,14 +69,14 @@ Docked widgets can be dragged to different areas by "grabbing" (click and drag) 
 Block List Dock
 ---------------
 
+The Block List Dock provides the functions to manage blocks and a list of blocks that are active in the drawing.  Block functions include:
+
 .. figure:: /images/dock-blockList01.png
     :width: 272px
     :height: 590px
-    :align: right
+    :align: left
     :scale: 67
     :alt: Block List Dock
-
-The Block List Dock provides the functions to manage blocks and a list of blocks that are active in the drawing.  Block functions include:
 
 .. csv-table:: 
     :widths: 10, 90
@@ -130,7 +135,6 @@ Layer List Dock
     :scale: 67
     :alt: Layer List Dock
 
-
 The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing. The entry line on top of the dock allows to filter by layer names (e.g. "\*01" would show all names ending by "01").  Layer functions include:
 
 .. csv-table:: 
@@ -148,28 +152,22 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 .. See icon mapping a eof
 
-|
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :width: 750px
+    :align: center
+
+Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
 
 ..  figure:: /images/layerAttributes01.png
     :width: 251px
     :height: 215px
     :scale: 100
-    :align: left
+    :align: right
     :alt: LibreCAD Layers Attributes
 
-|
-|
-|
-|
-|
-|
-|
-
-Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
-
-
 .. table::
-    :widths: 25, 75
+    :widths: 25, 50
     :class: fix-table
 
 +----------------------+--------------------------------------------------------------------------+
@@ -220,8 +218,10 @@ Right-clicking on a layer opens a popup menu that provides equivalent operations
 
 More details on creating and using :ref:`layers <su-layers>` can be found in the :ref:`Drawing Setup <drawing-setup>` section of the **User Guides**.
 
-|
-|
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :width: 750px
+    :align: center
 
 
 .. _widget-libBrowser:
@@ -240,12 +240,10 @@ The Library Browser Dock shows blocks available from the defined libraries and a
 
 LibreCAD includes several libraries and additional libraries can be specified by defining a path to user libraries in the :ref:`Application Preferences <app-prefs>`, "Path" tab as shown in **Getting Started**.
 
-|
-|
-|
-|
-|
-|
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :width: 750px
+    :align: center
 
 
 .. _widget-penWiz:

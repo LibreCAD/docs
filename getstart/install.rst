@@ -1,12 +1,15 @@
 .. User Manual, LibreCAD v2.2.x
 
+.. Default include
+.. include:: /notice.rst
+
 
 .. _install: 
 
 Download and Install
 ====================
 
-LibreCAD is available as two variants; as a stable version (i.e. general release), or as a unstable (also refered to as "daily" or "nightly" depending on the repository) release.  The stable version is recommended for most users.  The unstable build represents the cutting edge of LibreCAD development and *might* contain bugs or new, incomplete features under development.  Those new features may or may not be included in next general release version.  LibreCAD can also be built from the source code so users can compile the most current code base for their OS / platform.
+LibreCAD is available as two variants; as a stable version (i.e. general release), or as a unstable (also referred to as "daily" or "nightly" depending on the repository) release.  The stable version is recommended for most users.  The unstable build represents the cutting edge of LibreCAD development and *might* contain bugs or new, incomplete features under development.  Those new features may or may not be included in next general release version.  LibreCAD can also be built from the source code so users can compile the most current code base for their OS / platform.
 
 
 Windows
@@ -23,7 +26,7 @@ Links to the installers for OS/X 10.9 can be found in the :ref:`Resources <downl
 For other versions of OS/X, please follow build instructions in the :ref:`appendix <build>`.
 
 .. note::
-    If you an OS/X developer, please help us to improve DMG installers and MacPorts LibreCAD package.
+    If you are an OS/X developer, please help us improve the DMG installers and MacPorts LibreCAD package.
 
 
 Linux
@@ -77,7 +80,7 @@ For those that want to live on the bleeding edge and try out the newest features
 Debian
 ~~~~~~
 
-LibreCAD is available in the main repository of Debian 7.0 (Wheezy) and later.  Use your favorite package manager (e.g. aptitude, synaptic, etc.) and seach for "librecad" to install and configure it, or simply from the command line type::
+LibreCAD is available in the main repository of Debian 7.0 (Wheezy) and later.  Use your favorite package manager (e.g. aptitude, synaptic, etc.) and search for "librecad" to install and configure it, or simply from the command line type::
 
    $ sudo apt install librecad
 
@@ -105,5 +108,5 @@ LibreCAD is available from [ports], and can be installed as a binary package::
 Build from Source Code
 ----------------------
 
-For the most current up-to-date version of LibreCAD with the latest enhancments and fixes, it can be built for source.  the instructions are in the :ref:`Build from Source <build>` section of the appendix.
+For the most current up-to-date version of LibreCAD with the latest enhancements and fixes, it can be built for source.  the instructions are in the :ref:`Build from Source <build>` section of the appendix.
 
