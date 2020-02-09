@@ -1,5 +1,6 @@
 .. User Manual, LibreCAD v2.2.x
 
+.. Default include
 .. include:: /notice.rst
 
 
@@ -125,9 +126,9 @@ Program Defaults
     - *Don't use native OS file open dialog*: When checked, LibreCAD's file open dialog is displayed when opening files.
     - *Modify layer of selected entities, at layer activation*: If checked, entities can be assigned to a layer by selecting the entities and then selecting the destination layer. 
 
+.. Force end of left / right text wrap
 .. figure:: /images/whiteLine.png
     :align: center
-    :alt: Forced end of left / right wrap
 
 
 Clear Settings
