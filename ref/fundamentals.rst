@@ -50,6 +50,10 @@ Cartesian
 
 The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is the horizontal axis and Y is the vertical axis.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be "100,75", as shown here.
 
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :align: center
+
 
 Polar
 `````
@@ -101,7 +105,7 @@ When using cartesian coordinates for example, to set a 65 units above and 75 uni
     :align: center
 
 
-.. note::
+.. hint::
 
    Relative coordinates can also be written as 10..20 (equivalent to @10,20) which allows for :ref:`numeric keypad <keyboard>` input when using the :ref:`command line<widget-cmdLine>`.
 
@@ -219,15 +223,23 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 Color
 `````
 
-.. csv-table::
-   :widths: 70 30
-   :class: table-no-borders
+.. image:: /images/coloursStd.png
+             :width: 140px
+             :height: 439px
+             :scale: 100
+             :alt: Standard color selector
 
-   "The color for an entity can be selected from the ”Color” selection drop-down menu.  The drop-down menu allows the color to be selected ”By Layer”, ”By Block”, from the ”Custom” color selector, or chosen quickly from one of the 16 pre-defined colors: 
+The color for an entity can be selected from the ”Color” selection drop-down menu.  The drop-down menu allows the color to be selected ”By Layer”, ”By Block”, from the ”Custom” color selector, or chosen quickly from one of the 16 pre-defined colors: 
 
-   Selecting ”By Layer” will assign the color that was defined for the layer (see above) to the entity.  If the layer's selected color is subsequently changed all entities on the layer will be assigned the layer's color.
+Selecting ”By Layer” will assign the color that was defined for the layer (see above) to the entity.  If the layer's selected color is subsequently changed all entities on the layer will be assigned the layer's color.
 
-   When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the color that was defined for the block to the added entity.  If the block's color is subsequently changed all entities in the block will be assigned the block's color.", " |image01| "
+When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the color that was defined for the block to the added entity.  If the block's color is subsequently changed all entities in the block will be assigned the block's color.
+
+
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :align: center
+
 
 Selecting ”Custom” will allow a selection from a palette of 36 colors and shades of grey or from a user defined colors.  User defined colors are created by clicking the Add button |image10| and then selecting the *hue* and *value* from the color selection tool.  User defined colors can be modified by right-clicking on a user defined color and selecting a new *hue* and *value*.  A maximum of eight user defined colors can be added.
 
@@ -391,11 +403,7 @@ LibreCAD can also be used to create drawings with an **isometric** projection.  
 
 ..  Image mapping (no "align" allowed/required):
 
-.. |image01| image:: /images/coloursStd.png
-             :width: 140px
-             :height: 439px
-             :scale: 100
-             :alt: Standard color selector
+
 .. |image02| image:: /images/coloursCustom.png
              :width: 490px
              :height: 295px
