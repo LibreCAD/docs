@@ -11,22 +11,21 @@ Below are the sections that are in the LibreCAD User Manual with the percent com
 
 Section | Initial Draft | Review / Edit | Comment
 --- | --- | --- | ---
-About |   |   |   
+**About** |   |   |   
    Copyright | [100%] | [0%] |   
    Contributors | [100%] | [0%] |   
-
-- Getting Started
-   - Install | [100%] | [0%] |
-   - Configure | [100%] | [0%] | (Setting up / configuring LibreCAD)
-- References: technical descriptions of the tools, functions, widgets, etc.  Following the menu structure, it would include:
-   - Fundamentals | [100%] | [0%] | (Including "The Coordinate System")
-   - Application Menu | [100%] | [0%] |
-   - Drawing Tools | [100%] | [0%] |
-   - Snapping | [100%] | [0%] |
-   - Toolbars | [100%] | [0%] |
-   - Dock Widgets | [100%] | [0%] |
-   - Drawing Preferences | [100%] | [0%] |
-   - Customizing | [100%] | [0%] | (Including Style Sheets)
+**Getting Started** |   |   |   
+   Install | [100%] | [0%] |
+   Configure | [100%] | [0%] | (Setting up / configuring LibreCAD)
+**References** |   |   | technical descriptions of the tools, functions, widgets, etc.
+   Fundamentals | [100%] | [0%] | (Including "The Coordinate System")
+   Application Menu | [100%] | [0%] |
+   Drawing Tools | [100%] | [0%] |
+   Snapping | [100%] | [0%] |
+   Toolbars | [100%] | [0%] |
+   Dock Widgets | [100%] | [0%] |
+   Drawing Preferences | [100%] | [0%] |
+   Customizing | [100%] | [0%] | (Including Style Sheets)
 
 - User Guides: documents that provide instruction on how to do things with LibreCAD.  These are how-to’s, but with greater details(?)
    - Drawing Setup           [0%]
