@@ -239,7 +239,7 @@ When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the c
 
 .. Force end of left / right text wrap
 .. figure:: /images/whiteLine.png
-    :width: 768px
+    :width: 750px
     :align: center
 
 
@@ -257,13 +257,17 @@ When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the c
     :scale: 67
     :alt: Custom color selector
 
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :width: 750px
+    :align: center
+
 Selecting ”Custom” will allow a selection from a palette of 36 colors and shades of grey or from a user defined colors.  User defined colors are created by clicking the Add button |image10| and then selecting the *hue* and *value* from the color selection tool.  User defined colors can be modified by right-clicking on a user defined color and selecting a new *hue* and *value*.  A maximum of eight user defined colors can be added.
 
-.. csv-table::
-   :widths: 50 50
-   :class: table-no-borders
-
-   |image02|, |image03|
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :width: 750px
+    :align: center
 
 
 Width
