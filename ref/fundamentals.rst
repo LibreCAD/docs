@@ -82,7 +82,7 @@ In LibreCAD lines, points, arcs, polylines, circles, and many more entities can 
 Absolute
 ````````
 
-When using Absolute coordinates, whether cartisian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<45" as shown in the two images above.
+When using Absolute coordinates, whether Cartesian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<45" as shown in the two images above.
 
 .. _relative:
 
@@ -137,7 +137,7 @@ Angles in LibreCAD
     :scale: 50
     :alt: Polar Coordinates
 
-All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction beginning from 0 degrees (the 3 o'clock position). The *<* symbol is used toi designat e an angle whn using polar coordinates, e.g.50<45.
+All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction beginning from 0 degrees (the 3 o'clock position). The *<* symbol is used to designate an angle when using polar coordinates, e.g.50<45.
 
 .. Force end of left / right text wrap
 .. figure:: /images/whiteLine.png
@@ -279,7 +279,7 @@ Line width or thickness should also be addressed when creating a new drawing.  T
     "", "", "- Hatching", ""
     "", "", "- Reference line", ""
     "Thin", "**0.13**, 0.15, **0.18**, 0.20, **0.25**", "- Outlines", "0.18 mm"
-    "", "", "- Centre lines", ""
+    "", "", "- Center lines", ""
     "", "", "- Dimension lines", ""
     "", "", "- Leader and extension", ""
     "", "", "- Phantom lines", ""
@@ -356,7 +356,7 @@ Selecting entities allow them to be modified or deleted.  Some operations can be
    - Click and drag a selection box:
 
       - Left to right while moving down or up to select entities enclosed within the selection window’s boundary (blue selection box).
-      - Right to left  while moving down or up toselect entities enclosed within the window’s boundary and crossed by the selection boundary (green selection box)
+      - Right to left  while moving down or up to select entities enclosed within the window’s boundary and crossed by the selection boundary (green selection box)
 
    -  type “sa” at the command line to select all entities.
 
@@ -383,7 +383,7 @@ Selected entities display “handles”.  Handles allow the entities to be manip
 
    - A rectangle’s corner can be dragged to a new position creating other quadrilaterals.
    - A circle can be increased or decreased in size.
-   - The end points of the edges of a polygon can be be repositioned.
+   - The end points of the edges of a polygon can be repositioned.
    - Dimension text and lines can be repositioned
 
 

@@ -55,11 +55,13 @@ Dock Widget Areas
     "Right", |icon02|, "Shows / hide the dock widgets located on the right side of the drawing window."
     "Top", |icon03|, "Shows / hide the dock widgets located on the top of the drawing window."
     "Bottom", |icon04|, "Shows / hide the dock widgets located on the bottom of the drawing window."
-    "Floating", |icon05|, "Shows / hide the dock widgets floating within the drawing window or out side of the drawing applications."
+    "Floating", |icon05|, "Shows / hide the dock widgets floating within the drawing window or outside of the drawing applications."
 
 .. See icon mapping a eof
 
-Docked widgets can be dragged to different areas by "grabbing" (click and drag) the title bar of the widget.  Widgets will snap into place when released in a dock area.  Widgets in the left, right, top or bottom areas can either be placed on top of existing widgets, creating tabs for each category of widget placed in that area, or place above or below the existing widget dividing the area in sections.  Dock widgets can also be resized by clicking on and dragging the edge of the widget's box to a minimum of five icons width and no shorter than the default height.
+Dock widgets can be moved to different areas by "grabbing" (left clicking and dragging) the title bar of the widget and releasing it in a new location.  A widget can be left *floating* inside or outside of the drawing window, or placed in one of the four dock areas (left, right, top or bottom).  Widgets can be placed either on top of an existing widget in any of the dock areas creating a tab for each of the widgets.  Widgets can also be place above or below an existing widget dividing the area into multiple sections.  
+
+In addition, dock widgets can be resized by clicking and dragging the edge of the widget's box.  A widget has a minimum width of five icons and can be no shorter than the default height.
 
 
 .. _widget-blockList:

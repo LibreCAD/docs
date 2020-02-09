@@ -26,7 +26,7 @@ Links to the installers for OS/X 10.9 can be found in the :ref:`Resources <downl
 For other versions of OS/X, please follow build instructions in the :ref:`appendix <build>`.
 
 .. note::
-    If you an OS/X developer, please help us to improve DMG installers and MacPorts LibreCAD package.
+    If you are an OS/X developer, please help us improve the DMG installers and MacPorts LibreCAD package.
 
 
 Linux

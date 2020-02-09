@@ -37,7 +37,7 @@ The commands available to use are shown in the :ref:`Drawing Tools <tools>` refe
    5. Press [F1], any command and then [Enter] or the [Space bar].
    6. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.  Pressing [Enter] is not required. 
 
-When the command line is activated the prompt above the input text box, initially showing "Command:", turns blue.  After typing a command the prompt will indicate the next input required such as coordinates and / or the next action available.  Pressing [Esc] will cancel the current action and pressing it a second time will cancel the operation.
+When the command line is activated the prompt above the input text box, initially showing "Command:" in black text, turns blue.  After typing a command the prompt will indicate the next input required, such as coordinates or the next action available.  Pressing [Esc] will cancel the current action and pressing it a second time will cancel the operation.
 
 For example, when using the **2 Points** line tool the first prompt shows "Specify first point" and the second "Specify next point".  After drawing at least two segments of a line the next prompt reads "Specify next point or [close/undo]".  LibreCAD is expecting another set of coordinates to be entered, or the shape (with a minimum of two segments) can be closed or the last actions can be reversed.  "Close" or "undo" can be entered on the command line or by clicking on buttons on the :ref:`Tool Options<tools>` toolbar.  For example, to draw a square using the "2 Points line" tool from the command line:
 
@@ -105,9 +105,9 @@ Multi-command input can be assigned to a variable and variables can also contain
    c=\a;\b;kill
    \c
 
-Enter each line of the text above on the command line.  When \\c is entered, two overlapping circles with a radius of 10 are drawn.  The ``\`` character is an escape character that allows the command line to interpret the variable name as an action.  In the above example ``\c`` expands to ``ci;0,0;10;ci;10,0;10;kill``.
+Enter each line of the text above on the command line.  When \\c is entered, two overlapping circles with a radius of 10 are drawn.  The "\\" character is an escape character that allows the command line to interpret the variable name as an action.  In the above example \\c expands to ``ci;0,0;10;ci;10,0;10;kill``.
 
-A "variable file" can be set to load at startup via :ref:`Application Preferences<app-prefs>` **-> Paths -> Variable File**.  Save the first three line of the above example to a text file and configure the path to the text file.  Restart LibreCAD and when ``\c`` is entered at the command line the two circles are drawn.
+A "variable file" can be set to load at startup via :ref:`Application Preferences<app-prefs>` **-> Paths -> Variable File**.  Save the first three line of the above example to a text file and configure the path to the text file.  Restart LibreCAD and when \\c is entered at the command line the two circles are drawn.
 
 
 Command Aliases

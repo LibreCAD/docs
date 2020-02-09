@@ -262,9 +262,9 @@ Select
     "Deselect Window", |icon53|, "", "
         | Deselect one or more entities enclosed by selection window (L to R), or crossed by selection window (R to L)."
     "Select Intersected Entities", |icon55|, "", "
-        | Select on or more entities crossed by selection line."
+        | Select one or more entities crossed by selection line."
     "Deselect Intersected Entities", |icon56|, "", "
-        | Deselect on or more entities crossed by selection line."
+        | Deselect one or more entities crossed by selection line."
     "(De-)Select Layer", |icon57|, "", "
         | Select or deselected all entities on the layer of the selected entity."
     "Invert Selection", |icon60|, "", "
@@ -341,7 +341,7 @@ Modify
     "Scale", |icon71|, "sz", "
         | Increase or decrease the size of a selected entity from a reference point by a defined factor for both axis.  Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
     "Mirror", |icon72|, "mi", "
-        | reate a mirror image of a selected entity around an axis defined by two points.  Optionally keep the original entity and / or alter attributes and layer."
+        | create a mirror image of a selected entity around an axis defined by two points.  Optionally keep the original entity and / or alter attributes and layer."
     "Move and Rotate", |icon73|, "", "
         | Move a selected entity by defining a reference point and a relative target point and rotating the entity at a given angle.  Optionally keep the original entity, create multiple copies and / or alter attributes and layer."
     "Rotate Two", |icon74|, "", "
@@ -351,7 +351,7 @@ Modify
     "Trim",  |icon76| , "tm, trim", "
         | Cut the length of a line entity to an intersecting line entity."
     "Trim Two",  |icon77| , "t2, tm2", "
-        | Cut the lengthes of two intersecting lines to the point of intersection."
+        | Cut the lengths of two intersecting lines to the point of intersection."
     "Lengthen",  |icon78| , "le", "
         | Extend the length of a line entity to an intersecting line entity.
         | 
@@ -370,7 +370,7 @@ Modify
         | **Tool Options:** 
         | |tlopt17|"
     "Divide",  |icon82| , "di, div, cut", "
-        | Divide, or break, al line at the selected ''cutting'' point."
+        | Divide, or break, a line at the selected ''cutting'' point."
     "Stretch", |icon83|, "ss", "
         | Move a selected portion of a drawing by defining a reference point and a relative target point."
     "Properties", |icon84|, "mp, prop", "

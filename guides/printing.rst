@@ -92,7 +92,7 @@ Specifically, the process is as follows.  Starting with a full-scale (1:1) drawi
 3. To establish the largest scale the can be used for the paper size:
 
     a. Click the **Fit to Page** button |icon05| on the tool bar and note the drawing scale shown in the drop-down box on the toolbar.  The is the largest scale that can be used for the current paper size.
-    b. Adjust the scale to ensure the drawing will fit on the printed page and accommodate a border that will be added in a later step. For example, if the *Fit to Page* ration is 1:1.5, adjust the ration to 1:2.
+    b. Adjust the scale to ensure the drawing will fit on the printed page and accommodate a border that will be added in a later step. For example, if the *Fit to Page* ratio is 1:1.5, adjust the ratio to 1:2.
     c. Fix the scale by clicking the *Fixed* checkbox.
     d. Close *Print Preview* (click the **Print Preview** button  |icon01| ) and return to the drawing window.
 
@@ -100,12 +100,12 @@ Specifically, the process is as follows.  Starting with a full-scale (1:1) drawi
 
     a. Draw lines defining the page perimeter, e.g. draw a rectangle 297 mm x 210 mm for an A4 paper.
     b. Draw lines for a page border offset from the perimeter line drawn above.
-    c. Or, insert a border / title block from the Library (predefined borders are in the *sheets* directory for ISO paper sizes) and scale it using the ration determined above, e.g for a 1:2 ration, scale the border by 2.  Note: Setting the *Scale Factor* when inserting a block didn’t work for me, but the block can be scaled after inserting by using *Scale* (**Tools -> Modify -> Scale**).
+    c. Or, insert a border / title block from the Library (predefined borders are in the *sheets* directory for ISO paper sizes) and scale it using the ratio determined above, e.g for a 1:2 ratio, scale the border by 2.  Note: Setting the *Scale Factor* when inserting a block didn’t work for me, but the block can be scaled after inserting by using *Scale* (**Tools -> Modify -> Scale**).
 
 5. Re-confirm the layout in the *Print Preview*:
 
     a. Click the **Print Preview** button |icon02|.
-    b. Reset the scale to the ration determined in step 3b, i.e. 1:2.
+    b. Reset the scale to the ratio determined in step 3b, i.e. 1:2.
     c. Click the **Center to Page** button |icon04|.
 
 6. Select **File -> Print** or click the **Print** button |icon01|.
