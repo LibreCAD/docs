@@ -236,12 +236,12 @@ Selecting ”By Layer” will assign the color that was defined for the layer (s
 
 When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the color that was defined for the block to the added entity.  If the block's color is subsequently changed all entities in the block will be assigned the block's color.
 
-
 .. Force end of left / right text wrap
 .. figure:: /images/whiteLine.png
     :width: 750px
     :align: center
 
+Selecting ”Custom” will allow a selection from a palette of 36 colors and shades of grey or from a user defined colors.  User defined colors are created by clicking the Add button |image10| and then selecting the *hue* and *value* from the color selection tool.  User defined colors can be modified by right-clicking on a user defined color and selecting a new *hue* and *value*.  A maximum of eight user defined colors can be added.
 
 .. image:: /images/coloursCustom.png
     :width: 490px
@@ -256,13 +256,6 @@ When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the c
     :align: right
     :scale: 67
     :alt: Custom color selector
-
-.. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :width: 750px
-    :align: center
-
-Selecting ”Custom” will allow a selection from a palette of 36 colors and shades of grey or from a user defined colors.  User defined colors are created by clicking the Add button |image10| and then selecting the *hue* and *value* from the color selection tool.  User defined colors can be modified by right-clicking on a user defined color and selecting a new *hue* and *value*.  A maximum of eight user defined colors can be added.
 
 .. Force end of left / right text wrap
 .. figure:: /images/whiteLine.png
