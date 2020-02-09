@@ -1,5 +1,7 @@
 .. User Manual, LibreCAD v2.2.x
-.. Getting Started main page and index
+
+.. Default include
+.. include:: /notice.rst
 
 
 .. _getstart:

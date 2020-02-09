@@ -1,5 +1,7 @@
 .. User Manual, LibreCAD v2.2.x
-.. Appendix top level index
+
+.. Default include
+.. include:: /notice.rst
 
 
 .. _appendix:

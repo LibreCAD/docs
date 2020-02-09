@@ -11,15 +11,12 @@ Below are the sections that are in the LibreCAD User Manual with the percent com
 
 Section | Initial Draft | Review / Edit | Comment
 --- | --- | --- | ---
-
 - About | | |
    - Copyright | [100%] | [0%] |
    - Contributors | [100%] | [0%] |
-
 - Getting Started
    - Install | [100%] | [0%] |
    - Configure | [100%] | [0%] | (Setting up / configuring LibreCAD)
-
 - References: technical descriptions of the tools, functions, widgets, etc.  Following the menu structure, it would include:
    - Fundamentals | [100%] | [0%] | (Including "The Coordinate System")
    - Application Menu | [100%] | [0%] |

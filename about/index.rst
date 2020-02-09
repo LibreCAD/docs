@@ -1,6 +1,7 @@
 .. User Manual, LibreCAD v2.2.x
-.. About main page and index
 
+.. Default include
+.. include:: /notice.rst
 
 .. _about:
 

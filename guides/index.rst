@@ -1,5 +1,7 @@
 .. User Manual, LibreCAD v2.2.x
-.. User Guides index
+
+.. Default include
+.. include:: /notice.rst
 
 
 .. _guides:

@@ -1,5 +1,7 @@
 .. User Manual, LibreCAD v2.2.x
-.. Reference index
+
+.. Default include
+.. include:: /notice.rst
 
 
 .. _reference:
