@@ -8,27 +8,27 @@ The documentation is created using a markup language called "reStructuredText" (
 
 Below are the sections that are in the LibreCAD User Manual with the percent complete [%].
 
-Initial Draft:               [100%]
 
-Manual Review and Edits:
+Section | Initial Draft | Review / Edit | Comment
+--- | --- | --- | ---
 
-- About
-   - Copyright               [0%]
-   - Contributors            [0%]
+- About | | |
+   - Copyright | [100%] | [0%] |
+   - Contributors | [100%] | [0%] |
 
 - Getting Started
-   - Install                 [0%]
-   - Configure               [0%]    (Setting up / configuring LibreCAD)
+   - Install | [100%] | [0%] |
+   - Configure | [100%] | [0%] | (Setting up / configuring LibreCAD)
 
 - References: technical descriptions of the tools, functions, widgets, etc.  Following the menu structure, it would include:
-   - Fundamentals            [0%]    (Including "The Coordinate System")
-   - Application Menu        [0%]
-   - Drawing Tools           [0%]
-   - Snapping                [0%]
-   - Toolbars                [0%]
-   - Dock Widgets            [0%]
-   - Drawing Preferences     [0%]
-   - Customizing             [0%]    (Including Style Sheets)
+   - Fundamentals | [100%] | [0%] | (Including "The Coordinate System")
+   - Application Menu | [100%] | [0%] |
+   - Drawing Tools | [100%] | [0%] |
+   - Snapping | [100%] | [0%] |
+   - Toolbars | [100%] | [0%] |
+   - Dock Widgets | [100%] | [0%] |
+   - Drawing Preferences | [100%] | [0%] |
+   - Customizing | [100%] | [0%] | (Including Style Sheets)
 
 - User Guides: documents that provide instruction on how to do things with LibreCAD.  These are how-to’s, but with greater details(?)
    - Drawing Setup           [0%]
