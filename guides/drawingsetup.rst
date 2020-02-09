@@ -43,7 +43,7 @@ The "Format", e.g. paper size and orientation, to be used is an important to con
 Using Layers
 ------------
 
-Layers help organize drawings by allowing users to place and manage related entites.  Layers can be thought of transparent drawing sheets inserted and placed on top of one another and temporarily or permanently removed.  Layers have the added advantage in that the :ref:`pen <entity-pen>` attributes can be modified for all entities on the layer.  Layers are added, removed, hidden and modified using the :ref:`Layer List Dock <widget-layerList>`.
+Layers help organize drawings by allowing users to place and manage related entities.  Layers can be thought of transparent drawing sheets inserted and placed on top of one another and temporarily or permanently removed.  Layers have the added advantage in that the :ref:`pen <entity-pen>` attributes can be modified for all entities on the layer.  Layers are added, removed, hidden and modified using the :ref:`Layer List Dock <widget-layerList>`.
 
 .. note::
    Note that layer **0** is a special layer and should not be used.  Create at least one new layer for the drawing.
@@ -78,7 +78,7 @@ Layers that have been completed can be *locked*.  Locking layers prevents accide
 Construction Layers
 ~~~~~~~~~~~~~~~~~~~
 
-A layer designated as a "Construction Layer" is special layer used to create reference geometry to help align other drawing entities.  A contruction layer:
+A layer designated as a "Construction Layer" is special layer used to create reference geometry to help align other drawing entities.  A construction layer:
 
     - contains lines that are an infinite length, and
     - won't appear on printed drawings.
@@ -111,7 +111,7 @@ Templates are *prototype* drawings that provide the means to save basic paramete
 
 Templates are created by starting a new drawing, setting the desired :ref:`Drawing Preferences <draw-prefs>`, and adding any required drawing elements (e.g. layers, borders, etc).  Starting with a blank drawing in LibreCAD, select "Edit" from the menu bar and then "Current Drawing Preferences".  On the first tab labeled "Paper", set the paper size and orientation as desired.  Next, select the "Units" tab and set the options as desired.  Click the "Dimensions" tab and adjust the values as desired.  Check the remaining tabs and adjust those settings as necessary.  Click "OK" when done.  Add the layers and other drawing elements as required.  Refer to :ref:`Layers <su-layers>` for details on using layers and setting the attributes.
 
-Once the template has been prepared, it can be saved to any location where the user has read / write permissons.
+Once the template has been prepared, it can be saved to any location where the user has read / write permissions.
 
 LibreCAD supports the use of multiple templates. A LibreCAD user that plans on creating similar drawings may require only one or two templates.  A user that plans on several different types of drawings may desire multiple templates.  For example, templates can be setup for each paper size available and / or for each paper orientation.
 

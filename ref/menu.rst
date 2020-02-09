@@ -9,7 +9,7 @@
 Main Menu
 =========
 
-Most of LibreCAD's commands are accessible through the menubar.  Drop-down menus provides access to file and print operations, application and drawing configurations, drawing and editing tools, and other functions.
+Most of LibreCAD's commands are accessible through the menu bar.  Drop-down menus provides access to file and print operations, application and drawing configurations, drawing and editing tools, and other functions.
 
 The drop-down menus can be changed into a floating menu.  Each drop-down menu has a dashed line at the top.  Clicking and dragging the dashed line allows the menu to be "torn off" and moved to another location anywhere on-screen.  Clicking the dot on the upper right corner of the floating menu closes it.
 
@@ -89,15 +89,15 @@ View
 
     "Menu Item", "Icon", "Short-cut / *Command*", "Description"
     "Fullscreen", , "[F11]", "Hides the application title bar and toggles LibreCAD to use the entire display."
-    "Statusbar", , "[Ctrl]+i", "Toggles the visibilty of the status bar at the bottom of the application window."
-    "Grid", |icon27|, "[Ctrl]+g", "Toggles the visibilty of the grid."
-    "Draft", |icon28|, "[Ctrl]+d", "Toggles to or from ''Draft Mode''."
-    "Redraw", |icon29|, "[Ctrl]+r / *zr, rg, regen, redraw*", "Refreshes the view of the current drawing."
+    "Statusbar", , "[Ctrl]+[I]", "Toggles the visibility of the status bar at the bottom of the application window."
+    "Grid", |icon27|, "[Ctrl]+[G]", "Toggles the visibility of the grid."
+    "Draft", |icon28|, "[Ctrl]+[D]", "Toggles to or from ''Draft Mode''."
+    "Redraw", |icon29|, "[Ctrl]+[R] / *zr, rg, regen, redraw*", "Refreshes the view of the current drawing."
     "Zoom In", |icon30|, "[Ctrl]+[+]", "Increase view of drawing by 25% increments."
     "Zoom Out", |icon31|, "[Ctrl]+[-]", "Decrease view of drawing by 20% increments."
     "Auto Zoom", |icon32|, "*za*", "Resize the view of the drawing to fill the drawing window."
     "Previous View", |icon33|, "*zv*", "Revert to the previous zoom level of the drawing."
-    "Window Zoom", |icon34|, "*zw*", "Increase the view of the selecteed area to fill the drawing window."
+    "Window Zoom", |icon34|, "*zw*", "Increase the view of the selected area to fill the drawing window."
     "Zoom Panning", |icon35|, "*zp*", "Move the view of the drawing in the window."
 
 
@@ -172,7 +172,7 @@ Help
 
     "Menu Item", "Icon", "Short-cut", "Description"
     "Online", , "", "Displays links to online resources; Wiki, User's Manual, Command, Style Sheets, Widgets, Forum and Release Information."
-    "About", |icon00|, "", "Displays with information about the current version of LibreCAD and web links: to the ''Contibutors'', License and ''The Code'' repository."
+    "About", |icon00|, "", "Displays with information about the current version of LibreCAD and web links: to the ''Contributors'', License and ''The Code'' repository."
     "License", , "", "Displays the license text (GNU General Public License version 2)."
 
 

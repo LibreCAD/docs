@@ -9,11 +9,11 @@
 Dock Widgets
 =============
 
-Dock widgets serve two purposes; they provide alternative method to access drawing tools, and additional tools or features:
+Dock widgets are small movable windows that serve two purposes: (1) quick access to the drawing tools, and (2) access to additional features not available from a menu including:
 
-    - Block List
-    - Command Line
-    - Layer List
+    - Block List,
+    - Command Line,
+    - Layer List,
     - Library Browser, and
     - Pen Wizard.
 
@@ -25,16 +25,16 @@ Dock widgets serve two purposes; they provide alternative method to access drawi
     :scale: 100
     :alt: Lines Dock
 
-    Drawing tool dock example; Line
+    Drawing tool dock example: Line
 
-Dock widgets are available for these :ref:`Drawing Tools <tools>`:
+As an alternative to the **Tools** menu, the Dock widgets provide more convenient way to access the :ref:`Drawing Tools <tools>`:
 
-    - Circle
-    - Curve
-    - Dimension
-    - Ellipse
-    - Info
-    - Line
+    - Circle,
+    - Curve,
+    - Dimension,
+    - Ellipse,
+    - Info,
+    - Line,
     - Modify, and
     - Polyline.
 
@@ -129,7 +129,7 @@ Layer List Dock
 .. figure:: /images/dock-layerList01.png
     :width: 270px
     :height: 590px
-    :align: left
+    :align: right
     :scale: 67
     :alt: Layer List Dock
 
