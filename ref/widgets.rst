@@ -148,22 +148,26 @@ The Layer List Dock provides the functions to manage layers and a list of layers
     |icon14|, "”Remove the current layer” - Remove the highlighted layer. *"
     |icon15|, "”Modify layer attributes / rename” - Modify the layer's attributes and / or rename the layer. *"
 
+.. See icon mapping a eof
+
 .. Force end of left / right text wrap
 .. figure:: /images/whiteLine.png
     :width: 750px
     :align: center
 
-.. See icon mapping a eof
+Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
 
 ..  figure:: /images/layerAttributes01.png
     :width: 251px
     :height: 215px
     :scale: 100
-    :align: left
+    :align: right
     :alt: LibreCAD Layers Attributes
 
-Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
-
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :width: 750px
+    :align: center
 
 .. table::
     :widths: 25, 75
