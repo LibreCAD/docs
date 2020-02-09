@@ -224,10 +224,11 @@ Color
 `````
 
 .. image:: /images/coloursStd.png
-             :width: 140px
-             :height: 439px
-             :scale: 100
-             :alt: Standard color selector
+    :width: 140px
+    :height: 439px
+    :align: right
+    :scale: 100
+    :alt: Standard color selector
 
 The color for an entity can be selected from the ”Color” selection drop-down menu.  The drop-down menu allows the color to be selected ”By Layer”, ”By Block”, from the ”Custom” color selector, or chosen quickly from one of the 16 pre-defined colors: 
 
@@ -240,6 +241,20 @@ When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the c
 .. figure:: /images/whiteLine.png
     :align: center
 
+
+.. image:: /images/coloursCustom.png
+    :width: 490px
+    :height: 295px
+    :align: left
+    :scale: 67
+    :alt: Custom colors
+
+.. image:: /images/colourCustom.png
+    :width: 436px
+    :height: 426px
+    :align: right
+    :scale: 67
+    :alt: Custom color selector
 
 Selecting ”Custom” will allow a selection from a palette of 36 colors and shades of grey or from a user defined colors.  User defined colors are created by clicking the Add button |image10| and then selecting the *hue* and *value* from the color selection tool.  User defined colors can be modified by right-clicking on a user defined color and selecting a new *hue* and *value*.  A maximum of eight user defined colors can be added.
 
@@ -404,16 +419,7 @@ LibreCAD can also be used to create drawings with an **isometric** projection.  
 ..  Image mapping (no "align" allowed/required):
 
 
-.. |image02| image:: /images/coloursCustom.png
-             :width: 490px
-             :height: 295px
-             :scale: 67
-             :alt: Custom colors
-.. |image03| image:: /images/colourCustom.png
-             :width: 436px
-             :height: 426px
-             :scale: 67
-             :alt: Custom color selector
+
 .. |image10| image:: /images/coloursCustomAdd.png
              :width: 48
              :height: 32
