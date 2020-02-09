@@ -165,7 +165,7 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
     :alt: LibreCAD Layers Attributes
 
 .. table::
-    :widths: 25, 75
+    :widths: 25, 50
     :class: fix-table
 
 +----------------------+--------------------------------------------------------------------------+
