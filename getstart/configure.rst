@@ -112,6 +112,10 @@ Defaults
     :scale: 50
     :alt: LibreCAD Application Window - Defaults
 
+.. figure:: /images/whiteLine.png
+    :align: center
+    :alt: Forced end of left / right wrap
+
 Drawing Defaults
 ````````````````
 
