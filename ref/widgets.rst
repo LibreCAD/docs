@@ -164,11 +164,6 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
     :align: right
     :alt: LibreCAD Layers Attributes
 
-.. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :width: 750px
-    :align: center
-
 .. table::
     :widths: 25, 75
     :class: fix-table
