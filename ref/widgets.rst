@@ -67,14 +67,14 @@ Docked widgets can be dragged to different areas by "grabbing" (click and drag) 
 Block List Dock
 ---------------
 
+The Block List Dock provides the functions to manage blocks and a list of blocks that are active in the drawing.  Block functions include:
+
 .. figure:: /images/dock-blockList01.png
     :width: 272px
     :height: 590px
-    :align: right
+    :align: left
     :scale: 67
     :alt: Block List Dock
-
-The Block List Dock provides the functions to manage blocks and a list of blocks that are active in the drawing.  Block functions include:
 
 .. csv-table:: 
     :widths: 10, 90
