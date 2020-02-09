@@ -129,10 +129,9 @@ Layer List Dock
 .. figure:: /images/dock-layerList01.png
     :width: 270px
     :height: 590px
-    :align: right
+    :align: left
     :scale: 67
     :alt: Layer List Dock
-
 
 The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing. The entry line on top of the dock allows to filter by layer names (e.g. "\*01" would show all names ending by "01").  Layer functions include:
 
@@ -149,6 +148,11 @@ The Layer List Dock provides the functions to manage layers and a list of layers
     |icon14|, "”Remove the current layer” - Remove the highlighted layer. *"
     |icon15|, "”Modify layer attributes / rename” - Modify the layer's attributes and / or rename the layer. *"
 
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :width: 750px
+    :align: center
+
 .. See icon mapping a eof
 
 ..  figure:: /images/layerAttributes01.png
@@ -157,11 +161,6 @@ The Layer List Dock provides the functions to manage layers and a list of layers
     :scale: 100
     :align: left
     :alt: LibreCAD Layers Attributes
-
-.. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :width: 750px
-    :align: center
 
 Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
 
