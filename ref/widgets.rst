@@ -151,8 +151,6 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 .. See icon mapping a eof
 
-|
-
 ..  figure:: /images/layerAttributes01.png
     :width: 251px
     :height: 215px
@@ -160,13 +158,10 @@ The Layer List Dock provides the functions to manage layers and a list of layers
     :align: left
     :alt: LibreCAD Layers Attributes
 
-|
-|
-|
-|
-|
-|
-|
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :width: 750px
+    :align: center
 
 Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
 
@@ -223,8 +218,10 @@ Right-clicking on a layer opens a popup menu that provides equivalent operations
 
 More details on creating and using :ref:`layers <su-layers>` can be found in the :ref:`Drawing Setup <drawing-setup>` section of the **User Guides**.
 
-|
-|
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :width: 750px
+    :align: center
 
 
 .. _widget-libBrowser:
@@ -243,12 +240,10 @@ The Library Browser Dock shows blocks available from the defined libraries and a
 
 LibreCAD includes several libraries and additional libraries can be specified by defining a path to user libraries in the :ref:`Application Preferences <app-prefs>`, "Path" tab as shown in **Getting Started**.
 
-|
-|
-|
-|
-|
-|
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :width: 750px
+    :align: center
 
 
 .. _widget-penWiz:
