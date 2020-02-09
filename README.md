@@ -17,7 +17,7 @@ Section | Initial Draft | Review / Edit | Comment
 **Getting Started** |   |   |   
    Install | [100%] | [0%] |
    Configure | [100%] | [0%] | (Setting up / configuring LibreCAD)
-**References** |   |   | technical descriptions of the tools, functions, widgets, etc.
+**References** |   |   | Technical descriptions of the tools, functions, widgets, etc.
    Fundamentals | [100%] | [0%] | (Including "The Coordinate System")
    Application Menu | [100%] | [0%] |
    Drawing Tools | [100%] | [0%] |
@@ -26,26 +26,21 @@ Section | Initial Draft | Review / Edit | Comment
    Dock Widgets | [100%] | [0%] |
    Drawing Preferences | [100%] | [0%] |
    Customizing | [100%] | [0%] | (Including Style Sheets)
-
-- User Guides: documents that provide instruction on how to do things with LibreCAD.  These are how-to’s, but with greater details(?)
-   - Drawing Setup           [0%]
-      - Scale
-      - Attributes (layers, pens (color, line type & thickness))
-      - Templates
-   - Drawing and Modifying   [0%]
-   - Blocks                  [0%]
-   - Dimensioning & Text     [0%]
-   - The Command Line        [0%]
-   - Printing Guide          [0%]
-
-- Appendics
-   - Online Resources        [0%]
-   - Fonts                   [0%]
-   - Hatches                 [0%]
-   - Languages               [0%]
-   - Systems of Measurement  [0%]
-   - Calculator              [0%]    (Operators and Functions)
-   - Building from Source    [0%]
-   - Contributing            [0%]
-   - Licenses                [0%]
+**User Guides** |   |   | Documents that provide instruction on how to do things with LibreCAD.  These are how-to’s, but with greater details(?)
+   Drawing Setup | [100%] | [0%] | Scale, Attributes and Templates
+   Drawing and Modifying | [100%] | [0%] |
+   Blocks | [100%] | [0%] |
+   Dimensioning & Text | [100%] | [0%] |
+   The Command Line | [100%] | [0%] |
+   Printing Guide | [100%] | [0%] |
+**Appendics** |   |   | 
+   Online Resources | [100%] | [0%] |
+   Fonts | [100%] | [0%] |
+   Hatches | [100%] | [0%] |
+   Languages | [100%] | [0%] |
+   Systems of Measurement | [100%] | [0%] |
+   Calculator | [100%] | [0%] | Operators and Functions
+   Building from Source | [100%] | [0%] |
+   Contributing | [100%] | [0%] |
+   Licenses | [100%] | [0%] |
 
