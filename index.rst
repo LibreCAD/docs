@@ -1,5 +1,9 @@
 .. User Manual, LibreCAD v2.2.x
 
+
+.. include:: ./notice.rst
+
+
 ====================
 LibreCAD User Manual
 ====================
@@ -20,11 +24,6 @@ for LibreCAD ver 2.2.0
 As free software you can redistribute it and/or modify it under the terms of the see :ref:`GNU General Public License <gpl-license>` version 2 (GPLv2) as published by the Free Software Foundation.
 
 The latest information about LibreCAD can be found at `librecad.org <http://librecad.org>`_.
-
-
-.. warning::
-
-    *This is the initial release of the* **LibreCAD User Manual** *and may (will) change frequently.*  Watch for changes, in particular additions to the **User Guide** section.
 
 
 .. Top level index
