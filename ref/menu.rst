@@ -91,7 +91,7 @@ View
     "Fullscreen", , "[F11]", "Hides the application title bar and toggles LibreCAD to use the entire display."
     "Statusbar", , "[Ctrl]+[I]", "Toggles the visibility of the status bar at the bottom of the application window."
     "Grid", |icon27|, "[Ctrl]+[G]", "Toggles the visibility of the grid."
-    "Draft", |icon28|, "[Ctrl]+[D]", "Toggles to or from ''Draft Mode''."
+    "Draft", |icon28|, "[Ctrl]+[D]", "Toggles to or from ''Draft Mode''. Draft mode displays hatches as invisible, and only displays bounding boxes for images and text. Drawings will display faster, particularly on slow computers."
     "Redraw", |icon29|, "[Ctrl]+[R] / *zr, rg, regen, redraw*", "Refreshes the view of the current drawing."
     "Zoom In", |icon30|, "[Ctrl]+[+]", "Increase view of drawing by 25% increments."
     "Zoom Out", |icon31|, "[Ctrl]+[-]", "Decrease view of drawing by 20% increments."
