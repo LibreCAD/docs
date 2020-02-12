@@ -131,7 +131,7 @@ Defaults
 
 .. only:: latex
 
-   .. figure:: /images/appPref2.png
+   .. figure:: /images/appPref3.png
        :align: right
        :scale: 33
        :alt: 
