@@ -6,7 +6,7 @@ LibreCAD User Manual
 ====================
 
 .. Default include
-.. include:: /inclfiles/notice.rst
+.. include:: /inclFiles/notice.rst
 
 .. Show the LibreCAD's splash screen
 

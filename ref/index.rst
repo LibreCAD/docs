@@ -23,6 +23,4 @@ The Reference section provides an explanation of LibreCAD's user elements, comma
     Dock Widgets <widgets>
     Drawing Preferences <draw-prefs>
     Customizing <customize>
-..    Style Sheets <style-sheets>
-..    The Coordinate System <coordinates>
 
