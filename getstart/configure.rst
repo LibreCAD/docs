@@ -13,7 +13,7 @@ LibreCAD's "Welcome" dialog is shown the first time LibreCAD is launched after i
 
 .. figure:: /images/LC_welcome.png
     :align: center
-    :scale: 75
+    :scale: 50
     :alt: LibreCAD Welcome
 .. actual image size 705px x 410px
 
@@ -37,19 +37,18 @@ LibreCAD then starts with its default configuration and is ready use.  The user 
 Layout
 ------
 
-LibreCAD's layout and appearance is highly configurable:
-
-    - *Menus*: drop down from the menu bar or can be "torn off" and float anywhere on the display. Click the dashed line at the top of a menu to detach it.
-    - *Toolbars*: can be dragged and dropped to the top, bottom, left, right, or float anywhere on the display.
-    - *Docks Widgets*: (e.g. command line or layer list) can also be dragged and dropped to the top, bottom, left, right, or float within the drawing window.  In addition they can be stacked in the same region of the application window where they will be "tabbed".  Optionally docks can be placed outside of the application window, such as when using multiple monitors.  Drawing tools are also available as dock widgets, but are suited as floating "toolboxes".  Widgets can also be resized by dragging their edges.
-    - *Style sheets*: allow users to change the visual elements of the application's window decorations; title bars, fonts, colours, etc.  Refer to the :ref:`appendix <style-sheets>` for more details.
-
 .. figure:: /images/LC_everything2.png
     :align: center
     :scale: 50
     :alt: LibreCAD Application Window - custom layout
 .. actual image size 1280px x 960px
 
+LibreCAD's layout and appearance is highly configurable:
+
+    - *Menus*: drop down from the menu bar or can be "torn off" and float anywhere on the display. Click the dashed line at the top of a menu to detach it.
+    - *Toolbars*: can be dragged and dropped to the top, bottom, left, right, or float anywhere on the display.
+    - *Docks Widgets*: (e.g. command line or layer list) can also be dragged and dropped to the top, bottom, left, right, or float within the drawing window.  In addition they can be stacked in the same region of the application window where they will be "tabbed".  Optionally docks can be placed outside of the application window, such as when using multiple monitors.  Drawing tools are also available as dock widgets, but are suited as floating "toolboxes".  Widgets can also be resized by dragging their edges.
+    - *Style sheets*: allow users to change the visual elements of the application's window decorations; title bars, fonts, colours, etc.  Refer to the :ref:`appendix <style-sheets>` for more details.
 
 .. _app-prefs:
 
@@ -75,7 +74,7 @@ Appearance
 
    .. figure:: /images/appPref1.png
        :align: right
-       :scale: 25
+       :scale: 33
        :alt: LibreCAD Application Preferences - Appearance
 
 .. actual image size 785px x 623px
@@ -89,26 +88,23 @@ The *Language* categories allows the the user to select the language used in the
 Thirdly, the *Graphic Colors* section allow custom colors to be selected for the snap indicator, drawing background,  grid, and other indicators (selections, highlighted items and Handles).  Users can select predefined colors from the drop down menu or select their own from the color selector.
 
 .. Force end of left / right text wrap in PDF
-.. only:: latex
-
-   .. figure:: /images/whiteLine.png
-       :align: center
+.. include:: /inclFiles/eoWrapPDF.rst
 
 Path
 ~~~~
 
-.. figure:: /images/appPref2.png
-    :align: right
-    :scale: 50
-    :alt: LibreCAD Application Window - Paths
-.. actual image size 785px x 623px
+.. only:: html
 
+   .. figure:: /images/appPref2.png
+       :align: right
+       :scale: 50
+       :alt: LibreCAD Application Window - Paths
 
 .. only:: latex
 
    .. figure:: /images/appPref2.png
        :align: right
-       :scale: 25
+       :scale: 33
        :alt: LibreCAD Application Window - Paths
 
 .. actual image size 785px x 623px
@@ -121,18 +117,26 @@ The *Path* tab allows users to specify the directory paths to additional resourc
     - *Variable File*: load a user-defined variable file when starting the application (see the :ref:`Command Line <cmdline>` guide for details on using commands / variables files.)
 
 .. Force end of left / right text wrap in PDF
-.. only:: latex
-
-   .. figure:: /images/whiteLine.png
-       :align: center
+.. include:: /inclFiles/eoWrapPDF.rst
 
 Defaults
 ~~~~~~~~
 
-.. figure:: /images/appPref3.png
-    :align: right
-    :scale: 50
-    :alt: LibreCAD Application Window - Defaults
+.. only:: html
+
+   .. figure:: /images/appPref3.png
+       :align: right
+       :scale: 50
+       :alt: LibreCAD Application Window - Defaults
+
+.. only:: latex
+
+   .. figure:: /images/appPref2.png
+       :align: right
+       :scale: 33
+       :alt: 
+       :alt: LibreCAD Application Window - Defaults
+
 .. actual image size 785px x 623px
 
 Drawing Defaults
@@ -150,9 +154,7 @@ Program Defaults
     - *Modify layer of selected entities, at layer activation*: If checked, entities can be assigned to a layer by selecting the entities and then selecting the destination layer. 
 
 .. Force end of left / right text wrap in PDF
-.. only:: latex
-   .. figure:: /images/whiteLine.png
-       :align: center
+.. include:: /inclFiles/eoWrapPDF.rst
 
 Clear Settings
 ``````````````

@@ -1,5 +1,5 @@
 .. Notice / banner to include at top of every page via "include" command
-.. [.. include(double colon) /inclFiles/notice.rst]
+   [.. include(double colon) /inclFiles/notice.rst]
 
 
 .. admonition:: ** DRAFT ** LibreCAD v2.2.0 - User Manual ** DRAFT **
