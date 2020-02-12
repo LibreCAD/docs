@@ -68,7 +68,7 @@ Appearance
 
 .. figure:: /images/appPref1.png
     :align: right
-    :scale: 50
+    :scale: 40
     :alt: LibreCAD Application Preferences - Appearance
 .. actual image size 785px x 623px
 
@@ -89,7 +89,7 @@ Path
 
 .. figure:: /images/appPref2.png
     :align: right
-    :scale: 50
+    :scale: 40
     :alt: LibreCAD Application Window - Paths
 .. actual image size 785px x 623px
 
@@ -109,7 +109,7 @@ Defaults
 
 .. figure:: /images/appPref3.png
     :align: right
-    :scale: 50
+    :scale: 40
     :alt: LibreCAD Application Window - Defaults
 .. actual image size 785px x 623px
 
