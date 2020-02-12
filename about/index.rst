@@ -71,7 +71,7 @@ There are many people who have contributed to the **LibreCAD User Manual**.  Tho
 
 Some of those that have contributed, directly or indirectly, include:
 
-.. table::
+.. table:: 
    :widths: 50, 50
 
    +-------------------------+-------------------------+
@@ -83,6 +83,13 @@ Some of those that have contributed, directly or indirectly, include:
    |  - dellus               |  - Richard M Brown      |
    |  - Dli                  |  - Stano Sitar          |
    +-------------------------+-------------------------+
+
+.. table:: Normal table
+   :widths: 50, 50
+
+   +---------------------------------------------------+---------------------------------------------------+
+   |                                                   |                                                   |
+   +---------------------------------------------------+---------------------------------------------------+
 
 
 Copyright
