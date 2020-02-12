@@ -75,12 +75,11 @@ Appearance
 There are three categories on the "Appearance" tab that allows the user to change the look and behaviour of LibreCAD.
 
 The *Graphic View* category has options for the snap indicator style and shape, scrollbars and grid.  Use the *Snap Indicator Lines* to select the style for orthogonal (Crosshair, Crosshair 2 or Spiderweb) or isometric (Isometric) projections.  The *Anti-alias* setting, if supported by the hardware, when checked will reduce jagged edges of diagonal lines, circles, etc.
-
-The *Language* categories allows the the user to select the language used in the GUI and command line.  Supported languages can be found in the :ref:`appendix <languages>`.
-
 .. Force end of left / right text wrap
 .. figure:: /images/whiteLine.png
     :align: center
+
+The *Language* categories allows the the user to select the language used in the GUI and command line.  Supported languages can be found in the :ref:`appendix <languages>`.
 
 Thirdly, the *Graphic Colors* section allow custom colors to be selected for the snap indicator, drawing background,  grid, and other indicators (selections, highlighted items and Handles).  Users can select predefined colors from the drop down menu or select their own from the color selector.
 
@@ -100,7 +99,6 @@ The *Path* tab allows users to specify the directory paths to additional resourc
     - *Hatch Patterns, Fonts, Parts Libraries*: user created or obtained from other sources such as the Parts Library wiki
     - *Template*: specify the full path and filename of a user-defined drawing template to load when launching the application or starting a *new* drawing
     - *Variable File*: load a user-defined variable file when starting the application (see the :ref:`Command Line <cmdline>` guide for details on using commands / variables files.)
-
 .. Force end of left / right text wrap
 .. figure:: /images/whiteLine.png
     :align: center
@@ -129,7 +127,6 @@ Program Defaults
     - *Auto save time*: The time in minutes to perform an automatic save of the open files.  Auto files are saved to the same directory as the drawing file with a hash symbol (#) prefixed to the file name.
     - *Don't use native OS file open dialog*: When checked, LibreCAD's file open dialog is displayed when opening files.
     - *Modify layer of selected entities, at layer activation*: If checked, entities can be assigned to a layer by selecting the entities and then selecting the destination layer. 
-
 .. Force end of left / right text wrap
 .. figure:: /images/whiteLine.png
     :align: center
