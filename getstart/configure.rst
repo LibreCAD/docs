@@ -25,10 +25,20 @@ LibreCAD then starts with its default configuration and is ready use.  The user 
     - *Status bar*: displays coordinates (absolute and relative), active mouse button, selected entity information and grid status.
     - *Drawing window*: displays the active drawing.
 
-.. figure:: /images/LC_default_annotated.png
-    :align: center
-    :scale: 50
-    :alt: LibreCAD Application Window
+.. only:: html
+
+   .. figure:: /images/LC_default_annotated.png
+       :align: center
+       :scale: 50
+       :alt: LibreCAD Application Window
+
+.. only:: latex
+
+   .. figure:: /images/LC_default_annotated.png
+       :align: center
+       :scale: 50
+       :alt: LibreCAD Application Window
+
 .. actual image size 1280px x 960px
 
 
@@ -44,10 +54,20 @@ LibreCAD's layout and appearance is highly configurable:
     - *Docks Widgets*: (e.g. command line or layer list) can also be dragged and dropped to the top, bottom, left, right, or float within the drawing window.  In addition they can be stacked in the same region of the application window where they will be "tabbed".  Optionally docks can be placed outside of the application window, such as when using multiple monitors.  Drawing tools are also available as dock widgets, but are suited as floating "toolboxes".  Widgets can also be resized by dragging their edges.
     - *Style sheets*: allow users to change the visual elements of the application's window decorations; title bars, fonts, colors, etc.  Refer to the :ref:`appendix <style-sheets>` for more details.
 
-.. figure:: /images/LC_everything2.png
-    :align: center
-    :scale: 50
-    :alt: LibreCAD Application Window - custom layout
+.. only:: html
+
+   .. figure:: /images/LC_everything2.png
+       :align: center
+       :scale: 50
+       :alt: LibreCAD Application Window - custom layout
+
+.. only:: latex
+
+   .. figure:: /images/LC_everything2.png
+       :align: center
+       :scale: 33
+       :alt: LibreCAD Application Window - custom layout
+
 .. actual image size 1280px x 960px
 
 
@@ -119,7 +139,6 @@ It is recommended that user defined resource be placed in a user directory (e.g.
     - *Template*: specify the full path and filename of a user-defined drawing template to load when launching the application or starting a *new* drawing
     - *Variable File*: load a user-defined variable file when starting the application (see the :ref:`Command Line <cmdline>` guide for details on using commands / variables files.)
 
-
 .. Force end of left / right text wrap in PDF
 .. include:: /inclFiles/eoWrapPDF.rst
 
@@ -142,7 +161,7 @@ Defaults
 
 .. actual image size 785px x 623px
 
-The *Defaults* tab allows users to specify application wide defaults.
+The *Defaults* tab allows users to specify application-wide defaults.
 
 .. Force end of left / right text wrap in PDF
 .. include:: /inclFiles/eoWrapPDF.rst
