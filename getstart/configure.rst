@@ -67,7 +67,7 @@ Appearance
 .. Text for describing images follow image directive.
 
 .. figure:: /images/appPref1.png
-    :align: center
+    :align: right
     :scale: 40
     :alt: LibreCAD Application Preferences - Appearance
 .. actual image size 785px x 623px
@@ -80,9 +80,10 @@ The *Language* categories allows the the user to select the language used in the
 
 Thirdly, the *Graphic Colors* section allow custom colors to be selected for the snap indicator, drawing background,  grid, and other indicators (selections, highlighted items and Handles).  Users can select predefined colors from the drop down menu or select their own from the color selector.
 
-.. Force end of left / right text wrap
-.. figure[] /images/whiteLine.png
-    :align: center
+.. Force end of left / right text wrap in PDF
+.. only:: latex
+   .. figure:: /images/whiteLine.png
+       :align: center
 
 Path
 ~~~~
@@ -95,14 +96,15 @@ Path
 
 The *Path* tab allows users to specify the directory paths to additional resources; language ("Translations") and user created or installed Hatch Patterns, Fonts, Parts libraries and Templates and a "Variable file".  These paths do not override the defaults paths, but are appended so the default resources are still available.  It is recommended that user defined resource be placed in a user directory (e.g. home directory on Linux: ~/LibreCAD/Translations, etc.)
 
+.. Force end of left / right text wrap in PDF
+.. only:: latex
+   .. figure:: /images/whiteLine.png
+       :align: center
+
     - *Translations*: Language files for the GUI and / or command languages.
     - *Hatch Patterns, Fonts, Parts Libraries*: user created or obtained from other sources such as the Parts Library wiki
     - *Template*: specify the full path and filename of a user-defined drawing template to load when launching the application or starting a *new* drawing
     - *Variable File*: load a user-defined variable file when starting the application (see the :ref:`Command Line <cmdline>` guide for details on using commands / variables files.)
-
-.. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :align: center
 
 Defaults
 ~~~~~~~~
@@ -127,9 +129,10 @@ Program Defaults
     - *Don't use native OS file open dialog*: When checked, LibreCAD's file open dialog is displayed when opening files.
     - *Modify layer of selected entities, at layer activation*: If checked, entities can be assigned to a layer by selecting the entities and then selecting the destination layer. 
 
-.. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :align: center
+.. Force end of left / right text wrap in PDF
+.. only:: latex
+   .. figure:: /images/whiteLine.png
+       :align: center
 
 Clear Settings
 ``````````````

@@ -62,13 +62,13 @@ Conventions
    - Tab titles are enclosed in quotes, ” “, with matching case.
    - Button labels are enclosed in quotes with matching case.
    - Key combinations are shown with the keyboard labels enclosed in square brackets with a “+” between keys, e.g. [Ctrl]+[C].
-   - Types text, commands or coordinates, are shown in a text box, such as:
+   - Text typed at the command line, commands or coordinates, is shown in a text box:
 
       ::
 
          li
          0,0
-         0,500
+         0,50
          k
       
 
