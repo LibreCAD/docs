@@ -109,15 +109,18 @@ Path
 
 .. actual image size 785px x 623px
 
-The *Path* tab allows users to specify the directory paths to additional resources; language ("Translations") and user created or installed Hatch Patterns, Fonts, Parts libraries and Templates and a "Variable file".  These paths do not override the defaults paths, but are appended so the default resources are still available.  It is recommended that user defined resource be placed in a user directory (e.g. home directory on Linux: ~/LibreCAD/Translations, etc.)
+The *Path* tab allows users to specify the directory paths to additional resources; language ("Translations") and user created or installed Hatch Patterns, Fonts, Parts libraries and Templates and a "Variable file".  These paths do not override the defaults paths, but are appended so the default resources are still available.
+
+.. Force end of left / right text wrap in PDF
+.. include:: /inclFiles/eoWrapPDF.rst
+
+It is recommended that user defined resource be placed in a user directory (e.g. home directory on Linux: ~/LibreCAD/Translations, etc.)
 
     - *Translations*: Language files for the GUI and / or command languages.
     - *Hatch Patterns, Fonts, Parts Libraries*: user created or obtained from other sources such as the Parts Library wiki
     - *Template*: specify the full path and filename of a user-defined drawing template to load when launching the application or starting a *new* drawing
     - *Variable File*: load a user-defined variable file when starting the application (see the :ref:`Command Line <cmdline>` guide for details on using commands / variables files.)
 
-.. Force end of left / right text wrap in PDF
-.. include:: /inclFiles/eoWrapPDF.rst
 
 Defaults
 ~~~~~~~~

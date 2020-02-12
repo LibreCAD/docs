@@ -24,8 +24,9 @@ The latest information about LibreCAD can be found at `librecad.org <http://libr
 
 .. Top level index
 
-Contents
-========
+.. Removed from Menu
+.. Contents
+.. ========
 
 .. toctree::
    :maxdepth: 3

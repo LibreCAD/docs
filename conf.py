@@ -76,7 +76,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'README.md']
 pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = True
+todo_include_todos = False
 
 
 # -- Options for HTML output ----------------------------------------------
@@ -105,7 +105,7 @@ html_theme_options = {
     # Toc options
 #   'collapse_navigation': True,
 #   'sticky_navigation': True,
-#   'navigation_depth': 4,
+#   'navigation_depth': 3,
 #   'includehidden': True,
 #   'titles_only': False
 }
