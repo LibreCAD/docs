@@ -37,18 +37,19 @@ LibreCAD then starts with its default configuration and is ready use.  The user 
 Layout
 ------
 
-.. figure:: /images/LC_everything2.png
-    :align: center
-    :scale: 50
-    :alt: LibreCAD Application Window - custom layout
-.. actual image size 1280px x 960px
-
 LibreCAD's layout and appearance is highly configurable:
 
     - *Menus*: drop down from the menu bar or can be "torn off" and float anywhere on the display. Click the dashed line at the top of a menu to detach it.
     - *Toolbars*: can be dragged and dropped to the top, bottom, left, right, or float anywhere on the display.
     - *Docks Widgets*: (e.g. command line or layer list) can also be dragged and dropped to the top, bottom, left, right, or float within the drawing window.  In addition they can be stacked in the same region of the application window where they will be "tabbed".  Optionally docks can be placed outside of the application window, such as when using multiple monitors.  Drawing tools are also available as dock widgets, but are suited as floating "toolboxes".  Widgets can also be resized by dragging their edges.
     - *Style sheets*: allow users to change the visual elements of the application's window decorations; title bars, fonts, colors, etc.  Refer to the :ref:`appendix <style-sheets>` for more details.
+
+.. figure:: /images/LC_everything2.png
+    :align: center
+    :scale: 50
+    :alt: LibreCAD Application Window - custom layout
+.. actual image size 1280px x 960px
+
 
 .. _app-prefs:
 
@@ -136,26 +137,25 @@ Defaults
 
    .. figure:: /images/appPref3.png
        :align: right
-       :width: 216 pt
+       :scale: 33
        :alt: LibreCAD Application Window - Defaults
 
 .. actual image size 785px x 623px
 
-The *Defaults* tab allows users to specify application wide defaults. 
+The *Defaults* tab allows users to specify application wide defaults.
+
+.. Force end of left / right text wrap in PDF
+.. include:: /inclFiles/eoWrapPDF.rst
+
 
 Drawing Defaults
 ````````````````
 
 *Unit*: Defines the :ref:`default unit of measure <measurements>` for all new drawings.  The default can be overridden by setting the unit of measure in the Drawing preferences or template.
 
-.. Force end of left / right text wrap in PDF
-.. include:: /inclFiles/eoWrapPDF.rst
-
 
 Program Defaults
 ````````````````
-
-The remaining settings impact the appearance and behavior of the application. 
 
     - *Auto backup*: When checked, a backup will be created when closing the file.  Backup files are saved to the same directory as the drawing file with a tilde (~) appended to the file name.
     - *Auto save time*: The time in minutes to perform an automatic save of the open files.  Auto files are saved to the same directory as the drawing file with a hash symbol (#) prefixed to the file name.
