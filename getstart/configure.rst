@@ -45,8 +45,6 @@ LibreCAD's layout and appearance is highly configurable:
     - *Style sheets*: allow users to change the visual elements of the application's window decorations; title bars, fonts, colours, etc.  Refer to the :ref:`appendix <style-sheets>` for more details.
 
 .. figure:: /images/LC_everything2.png
-    :width: 1280px
-    :height: 960px
     :align: center
     :scale: 50
     :alt: LibreCAD Application Window - custom layout
