@@ -131,7 +131,6 @@ Program Defaults
 .. figure:: /images/whiteLine.png
     :align: center
 
-
 Clear Settings
 ``````````````
 LibreCAD's configuration can be partially or entirely reset back to a defaults:
