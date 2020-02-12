@@ -12,12 +12,10 @@ Configuration
 LibreCAD's "Welcome" dialog is shown the first time LibreCAD is launched after installation.  The dialog prompts the user to select the :ref:`Default Unit <measurements>` and the languages to be used for the GUI and for the commands: 
 
 .. figure:: /images/LC_welcome.png
-    :width: 705px
-    :height: 410px
     :align: center
     :scale: 75
     :alt: LibreCAD Welcome
-
+.. actual image size 705px x 410px
 
 LibreCAD then starts with its default configuration and is ready use.  The user interface consists of several elements as shown below:
 
@@ -27,13 +25,11 @@ LibreCAD then starts with its default configuration and is ready use.  The user 
     - *Status bar*: displays coordinates (absolute and relative), active mouse button, selected entity information and grid status.
     - *Drawing window*: displays the active drawing.
 
-
 .. figure:: /images/LC_default_annotated.png
-    :width: 1280px
-    :height: 960px
     :align: center
     :scale: 50
     :alt: LibreCAD Application Window
+.. actual image size 1280px x 960px
 
 
 .. _app-layout:
@@ -54,6 +50,7 @@ LibreCAD's layout and appearance is highly configurable:
     :align: center
     :scale: 50
     :alt: LibreCAD Application Window - custom layout
+.. actual image size 1280px x 960px
 
 
 .. _app-prefs:
@@ -70,17 +67,20 @@ Appearance
 .. Text for describing images follow image directive.
 
 .. figure:: /images/appPref1.png
-    :width: 785px
-    :height: 623px
     :align: right
     :scale: 50
     :alt: LibreCAD Application Preferences - Appearance
+.. actual image size 785px x 623px
 
 There are three categories on the "Appearance" tab that allows the user to change the look and behaviour of LibreCAD.
 
 The *Graphic View* category has options for the snap indicator style and shape, scrollbars and grid.  Use the *Snap Indicator Lines* to select the style for orthogonal (Crosshair, Crosshair 2 or Spiderweb) or isometric (Isometric) projections.  The *Anti-alias* setting, if supported by the hardware, when checked will reduce jagged edges of diagonal lines, circles, etc.
 
 The *Language* categories allows the the user to select the language used in the GUI and command line.  Supported languages can be found in the :ref:`appendix <languages>`.
+
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :align: center
 
 Thirdly, the *Graphic Colors* section allow custom colors to be selected for the snap indicator, drawing background,  grid, and other indicators (selections, highlighted items and Handles).  Users can select predefined colors from the drop down menu or select their own from the color selector.
 
@@ -89,11 +89,10 @@ Path
 ~~~~
 
 .. figure:: /images/appPref2.png
-    :width: 785px
-    :height: 623px
     :align: right
     :scale: 50
     :alt: LibreCAD Application Window - Paths
+.. actual image size 785px x 623px
 
 The *Path* tab allows users to specify the directory paths to additional resources; language ("Translations") and user created or installed Hatch Patterns, Fonts, Parts libraries and Templates and a "Variable file".  These paths do not override the defaults paths, but are appended so the default resources are still available.  It is recommended that user defined resource be placed in a user directory (e.g. home directory on Linux: ~/LibreCAD/Translations, etc.)
 
@@ -102,16 +101,19 @@ The *Path* tab allows users to specify the directory paths to additional resourc
     - *Template*: specify the full path and filename of a user-defined drawing template to load when launching the application or starting a *new* drawing
     - *Variable File*: load a user-defined variable file when starting the application (see the :ref:`Command Line <cmdline>` guide for details on using commands / variables files.)
 
+.. Force end of left / right text wrap
+.. figure:: /images/whiteLine.png
+    :align: center
+
 
 Defaults
 ~~~~~~~~
 
 .. figure:: /images/appPref3.png
-    :width: 785px
-    :height: 623px
     :align: right
     :scale: 50
     :alt: LibreCAD Application Window - Defaults
+.. actual image size 785px x 623px
 
 
 Drawing Defaults
