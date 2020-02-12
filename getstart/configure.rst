@@ -67,7 +67,7 @@ Appearance
 .. Text for describing images follow image directive.
 
 .. figure:: /images/appPref1.png
-    :align: right
+    :align: center
     :scale: 40
     :alt: LibreCAD Application Preferences - Appearance
 .. actual image size 785px x 623px
@@ -81,7 +81,7 @@ The *Language* categories allows the the user to select the language used in the
 Thirdly, the *Graphic Colors* section allow custom colors to be selected for the snap indicator, drawing background,  grid, and other indicators (selections, highlighted items and Handles).  Users can select predefined colors from the drop down menu or select their own from the color selector.
 
 .. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
+.. figure[] /images/whiteLine.png
     :align: center
 
 Path
