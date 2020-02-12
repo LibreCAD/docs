@@ -71,10 +71,10 @@ There are many people who have contributed to the **LibreCAD User Manual**.  Tho
 
 Some of those that have contributed, directly or indirectly, include:
 
-.. table:: Normal table
+.. table::
    :widths: 50, 50
 
-   +-------------------------+-------------------------+
+   +=========================+=========================+
    |  - Armin Stebich        |  - Fabrice              |
    |  - Bob Woltz            |  - Ferdi                |
    |  - Chris G              |  - Gary S  (Maintainer) |
@@ -82,7 +82,7 @@ Some of those that have contributed, directly or indirectly, include:
    |  - David Huff           |  - Ravas                |
    |  - dellus               |  - Richard M Brown      |
    |  - Dli                  |  - Stano Sitar          |
-   +-------------------------+-------------------------+
+   +=========================+=========================+
 
 
 Copyright
