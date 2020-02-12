@@ -28,7 +28,7 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
     
    About <about/index.rst>
    Getting Started <getstart/index.rst>

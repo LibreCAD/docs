@@ -64,10 +64,20 @@ Appearance
 
 .. Text for describing images follow image directive.
 
-.. figure:: /images/appPref1.png
-    :align: right
-    :scale: 40
-    :alt: LibreCAD Application Preferences - Appearance
+.. only:: html
+
+   .. figure:: /images/appPref1.png
+       :align: right
+       :scale: 50
+       :alt: LibreCAD Application Preferences - Appearance
+
+.. only:: latex
+
+   .. figure:: /images/appPref1.png
+       :align: right
+       :scale: 25
+       :alt: LibreCAD Application Preferences - Appearance
+
 .. actual image size 785px x 623px
 
 There are three categories on the "Appearance" tab that allows the user to change the look and behaviour of LibreCAD.
@@ -80,6 +90,7 @@ Thirdly, the *Graphic Colors* section allow custom colors to be selected for the
 
 .. Force end of left / right text wrap in PDF
 .. only:: latex
+
    .. figure:: /images/whiteLine.png
        :align: center
 
@@ -88,28 +99,39 @@ Path
 
 .. figure:: /images/appPref2.png
     :align: right
-    :scale: 40
+    :scale: 50
     :alt: LibreCAD Application Window - Paths
 .. actual image size 785px x 623px
 
-The *Path* tab allows users to specify the directory paths to additional resources; language ("Translations") and user created or installed Hatch Patterns, Fonts, Parts libraries and Templates and a "Variable file".  These paths do not override the defaults paths, but are appended so the default resources are still available.  It is recommended that user defined resource be placed in a user directory (e.g. home directory on Linux: ~/LibreCAD/Translations, etc.)
 
-.. Force end of left / right text wrap in PDF
 .. only:: latex
-   .. figure:: /images/whiteLine.png
-       :align: center
+
+   .. figure:: /images/appPref2.png
+       :align: right
+       :scale: 25
+       :alt: LibreCAD Application Window - Paths
+
+.. actual image size 785px x 623px
+
+The *Path* tab allows users to specify the directory paths to additional resources; language ("Translations") and user created or installed Hatch Patterns, Fonts, Parts libraries and Templates and a "Variable file".  These paths do not override the defaults paths, but are appended so the default resources are still available.  It is recommended that user defined resource be placed in a user directory (e.g. home directory on Linux: ~/LibreCAD/Translations, etc.)
 
     - *Translations*: Language files for the GUI and / or command languages.
     - *Hatch Patterns, Fonts, Parts Libraries*: user created or obtained from other sources such as the Parts Library wiki
     - *Template*: specify the full path and filename of a user-defined drawing template to load when launching the application or starting a *new* drawing
     - *Variable File*: load a user-defined variable file when starting the application (see the :ref:`Command Line <cmdline>` guide for details on using commands / variables files.)
 
+.. Force end of left / right text wrap in PDF
+.. only:: latex
+
+   .. figure:: /images/whiteLine.png
+       :align: center
+
 Defaults
 ~~~~~~~~
 
 .. figure:: /images/appPref3.png
     :align: right
-    :scale: 40
+    :scale: 50
     :alt: LibreCAD Application Window - Defaults
 .. actual image size 785px x 623px
 
