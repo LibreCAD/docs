@@ -111,9 +111,6 @@ Path
 
 The *Path* tab allows users to specify the directory paths to additional resources; language ("Translations") and user created or installed Hatch Patterns, Fonts, Parts libraries and Templates and a "Variable file".  These paths do not override the defaults paths, but are appended so the default resources are still available.
 
-.. Force end of left / right text wrap in PDF
-.. include:: /inclFiles/eoWrapPDF.rst
-
 It is recommended that user defined resource be placed in a user directory (e.g. home directory on Linux: ~/LibreCAD/Translations, etc.)
 
     - *Translations*: Language files for the GUI and / or command languages.
@@ -121,6 +118,9 @@ It is recommended that user defined resource be placed in a user directory (e.g.
     - *Template*: specify the full path and filename of a user-defined drawing template to load when launching the application or starting a *new* drawing
     - *Variable File*: load a user-defined variable file when starting the application (see the :ref:`Command Line <cmdline>` guide for details on using commands / variables files.)
 
+
+.. Force end of left / right text wrap in PDF
+.. include:: /inclFiles/eoWrapPDF.rst
 
 Defaults
 ~~~~~~~~
@@ -153,8 +153,11 @@ Program Defaults
 ````````````````
 
 *Auto backup*: When checked, a backup will be created when closing the file.  Backup files are saved to the same directory as the drawing file with a tilde (~) appended to the file name.
+
 *Auto save time*: The time in minutes to perform an automatic save of the open files.  Auto files are saved to the same directory as the drawing file with a hash symbol (#) prefixed to the file name.
+
 *Don't use native OS file open dialog*: When checked, LibreCAD's file open dialog is displayed when opening files.
+
 *Modify layer of selected entities, at layer activation*: If checked, entities can be assigned to a layer by selecting the entities and then selecting the destination layer. 
 
 .. Force end of left / right text wrap in PDF
