@@ -71,22 +71,23 @@ There are many people who have contributed to the **LibreCAD User Manual**.  Tho
 
 Some of those that have contributed, directly or indirectly, include:
 
-.. list-table::  
+.. list-table::
+   :align: center
    :widths: 50, 50
 
    *  - Armin Stebich
       - Bob Woltz
-      - Chris G
+   *  - Chris G
       - Clive Tubb
-      - David Huff
+   *  - David Huff
       - dellus
-      - Dli
-   *  - Fabrice
-      - Ferdi
+   *  - Dli, 
+      - Fabrice
+   *  - Ferdi
       - Gary S  (Maintainer)
-      - R\. van Twisk
+   *  - R\. van Twisk
       - Ravas
-      - Richard M Brown
+   *  - Richard M Brown
       - Stano Sitar
 
 
