@@ -48,7 +48,7 @@ LibreCAD's layout and appearance is highly configurable:
     - *Menus*: drop down from the menu bar or can be "torn off" and float anywhere on the display. Click the dashed line at the top of a menu to detach it.
     - *Toolbars*: can be dragged and dropped to the top, bottom, left, right, or float anywhere on the display.
     - *Docks Widgets*: (e.g. command line or layer list) can also be dragged and dropped to the top, bottom, left, right, or float within the drawing window.  In addition they can be stacked in the same region of the application window where they will be "tabbed".  Optionally docks can be placed outside of the application window, such as when using multiple monitors.  Drawing tools are also available as dock widgets, but are suited as floating "toolboxes".  Widgets can also be resized by dragging their edges.
-    - *Style sheets*: allow users to change the visual elements of the application's window decorations; title bars, fonts, colours, etc.  Refer to the :ref:`appendix <style-sheets>` for more details.
+    - *Style sheets*: allow users to change the visual elements of the application's window decorations; title bars, fonts, colors, etc.  Refer to the :ref:`appendix <style-sheets>` for more details.
 
 .. _app-prefs:
 
@@ -79,9 +79,9 @@ Appearance
 
 .. actual image size 785px x 623px
 
-There are three categories on the "Appearance" tab that allows the user to change the look and behaviour of LibreCAD.
+There are three categories on the "Appearance" tab that allows the user to change the look and behavior of LibreCAD.
 
-The *Graphic View* category has options for the snap indicator style and shape, scrollbars and grid.  Use the *Snap Indicator Lines* to select the style for orthogonal (Crosshair, Crosshair 2 or Spiderweb) or isometric (Isometric) projections.  The *Anti-alias* setting, if supported by the hardware, when checked will reduce jagged edges of diagonal lines, circles, etc.
+The *Graphic View* category has options for the snap indicator style and shape, scroll-bars and grid.  Use the *Snap Indicator Lines* to select the style for orthogonal (Crosshair, Crosshair 2 or Spiderweb) or isometric (Isometric) projections.  The *Anti-alias* setting, if supported by the hardware, when checked will reduce jagged edges of diagonal lines, circles, etc.
 
 The *Language* categories allows the the user to select the language used in the GUI and command line.  Supported languages can be found in the :ref:`appendix <languages>`.
 
@@ -140,6 +140,8 @@ Defaults
        :alt: LibreCAD Application Window - Defaults
 
 .. actual image size 785px x 623px
+
+The *Defaults* tab allows users to specify application wide defaults. The "Unit" setting is specific to drawings while the remaining setting impact the appearance and behavior of the application. 
 
 Drawing Defaults
 ````````````````
