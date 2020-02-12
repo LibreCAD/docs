@@ -137,7 +137,6 @@ Defaults
    .. figure:: /images/appPref3.png
        :align: right
        :scale: 33
-       :alt: 
        :alt: LibreCAD Application Window - Defaults
 
 .. actual image size 785px x 623px
