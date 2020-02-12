@@ -1,13 +1,12 @@
 .. User Manual, LibreCAD v2.2.x
 
-.. Default include
-.. include:: /notice.rst
-
 
 ====================
 LibreCAD User Manual
 ====================
-for LibreCAD ver 2.2.0
+
+.. Default include
+.. include:: /inclfiles/notice.rst
 
 .. Show the LibreCAD's splash screen
 
@@ -18,10 +17,7 @@ for LibreCAD ver 2.2.0
     :align: center
     :alt: LibreCAD Splash
 
-
-**LibreCAD** is a **free Open Source** 2D CAD application using the cross-platform framework Qt.  That means it works with multiple operating systems; Windows, Apple and Linux. Support and documentation is free from our large, dedicated community of users, contributors and developers.  The user interface is translated in over 30 languages.
-
-As free software you can redistribute it and/or modify it under the terms of the see :ref:`GNU General Public License <gpl-license>` version 2 (GPLv2) as published by the Free Software Foundation.
+**LibreCAD** is a free Open Source Computer Aided Drafting (CAD) application licensed under GPLv2.
 
 The latest information about LibreCAD can be found at `librecad.org <http://librecad.org>`_.
 
