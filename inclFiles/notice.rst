@@ -2,10 +2,7 @@
 .. [.. include(double colon) /inclFiles/notice.rst]
 
 
-LibreCAD v2.2.0 - User Manual
-
-
-.. admonition:: , ** DRAFT **
+.. admonition:: ** DRAFT ** LibreCAD v2.2.0 - User Manual ** DRAFT **
 
     *This is the initial* **DRAFT** *of the* **LibreCAD User Manual** *and is subject to change.*  
 
