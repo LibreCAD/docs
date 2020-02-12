@@ -44,7 +44,7 @@ As free software you can redistribute it and/or modify it under the terms of the
 The User Manual
 ---------------
 
-The user manual is a compilation from many sources.  The manual includes detailed instructions on obtaining, installing and configuring LibreCAD in the :ref:`Getting Started <getstart>` section.  It contains the technical descriptions of the tools, functions, widgets, etc. in the :ref:`Reference <reference>` section and generic instructions on how to do a few things with LibreCAD in the :ref:`User Guide <guides> section. There is also further information and links to additional resources in the :ref:`appendices <appendix>`.
+The user manual is a compilation from many sources.  The manual includes detailed instructions on obtaining, installing and configuring LibreCAD in the :ref:`Getting Started <getstart>` section.  It contains the technical descriptions of the tools, functions, widgets, etc. in the :ref:`Reference <reference>` section and generic instructions on how to do a few things with LibreCAD in the :ref:`User Guide <guides>` section. There is also further information and links to additional resources in the :ref:`appendices <appendix>`.
 
 The manual is best viewed with a minimum screen width of 1152 pixels to display the menu and content in a browser.  Clicking the “LibreCAD” text or icon at the top of the menu will return to the User Manual’s home page.  On smaller devices, a mobile device for example, a minimum screen width of 768 pixels is recommended to display to content.  The menu is hidden and can be made visible by clicking the “hamburger” icon.  Clicking the “LibreCAD” text top of the window will return to the home page.
 
