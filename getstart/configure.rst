@@ -136,31 +136,32 @@ Defaults
 
    .. figure:: /images/appPref3.png
        :align: right
-       :width: 100 pt
+       :width: 216 pt
        :alt: LibreCAD Application Window - Defaults
 
 .. actual image size 785px x 623px
 
-The *Defaults* tab allows users to specify application wide defaults. The "Unit" setting is specific to drawings while the remaining setting impact the appearance and behavior of the application. 
+The *Defaults* tab allows users to specify application wide defaults. 
 
 Drawing Defaults
 ````````````````
 
 *Unit*: Defines the :ref:`default unit of measure <measurements>` for all new drawings.  The default can be overridden by setting the unit of measure in the Drawing preferences or template.
 
+.. Force end of left / right text wrap in PDF
+.. include:: /inclFiles/eoWrapPDF.rst
+
 
 Program Defaults
 ````````````````
 
-
+The remaining settings impact the appearance and behavior of the application. 
 
     - *Auto backup*: When checked, a backup will be created when closing the file.  Backup files are saved to the same directory as the drawing file with a tilde (~) appended to the file name.
     - *Auto save time*: The time in minutes to perform an automatic save of the open files.  Auto files are saved to the same directory as the drawing file with a hash symbol (#) prefixed to the file name.
     - *Don't use native OS file open dialog*: When checked, LibreCAD's file open dialog is displayed when opening files.
     - *Modify layer of selected entities, at layer activation*: If checked, entities can be assigned to a layer by selecting the entities and then selecting the destination layer. 
 
-.. Force end of left / right text wrap in PDF
-.. include:: /inclFiles/eoWrapPDF.rst
 
 Clear Settings
 ``````````````
