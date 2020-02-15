@@ -168,25 +168,25 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
 
 .. table::
     :widths: 25, 50
-    :class: fix-table
+    :class: table-fix-width
 
-+----------------------+--------------------------------------------------------------------------+
-| Attribute            | Description                                                              |
-+======================+==========================================================================+
-| Layer Name           |  The default layer name is "O", but any alpha-numeric label can be used. |
-|                      |  New layers are created with the name of the highlighted layer with a    |
-|                      |  sequence number appended.  Layers are sorted in the list alpha-         |
-|                      |  numerically.                                                            |
-+----------------------+--------------------------------------------------------------------------+
-| Construction Layer   |  Toggle the construction lines off / on.  Construction lines are         |
-|                      |  intended as temporary lines and drawn to ”infinity”".                   |
-+----------------------+--------------------------------------------------------------------------+
-| Default Pen:         |  - Color: Select from default or custom colors.                          |
-|                      |  - Width: Select from predefined line widths from 0.00 to 2.11 mm.       |
-|                      |  - Type: Select from predefined line types: Continuous, or Dot, Dash,    |
-|                      |    Dash Dot, Divide, Center, or Border (normal, "tiny", "small", or      |
-|                      |    "large").                                                             |
-+----------------------+--------------------------------------------------------------------------+
+    +----------------------+--------------------------------------------------------------------------+
+    | Attribute            | Description                                                              |
+    +======================+==========================================================================+
+    | Layer Name           |  The default layer name is "O", but any alpha-numeric label can be used. |
+    |                      |  New layers are created with the name of the highlighted layer with a    |
+    |                      |  sequence number appended.  Layers are sorted in the list alpha-         |
+    |                      |  numerically.                                                            |
+    +----------------------+--------------------------------------------------------------------------+
+    | Construction Layer   |  Toggle the construction lines off / on.  Construction lines are         |
+    |                      |  intended as temporary lines and drawn to ”infinity”".                   |
+    +----------------------+--------------------------------------------------------------------------+
+    | Default Pen:         |  - Color: Select from default or custom colors.                          |
+    |                      |  - Width: Select from predefined line widths from 0.00 to 2.11 mm.       |
+    |                      |  - Type: Select from predefined line types: Continuous, or Dot, Dash,    |
+    |                      |    Dash Dot, Divide, Center, or Border (normal, "tiny", "small", or      |
+    |                      |    "large").                                                             |
+    +----------------------+--------------------------------------------------------------------------+
 
 The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used.
 
