@@ -25,12 +25,22 @@ LibreCAD also uses a *Relative Zero Point*.  It is the last point set when creat
 
 Examples of X and Y coordinates:
 
-.. figure:: /images/coords.png
-    :width: 880px
-    :height: 660px
-    :align: center
-    :scale: 67
-    :alt: Coordinate
+
+.. only:: html
+
+    .. figure:: /images/coords.png
+        :align: center
+        :scale: 50
+        :alt: Coordinate
+
+.. only:: latex
+
+    .. figure:: /images/coords.png
+        :align: center
+        :scale: 33
+        :alt: Coordinate
+
+.. actual image size 880px x 660px
 
 
 Types of Coordinates
@@ -38,44 +48,74 @@ Types of Coordinates
 
 There are two coordinate systems used in LibreCAD, *Cartesian* and *Polar*.
 
+.. only:: html
+
+    .. figure:: /images/byCartesian.png
+        :align: right
+        :scale: 40
+        :alt: Cartesian Coordinates
+
+.. only:: latex
+
+    .. figure:: /images/byCartesian.png
+        :align: center
+        :scale: 40
+        :alt: Cartesian Coordinates
+
+.. actual image size 800px x 660px
+
 Cartesian
 `````````
-
-.. figure:: /images/byCartesian.png
-    :width: 800px
-    :height: 660px
-    :align: right
-    :scale: 45
-    :alt: Cartesian Coordinates
 
 The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is the horizontal axis and Y is the vertical axis.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be "100,75", as shown here.
 
 .. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :align: center
+.. include:: /inclFiles/eoWrap.rst
 
+.. only:: html
+
+    .. figure:: /images/byPolar.png
+        :align: right
+        :scale: 40
+        :alt: Polar Coordinates
+
+.. only:: latex
+
+    .. figure:: /images/byPolar.png
+        :align: center
+        :scale: 40
+        :alt: Polar Coordinates
+
+.. actual image size 800px x 660px
 
 Polar
 `````
 
-.. figure:: /images/byPolar.png
-    :width: 800px
-    :height: 660px
-    :align: right
-    :scale: 45
-    :alt: Polar Coordinates
-
 The *Polar* coordinate system uses one distance and one angle to locate a point in a drawing.  In LibreCAD the polar coordinates take the form *100 < 45*, indicating a line 100 units long and at an angle of 45 degrees as shown.
 
 .. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :align: center
-
+.. include:: /inclFiles/eoWrap.rst
 
 Defining Coordinate Locations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In LibreCAD lines, points, arcs, polylines, circles, and many more entities can be placed in a drawing using either *Absolute* or *Relative* coordinate input.
+
+.. only:: html
+
+    .. figure:: /images/byAbsCoorRelCoor.png
+        :align: right
+        :scale: 40
+        :alt: Absolute & Relative Cartesian Coordinates
+
+.. only:: latex
+
+    .. figure:: /images/byAbsCoorRelCoor.png
+        :align: center
+        :scale: 40
+        :alt: Absolute & Relative Cartesian Coordinates
+
+.. actual image size 800px x 660px
 
 .. _absolute:
 
@@ -84,6 +124,9 @@ Absolute
 
 When using Absolute coordinates, whether Cartesian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<45" as shown in the two images above.
 
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
 .. _relative:
 
 Relative
@@ -91,57 +134,62 @@ Relative
 
 The last coordinate defined when creating an entity becomes a temporary reference for the next point.  The newly set temporary reference is the "Relative Zero Point", and coordinates can be entered relative to the Relative Zero Point.  To define the next point relative to the Relative Zero Point coordinates, either cartesian or polar, are prefixed with the '@' symbol when entered.  Points without the @ prefix are always interpreted as absolute coordinates.
 
-.. figure:: /images/byAbsCoorRelCoor.png
-    :width: 800px
-    :height: 660px
-    :align: right
-    :scale: 45
-    :alt: Absolute & Relative Cartesian Coordinates
+.. only:: html
+
+    .. figure:: /images/byAbsCoorRelPolar.png
+        :align: right
+        :scale: 40
+        :alt: Absolute Cartesian & Relative Polar Coordinates
+
+.. only:: latex
+
+    .. figure:: /images/byAbsCoorRelPolar.png
+        :align: center
+        :scale: 40
+        :alt: Absolute Cartesian & Relative Polar Coordinates
+
+.. actual image size 800px x 660px
 
 When using cartesian coordinates for example, to set a 65 units above and 75 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
 
 .. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :align: center
-
+.. include:: /inclFiles/eoWrap.rst
 
 .. hint::
 
    Relative coordinates can also be written as 10..20 (equivalent to @10,20) which allows for :ref:`numeric keypad <keyboard>` input when using the :ref:`command line<widget-cmdLine>`.
 
-
-.. figure:: /images/byAbsCoorRelPolar.png
-    :width: 800px
-    :height: 660px
-    :align: right
-    :scale: 45
-    :alt: Absolute Cartesian & Relative Polar Coordinates
-
-
 As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
 
 .. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :align: center
+.. include:: /inclFiles/eoWrap.rst
 
 
 .. _angles: 
 
+.. only:: html
+
+    .. figure:: /images/angles.png
+        :align: right
+        :scale: 40
+        :alt: Polar Coordinates
+
+.. only:: latex
+
+    .. figure:: /images/angles.png
+        :align: center
+        :scale: 40
+        :alt: Polar Coordinates
+
+.. actual image size 800px x 660px
+
 Angles in LibreCAD
 ``````````````````
-
-.. figure:: /images/angles.png
-    :width: 800px
-    :height: 660px
-    :align: right
-    :scale: 50
-    :alt: Polar Coordinates
 
 All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction beginning from 0 degrees (the 3 o'clock position). The *<* symbol is used to designate an angle when using polar coordinates, e.g.50<45.
 
 .. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :align: center
+.. include:: /inclFiles/eoWrap.rst
 
 
 .. _entities: 
@@ -180,10 +228,10 @@ Creating a Layer
 
 Layers are usually created to hold entities with common attributes. Creating a layer is simple:
 
-	- Click the **Add a layer** icon |icon01|.
-	- Specify a *Layer Name*.
-	- Optionally specify the Color, Width and Line Type for the layer.
-	- Click **Ok**. 
+     - Click the **Add a layer** icon |icon01|.
+     - Specify a *Layer Name*.
+     - Optionally specify the Color, Width and Line Type for the layer.
+     - Click **Ok**. 
 
 
 Construction Layers
@@ -191,14 +239,14 @@ Construction Layers
 
 A construction layer is designed to hold geometry construction lines:
 
-	- A construction layer won't appear on printout.
-	- All lines of a construction layer are infinite in length.
+     - A construction layer won't appear on printout.
+     - All lines of a construction layer are infinite in length.
 
 You can toggle between construction and normal mode three ways:
 
-	- When creating or modifying a layer, click the *Construction Layer* checkbox in the *Layer Settings* dialog.
-	- Right-click on a named layer in the *Layer List* and choose "Toggle Construction Layer".
-	- Click the "Toggle construction lines" icon |icon04| / |icon05| in the *Layer List*.
+     - When creating or modifying a layer, click the *Construction Layer* checkbox in the *Layer Settings* dialog.
+     - Right-click on a named layer in the *Layer List* and choose "Toggle Construction Layer".
+     - Click the "Toggle construction lines" icon |icon04| / |icon05| in the *Layer List*.
 
 For more details on hiding, locking and deleting layers, refer to :ref:`Layer List Dock <widget-layerList>` in the Dock Widgets Reference section.
 
@@ -223,12 +271,21 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 Color
 `````
 
-.. image:: /images/coloursStd.png
-    :width: 140px
-    :height: 439px
-    :align: right
-    :scale: 100
-    :alt: Standard color selector
+.. only:: html
+
+	.. image:: /images/coloursStd.png
+		:align: right
+		:scale: 100
+		:alt: Standard color selector
+
+.. only:: latex
+
+	.. image:: /images/coloursStd.png
+		:align: right
+		:scale: 67
+		:alt: Standard color selector
+
+.. actual image size 140px x 439px
 
 The color for an entity can be selected from the ”Color” selection drop-down menu.  The drop-down menu allows the color to be selected ”By Layer”, ”By Block”, from the ”Custom” color selector, or chosen quickly from one of the 16 pre-defined colors: 
 
@@ -236,31 +293,29 @@ Selecting ”By Layer” will assign the color that was defined for the layer (s
 
 When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the color that was defined for the block to the added entity.  If the block's color is subsequently changed all entities in the block will be assigned the block's color.
 
-.. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :width: 750px
-    :align: center
-
 Selecting ”Custom” will allow a selection from a palette of 36 colors and shades of grey or from a user defined colors.  User defined colors are created by clicking the Add button |image10| and then selecting the *hue* and *value* from the color selection tool.  User defined colors can be modified by right-clicking on a user defined color and selecting a new *hue* and *value*.  A maximum of eight user defined colors can be added.
 
-.. image:: /images/coloursCustom.png
-    :width: 490px
-    :height: 295px
-    :align: left
-    :scale: 67
-    :alt: Custom colors
-
-.. image:: /images/colourCustom.png
-    :width: 436px
-    :height: 426px
-    :align: right
-    :scale: 67
-    :alt: Custom color selector
-
 .. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :width: 750px
-    :align: center
+.. include:: /inclFiles/eoWrap.rst
+
+.. table::
+   :align: center
+   :widths: auto
+   :class: table-no-border
+   
+   +----------+----------+
+   | |01L|    | |01R|    |
+   +----------+----------+
+
+.. |01L| image:: /images/coloursCustom.png
+         :scale: 67
+         :alt: Custom colors
+.. actual image size 490px x 295px
+
+.. |01R| image:: /images/colourCustom.png
+         :scale: 67
+         :alt: Custom color selector
+.. actual image size 436px x 426px
 
 
 Width
@@ -306,7 +361,7 @@ Line Type
 Different types of lines are used for different purposes.  LibreCAD includes several commonly used line types:
 
 .. csv-table:: 
-    :widths: 20, 20, 60
+    :widths: 15, 30, 55
     :header-rows: 1
     :stub-columns: 0
     :class: table-wrap-text
@@ -370,13 +425,25 @@ Entity Handles
 
 Selected entities display “handles”.  Handles allow the entities to be manipulated; lengthened, moved or enlarged depending on the type of entity:
 
-.. figure:: /images/handleEg.png
-    :width: 1364px
-    :height: 547px
-    :align: right
-    :scale: 50
-    :alt: Entity Handles
 
+.. only:: html
+
+    .. figure:: /images/handleEg.png
+        :align: right
+        :scale: 45
+        :alt: Entity Handles
+
+.. only:: latex
+
+    .. figure:: /images/handleEg.png
+        :align: center
+        :scale: 30
+        :alt: Entity Handles
+
+.. actual image size 1364px x 547px
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 - Entities that consist of a single segment, such as lines, arcs and polyline segments, have a start handle and an end handle.  Either handle can be clicked and dragged into a new position.
 - Handles on circles or other entities that consist of multiple segments allow it to be manipulated in a variety of ways depending on the type of entity.  For example:
@@ -415,7 +482,6 @@ LibreCAD can also be used to create drawings with an **isometric** projection.  
 
 
 ..  Image mapping (no "align" allowed/required):
-
 
 
 .. |image10| image:: /images/coloursCustomAdd.png
