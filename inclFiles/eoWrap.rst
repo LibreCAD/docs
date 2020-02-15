@@ -4,11 +4,11 @@
 
     .. image:: /images/whiteLine.png
 
-    .. raw[[ html
-
-..        <div class="clearWrap"></div>
+.. Commented out
+    .. raw:: html
+        <div class="clearWrap"></div>
 
 
 .. only:: latex
 
-    .. no good solution
+.. no good solution
