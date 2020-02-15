@@ -3,11 +3,19 @@
 .. Default include
 .. include:: /notice.rst
 
+.. only:: html
+     .. |scaleFactor| replace:: :scale: 100
+
+.. only:: latex
+     .. |scaleFactor| replace:: :scale: 75
+
 
 .. _tools: 
    
 Drawing Tools
 =============
+
+|scaleFactor|
 
 The drawing tools are used to create and modify entities such as lines, circles, etc. in a drawing.  Commands can be selected from the menu, toolbars or entered via the :ref:`command line <cmdline>`. Right-click anywhere in the drawing window to display a popup menu showing the history of commands launched from the menus or the toolbars with the latest command being on top of the list. Note that the command line input is not shown.
 
@@ -737,6 +745,7 @@ Others
 .. |tlopt01| image:: /images/toolOptions/toCircleRad.png
             :height: 32
             :width: 178
+            |scaleFactor|
 .. |tlopt02| image:: /images/toolOptions/toCurveAng.png
             :height: 32
             :width: 283
