@@ -4,10 +4,11 @@
 .. include:: /notice.rst
 
 .. only:: html
-     .. |scaleFactor| replace:: :scale: 100
+
+     .. |scaleFactor| replace:: 100
 
 .. only:: latex
-     .. |scaleFactor| replace:: :scale: 75
+     .. |scaleFactor| replace:: 75
 
 
 .. _tools: 
