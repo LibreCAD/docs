@@ -522,8 +522,8 @@ Others
 .. |icon22| image:: /images/icons/circle_3_points.svg
             :height: 24
             :width: 24
-.. |icon23|
-.. |icon24|
+.. icon23
+.. icon24
 .. |icon25| image:: /images/icons/circle_tangential_2circles_radius.svg
             :height: 24
             :width: 24
@@ -545,7 +545,7 @@ Others
 .. |icon32| image:: /images/icons/arc_3_points.svg
             :height: 24
             :width: 24
-.. |icon33|
+.. icon33
 .. |icon34| image:: /images/icons/arc_continuation.svg
             :height: 24
             :width: 24
@@ -711,7 +711,7 @@ Others
 .. |icon88| image:: /images/icons/delete.svg
             :height: 24
             :width: 24
-.. |icon89|
+.. icon89
 .. |icon90| image:: /images/icons/distance_point_to_point.svg
             :height: 24
             :width: 24
@@ -727,14 +727,14 @@ Others
 .. |icon94| image:: /images/icons/polygonal_area.svg
             :height: 24
             :width: 24
-.. |icon95|
+.. icon95
 .. |icon96| image:: /images/icons/text.svg
             :height: 24
             :width: 24
 .. |icon97| image:: /images/icons/hatch.svg
             :height: 24
             :width: 24
-.. |icon98|
+.. icon98
 .. |icon99| image:: /images/icons/points.svg
             :height: 24
             :width: 24

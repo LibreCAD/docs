@@ -161,9 +161,6 @@ When using cartesian coordinates for example, to set a 65 units above and 75 uni
 
 As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
 
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
-
 
 .. _angles: 
 
@@ -190,7 +187,6 @@ All angles in LibreCAD are measured in 360 degrees in an anti-clockwise directio
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
-
 
 .. _entities: 
 
