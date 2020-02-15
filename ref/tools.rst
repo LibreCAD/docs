@@ -514,8 +514,8 @@ Others
 .. |icon22| image:: /images/icons/circle_3_points.svg
             :height: 24
             :width: 24
-.. |icon23|
-.. |icon24|
+.. icon23
+.. icon24 
 .. |icon25| image:: /images/icons/circle_tangential_2circles_radius.svg
             :height: 24
             :width: 24
@@ -537,7 +537,7 @@ Others
 .. |icon32| image:: /images/icons/arc_3_points.svg
             :height: 24
             :width: 24
-.. |icon33|
+.. icon33 
 .. |icon34| image:: /images/icons/arc_continuation.svg
             :height: 24
             :width: 24
@@ -703,7 +703,7 @@ Others
 .. |icon88| image:: /images/icons/delete.svg
             :height: 24
             :width: 24
-.. |icon89|
+.. |icon89| image:: /images/icons/
 .. |icon90| image:: /images/icons/distance_point_to_point.svg
             :height: 24
             :width: 24
@@ -719,14 +719,14 @@ Others
 .. |icon94| image:: /images/icons/polygonal_area.svg
             :height: 24
             :width: 24
-.. |icon95|
+.. |icon95| image:: /images/icons/
 .. |icon96| image:: /images/icons/text.svg
             :height: 24
             :width: 24
 .. |icon97| image:: /images/icons/hatch.svg
             :height: 24
             :width: 24
-.. |icon98|
+.. |icon98| image:: /images/icons/
 .. |icon99| image:: /images/icons/points.svg
             :height: 24
             :width: 24
@@ -734,109 +734,75 @@ Others
 
 ..  Tool Options mapping:
 
-.. only:: html
-
-     .. |scaleFactor| replace:: 100
-
-.. only:: latex
-
-     .. |scaleFactor| replace:: 75
-     
-
 .. |tlopt01| image:: /images/toolOptions/toCircleRad.png
             :height: 32
             :width: 178
-            :scale: |scaleFactor|
 .. |tlopt02| image:: /images/toolOptions/toCurveAng.png
             :height: 32
             :width: 283
-            :scale: |scaleFactor|
 .. |tlopt03| image:: /images/toolOptions/toCurve.png
             :height: 32
             :width: 139
-            :scale: |scaleFactor|
 .. |tlopt04| image:: /images/toolOptions/toCurveRad.png
             :height: 32
             :width: 283
-            :scale: |scaleFactor|
 .. |tlopt05| image:: /images/toolOptions/toDimnLin.png
             :height: 32
             :width: 681
-            :scale: |scaleFactor|
 .. |tlopt06| image:: /images/toolOptions/toDimn.png
             :height: 32
             :width: 424
-            :scale: |scaleFactor|
 .. |tlopt07| image:: /images/toolOptions/toLineAngle.png
             :height: 32
             :width: 338
-            :scale: |scaleFactor|
 .. |tlopt08| image:: /images/toolOptions/toLineAngRel.png
             :height: 32
             :width: 288
-            :scale: |scaleFactor|
 .. |tlopt09| image:: /images/toolOptions/toLineBisct.png
             :height: 32
             :width: 317
-            :scale: |scaleFactor|
 .. |tlopt10| image:: /images/toolOptions/toLineHorzVert.png
             :height: 32
             :width: 338
-            :scale: |scaleFactor|
 .. |tlopt11| image:: /images/toolOptions/toLineOrtho.png
             :height: 32
             :width: 231
-            :scale: |scaleFactor|
 .. |tlopt12| image:: /images/toolOptions/toLineParlOff.png
             :height: 32
             :width: 231
-            :scale: |scaleFactor|
 .. |tlopt13| image:: /images/toolOptions/toLineParlPt.png
             :height: 32
             :width: 143
-            :scale: |scaleFactor|
 .. |tlopt14| image:: /images/toolOptions/toLine.png
             :height: 32
             :width: 179
-            :scale: |scaleFactor|
 .. |tlopt15| image:: /images/toolOptions/toLinePoly.png
             :height: 32
             :width: 159
-            :scale: |scaleFactor|
 .. |tlopt16| image:: /images/toolOptions/toModBevel.png
             :height: 32
             :width: 404
-            :scale: |scaleFactor|
 .. |tlopt17| image:: /images/toolOptions/toModFillet.png
             :height: 32
             :width: 210
-            :scale: |scaleFactor|
 .. |tlopt18| image:: /images/toolOptions/toModLen.png
             :height: 32
             :width: 168
-            :scale: |scaleFactor|
 .. |tlopt19| image:: /images/toolOptions/toPoly1.png
             :height: 32
             :width: 348
-            :scale: |scaleFactor|
 .. |tlopt20| image:: /images/toolOptions/toPoly2.png
             :height: 32
             :width: 192
-            :scale: |scaleFactor|
 .. |tlopt21| image:: /images/toolOptions/toPrtPreview.png
             :height: 32
             :width: 289
-            :scale: |scaleFactor|
 .. |tlopt22| image:: /images/toolOptions/toSpline1.png
             :height: 32
             :width: 261
-            :scale: |scaleFactor|
 .. |tlopt23| image:: /images/toolOptions/toSpline2.png
             :height: 32
             :width: 231
-            :scale: |scaleFactor|
 .. |tlopt24| image:: /images/toolOptions/toText.png
             :height: 32
             :width: 307
-            :scale: |scaleFactor|
-
