@@ -747,7 +747,6 @@ Others
 .. |tlopt01| image:: /images/toolOptions/toCircleRad.png
             :height: 32
             :width: 178
-            |scaleFactor|
 .. |tlopt02| image:: /images/toolOptions/toCurveAng.png
             :height: 32
             :width: 283
