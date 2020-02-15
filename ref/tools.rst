@@ -806,6 +806,3 @@ Others
 .. |tlopt24| image:: /images/toolOptions/toText.png
             :height: 32
             :width: 307
-
-
-
