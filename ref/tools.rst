@@ -477,7 +477,7 @@ Others
 .. |icon29| image:: /images/icons/circle_tangential_2circles_radius.svg
 .. |icon30| image:: /images/icons/arc_center_point_angle.svg
 .. |icon32| image:: /images/icons/arc_3_points.svg
-.. icon33 
+.. |icon33|
 .. |icon34| image:: /images/icons/arc_continuation.svg
 .. |icon35| image:: /images/icons/ellipse_axis.svg
 .. |icon36| image:: /images/icons/ellipse_arc_axis.svg
@@ -549,51 +549,27 @@ Others
 ..  Tool Options mapping:
 
 .. |tlopt01| image:: /images/toolOptions/toCircleRad.png
-            :scale: 75
 .. |tlopt02| image:: /images/toolOptions/toCurveAng.png
-            :scale: 75
 .. |tlopt03| image:: /images/toolOptions/toCurve.png
-            :scale: 75
 .. |tlopt04| image:: /images/toolOptions/toCurveRad.png
-            :scale: 75
 .. |tlopt05| image:: /images/toolOptions/toDimnLin.png
-            :scale: 75
 .. |tlopt06| image:: /images/toolOptions/toDimn.png
-            :scale: 75
 .. |tlopt07| image:: /images/toolOptions/toLineAngle.png
-            :scale: 75
 .. |tlopt08| image:: /images/toolOptions/toLineAngRel.png
-            :scale: 75
 .. |tlopt09| image:: /images/toolOptions/toLineBisct.png
-            :scale: 75
 .. |tlopt10| image:: /images/toolOptions/toLineHorzVert.png
-            :scale: 75
 .. |tlopt11| image:: /images/toolOptions/toLineOrtho.png
-            :scale: 75
 .. |tlopt12| image:: /images/toolOptions/toLineParlOff.png
-            :scale: 75
 .. |tlopt13| image:: /images/toolOptions/toLineParlPt.png
-            :scale: 75
 .. |tlopt14| image:: /images/toolOptions/toLine.png
-            :scale: 75
 .. |tlopt15| image:: /images/toolOptions/toLinePoly.png
-            :scale: 75
 .. |tlopt16| image:: /images/toolOptions/toModBevel.png
-            :scale: 75
 .. |tlopt17| image:: /images/toolOptions/toModFillet.png
-            :scale: 75
 .. |tlopt18| image:: /images/toolOptions/toModLen.png
-            :scale: 75
 .. |tlopt19| image:: /images/toolOptions/toPoly1.png
-            :scale: 75
 .. |tlopt20| image:: /images/toolOptions/toPoly2.png
-            :scale: 75
 .. |tlopt21| image:: /images/toolOptions/toPrtPreview.png
-            :scale: 75
 .. |tlopt22| image:: /images/toolOptions/toSpline1.png
-            :scale: 75
 .. |tlopt23| image:: /images/toolOptions/toSpline2.png
-            :scale: 75
 .. |tlopt24| image:: /images/toolOptions/toText.png
-            :scale: 75
 
