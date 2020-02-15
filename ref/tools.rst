@@ -3,20 +3,10 @@
 .. Default include
 .. include:: /notice.rst
 
-.. only:: html
-
-     .. |scaleFactor| replace:: 100
-
-.. only:: latex
-     .. |scaleFactor| replace:: 75
-
-
 .. _tools: 
    
 Drawing Tools
 =============
-
-|scaleFactor|
 
 The drawing tools are used to create and modify entities such as lines, circles, etc. in a drawing.  Commands can be selected from the menu, toolbars or entered via the :ref:`command line <cmdline>`. Right-click anywhere in the drawing window to display a popup menu showing the history of commands launched from the menus or the toolbars with the latest command being on top of the list. Note that the command line input is not shown.
 
@@ -38,8 +28,7 @@ Line
         | Draw a line between two assigned points.
         |
         | **Tool Options:** 
-        | |tlopt14|
-           :scale: |scaleFactor|"
+        | |tlopt14|"
     "Angle", |icon02|, "", "
         | Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle.
         | 
