@@ -109,7 +109,7 @@ The *Language* categories allows the the user to select the language used in the
 Thirdly, the *Graphic Colors* section allow custom colors to be selected for the snap indicator, drawing background,  grid, and other indicators (selections, highlighted items and Handles).  Users can select predefined colors from the drop down menu or select their own from the color selector.
 
 .. Force end of left / right text wrap in PDF
-.. include:: /inclFiles/eoWrapPDF.rst
+.. include:: /inclFiles/eoWrap.rst
 
 Path
 ~~~~
@@ -140,7 +140,7 @@ It is recommended that user defined resource be placed in a user directory (e.g.
     - *Variable File*: load a user-defined variable file when starting the application (see the :ref:`Command Line <cmdline>` guide for details on using commands / variables files.)
 
 .. Force end of left / right text wrap in PDF
-.. include:: /inclFiles/eoWrapPDF.rst
+.. include:: /inclFiles/eoWrap.rst
 
 Defaults
 ~~~~~~~~
@@ -164,7 +164,7 @@ Defaults
 The *Defaults* tab allows users to specify application-wide defaults.
 
 .. Force end of left / right text wrap in PDF
-.. include:: /inclFiles/eoWrapPDF.rst
+.. include:: /inclFiles/eoWrap.rst
 
 
 Drawing Defaults
