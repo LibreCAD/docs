@@ -137,7 +137,7 @@ Print Preview
 The **Print Preview** toolbar is used to set up the print output as desired regardless of output format (pdf or paper). The print preview can be configured after selecting **File -> Print Preview** through the menu.  A combination of scale value, color status and drawing position relative to paper allows customed print output. The steps are detailed in :ref:`printing guide <printing-guide>`.
 
 
-.. figure:: /images/toolBars/toPrtPreview.png
+.. figure:: /images/toolOptions/toPrtPreview.png
     :width: 316px
     :height: 35px
     :align: center
@@ -172,7 +172,7 @@ From Block List
 
 The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. 
 
-.. figure:: /images/toolBars/toBlockInsert.png
+.. figure:: /images/toolOptions/toBlockInsert.png
     :width: 617px
     :height: 34px
     :align: center
@@ -198,7 +198,7 @@ From Block Library
 
 Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted.
 
-.. figure:: /images/toolBars/toBlockLib.png
+.. figure:: /images/toolOptions/toBlockLib.png
     :width: 317px
     :height: 33px
     :align: center
