@@ -20,26 +20,106 @@ Toolbars can be moved any where on the display and left floating, or docked to a
     :class: fix-table
 
     "Menu Item", "Description and/or *Menu Equivalent*"
-    "Categories", "Groups commonly used drawing tools; *Tools -> Line / Circle / Curve / Ellipse / Polyline / Select / Dimension / Modify* and *Info*."
-    "Circles", "*Tools -> Circle*."
-    "Creators",  "Access menu and toolbar Creators. *Widgets -> Menu Creator* / *Toolbar Creator*.  Also see :ref:`Customizing LibreCAD’s Interface <customize>`."
-    "Curves", "*Tools -> Curve*."
-    "DefaultCustom", "Custom toolbar example."
-    "Dimension", "*Tools -> Dimension*."
-    "Dock Areas",  "*Widgets -> Dock Areas*."
-    "Edit", ":ref:`Edit <edit>` functions."
-    "Ellipse", "*Tools -> Ellipse*."
-    "File", ":ref:`File <file>` operations."
-    "Info", "*Tools -> Info*."
-    "Line", "*Tools -> Line*."
-    "Modify", "*Tools -> Modify*."
-    "Order", "Reorder drawing entities. *Tools -> Modify -> Order*."
-    "Pen", "Change entity color, width and / or style."
-    "Polyline", "*Tools -> Polyline*."
-    "Select", "Select entities. *Tools -> Select*."
-    "Snap Selection", "See :ref:`Snapping <snaps>` in **The Coordinate System**."
-    "Tool Options",  "Displays input boxes for the parameters required by the currently selected tool.  **This option should always be enabled.**"
-    "View", ":ref:`View <view>` options."
+    "Categories", "
+        | Groups commonly used drawing tools; *Tools -> Line / Circle / Curve / Ellipse / Polyline / Select / Dimension / Modify* and *Info*.
+        |
+        | **Toolbar:** 
+        | |tlbar0n|"
+    "Circles", "
+        | *Tools -> Circle*.
+        |
+        | **Toolbar:** 
+        | |tlbar02|"
+    "Creators",  "
+        | Access menu and toolbar Creators. *Widgets -> Menu Creator* / *Toolbar Creator*.  Also see :ref:`Customizing LibreCAD’s Interface <customize>`.
+        |
+        | **Toolbar:** 
+        | |tlbar03|"
+    "Curves", "
+        | *Tools -> Curve*.
+        |
+        | **Toolbar:** 
+        | |tlbar04|"
+    "DefaultCustom", "
+        | Custom toolbar example.
+        |
+        | **Toolbar:** 
+        | |tlbar05|"
+    "Dimension", "
+        | *Tools -> Dimension*.
+        |
+        | **Toolbar:** 
+        | |tlbar06|"
+    "Dock Areas",  "
+        | *Widgets -> Dock Areas*.
+        |
+        | **Toolbar:** 
+        | |tlbar07|"
+    "Edit", "
+        | :ref:`Edit <edit>` functions.
+        |
+        | **Toolbar:** 
+        | |tlbar08|"
+    "Ellipse", "
+        | *Tools -> Ellipse*.
+        |
+        | **Toolbar:** 
+        | |tlbar09|"
+    "File", "
+        | :ref:`File <file>` operations.
+        |
+        | **Toolbar:** 
+        | |tlbar10|"
+    "Info", "
+        | *Tools -> Info*.
+        |
+        | **Toolbar:** 
+        | |tlbar11|"
+    "Line", "
+        | *Tools -> Line*.
+        |
+        | **Toolbar:** 
+        | |tlbar12|"
+    "Modify", "
+        | *Tools -> Modify*.
+        |
+        | **Toolbar:** 
+        | |tlbar13|"
+    "Order", "
+        | Reorder drawing entities. *Tools -> Modify -> Order*.
+        |
+        | **Toolbar:** 
+        | |tlbar14|"
+    "Pen", "
+        | Change entity color, width and / or style.
+        |
+        | **Toolbar:** 
+        | |tlbar15|"
+    "Polyline", "
+        | *Tools -> Polyline*.
+        |
+        | **Toolbar:** 
+        | |tlbar16|"
+    "Select", "
+        | Select entities. *Tools -> Select*.
+        |
+        | **Toolbar:** 
+        | |tlbar17|"
+    "Snap Selection", "
+        | See :ref:`Snapping <snaps>` in **The Coordinate System**.
+        |
+        | **Toolbar:** 
+        | |tlbar18|"
+    "Tool Options",  "
+        | Displays input boxes for the parameters required by the currently selected tool.  **This option should always be enabled.**
+        |
+        | **Toolbar:** 
+        | Varies by tool selected.  See :ref:`Drawing Tools <tools>`."
+    "View", "
+        | :ref:`View <view>` options.
+        |
+        | **Toolbar:** 
+        | |tlbar19|"
 
 
 Other Toolbars
@@ -57,7 +137,7 @@ Print Preview
 The **Print Preview** toolbar is used to set up the print output as desired regardless of output format (pdf or paper). The print preview can be configured after selecting **File -> Print Preview** through the menu.  A combination of scale value, color status and drawing position relative to paper allows customed print output. The steps are detailed in :ref:`printing guide <printing-guide>`.
 
 
-.. figure:: /images/toolOptions/toPrtPreview.png
+.. figure:: /images/toolBars/toPrtPreview.png
     :width: 316px
     :height: 35px
     :align: center
@@ -92,7 +172,7 @@ From Block List
 
 The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. 
 
-.. figure:: /images/toolOptions/toBlockInsert.png
+.. figure:: /images/toolBars/toBlockInsert.png
     :width: 617px
     :height: 34px
     :align: center
@@ -118,7 +198,7 @@ From Block Library
 
 Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted.
 
-.. figure:: /images/toolOptions/toBlockLib.png
+.. figure:: /images/toolBars/toBlockLib.png
     :width: 317px
     :height: 33px
     :align: center
@@ -150,4 +230,26 @@ Inserting a block from a library can be enhanced through the *Tool Option* bar f
             :width: 24   
 .. |icon04| image:: /images/icons/multi_pages.svg
             :height: 24
-            :width: 24   
+            :width: 24
+
+..  Toolbar mapping:
+
+.. |tlbar01| image:: /images/toolBars/tbCategories.png
+.. |tlbar02| image:: /images/toolBars/tbCircle.png
+.. |tlbar03| image:: /images/toolBars/tbCreators.png
+.. |tlbar04| image:: /images/toolBars/tbCurves.png
+.. |tlbar05| image:: /images/toolBars/tbCustomDefault.png
+.. |tlbar06| image:: /images/toolBars/tbDimn.png
+.. |tlbar07| image:: /images/toolBars/tbDockAreas.png
+.. |tlbar08| image:: /images/toolBars/tbEdit.png
+.. |tlbar09| image:: /images/toolBars/tbEllipse.png
+.. |tlbar10| image:: /images/toolBars/tbFile.png
+.. |tlbar11| image:: /images/toolBars/tbInfo.png
+.. |tlbar12| image:: /images/toolBars/tbLine.png
+.. |tlbar13| image:: /images/toolBars/tbModify.png
+.. |tlbar14| image:: /images/toolBars/tbOrder.png
+.. |tlbar15| image:: /images/toolBars/tbPen.png
+.. |tlbar16| image:: /images/toolBars/tbPolyline.png
+.. |tlbar17| image:: /images/toolBars/tbSelect.png
+.. |tlbar18| image:: /images/toolBars/tbSnapSel.png
+.. |tlbar19| image:: /images/toolBars/tbView.png
