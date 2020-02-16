@@ -24,9 +24,9 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | Groups commonly used drawing tools; *Tools -> Line / Circle / Curve / Ellipse / Polyline / Select / Dimension / Modify* and *Info*.
         |
         | **Toolbar:** 
-        | |tlbar0n|"
+        | |tlbar01|"
     "Circles", "
-        | *Tools -> Circle*.
+        | Drawing tools for circles.  *Tools -> Circle*.
         |
         | **Toolbar:** 
         | |tlbar02|"
@@ -36,7 +36,7 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | **Toolbar:** 
         | |tlbar03|"
     "Curves", "
-        | *Tools -> Curve*.
+        | Drawing tools for curves. *Tools -> Curve*.
         |
         | **Toolbar:** 
         | |tlbar04|"
@@ -46,22 +46,22 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | **Toolbar:** 
         | |tlbar05|"
     "Dimension", "
-        | *Tools -> Dimension*.
+        | Drawing tools for dimensioning. *Tools -> Dimension*.
         |
         | **Toolbar:** 
         | |tlbar06|"
     "Dock Areas",  "
-        | *Widgets -> Dock Areas*.
+        | Show or hide widgets. *Widgets -> Dock Areas*.  See :ref:`Dock Widget Areas <widget-dockAreas>`.
         |
         | **Toolbar:** 
         | |tlbar07|"
     "Edit", "
-        | :ref:`Edit <edit>` functions.
+        | :ref:`Edit <edit>` functions; select, Undo, Redo, Cut, Copy and Paste.
         |
         | **Toolbar:** 
         | |tlbar08|"
     "Ellipse", "
-        | *Tools -> Ellipse*.
+        | Drawing tools for ellipses.  *Tools -> Ellipse*.
         |
         | **Toolbar:** 
         | |tlbar09|"
@@ -76,12 +76,12 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | **Toolbar:** 
         | |tlbar11|"
     "Line", "
-        | *Tools -> Line*.
+        | Drawing tools for lines.  *Tools -> Line*.
         |
         | **Toolbar:** 
         | |tlbar12|"
     "Modify", "
-        | *Tools -> Modify*.
+        | Drawing tools to modify entities.  *Tools -> Modify*.
         |
         | **Toolbar:** 
         | |tlbar13|"
@@ -96,7 +96,7 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | **Toolbar:** 
         | |tlbar15|"
     "Polyline", "
-        | *Tools -> Polyline*.
+        | Drawing tools for Polylines.  *Tools -> Polyline*.
         |
         | **Toolbar:** 
         | |tlbar16|"
