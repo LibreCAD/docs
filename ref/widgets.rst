@@ -44,7 +44,7 @@ As an alternative to the **Tools** menu, the Dock widgets provide more convenien
 Dock Widget Areas
 -----------------
 
-Dock widgets can be moved to different areas by "grabbing" (left clicking and dragging) the title bar of the widget and releasing it in a new location.  A widget can be left *floating* inside or outside of the drawing window, or placed in one of the four dock areas (left, right, top or bottom).  
+Dock widgets can be moved to different areas by "grabbing" (left clicking and dragging) the title bar of the widget and releasing it in a new location.  A widget can be left *floating* inside or outside of the drawing window, or placed in one of the four dock areas (left, right, top or bottom).  The Dock Areas :ref:`toolbar <toolbars>` allows the widget to be hidden or made visible.
 
 .. csv-table::  
     :widths: 20, 10, 70
@@ -57,7 +57,7 @@ Dock widgets can be moved to different areas by "grabbing" (left clicking and dr
     "Right", |icon02|, "Shows / hide the dock widgets located on the right side of the drawing window."
     "Top", |icon03|, "Shows / hide the dock widgets located on the top of the drawing window."
     "Bottom", |icon04|, "Shows / hide the dock widgets located on the bottom of the drawing window."
-    "Floating", |icon05|, "Shows / hide the dock widgets floating within the drawing window or outside of the drawing applications."
+    "Floating", |icon05|, "Shows / hide the dock widgets floating within the drawing window or outside of the drawing window."
 
 .. See icon mapping a eof
 
