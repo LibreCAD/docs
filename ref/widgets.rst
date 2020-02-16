@@ -125,12 +125,11 @@ The dock includes a drop-down menu that offers additional functions:
     - Load a Command file.
     - Paste commands.
 
-.. note::
-    LibreCAD is designed with emphasis on mouse input and at the moment some options can be only selected by using the mouse as there is no equivalent command.
-
+Further details on using the :ref:`command line <cmdline>` are in the **User Guides**.
 In addition to command input, the command line provides access to a built in calculator.  The calculator can be invoked with the *cal* command.  The available :ref:`operators and functions <calc>` can be found in the **Appendix**.
 
-Further details on using the :ref:`command line <cmdline>` are in the **User Guides**.
+.. note::
+    LibreCAD is designed with emphasis on mouse input and at the moment some options can be only selected by using the mouse as there is no equivalent command.
 
 
 .. _widget-layerList:
