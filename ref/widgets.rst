@@ -44,10 +44,10 @@ As an alternative to the **Tools** menu, the Dock widgets provide more convenien
 Dock Widget Areas
 -----------------
 
-Dock widgets can be moved to different areas by "grabbing" (left clicking and dragging) the title bar of the widget and releasing it in a new location.  A widget can be left *floating* inside or outside of the drawing window, or placed in one of the four dock areas (left, right, top or bottom).  The Dock Areas :ref:`toolbar <toolbars>` allows the widget to be hidden or made visible.
+Dock widgets can be moved to different areas by "grabbing" (left clicking and dragging) the title bar of the widget and releasing it in a new location.  A widget can be left *floating* inside or outside of the drawing window, or placed in one of the four dock areas (left, right, top or bottom).  The Dock Areas :ref:`toolbar <toolbars>` allows widgets to be hidden or made visible depending on their location:
 
 .. csv-table::  
-    :widths: 20, 10, 70
+    :widths: 15, 10, 75
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -255,7 +255,6 @@ LibreCAD includes several libraries and additional libraries can be specified by
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
-
 
 .. _widget-penWiz:
 
