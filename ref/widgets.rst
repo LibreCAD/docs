@@ -50,7 +50,7 @@ Dock widgets can be moved to different areas by "grabbing" (left clicking and dr
     :widths: 20, 10, 70
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Tool", "Icon", "Description"
     "Left", |icon01|, "Shows / hide the dock widgets located on the left side of the drawing window."
@@ -87,7 +87,7 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
     :widths: 10, 90
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Icon", "Description"
     |icon10|, "”Show all blocks” - Makes all the blocks in the current drawing visible."
@@ -150,16 +150,13 @@ Layer List Dock
 
 The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing. The entry line on top of the dock allows to filter by layer names (e.g. "\*01" would show all names ending by "01").
 
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
-
 Layer functions include:
 
 .. csv-table:: 
     :widths: 10, 90
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Icon", "Description"
     |icon10|, "”Show all layers” - Makes all the layers in the current drawing visible. (\*: ”Freeze”)"
@@ -167,8 +164,6 @@ Layer functions include:
     |icon13|, "”Add a layer” - Add a new layer. * (Shortcut [Ctrl]+[L])"
     |icon14|, "”Remove the current layer” - Remove the highlighted layer. *"
     |icon15|, "”Modify layer attributes / rename” - Modify the layer's attributes and / or rename the layer. *"
-
-.. See icon mapping a eof
 
 The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used.
 
@@ -209,7 +204,7 @@ Icons to the left of each layer act on the layers individually.  The layer opera
     :widths: 25, 75
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Icon", "Description"
     "|icon10| / |icon11|", "Show / hide layer. *"
