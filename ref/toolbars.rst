@@ -21,7 +21,7 @@ Toolbars can be moved any where on the display and left floating, or docked to a
 
     "Menu Item", "Description and/or *Menu Equivalent*"
     "Categories", "
-        | Groups commonly used drawing tools; *Tools -> Line / Circle / Curve / Ellipse / Polyline / Select / Dimension / Modify* and *Info*.
+        | Groups commonly used drawing tools; *Tools -> Line / Circle / Curve / Ellipse / Polyline / Select / Dimension / Modify* and *Info*.  Clicking an icon will display the drawing tool in the category.  See :ref:`Drawing Tools <tools>` for details on each tool.
         |
         | **Toolbar:** 
         | |tlbar01|"
@@ -31,7 +31,7 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | **Toolbar:** 
         | |tlbar02|"
     "Creators",  "
-        | Access menu and toolbar Creators. *Widgets -> Menu Creator* / *Toolbar Creator*.  Also see :ref:`Customizing LibreCAD’s Interface <customize>`.
+        | Access menu and toolbar creators to modify LibreCAD's interface. *Widgets -> Menu Creator* / *Toolbar Creator*.  Also see :ref:`Customizing LibreCAD’s Interface <customize>`.
         |
         | **Toolbar:** 
         | |tlbar03|"
@@ -41,7 +41,7 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | **Toolbar:** 
         | |tlbar04|"
     "DefaultCustom", "
-        | Custom toolbar example.  Includes Text, Hatch, image ...
+        | Custom toolbar example.  Includes MText, Hatch, Insert Image, Create Block, and Points.
         |
         | **Toolbar:** 
         | |tlbar05|"
