@@ -26,7 +26,7 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | **Toolbar:** 
         | |tlbar01|"
     "Circles", "
-        | Drawing tools for circles.  *Tools -> Circle*.
+        | Drawing tools for circles.  See :ref:`Tools -> Circle <tool-circle>`.
         |
         | **Toolbar:** 
         | |tlbar02|"
@@ -36,17 +36,17 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | **Toolbar:** 
         | |tlbar03|"
     "Curves", "
-        | Drawing tools for curves. *Tools -> Curve*.
+        | Drawing tools for curves.  See :ref:`Tools -> Curve <tool-curve>`.
         |
         | **Toolbar:** 
         | |tlbar04|"
     "DefaultCustom", "
-        | Custom toolbar example.
+        | Custom toolbar example.  Includes Text, Hatch, image ...
         |
         | **Toolbar:** 
         | |tlbar05|"
     "Dimension", "
-        | Drawing tools for dimensioning. *Tools -> Dimension*.
+        | Drawing tools for dimensioning.  See :ref:`Tools -> Dimension <tool-dimension>`.
         |
         | **Toolbar:** 
         | |tlbar06|"
@@ -61,7 +61,7 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | **Toolbar:** 
         | |tlbar08|"
     "Ellipse", "
-        | Drawing tools for ellipses.  *Tools -> Ellipse*.
+        | Drawing tools for ellipses.  See :ref:`Tools -> Ellipse <tool-ellipse>`.
         |
         | **Toolbar:** 
         | |tlbar09|"
@@ -71,42 +71,42 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | **Toolbar:** 
         | |tlbar10|"
     "Info", "
-        | *Tools -> Info*.
+        | Tools for determinig information about entities.  See :ref:`Tools -> Info <tool-info>`.
         |
         | **Toolbar:** 
         | |tlbar11|"
     "Line", "
-        | Drawing tools for lines.  *Tools -> Line*.
+        | Drawing tools for lines.  See :ref:`Tools -> Line <tool-line>`.
         |
         | **Toolbar:** 
         | |tlbar12|"
     "Modify", "
-        | Drawing tools to modify entities.  *Tools -> Modify*.
+        | Drawing tools to modify entities.  See :ref:`Tools -> Modify <tool-modify>`.
         |
         | **Toolbar:** 
         | |tlbar13|"
     "Order", "
-        | Reorder drawing entities. *Tools -> Modify -> Order*.
+        | Reorder drawing entities.  *See Tools -> Modify -> Order*.
         |
         | **Toolbar:** 
         | |tlbar14|"
     "Pen", "
-        | Change entity color, width and / or style.
+        | Change entity color, width and / or line type.  :ref:`Pen <entity-pen>` attributes.
         |
         | **Toolbar:** 
         | |tlbar15|"
     "Polyline", "
-        | Drawing tools for Polylines.  *Tools -> Polyline*.
+        | Drawing tools for Polylines.  See :ref:`Tools -> Polyline <tool-polyline>`.
         |
         | **Toolbar:** 
         | |tlbar16|"
     "Select", "
-        | Select entities. *Tools -> Select*.
+        | Select entities.  See :ref:`tool-select <Tools -> Select>`.
         |
         | **Toolbar:** 
         | |tlbar17|"
     "Snap Selection", "
-        | See :ref:`Snapping <snaps>` in **The Coordinate System**.
+        | See :ref:`Snapping <snaps>`.
         |
         | **Toolbar:** 
         | |tlbar18|"
@@ -116,7 +116,7 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | **Toolbar:** 
         | Varies by tool selected.  See :ref:`Drawing Tools <tools>`."
     "View", "
-        | :ref:`View <view>` options.
+        | Toggle grid, draft mode, redraw, and zoom.  See :ref:`View <view>` options.
         |
         | **Toolbar:** 
         | |tlbar19|"
