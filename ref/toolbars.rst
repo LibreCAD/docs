@@ -101,12 +101,12 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | **Toolbar:** 
         | |tlbar16|"
     "Select", "
-        | Select entities.  See :ref:`tool-select <Tools -> Select>`.
+        | Select entities.  See :ref:`Tools -> Select <tool-select>`.
         |
         | **Toolbar:** 
         | |tlbar17|"
     "Snap Selection", "
-        | See :ref:`Snapping <snaps>`.
+        | Toggle snap tools off/on.  See :ref:`Snapping <snaps>`.
         |
         | **Toolbar:** 
         | |tlbar18|"
@@ -116,7 +116,7 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | **Toolbar:** 
         | Varies by tool selected.  See :ref:`Drawing Tools <tools>`."
     "View", "
-        | Toggle grid, draft mode, redraw, and zoom.  See :ref:`View <view>` options.
+        | Toggle grid and draft mode, force redraw, and select zoom.  See :ref:`View <view>` options.
         |
         | **Toolbar:** 
         | |tlbar19|"
