@@ -19,13 +19,13 @@ Dock widgets are small movable windows that serve two purposes: (1) quick access
 
 .. figure:: /images/dock-lines.png
     :figwidth: 200px
-    :width: 172px
-    :height: 172px
     :align: right
     :scale: 100
     :alt: Lines Dock
 
     Drawing tool dock example: Line
+
+.. actual image size 172px x 183px
 
 As an alternative to the **Tools** menu, the Dock widgets provide more convenient way to access the :ref:`Drawing Tools <tools>`:
 
@@ -44,6 +44,8 @@ As an alternative to the **Tools** menu, the Dock widgets provide more convenien
 Dock Widget Areas
 -----------------
 
+Dock widgets can be moved to different areas by "grabbing" (left clicking and dragging) the title bar of the widget and releasing it in a new location.  A widget can be left *floating* inside or outside of the drawing window, or placed in one of the four dock areas (left, right, top or bottom).  
+
 .. csv-table::  
     :widths: 20, 10, 70
     :header-rows: 1
@@ -59,7 +61,7 @@ Dock Widget Areas
 
 .. See icon mapping a eof
 
-Dock widgets can be moved to different areas by "grabbing" (left clicking and dragging) the title bar of the widget and releasing it in a new location.  A widget can be left *floating* inside or outside of the drawing window, or placed in one of the four dock areas (left, right, top or bottom).  Widgets can be placed either on top of an existing widget in any of the dock areas creating a tab for each of the widgets.  Widgets can also be place above or below an existing widget dividing the area into multiple sections.  
+Widgets can be placed either on top of an existing widget in any of the dock areas creating a tab for each of the widgets.  Widgets can also be place above or below an existing widget dividing the area into multiple sections.  
 
 In addition, dock widgets can be resized by clicking and dragging the edge of the widget's box.  A widget has a minimum width of five icons and can be no shorter than the default height.
 
@@ -72,11 +74,11 @@ Block List Dock
 The Block List Dock provides the functions to manage blocks and a list of blocks that are active in the drawing.  Block functions include:
 
 .. figure:: /images/dock-blockList01.png
-    :width: 272px
-    :height: 590px
     :align: left
     :scale: 67
     :alt: Block List Dock
+
+.. actual image size 260px x 340px
 
 .. csv-table:: 
     :widths: 10, 90
@@ -105,14 +107,12 @@ The lower portion of the dock shows a list of blocks in the current drawing.  Th
 Command Line Dock
 -----------------
 
-.. dock-cmdLine0.png  271 591
-
-.. figure:: /images/dock-cmdLine.png  
-    :width: 544px
-    :height: 227px
+.. figure:: /images/dock-cmdLine01.png
     :align: right
     :scale: 67
     :alt: Command Line Dock
+
+.. actual image size 260px x 340px
 
 The *Command Line* is for users that want to draw by using keyboard commands. Commands, such as "li" for a line, "cir" for a circle, etc, are entered at the command line along with the required parameters (e.g. start and end coordinates for a line).  Using the command line can be faster and/or more precise than drawing using exclusively a mouse and toolbars.  The available commands are listed with the :ref:`Drawing Tools <tools>` and :ref:`Snapping <snaps>` tools.  There are also commands available for :ref:`Edit <edit>` and :ref:`View <view>` operations.
 
@@ -129,11 +129,11 @@ Layer List Dock
 ---------------
 
 .. figure:: /images/dock-layerList01.png
-    :width: 270px
-    :height: 590px
     :align: right
     :scale: 67
     :alt: Layer List Dock
+
+.. actual image size 260px x 340px
 
 The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing. The entry line on top of the dock allows to filter by layer names (e.g. "\*01" would show all names ending by "01").  Layer functions include:
 
@@ -153,18 +153,16 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 .. See icon mapping a eof
 
 .. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :width: 750px
-    :align: center
+.. include:: /inclFiles/eoWrap.rst
 
 Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
 
-..  figure:: /images/layerAttributes01.png
-    :width: 251px
-    :height: 215px
+..  figure:: /images/layerSettings01.png
     :scale: 100
     :align: right
-    :alt: LibreCAD Layers Attributes
+    :alt: LibreCAD Layers Settings
+
+.. actual image size 276px x 258px
 
 .. table::
     :widths: 25, 50
@@ -208,20 +206,18 @@ Icons to the left of each layer act on the layers individually.  The layer opera
 .. See icon mapping a eof
 
 .. figure:: /images/dock-layerContextMenu.png
-    :width: 219px
-    :height: 186px
     :align: right
     :scale: 100
     :alt: Layer Context Menu
+
+.. actual image size 219px x 186px
 
 Right-clicking on a layer opens a popup menu that provides equivalent operations to the item marked with an asterisk (*).
 
 More details on creating and using :ref:`layers <su-layers>` can be found in the :ref:`Drawing Setup <drawing-setup>` section of the **User Guides**.
 
 .. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :width: 750px
-    :align: center
+.. include:: /inclFiles/eoWrap.rst
 
 
 .. _widget-libBrowser:
@@ -230,20 +226,18 @@ Library Browser Dock
 --------------------
 
 .. figure:: /images/dock-libraryBrowser01.png
-    :width: 270px
-    :height: 590px
     :align: right
     :scale: 67
     :alt: Library Browser Dock
+
+.. actual image size 284px x 340px
 
 The Library Browser Dock shows blocks available from the defined libraries and allows users to insert blocks into the current drawing.  To insert a block, select a block from one of the categories by clicking on it, e.g. "d1" and click the "Insert" button.  Specify a reference point in the drawing window with a mouse click or by entering coordinates at the command prompt.  Once inserted into the drawing, the block is shown in the :ref:`Block List Dock <ugBlocksList>`.
 
 LibreCAD includes several libraries and additional libraries can be specified by defining a path to user libraries in the :ref:`Application Preferences <app-prefs>`, "Path" tab as shown in **Getting Started**.
 
 .. Force end of left / right text wrap
-.. figure:: /images/whiteLine.png
-    :width: 750px
-    :align: center
+.. include:: /inclFiles/eoWrap.rst
 
 
 .. _widget-penWiz:
@@ -252,11 +246,11 @@ Pen Wizard Dock
 ---------------
 
 .. figure:: /images/dock-penWizard01.png
-    :width: 272px
-    :height: 590px
     :align: right
     :scale: 67
     :alt: Pen Wizard Dock
+
+.. actual image size 284px x 340px
 
 The Pen Wizard allows users to create a palette of favorite colors for the drawing tools.  Colors can be selected from the existing colors via the drop-down list or created as a custom colors via the |icon31| button to the right of the drop-down list.  Pressing the "Add to favorites" [ |icon30| ] button to the left will add the color to the list of favorites below.  Drag-and-drop the colors in the list to arrange them in the preferred order.
 
