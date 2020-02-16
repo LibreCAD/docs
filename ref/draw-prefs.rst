@@ -1,7 +1,7 @@
 .. User Manual, LibreCAD v2.2.x
 
 .. Default include
-.. include:: /inclFiles/notice.rst
+.. include:: /notice.rst
 
 
 .. _draw-prefs:
