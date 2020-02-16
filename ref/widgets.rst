@@ -135,7 +135,12 @@ Layer List Dock
 
 .. actual image size 260px x 340px
 
-The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing. The entry line on top of the dock allows to filter by layer names (e.g. "\*01" would show all names ending by "01").  Layer functions include:
+The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing. The entry line on top of the dock allows to filter by layer names (e.g. "\*01" would show all names ending by "01").
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
+Layer functions include:
 
 .. csv-table:: 
     :widths: 10, 90
@@ -152,8 +157,7 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 .. See icon mapping a eof
 
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
+The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used.
 
 Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
 
@@ -186,8 +190,6 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
     |                      |    "large").                                                             |
     +----------------------+--------------------------------------------------------------------------+
 
-The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used.
-
 Icons to the left of each layer act on the layers individually.  The layer operations are:
 
 .. csv-table:: 
@@ -204,6 +206,9 @@ Icons to the left of each layer act on the layers individually.  The layer opera
     "|icon26|", "Shows the current layer color (Default is Black)."
 
 .. See icon mapping a eof
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 .. figure:: /images/dock-layerContextMenu.png
     :align: right
