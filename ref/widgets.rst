@@ -74,9 +74,12 @@ Block List Dock
 The Block List Dock provides the functions to manage blocks and a list of blocks that are active in the drawing.  Block functions include:
 
 .. figure:: /images/dock-blockList01.png
-    :align: left
+    :figwidth: 200px
+    :align: right
     :scale: 67
     :alt: Block List Dock
+
+    Block List dock example - 4 blocks
 
 .. actual image size 260px x 340px
 
@@ -129,9 +132,12 @@ Layer List Dock
 ---------------
 
 .. figure:: /images/dock-layerList01.png
+    :figwidth: 200px
     :align: right
     :scale: 67
     :alt: Layer List Dock
+
+    Layer List dock example - 4 layers
 
 .. actual image size 260px x 340px
 
@@ -231,9 +237,12 @@ Library Browser Dock
 --------------------
 
 .. figure:: /images/dock-libraryBrowser01.png
+    :figwidth: 200px
     :align: right
     :scale: 67
     :alt: Library Browser Dock
+
+    Library Browser dock example
 
 .. actual image size 284px x 340px
 
@@ -251,9 +260,12 @@ Pen Wizard Dock
 ---------------
 
 .. figure:: /images/dock-penWizard01.png
+    :figwidth: 200px
     :align: right
     :scale: 67
     :alt: Pen Wizard Dock
+
+    Pen Wizard dock example
 
 .. actual image size 284px x 340px
 
