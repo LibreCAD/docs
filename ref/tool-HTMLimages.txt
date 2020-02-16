@@ -1,0 +1,363 @@
+..  Icon mapping:
+
+.. |icon00| image:: /images/icons/librecad.ico
+            :height: 24
+            :width: 24
+.. |icon01| image:: /images/icons/line_2p.svg
+            :height: 24
+            :width: 24
+.. |icon02| image:: /images/icons/line_angle.svg
+            :height: 24
+            :width: 24
+.. |icon03| image:: /images/icons/line_horizontal.svg
+            :height: 24
+            :width: 24
+.. |icon04| image:: /images/icons/line_vertical.svg
+            :height: 24
+            :width: 24
+.. |icon05| image:: /images/icons/line_freehand.svg
+            :height: 24
+            :width: 24
+.. |icon06| image:: /images/icons/line_rectangle.svg
+            :height: 24
+            :width: 24
+.. |icon07| image:: /images/icons/line_parallel_p.svg
+            :height: 24
+            :width: 24
+.. |icon08| image:: /images/icons/line_parallel.svg
+            :height: 24
+            :width: 24
+.. |icon09| image:: /images/icons/line_bisector.svg
+            :height: 24
+            :width: 24
+.. |icon10| image:: /images/icons/line_tangent_pc.svg
+            :height: 24
+            :width: 24
+.. |icon11| image:: /images/icons/line_tangent_cc.svg
+            :height: 24
+            :width: 24
+.. |icon12| image:: /images/icons/line_tangent_perpendicular.svg
+            :height: 24
+            :width: 24
+.. |icon13| image:: /images/icons/line_perpendicular.svg
+            :height: 24
+            :width: 24
+.. |icon14| image:: /images/icons/line_relative_angle.svg
+            :height: 24
+            :width: 24
+.. |icon15| image:: /images/icons/line_polygon_cen_cor.svg
+            :height: 24
+            :width: 24
+.. |icon16| image:: /images/icons/line_polygon_cen_tan.svg
+            :height: 24
+            :width: 24
+.. |icon17| image:: /images/icons/line_polygon_cor_cor.svg
+            :height: 24
+            :width: 24
+.. |icon18| image:: /images/icons/circle_center_point.svg
+            :height: 24
+            :width: 24
+.. |icon19| image:: /images/icons/circle_center_radius.svg
+            :height: 24
+            :width: 24
+.. |icon20| image:: /images/icons/circle_2_points.svg
+            :height: 24
+            :width: 24
+.. |icon21| image:: /images/icons/circle_2_points_radius.svg
+            :height: 24
+            :width: 24
+.. |icon22| image:: /images/icons/circle_3_points.svg
+            :height: 24
+            :width: 24
+.. icon23
+.. icon24
+.. |icon25| image:: /images/icons/circle_tangential_2circles_radius.svg
+            :height: 24
+            :width: 24
+.. |icon26| image:: /images/icons/circle_tangential_2circles_point.svg
+            :height: 24
+            :width: 24
+.. |icon27| image:: /images/icons/circle_tangential_2points.svg
+            :height: 24
+            :width: 24
+.. |icon28| image:: /images/icons/circle_tangential_2circles_radius.svg
+            :height: 24
+            :width: 24
+.. |icon29| image:: /images/icons/circle_tangential_2circles_radius.svg
+            :height: 24
+            :width: 24
+.. |icon30| image:: /images/icons/arc_center_point_angle.svg
+            :height: 24
+            :width: 24
+.. |icon32| image:: /images/icons/arc_3_points.svg
+            :height: 24
+            :width: 24
+.. icon33
+.. |icon34| image:: /images/icons/arc_continuation.svg
+            :height: 24
+            :width: 24
+.. |icon35| image:: /images/icons/ellipse_axis.svg
+            :height: 24
+            :width: 24
+.. |icon36| image:: /images/icons/ellipse_arc_axis.svg
+            :height: 24
+            :width: 24
+.. |icon37| image:: /images/icons/ellipse_foci_point.svg
+            :height: 24
+            :width: 24
+.. |icon38| image:: /images/icons/ellipse_4_points.svg
+            :height: 24
+            :width: 24
+.. |icon39| image:: /images/icons/ellipse_center_3_points.svg
+            :height: 24
+            :width: 24
+.. |icon40| image:: /images/icons/ellipse_inscribed.svg
+            :height: 24
+            :width: 24
+.. |icon41| image:: /images/icons/spline.svg
+            :height: 24
+            :width: 24
+.. |icon42| image:: /images/icons/spline_points.svg
+            :height: 24
+            :width: 24
+.. |icon43| image:: /images/icons/polylines.svg
+            :height: 24
+            :width: 24
+.. |icon44| image:: /images/icons/polylineadd.png
+            :height: 24
+            :width: 24
+.. |icon45| image:: /images/icons/polylineappend.png
+            :height: 24
+            :width: 24
+.. |icon46| image:: /images/icons/polylinedel.png
+            :height: 24
+            :width: 24
+.. |icon47| image:: /images/icons/polylinedelbetween.png
+            :height: 24
+            :width: 24
+.. |icon48| image:: /images/icons/polylinetrim.png
+            :height: 24
+            :width: 24
+.. |icon49| image:: /images/icons/polylineequidstant.png
+            :height: 24
+            :width: 24
+.. |icon50| image:: /images/icons/polylinesegment.png
+            :height: 24
+            :width: 24
+.. |icon51| image:: /images/icons/select_entity.svg
+            :height: 24
+            :width: 24
+.. |icon52| image:: /images/icons/select_window.svg
+            :height: 24
+            :width: 24
+.. |icon53| image:: /images/icons/deselect_window.svg
+            :height: 24
+            :width: 24
+.. |icon54| image:: /images/icons/deselect_contour.svg
+            :height: 24
+            :width: 24
+.. |icon55| image:: /images/icons/select_intersected_entities.svg
+            :height: 24
+            :width: 24
+.. |icon56| image:: /images/icons/deselect_intersected_entities.svg
+            :height: 24
+            :width: 24
+.. |icon57| image:: /images/icons/deselect_layer.svg
+            :height: 24
+            :width: 24
+.. |icon58| image:: /images/icons/select_all.svg
+            :height: 24
+            :width: 24
+.. |icon59| image:: /images/icons/deselect_all.svg
+            :height: 24
+            :width: 24
+.. |icon60| image:: /images/icons/select_inverted.svg
+            :height: 24
+            :width: 24
+.. |icon61| image:: /images/icons/dim_aligned.svg
+            :height: 24
+            :width: 24
+.. |icon62| image:: /images/icons/dim_linear.svg
+            :height: 24
+            :width: 24
+.. |icon63| image:: /images/icons/dim_horizontal.svg
+            :height: 24
+            :width: 24
+.. |icon64| image:: /images/icons/dim_vertical.svg
+            :height: 24
+            :width: 24
+.. |icon65| image:: /images/icons/dim_radial.svg
+            :height: 24
+            :width: 24
+.. |icon66| image:: /images/icons/dim_diametric.svg
+            :height: 24
+            :width: 24
+.. |icon67| image:: /images/icons/dim_angular.svg
+            :height: 24
+            :width: 24
+.. |icon68| image:: /images/icons/dim_leader.svg
+            :height: 24
+            :width: 24
+.. |icon69| image:: /images/icons/move_copy.svg
+            :height: 24
+            :width: 24
+.. |icon70| image:: /images/icons/move_rotate.svg
+            :height: 24
+            :width: 24
+.. |icon71| image:: /images/icons/rotate2.svg
+            :height: 24
+            :width: 24
+.. |icon72| image:: /images/icons/mirror.svg
+            :height: 24
+            :width: 24
+.. |icon73| image:: /images/icons/move_rotate.svg
+            :height: 24
+            :width: 24
+.. |icon74| image:: /images/icons/rotate2.svg
+            :height: 24
+            :width: 24
+.. |icon75| image:: /images/icons/revert_direction.svg
+            :height: 24
+            :width: 24
+.. |icon76| image:: /images/icons/trim.svg
+            :height: 24
+            :width: 24
+.. |icon77| image:: /images/icons/trim2.svg
+            :height: 24
+            :width: 24
+.. |icon78| image:: /images/icons/trim_value.svg
+            :height: 24
+            :width: 24
+.. |icon79| image:: /images/icons/offset.svg
+            :height: 24
+            :width: 24
+.. |icon80| image:: /images/icons/bevel.svg
+            :height: 24
+            :width: 24
+.. |icon81| image:: /images/icons/fillet.svg
+            :height: 24
+            :width: 24
+.. |icon82| image:: /images/icons/divide.svg
+            :height: 24
+            :width: 24
+.. |icon83| image:: /images/icons/stretch.svg
+            :height: 24
+            :width: 24
+.. |icon84| image:: /images/icons/properties.svg
+            :height: 24
+            :width: 24
+.. |icon85| image:: /images/icons/attributes.svg
+            :height: 24
+            :width: 24
+.. |icon86| image:: /images/icons/explode_text_to_letters.svg
+            :height: 24
+            :width: 24
+.. |icon87| image:: /images/icons/explode.svg
+            :height: 24
+            :width: 24
+.. |icon88| image:: /images/icons/delete.svg
+            :height: 24
+            :width: 24
+.. icon89
+.. |icon90| image:: /images/icons/distance_point_to_point.svg
+            :height: 24
+            :width: 24
+.. |icon91| image:: /images/icons/distance_point_to_point.svg
+            :height: 24
+            :width: 24
+.. |icon92| image:: /images/icons/angle_line_to_line.svg
+            :height: 24
+            :width: 24
+.. |icon93| image:: /images/icons/total_length_selected_entities.svg
+            :height: 24
+            :width: 24
+.. |icon94| image:: /images/icons/polygonal_area.svg
+            :height: 24
+            :width: 24
+.. icon95
+.. |icon96| image:: /images/icons/text.svg
+            :height: 24
+            :width: 24
+.. |icon97| image:: /images/icons/hatch.svg
+            :height: 24
+            :width: 24
+.. icon98
+.. |icon99| image:: /images/icons/points.svg
+            :height: 24
+            :width: 24
+
+
+..  Tool Options mapping:
+
+.. |tlopt01| image:: /images/toolOptions/toCircleRad.png
+            :height: 32
+            :width: 178
+.. |tlopt02| image:: /images/toolOptions/toCurveAng.png
+            :height: 32
+            :width: 283
+.. |tlopt03| image:: /images/toolOptions/toCurve.png
+            :height: 32
+            :width: 139
+.. |tlopt04| image:: /images/toolOptions/toCurveRad.png
+            :height: 32
+            :width: 283
+.. |tlopt05| image:: /images/toolOptions/toDimnLin.png
+            :height: 32
+            :width: 681
+.. |tlopt06| image:: /images/toolOptions/toDimn.png
+            :height: 32
+            :width: 424
+.. |tlopt07| image:: /images/toolOptions/toLineAngle.png
+            :height: 32
+            :width: 338
+.. |tlopt08| image:: /images/toolOptions/toLineAngRel.png
+            :height: 32
+            :width: 288
+.. |tlopt09| image:: /images/toolOptions/toLineBisct.png
+            :height: 32
+            :width: 317
+.. |tlopt10| image:: /images/toolOptions/toLineHorzVert.png
+            :height: 32
+            :width: 338
+.. |tlopt11| image:: /images/toolOptions/toLineOrtho.png
+            :height: 32
+            :width: 231
+.. |tlopt12| image:: /images/toolOptions/toLineParlOff.png
+            :height: 32
+            :width: 231
+.. |tlopt13| image:: /images/toolOptions/toLineParlPt.png
+            :height: 32
+            :width: 143
+.. |tlopt14| image:: /images/toolOptions/toLine.png
+            :height: 32
+            :width: 179
+.. |tlopt15| image:: /images/toolOptions/toLinePoly.png
+            :height: 32
+            :width: 159
+.. |tlopt16| image:: /images/toolOptions/toModBevel.png
+            :height: 32
+            :width: 404
+.. |tlopt17| image:: /images/toolOptions/toModFillet.png
+            :height: 32
+            :width: 210
+.. |tlopt18| image:: /images/toolOptions/toModLen.png
+            :height: 32
+            :width: 168
+.. |tlopt19| image:: /images/toolOptions/toPoly1.png
+            :height: 32
+            :width: 348
+.. |tlopt20| image:: /images/toolOptions/toPoly2.png
+            :height: 32
+            :width: 192
+.. |tlopt21| image:: /images/toolOptions/toPrtPreview.png
+            :height: 32
+            :width: 289
+.. |tlopt22| image:: /images/toolOptions/toSpline1.png
+            :height: 32
+            :width: 261
+.. |tlopt23| image:: /images/toolOptions/toSpline2.png
+            :height: 32
+            :width: 231
+.. |tlopt24| image:: /images/toolOptions/toText.png
+            :height: 32
+            :width: 307
