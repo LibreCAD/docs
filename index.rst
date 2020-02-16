@@ -24,7 +24,7 @@ The latest information about LibreCAD can be found at `librecad.org <http://libr
 
 .. Top level index
 .. 'maxdepth 2' show numbers of levels on home page and in PDF sidebar.  Set to "2".
-.. 'navigation_depth': 2, (in conf.py) shows how numbers of levels (2) nav menu.  Set to "2".
+.. 'navigation_depth': 3, (in conf.py) shows how numbers of levels (3) nav menu.  Set to "3".
 
 .. toctree::
    :maxdepth: 2
