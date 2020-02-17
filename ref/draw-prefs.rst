@@ -51,7 +51,10 @@ Units
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Units
 
-The **Units** tab allows users to set the *Main drawing unit* to the preferred unit of measure and the format of linear and angular dimensions.  The "Main Unit" setting overrides the default set during LibreCAD's initial application :ref:`configuration <configure>`.  The same units of measures are as noted in the :ref:`appendix <measurements>` are available for the drawing's preferences.  
+The **Units** tab allows users to set the *Main drawing unit* to the preferred unit of measure and the format of linear and angular dimensions.  The "Main Unit" setting overrides the default set during LibreCAD's initial application :ref:`configuration <configure>`.  The same units of measures are as noted in the :ref:`appendix <measurements>` are available for the drawing's preferences.
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 .. note::
 
