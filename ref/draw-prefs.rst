@@ -19,12 +19,19 @@ The preferences can be configured by selecting **Options -> Current Drawing Pref
 Paper
 -----
 
-.. Text for describing images follow image directive.
+.. only:: html
 
-.. figure:: /images/drawPref1.png
-    :align: right
-    :scale: 50
-    :alt: LibreCAD Drawing Preferences - Paper
+	.. figure:: /images/drawPref1.png
+		:align: right
+		:scale: 40
+		:alt: LibreCAD Drawing Preferences - Paper
+
+.. only:: latex
+
+	.. figure:: /images/drawPref1.png
+		:align: center
+		:scale: 40
+		:alt: LibreCAD Drawing Preferences - Paper
 
 .. actual image size 785px x 623px
 
@@ -44,10 +51,19 @@ If tiled printing is used to output the drawing, use *Number of pages* section t
 Units
 -----
 
-.. figure:: /images/drawPref2.png
-    :align: right
-    :scale: 50
-    :alt: LibreCAD Drawing Preferences - Units
+.. only:: html
+
+	.. figure:: /images/drawPref2.png
+		:align: right
+		:scale: 40
+		:alt: LibreCAD Drawing Preferences - Units
+
+.. only:: latex
+
+	.. figure:: /images/drawPref2.png
+		:align: right
+		:scale: 40
+		:alt: LibreCAD Drawing Preferences - Units
 
 .. actual image size 785px x 623px
 
@@ -110,10 +126,19 @@ Angle Format
 Grid
 ----
 
-.. figure:: /images/drawPref3.png
-    :align: right
-    :scale: 50
-    :alt: LibreCAD Drawing Preferences - Grid
+.. only:: html
+
+	.. figure:: /images/drawPref3.png
+		:align: right
+		:scale: 40
+		:alt: LibreCAD Drawing Preferences - Grid
+
+.. only:: latex
+
+	.. figure:: /images/drawPref3.png
+		:align: center
+		:scale: 40
+		:alt: LibreCAD Drawing Preferences - Grid
 
 .. actual image size 785px x 623px
 
@@ -132,10 +157,19 @@ The grid provides an evenly spaced guides to assist with placing entities.  When
 Dimensions
 ----------
 
-.. figure:: /images/drawPref4.png
-    :align: right
-    :scale: 50
-    :alt: LibreCAD Drawing Preferences - Dimensions
+.. only:: html
+
+	.. figure:: /images/drawPref4.png
+		:align: right
+		:scale: 40
+		:alt: LibreCAD Drawing Preferences - Dimensions
+
+.. only:: latex
+
+	.. figure:: /images/drawPref4.png
+		:align: center
+		:scale: 40
+		:alt: LibreCAD Drawing Preferences - Dimensions
 
 .. actual image size 785px x 623px
 
@@ -221,10 +255,19 @@ The dimension preferences affect how dimensions appear on the drawings.  Setting
 Splines
 -------
 
-.. figure:: /images/drawPref5.png
-    :align: right
-    :scale: 50
-    :alt: LibreCAD Drawing Preferences - Splines
+.. only:: html
+
+	.. figure:: /images/drawPref5.png
+		:align: right
+		:scale: 40
+		:alt: LibreCAD Drawing Preferences - Splines
+
+.. only:: latex
+
+	.. figure:: /images/drawPref5.png
+		:align: center
+		:scale: 40
+		:alt: LibreCAD Drawing Preferences - Splines
 
 .. actual image size 785px x 623px
 

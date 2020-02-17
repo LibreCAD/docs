@@ -22,6 +22,7 @@ LibreCAD User Manual
 The latest information about LibreCAD can be found at `librecad.org <http://librecad.org>`_.
 
 .. only:: latex
+
     .. include:: /inclFiles/noticePDF.rst
 
 
