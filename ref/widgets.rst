@@ -115,7 +115,7 @@ Command Line Dock
     :scale: 67
     :alt: Command Line Dock
 
-    Command Line dock with drop-down menu
+    Command Line dock
 
 .. actual image size 260px x 340px
 
@@ -126,9 +126,9 @@ The *Command Line* is for users that want to draw by using keyboard commands. Co
     :scale: 67
     :alt: Command Line Dock
 
-    Command Line dock with drop-down menu
+    Command Line dock drop-down menu
 
-.. actual image size 260px x 340px
+.. actual image size 242px x 90px
 
 The dock includes a drop-down menu that offers additional functions:
 
