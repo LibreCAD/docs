@@ -22,11 +22,11 @@ Paper
 .. Text for describing images follow image directive.
 
 .. figure:: /images/drawPref1.png
-    :width: 785px
-    :height: 623px
     :align: right
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Paper
+
+.. actual image size 785px x 623px
 
 The *Paper* tab is used to define the size, orientation and margins of the page used when generating output.  The output can be as a physical printed page or an electronic form such as a PDF.  Layout of the page with specified settings may be checked in Preview section.  The paper format is also used when previewing a drawing (**File -> Print Preview**).
 
@@ -45,11 +45,12 @@ Units
 -----
 
 .. figure:: /images/drawPref2.png
-    :width: 785px
-    :height: 623px
     :align: right
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Units
+
+.. actual image size 785px x 623px
+
 
 The **Units** tab allows users to set the *Main drawing unit* to the preferred unit of measure and the format of linear and angular dimensions.  The "Main Unit" setting overrides the default set during LibreCAD's initial application :ref:`configuration <configure>`.  The same units of measures are as noted in the :ref:`appendix <measurements>` are available for the drawing's preferences.
 
@@ -110,11 +111,11 @@ Grid
 ----
 
 .. figure:: /images/drawPref3.png
-    :width: 785px
-    :height: 623px
     :align: right
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Grid
+
+.. actual image size 785px x 623px
 
 The grid provides an evenly spaced guides to assist with placing entities.  When used with :ref:`snaps <snaps>` place can be precise.  The **Grid** tab has the following options:
 
@@ -132,11 +133,11 @@ Dimensions
 ----------
 
 .. figure:: /images/drawPref4.png
-    :width: 785px
-    :height: 623px
-    :align: center
+    :align: right
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Dimensions
+
+.. actual image size 785px x 623px
 
 The dimension preferences affect how dimensions appear on the drawings.  Settings include:
 
@@ -221,11 +222,11 @@ Splines
 -------
 
 .. figure:: /images/drawPref5.png
-    :width: 785px
-    :height: 623px
     :align: right
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Splines
+
+.. actual image size 785px x 623px
 
 The single parameter *Number of line segments per spline patch* affects the 'smoothness' of a spline.  The greater the value, the 'smoother' the spline will be drawn.
 
