@@ -59,10 +59,19 @@ To delete an existing menu:
 
 Custom menus can also be assigned to a keyboard short-cut to make them easily accessible:
 
-.. figure:: /images/menuAssign.png
-    :align: right
-    :scale: 100
-    :alt: LibreCAD Menu Assigner
+.. only:: html
+
+	.. figure:: /images/menuAssign.png
+		:align: right
+		:scale: 100
+		:alt: LibreCAD Menu Assigner
+
+.. only:: latex
+
+	.. figure:: /images/menuAssign.png
+		:align: right
+		:scale: 67
+		:alt: LibreCAD Menu Assigner
 
 .. actual image size 208px x 188px
 
@@ -127,10 +136,19 @@ To delete an existing toolbar:
 Widget Options
 --------------
 
-.. figure:: /images/widgetOptions.png
-	:align: right
-	:scale: 67
-	:alt: Widget Options
+.. only:: html
+
+	.. figure:: /images/widgetOptions.png
+		:align: right
+		:scale: 67
+		:alt: Widget Options
+
+.. only:: latex
+
+	.. figure:: /images/widgetOptions.png
+		:align: right
+		:scale: 50
+		:alt: Widget Options
 
 .. actual image size 328px x 438px
 
