@@ -51,9 +51,11 @@ Units
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Units
 
-The **Units** tab allows users to set the *Main drawing unit* to the preferred unit of measure.  The setting overrides the default set during LibreCAD's initial application :ref:`configuration <configure>`.  The same units of measures are as noted in the :ref:`appendix <measurements>` are available for the drawing's preferences.
+The **Units** tab allows users to set the *Main drawing unit* to the preferred unit of measure and the format of linear and angular dimensions.  The "Main Unit" setting overrides the default set during LibreCAD's initial application :ref:`configuration <configure>`.  The same units of measures are as noted in the :ref:`appendix <measurements>` are available for the drawing's preferences.  
 
-In addition, the Length and Angle formats and precision, as shown below, can be set to suit the type of drawing.
+.. note::
+
+   These preferences format the display of linear and angular units on the *status bar*.  They *do not* affect the appearance of dimensions in the drawing.  See :ref:`Dimensions <dimn-prefs>` below for configuring dimensions' format.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -133,6 +135,13 @@ Dimensions
     :scale: 50
     :alt: LibreCAD Drawing Preferences - Dimensions
 
+The dimension preferences affect how dimensions appear on the drawings.  Settings include:
+
+    - General scale: 
+    - Text & position: 
+    - Extension lines: 
+    - Dimension lines, arrows & ticks:
+    - Format units: setting for linear and angular dimensions.  These settings are independent of the preference defined in the :ref:`Drawing Prefences <draw-prefs>`.
 
 .. table::
     :widths: 30, 70
@@ -141,21 +150,21 @@ Dimensions
     +-----------------------------+-------------------------------------------------------------------+
     | Setting                     | Description                                                       |
     +=============================+===================================================================+
-    | General Scale               | | Adjusts the **sizes** of the text and arrows by the factor      |
-    |                             | | provided.                                                       |
+    | General Scale               | Adjusts the *sizes* of the text and arrows by the factor          |
+    |                             | provided.                                                         |
     +-----------------------------+-------------------------------------------------------------------+
     | **Text size & position**                                                                        |
     +-----------------------------+-------------------------------------------------------------------+
-    | Length factor               | | Adjusts the *dimension value* by the factor provided.  The      |
-    |                             | | entity remains the length as drawn.                             |
+    | Length factor               | Adjusts the *dimension value* by the factor provided.  The        |
+    |                             | entity remains the length as drawn.                               |
     +-----------------------------+-------------------------------------------------------------------+
     | Text Style                  | Sets the :ref:`font <fonts>` used for dimension text.             |
     +-----------------------------+-------------------------------------------------------------------+
-    | Text Height                 | | Sets the text height, measured in the  units defined on the     |
-    |                             | | *Units* tab.                                                    |
+    | Text Height                 | Sets the text height, measured in the  units defined on the       |
+    |                             | *Units* tab.                                                      |
     +-----------------------------+-------------------------------------------------------------------+
-    | Text alignment              | | Aligns the text parallel and offset to the dimension line or    |
-    |                             | | horizontal centered on the dimension line.                      |
+    | Text alignment              | Aligns the text parallel and offset to the dimension line or      |
+    |                             | horizontal centered on the dimension line.                        |
     +-----------------------------+-------------------------------------------------------------------+
     | Dimension line gap          | Sets the space between the dimension line and the dimension text. |
     +-----------------------------+-------------------------------------------------------------------+
@@ -167,8 +176,8 @@ Dimensions
     +-----------------------------+-------------------------------------------------------------------+
     | Enlarge                     | Length of extension line beyond dimension line.                   |
     +-----------------------------+-------------------------------------------------------------------+
-    | Fixed length                | | Fixed length of extension line measured from the dimension line |
-    |                             | | towards the dimensioned entity.                                 |
+    | Fixed length                | Fixed length of extension line measured from the dimension line   |
+    |                             | towards the dimensioned entity.                                   |
     +-----------------------------+-------------------------------------------------------------------+
     | Color                       | Extension line color, independent of layer settings.              |
     +-----------------------------+-------------------------------------------------------------------+
@@ -178,10 +187,10 @@ Dimensions
     +-----------------------------+-------------------------------------------------------------------+
     | Arrow size                  | Length of dimension (and leader) arrow.                           |
     +-----------------------------+-------------------------------------------------------------------+
-    | Tick size                   | | Length of dimension tick to from end of dimension line in each  |
-    |                             | | direction, e.g. a length of 1 will result in a total length of 2|
-    |                             | | units. (Anything greater than ''0'' will result in a *tick*     |
-    |                             | | instead of a dimension *arrow*).                                |
+    | Tick size                   | Length of dimension tick to from end of dimension line in each    |
+    |                             | direction, e.g. a length of 1 will result in a total length of 2  |
+    |                             | units. (Anything greater than ''0'' will result in a *tick*       |
+    |                             | instead of a dimension *arrow*).                                  |
     +-----------------------------+-------------------------------------------------------------------+
     | Color                       | Tick line color, independent of layer settings.                   |
     +-----------------------------+-------------------------------------------------------------------+
