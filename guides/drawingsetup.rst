@@ -123,9 +123,15 @@ As an alternative to the LibreCAD provided template, a user-specified template c
 Creating Templates
 ~~~~~~~~~~~~~~~~~~
 
-Templates are created by starting a new drawing, setting the desired :ref:`Drawing Preferences <draw-prefs>`, and adding any required drawing elements (e.g. layers, borders, etc).  Starting with a blank drawing in LibreCAD, select "Edit" from the menu bar and then "Current Drawing Preferences".  On the first tab labeled "Paper", set the paper size and orientation as desired.  Next, select the "Units" tab and set the options as desired.  Click the "Dimensions" tab and adjust the values as desired.  Check the remaining tabs and adjust those settings as necessary.  Click "OK" when done.  Add the layers and other drawing elements as required.  Refer to :ref:`Layers <su-layers>` for details on using layers and setting the attributes.
+Templates are created by starting a new drawing, setting the desired :ref:`Drawing Preferences <draw-prefs>`, and adding any required drawing elements (e.g. layers, borders, etc).
 
-Once the template has been prepared, it can be saved to any location where the user has read / write permissions.
+1. Starting with a blank drawing:
+
+    a. Select **Options -> Current Drawing Preferences**.
+    b. Set format in tabs as desired, e.g. "Paper" A4, Landscape; "Units" Length Precision 0.0, and click **OK**.
+    c. Add the layers and other drawing elements as required.
+
+Refer to :ref:`Layers <su-layers>` for details on using layers and setting the attributes, and :ref:`Printing Guide <printing-guide>` for page layout ideas. Once the template has been prepared, it can be saved to any location where the user has read / write permissions.
 
 LibreCAD supports the use of multiple templates. A LibreCAD user that plans on creating similar drawings may require only one or two templates.  A user that plans on several different types of drawings may desire multiple templates.  For example, templates can be setup for each paper size available and / or for each paper orientation.
 
