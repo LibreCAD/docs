@@ -38,6 +38,8 @@ As an alternative to the **Tools** menu, the Dock widgets provide more convenien
     - Modify, and
     - Polyline.
 
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 .. _widget-dockAreas:
 
@@ -65,6 +67,8 @@ Widgets can be placed either on top of an existing widget in any of the dock are
 
 In addition, dock widgets can be resized by clicking and dragging the edge of the widget's box.  A widget has a minimum width of five icons and can be no shorter than the default height.
 
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 .. _widget-blockList:
 
@@ -102,7 +106,8 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
 
 The lower portion of the dock shows a list of blocks in the current drawing.  The blocks in the above example are named "a3", "d1", "d2", and "d4".  More details on creating and using :ref:`blocks <blocks>` can be found in the **User Guides**.
 
-.. See icon mapping a eof
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 
 .. _widget-cmdLine:
@@ -110,7 +115,7 @@ The lower portion of the dock shows a list of blocks in the current drawing.  Th
 Command Line Dock
 -----------------
 
-.. figure:: /images/dock-cmdLine01.png
+.. figure:: /images/dock-cmdLine.png
     :align: right
     :scale: 67
     :alt: Command Line Dock
@@ -141,6 +146,9 @@ In addition to command input, the command line provides access to a built in cal
 
 .. note::
     LibreCAD is designed with emphasis on mouse input and at the moment some options can be only selected by using the mouse as there is no equivalent command.
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 
 .. _widget-layerList:
