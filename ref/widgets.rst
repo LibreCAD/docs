@@ -126,6 +126,9 @@ Command Line Dock
 
 The *Command Line* is for users that want to draw by using keyboard commands. Commands, such as "li" for a line, "cir" for a circle, etc, are entered at the command line along with the required parameters (e.g. start and end coordinates for a line).  Using the command line can be faster and/or more precise than drawing using exclusively a mouse and toolbars.  The available commands are listed with the :ref:`Drawing Tools <tools>` and :ref:`Snapping <snaps>` tools.  There are also commands available for :ref:`Edit <edit>` and :ref:`View <view>` operations.
 
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
 .. figure:: /images/dock-cmdLine01a.png
     :align: right
     :scale: 67
