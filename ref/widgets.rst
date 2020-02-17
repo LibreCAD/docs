@@ -20,7 +20,7 @@ Dock widgets are small movable windows that serve two purposes: (1) quick access
 .. figure:: /images/dock-lines.png
     :figwidth: 200px
     :align: right
-    :scale: 100
+    :scale: 67
     :alt: Lines Dock
 
     Drawing tool dock example: Line
@@ -116,6 +116,7 @@ Command Line Dock
 -----------------
 
 .. figure:: /images/dock-cmdLine.png
+    :figwidth: 200px
     :align: right
     :scale: 67
     :alt: Command Line Dock
@@ -130,6 +131,7 @@ The *Command Line* is for users that want to draw by using keyboard commands. Co
 .. include:: /inclFiles/eoWrap.rst
 
 .. figure:: /images/dock-cmdLine01a.png
+    :figwidth: 200px
     :align: right
     :scale: 67
     :alt: Command Line Dock
@@ -191,8 +193,9 @@ The lower portion of the dock shows a list of layers in the current drawing and 
 Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
 
 ..  figure:: /images/layerSettings01.png
-    :scale: 100
+    :figwidth: 200px
     :align: right
+    :scale: 67
     :alt: LibreCAD Layers Settings
 
 .. actual image size 276px x 258px
@@ -240,8 +243,9 @@ Icons to the left of each layer act on the layers individually.  The layer opera
 .. include:: /inclFiles/eoWrap.rst
 
 .. figure:: /images/dock-layerContextMenu.png
+    :figwidth: 200px
     :align: right
-    :scale: 100
+    :scale: 67
     :alt: Layer Context Menu
 
 .. actual image size 219px x 186px
