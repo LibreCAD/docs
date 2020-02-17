@@ -38,6 +38,8 @@ Margins determine the printable area of a page.  Specified fields at the edges o
 
 If tiled printing is used to output the drawing, use *Number of pages* section to set a horizontal and a vertical number of pages.  For more details about the tiled printing see :ref:`Printing Guide <printing-guide>`.
 
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 Units
 -----
@@ -53,7 +55,9 @@ The **Units** tab allows users to set the *Main drawing unit* to the preferred u
 
 In addition, the Length and Angle formats and precision, as shown below, can be set to suit the type of drawing.
 
-|
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
 
 Length Format
 ~~~~~~~~~~~~~
@@ -74,6 +78,10 @@ Length Format
 
 .. sup = superscript
 
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
+
 Angle Format
 ~~~~~~~~~~~~
 
@@ -90,6 +98,8 @@ Angle Format
 	"**Radians**", "0.5r", "0.00000000r", "SI unit of measure where the arc of a circle is measured by the length of the radius"
 	"**Surveyor's units**", "N30d32'E", "N0d00'00.0000''E", "Cardinal directions measure in deg/min/sec from North and East"
 
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 Grid
 ----
@@ -108,6 +118,8 @@ The grid provides an evenly spaced guides to assist with placing entities.  When
     - *Orthogonal* or *Isometric Grid*: Selects the grid to use.  *Orthogonal* place the grid at right angles to the X and Y axis.  *Isometric* places the markers at 30 |deg| to horizontal for guiding :ref:`isometric drawings <isometric>`.
     - Cross-hair: Toggles the orientation of the cross-hairs (right, left, or top) when used with *Isometric Snap indicator lines* (see :ref:`Application Preferences <app-prefs>`).
 
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 .. _dimn-prefs:
 
@@ -205,18 +217,8 @@ Splines
 
 The single parameter *Number of line segments per spline patch* affects the 'smoothness' of a spline.  The greater the value, the 'smoother' the spline will be drawn.
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 
 .. Symbols
