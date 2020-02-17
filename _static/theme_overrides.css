@@ -80,22 +80,3 @@ div.leftside {
 div.rightside {
     margin-left: 400px;
 }
-
-/* Improve responsive template on wider medium screens
-/* to display more content by displaying hamburger menu icon instead of TOC
-/* https://stackoverflow.com/a/60217315/4539999
-
-@media screen and (max-width: 950px){
-	.wy-body-for-nav{background:#fcfcfc}
-	.wy-nav-top{display:block}
-	.wy-nav-side{left:-300px}
-	.wy-nav-side.shift{width:85%;left:0}
-	.wy-side-scroll{width:auto}
-	.wy-side-nav-search{width:auto}
-	.wy-menu.wy-menu-vertical{width:auto}
-	.wy-nav-content-wrap{margin-left:0}
-	.wy-nav-content-wrap
-	.wy-nav-content{padding:1.618em}
-	.wy-nav-content-wrap.shift{position:fixed;min-width:100%;left:85%;top:0;height:100%;overflow:hidden}
-}
-
