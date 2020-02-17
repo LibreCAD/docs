@@ -61,7 +61,7 @@ Units
 .. only:: latex
 
 	.. figure:: /images/drawPref2.png
-		:align: right
+		:align: center
 		:scale: 40
 		:alt: LibreCAD Drawing Preferences - Units
 
