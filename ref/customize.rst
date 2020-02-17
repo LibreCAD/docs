@@ -158,6 +158,7 @@ Widget Options change the appearance of LibreCAD.  Options are available for:
     - Toolbar: the *Theme* and size of the toolbars' icons.
     - Statusbar: the overall height of the statusbar and the size of the font used.
 
+To enable an option, place a check in the checkbox and specify the desired option.
 
 .. _style-sheets: 
 
