@@ -21,6 +21,9 @@ LibreCAD User Manual
 
 The latest information about LibreCAD can be found at `librecad.org <http://librecad.org>`_.
 
+.. only:: latex
+    .. include:: /inclFiles/noticePDF.rst
+
 
 .. Top level index
 .. 'maxdepth 2' show numbers of levels on home page and in PDF sidebar.  Set to "2".
