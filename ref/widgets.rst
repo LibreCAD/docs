@@ -20,7 +20,7 @@ Dock widgets are small movable windows that serve two purposes: (1) quick access
 .. figure:: /images/dock-lines.png
     :figwidth: 200px
     :align: right
-    :scale: 67
+    :scale: 100
     :alt: Lines Dock
 
     Drawing tool dock example: Line

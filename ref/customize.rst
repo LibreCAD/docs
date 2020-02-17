@@ -19,12 +19,23 @@ Menu Creator
 
 To create, modify, or delete a custom menu, select **Widgets -> Menu Creator**
 
-.. figure:: /images/menuCreator.png
-    :width: 728px
-    :height: 404px
-    :align: right
-    :scale: 67
-    :alt: LibreCAD Menu Creator
+
+.. only:: html
+
+	.. figure:: /images/menuCreator.png
+			:align: right
+			:scale: 67
+			:alt: LibreCAD Menu Creator
+
+.. only:: latex
+
+ 	.. figure:: /images/menuCreator.png
+		:align: center
+		:scale: 67
+		:alt: LibreCAD Menu Creator
+
+.. actual image size 728px x 404px
+	
 
 To create a new menu:
 
@@ -75,12 +86,21 @@ Toolbar Creator
 
 To create a custom toolbars, select **Widgets -> Toolbar Creator**
 
-.. figure:: /images/toolbarCreator.png
-    :width: 728px
-    :height: 404px
-    :align: right
-    :scale: 67
-    :alt: LibreCAD Toolbar Creator
+.. only:: html
+
+	.. figure:: /images/toolbarCreator.png
+		:align: right
+		:scale: 67
+		:alt: LibreCAD Toolbar Creator
+
+.. only:: latex
+
+	.. figure:: /images/toolbarCreator.png
+		:align: center
+		:scale: 67
+		:alt: LibreCAD Toolbar Creator
+
+.. actual image size 728px x 404px
 
 To create a new toolbar:
 
@@ -107,7 +127,18 @@ To delete an existing toolbar:
 Widget Options
 --------------
 
-Yada, yada, yada...
+.. figure:: /images/widgetOptions.png
+	:align: right
+	:scale: 67
+	:alt: Widget Options
+
+.. actual image size 328px x 438px
+
+Widget Options change the appearance of LibreCAD.  Options are available for:
+
+    - General: LibreCAD's application window decorations (borders, buttons, etc.) and permits the use of custom *style sheets* (see below).
+    - Toolbar: the *Theme* and size of the toolbars' icons.
+    - Statusbar: the overall height of the statusbar and the size of the font used.
 
 
 .. _style-sheets: 
@@ -213,5 +244,4 @@ Or as a more complex example, save the following text as alpha.qss or alpha.txt,
     QTextEdit { background-color: honeydew; }
 
     QToolTip { background-color: white; }
-
 
