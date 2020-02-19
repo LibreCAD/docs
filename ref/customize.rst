@@ -9,7 +9,7 @@
 Customizing LibreCAD's Interface
 ================================
 
-In addition to be able to :ref:`move and reorganize menus and toolbars <app-layout>`, LibreCAD can be customized with user-defined pop-up menus, toolbars and alternative "window decoratons".
+In addition to be able to :ref:`move and reorganize menus and toolbars <app-layout>`, LibreCAD can be customized with user-defined pop-up menus, custom toolbars and alternative "window decoratons".
 
 
 .. _menu-creator:
@@ -56,8 +56,6 @@ To delete an existing menu:
 
     #. Select the menu from the **Name** drop-down menu.
     #. Click the **Destroy** button.
-
-
 
 .. only:: html
 
@@ -146,11 +144,11 @@ Widget Options
 
 .. actual image size 328px x 438px
 
-Widget in this context refer to the 'decorations' on the the application's border and title bar.  From the menubar, select **Options - > Widget Options** change the appearance of LibreCAD.  The following options are available for:
+"Widgets" in this context refer to appearance of LibreCAD's border and title bar, icons and the statusbar.  Select **Options - > Widget Options** from the menubar to change these options.  The following options are available for:
 
     - General: LibreCAD's application window decorations (borders, buttons, etc.) and permits the use of custom *style sheets* (see below).
-    - Toolbar: the *Theme* and size of the toolbars' icons.
-    - Statusbar: the overall height of the statusbar and the size of the font used.
+    - Toolbar: change the *Theme* and size of the toolbars' icons.
+    - Statusbar: change the height of the statusbar and the size of the font used.
 
 To enable an option, place a check in the checkbox and specify the desired option.
 
