@@ -9,7 +9,7 @@
 Customizing LibreCAD's Interface
 ================================
 
-In addition to be able to move and reorganize :ref:`toolbars <toolbars>` and :ref:`widgets<widgets`, LibreCAD can be customized with custom menus and toolbars.   can be created to suit the users' preferences.  
+In addition to be able to move and reorganize :ref:`toolbars <toolbars>` and :ref:`widgets<widgets`, LibreCAD can be customized with user-defined menus, toolbars and "window decoratons".
 
 
 .. _menu-creator:
@@ -152,7 +152,7 @@ Widget Options
 
 .. actual image size 328px x 438px
 
-Widget Options change the appearance of LibreCAD.  Options are available for:
+Widget Options **Options - > Widget Options** change the appearance of LibreCAD.  Options are available for:
 
     - General: LibreCAD's application window decorations (borders, buttons, etc.) and permits the use of custom *style sheets* (see below).
     - Toolbar: the *Theme* and size of the toolbars' icons.
