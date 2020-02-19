@@ -9,7 +9,7 @@
 Customizing LibreCAD's Interface
 ================================
 
-Custom menus and toolbars can be created to suit the users' preferences.  
+In addition to be able to move and reorganize :ref:`toolbars <toolbars>` and :ref:`widgets<widgets`, LibreCAD can be customized with custom menus and toolbars.   can be created to suit the users' preferences.  
 
 
 .. _menu-creator:

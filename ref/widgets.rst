@@ -99,7 +99,7 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
     |icon12|, "”Create a block” - Creates a block from the selected items."
     |icon13|, "”Add an empty block” - Creates an empty block that can then be edited is a separate window (see below)."
     |icon14|, "”Remove the active block” - Deletes the highlighted block."
-    |icon15|, "”Rename the active block” - Rename the highlighted block"
+    |icon15|, "”Rename the active block” - Rename the highlighted block."
     |icon16|, "”Edit the active block in a separate window” - Open a new drawing window to edit a new or  existing block."
     |icon17|, "”Save the active block to a file” - Saves the highlighted block to a file."
     |icon18|, "”Insert the active block”. - Inserts the highlighted block in the current drawing at the specified reference point"
@@ -201,6 +201,7 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
 .. actual image size 276px x 258px
 
 .. table::
+   :align: center
     :widths: 25, 50
     :class: table-fix-width
 
