@@ -9,7 +9,7 @@
 Customizing LibreCAD's Interface
 ================================
 
-In addition to be able to move and reorganize :ref:`toolbars <toolbars>` and :ref:`widgets<widgets`, LibreCAD can be customized with user-defined menus, toolbars and "window decoratons".
+In addition to be able to :ref:`move and reorganize menus and toolbars <app-layout>`, LibreCAD can be customized with user-defined pop-up menus, toolbars and alternative "window decoratons".
 
 
 .. _menu-creator:
@@ -17,7 +17,7 @@ In addition to be able to move and reorganize :ref:`toolbars <toolbars>` and :re
 Menu Creator
 ------------
 
-To create, modify, or delete a custom menu, select **Widgets -> Menu Creator**
+The Menu Creator is used to create, modify, or delete custom **pop-up menus**.  The pop-up menu is actived by using the mouse assigments described below.  Open the Menu Creator by selecting **Options -> Widgets -> Menu Creator**
 
 
 .. only:: html
@@ -39,25 +39,25 @@ To create, modify, or delete a custom menu, select **Widgets -> Menu Creator**
 
 To create a new menu:
 
-    #. Input a name into the **Name** drop down box
-    #. Double-click on an action to add it
-    #. Drag and drop to arrange actions
-    #. Click the **Create** button
+    #. Input a name for the menu into the **Name** drop-down box.
+    #. Select an action from the left-hand list and use the right arrow (or double-click on the action) to add it to the new menu (right-hand list).
+    #. Drag and drop the items on the right-hand list to arrange the actions in the menu.
+    #. Click the **Create** button.
 
 To edit an existing menu:
 
-    #. Select the menu from the **Name** drop down box
-    #. Double-click to remove actions
-    #. Drag and drop to arrange actions
-    #. Click the **Create** button
+    #. Select the menu from the **Name** drop-down box.
+    #. Add additional items as described above.
+    #. To remove an item from the menu, select an action from the right-hand list and use the left arrow (or double-click on the action) to remove it from the menu.
+    #. Drag and drop the items on the right-hand list to arrange the actions.
+    #. Click the **Update** button.
 
 To delete an existing menu:
 
-    #. Select the menu from the **Name** drop down menu
-    #. Click the **Destroy** button
+    #. Select the menu from the **Name** drop-down menu.
+    #. Click the **Destroy** button.
 
 
-Custom menus can also be assigned to a keyboard short-cut to make them easily accessible:
 
 .. only:: html
 
@@ -75,16 +75,10 @@ Custom menus can also be assigned to a keyboard short-cut to make them easily ac
 
 .. actual image size 208px x 188px
 
-To assign a menu to a keyboard short-cut:
+A custom pop-up menu needs to be assigned to a mouse button to make them accessible:
 
     #. Click the **Assign** button
-    #. Select the desired activator(s); "Double-Click", "Right-Click", "Ctrl-Right-Click", and / or "Shift-Right-Click"
-    #. Click the **Save** button
-
-To remove assignment:
-
-    #. Click the **Assign** button
-    #. DeSelect the desired activator(s)
+    #. Enable one or more of the activators ("Double-Click", "Right-Click", "Ctrl-Right-Click", and / or "Shift-Right-Click") with a check in the check-box.
     #. Click the **Save** button
 
 
@@ -93,7 +87,7 @@ To remove assignment:
 Toolbar Creator
 ---------------
 
-To create a custom toolbars, select **Widgets -> Toolbar Creator**
+Custom toolbars can be created, modified and deleted using the Toolbar Creator.  From the menubar, select **Options ->Widgets -> Toolbar Creator**.
 
 .. only:: html
 
@@ -113,21 +107,21 @@ To create a custom toolbars, select **Widgets -> Toolbar Creator**
 
 To create a new toolbar:
 
-    #. Input a name into the **Name** drop down box
+    #. Input a name into the **Name** drop-down box
     #. Double-click on an action to add it
     #. Drag and drop to arrange actions
     #. Click the **Create** button
 
-To edit an existing toolbar:
+To modify an existing toolbar:
 
-    #. Select the toolbar from the **Name** drop down box
+    #. Select the toolbar from the **Name** drop-down box
     #. Double-click to remove actions
     #. Drag and drop to arrange actions
     #. Click the **Create** button
 
 To delete an existing toolbar:
 
-    #. Select the toolbar from the **Name** drop down box
+    #. Select the toolbar from the **Name** drop-down box
     #. Click the **Destroy** button
 
 
@@ -152,7 +146,7 @@ Widget Options
 
 .. actual image size 328px x 438px
 
-Widget Options **Options - > Widget Options** change the appearance of LibreCAD.  Options are available for:
+Widget in this context refer to the 'decorations' on the the application's border and title bar.  From the menubar, select **Options - > Widget Options** change the appearance of LibreCAD.  The following options are available for:
 
     - General: LibreCAD's application window decorations (borders, buttons, etc.) and permits the use of custom *style sheets* (see below).
     - Toolbar: the *Theme* and size of the toolbars' icons.
@@ -165,13 +159,13 @@ To enable an option, place a check in the checkbox and specify the desired optio
 Style Sheets
 ------------
 
-In “Widget Options” you can choose a style; the style list is dependent on your operating system and the version of Qt used to build LibreCAD.  For example on Windows 7 and using Qt 5 the list is: ("Windows", "Fusion").  More information can be found at http://doc.qt.io/qt-5/stylesheet.html and http://blog.qt.io/blog/2012/10/30/cleaning-up-styles-in-qt5-and-adding-fusion/
+In “Widget Options” you can also choose a style; the style list is dependent on your operating system and the version of Qt used to build LibreCAD.  For example on Windows 7 and using Qt 5 the list is: ("Windows", "Fusion").  More information can be found at http://doc.qt.io/qt-5/stylesheet.html and http://blog.qt.io/blog/2012/10/30/cleaning-up-styles-in-qt5-and-adding-fusion/
 
 Any style of a “Style Sheet” can be modified, but it is recommended that the “Fusion” style (Qt 5) be used as a base, because it is intended to be a cross platform style.  After setting a style sheet you can edit it & save and then switch back to LibreCAD and use “Reload Style Sheet” (Ctrl+T).
 
 Tips:
 
-    - Play around with the example below for an easy start.
+    - Start with the example below to obtain and understanding of how style sheet affect the appearance of LibreCAD.
     - Look at the examples for “Color” and “Gradient” in the list of property types.
     - Check out the widget specific examples at: http://doc.qt.io/qt-5/stylesheet-examples.html
 
