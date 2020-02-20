@@ -22,8 +22,8 @@ Toolbars can be moved any where on the display and left floating, or docked to a
     "Menu Item", "Description and/or *Menu Equivalent*"
     "Categories", "Groups commonly used drawing tools; *Tools -> Line / Circle / Curve / Ellipse / Polyline / Select / Dimension / Modify* and *Info*.  Clicking an icon will display the drawing tool in the category.  See :ref:`Drawing Tools <tools>` for details on each tool.
          
-          **Toolbar:** 
-          |tlbar01|"
+          **Toolbar:**
+          | |tlbar01|"
     "Circles", "Drawing tools for circles.  See :ref:`Tools -> Circle <tool-circle>`.
          
           **Toolbar:** 
