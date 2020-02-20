@@ -42,7 +42,7 @@ LibreCAD then starts with its default configuration and is ready use.  The user 
 .. actual image size 1280px x 960px
 
 Status Bar
-----------
+~~~~~~~~~~
 
 There are five sections in the status bar.  Those sections displays information about current drawing operation and include coordinates, prompts for the next action, information about the selected entity or entities, and the grid status.
 
