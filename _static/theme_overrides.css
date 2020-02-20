@@ -67,9 +67,11 @@
    text-align: left;
 }
 
-/* REF ONLY: Adjusts indent in tables when forcing line break */
+/* Adjusts indent in tables when forcing line break */
 /* https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell */
-
+table.docutils div.line-block {
+    margin-left: 0;
+}
 
 /* Two column for image presentation */
 /* https://stackoverflow.com/questions/4550021/working-example-of-floating-image-in-restructured-text/12988688 */
