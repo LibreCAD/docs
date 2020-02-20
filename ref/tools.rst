@@ -1,7 +1,8 @@
 .. User Manual, LibreCAD v2.2.x
 
 .. Default include
-.. include:: /notice.rst
+.. include:: /inclFiles/notice.rst
+
 
 .. _tools: 
    
@@ -222,7 +223,9 @@ Polyline
         | Draw an open or closed continuous line consisting of one or more straight line or arc segments defined by endpoints and / or radius or angle for arcs.
         | 
         | **Tool Options:** 
-        | |tlopt19|"
+        | |tlopt19|
+        | Options include Line and for curved segments; Tangential, Tan Radius and Angle."
+
     "Add node", |icon44|, "", "
         | Add node to existing polyline. (Use ""Snap on Entity"" to place new node on segment.)"
     "Append node", |icon45|, "", "
@@ -734,7 +737,6 @@ Others
 .. |icon97| image:: /images/icons/hatch.svg
             :height: 24
             :width: 24
-.. icon98
 .. |icon99| image:: /images/icons/points.svg
             :height: 24
             :width: 24
