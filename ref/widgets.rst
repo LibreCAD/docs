@@ -193,8 +193,6 @@ Layer functions include:
 
 The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used.
 
-Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
-
 ..  figure:: /images/layerSettings01.png
     :figwidth: 200px
     :align: right
@@ -203,9 +201,14 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
 
 .. actual image size 276px x 258px
 
+Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
 .. table::
    :align: center
-    :widths: 25, 50
+    :widths: 20, 80
     :class: table-fix-width
 
     +----------------------+--------------------------------------------------------------------------+
@@ -229,7 +232,7 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
 Icons to the left of each layer act on the layers individually.  The layer operations are:
 
 .. csv-table:: 
-    :widths: 25, 75
+    :widths: 20, 80
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
