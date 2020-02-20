@@ -181,7 +181,7 @@ The **Block Insert** capability can be expanded through the *Tool Option* bar fe
 
 
 .. csv-table:: 
-    :widths: 30, 70
+    :widths: 20, 80
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
