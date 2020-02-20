@@ -20,106 +20,107 @@ Toolbars can be moved any where on the display and left floating, or docked to a
     :class: fix-table
 
     "Menu Item", "Description and/or *Menu Equivalent*"
-    "Categories", "
-        | Groups commonly used drawing tools; *Tools -> Line / Circle / Curve / Ellipse / Polyline / Select / Dimension / Modify* and *Info*.  Clicking an icon will display the drawing tool in the category.  See :ref:`Drawing Tools <tools>` for details on each tool.
-        |
-        | **Toolbar:** 
-        | |tlbar01|"
-    "Circles", "
-        | Drawing tools for circles.  See :ref:`Tools -> Circle <tool-circle>`.
-        |
-        | **Toolbar:** 
-        | |tlbar02|"
-    "Creators",  "
-        | Access menu and toolbar creators to modify LibreCAD's interface. *Widgets -> Menu Creator* / *Toolbar Creator*.  Also see :ref:`Customizing LibreCAD’s Interface <customize>`.
-        |
-        | **Toolbar:** 
-        | |tlbar03|"
-    "Curves", "
-        | Drawing tools for curves.  See :ref:`Tools -> Curve <tool-curve>`.
-        |
-        | **Toolbar:** 
-        | |tlbar04|"
-    "DefaultCustom", "
-        | Custom toolbar example.  Includes MText, Hatch, Insert Image, Create Block, and Points.
-        |
-        | **Toolbar:** 
-        | |tlbar05|"
-    "Dimension", "
-        | Drawing tools for dimensioning.  See :ref:`Tools -> Dimension <tool-dimension>`.
-        |
-        | **Toolbar:** 
-        | |tlbar06|"
-    "Dock Areas",  "
-        | Show or hide widgets. *Widgets -> Dock Areas*.  See :ref:`Dock Widget Areas <widget-dockAreas>`.
-        |
-        | **Toolbar:** 
-        | |tlbar07|"
-    "Edit", "
-        | :ref:`Edit <edit>` functions; select, Undo, Redo, Cut, Copy and Paste.
-        |
-        | **Toolbar:** 
-        | |tlbar08|"
-    "Ellipse", "
-        | Drawing tools for ellipses.  See :ref:`Tools -> Ellipse <tool-ellipse>`.
-        |
-        | **Toolbar:** 
-        | |tlbar09|"
-    "File", "
-        | :ref:`File <file>` operations.
-        |
-        | **Toolbar:** 
-        | |tlbar10|"
-    "Info", "
-        | Tools for determinig information about entities.  See :ref:`Tools -> Info <tool-info>`.
-        |
-        | **Toolbar:** 
-        | |tlbar11|"
-    "Line", "
-        | Drawing tools for lines.  See :ref:`Tools -> Line <tool-line>`.
-        |
-        | **Toolbar:** 
-        | |tlbar12|"
-    "Modify", "
-        | Drawing tools to modify entities.  See :ref:`Tools -> Modify <tool-modify>`.
-        |
-        | **Toolbar:** 
-        | |tlbar13|"
-    "Order", "
-        | Reorder drawing entities.  *See Tools -> Modify -> Order*.
-        |
-        | **Toolbar:** 
-        | |tlbar14|"
-    "Pen", "
-        | Change entity color, width and / or line type.  :ref:`Pen <entity-pen>` attributes.
-        |
-        | **Toolbar:** 
-        | |tlbar15|"
-    "Polyline", "
-        | Drawing tools for Polylines.  See :ref:`Tools -> Polyline <tool-polyline>`.
-        |
-        | **Toolbar:** 
-        | |tlbar16|"
-    "Select", "
-        | Select entities.  See :ref:`Tools -> Select <tool-select>`.
-        |
-        | **Toolbar:** 
-        | |tlbar17|"
-    "Snap Selection", "
-        | Toggle snap tools off/on.  See :ref:`Snapping <snaps>`.
-        |
-        | **Toolbar:** 
-        | |tlbar18|"
+    "Categories", "Groups commonly used drawing tools; *Tools -> Line / Circle / Curve / Ellipse / Polyline / Select / Dimension / Modify* and *Info*.  Clicking an icon will display the drawing tool in the category.  See :ref:`Drawing Tools <tools>` for details on each tool.
+         
+          **Toolbar:** 
+
+          |tlbar01|"
+    "Circles", "Drawing tools for circles.  See :ref:`Tools -> Circle <tool-circle>`.
+         
+          **Toolbar:** 
+
+          |tlbar02|"
+    "Creators", "Access menu and toolbar creators to modify LibreCAD's interface. *Widgets -> Menu Creator* / *Toolbar Creator*.  Also see :ref:`Customizing LibreCAD’s Interface <customize>`.
+         
+          **Toolbar:** 
+
+          |tlbar03|"
+    "Curves", "Drawing tools for curves.  See :ref:`Tools -> Curve <tool-curve>`.
+         
+          **Toolbar:** 
+
+          |tlbar04|"
+    "DefaultCustom", "Custom toolbar example.  Includes MText, Hatch, Insert Image, Create Block, and Points.
+         
+          **Toolbar:** 
+
+          |tlbar05|"
+    "Dimension", "Drawing tools for dimensioning.  See :ref:`Tools -> Dimension <tool-dimension>`.
+         
+          **Toolbar:** 
+
+          |tlbar06|"
+    "Dock Areas",  "Show or hide widgets. *Widgets -> Dock Areas*.  See :ref:`Dock Widget Areas <widget-dockAreas>`.
+         
+          **Toolbar:** 
+
+          |tlbar07|"
+    "Edit", ":ref:`Edit <edit>` functions; select, Undo, Redo, Cut, Copy and Paste.
+         
+          **Toolbar:** 
+
+          |tlbar08|"
+    "Ellipse", "Drawing tools for ellipses.  See :ref:`Tools -> Ellipse <tool-ellipse>`.
+         
+          **Toolbar:** 
+
+          |tlbar09|"
+    "File", ":ref:`File <file>` operations.
+         
+          **Toolbar:** 
+
+          |tlbar10|"
+    "Info", "Tools for determinig information about entities.  See :ref:`Tools -> Info <tool-info>`.
+         
+          **Toolbar:** 
+
+          |tlbar11|"
+    "Line", "Drawing tools for lines.  See :ref:`Tools -> Line <tool-line>`.
+         
+          **Toolbar:** 
+
+          |tlbar12|"
+    "Modify", "Drawing tools to modify entities.  See :ref:`Tools -> Modify <tool-modify>`.
+         
+          **Toolbar:** 
+
+          |tlbar13|"
+    "Order", "Reorder drawing entities.  *See Tools -> Modify -> Order*.
+         
+          **Toolbar:** 
+
+          |tlbar14|"
+    "Pen", "Change entity color, width and / or line type.  :ref:`Pen <entity-pen>` attributes.
+         
+          **Toolbar:** 
+
+          |tlbar15|"
+    "Polyline", "Drawing tools for Polylines.  See :ref:`Tools -> Polyline <tool-polyline>`.
+         
+          **Toolbar:** 
+
+          |tlbar16|"
+    "Select", "Select entities.  See :ref:`Tools -> Select <tool-select>`.
+         
+          **Toolbar:** 
+
+          |tlbar17|"
+    "Snap Selection", "Toggle snap tools off/on.  See :ref:`Snapping <snaps>`.
+         
+          **Toolbar:** 
+
+          |tlbar18|"
     "Tool Options",  "
         | Displays input boxes for the parameters required by the currently selected tool.  **This option should always be enabled.**
-        |
-        | **Toolbar:** 
-        | Varies by tool selected.  See :ref:`Drawing Tools <tools>`."
-    "View", "
-        | Toggle grid and draft mode, force redraw, and select zoom.  See :ref:`View <view>` options.
-        |
-        | **Toolbar:** 
-        | |tlbar19|"
+         
+          **Toolbar:** 
+
+          Varies by tool selected.  See :ref:`Drawing Tools <tools>`."
+    "View", "Toggle grid and draft mode, force redraw, and select zoom.  See :ref:`View <view>` options.
+         
+          **Toolbar:** 
+
+          |tlbar19|"
 
 
 Other Toolbars
