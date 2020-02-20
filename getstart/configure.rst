@@ -44,10 +44,9 @@ The user interface consists of several major elements:
 
 .. actual image size 1280px x 960px
 
-
 - *Menu*: provides access to application functions (open, close, etc.) and drawing tools.  Menus can be customized to suit user preferences.  Refer to :ref:`Application Menu <menu>` in the **Reference** section.
 - *Toolbars*: provides access to drawing tools and functions.  Refer to :ref:`Toolbars <toolbars>`.
- *Docks*: provides access to drawing tools and functions.  Refer to :ref:`Docks <widgets>`.
+- *Docks*: provides access to drawing tools and functions.  Refer to :ref:`Docks <widgets>`.
 - *Status bar*: displays information about current drawing operation. (See below.)
 - *Drawing window*: displays the active drawing.
 
