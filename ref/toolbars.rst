@@ -14,7 +14,7 @@ Toolbars provide an alternative to the menus for accessing application functions
 Toolbars can be moved any where on the display and left floating, or docked to any of the four sides of the drawing window, similar to :ref:`Dock Widgets <widgets>`.  Unlike Dock Widgets, icons on a Toolbar are a single row when floating or docked to the top or bottom of the drawing window and verticle when docked to either side.  Also, Toolbars cannot be resized.
 
 .. csv-table:: 
-    :widths: 30, 70
+    :widths: 20, 80
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
