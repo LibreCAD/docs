@@ -737,7 +737,6 @@ Others
 .. |icon97| image:: /images/icons/hatch.svg
             :height: 24
             :width: 24
-.. icon98
 .. |icon99| image:: /images/icons/points.svg
             :height: 24
             :width: 24
