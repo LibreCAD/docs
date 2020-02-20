@@ -29,6 +29,12 @@
         color: #000000;
 }*/
 
+/* Adjusts indent in tables when forcing line break */
+/* https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell */
+table.docutils div.line-block {
+    margin-left: 0;
+}
+
 /* Wrap text in table instead of scollbars */
 /* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
 /*  Add ":class: table-fix-width" to table definitions */
@@ -53,7 +59,6 @@
    white-space: normal;
 }
 
-
 /* Table for layout purposes; no border or shading */
 .table-no-borders table, th, td {
    /* Wrap text */
@@ -61,17 +66,12 @@
    /* Remove ALL table borders */
    border: none;
    /* Remove table shading */
-   background-color: white;
+   background-color: white !important;
    /* Align text to top left */
    vertical-align: top;
    text-align: left;
 }
 
-/* Adjusts indent in tables when forcing line break */
-/* https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell */
-table.docutils div.line-block {
-    margin-left: 0;
-}
 
 /* Two column for image presentation */
 /* https://stackoverflow.com/questions/4550021/working-example-of-floating-image-in-restructured-text/12988688 */
