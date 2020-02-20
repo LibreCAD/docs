@@ -23,7 +23,7 @@ Line
     :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Tool", "Icon", "Command", "Description"
     "2 points", |icon01|, "l, li, line", "
@@ -104,7 +104,7 @@ Circle
     :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Tool", "Icon", "Command", "Description"
     "Centre, Point", |icon18|, "ci, circle", "
@@ -148,7 +148,7 @@ Curve
     :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Tool", "Icon", "Command", "Description"
     "Center, Point, Angles", |icon30|, "", "
@@ -192,7 +192,7 @@ Ellipse
     :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Tool", "Icon", "Command", "Description"
     "Ellipse (Axis)", |icon35|, "", "
@@ -216,7 +216,7 @@ Polyline
     :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Tool", "Icon", "Command", "Description"
     "Polyline", |icon43|, "pl, polyline", "
@@ -253,7 +253,7 @@ Select
     :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Tool", "Icon", "Command", "Description"
     "Deselect all", |icon59|, "tn", "
@@ -287,7 +287,7 @@ Dimension
     :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Tool", "Icon", "Command", "Description"
     "Aligned", |icon61|, "da", "
@@ -338,7 +338,7 @@ Modify
     :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Tool", "Icon", "Command", "Description"
     "Order", "", "", "
@@ -406,7 +406,7 @@ Info
     :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Tool", "Icon", "Command", "Description"
     "Distance Point to Point", |icon90|, "dpp, dist", "
@@ -432,7 +432,7 @@ Others
     :widths: 15, 10, 15, 60
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Tool", "Icon", "Command", "Description"
     ":ref:`MText <text>`", |icon96|, "mtxt, mtext", "
