@@ -173,6 +173,9 @@ Layer List Dock
 
 The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing. The entry line on top of the dock allows to filter by layer names (e.g. "\*01" would show all names ending by "01").
 
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
 Layer functions include:
 
 .. csv-table:: 
