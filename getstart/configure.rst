@@ -65,8 +65,8 @@ There are five sections in the status bar.  Those sections displays information 
 
     "Section", "Description"
     "Coordinates", "Displays the absolute coordinates (left) and the relative coordinates (right) of the cross-hair / cursor.  Cartesian coordinates are shown on top and and polar coordinates are bottom.  Refer to :ref:`Coordinates <coordinates>` in **Fundamentals** of the **Reference** section for more details on the type of coordinates.
-         
-|statbar01|"
+     
+     |statbar01|"
     "Next Action", "
         | Displays a prompt for the next action required for the current command; e.g. ”Specify first point”, ”Specify center”, etc.  Prompts to the left of the mouse icon represent left mouse button actions and the right represent right mouse button actions.
         | 
