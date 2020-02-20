@@ -235,21 +235,59 @@ Inserting a block from a library can be enhanced through the *Tool Option* bar f
 ..  Toolbar mapping:
 
 .. |tlbar01| image:: /images/toolBars/tbCategories.png
+            :height: 39
+            :width: 313
 .. |tlbar02| image:: /images/toolBars/tbCircle.png
+            :height: 39
+            :width: 313
 .. |tlbar03| image:: /images/toolBars/tbCreators.png
+            :height: 39
+            :width: 82
 .. |tlbar04| image:: /images/toolBars/tbCurves.png
+            :height: 39
+            :width: 247
 .. |tlbar05| image:: /images/toolBars/tbCustomDefault.png
+            :height: 39
+            :width: 181
 .. |tlbar06| image:: /images/toolBars/tbDimn.png
+            :height: 39
+            :width: 280
 .. |tlbar07| image:: /images/toolBars/tbDockAreas.png
+            :height: 39
+            :width: 181
 .. |tlbar08| image:: /images/toolBars/tbEdit.png
+            :height: 39
+            :width: 228
 .. |tlbar09| image:: /images/toolBars/tbEllipse.png
+            :height: 39
+            :width: 181
 .. |tlbar10| image:: /images/toolBars/tbFile.png
+            :height: 39
+            :width: 247
 .. |tlbar11| image:: /images/toolBars/tbInfo.png
+            :height: 39
+            :width: 181
 .. |tlbar12| image:: /images/toolBars/tbLine.png
+            :height: 39
+            :width: 544
 .. |tlbar13| image:: /images/toolBars/tbModify.png
+            :height: 39
+            :width: 676
 .. |tlbar14| image:: /images/toolBars/tbOrder.png
+            :height: 39
+            :width: 148
 .. |tlbar15| image:: /images/toolBars/tbPen.png
+            :height: 39
+            :width: 436
 .. |tlbar16| image:: /images/toolBars/tbPolyline.png
+            :height: 39
+            :width: 280
 .. |tlbar17| image:: /images/toolBars/tbSelect.png
+            :height: 39
+            :width: 346
 .. |tlbar18| image:: /images/toolBars/tbSnapSel.png
+            :height: 39
+            :width: 492
 .. |tlbar19| image:: /images/toolBars/tbView.png
+            :height: 39
+            :width: 320
