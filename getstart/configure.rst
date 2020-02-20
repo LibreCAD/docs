@@ -9,6 +9,9 @@
 Configuration
 =============
 
+Initial Setup
+-------------
+
 LibreCAD's "Welcome" dialog is shown the first time LibreCAD is launched after installation.  The dialog prompts the user to select the :ref:`Default Unit <measurements>` and the languages to be used for the GUI and for the commands: 
 
 .. figure:: /images/LC_welcome.png
@@ -17,13 +20,13 @@ LibreCAD's "Welcome" dialog is shown the first time LibreCAD is launched after i
     :alt: LibreCAD Welcome
 .. actual image size 705px x 410px
 
-LibreCAD then starts with its default configuration and is ready use.  The user interface consists of several elements as shown below:
+LibreCAD then starts with its default configuration and is ready use.  Or, additional configuration can be completed by changing the **Application Preferences** as shown :ref:`below <app-prefs>`.
 
-    - *Menu*: provides access to application functions (open, close, etc.) and drawing tools.  Menus can be customized to suit user preferences.  Refer to :ref:`Application Menu <menu>` in the **Reference** section.
-    - *Toolbars*: provides access to drawing tools and functions.  Refer to :ref:`Toolbars <toolbars>`.
-    - *Docks*: provides access to drawing tools and functions.  Refer to :ref:`Docks <widgets>`.
-    - *Status bar*: displays information about current drawing operation. (See below.)
-    - *Drawing window*: displays the active drawing.
+
+User Interface
+--------------
+
+The user interface consists of several major elements:
 
 .. only:: html
 
@@ -41,6 +44,14 @@ LibreCAD then starts with its default configuration and is ready use.  The user 
 
 .. actual image size 1280px x 960px
 
+
+- *Menu*: provides access to application functions (open, close, etc.) and drawing tools.  Menus can be customized to suit user preferences.  Refer to :ref:`Application Menu <menu>` in the **Reference** section.
+- *Toolbars*: provides access to drawing tools and functions.  Refer to :ref:`Toolbars <toolbars>`.
+ *Docks*: provides access to drawing tools and functions.  Refer to :ref:`Docks <widgets>`.
+- *Status bar*: displays information about current drawing operation. (See below.)
+- *Drawing window*: displays the active drawing.
+
+
 Status Bar
 ~~~~~~~~~~
 
@@ -50,7 +61,7 @@ There are five sections in the status bar.  Those sections displays information 
     :widths: 20, 80
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Section", "Description"
     "Coordinates", "
@@ -74,10 +85,11 @@ There are five sections in the status bar.  Those sections displays information 
         | 
         | |statbar05|"
 
+
 .. _app-layout:
 
 Layout
-------
+~~~~~~
 
 LibreCAD's layout and appearance is highly configurable:
 
@@ -221,6 +233,7 @@ LibreCAD's configuration can be partially or entirely reset back to a defaults:
     - *Layout*: Resets the application window *layout* to the default configuration.
     - *All*: Resets the application to the default configuration.  Window layout, color settings, custom menus and toolbars, etc. are all reset.  The "Welcome" dialog will be displayed next time the application is launched.
 
+
 Startup
 ```````
 When checked the following items will:
@@ -237,17 +250,22 @@ When checked the following items will:
 .. |statbar01| image:: /images/statusbarCoords01.png
             :height: 56
             :width: 382
+            :scale: 75
 .. |statbar02| image:: /images/statusbarNextOp01.png
             :height: 56
             :width: 301
+            :scale: 75
 .. |statbar03| image:: /images/statusbarSelected01.png
             :height: 56
             :width: 135
+            :scale: 75
 .. |statbar04| image:: /images/statusbarLayer.png
             :height: 56
             :width: 108
+            :scale: 75
 .. |statbar05| image:: /images/statusbarGrid.png
             :height: 56
             :width: 104
+            :scale: 75
 
 
