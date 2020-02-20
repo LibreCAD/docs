@@ -207,7 +207,7 @@ Inserting a block from a library can be enhanced through the *Tool Option* bar f
 
 
 .. csv-table:: 
-    :widths: 30, 70
+    :widths: 20, 80
     :header-rows: 1
     :stub-columns: 0
     :class: fix-table
