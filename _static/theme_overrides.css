@@ -33,32 +33,27 @@
 /* Adjusts indent in tables when forcing line break */
 /* https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell */
 table.docutils div.line-block {
-    margin-left: 0;
+    margin-left: 0 !important;
 }
+
 
 /* Wrap text in table instead of scollbars */
 /* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
 /*  Add ":class: table-fix-width" to table definitions */
-
 .table-fix-width table, th, td {
    /* Wrap text */
    white-space: normal !important;
    /* Set table borders */
-   border: 1px solid black;
+   border: 1px solid black !important;
    /* Adjust padding for tables */
-   padding: 1px 5px 1px 5px;
-   margin-left: 1;
+   padding: 1px 5px 1px 5px !important;
+   margin-left: 1 !important;
    /* Striped table */
    tr: nth-child(odd){
       background-color: #f2f2f2 !important;
    }
 }
 
-/* Old table width fix - to be deleted */
-.fix-table td {
-   /* Wrap text */
-   white-space: normal;
-}
 
 /* Table for layout purposes; no border or shading */
 /*  Add ":class: table-no-borders" to table definition */
