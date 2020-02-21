@@ -23,7 +23,7 @@ File
     :widths: 20, 10, 15, 55
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Menu Item", "Icon", "Short-cut", "Description"
     "New", |icon01|, "[Ctrl]+n", "Creates a new drawing file."
@@ -46,7 +46,7 @@ Options
     :widths: 20, 10, 15, 55
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Menu Item", "Icon", "Short-cut", "Description"
     "Application Preferences", |icon13|, "", "See :ref:`Application Preferences <app-prefs>` in **Getting Started** for details."
@@ -64,7 +64,7 @@ Edit
     :widths: 20, 10, 15, 55
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Menu Item", "Icon", "Short-cut / *Command*", "Description"
     "Selection Pointer", |icon18|, "[Esc] / *k, kill*", "Reverts from current operation to the selection pointer (e.g. cancels the current operation)"
@@ -85,7 +85,7 @@ View
     :widths: 20, 10, 15, 55
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Menu Item", "Icon", "Short-cut / *Command*", "Description"
     "Fullscreen", , "[F11]", "Hides the application title bar and toggles LibreCAD to use the entire display."
@@ -109,7 +109,7 @@ Plugins
     :widths: 20, 10, 15, 55
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Menu Item", "Icon", "Short-cut", "Description"
     "Align", , "", "Align selected entities to a reference by defining the final positions of 2 initial points."
@@ -137,7 +137,7 @@ Widgets
     :widths: 20, 10, 15, 55
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Menu Item", "Icon", "Short-cut", "Description"
     "Dock Areas", , "", "Toggles the visibility of the left, right, top, bottom and /or floating *Dock Widgets*."
@@ -154,7 +154,7 @@ Drawings
     :widths: 20, 10, 15, 55
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Menu Item", "Icon", "Short-cut", "Description"
     "Tab mode", , "", "Toggles LibreCAD to a tabbed drawing space.  Each open drawing is on its own tabbed drawing window when the tabbed mode is active (checked)."
@@ -168,7 +168,7 @@ Help
     :widths: 20, 10, 15, 55
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Menu Item", "Icon", "Short-cut", "Description"
     "Online", , "", "Displays links to online resources; Wiki, User's Manual, Command, Style Sheets, Widgets, Forum and Release Information."

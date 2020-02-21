@@ -12,7 +12,7 @@ Hatches
     :widths: 33, 33, 33
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     |hatch01|, |hatch02|, |hatch03|
     |hatch04|, |hatch05|, |hatch06|

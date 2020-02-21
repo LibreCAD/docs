@@ -10,7 +10,7 @@ Fonts
     :widths: 15, 25, 40, 10, 10
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
    
     "Font Name","Font Filename","Font Type","Technical (\*)", "Sample"
     "amiri-regular", "amiri-regular.lff", "Serif", " ", |font01|

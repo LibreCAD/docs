@@ -16,7 +16,7 @@ Download Installation Packages
 
 .. table::
     :widths: 25, 75
-    :class: fix-table
+    :class: table-fix-width
 
     +-----------------------------+-------------------------------------------------------------------------+
     | Operating System            | URL                                                                     |

@@ -88,7 +88,7 @@ Length Format
     :widths: 15, 15, 15, 55
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
    
     "Format", "Example", "Maximum Precision", "Description"
     "**Scientific**", "1.44311E+1", "0.00000000E+1", "Significant x 10 :superscript:`n`"
@@ -111,7 +111,7 @@ Angle Format
     :widths: 15, 15, 15, 55
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Format", "Example", "Maximum Precision", "Description"
 	"**Decimal Degrees**", "30.5 |deg|", "0.00000000", "Integer part separated from the fractional part of a number by a decimal"
