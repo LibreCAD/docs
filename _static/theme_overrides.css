@@ -1,5 +1,5 @@
 @import url("//media.readthedocs.org/css/sphinx_rtd_theme.css");
-@import url("//media.readthedocs.org/css/theme.css");
+@import url("//media.readthedocs.org/css/readthedocs-doc-embed.css");
 
 /* Change theme color to LibreCAD's themes */
 
@@ -66,7 +66,7 @@ table.docutils div.line-block {
    /* Wrap text */
    white-space: normal !important;
    /* Remove ALL table borders */
-   border: none;
+   border: 0px solid white;
    /* Remove table shading */
    background-color: white !important;
    /* Align text to top left */
