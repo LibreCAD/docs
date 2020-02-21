@@ -61,12 +61,12 @@ table.docutils div.line-block {
    /* Wrap text */
    white-space: normal !important;
    /* Remove ALL table borders */
-   border: 0px solid white;
+   border: 0px solid white !important;
    /* Remove table shading */
-   background-color: white;
+   background-color: white !important;
    /* Align text to top left */
-   vertical-align: top;
-   text-align: left;
+   vertical-align: top !important;
+   text-align: left !important;
 }
 
 
