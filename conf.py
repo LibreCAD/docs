@@ -132,7 +132,8 @@ html_static_path = ['_static']
 ### Theme overrides
 ## Theme overrides defined in _static/theme_overrides.css
 def setup(app):
-   app.add_css_file('theme_overrides.css')
+   app.add_stylesheet('theme_overrides.css')
+##   app.add_css_file('theme_overrides.css')
 ## or
 ##html_style = 'theme_overrides.css'
 ## or
