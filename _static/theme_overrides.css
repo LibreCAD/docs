@@ -49,10 +49,10 @@ table.docutils div.line-block {
    /* Adjust padding for tables */
    padding: 1px 5px 1px 5px;
    margin-left: 1;
-   /* Striped table 
+   /* Striped table */
    tr: nth-child(odd){
       background-color: #f2f2f2 !important;
-   }*/
+   }
 }
 
 /* Old table width fix - to be deleted */
