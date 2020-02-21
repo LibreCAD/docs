@@ -115,6 +115,8 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+
+
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
@@ -132,7 +134,10 @@ html_static_path = ['_static']
 ## Theme overrides defined in _static/theme_overrides.css
 ##def setup(app):
 ##   app.add_stylesheet('theme_overrides.css')
-html_style = 'theme_overrides.css'
+## or
+##html_style = 'theme_overrides.css'
+## or
+html_css_files = ['theme_overrides.css']
 
 ## Added LibreCAD icon
 html_logo = 'images/librecad64X64.png'
