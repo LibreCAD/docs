@@ -40,7 +40,7 @@ table.docutils div.line-block {
 /* Wrap text in table instead of scollbars */
 /* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
 /*  Add ":class: table-fix-width" to table definitions */
-table-fix-width table, th, td {
+.table-fix-width table, th, td {
    /* Wrap text */
    white-space: normal;
    /* Set table borders */
@@ -57,7 +57,7 @@ table-fix-width table, th, td {
 
 /* Table for layout purposes; no border or shading */
 /*  Add ":class: table-no-borders" to table definition */
-table-no-borders table, th, td {
+.table-no-borders table, th, td {
    /* Wrap text */
    white-space: normal;
    /* Remove ALL table borders */
