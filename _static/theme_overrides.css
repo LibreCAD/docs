@@ -1,4 +1,5 @@
 @import url("//media.readthedocs.org/css/sphinx_rtd_theme.css");
+@import url("//media.readthedocs.org/css/theme.css");
 
 /* Change theme color to LibreCAD's themes */
 
@@ -30,9 +31,9 @@
 }*/
 
 /* Adjusts indent in tables when forcing line break */
-/* https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell */
-table.docutils div.line-block {
-    margin-left: 0;
+/* Fix RTD theme bottom margin */
+.rst-content .line-block {
+    margin-left: 4px
 }
 
 /* Wrap text in table instead of scollbars */
