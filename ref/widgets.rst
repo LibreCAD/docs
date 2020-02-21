@@ -207,7 +207,7 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
 .. include:: /inclFiles/eoWrap.rst
 
 .. table::
-   :align: center
+    :align: center
     :widths: 20, 80
     :class: table-fix-width
 

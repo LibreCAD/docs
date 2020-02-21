@@ -12,7 +12,7 @@ Typing "cal" at the command line will toggle the calculator mode on and off.
     :widths: 10, 70, 20 
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
     
     "Name", "Function / Operation", "Usage"
     "\+", "addition", "x+y"

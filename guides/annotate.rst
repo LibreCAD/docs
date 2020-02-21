@@ -54,7 +54,7 @@ The appearance of the dimensions are configured on the :ref:`Dimensions <dimn-pr
     :widths: 40, 20, 20, 20
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Dimension Component", "mm", "Decimal Inch", "Fractional Inch"
     "Dimension text height", "2.5", ".100", "3/32"

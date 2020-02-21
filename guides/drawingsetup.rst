@@ -93,7 +93,7 @@ Layers are displayed in alpha-numeric order in the layer list.  However, the ord
     :widths: 25, 25, 75
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Action", "Key", "Result"
     "move to top", "[Home]", "Moves the selected entity to the *top* most position."

@@ -338,7 +338,7 @@ Also, the properties of a specific entity type, e.g. line, does not vary even if
     :widths: 15, 25, 60
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Entity Type", "Drawing Tool", "Properties"
     "Line", "2 points, Angle, Horizontal, etc", "Start and end point X/Y coordinates"

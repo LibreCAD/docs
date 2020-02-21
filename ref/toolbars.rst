@@ -17,7 +17,7 @@ Toolbars can be moved any where on the display and left floating, or docked to a
     :widths: 20, 80
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Menu Item", "Description and/or *Menu Equivalent*"
     "Categories", "
@@ -149,7 +149,7 @@ The **Print Preview** toolbar is used to set up the print output as desired rega
     :widths: 20, 10, 70
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
     
     "Option Item", "Icon", "Description"
     "Scale", , "Displays the scale of the drawing based on its size and the paper size selected in :ref:`Drawing Preferences <draw-prefs>`. It is also possible to adjust the scale to a specific value to a value in the drop down  list or enter a custom values separated by the colon (:). Checking the *fixed* checkbox locks the scale to the set value."
@@ -184,7 +184,7 @@ The **Block Insert** capability can be expanded through the *Tool Option* bar fe
     :widths: 20, 80
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
     
     "Option Item", "Description"
     "Angle", "Defines the angle of rotation, if any. See :ref:`Angles in LibreCAD <fundamentals>`."
@@ -210,7 +210,7 @@ Inserting a block from a library can be enhanced through the *Tool Option* bar f
     :widths: 20, 80
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
     
     "Option Item", "Description"
     "Angle", "Defines the angle of rotation, if any. See :ref:`Angles in LibreCAD <fundamentals>`."

@@ -12,7 +12,7 @@ LibreCAD supports a large number of measurement systems/units:
     :widths: 15, 10, 10, 20, 45
     :header-rows: 1
     :stub-columns: 0
-    :class: fix-table
+    :class: table-fix-width
 
     "Unit", "Abbr.", "System", "Equivalences", "Uses (\*)"
     "Inch", "in", "Imperial", "3 barleycorns", "Widely used in the United States, Canada, and the United Kingdom."
