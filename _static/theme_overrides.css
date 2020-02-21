@@ -1,5 +1,5 @@
 @import url("//media.readthedocs.org/css/sphinx_rtd_theme.css");
-@import url("//media.readthedocs.org/css/readthedocs-doc-embed.css");
+@import "theme.css";
 
 /* Change theme color to LibreCAD's themes */
 
@@ -36,7 +36,6 @@ table.docutils div.line-block {
     margin-left: 0;
 }*/
 
-
 /* Wrap text in table instead of scollbars */
 /* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
 /*  Add ":class: table-fix-width" to table definitions */
@@ -68,7 +67,7 @@ table.docutils div.line-block {
    /* Remove ALL table borders */
    border: 0px solid white;
    /* Remove table shading */
-   background-color: white !important;
+   background-color: white;
    /* Align text to top left */
    vertical-align: top;
    text-align: left;
