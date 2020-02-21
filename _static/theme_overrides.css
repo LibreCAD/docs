@@ -40,33 +40,33 @@ table.docutils div.line-block {
 /* Wrap text in table instead of scollbars */
 /* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
 /*  Add ":class: table-fix-width" to table definitions */
-.table-fix-width table, th, td {
+table-fix-width table, th, td {
    /* Wrap text */
-   white-space: normal !important;
+   white-space: normal;
    /* Set table borders */
-   border: 1px solid black !important;
+   border: 1px solid black;
    /* Adjust padding for tables */
-   padding: 1px 5px 1px 5px !important;
-   margin-left: 1 !important;
+   padding: 1px 5px 1px 5px;
+   margin-left: 1;
    /* Striped table */
    tr: nth-child(odd){
-      background-color: #f2f2f2 !important;
+      background-color: #f2f2f2;
    }
 }
 
 
 /* Table for layout purposes; no border or shading */
 /*  Add ":class: table-no-borders" to table definition */
-.table-no-borders table, th, td {
+table-no-borders table, th, td {
    /* Wrap text */
-   white-space: normal !important;
+   white-space: normal;
    /* Remove ALL table borders */
-   border: 0px solid white !important;
+   border: 0px solid white;
    /* Remove table shading */
-   background-color: white !important;
+   background-color: white;
    /* Align text to top left */
-   vertical-align: top !important;
-   text-align: left !important;
+   vertical-align: top;
+   text-align: left;
 }
 
 
