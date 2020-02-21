@@ -132,12 +132,12 @@ html_static_path = ['_static']
 
 ### Theme overrides
 ## Theme overrides defined in _static/theme_overrides.css
-##def setup(app):
-##   app.add_stylesheet('theme_overrides.css')
+def setup(app):
+   app.add_stylesheet('theme_overrides.css')
 ## or
 ##html_style = 'theme_overrides.css'
 ## or
-html_css_files = ['theme_overrides.css']
+##html_css_files = ['theme_overrides.css']
 
 ## Added LibreCAD icon
 html_logo = 'images/librecad64X64.png'
