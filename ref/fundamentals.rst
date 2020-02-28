@@ -30,17 +30,17 @@ Examples of X and Y coordinates:
 
     .. figure:: /images/coords.png
         :align: center
-        :scale: 50
+        :scale: 100
         :alt: Coordinate
 
 .. only:: latex
 
     .. figure:: /images/coords.png
         :align: center
-        :scale: 33
+        :scale: 67
         :alt: Coordinate
 
-.. actual image size 880px x 660px
+.. actual image size 510px x 382px
 
 
 Types of Coordinates
@@ -52,17 +52,17 @@ There are two coordinate systems used in LibreCAD, *Cartesian* and *Polar*.
 
     .. figure:: /images/byCartesian.png
         :align: right
-        :scale: 40
+        :scale: 100
         :alt: Cartesian Coordinates
 
 .. only:: latex
 
     .. figure:: /images/byCartesian.png
         :align: center
-        :scale: 40
+        :scale: 67
         :alt: Cartesian Coordinates
 
-.. actual image size 800px x 660px
+.. actual image size 510px x 382px
 
 Cartesian
 `````````
@@ -76,17 +76,17 @@ The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartes
 
     .. figure:: /images/byPolar.png
         :align: right
-        :scale: 40
+        :scale: 100
         :alt: Polar Coordinates
 
 .. only:: latex
 
     .. figure:: /images/byPolar.png
         :align: center
-        :scale: 40
+        :scale: 67
         :alt: Polar Coordinates
 
-.. actual image size 800px x 660px
+.. actual image size 510px x 382px
 
 Polar
 `````
@@ -105,17 +105,17 @@ In LibreCAD lines, points, arcs, polylines, circles, and many more entities can 
 
     .. figure:: /images/byAbsCoorRelCoor.png
         :align: right
-        :scale: 40
+        :scale: 100
         :alt: Absolute & Relative Cartesian Coordinates
 
 .. only:: latex
 
     .. figure:: /images/byAbsCoorRelCoor.png
         :align: center
-        :scale: 40
+        :scale: 67
         :alt: Absolute & Relative Cartesian Coordinates
 
-.. actual image size 800px x 660px
+.. actual image size 510px x 382px
 
 .. _absolute:
 
@@ -138,17 +138,17 @@ The last coordinate defined when creating an entity becomes a temporary referenc
 
     .. figure:: /images/byAbsCoorRelPolar.png
         :align: right
-        :scale: 40
+        :scale: 100
         :alt: Absolute Cartesian & Relative Polar Coordinates
 
 .. only:: latex
 
     .. figure:: /images/byAbsCoorRelPolar.png
         :align: center
-        :scale: 40
+        :scale: 67
         :alt: Absolute Cartesian & Relative Polar Coordinates
 
-.. actual image size 800px x 660px
+.. actual image size 510px x 382px
 
 When using cartesian coordinates for example, to set a 65 units above and 75 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
 
@@ -168,17 +168,17 @@ As an example when using a polar coordinates, to draw a line 100mm and 45 degree
 
     .. figure:: /images/angles.png
         :align: right
-        :scale: 40
+        :scale: 100
         :alt: Polar Coordinates
 
 .. only:: latex
 
     .. figure:: /images/angles.png
         :align: center
-        :scale: 40
+        :scale: 67
         :alt: Polar Coordinates
 
-.. actual image size 800px x 660px
+.. actual image size 254px x 190px
 
 Angles in LibreCAD
 ``````````````````
