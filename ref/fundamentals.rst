@@ -40,7 +40,7 @@ Examples of X and Y coordinates:
         :scale: 50
         :alt: Coordinate
 
-.. actual image size 766px x 574px
+.. actual image size 768px x 576px
 
 
 Types of Coordinates
