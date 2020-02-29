@@ -23,8 +23,8 @@ Understanding the coordinate systems and how coordinates work in LibreCAD is nec
 
 There are two coordinate systems used in LibreCAD to places a point in a drawing.  A point can be placed by specifying:
  
-    - a horizontal distance and vertical distance from a reference point (*Cartesian*), or
-    - an angle and distance from a reference point (*Polar*).
+    - a horizontal distance and vertical distance from a reference point (:ref:`Cartesian <cartesian-coords>`), or
+    - an angle and distance from a reference point (:ref:`Polar <polar-coords>`).
 
 All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and is represented by a red cross.  The coordinates of this point are 0,0.  Every entity drawn can be located in relation to the origin.
 
@@ -50,10 +50,10 @@ LibreCAD also uses a *Relative Zero* point.  It is the last point set when creat
 .. include:: /inclFiles/eoWrap.rst
 
 
+.. _angles: 
+
 Angles
 ~~~~~~
-
-.. _angles: 
 
 .. only:: html
 
@@ -80,6 +80,8 @@ All angles in LibreCAD are measured in 360 degrees in an anti-clockwise directio
 Types of Coordinates
 ~~~~~~~~~~~~~~~~~~~~
 
+.. _cartesian-coords:
+
 Cartesian
 `````````
 
@@ -102,10 +104,12 @@ The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartes
 .. actual image size 768px x 576px
 
 
+.. _polar-coords:
+
 Polar
 `````
 
-The *Polar* coordinate system uses one distance and one angle to locate a point in a drawing.  In LibreCAD the *<* symbol is used to designate an angle when using polar coordinates.  Polar coordinates take the form *100<45*, indicating a line 100 units long and at an angle of 45 degrees as shown.
+The *Polar* coordinate system uses one distance and one angle to locate a point in a drawing.  In LibreCAD the *<* symbol is used to designate an angle when using polar coordinates.  Polar coordinates take the form *100<45*, indicating a line 100 units long and with an angle of 45 degrees as shown.
 
 .. only:: html
 
