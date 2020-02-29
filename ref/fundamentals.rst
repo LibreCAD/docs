@@ -71,7 +71,7 @@ Angles
 
 .. actual image size 254px x 190px
 
-All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction beginning from 0 degrees (the 3 o'clock position).
+All angles in LibreCAD are measured in 360 degrees beginning from 0 degrees (the 3 o'clock position).  Angles entered as a positive value are measured in an anti-clockwise direction.  Angles entered as a negative value are measure in a clockwise direction.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -134,14 +134,14 @@ The *Polar* coordinate system uses one distance and one angle to locate a point 
 Defining Coordinate Locations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In LibreCAD lines, points, arcs, polylines, circles, and many more entities can be placed in a drawing using either *Absolute* or *Relative* coordinate input.  
+In LibreCAD lines, points, arcs, polylines, circles, and many more entities can be placed in a drawing using either *absolute* or *relative* coordinate input.  
 
 .. _absolute:
 
 Absolute
 ````````
 
-When using Absolute coordinates, whether Cartesian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<60" as shown in the two images above.
+When using absolute coordinates, whether Cartesian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<60" as shown in the two images above.
 
 
 .. _relative:
