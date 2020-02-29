@@ -82,30 +82,36 @@ Types of Coordinates
 
 There are two coordinate systems used in LibreCAD, *Cartesian* and *Polar*.
 
-.. only:: html
-
-    .. figure:: /images/byCartesian.png
-        :align: center
-        :scale: 67
-        :alt: Cartesian Coordinates
-
-.. only:: latex
-
-    .. figure:: /images/byCartesian.png
-        :align: center
-        :scale: 50
-        :alt: Cartesian Coordinates
-
-.. actual image size 768px x 576px
-
 Cartesian
 `````````
 
 The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is measured along the horizontal axis and Y on the vertical axis.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be "100,75", as shown here.
 
+.. only:: html
+
+    .. figure:: /images/byCartesian.png
+        :align: center
+        :scale: 67
+        :alt: Cartesian Coordinates
+
+.. only:: latex
+
+    .. figure:: /images/byCartesian.png
+        :align: center
+        :scale: 50
+        :alt: Cartesian Coordinates
+
+.. actual image size 768px x 576px
+
+
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
 
+
+Polar
+`````
+
+The *Polar* coordinate system uses one distance and one angle to locate a point in a drawing.  In LibreCAD the *<* symbol is used to designate an angle when using polar coordinates.  Polar coordinates take the form *100 < 60*, indicating a line 100 units long and at an angle of 60 degrees as shown.
 
 .. only:: html
 
@@ -123,10 +129,6 @@ The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartes
 
 .. actual image size 768px x 576px
 
-Polar
-`````
-
-The *Polar* coordinate system uses one distance and one angle to locate a point in a drawing.  In LibreCAD the *<* symbol is used to designate an angle when using polar coordinates.  Polar coordinates take the form *100 < 60*, indicating a line 100 units long and at an angle of 60 degrees as shown. 
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
