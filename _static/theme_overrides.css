@@ -1,7 +1,7 @@
 @import url("//media.readthedocs.org/css/sphinx_rtd_theme.css");
 @import "theme.css";
 
-/* Change theme color to LibreCAD's themes */
+/* Change RtD theme colour to LibreCAD's colours */
 
 /* Sidebar header (and topbar for mobile) */
 .wy-side-nav-search, .wy-nav-top {
@@ -31,14 +31,11 @@
 }*/
 
 
-/* Adjusts indent in tables when forcing line break */
-/* https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell
-table.docutils div.line-block {
-    margin-left: 0 !important;
-} */
-
-/* Wrap text in table instead of scollbars */
-/* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
+/* Wrap text in table instead of scollbars: http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
+/* Adjusts indent in tables when forcing line break: https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell 
+   table.docutils div.line-block {
+       margin-left: 0 !important;
+   } */
 /*  Add ":class: table-fix-width" to table definitions */
 .table-fix-width table, th, td {
    /* Wrap text */

@@ -101,6 +101,16 @@ Defining Coordinate Locations
 
 In LibreCAD lines, points, arcs, polylines, circles, and many more entities can be placed in a drawing using either *Absolute* or *Relative* coordinate input.
 
+.. _absolute:
+
+Absolute
+````````
+
+When using Absolute coordinates, whether Cartesian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<45" as shown in the two images above.
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
 .. only:: html
 
     .. figure:: /images/byAbsCoorRelCoor.png
@@ -116,16 +126,6 @@ In LibreCAD lines, points, arcs, polylines, circles, and many more entities can 
         :alt: Absolute & Relative Cartesian Coordinates
 
 .. actual image size 766px x 574px
-
-.. _absolute:
-
-Absolute
-````````
-
-When using Absolute coordinates, whether Cartesian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<45" as shown in the two images above.
-
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
 
 .. _relative:
 
