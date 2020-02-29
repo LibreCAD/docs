@@ -19,28 +19,41 @@ The Coordinate System
 
 Understanding the coordinates systems and how coordinates work in LibreCAD is necessary to produce precise and accurate drawings.  Every entity (e.g. a line, circle, etc.) that is drawn in LibreCAD can be drawn with precision, placed accurately using coordinates.  LibreCAD supports two drawing perspectives; orthogonal and isometric.  Orthogonal is the default perspective for creating two dimensional (2D) drawings.  An :ref:`isometric <isometric>` projection allows LibreCAD to represent a three-dimensional object in two dimensions, sometimes referred to as "2.5D".
 
-In libreCAD`s 2D coordinate system *X* units are measured horizontally and *Y* units are measured vertically.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.  All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and represented by a red cross.  The coordinates at this point are 0,0.  Every entity drawn can be located in relation to this origin.
+There are two ways to define coordinates in LibreCAD.  They can be placed by specifying:
+ 
+    - a horizontal distance and vertical distance from a reference point (*Cartesian*).
+    - an angle and distance from a reference point (*Polar*).
+
+All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and represented by a red cross.  The coordinates at this point are 0,0.  Every entity drawn can be located in relation to this origin.
 
 LibreCAD also uses a *Relative Zero Point*.  It is the last point set when creating an entity.  It is represented by a small red circle within the drawing.  The Relative Zero Point is set temporarily to a new location in a drawing so that a subsequent X and Y coordinates of the next entity can be placed using :ref:`relative coordinates <relative>`.  
 
-Examples of X and Y coordinates:
 
+Angles
+~~~~~~
+
+.. _angles: 
 
 .. only:: html
 
-    .. figure:: /images/coords.png
-        :align: center
-        :scale: 67
-        :alt: Coordinate
+    .. figure:: /images/angles.png
+        :align: right
+        :scale: 100
+        :alt: Polar Coordinates
 
 .. only:: latex
 
-    .. figure:: /images/coords.png
+    .. figure:: /images/angles.png
         :align: center
-        :scale: 50
-        :alt: Coordinate
+        :scale: 67
+        :alt: Polar Coordinates
 
-.. actual image size 768px x 576px
+.. actual image size 254px x 190px
+
+All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction beginning from 0 degrees (the 3 o'clock position). The *<* symbol is used to designate an angle when using polar coordinates, e.g.50<45.
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 
 Types of Coordinates
@@ -67,7 +80,7 @@ There are two coordinate systems used in LibreCAD, *Cartesian* and *Polar*.
 Cartesian
 `````````
 
-The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is the horizontal axis and Y is the vertical axis.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be "100,75", as shown here.
+The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is measured along the horizontal axis and Y on the vertical axis.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be "100,75", as shown here.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -87,6 +100,26 @@ The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartes
         :alt: Polar Coordinates
 
 .. actual image size 510px x 382px
+
+
+Examples of Cartesian coordinates:
+
+.. only:: html
+
+    .. figure:: /images/coords.png
+        :align: center
+        :scale: 67
+        :alt: Coordinate
+
+.. only:: latex
+
+    .. figure:: /images/coords.png
+        :align: center
+        :scale: 50
+        :alt: Coordinate
+
+.. actual image size 768px x 576px
+
 
 Polar
 `````
@@ -161,32 +194,6 @@ When using cartesian coordinates for example, to set a 65 units above and 75 uni
 
 As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
 
-
-.. _angles: 
-
-.. only:: html
-
-    .. figure:: /images/angles.png
-        :align: right
-        :scale: 100
-        :alt: Polar Coordinates
-
-.. only:: latex
-
-    .. figure:: /images/angles.png
-        :align: center
-        :scale: 67
-        :alt: Polar Coordinates
-
-.. actual image size 254px x 190px
-
-Angles in LibreCAD
-``````````````````
-
-All angles in LibreCAD are measured in 360 degrees in an anti-clockwise direction beginning from 0 degrees (the 3 o'clock position). The *<* symbol is used to designate an angle when using polar coordinates, e.g.50<45.
-
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
 
 .. _entities: 
 
