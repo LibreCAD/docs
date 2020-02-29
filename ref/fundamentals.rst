@@ -11,13 +11,15 @@ Fundamentals
 
 To be able to use LibreCAD effectively, there are a few concepts that need to be understood.  While basic drawings can be created with very little setup, as they become more complex further consideration to the elements of a complete drawing is important.  This section offers an introduction to some concepts that are important to creating a complex drawing, but by no means is it exhaustive.  The  rest of the Reference section provides a description of the tools used to create and modify drawings.  General examples and guidance is offered in the :ref:`User Guide <guides>` section.
 
+LibreCAD supports two drawing perspectives; orthogonal and isometric.  Orthogonal is the default perspective for creating two dimensional (2D) drawings.  An :ref:`isometric <isometric>` projection allows LibreCAD to represent a three-dimensional object in two dimensions, sometimes referred to as "2.5D".
+
 
 .. _coordinates: 
 
 The Coordinate System
 ---------------------
 
-Understanding the coordinates systems and how coordinates work in LibreCAD is necessary to produce precise and accurate drawings.  Every entity (e.g. a line, circle, etc.) that is drawn in LibreCAD can be drawn with precision, placed accurately using coordinates.  LibreCAD supports two drawing perspectives; orthogonal and isometric.  Orthogonal is the default perspective for creating two dimensional (2D) drawings.  An :ref:`isometric <isometric>` projection allows LibreCAD to represent a three-dimensional object in two dimensions, sometimes referred to as "2.5D".
+Understanding the coordinates systems and how coordinates work in LibreCAD is necessary to produce exact drawings.  Every entity (e.g. a line, circle, etc.) that is drawn in LibreCAD can be drawn with precision, placed accurately using coordinates.  
 
 There are two ways to define coordinates in LibreCAD.  They can be placed by specifying:
  
