@@ -46,9 +46,9 @@ LibreCAD also uses a *Relative Zero Point*.  It is the last point set when creat
 
 .. actual image size 768px x 576px
 
-
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
+
 
 Angles
 ~~~~~~
@@ -104,10 +104,6 @@ The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartes
 .. actual image size 768px x 576px
 
 
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
-
-
 Polar
 `````
 
@@ -129,7 +125,6 @@ The *Polar* coordinate system uses one distance and one angle to locate a point 
 
 .. actual image size 768px x 576px
 
-
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
 
@@ -146,15 +141,14 @@ Absolute
 
 When using Absolute coordinates, whether Cartesian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<45" as shown in the two images above.
 
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
-
 .. only:: html
 
     .. figure:: /images/byAbsCoorRelCoor.png
         :align: center
         :scale: 67
         :alt: Absolute & Relative Cartesian Coordinates
+
+        Absolute & Relative Cartesian Coordinates
 
 .. only:: latex
 
@@ -163,7 +157,10 @@ When using Absolute coordinates, whether Cartesian or polar, points are entered 
         :scale: 50
         :alt: Absolute & Relative Cartesian Coordinates
 
+        Absolute & Relative Cartesian Coordinates
+
 .. actual image size 768px x 576px
+
 
 .. _relative:
 
@@ -179,12 +176,16 @@ The last coordinate defined when creating an entity becomes a temporary referenc
         :scale: 67
         :alt: Absolute Cartesian & Relative Polar Coordinates
 
+        Absolute Cartesian & Relative Polar Coordinates
+
 .. only:: latex
 
     .. figure:: /images/byAbsCoorRelPolar.png
         :align: center
         :scale: 50
         :alt: Absolute Cartesian & Relative Polar Coordinates
+
+        Absolute Cartesian & Relative Polar Coordinates
 
 .. actual image size 768px x 576px
 
