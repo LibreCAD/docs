@@ -107,7 +107,7 @@ The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartes
 Polar
 `````
 
-The *Polar* coordinate system uses one distance and one angle to locate a point in a drawing.  In LibreCAD the *<* symbol is used to designate an angle when using polar coordinates.  Polar coordinates take the form *100 < 60*, indicating a line 100 units long and at an angle of 60 degrees as shown.
+The *Polar* coordinate system uses one distance and one angle to locate a point in a drawing.  In LibreCAD the *<* symbol is used to designate an angle when using polar coordinates.  Polar coordinates take the form *100<45*, indicating a line 100 units long and at an angle of 45 degrees as shown.
 
 .. only:: html
 
