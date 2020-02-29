@@ -28,7 +28,27 @@ There are two ways to define coordinates in LibreCAD.  They can be placed by spe
 
 All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and represented by a red cross.  The coordinates at this point are 0,0.  Every entity drawn can be located in relation to this origin.
 
-LibreCAD also uses a *Relative Zero Point*.  It is the last point set when creating an entity.  It is represented by a small red circle within the drawing.  The Relative Zero Point is set temporarily to a new location in a drawing so that a subsequent X and Y coordinates of the next entity can be placed using :ref:`relative coordinates <relative>`.  
+LibreCAD also uses a *Relative Zero Point*.  It is the last point set when creating an entity.  It is represented by a small red circle within the drawing.  The Relative Zero Point is set temporarily to a new location in a drawing so that a subsequent X and Y coordinates of the next entity can be placed using :ref:`relative coordinates <relative>`.
+
+.. only:: html
+
+    .. figure:: /images/coords.png
+        :align: center
+        :scale: 67
+        :alt: Coordinate
+
+.. only:: latex
+
+    .. figure:: /images/coords.png
+        :align: center
+        :scale: 50
+        :alt: Coordinate
+
+.. actual image size 768px x 576px
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
 
 
 Angles
@@ -87,6 +107,7 @@ The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartes
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
 
+
 .. only:: html
 
     .. figure:: /images/byPolar.png
@@ -102,26 +123,6 @@ The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartes
         :alt: Polar Coordinates
 
 .. actual image size 510px x 382px
-
-
-Examples of Cartesian coordinates:
-
-.. only:: html
-
-    .. figure:: /images/coords.png
-        :align: center
-        :scale: 67
-        :alt: Coordinate
-
-.. only:: latex
-
-    .. figure:: /images/coords.png
-        :align: center
-        :scale: 50
-        :alt: Coordinate
-
-.. actual image size 768px x 576px
-
 
 Polar
 `````
