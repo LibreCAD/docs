@@ -32,10 +32,10 @@
 
 
 /* Adjusts indent in tables when forcing line break */
-/* https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell */
+/* https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell
 table.docutils div.line-block {
     margin-left: 0 !important;
-}
+} */
 
 /* Wrap text in table instead of scollbars */
 /* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
@@ -44,10 +44,10 @@ table.docutils div.line-block {
    /* Wrap text */
    white-space: normal !important;
    /* Set table borders */
-   border: 1px solid black;
+   border: none;
    /* Adjust padding for tables */
-   padding: 1px 5px 1px 5px;
-   margin-left: 1;
+   padding: 1px 1px 1px 1px;
+   margin-left: 0 !important;
    /* Striped table */
    tr: nth-child(odd){
       background-color: #f2f2f2;
