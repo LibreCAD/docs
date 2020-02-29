@@ -132,34 +132,14 @@ The *Polar* coordinate system uses one distance and one angle to locate a point 
 Defining Coordinate Locations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In LibreCAD lines, points, arcs, polylines, circles, and many more entities can be placed in a drawing using either *Absolute* or *Relative* coordinate input.
+In LibreCAD lines, points, arcs, polylines, circles, and many more entities can be placed in a drawing using either *Absolute* or *Relative* coordinate input.  
 
 .. _absolute:
 
 Absolute
 ````````
 
-When using Absolute coordinates, whether Cartesian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<45" as shown in the two images above.
-
-.. only:: html
-
-    .. figure:: /images/byAbsCoorRelCoor.png
-        :align: center
-        :scale: 67
-        :alt: Absolute & Relative Cartesian Coordinates
-
-        Absolute & Relative Cartesian Coordinates
-
-.. only:: latex
-
-    .. figure:: /images/byAbsCoorRelCoor.png
-        :align: center
-        :scale: 50
-        :alt: Absolute & Relative Cartesian Coordinates
-
-        Absolute & Relative Cartesian Coordinates
-
-.. actual image size 768px x 576px
+When using Absolute coordinates, whether Cartesian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<60" as shown in the two images above.
 
 
 .. _relative:
@@ -167,7 +147,35 @@ When using Absolute coordinates, whether Cartesian or polar, points are entered 
 Relative
 ````````
 
-The last coordinate defined when creating an entity becomes a temporary reference for the next point.  The newly set temporary reference is the "Relative Zero Point", and coordinates can be entered relative to the Relative Zero Point.  To define the next point relative to the Relative Zero Point coordinates, either cartesian or polar, are prefixed with the '@' symbol when entered.  Points without the @ prefix are always interpreted as absolute coordinates.
+The next coordinate can also be place *relative* to the previously place coordinate.  The last coordinate defined when creating an entity becomes a temporary reference for the next point.  The newly set temporary reference is the "*Relative Zero* point", and the next coordinates can be entered relative to that point.  To define the next point relative to the Relative Zero point, either cartesian or polar, prefixed with the '@' symbol when entering the coordinates.  Points without the @ prefix are always interpreted as absolute coordinates.
+
+When using cartesian coordinates for example, to set a 65 units above and 75 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
+
+.. hint::
+
+   Relative coordinates can also be written as 10..20 (equivalent to @10,20) which allows for :ref:`numeric keypad <keyboard>` input when using the :ref:`command line<widget-cmdLine>`.
+
+.. only:: html
+
+    .. figure:: /images/byAbsCoorRelCoor.png
+        :align: center
+        :scale: 67
+        :alt: Absolute & Relative Cartesian Coordinates
+
+        Absolute & Relative Cartesian Coordinates
+
+.. only:: latex
+
+    .. figure:: /images/byAbsCoorRelCoor.png
+        :align: center
+        :scale: 50
+        :alt: Absolute & Relative Cartesian Coordinates
+
+        Absolute & Relative Cartesian Coordinates
+
+.. actual image size 768px x 576px
+
+As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
 
 .. only:: html
 
@@ -189,16 +197,8 @@ The last coordinate defined when creating an entity becomes a temporary referenc
 
 .. actual image size 768px x 576px
 
-When using cartesian coordinates for example, to set a 65 units above and 75 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
-
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
-
-.. hint::
-
-   Relative coordinates can also be written as 10..20 (equivalent to @10,20) which allows for :ref:`numeric keypad <keyboard>` input when using the :ref:`command line<widget-cmdLine>`.
-
-As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
 
 
 .. _entities: 
