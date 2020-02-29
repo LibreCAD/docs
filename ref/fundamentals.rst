@@ -30,17 +30,17 @@ Examples of X and Y coordinates:
 
     .. figure:: /images/coords.png
         :align: center
-        :scale: 100
+        :scale: 67
         :alt: Coordinate
 
 .. only:: latex
 
     .. figure:: /images/coords.png
         :align: center
-        :scale: 67
+        :scale: 50
         :alt: Coordinate
 
-.. actual image size 510px x 382px
+.. actual image size 766px x 574px
 
 
 Types of Coordinates
