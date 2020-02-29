@@ -58,7 +58,7 @@ Angles
 .. only:: html
 
     .. figure:: /images/angles.png
-        :align: center
+        :align: right
         :scale: 100
         :alt: Polar Coordinates
 
