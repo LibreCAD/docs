@@ -19,16 +19,16 @@ LibreCAD supports two drawing perspectives; orthogonal and isometric.  Orthogona
 The Coordinate System
 ---------------------
 
-Understanding the coordinates systems and how coordinates work in LibreCAD is necessary to produce exact drawings.  Points used to describe every entity (e.g. a line, circle, etc.) that is drawn in LibreCAD can be drawn with precision by accurately placing the points using coordinates.  
+Understanding the coordinate systems and how coordinates work in LibreCAD is necessary to produce exact drawings.  Points are used to describe some aspect of an entity (e.g. the end of a line, the center of a circle, etc.), and can be placed with precision and accuracy by using coordinates.  
 
-There are two ways to define coordinates in LibreCAD to locate a point.  A point can be placed by specifying:
+There are two coordinate systems used in LibreCAD to places a point in a drawing.  A point can be placed by specifying:
  
-    - a horizontal distance and vertical distance from a reference point (*Cartesian*).
+    - a horizontal distance and vertical distance from a reference point (*Cartesian*), or
     - an angle and distance from a reference point (*Polar*).
 
-All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and represented by a red cross.  The coordinates at this point are 0,0.  Every entity drawn can be located in relation to this origin.
+All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and is represented by a red cross.  The coordinates of this point are 0,0.  Every entity drawn can be located in relation to the origin.
 
-LibreCAD also uses a *Relative Zero Point*.  It is the last point set when creating an entity.  It is represented by a small red circle within the drawing.  The Relative Zero Point is set temporarily to a new location in a drawing so that a subsequent X and Y coordinates of the next entity can be placed using :ref:`relative coordinates <relative>`.
+LibreCAD also uses a *Relative Zero* point.  It is the last point set when creating an entity.  It is represented by a small red circle with a cross in it within the drawing.  The Relative Zero point is set temporarily to a new location in a drawing so that a subsequent X and Y coordinates of the next entity can be placed using :ref:`relative coordinates <relative>`.
 
 .. only:: html
 
@@ -79,8 +79,6 @@ All angles in LibreCAD are measured in 360 degrees in an anti-clockwise directio
 
 Types of Coordinates
 ~~~~~~~~~~~~~~~~~~~~
-
-There are two coordinate systems used in LibreCAD, *Cartesian* and *Polar*.
 
 Cartesian
 `````````
@@ -149,7 +147,7 @@ Relative
 
 The next coordinate can also be place *relative* to the previously place coordinate.  The last coordinate defined when creating an entity becomes a temporary reference for the next point.  The newly set temporary reference is the "*Relative Zero* point", and the next coordinates can be entered relative to that point.  To define the next point relative to the Relative Zero point, either cartesian or polar, prefixed with the '@' symbol when entering the coordinates.  Points without the @ prefix are always interpreted as absolute coordinates.
 
-When using cartesian coordinates for example, to set a 65 units above and 75 units to the right of the previous point, use "@75,65".  In this example, if the previous point was set at 20 units and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
+When using cartesian coordinates for example, to set a 65 units above and 75 units to the right of the previous point, use "@75,65".  In this example, the previous point was set at 20 units horizontally and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
 
 .. hint::
 
