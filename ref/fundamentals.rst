@@ -58,7 +58,7 @@ Angles
 .. only:: html
 
     .. figure:: /images/angles.png
-        :align: right
+        :align: center
         :scale: 100
         :alt: Polar Coordinates
 
@@ -85,7 +85,7 @@ There are two coordinate systems used in LibreCAD, *Cartesian* and *Polar*.
 .. only:: html
 
     .. figure:: /images/byCartesian.png
-        :align: right
+        :align: center
         :scale: 67
         :alt: Cartesian Coordinates
 
@@ -110,7 +110,7 @@ The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartes
 .. only:: html
 
     .. figure:: /images/byPolar.png
-        :align: right
+        :align: center
         :scale: 67
         :alt: Polar Coordinates
 
@@ -173,7 +173,7 @@ The last coordinate defined when creating an entity becomes a temporary referenc
 .. only:: html
 
     .. figure:: /images/byAbsCoorRelPolar.png
-        :align: right
+        :align: center
         :scale: 67
         :alt: Absolute Cartesian & Relative Polar Coordinates
 
