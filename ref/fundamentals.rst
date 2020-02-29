@@ -104,15 +104,15 @@ In LibreCAD lines, points, arcs, polylines, circles, and many more entities can 
 .. only:: html
 
     .. figure:: /images/byAbsCoorRelCoor.png
-        :align: right
-        :scale: 50
+        :align: center
+        :scale: 67
         :alt: Absolute & Relative Cartesian Coordinates
 
 .. only:: latex
 
     .. figure:: /images/byAbsCoorRelCoor.png
         :align: center
-        :scale: 33
+        :scale: 50
         :alt: Absolute & Relative Cartesian Coordinates
 
 .. actual image size 766px x 574px
