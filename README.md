@@ -12,35 +12,35 @@ The documentation is created using a markup language called "reStructuredText" (
 Section | Initial Draft | Review / Edit | Update for GA release | Comment
 --- | --- | --- | --- | ---
 **About** |   |   |   | All about LibreCAD and the User Manual.
-   Copyright | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Contributors | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | 
+   Copyright | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Contributors | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
 **Getting Started** |   |   |   | Downloading, installing and configuring LibreCAD.
-   Install | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Configure | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | 
+   Install | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Configure | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
 **References** |   |   |   | Technical descriptions of the tools, functions, widgets, etc.
-   Fundamentals | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | Including "The Coordinate System".
-   Application Menu | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Drawing Tools | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Snapping | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Toolbars | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Dock Widgets | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Drawing Preferences | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Customizing | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | Including Style Sheets.
+   Fundamentals | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Including "The Coordinate System".
+   Application Menu | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Drawing Tools | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Snapping | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Toolbars | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Dock Widgets | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Drawing Preferences | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Customizing | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | Including Style Sheets.
 **User Guides** |   |   |   | Generic instructions on how to do a few things with LibreCAD.
-   Drawing Setup | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | Scale, layers and templates.
-   Drawing and Modifying | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Blocks | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Dimensioning & Text | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   The Command Line | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Printing Guide | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
+   Drawing Setup | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | Scale, layers and templates.
+   Drawing and Modifying | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Blocks | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Dimensioning & Text | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   The Command Line | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Printing Guide | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
 **Appendices** |   |   |   | Miscellaneous information about LibreCAD.
-   Online Resources | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | Web site, forum, wiki
-   Fonts | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Hatches | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Languages | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Systems of Measurement | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Calculator | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | Operators and Functions
-   Building from Source | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Contributing | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
-   Licenses | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | 
+   Online Resources | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | Web site, forum, wiki
+   Fonts | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Hatches | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Languages | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Systems of Measurement | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Calculator | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | Operators and Functions
+   Building from Source | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Contributing | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Licenses | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
 
