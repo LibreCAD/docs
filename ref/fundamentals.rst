@@ -441,14 +441,14 @@ Selected entities display “handles”.  Handles allow the entities to be manip
 
     .. figure:: /images/handleEg.png
         :align: right
-        :scale: 100
+        :scale: 75
         :alt: Entity Handles
 
 .. only:: latex
 
     .. figure:: /images/handleEg.png
         :align: center
-        :scale: 67
+        :scale: 50
         :alt: Entity Handles
 
 .. actual image size 7684px x 341px
