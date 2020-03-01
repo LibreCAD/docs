@@ -59,14 +59,14 @@ Angles
 
     .. figure:: /images/angles.png
         :align: right
-        :scale: 67
+        :scale: 100
         :alt: Polar Coordinates
 
 .. only:: latex
 
     .. figure:: /images/angles.png
         :align: center
-        :scale: 50
+        :scale: 67
         :alt: Polar Coordinates
 
 .. actual image size 362px x 339px
