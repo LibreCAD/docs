@@ -10,7 +10,7 @@ The documentation is created using a markup language called "reStructuredText" (
 
 
 Section | Initial Draft | Review / Edit | Update for GA release | Comment
---- | --- | --- | ---
+--- | --- | --- | --- | ---
 **About** |   |   |   | All about LibreCAD and the User Manual.
    Copyright | [x] | [x] |   | 
    Contributors | [x] | [x] |   | 
