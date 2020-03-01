@@ -12,35 +12,35 @@ The documentation is created using a markup language called "reStructuredText" (
 Section | Initial Draft | Review / Edit | Comment
 --- | --- | --- | ---
 **About** |   |   | All about LibreCAD and the User Manual.
-   Copyright | [100%] | [0%] | 
-   Contributors | [100%] | [0%] | 
+   Copyright | [x] | [x] | 
+   Contributors | [x] | [x] | 
 **Getting Started** |   |   | Downloading, installing and configuring LibreCAD.
-   Install | [100%] | [0%] |
-   Configure | [100%] | [0%] | 
+   Install | [x] | [x] |
+   Configure | [x] | [x] | 
 **References** |   |   | Technical descriptions of the tools, functions, widgets, etc.
-   Fundamentals | [100%] | [0%] | Including "The Coordinate System".
-   Application Menu | [100%] | [0%] |
-   Drawing Tools | [100%] | [0%] |
-   Snapping | [100%] | [0%] |
-   Toolbars | [100%] | [0%] |
-   Dock Widgets | [100%] | [0%] |
-   Drawing Preferences | [100%] | [0%] |
-   Customizing | [100%] | [0%] | Including Style Sheets.
+   Fundamentals | [x] | [x] | Including "The Coordinate System".
+   Application Menu | [x] | [ ] |
+   Drawing Tools | [x] | [ ] |
+   Snapping | [x] | [ ] |
+   Toolbars | [x] | [ ] |
+   Dock Widgets | [x] | [ ] |
+   Drawing Preferences | [x] | [ ] |
+   Customizing | [x] | [ ] | Including Style Sheets.
 **User Guides** |   |   |  Generic instructions on how to do a few things with LibreCAD.
-   Drawing Setup | [100%] | [0%] | Scale, layers and templates.
-   Drawing and Modifying | [100%] | [0%] |
-   Blocks | [100%] | [0%] |
-   Dimensioning & Text | [100%] | [0%] |
-   The Command Line | [100%] | [0%] |
-   Printing Guide | [100%] | [0%] |
+   Drawing Setup | [x] | [ ] | Scale, layers and templates.
+   Drawing and Modifying | [x] | [ ] |
+   Blocks | [x] | [ ] |
+   Dimensioning & Text | [x] | [ ] |
+   The Command Line | [x] | [ ] |
+   Printing Guide | [x] | [ ] |
 **Appendices** |   |   | Miscellaneous information about LibreCAD.
-   Online Resources | [100%] | [0%] | Web site, forum, wiki
-   Fonts | [100%] | [0%] |
-   Hatches | [100%] | [0%] |
-   Languages | [100%] | [0%] |
-   Systems of Measurement | [100%] | [0%] |
-   Calculator | [100%] | [0%] | Operators and Functions
-   Building from Source | [100%] | [0%] |
-   Contributing | [100%] | [0%] |
-   Licenses | [100%] | [0%] |
+   Online Resources | [x] | [ ] | Web site, forum, wiki
+   Fonts | [x] | [ ] |
+   Hatches | [x] | [ ] |
+   Languages | [x] | [ ] |
+   Systems of Measurement | [x] | [ ] |
+   Calculator | [x] | [ ] | Operators and Functions
+   Building from Source | [x] | [ ] |
+   Contributing | [x] | [ ] |
+   Licenses | [x] | [ ] |
 
