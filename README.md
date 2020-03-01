@@ -9,38 +9,38 @@ The documentation is created using a markup language called "reStructuredText" (
 ## Status 
 
 
-Section | Initial Draft | Review / Edit | Comment
---- | --- | --- | ---
-**About** |   |   | All about LibreCAD and the User Manual.
-   Copyright | [100%] | [0%] | 
-   Contributors | [100%] | [0%] | 
-**Getting Started** |   |   | Downloading, installing and configuring LibreCAD.
-   Install | [100%] | [0%] |
-   Configure | [100%] | [0%] | 
-**References** |   |   | Technical descriptions of the tools, functions, widgets, etc.
-   Fundamentals | [100%] | [0%] | Including "The Coordinate System".
-   Application Menu | [100%] | [0%] |
-   Drawing Tools | [100%] | [0%] |
-   Snapping | [100%] | [0%] |
-   Toolbars | [100%] | [0%] |
-   Dock Widgets | [100%] | [0%] |
-   Drawing Preferences | [100%] | [0%] |
-   Customizing | [100%] | [0%] | Including Style Sheets.
-**User Guides** |   |   |  Generic instructions on how to do a few things with LibreCAD.
-   Drawing Setup | [100%] | [0%] | Scale, layers and templates.
-   Drawing and Modifying | [100%] | [0%] |
-   Blocks | [100%] | [0%] |
-   Dimensioning & Text | [100%] | [0%] |
-   The Command Line | [100%] | [0%] |
-   Printing Guide | [100%] | [0%] |
-**Appendices** |   |   | Miscellaneous information about LibreCAD.
-   Online Resources | [100%] | [0%] | Web site, forum, wiki
-   Fonts | [100%] | [0%] |
-   Hatches | [100%] | [0%] |
-   Languages | [100%] | [0%] |
-   Systems of Measurement | [100%] | [0%] |
-   Calculator | [100%] | [0%] | Operators and Functions
-   Building from Source | [100%] | [0%] |
-   Contributing | [100%] | [0%] |
-   Licenses | [100%] | [0%] |
+Section | Initial Draft | Review / Edit | Update for GA release | Comment
+--- | --- | --- | --- | ---
+**About** |   |   |   | All about LibreCAD and the User Manual.
+   Copyright | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Contributors | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+**Getting Started** |   |   |   | Downloading, installing and configuring LibreCAD.
+   Install | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Configure | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+**References** |   |   |   | Technical descriptions of the tools, functions, widgets, etc.
+   Fundamentals | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Including "The Coordinate System".
+   Application Menu | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Drawing Tools | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Snapping | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Toolbars | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Dock Widgets | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Drawing Preferences | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Customizing | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | Including Style Sheets.
+**User Guides** |   |   |   | Generic instructions on how to do a few things with LibreCAD.
+   Drawing Setup | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | Scale, layers and templates.
+   Drawing and Modifying | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Blocks | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Dimensioning & Text | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   The Command Line | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Printing Guide | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+**Appendices** |   |   |   | Miscellaneous information about LibreCAD.
+   Online Resources | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | Web site, forum, wiki
+   Fonts | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Hatches | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Languages | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Systems of Measurement | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Calculator | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | Operators and Functions
+   Building from Source | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Contributing | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Licenses | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
 

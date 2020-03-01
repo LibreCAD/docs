@@ -1,7 +1,7 @@
 @import url("//media.readthedocs.org/css/sphinx_rtd_theme.css");
 @import "theme.css";
 
-/* Change theme color to LibreCAD's themes */
+/* Change RtD theme colour to LibreCAD's colours */
 
 /* Sidebar header (and topbar for mobile) */
 .wy-side-nav-search, .wy-nav-top {
@@ -31,24 +31,20 @@
 }*/
 
 
-/* Adjusts indent in tables when forcing line break */
-/* https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell */
-table.docutils div.line-block {
-    margin-left: 0 !important;
-}
-
-
-/* Wrap text in table instead of scollbars */
-/* http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
+/* Wrap text in table instead of scollbars: http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
+/* Adjusts indent in tables when forcing line break: https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell 
+   table.docutils div.line-block {
+       margin-left: 0 !important;
+   } */
 /*  Add ":class: table-fix-width" to table definitions */
 .table-fix-width table, th, td {
    /* Wrap text */
    white-space: normal !important;
    /* Set table borders */
-   border: 1px solid black;
+   border: none;
    /* Adjust padding for tables */
-   padding: 1px 5px 1px 5px;
-   margin-left: 1;
+   padding: 1px 1px 1px 1px;
+   margin-left: 0 !important;
    /* Striped table */
    tr: nth-child(odd){
       background-color: #f2f2f2;
@@ -56,30 +52,3 @@ table.docutils div.line-block {
 }
 
 
-/* Table for layout purposes; no border or shading */
-/*  Add ":class: table-no-borders" to table definition */
-.table-no-borders table, th, td {
-   /* Wrap text */
-   white-space: normal;
-   /* Remove ALL table borders */
-   border: 0px solid white;
-   /* Remove table shading */
-   background-color: white;
-   /* Align text to top left */
-   vertical-align: top;
-   text-align: left;
-}
-
-
-/* Two column for image presentation */
-/* https://stackoverflow.com/questions/4550021/working-example-of-floating-image-in-restructured-text/12988688 */
-
-div.leftside {
-    width: 400px;
-    padding: 0px 0px 0px 0px;
-    float: left;
-}
-
-div.rightside {
-    margin-left: 400px;
-}
