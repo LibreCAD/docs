@@ -28,7 +28,7 @@ There are two coordinate systems used in LibreCAD to places a point in a drawing
 
 All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and is represented by a red cross.  The coordinates of this point are 0,0.  Every entity drawn can be located in relation to the origin.
 
-LibreCAD also uses a *Relative Zero* point.  It is the last point set when creating an entity.  It is represented by a small red circle with a cross in it within the drawing.  The Relative Zero point is set temporarily to a new location in a drawing so that a subsequent X and Y coordinates of the next entity can be placed using :ref:`relative coordinates <relative>`.
+LibreCAD also uses a *Relative Zero* point.  It is the last point set when creating an entity.  It is represented within the drawing by a small red circle with a cross in it.  The Relative Zero point is set temporarily to a new position in a drawing so that a subsequent coordinates of the next entity can be placed using :ref:`relative coordinates <relative>`.
 
 .. only:: html
 
@@ -71,7 +71,7 @@ Angles
 
 .. actual image size 362px x 339px
 
-All angles in LibreCAD are measured in 360 degrees beginning from 0 degrees (the 3 o'clock position).  Angles entered as a positive value are measured in an anti-clockwise direction.  Angles entered as a negative value are measure in a clockwise direction.
+While horizontal or vertical distances are always measure in the :ref:`specified unit <measurements>`, angles in LibreCAD are always measured in degrees, beginning from 0 degrees (the 3 o'clock position).  Angles entered as a positive value are measured in an anti-clockwise direction.  Angles entered as a negative value are measure in a clockwise direction.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
