@@ -59,14 +59,14 @@ Angles
 
     .. figure:: /images/angles.png
         :align: right
-        :scale: 100
+        :scale: 75
         :alt: Polar Coordinates
 
 .. only:: latex
 
     .. figure:: /images/angles.png
         :align: center
-        :scale: 67
+        :scale: 50
         :alt: Polar Coordinates
 
 .. actual image size 362px x 339px
@@ -441,17 +441,17 @@ Selected entities display “handles”.  Handles allow the entities to be manip
 
     .. figure:: /images/handleEg.png
         :align: right
-        :scale: 45
+        :scale: 100
         :alt: Entity Handles
 
 .. only:: latex
 
     .. figure:: /images/handleEg.png
         :align: center
-        :scale: 30
+        :scale: 67
         :alt: Entity Handles
 
-.. actual image size 1364px x 547px
+.. actual image size 7684px x 341px
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
