@@ -12,35 +12,35 @@ The documentation is created using a markup language called "reStructuredText" (
 Section | Initial Draft | Review / Edit | Update for GA release | Comment
 --- | --- | --- | --- | ---
 **About** |   |   |   | All about LibreCAD and the User Manual.
-   Copyright | - [x] | - [x] |   | 
-   Contributors | - [x] | - [x] |   | 
+   Copyright | <ul><li>- [x] | <ul><li>- [x] |   | 
+   Contributors | <ul><li>- [x] | <ul><li>- [x] |   | 
 **Getting Started** |   |   |   | Downloading, installing and configuring LibreCAD.
-   Install | - [x] | - [x] |   | 
-   Configure | - [x] | - [x] |   | 
+   Install | <ul><li>- [x] | <ul><li>- [x] |   | 
+   Configure | <ul><li>- [x] | <ul><li>- [x] |   | 
 **References** |   |   |   | Technical descriptions of the tools, functions, widgets, etc.
-   Fundamentals | - [x] | - [x] |   | Including "The Coordinate System".
-   Application Menu | - [x] | - [ ] |   | 
-   Drawing Tools | - [x] | - [ ] |   | 
-   Snapping | - [x] | - [ ] |   | 
-   Toolbars | - [x] | - [ ] |   | 
-   Dock Widgets | - [x] | - [ ] |   | 
-   Drawing Preferences | - [x] | - [ ] |   | 
-   Customizing | - [x] | - [ ] |   | Including Style Sheets.
+   Fundamentals | <ul><li>- [x] | <ul><li>- [x] |   | Including "The Coordinate System".
+   Application Menu | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Drawing Tools | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Snapping | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Toolbars | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Dock Widgets | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Drawing Preferences | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Customizing | <ul><li>- [x] | <ul><li>- [ ] |   | Including Style Sheets.
 **User Guides** |   |   |   | Generic instructions on how to do a few things with LibreCAD.
-   Drawing Setup | - [x] | - [ ] |   | Scale, layers and templates.
-   Drawing and Modifying | - [x] | - [ ] |   | 
-   Blocks | - [x] | - [ ] |   | 
-   Dimensioning & Text | - [x] | - [ ] |   | 
-   The Command Line | - [x] | - [ ] |   | 
-   Printing Guide | - [x] | - [ ] |   | 
+   Drawing Setup | <ul><li>- [x] | <ul><li>- [ ] |   | Scale, layers and templates.
+   Drawing and Modifying | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Blocks | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Dimensioning & Text | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   The Command Line | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Printing Guide | <ul><li>- [x] | <ul><li>- [ ] |   | 
 **Appendices** |   |   |   | Miscellaneous information about LibreCAD.
-   Online Resources | - [x] | - [ ] |   | Web site, forum, wiki
-   Fonts | - [x] | - [ ] |   | 
-   Hatches | - [x] | - [ ] |   | 
-   Languages | - [x] | - [ ] |   | 
-   Systems of Measurement | - [x] | - [ ] |   | 
-   Calculator | - [x] | - [ ] |   | Operators and Functions
-   Building from Source | - [x] | - [ ] |   | 
-   Contributing | - [x] | - [ ] |   | 
-   Licenses | - [x] | - [ ] |   | 
+   Online Resources | <ul><li>- [x] | <ul><li>- [ ] |   | Web site, forum, wiki
+   Fonts | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Hatches | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Languages | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Systems of Measurement | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Calculator | <ul><li>- [x] | <ul><li>- [ ] |   | Operators and Functions
+   Building from Source | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Contributing | <ul><li>- [x] | <ul><li>- [ ] |   | 
+   Licenses | <ul><li>- [x] | <ul><li>- [ ] |   | 
 
