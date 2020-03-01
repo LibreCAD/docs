@@ -9,38 +9,38 @@ The documentation is created using a markup language called "reStructuredText" (
 ## Status 
 
 
-Section | Initial Draft | Review / Edit | Comment
+Section | Initial Draft | Review / Edit | Update for GA release | Comment
 --- | --- | --- | ---
-**About** |   |   | All about LibreCAD and the User Manual.
-   Copyright | [x] | [x] | 
-   Contributors | [x] | [x] | 
-**Getting Started** |   |   | Downloading, installing and configuring LibreCAD.
-   Install | [x] | [x] |
-   Configure | [x] | [x] | 
-**References** |   |   | Technical descriptions of the tools, functions, widgets, etc.
-   Fundamentals | [x] | [x] | Including "The Coordinate System".
-   Application Menu | [x] | [ ] |
-   Drawing Tools | [x] | [ ] |
-   Snapping | [x] | [ ] |
-   Toolbars | [x] | [ ] |
-   Dock Widgets | [x] | [ ] |
-   Drawing Preferences | [x] | [ ] |
-   Customizing | [x] | [ ] | Including Style Sheets.
-**User Guides** |   |   |  Generic instructions on how to do a few things with LibreCAD.
-   Drawing Setup | [x] | [ ] | Scale, layers and templates.
-   Drawing and Modifying | [x] | [ ] |
-   Blocks | [x] | [ ] |
-   Dimensioning & Text | [x] | [ ] |
-   The Command Line | [x] | [ ] |
-   Printing Guide | [x] | [ ] |
-**Appendices** |   |   | Miscellaneous information about LibreCAD.
-   Online Resources | [x] | [ ] | Web site, forum, wiki
-   Fonts | [x] | [ ] |
-   Hatches | [x] | [ ] |
-   Languages | [x] | [ ] |
-   Systems of Measurement | [x] | [ ] |
-   Calculator | [x] | [ ] | Operators and Functions
-   Building from Source | [x] | [ ] |
-   Contributing | [x] | [ ] |
-   Licenses | [x] | [ ] |
+**About** |   |   |   | All about LibreCAD and the User Manual.
+   Copyright | [x] | [x] |   | 
+   Contributors | [x] | [x] |   | 
+**Getting Started** |   |   |   | Downloading, installing and configuring LibreCAD.
+   Install | [x] | [x] |   | 
+   Configure | [x] | [x] |   | 
+**References** |   |   |   | Technical descriptions of the tools, functions, widgets, etc.
+   Fundamentals | [x] | [x] |   | Including "The Coordinate System".
+   Application Menu | [x] | [ ] |   | 
+   Drawing Tools | [x] | [ ] |   | 
+   Snapping | [x] | [ ] |   | 
+   Toolbars | [x] | [ ] |   | 
+   Dock Widgets | [x] | [ ] |   | 
+   Drawing Preferences | [x] | [ ] |   | 
+   Customizing | [x] | [ ] |   | Including Style Sheets.
+**User Guides** |   |   |   | Generic instructions on how to do a few things with LibreCAD.
+   Drawing Setup | [x] | [ ] |   | Scale, layers and templates.
+   Drawing and Modifying | [x] | [ ] |   | 
+   Blocks | [x] | [ ] |   | 
+   Dimensioning & Text | [x] | [ ] |   | 
+   The Command Line | [x] | [ ] |   | 
+   Printing Guide | [x] | [ ] |   | 
+**Appendices** |   |   |   | Miscellaneous information about LibreCAD.
+   Online Resources | [x] | [ ] |   | Web site, forum, wiki
+   Fonts | [x] | [ ] |   | 
+   Hatches | [x] | [ ] |   | 
+   Languages | [x] | [ ] |   | 
+   Systems of Measurement | [x] | [ ] |   | 
+   Calculator | [x] | [ ] |   | Operators and Functions
+   Building from Source | [x] | [ ] |   | 
+   Contributing | [x] | [ ] |   | 
+   Licenses | [x] | [ ] |   | 
 
