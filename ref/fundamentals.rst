@@ -59,17 +59,17 @@ Angles
 
     .. figure:: /images/angles.png
         :align: right
-        :scale: 100
+        :scale: 67
         :alt: Polar Coordinates
 
 .. only:: latex
 
     .. figure:: /images/angles.png
         :align: center
-        :scale: 67
+        :scale: 50
         :alt: Polar Coordinates
 
-.. actual image size 254px x 190px
+.. actual image size 362px x 339px
 
 All angles in LibreCAD are measured in 360 degrees beginning from 0 degrees (the 3 o'clock position).  Angles entered as a positive value are measured in an anti-clockwise direction.  Angles entered as a negative value are measure in a clockwise direction.
 
