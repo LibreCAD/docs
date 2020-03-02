@@ -9,9 +9,9 @@
 Fundamentals
 ============
 
-To be able to use LibreCAD effectively, there are a few concepts that need to be understood.  While basic drawings can be created with very little setup, as they become more complex further consideration to the elements of a complete drawing is important.  This section offers an introduction to some concepts that are important to creating a complex drawing, but by no means is it exhaustive.  The  rest of the Reference section provides a description of the tools used to create and modify drawings.  General examples and guidance is offered in the :ref:`User Guide <guides>` section.
+To be able to use LibreCAD effectively, there are a few concepts that need to be understood.  While a basic drawing or sketch can be created after the initial setup, as drawings become more complex further consideration to the elements of a complete drawing is important.  This section offers an introduction to some concepts that are required to create a drawing, but by no means is it exhaustive.  The  rest of the Reference section provides a description of the tools used to configure, create and modify drawings.  Further general examples and guidance is offered in the :ref:`User Guide <guides>` section.
 
-LibreCAD supports two drawing perspectives; orthogonal and isometric.  Orthogonal is the default perspective for creating two dimensional (2D) drawings.  An :ref:`isometric <isometric>` projection allows LibreCAD to represent a three-dimensional object in two dimensions, sometimes referred to as "2.5D".
+LibreCAD supports two drawing perspectives; orthogonal and isometric projections.  Orthogonal projection is the default perspective for creating two dimensional (2D) drawings.  An :ref:`isometric <isometric>` projection allows LibreCAD to represent a three-dimensional object in two dimensions, sometimes referred to as "2.5D".  Both projections use coordinates to locate drawing elements.
 
 
 .. _coordinates: 
@@ -19,16 +19,16 @@ LibreCAD supports two drawing perspectives; orthogonal and isometric.  Orthogona
 The Coordinate System
 ---------------------
 
-Understanding the coordinate systems and how coordinates work in LibreCAD is necessary to produce exact drawings.  Points are used to describe some aspect of an entity (e.g. the end of a line, the center of a circle, etc.), and can be placed with precision and accuracy by using coordinates.  
+Understanding the coordinate systems and how coordinates work in LibreCAD is necessary to produce precise drawings.  Points are used to describe an aspect of an entity (e.g. the end of a line, the center of a circle, etc.), and can be placed accurately using coordinates.
 
-There are two coordinate systems used in LibreCAD to places a point in a drawing.  A point can be placed by specifying:
+There are two coordinate systems used in LibreCAD to place a point in a drawing.  A point can be placed by specifying:
  
     - a horizontal distance and vertical distance from a reference point (:ref:`Cartesian <cartesian-coords>`), or
     - an angle and distance from a reference point (:ref:`Polar <polar-coords>`).
 
-All coordinates are relative to the *absolute origin* in the drawing.  It is where the X and Y axes cross each other and is represented by a red cross.  The coordinates of this point are 0,0.  Every entity drawn can be located in relation to the origin.
+All coordinates in a drawing are relative to the *origin* or *absolute zero*.  It is where the X and Y axes cross each other and is represented by crossed red lines.  The coordinates of this point are **0,0**.  Coordinates to the right and above the origin are positive.  Coordinates to the left or below are negative.  Every entity drawn can be located in relation to the origin.
 
-LibreCAD also uses a *Relative Zero* point.  It is the last point set when creating an entity.  It is represented within the drawing by a small red circle with a cross in it.  The Relative Zero point is set temporarily to a new position in a drawing so that a subsequent coordinates of the next entity can be placed using :ref:`relative coordinates <relative>`.
+LibreCAD also uses a *Relative Zero* point.  It is the last point set having created an entity.  It is represented within the drawing by a small red circle with a cross in it.  The Relative Zero point is set temporarily to a new position in a drawing so that a subsequent coordinates of the next entity can be placed using :ref:`relative coordinates <relative>`.
 
 .. only:: html
 
@@ -71,7 +71,7 @@ Angles
 
 .. actual image size 362px x 339px
 
-While horizontal or vertical distances are always measure in the :ref:`specified unit <measurements>`, angles in LibreCAD are always measured in degrees, beginning from 0 degrees (the 3 o'clock position).  Angles entered as a positive value are measured in an anti-clockwise direction.  Angles entered as a negative value are measure in a clockwise direction.
+Angles are also used in LibreCAD.  While horizontal or vertical distances are measured in the specified :ref:`unit <measurements>`, angles in LibreCAD are always measured in degrees, beginning from 0 degrees horizontally to the right of the origin, or at the 3 o'clock position.  Angles entered as a positive value are measured in an anti-clockwise direction.  Angles entered as a negative value are measure in a clockwise direction.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -85,7 +85,7 @@ Types of Coordinates
 Cartesian
 `````````
 
-The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is measured along the horizontal axis and Y on the vertical axis.  Coordinates can also be shown as "Positive" (+) or "Negative" (-) values.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be "100,75", as shown here.
+The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartesian coordinates take the form *X,Y* where X is measured along the horizontal axis and Y on the vertical axis.  Coordinates can also be shown as "positive" (+) or "negative" (-) values.  A specific point in a drawing is located by exact distances from the X and Y axis - for example a point in a drawing could be "100,75", as shown here.
 
 .. only:: html
 
@@ -109,7 +109,7 @@ The *Cartesian* coordinate system is commonly used in most CAD programs.  Cartes
 Polar
 `````
 
-The *Polar* coordinate system uses one distance and one angle to locate a point in a drawing.  In LibreCAD the *<* symbol is used to designate an angle when using polar coordinates.  Polar coordinates take the form *100<45*, indicating a line 100 units long and with an angle of 45 degrees as shown.
+The *Polar* coordinate system uses a distance and an angle to locate a point in a drawing.  In LibreCAD the *<* symbol is used to designate an angle when using polar coordinates.  Polar coordinates take the form *100<45*, indicating a line 100 units long and with an angle of 45 degrees as shown.
 
 .. only:: html
 
@@ -141,7 +141,7 @@ In LibreCAD lines, points, arcs, polylines, circles, and many more entities can 
 Absolute
 ````````
 
-When using absolute coordinates, whether Cartesian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<45" as shown in the two images above.
+When using absolute coordinates, whether Cartesian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD enter in the desired point, e.g. "100,75" or "100<45" as shown in the two images above.
 
 
 .. _relative:
@@ -149,7 +149,7 @@ When using absolute coordinates, whether Cartesian or polar, points are entered 
 Relative
 ````````
 
-The next coordinate can also be place *relative* to the previously place coordinate.  The last coordinate defined when creating an entity becomes a temporary reference for the next point.  The newly set temporary reference is the "*Relative Zero* point", and the next coordinates can be entered relative to that point.  To define the next point relative to the Relative Zero point, either cartesian or polar, prefixed with the '@' symbol when entering the coordinates.  Points without the @ prefix are always interpreted as absolute coordinates.
+The next point can also be placed *relative to the previously placed* point.  The last point placed when creating an entity becomes a temporary reference for the next point.  The newly set temporary reference is the "*Relative Zero* point", and the next coordinates can be entered relative to that point.  To define the next point relative to the Relative Zero point, either cartesian or polar, prefix the coordinates with the '@'.  Points without the @ prefix are always interpreted as absolute coordinates.
 
 When using cartesian coordinates for example, to set a 65 units above and 75 units to the right of the previous point, use "@75,65".  In this example, the previous point was set at 20 units horizontally and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
 
