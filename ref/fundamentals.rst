@@ -141,7 +141,7 @@ In LibreCAD lines, points, arcs, polylines, circles, and many more entities can 
 Absolute
 ````````
 
-When using absolute coordinates, whether Cartesian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<60" as shown in the two images above.
+When using absolute coordinates, whether Cartesian or polar, points are entered in direct relation to the origin (0,0). To do this in LibreCAD, enter in the desired point, e.g. "100,75" or "100<45" as shown in the two images above.
 
 
 .. _relative:
