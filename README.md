@@ -19,13 +19,13 @@ Section | Initial Draft | Review / Edit | Update for GA release | Comment
    Configure | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
 **References** |   |   |   | Technical descriptions of the tools, functions, widgets, etc.
    Fundamentals | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Including "The Coordinate System".
-   Application Menu | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
-   Drawing Tools | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
-   Snapping | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
-   Toolbars | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
-   Dock Widgets | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
-   Drawing Preferences | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
-   Customizing | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | Including Style Sheets.
+   Application Menu | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Drawing Tools | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Snapping | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Toolbars | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Dock Widgets | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Drawing Preferences | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Customizing | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Including Style Sheets.
 **User Guides** |   |   |   | Generic instructions on how to do a few things with LibreCAD.
    Drawing Setup | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | Scale, layers and templates.
    Drawing and Modifying | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
