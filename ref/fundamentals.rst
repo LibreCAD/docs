@@ -151,7 +151,7 @@ Relative
 
 The next point can also be placed *relative to the previously placed* point.  The last point placed when creating an entity becomes a temporary reference for the next point.  The newly set temporary reference is the "*Relative Zero* point", and the next coordinates can be entered relative to that point.  To define the next point relative to the Relative Zero point, either cartesian or polar, prefix the coordinates with the '@'.  Points without the @ prefix are always interpreted as absolute coordinates.
 
-When using cartesian coordinates for example, to set a 65 units above and 75 units to the right of the previous point, use "@75,65".  In this example, the previous point was set at 20 units horizontally and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
+For example, when using cartesian coordinates to set a point 75 units to the right and 65 units above of the previous point, use "@75,65".  In the example shown, the previous point was set at 25 units horizontally and 35 vertically (25,35) from the origin (0,0).  The next point can be set @75,65 from the Relative Zero point at 25,35, resulting in a point at 100,100 absolute (100 units horizontally and 100 vertically from the origin).
 
 .. hint::
 
@@ -177,7 +177,7 @@ When using cartesian coordinates for example, to set a 65 units above and 75 uni
 
 .. actual image size 768px x 576px
 
-As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
+As an example when using a polar coordinates, to place a point 100mm and 45 degrees from the last point drawn at 25,35 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
 
 .. only:: html
 
