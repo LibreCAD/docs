@@ -312,7 +312,7 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
 .. table::
    :align: center
    :widths: auto
-   :class: table-no-border
+   :class: table-no-borders
    
    +----------+----------+
    | |01L|    | |01R|    |
@@ -338,7 +338,7 @@ Line width or thickness should also be addressed when creating a new drawing.  T
     :widths: 15, 20, 40, 25
     :header-rows: 1
     :stub-columns: 0
-    :class: table-wrap-text
+    :class: table-fix-width
 
     "Line Weights", "Pen Size (mm)", "Purpose", "Recommended"
     "Extra Thin", "0.00, 0.05, 0.09", "- Hidden lines", "0.00 mm"
@@ -375,7 +375,7 @@ Different types of lines are used for different purposes.  LibreCAD includes sev
     :widths: 15, 30, 55
     :header-rows: 1
     :stub-columns: 0
-    :class: table-wrap-text
+    :class: table-fix-width
 
     "Line Type", "Example", "Purpose"
     "Continuous", |image20|, "Object or visible, dimension, extension and construction lines."
