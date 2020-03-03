@@ -42,7 +42,7 @@
    /* Wrap text */
    white-space: normal !important;
    /* Set table borders */
-   border: none !important;
+   border: 1px solid black !important;
    /* Adjust padding for tables */
    padding: 1px 1px 1px 1px !important;
    margin-left: 0 !important;
@@ -59,7 +59,7 @@
    /* Wrap text */
    white-space: normal !important;
    /* Remove ALL table borders */
-   border: 0px solid white !important;
+   border: none !important;
    /* Remove table shading */
    background-color: white !important;
    /* Align text to top left */
