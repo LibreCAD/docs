@@ -37,13 +37,14 @@
        margin-left: 0 !important;
    } */
 /*  Add ":class: table-fix-width" to table directives */
-.table-fix-width table, th, td {
+/*.table-fix-width table, th, td {*/
+.table-fix-width td {
    /* Wrap text */
    white-space: normal !important;
    /* Set table borders */
-   border: none;
+   border: none !important;
    /* Adjust padding for tables */
-   padding: 1px 1px 1px 1px;
+   padding: 1px 1px 1px 1px !important;
    margin-left: 0 !important;
    /* Striped table */
    tr: nth-child(odd){
@@ -56,14 +57,14 @@
 /*  Add ":class: table-no-borders" to table definition */
 .table-no-borders table, th, td {
    /* Wrap text */
-   white-space: normal;
+   white-space: normal !important;
    /* Remove ALL table borders */
-   border: 0px solid white;
+   border: 0px solid white !important;
    /* Remove table shading */
-   background-color: white;
+   background-color: white !important;
    /* Align text to top left */
-   vertical-align: top;
-   text-align: left;
+   vertical-align: top !important;
+   text-align: left !important;
 }
 
 
