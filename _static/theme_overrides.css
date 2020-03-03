@@ -41,7 +41,7 @@
    /* Wrap text */
    white-space: normal !important;
    /* Set table borders */
-   border: 1px solid lightgrey !important;
+   border: 1px solid #F5F5F5 !important;
    /* Adjust padding for tables */
    padding: 2px 2px 2px 2px !important;
    margin-left: 0 !important;
@@ -58,12 +58,12 @@
    /* Wrap text */
    white-space: normal !important;
    /* Remove ALL table borders */
-   border: none !important;
+   border: none
    /* Remove table shading */
-   background-color: white !important;
+   background-color: white;
    /* Align text to top left */
-   vertical-align: top !important;
-   text-align: left !important;
+   vertical-align: top;
+   text-align: left;
 }
 
 
