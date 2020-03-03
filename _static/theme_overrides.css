@@ -36,8 +36,9 @@
    table.docutils div.line-block {
        margin-left: 0 !important;
    } */
-/*  Add ":class: table-fix-width" to table definitions */
-.table-fix-width table, th, td {
+/*  Add ":class: table-fix-width" to table directives */
+/*.table-fix-width table, th, td {*/
+.table-fix-width td {
    /* Wrap text */
    white-space: normal !important;
    /* Set table borders */
@@ -51,4 +52,32 @@
    }
 }
 
+
+/* Table for layout purposes; no border or shading */
+/*  Add ":class: table-no-borders" to table definition */
+.table-no-borders table, th, td {
+   /* Wrap text */
+   white-space: normal;
+   /* Remove ALL table borders */
+   border: 0px solid white;
+   /* Remove table shading */
+   background-color: white;
+   /* Align text to top left */
+   vertical-align: top;
+   text-align: left;
+}
+
+
+/* Two column for image presentation */
+/* https://stackoverflow.com/questions/4550021/working-example-of-floating-image-in-restructured-text/12988688 */
+
+div.leftside {
+    width: 400px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+
+div.rightside {
+    margin-left: 400px;
+}
 
