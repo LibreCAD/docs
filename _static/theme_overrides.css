@@ -30,10 +30,10 @@
         color: #000000;
 }*/
 
-/* Adjusts indent in tables when forcing line break: https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell */
+/* Adjusts indent in tables when forcing line break: https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell
 table.docutils div.line-block {
-       margin-left: 0 !important;
-}
+    margin-left: 0 !important;
+} */
 
 
 /* Wrap text in table instead of scollbars: http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
