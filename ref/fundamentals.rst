@@ -395,22 +395,23 @@ Other than ”Continuous”, the other non-continuous lines are available in def
 Creating Entities
 ~~~~~~~~~~~~~~~~~
 
-There are two methods for defining coordinates when drawing entities in LibreCAD.  Users can use either the keyboard and type coordinates, or by using a mouse or other pointing devices.
-
+There are two methods for defining coordinates when drawing entities in LibreCAD.  Users can use either use a mouse or other pointing devices, or the keyboard and enter coordinates.
 
 Using a Mouse
 `````````````
 
-Entities' coordinates can also be located graphically using a mouse or other pointing device.  Using a mouse is less precise, but may be acceptable for 'rough' sketches or other freehand work.  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps`.  
+Entities' coordinates can also be located graphically using a mouse or other pointing device.  Using a mouse is less precise, but may be acceptable for rough sketches or other freehand work.  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps <snaps>`.  
 
 .. _keyboard: 
 
 Using the Keyboard
 ```````````````````
 
-Coordinate values, whether cartesian or polar, can be typed at the :ref:`command line <cmdline>` in the formats as previously noted.  LibreCAD offers an additional method for typing cartesian coordinates when using the numeric keypad; type two decimal points (".") in lieu of the comma between the X and Y values.  For example, "10..20" is equivalent to typing "10,20".  This method can also be used for relative cartesian coordinates, e.g. @15..25.
+The keyboard can be used to select tools and enter coordinates using the *command line*.  Tools can be selected by typing a command and then entering the coordinate values.  The commands are shown in the :ref:`Drawing Tools <tools>`.  Coordinates can be entered at the command line after selecting a drawing tool using the formats as shown previously; "100,75" (:ref:`Cartesian <cartesian-coords>`) or "100<45" (:ref:`polar <polar-coords>`), :ref:`absolute <absolute>` or :ref:`relative <relative>` (prefixed with "@").
 
-Text input is also required by tool options where distance, angle, etc. are needed.
+LibreCAD offers an additional method for entering *relative coordinates* when using the numeric keypad; type two decimal points ("**..**") in lieu of the comma between the X and Y values.  For example, "10..20" is equivalent to typing "@10,20".  Refer to the **User Guides** for more details on using the :ref:`command line <cmdline>`.
+
+Text input may also be required for **Tool Options** where distance, angle, etc. are needed with some of the **Drawing Tools**.
 
 
 Selecting Entities
