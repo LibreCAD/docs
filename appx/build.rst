@@ -53,13 +53,13 @@ Install the required tools and libraries (compiler, Qt, boost, muparser, etc.):
     qtchooser qttools5-dev-tools libboost-dev libmuparser-dev librsvg2-bin\
     libfreetype6-dev libicu-dev pkg-config
 
-You also have to either install the qt5-default package (`apt install qt5-default`) or use qtchooser prior to running qmake (`qtchooser -qt5`). 
+You also have to either install the qt5-default package (``apt install qt5-default``) or use qtchooser prior to running qmake (``qtchooser -qt5``). 
 
 
 Build LibreCAD
 ~~~~~~~~~~~~~~
 
-Create a development directory for the source code and related libraries, e.g `~/dev/`.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Compiled LibreCAD with the following commands:
+Create a development directory for the source code and related libraries; e.g ``~/dev/``.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Compiled LibreCAD with the following commands:
 
 ::
 
@@ -158,15 +158,58 @@ Building on macOS
 
     *This section is currently being updated.*  Please provide any feedback on the build process on the LibreCAD forum: http://forum.librecad.org/Help-wanted-to-build-on-MacOS-td5717273.html 
 
+There are a few options for compiling LibreCAD for the macOS.  This method uses the **LLVM Compiler Infrastructure** and **Homebrew**.  Refer to the `Github Developer's wiki <https://github.com/LibreCAD/LibreCAD/wiki/Build-from-source#macos>`_ for additional methods.
 
 Install Tools and Dependencies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Download and install Homebrew Package Manager:
+
+::
+
+    $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+Further details are available on the `Homebrew website <https://brew.sh/>`_.
+
+Install the latest versions of boost and qt5 with Homebrew:
+
+::
+
+    brew install boost qt5
+
+
+Build LibreCAD
+~~~~~~~~~~~~~~
+
+Create a development directory for the source code and related libraries; e.g ``~/dev/``.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory. When complete a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory. 
+
+Build LibreCAD by running qmake.  Note that during the installation step above (brew install qt5), the binaries have not been linked to `/usr/local`.  In order to use qmake, either:
+
+    - use the full path: ``/usr/local/Cellar/qt5/5.7.0/bin/qmake``, or
+    - run ``brew link qt5 --force``, which will allow you to simply write ``qmake`` at the prompt.
+
+    ::
+
+        qmake librecad.pro -r -spec macx-clang
+
+Now you are ready to build the application.  Run at the prompt:
+
+::
+
+    make -j4
+
+If the previous steps were successful, an application named **LibreCAD.app** will be in the build directory. Run it at the command prompt by typing either:
+
+    ``open LibreCAD.app``, or
+    ``LibreCAD.app/Contents/MacOS/LibreCAD``.
+
+---------------
 
 Install the required tools and libraries (compiler, Qt, boost, muparser, etc.).  The compiler, gcc, should be version 4.7 or later (gcc-4.9 or later is recommended).
 
 ::
 
-   $ sudo port install gcc49 qt5-creator-mac qt5-mac boost freetype
+   $ sudo port install gcc49 qt5-creator qt5 boost freetype
 
 
 LibreCAD doesn't build with the default llvm-gcc42.  It is necessary to select gcc-4.9 (or later) as the default compiler:
