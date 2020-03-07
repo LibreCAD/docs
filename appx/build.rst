@@ -183,17 +183,11 @@ Create a development directory for the source code and related libraries; e.g ``
 
     cd ~/dev/LibreCAD-master/
 
-Next build LibreCAD by running qmake.  Note that during the installation step above (``brew install qt5``), the binaries have not been linked to `/usr/local`.  In order to use qmake, either use the full path:
+Next build LibreCAD by running qmake.  Note that during the installation step above, ``brew install qt5``, the binaries have not been linked to `/usr/local`.  In order to use qmake, use the full path:
 
 ::
     
     /usr/local/Cellar/qt5/5.7.0/bin/qmake librecad.pro -r -spec macx-clang
-
-Or run ``brew link qt5 --force``, which will allow qmake to be run at the prompt:
-
-::
-
-    qmake librecad.pro -r -spec macx-clang
 
 To compile the application, at the prompt run:
 
