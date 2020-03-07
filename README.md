@@ -34,13 +34,15 @@ Section | Initial Draft | Review / Edit | Update for GA release | Comment
    The Command Line | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
    Printing Guide | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
 **Appendices** |   |   |   | Miscellaneous information about LibreCAD.
-   Online Resources | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | Web site, forum, wiki
-   Fonts | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
-   Hatches | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
-   Languages | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Online Resources | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Web site, forum, wiki
+   Line Types | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Hatches | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Fonts | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Drawing Scales | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Languages | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
    Systems of Measurement | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
-   Calculator | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | Operators and Functions
+   Calculator | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Operators and Functions
    Building from Source | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
-   Contributing | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
-   Licenses | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Contributing | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Licenses | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
 

@@ -30,25 +30,53 @@
         color: #000000;
 }*/
 
+/* Adjusts indent in tables when forcing line break: https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell */
+table.docutils div.line-block {
+    margin-left: 2px !important;
+/*    padding-left: 0px !important;*/
+}
+
 
 /* Wrap text in table instead of scollbars: http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
-/* Adjusts indent in tables when forcing line break: https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell 
-   table.docutils div.line-block {
-       margin-left: 0 !important;
-   } */
 /*  Add ":class: table-fix-width" to table definitions */
 .table-fix-width table, th, td {
    /* Wrap text */
    white-space: normal !important;
    /* Set table borders */
-   border: none;
-   /* Adjust padding for tables */
-   padding: 1px 1px 1px 1px;
-   margin-left: 0 !important;
+   border: 1px solid lightgrey !important;
+   /* Adjust padding for tables; top / right / bottom / left */
+   padding: 4px 2px 4px 2px !important;
    /* Striped table */
-   tr: nth-child(odd){
-      background-color: #f2f2f2;
+   tr: nth-child(even){
+      background-color: #f2f2f2 !important;
    }
 }
 
+
+/* Table for layout purposes; no border or shading */
+/*  Add ":class: table-no-borders" to table definition */
+.table-no-borders table, th, td {
+   /* Wrap text */
+   white-space: normal;
+   /* Remove ALL table borders */
+   border: 0px solid white;
+   /* Remove table shading */
+   background-color: white;
+   /* Align text to top left */
+   vertical-align: top;
+}
+
+
+/* Two column for image presentation */
+/* https://stackoverflow.com/questions/4550021/working-example-of-floating-image-in-restructured-text/12988688 */
+
+div.leftside {
+    width: 400px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+
+div.rightside {
+    margin-left: 400px;
+}
 

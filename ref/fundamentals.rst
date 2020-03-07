@@ -149,13 +149,13 @@ When using absolute coordinates, whether Cartesian or polar, points are entered 
 Relative
 ````````
 
-The next point can also be placed *relative to the previously placed* point.  The last point placed when creating an entity becomes a temporary reference for the next point.  The newly set temporary reference is the "*Relative Zero* point", and the next coordinates can be entered relative to that point.  To define the next point relative to the Relative Zero point, either cartesian or polar, prefix the coordinates with the '@'.  Points without the @ prefix are always interpreted as absolute coordinates.
+The next point can also be placed *relative to the previously placed* point.  The last point placed when creating an entity becomes a temporary reference for the next point.  The newly set temporary reference is the "*Relative Zero* point" and the next coordinates can be entered relative to that point.  To define the next point relative to the Relative Zero point, either cartesian or polar, prefix the coordinates with the "@".  Points without the @ prefix are always interpreted as absolute coordinates.
 
-When using cartesian coordinates for example, to set a 65 units above and 75 units to the right of the previous point, use "@75,65".  In this example, the previous point was set at 20 units horizontally and 45 vertically (20,45) from the origin (0,0), setting the next point @75,65 relative to 20,45, using @75,65 would result in a point at 100 units horizontally and 100 vertically (100,100 absolute).
+For example, when using cartesian coordinates to set a point 75 units to the right and 65 units above of the previous point, use "@75,65".  In the example shown, the previous point was set at 25 units horizontally and 35 vertically (25,35) from the origin (0,0).  The next point can be set @75,65 from the Relative Zero point at 25,35, resulting in a point at 100,100 absolute (100 units horizontally and 100 vertically from the origin).
 
 .. hint::
 
-   Relative coordinates can also be written as 10..20 (equivalent to @10,20) which allows for :ref:`numeric keypad <keyboard>` input when using the :ref:`command line<widget-cmdLine>`.
+   Relative coordinates can also be entered using the "*x..y*" format.  This format is equivalent to prefixing the coordinates with the "@" symbol, but allows for :ref:`numeric keypad <keyboard>` input when using the :ref:`command line<widget-cmdLine>`.  As an example, entering coordinates as "75..65" is equivalent to "@75,65".
 
 .. only:: html
 
@@ -177,7 +177,7 @@ When using cartesian coordinates for example, to set a 65 units above and 75 uni
 
 .. actual image size 768px x 576px
 
-As an example when using a polar coordinates, to draw a line 100mm and 45 degrees from the last point drawn at 25,45 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
+As an example when using a polar coordinates, to place a point 100mm and 45 degrees from the last point drawn at 25,35 (absolute cartesian coordinate) use "@100<45" (relative polar coordinate).
 
 .. only:: html
 
@@ -312,7 +312,7 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
 .. table::
    :align: center
    :widths: auto
-   :class: table-no-border
+   :class: table-no-borders
    
    +----------+----------+
    | |01L|    | |01R|    |
@@ -338,7 +338,7 @@ Line width or thickness should also be addressed when creating a new drawing.  T
     :widths: 15, 20, 40, 25
     :header-rows: 1
     :stub-columns: 0
-    :class: table-wrap-text
+    :class: table-fix-width
 
     "Line Weights", "Pen Size (mm)", "Purpose", "Recommended"
     "Extra Thin", "0.00, 0.05, 0.09", "- Hidden lines", "0.00 mm"
@@ -375,7 +375,7 @@ Different types of lines are used for different purposes.  LibreCAD includes sev
     :widths: 15, 30, 55
     :header-rows: 1
     :stub-columns: 0
-    :class: table-wrap-text
+    :class: table-fix-width
 
     "Line Type", "Example", "Purpose"
     "Continuous", |image20|, "Object or visible, dimension, extension and construction lines."
@@ -392,25 +392,29 @@ Other than ”Continuous”, the other non-continuous lines are available in def
    Intervals for non-continuous line types with white spaces remain constant when scaled.  ”Tiny” should be used in most cases.
 
 
+Drawing and Editing Entities
+----------------------------
+
 Creating Entities
 ~~~~~~~~~~~~~~~~~
 
-There are two methods for defining coordinates when drawing entities in LibreCAD.  Users can use either the keyboard and type coordinates, or by using a mouse or other pointing devices.
-
+There are two methods for defining coordinates when drawing entities in LibreCAD.  Users can use either use a mouse or other pointing devices, or the keyboard and enter coordinates.
 
 Using a Mouse
 `````````````
 
-Entities' coordinates can also be located graphically using a mouse or other pointing device.  Using a mouse is less precise, but may be acceptable for 'rough' sketches or other freehand work.  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps`.  
+Entities' coordinates can also be located graphically using a mouse or other pointing device.  Using a mouse is less precise, but may be acceptable for rough sketches or other freehand work.  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps <snaps>`.  
 
 .. _keyboard: 
 
 Using the Keyboard
-```````````````````
+``````````````````
 
-Coordinate values, whether cartesian or polar, can be typed at the :ref:`command line <cmdline>` in the formats as previously noted.  LibreCAD offers an additional method for typing cartesian coordinates when using the numeric keypad; type two decimal points (".") in lieu of the comma between the X and Y values.  For example, "10..20" is equivalent to typing "10,20".  This method can also be used for relative cartesian coordinates, e.g. @15..25.
+The keyboard can be used to select tools and enter coordinates using the *command line*.  Tools can be selected by typing a command and then entering the coordinate values.  The commands are shown in the :ref:`Drawing Tools <tools>`.  Coordinates can be entered at the command line after selecting a drawing tool using the formats as shown previously; "100,75" (:ref:`Cartesian <cartesian-coords>`) or "100<45" (:ref:`polar <polar-coords>`), :ref:`absolute <absolute>` or :ref:`relative <relative>` (prefixed with "@").
 
-Text input is also required by tool options where distance, angle, etc. are needed.
+LibreCAD offers an additional method for entering *relative coordinates* when using the numeric keypad; type two decimal points ("**..**") in lieu of the comma between the X and Y values.  For example, "10..20" is equivalent to typing "@10,20".  Refer to the **User Guides** for more details on using the :ref:`command line <cmdline>`.
+
+Text input may also be required for **Tool Options** where distance, angle, etc. are needed with some of the **Drawing Tools**.
 
 
 Selecting Entities

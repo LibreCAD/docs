@@ -20,7 +20,7 @@ File
 ----
 
 .. csv-table:: 
-    :widths: 20, 10, 15, 55
+    :widths: 20, 7, 15, 58
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -43,7 +43,7 @@ File
 Options
 -------
 .. csv-table:: 
-    :widths: 20, 10, 15, 55
+    :widths: 20, 7, 15, 58
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -61,7 +61,7 @@ Options
 Edit
 ----
 .. csv-table:: 
-    :widths: 20, 10, 15, 55
+    :widths: 20, 7, 15, 58
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -82,7 +82,7 @@ View
 ----
 
 .. csv-table:: 
-    :widths: 20, 10, 15, 55
+    :widths: 20, 7, 15, 58
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -106,7 +106,7 @@ Plugins
 -------
 
 .. csv-table:: 
-    :widths: 20, 10, 15, 55
+    :widths: 20, 7, 15, 58
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -134,7 +134,7 @@ Widgets
 -------
 
 .. csv-table:: 
-    :widths: 20, 10, 15, 55
+    :widths: 20, 7, 15, 58
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -151,7 +151,7 @@ Drawings
 --------
 
 .. csv-table:: 
-    :widths: 20, 10, 15, 55
+    :widths: 20, 7, 15, 58
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -165,7 +165,7 @@ Help
 ----
 
 .. csv-table:: 
-    :widths: 20, 10, 15, 55
+    :widths: 20, 7, 15, 58
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
