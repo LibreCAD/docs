@@ -16,9 +16,9 @@ Appendices
     Line Types <lineTypes>
     Hatches <hatches>
     Fonts <fonts>
+    Drawing Scales <scales>
     Languages <languages>
     Systems of Measurement <measurements>
-    Drawing Scales <scales>
     Calculator Functions <calculator>
     Building from Source <build>
     Contributing <contributing>
