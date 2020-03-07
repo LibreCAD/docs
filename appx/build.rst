@@ -59,7 +59,7 @@ You also have to either install the qt5-default package; ``apt install qt5-defau
 Build LibreCAD
 ~~~~~~~~~~~~~~
 
-Create a development directory for the source code and related libraries; e.g ``~/dev/``.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Compiled LibreCAD with the following commands:
+Create a development directory for the source code and related libraries; e.g ``~/dev/``.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete, a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Compiled LibreCAD with the following commands:
 
 ::
 
@@ -110,7 +110,7 @@ muParser is not required to build LibreCAD on Windows as the library is now incl
 Build LibreCAD in Qt Creator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Create a development folder for the source code and related libraries, e.g `C:\\dev\\`.  Extract the contents of the source code zip file, "LibreCAD-master.zip".  When complete a copy of the source code will found in the `C:\\dev\\LibreCAD-master` folder.
+Create a development folder for the source code and related libraries, e.g `C:\\dev\\`.  Extract the contents of the source code zip file, "LibreCAD-master.zip".  When complete, a copy of the source code will found in the `C:\\dev\\LibreCAD-master` folder.
 
 Extract the boost library the files to the development folder.  Note the folder name the boost library was extracted to, e.g. `C:\\dev\\boost_1_70_0\\`.
 
@@ -177,13 +177,13 @@ Install the latest versions of boost and qt5 with Homebrew:
 Build LibreCAD
 ~~~~~~~~~~~~~~
 
-Create a development directory for the source code and related libraries; e.g ``~/dev/``.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Change to the source code directory with:
+Create a development directory for the source code and related libraries; e.g ``~/dev/``.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete, a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Change to the source code directory with:
 
 ::
 
     cd ~/dev/LibreCAD-master/
 
-Build LibreCAD by running qmake.  Note that during the installation step above (brew install qt5), the binaries have not been linked to `/usr/local`.  In order to use qmake, either:
+Next build LibreCAD by running qmake.  Note that during the installation step above (brew install qt5), the binaries have not been linked to `/usr/local`.  In order to use qmake, either:
 
 ::
 
@@ -195,7 +195,7 @@ Or run ``brew link qt5 --force``, which will allow you to simply run qmake at th
 
     qmake librecad.pro -r -spec macx-clang
 
-Now build the application.  At the prompt run:
+To compile the application, at the prompt run:
 
 ::
 
