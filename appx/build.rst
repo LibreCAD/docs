@@ -209,5 +209,5 @@ If the previous steps were successful, an application named **LibreCAD.app** wil
 
 .. note::
 
-    *This section been revised, but not tested.*  Please provide any feedback on the build process on the LibreCAD forum: http://forum.librecad.org/Help-wanted-to-build-on-MacOS-td5717273.html 
+    *The macOS build section been revised, but not tested.*  Please provide any feedback on the build process on the LibreCAD forum: http://forum.librecad.org/Help-wanted-to-build-on-MacOS-td5717273.html 
 
