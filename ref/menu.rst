@@ -181,11 +181,9 @@ Help
 .. |icon00| image:: /images/icons/librecad.png
             :height: 24
             :width: 24
-            :align: center
 .. |icon01| image:: /images/icons/new.svg
             :height: 24
             :width: 24
-            :align: center
 .. |icon02| image:: /images/icons/new_from_template.svg
             :height: 24
             :width: 24
