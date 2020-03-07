@@ -32,7 +32,8 @@
 
 /* Adjusts indent in tables when forcing line break: https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell */
 table.docutils div.line-block {
-    padding-left: 2px !important;
+    margin-left: 2px !important;
+/*    padding-left: 0px !important;*/
 }
 
 
