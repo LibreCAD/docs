@@ -192,6 +192,7 @@ Build LibreCAD by running qmake.  Note that during the installation step above (
 Or run ``brew link qt5 --force``, which will allow you to simply write qmake at the prompt:
 
 ::
+
     qmake librecad.pro -r -spec macx-clang
 
 Now build the application.  At the prompt run:
