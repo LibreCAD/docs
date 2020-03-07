@@ -392,6 +392,9 @@ Other than ”Continuous”, the other non-continuous lines are available in def
    Intervals for non-continuous line types with white spaces remain constant when scaled.  ”Tiny” should be used in most cases.
 
 
+Drawing and Editing Entities
+----------------------------
+
 Creating Entities
 ~~~~~~~~~~~~~~~~~
 
@@ -405,7 +408,7 @@ Entities' coordinates can also be located graphically using a mouse or other poi
 .. _keyboard: 
 
 Using the Keyboard
-```````````````````
+``````````````````
 
 The keyboard can be used to select tools and enter coordinates using the *command line*.  Tools can be selected by typing a command and then entering the coordinate values.  The commands are shown in the :ref:`Drawing Tools <tools>`.  Coordinates can be entered at the command line after selecting a drawing tool using the formats as shown previously; "100,75" (:ref:`Cartesian <cartesian-coords>`) or "100<45" (:ref:`polar <polar-coords>`), :ref:`absolute <absolute>` or :ref:`relative <relative>` (prefixed with "@").
 
