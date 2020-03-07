@@ -27,9 +27,9 @@ Download the Source Code
 
 The source code is hosted on GitHub and is common to all three operating systems.  It can be download as a "zip" archive or cloned using "git".  These instructions use the download option.
 
-Go to the LibreCAD GitHub page (https://github.com/LibreCAD/LibreCAD) to download the source code.  On the **<> Code** tab, click on the "Clone or Download" button and then click "Download ZIP".  Save the zip file; `LibreCAD-master.zip`.
+Go to the `LibreCAD GitHub page <https://github.com/LibreCAD/LibreCAD>`_ to download the source code.  On the **<> Code** tab, click on the "Clone or Download" button and then click "Download ZIP".  Save the zip file; `LibreCAD-master.zip`.
 
-Cloning is suggested if users want to build LibreCAD more frequently as the source code is updated.  More information about GitHub, git tools, and creating a local source code repository can be found on LibreCAD's Development wiki (https://github.com/LibreCAD/LibreCAD/wiki).
+Cloning is suggested if users want to build LibreCAD more frequently as the source code is updated.  More information about GitHub, git tools, and creating a local source code repository can be found on `LibreCAD's Developer's wiki <https://github.com/LibreCAD/LibreCAD/wiki>`_.
 
 
 .. _buildLinux:
@@ -39,7 +39,7 @@ Building on Linux
 
 .. note::
 
-    These instructions are for building LibreCAD on **Debian** and other derivatives.  Further instructions for building LibreCAD on other Linux distributions (openSUSE, Red Hat, FreeBSD) and generic Unix can be found on the GitHub Developers wiki (https://github.com/LibreCAD/LibreCAD/wiki) in the **Build from source** section. 
+    These instructions are for building LibreCAD on **Debian** and other derivatives.  Further instructions for building LibreCAD on other Linux distributions (openSUSE, Red Hat, FreeBSD) and generic Unix can be found in LibreCAD's GitHub Developer's wiki in the **Build from source** section. 
 
 
 Install Tools and Dependencies
@@ -53,7 +53,7 @@ Install the required tools and libraries (compiler, Qt, boost, muparser, etc.):
     qtchooser qttools5-dev-tools libboost-dev libmuparser-dev librsvg2-bin\
     libfreetype6-dev libicu-dev pkg-config
 
-You also have to either install the qt5-default package (``apt install qt5-default``) or use qtchooser prior to running qmake (``qtchooser -qt5``). 
+You also have to either install the qt5-default package; ``apt install qt5-default``, or use qtchooser prior to running qmake; ``qtchooser -qt5``. 
 
 
 Build LibreCAD
