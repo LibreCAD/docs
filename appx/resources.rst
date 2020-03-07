@@ -49,10 +49,10 @@ Getting Help
 There are many other resources for getting help with LibreCAD:
 
     - LibreCAD forum\: http://forum.librecad.org/
-    - LibreCAD Wiki\:
+    - LibreCAD Wiki\: https://dokuwiki.librecad.org/
     
-        - FAQ: https://wiki.librecad.org/index.php/FAQ
-        - Tutorials: https://wiki.librecad.org/index.php?title=Tutorials
+        - FAQ: https://dokuwiki.librecad.org/doku.php/usage:faq
+        - Tutorials: https://dokuwiki.librecad.org/doku.php/usage:tutorials
         - Part Libraries: https://wiki.librecad.org/index.php/Part_Libraries
 
 
