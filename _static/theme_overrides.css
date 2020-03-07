@@ -44,8 +44,8 @@ table.docutils div.line-block {
    white-space: normal !important;
    /* Set table borders */
    border: 1px solid lightgrey !important;
-   /* Adjust padding for tables, top right bottom left */
-   padding: 2px 4px 2px 4px !important;
+   /* Adjust padding for tables; top / right / bottom / left */
+   padding: 4px 2px 4px 2px !important;
    /* Striped table */
    tr: nth-child(even){
       background-color: #f2f2f2 !important;
