@@ -27,9 +27,9 @@ Download the Source Code
 
 The source code is hosted on GitHub and is common to all three operating systems.  It can be download as a "zip" archive or cloned using "git".  These instructions use the download option.
 
-Go to the LibreCAD GitHub page (https://github.com/LibreCAD/LibreCAD) to download the source code.  On the **<> Code** tab, click on the "Clone or Download" button and then click "Download ZIP".  Save the zip file; `LibreCAD-master.zip`.
+Go to the `LibreCAD GitHub page <https://github.com/LibreCAD/LibreCAD>`_ to download the source code.  On the **<> Code** tab, click on the "Clone or Download" button and then click "Download ZIP".  Save the zip file; `LibreCAD-master.zip`.
 
-Cloning is suggested if users want to build LibreCAD more frequently as the source code is updated.  More information about GitHub, git tools, and creating a local source code repository can be found on LibreCAD's Development wiki (https://github.com/LibreCAD/LibreCAD/wiki).
+Cloning is suggested if users want to build LibreCAD more frequently as the source code is updated.  More information about GitHub, git tools, and creating a local source code repository can be found on `LibreCAD's Developer's wiki <https://github.com/LibreCAD/LibreCAD/wiki>`_.
 
 
 .. _buildLinux:
@@ -39,7 +39,7 @@ Building on Linux
 
 .. note::
 
-    These instructions are for building LibreCAD on **Debian** and other derivatives.  Further instructions for building LibreCAD on other Linux distributions (openSUSE, Red Hat, FreeBSD) and generic Unix can be found on the GitHub Developers wiki (https://github.com/LibreCAD/LibreCAD/wiki) in the **Build from source** section. 
+    These instructions are for building LibreCAD on **Debian** and other derivatives.  Further instructions for building LibreCAD on other Linux distributions (openSUSE, Red Hat, FreeBSD) and generic Unix can be found in LibreCAD's GitHub Developer's wiki in the **Build from source** section. 
 
 
 Install Tools and Dependencies
@@ -53,13 +53,13 @@ Install the required tools and libraries (compiler, Qt, boost, muparser, etc.):
     qtchooser qttools5-dev-tools libboost-dev libmuparser-dev librsvg2-bin\
     libfreetype6-dev libicu-dev pkg-config
 
-You also have to either install the qt5-default package (`apt install qt5-default`) or use qtchooser prior to running qmake (`qtchooser -qt5`). 
+You also have to either install the qt5-default package; ``apt install qt5-default``, or use qtchooser prior to running qmake; ``qtchooser -qt5``. 
 
 
 Build LibreCAD
 ~~~~~~~~~~~~~~
 
-Create a development directory for the source code and related libraries, e.g `~/dev/`.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Compiled LibreCAD with the following commands:
+Create a development directory for the source code and related libraries; e.g ``~/dev/``.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete, a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Compiled LibreCAD with the following commands:
 
 ::
 
@@ -110,7 +110,7 @@ muParser is not required to build LibreCAD on Windows as the library is now incl
 Build LibreCAD in Qt Creator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Create a development folder for the source code and related libraries, e.g `C:\\dev\\`.  Extract the contents of the source code zip file, "LibreCAD-master.zip".  When complete a copy of the source code will found in the `C:\\dev\\LibreCAD-master` folder.
+Create a development folder for the source code and related libraries, e.g `C:\\dev\\`.  Extract the contents of the source code zip file, "LibreCAD-master.zip".  When complete, a copy of the source code will found in the `C:\\dev\\LibreCAD-master` folder.
 
 Extract the boost library the files to the development folder.  Note the folder name the boost library was extracted to, e.g. `C:\\dev\\boost_1_70_0\\`.
 
@@ -154,69 +154,55 @@ Once the DLLs have been copied to the executable folder, LibreCAD can be launche
 Building on macOS
 -----------------
 
-.. note::
-
-    *This section is currently being updated.*  Please provide any feedback on the build process on the LibreCAD forum: http://forum.librecad.org/Help-wanted-to-build-on-MacOS-td5717273.html 
-
+There are a few options for compiling LibreCAD for the macOS.  This method uses the **LLVM Compiler Infrastructure** and the **Homebrew Package Manager**.  Refer to the `Github Developer's wiki <https://github.com/LibreCAD/LibreCAD/wiki/Build-from-source#macos>`_ for additional methods.
 
 Install Tools and Dependencies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Install the required tools and libraries (compiler, Qt, boost, muparser, etc.).  The compiler, gcc, should be version 4.7 or later (gcc-4.9 or later is recommended).
+From the command prompt, download and install Homebrew with:
 
 ::
 
-   $ sudo port install gcc49 qt5-creator-mac qt5-mac boost freetype
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+Further details are available on the `Homebrew website <https://brew.sh/>`_.
 
-LibreCAD doesn't build with the default llvm-gcc42.  It is necessary to select gcc-4.9 (or later) as the default compiler:
+Install the latest versions of boost and qt5 with Homebrew:
 
 ::
 
-   $ sudo port select --set gcc mp-gcc49
-
-On OS/X 10.9 or newer use spec macx-g++ as the default.
-
-
-muParser
-````````
-
-muParser is not required to build LibreCAD on macOS as a patched version of the muParser library has been included in the LibreCAD source code.
+    brew install boost qt5
 
 
 Build LibreCAD
 ~~~~~~~~~~~~~~
 
-Create a development directory for the source code and related libraries, e.g `~/dev/`.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Compile LibreCAD as shown below.
-
-To be able to rely on pkg-config to find libraries, the path must be added to the configuration file.  *After* extracting the LibreCAD source code, add the following to `custom.pro`:
+Create a development directory for the source code and related libraries; e.g ``~/dev/``.  Extract the contents of the source code zip file, `LibreCAD-master.zip`, to the development directory.  When complete, a complete copy of the source code will found in the `~/dev/LibreCAD-master` directory.  Change to the source code directory with:
 
 ::
 
-   $ cd ~/dev/LibreCAD-master/
-   $ echo "QT_CONFIG -= no-pkg-config" >> custom.pro
+    cd ~/dev/LibreCAD-master/
 
-With the source code is extracted and the file edits complete, LibreCAD can be compiled with the following commands:
+Next build LibreCAD by running qmake.  Note that during the installation step above, ``brew install qt5``, the binaries have not been linked to `/usr/local`.  In order to use qmake, use the full path:
+
+::
+    
+    /usr/local/Cellar/qt5/5.7.0/bin/qmake librecad.pro -r -spec macx-clang
+
+To compile the application, at the prompt run:
 
 ::
 
-   $ qmake librecad.pro -r -spec macx-g++
+    make -j4
 
-Alternatively, you may use the system default clang++ compiler instead of gcc.  On OS/X version 10.8 or older, run the following command to build a makefile in the LibreCAD source folder (as in our example, ~/dev/LibreCAD/ ):
-
-::
-
-   $ qmake librecad.pro -r -spec mkspec/macports
-
-If the previous step is successful, you can build LibreCAD by issuing:
+If the previous steps were successful, an application named **LibreCAD.app** will be in the build directory.  Run it at the command prompt by typing either:
 
 ::
 
-   $ make -j4
+    open LibreCAD.app, or
+    LibreCAD.app/Contents/MacOS/LibreCAD
 
-If the build is successful the generated executable of LibreCAD can be found as:
+.. note::
 
-::
-
-   LibreCAD.app/Contents/MacOS/LibreCAD
+    *The macOS build section been revised, but not tested.*  Please provide any feedback on the build process on the LibreCAD forum: http://forum.librecad.org/Help-wanted-to-build-on-MacOS-td5717273.html 
 

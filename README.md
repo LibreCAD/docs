@@ -40,9 +40,9 @@ Section | Initial Draft | Review / Edit | Update for GA release | Comment
    Fonts | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
    Drawing Scales | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
    Languages | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
-   Systems of Measurement | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Systems of Measurement | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
    Calculator | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Operators and Functions
-   Building from Source | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
+   Building from Source | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
    Contributing | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
    Licenses | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
 
