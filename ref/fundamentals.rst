@@ -155,7 +155,7 @@ For example, when using cartesian coordinates to set a point 75 units to the rig
 
 .. hint::
 
-   Relative coordinates can also be entered using the *x*\**..**\*y* format.  This format is equivalent to using the "@" , but allows for :ref:`numeric keypad <keyboard>` input when using the :ref:`command line<widget-cmdLine>`.  For example, entering coordinates as "75..65" is equivalent to "@75,65".
+   Relative coordinates can also be entered using the "*x..y*" format.  This format is equivalent to prefixing the coordinates with the "@" symbol, but allows for :ref:`numeric keypad <keyboard>` input when using the :ref:`command line<widget-cmdLine>`.  As an example, entering coordinates as "75..65" is equivalent to "@75,65".
 
 .. only:: html
 
