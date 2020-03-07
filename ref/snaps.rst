@@ -12,7 +12,7 @@ Snapping
 Snaps provide the ability to pick precise locations when using a mouse.  Various snap tools are available to allow the user to select different locations on entities or elsewhere in the drawing space when using the grid.
 
 .. csv-table:: 
-    :widths: 20, 10, 20, 50
+    :widths: 20, 7, 20, 53
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width

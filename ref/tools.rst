@@ -20,7 +20,7 @@ Line
 ----
 
 .. csv-table::  
-    :widths: 15, 10, 15, 60
+    :widths: 15, 7, 15, 63
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -101,7 +101,7 @@ Circle
 ------
 
 .. csv-table:: 
-    :widths: 15, 10, 15, 60
+    :widths: 15, 7, 15, 63
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -145,7 +145,7 @@ Curve
 -----
 
 .. csv-table:: 
-    :widths: 15, 10, 15, 60
+    :widths: 15, 7, 15, 63
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -189,7 +189,7 @@ Ellipse
 -------
 
 .. csv-table:: 
-    :widths: 15, 10, 15, 60
+    :widths: 15, 7, 15, 63
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -213,7 +213,7 @@ Polyline
 --------
 
 .. csv-table:: 
-    :widths: 15, 10, 15, 60
+    :widths: 15, 7, 15, 63
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -250,7 +250,7 @@ Polyline
 Select
 ------
 .. csv-table:: 
-    :widths: 15, 10, 15, 60
+    :widths: 15, 7, 15, 63
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -284,7 +284,7 @@ Dimension
 ---------
 
 .. csv-table:: 
-    :widths: 15, 10, 15, 60
+    :widths: 15, 7, 15, 63
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -335,7 +335,7 @@ Modify
 ------
 
 .. csv-table:: 
-    :widths: 15, 10, 15, 60
+    :widths: 15, 7, 15, 63
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -403,7 +403,7 @@ Info
 ----
 
 .. csv-table:: 
-    :widths: 15, 10, 15, 60
+    :widths: 15, 7, 15, 63
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -429,7 +429,7 @@ Others
 ------
 
 .. csv-table:: 
-    :widths: 15, 10, 15, 60
+    :widths: 15, 7, 15, 63
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
