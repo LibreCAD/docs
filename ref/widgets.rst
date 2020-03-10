@@ -161,24 +161,27 @@ In addition to command input, the command line provides access to a built in cal
 Layer List Dock
 ---------------
 
-The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing.
-
 .. figure:: /images/dock-layerList01.png
     :figwidth: 200px
     :align: right
     :scale: 67
     :alt: Layer List Dock
 
-    Layer List dock example - 4 layers
+    Layer List dock example with 4 layers
 
 .. actual image size 260px x 340px
 
+The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing.
+
 The input box at the top of the dock provides the ability to filter by layer names (e.g. "\*01" would show all names ending by "01").
 
-The icons on the top of the layer list allow operations to all layers.  Those operations include:
+The icons on the top of the layer list allow operations to all layers in the list.  Those operations include:
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 .. csv-table:: 
-    :widths: 10, 50
+    :widths: 10, 90
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -186,14 +189,11 @@ The icons on the top of the layer list allow operations to all layers.  Those op
     "Icon", "Description"
     |icon10|, "”Show all layers” - Makes all the layers in the current drawing visible."
     |icon11|, "”Hide all layers” - Hides all layers in the active drawing."
-    |icon20|, "”Unlock layer” - Unlock, or ”Defreeze” all layers to allow changes."
-    |icon21|, "”Lock layer” - Lock, or ”Freeze”, all layers to prevent unintentional changes."
-    |icon13|, "”Add a layer” - Add a new layer. * (Shortcut [Ctrl]+[L])"
-    |icon14|, "”Remove the current layer” - Remove the highlighted layer."
-    |icon15|, "”Modify layer attributes / rename” - Modify the layer's attributes and / or rename the layer. *"
-
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
+    |icon20|, "”Unlock layer” - Unlock, or ”Defreeze” all layers to allow changes. (\*)"
+    |icon21|, "”Lock layer” - Lock, or ”Freeze”, all layers to prevent unintentional changes. (\*)"
+    |icon13|, "”Add a layer” - Add a new layer to the list. (Shortcut [Ctrl]+[L]) (\*)"
+    |icon14|, "”Remove the current layer” - Remove the highlighted layer from the list. (\*)"
+    |icon15|, "”Modify layer attributes / rename” - Modify the selected layer's attributes and / or rename the layer. (\*)"
 
 The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used for general drawing purposes.
 
@@ -206,10 +206,10 @@ Icons to the left of each layer act on the layers individually.  The layer opera
     :class: table-fix-width
 
     "Icon", "Description"
-    "|icon10| / |icon11|", "Show / hide layer."
+    "|icon10| / |icon11|", "Show / hide layer. (\*)"
     "|icon20| / |icon21|", "Lock / unlock layer. (”Freeze” / ”Defreeze”)"
-    "|icon22| / |icon23|", "Print / don't print layer."
-    "|icon24| / |icon25|", "Toggle construction lines."
+    "|icon22| / |icon23|", "Print / don't print layer. (\*)"
+    "|icon24| / |icon25|", "Toggle construction lines. (\*)"
     "|icon26|", "Shows the current layer color (The default is Black)."
 
 .. See icon mapping a eof
