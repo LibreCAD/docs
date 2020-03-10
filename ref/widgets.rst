@@ -161,6 +161,8 @@ In addition to command input, the command line provides access to a built in cal
 Layer List Dock
 ---------------
 
+The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing. The entry line on top of the dock allows to filter by layer names (e.g. "\*01" would show all names ending by "01").
+
 .. figure:: /images/dock-layerList01.png
     :figwidth: 200px
     :align: right
@@ -171,27 +173,27 @@ Layer List Dock
 
 .. actual image size 260px x 340px
 
-The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing. The entry line on top of the dock allows to filter by layer names (e.g. "\*01" would show all names ending by "01").
-
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
-
-Layer functions include:
+Icons on the top of the layer list allow operations to all layers.  Those operations include:
 
 .. csv-table:: 
-    :widths: 10, 90
+    :widths: 10, 50
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
 
     "Icon", "Description"
-    |icon10|, "”Show all layers” - Makes all the layers in the current drawing visible. (\*: ”Freeze”)"
-    |icon11|, "”Hide all layers” - Hides all layers in the active drawing.  (\*: ”Defreeze”)"
+    |icon10|, "”Show all layers” - Makes all the layers in the current drawing visible."
+    |icon11|, "”Hide all layers” - Hides all layers in the active drawing."
+    |icon20|, "”Unlock layer” - Unlock, or ”Defreeze” all layers to allow changes."
+    |icon21|, "”Lock layer” - Lock, or ”Freeze”, all layers to prevent unintentional changes."
     |icon13|, "”Add a layer” - Add a new layer. * (Shortcut [Ctrl]+[L])"
-    |icon14|, "”Remove the current layer” - Remove the highlighted layer. *"
+    |icon14|, "”Remove the current layer” - Remove the highlighted layer."
     |icon15|, "”Modify layer attributes / rename” - Modify the layer's attributes and / or rename the layer. *"
 
-The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used.
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
+The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used for general drawing purposes.
 
 ..  figure:: /images/layerSettings01.png
     :figwidth: 200px
@@ -200,6 +202,26 @@ The lower portion of the dock shows a list of layers in the current drawing and 
     :alt: LibreCAD Layers Settings
 
 .. actual image size 276px x 258px
+
+Icons to the left of each layer act on the layers individually.  The layer operations are:
+
+.. csv-table:: 
+    :widths: 20, 80
+    :header-rows: 1
+    :stub-columns: 0
+    :class: table-fix-width
+
+    "Icon", "Description"
+    "|icon10| / |icon11|", "Show / hide layer."
+    "|icon20| / |icon21|", "Lock / unlock layer. (”Freeze” / ”Defreeze”)"
+    "|icon22| / |icon23|", "Print / don't print layer."
+    "|icon24| / |icon25|", "Toggle construction lines."
+    "|icon26|", "Shows the current layer color (The default is Black)."
+
+.. See icon mapping a eof
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
 
@@ -229,25 +251,6 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
     |                      |    "large").                                                             |
     +----------------------+--------------------------------------------------------------------------+
 
-Icons to the left of each layer act on the layers individually.  The layer operations are:
-
-.. csv-table:: 
-    :widths: 20, 80
-    :header-rows: 1
-    :stub-columns: 0
-    :class: table-fix-width
-
-    "Icon", "Description"
-    "|icon10| / |icon11|", "Show / hide layer. *"
-    "|icon20| / |icon21|", "Lock / unlock layer."
-    "|icon22| / |icon23|", "Print / don't print layer. *"
-    "|icon24| / |icon25|", "Toggle construction lines. *"
-    "|icon26|", "Shows the current layer color (Default is Black)."
-
-.. See icon mapping a eof
-
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
 
 .. figure:: /images/dock-layerContextMenu.png
     :figwidth: 200px
