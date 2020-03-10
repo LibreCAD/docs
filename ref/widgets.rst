@@ -175,10 +175,10 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 The input box at the top of the dock provides the ability to filter by layer names (e.g. "\*01" would show all names ending by "01").
 
-The icons on the top of the layer list allow operations to all layers in the list.  Those operations include:
-
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
+
+The icons on the top of the layer list allow operations to all layers in the list.  Those operations include:
 
 .. csv-table:: 
     :widths: 10, 90
@@ -225,8 +225,12 @@ Icons to the left of each layer act on the layers individually.  The layer opera
 
 .. actual image size 276px x 258px
 
+Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  
 
-Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
+The attributes include:
 
 .. table::
     :align: center
@@ -262,10 +266,11 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
 
 Right-clicking on a layer opens a popup menu that provides equivalent operations to the item marked with an asterisk (*).
 
-More details on creating and using :ref:`layers <su-layers>` can be found in the :ref:`Drawing Setup <drawing-setup>` section of the **User Guides**.
-
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
+
+More details on creating and using :ref:`layers <su-layers>` can be found in the "Drawing Setup" section of the **User Guides**.
+
 
 
 .. _widget-libBrowser:
