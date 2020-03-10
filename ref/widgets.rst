@@ -171,14 +171,18 @@ Layer List Dock
 
 .. actual image size 260px x 340px
 
-The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing.
+The Layer List Dock provides a list of layers in the current drawing and the functions required to manage them.  There are three sections in the dock:
 
-The input box at the top of the dock provides the ability to filter by layer names (e.g. "\*01" would show all names ending by "01").
+    - the list filter,
+    - the the list operators and functions, and 
+    - the layer operators and functions.
+
+The list filter is the input box at the top of the dock.  It provides the ability to filter a long list of layer names to help locate a layer.  Enter a text string, the name or partial name of a layer, in the input box to filter the layer or layers.  Wildcards ("\*" or "?") can be used to filter the list to locate similar layer names (e.g. "\*1" would show all names ending by "1").
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
 
-The icons on the top of the layer list allow operations to all layers in the list.  Those operations include:
+The icons on the top of the layer list allow operations to the entire list of layers.  Those operations include:
 
 .. csv-table:: 
     :widths: 10, 90
@@ -188,8 +192,8 @@ The icons on the top of the layer list allow operations to all layers in the lis
 
     "Icon", "Description"
     |icon10|, "”Show all layers” - Makes all the layers in the current drawing visible."
-    |icon11|, "”Hide all layers” - Hides all layers in the active drawing."
-    |icon20|, "”Unlock layer” - Unlock, or ”Defreeze” all layers to allow changes. (\*)"
+    |icon11|, "”Hide all layers” - Hides all layers in the current drawing."
+    |icon20|, "”Unlock layer” - Unlock, or ”Defreeze”, all layers to allow changes to the entities in the layer. (\*)"
     |icon21|, "”Lock layer” - Lock, or ”Freeze”, all layers to prevent unintentional changes. (\*)"
     |icon13|, "”Add a layer” - Add a new layer to the list. (Shortcut [Ctrl]+[L]) (\*)"
     |icon14|, "”Remove the current layer” - Remove the highlighted layer from the list. (\*)"
@@ -200,17 +204,17 @@ The lower portion of the dock shows a list of layers in the current drawing and 
 Icons to the left of each layer act on the layers individually.  The layer operations are:
 
 .. csv-table:: 
-    :widths: 20, 80
+    :widths: 25, 75
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
 
     "Icon", "Description"
-    "|icon10| / |icon11|", "Show / hide layer. (\*)"
-    "|icon20| / |icon21|", "Lock / unlock layer. (”Freeze” / ”Defreeze”)"
-    "|icon22| / |icon23|", "Print / don't print layer. (\*)"
-    "|icon24| / |icon25|", "Toggle construction lines. (\*)"
-    "|icon26|", "Shows the current layer color (The default is Black)."
+    "|icon10| / |icon11|", "Show / hide the selected layer. (\*)"
+    "|icon20| / |icon21|", "Lock / unlock the selected layer. (”Freeze” / ”Defreeze”)"
+    "|icon22| / |icon23|", "Print / don't print the selected layer. (\*)"
+    "|icon24| / |icon25|", "Toggle construction lines. (\*)  A layer designated as a "Construction Layer" is special layer used to create reference geometry to help align other drawing entities."
+    "|icon26|", "Shows the layer's assigned color (the default is Black)."
 
 .. See icon mapping a eof
 
@@ -225,7 +229,7 @@ Icons to the left of each layer act on the layers individually.  The layer opera
 
 .. actual image size 276px x 258px
 
-Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  
+Clicking the *Attribute* icon allows users to change the :ref:`pen attributes <entity-pen>` of all entities on the selected layer.  Entities that have their own pen attribute set differently will override the layer's attributes.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
