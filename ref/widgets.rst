@@ -161,7 +161,7 @@ In addition to command input, the command line provides access to a built in cal
 Layer List Dock
 ---------------
 
-The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing. The entry line on top of the dock allows to filter by layer names (e.g. "\*01" would show all names ending by "01").
+The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing.
 
 .. figure:: /images/dock-layerList01.png
     :figwidth: 200px
@@ -173,7 +173,9 @@ The Layer List Dock provides the functions to manage layers and a list of layers
 
 .. actual image size 260px x 340px
 
-Icons on the top of the layer list allow operations to all layers.  Those operations include:
+The input box at the top of the dock provides the ability to filter by layer names (e.g. "\*01" would show all names ending by "01").
+
+The icons on the top of the layer list allow operations to all layers.  Those operations include:
 
 .. csv-table:: 
     :widths: 10, 50
@@ -195,14 +197,6 @@ Icons on the top of the layer list allow operations to all layers.  Those operat
 
 The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used for general drawing purposes.
 
-..  figure:: /images/layerSettings01.png
-    :figwidth: 200px
-    :align: right
-    :scale: 67
-    :alt: LibreCAD Layers Settings
-
-.. actual image size 276px x 258px
-
 Icons to the left of each layer act on the layers individually.  The layer operations are:
 
 .. csv-table:: 
@@ -223,10 +217,16 @@ Icons to the left of each layer act on the layers individually.  The layer opera
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
 
-Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
+..  figure:: /images/layerSettings01.png
+    :figwidth: 200px
+    :align: right
+    :scale: 67
+    :alt: LibreCAD Layers Settings
 
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
+.. actual image size 276px x 258px
+
+
+Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
 
 .. table::
     :align: center
