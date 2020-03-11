@@ -4,7 +4,7 @@
 .. include:: /inclFiles/notice.rst
 
 
-.. _dwg-setup:
+.. _drawing-setup:
 
 Setting up a Drawing
 ====================
@@ -18,6 +18,7 @@ Some of the key considerations for setting up the drawing include:
     - Units, text and scale
     - Layers
     - Line color, width and type
+
 
 Drawing Unit
 ------------
@@ -65,7 +66,7 @@ Layers have an added advantage that all the :ref:`pen <entity-pen>` attributes c
 
 
 Using the Layer List Dock
-`````````````````````````
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In LibreCAD, layers are managed using the :ref:`Layer List Dock <widget-layerList>`.  Use the Layer List Dock to add and remove, show and hide and modify the layer's attributes.  Creating a layer is simple:
 
@@ -84,11 +85,11 @@ Layers that have been completed can be *locked*.  Locking layers prevents accide
 
 Hiding layers while drawing reduces the *visual complexity* and makes it easier to focus on the current drawing efforts.
 
-Refer to the :ref:`Dock Widgets <widgets>' in the **Reference** section for additional details on using other functions of the "Layer List Dock".
+Refer to the :ref:`Dock Widgets <widgets>` in the **Reference** section for additional details on using other functions of the "Layer List Dock".
 
 
 Construction Layers
-~~~~~~~~~~~~~~~~~~~
+```````````````````
 
 A layer designated as a "Construction Layer" is special layer used to create reference geometry to help align other drawing entities.  A construction layer:
 
@@ -97,7 +98,7 @@ A layer designated as a "Construction Layer" is special layer used to create ref
 
 
 Ordering Layers and Entities
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+````````````````````````````
 
 Layers are displayed in alpha-numeric order in the layer list.  However, the order of the layers do not relate to the order that entities appear in the drawing.  Each entity can be raised, *moved up*, or lowered, *moved down*, with respect to others.  Each layer can contain entities that are at different points.  Use the commands in **Tools -> Modify -> Order** to move entities up or down.
 

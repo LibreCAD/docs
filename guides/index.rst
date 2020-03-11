@@ -17,8 +17,8 @@ The example drawings in the **User Guides** use LibreCAD's default configuration
 .. toctree::
    :maxdepth: 1
 
-    Drawing Setup <dwg-setup>
-    Drawing and Editing <dwg-edit>
+    Drawing Setup <drawing-setup>
+    Drawing and Editing <drawing-edit>
     Dimensioning and Text <annotate>
     Blocks <blocks>
     The Command Line <cmdline>

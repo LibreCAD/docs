@@ -4,7 +4,7 @@
 .. include:: /inclFiles/notice.rst
 
 
-.. _dwg-edit:
+.. _drawing-edit:
 
 Creating and Editing Entities
 =============================
