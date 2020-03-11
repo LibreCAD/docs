@@ -174,7 +174,7 @@ Layer List Dock
 The Layer List Dock provides a list of layers in the current drawing and the functions required to manage them.  There are three sections in the dock:
 
     - the list filter,
-    - the the list operators and functions, and 
+    - the list operators and functions, and 
     - the layer operators and functions.
 
 The list filter is the input box at the top of the dock.  It provides the ability to filter a long list of layer names to help locate a layer.  Enter a text string, the name or partial name of a layer, in the input box to filter the layer or layers.  Wildcards ("\*" or "?") can be used to filter the list to locate similar layer names (e.g. "\*01" would show all names ending by "01").
