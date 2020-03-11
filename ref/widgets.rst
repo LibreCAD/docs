@@ -177,7 +177,7 @@ The Layer List Dock provides a list of layers in the current drawing and the fun
     - the the list operators and functions, and 
     - the layer operators and functions.
 
-The list filter is the input box at the top of the dock.  It provides the ability to filter a long list of layer names to help locate a layer.  Enter a text string, the name or partial name of a layer, in the input box to filter the layer or layers.  Wildcards ("\*" or "?") can be used to filter the list to locate similar layer names (e.g. "\*1" would show all names ending by "1").
+The list filter is the input box at the top of the dock.  It provides the ability to filter a long list of layer names to help locate a layer.  Enter a text string, the name or partial name of a layer, in the input box to filter the layer or layers.  Wildcards ("\*" or "?") can be used to filter the list to locate similar layer names (e.g. "\*01" would show all names ending by "01").
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -185,19 +185,19 @@ The list filter is the input box at the top of the dock.  It provides the abilit
 The icons on the top of the layer list allow operations to the entire list of layers.  Those operations include:
 
 .. csv-table:: 
-    :widths: 10, 90
+    :widths: 10, 25, 65
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
 
-    "Icon", "Description"
-    |icon10|, "”Show all layers” - Makes all the layers in the current drawing visible."
-    |icon11|, "”Hide all layers” - Hides all layers in the current drawing."
-    |icon20|, "”Unlock layer” - Unlock, or ”Defreeze”, all layers to allow changes to the entities in the layer. (\*)"
-    |icon21|, "”Lock layer” - Lock, or ”Freeze”, all layers to prevent unintentional changes. (\*)"
-    |icon13|, "”Add a layer” - Add a new layer to the list. (Shortcut [Ctrl]+[L]) (\*)"
-    |icon14|, "”Remove the current layer” - Remove the highlighted layer from the list. (\*)"
-    |icon15|, "”Modify layer attributes / rename” - Modify the selected layer's attributes and / or rename the layer. (\*)"
+    "Icon", "Function", "Description"
+    |icon10|, "Show all layers", "Makes all the layers in the current drawing visible."
+    |icon11|, "Hide all layers", "Hides all layers in the current drawing."
+    |icon20|, "Unlock layer", "Unlock, or ”Defreeze”, all layers to allow changes to the entities in the layer. (\*)"
+    |icon21|, "Lock layer", "Lock, or ”Freeze”, all layers to prevent unintentional changes. (\*)"
+    |icon13|, "Add a layer", "Add a new layer to the list. (Shortcut [Ctrl]+[L]) (\*)"
+    |icon14|, "Remove the current layer", "Remove the highlighted layer from the list. (\*)"
+    |icon15|, "Modify layer attributes / rename", "Modify the selected layer's attributes and / or rename the layer. (\*)"
 
 The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used for general drawing purposes.
 
@@ -213,7 +213,7 @@ Icons to the left of each layer act on the layers individually.  The layer opera
     "|icon10| / |icon11|", "Show / hide the selected layer. (\*)"
     "|icon20| / |icon21|", "Lock / unlock the selected layer. (”Freeze” / ”Defreeze”)"
     "|icon22| / |icon23|", "Print / don't print the selected layer. (\*)"
-    "|icon24| / |icon25|", "Toggle construction lines. (\*)  A layer designated as a "Construction Layer" is special layer used to create reference geometry to help align other drawing entities."
+    "|icon24| / |icon25|", "Toggle construction lines. (\*)  A layer designated as a ”Construction Layer” is special layer used to create reference geometry to help align other drawing entities."
     "|icon26|", "Shows the layer's assigned color (the default is Black)."
 
 .. See icon mapping a eof
