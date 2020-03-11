@@ -204,7 +204,7 @@ The lower portion of the dock shows a list of layers in the current drawing and 
 Icons to the left of each layer act on the layers individually.  The layer operations are:
 
 .. csv-table:: 
-    :widths: 25, 75
+    :widths: 15, 85
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -216,7 +216,18 @@ Icons to the left of each layer act on the layers individually.  The layer opera
     "|icon24| / |icon25|", "Toggle construction lines. (\*)  A layer designated as a ”Construction Layer” is special layer used to create reference geometry to help align other drawing entities."
     "|icon26|", "Shows the layer's assigned color (the default is Black)."
 
-.. See icon mapping a eof
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
+.. figure:: /images/dock-layerContextMenu.png
+    :figwidth: 200px
+    :align: right
+    :scale: 67
+    :alt: Layer Context Menu
+
+.. actual image size 219px x 186px
+
+Layer list or individual layer operations can also be accessed by right-clicking on a layer.  Right-clicking on a layer name opens a popup menu that provides equivalent operations to the item marked with an asterisk (*).
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -259,19 +270,6 @@ The attributes include:
     |                      |    "large").                                                             |
     +----------------------+--------------------------------------------------------------------------+
 
-
-.. figure:: /images/dock-layerContextMenu.png
-    :figwidth: 200px
-    :align: right
-    :scale: 67
-    :alt: Layer Context Menu
-
-.. actual image size 219px x 186px
-
-Right-clicking on a layer opens a popup menu that provides equivalent operations to the item marked with an asterisk (*).
-
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
 
 More details on creating and using :ref:`layers <su-layers>` can be found in the "Drawing Setup" section of the **User Guides**.
 
