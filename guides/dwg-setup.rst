@@ -11,7 +11,7 @@ Setting up a Drawing
 
 As with other software; word processors, spreadsheets, etc, there are many ways a user can to setup or configure a new document.  With LibreCAD, that document is a drawing.  Some of the preferences for a drawing will be governed by drafting conventions, some will be determined by organizational requirements, and others might just be personal preferences.  The drawing's setup is largely determined by the :ref:`Drawing Preferences <draw-prefs>`.
 
-Under normal circumstances, after the initial installation and :ref:`configuration <configure>`, little if any configuration needs to done when starting a new drawing.  There are a many drawing parameters to be considered to suit the drawing requirements and final appearance.  The majority of these settings can be left as the defaults as LibreCAD's defaults reflect normal drafting conventions and practices, such as the "Text Height" of 2.5mm / .10" / 3/32", etc.  Other preferences and attributes, such as layer, line thickness and type, pen colors, etc. can also be changed to suit users' requirements.
+Under normal circumstances, after the initial installation and :ref:`configuration <configure>`, little if any configuration needs to done when starting a new drawing.  There are a many drawing parameters to be considered to suit the drawing requirements and final appearance.  The majority of these settings can be left as the defaults as LibreCAD's defaults reflect normal drafting conventions and practices, such as the "Text Height" of 2.5 mm / .10" / 3/32", etc.  Other preferences and attributes, such as layer, line thickness and type, pen colors, etc. can also be changed to suit users' requirements.
 
 Some of the key considerations for setting up the drawing include:
 
@@ -23,7 +23,7 @@ Some of the key considerations for setting up the drawing include:
 Drawing Unit
 ------------
 
-During the initial setup, the default :ref:`unit of measure <measurements>` was set (defaulting to *millimeter*).  The unit of measure should be set to the unit most frequently used as it is used for all new drawings and doesn't need to be changed.  If necessary, the default unit of measure can be changed in the :ref:`Application Preferences <app-prefs>` or overridden for a single drawing in the Drawing Preferences.
+During the initial setup, the default :ref:`unit of measure <measurements>` was set (defaulting to *millimeter*).  The unit of measure should be set to the unit most frequently used as it is used for all new drawings and doesn't need to be changed.  If necessary, the default unit of measure can be changed in the :ref:`Application Preferences <app-prefs>` or overridden for a single drawing in the **Drawing Preferences**.
 
 
 .. _ug-scale:
@@ -33,7 +33,7 @@ Scale
 
 Setting the scale of a drawing is the easy part, drawings should be created *full-scale* (1:1)!  The zooming abilities of LibreCAD will make the whole drawing fit in the drawing window or magnify sections to view fine detail.  On the other hand, when producing output the drawing will need to be adjusted in size to fit the *page size*.  Generally, output is a printed page, but it can also be a pdf, or :ref:`exported to another image format <file>`.  
 
-As an example, for an annotated drawing of a floor plan to appear correctly when the drawing is reduced in size, or *scaled down*, to print on an "A4" page (210 x 297 mm), the dimension text would need to be proportional to the floorplan itself prior to being reduced to fit the page.  Trying to determine the dimension text size for scaling such a large object would be tedious at best, but a feature of LibreCAD makes it simple.  The "General Scale" is used to adjust the dimension text, arrows and related parameters to the sizes suitable for the required page size.  Both the page size, and the dimensioning parameters - including the "General Scale" - are configured in the **Drawing Preferences**.
+As an example, for an annotated drawing of a floor plan to appear correctly when the drawing is reduced in size, or *scaled down*, to print on an "A4" page (210 x 297 mm), the dimension text would need to be proportional to the floor plan itself prior to being reduced to fit the page.  Trying to determine the dimension text size for scaling such a large object would be tedious at best, but a feature of LibreCAD makes it simple.  The "General Scale" is used to adjust the dimension text, arrows and related parameters to the sizes suitable for the required page size.  Both the page size, and the dimensioning parameters - including the "General Scale" - are configured in the **Drawing Preferences**.
 
 There are two tabs in **Drawing Preferences**, "Paper" and "Dimensions", that require attention when starting a new drawing.  Specifically the tabs that need to be addressed are:
 
@@ -44,11 +44,11 @@ The paper format, orientation, and margins to be used is an important to conside
 
 .. tip::
 
-   If multiple options are available for the paper size, setting the paper *after drawing the object but prior to dimensioning a drawing* will help determine the print scale, the "General scale", and subsequently the appropriate line spacing for dimensions.  See :ref:`Dimensioning <dimensioning>` for additional information.
-
-   Be sure to allow room on the drawing for dimension lines and text when determining the print scale.  More details on printing a drawing are found in the :ref:`Printing Guide <printing-guide>` for more details.
+   If multiple options are available for the paper size, setting the paper size *after drawing the object but prior to dimensioning a drawing* will help determine the print scale, the "General scale", and subsequently the appropriate line spacing for dimensions.  See :ref:`Dimensioning <dimensioning>` for additional information.
 
    While any scale can be used when printing a drawing there are commonly used scales for different types of drawings.  Refer to  :ref:`Scales <scales>` in the appendix for some examples.
+
+   Be sure to allow room on the drawing for dimension lines and text when determining the print scale.  More details on printing a drawing are found in the :ref:`Printing Guide <printing-guide>` for more details.
 
 
 .. _ug-layers:
@@ -56,9 +56,9 @@ The paper format, orientation, and margins to be used is an important to conside
 Layers
 ------
 
-One of LibreCAD's basic features is the abiltiy to use layers.  Layers help organize drawings by allowing users to place and manage related entities.  Traditional manual drafting used a similar approach.  Whether for engineering, architectural, construction, manufactuing or other types, layers were used to show different aspects on the drawing.  Layers could be added to show centre lines or dimensions on an engineering or manufacuring drawings, or to show different building systems on architectural drawings such as exterior walls, partitions, electrical, HVAC, grid lines, etc.  The layers were often drawn on separate transparent sheets of paper. These sheets were then overlaid one on top of another to produce final drawings.  While one layer can contain multiple entities, every entity in a drawing can only be associated with single layer.  Typically entities with common *functions* or attributes are put on the same layer. For example, all the walls in a floor plan drawing would be put on a layer named "Walls".  
+One of LibreCAD's basic features is the ability to use layers.  Layers help organize drawings by allowing users to place and manage related entities.  Traditional manual drafting used a similar approach.  Whether for engineering, architectural, construction, manufacturing or other types, layers were used to show different aspects on the drawing.  Layers could be added to show centre lines or dimensions on an engineering or manufacturing drawings, or to show different building systems on architectural drawings such as exterior walls, partitions, electrical, HVAC, grid lines, etc.  The layers were often drawn on separate transparent sheets of paper. These sheets were then overlaid one on top of another to produce final drawings.  While one layer can contain multiple entities, every entity in a drawing can only be associated with single layer.  Typically entities with common *functions* or attributes are put on the same layer. For example, all the walls in a floor plan drawing would be put on a layer named "Walls".  
 
-Layers have an added advantage that all the :ref:`pen <entity-pen>` attributes can be assigned to a layer.  Every entity on that layer will adopt the attributes that have been assigned to the layer.  However, the attributes assigned by the layer can be overridden for entities if necessary.  In the above example a line thickness can capplied to all entities on the "Walls" layer by changing the "Layer Settings" for that layer.
+Layers have an added advantage that all the :ref:`pen <entity-pen>` attributes can be assigned to a layer.  Every entity on that layer will adopt the attributes that have been assigned to the layer.  However, the attributes assigned by the layer can be overridden for entities if necessary.  In the above example a line thickness can applied to all entities on the "Walls" layer by changing the "Layer Settings" for that layer.
 
 .. tip::
 
@@ -137,15 +137,15 @@ Templates are created by creating a new drawing, setting the desired :ref:`Drawi
     - Set the the Drawing Preferences by selecting **Edit** from the menu bar and then **Current Drawing Preferences**.
 
         - On the "Paper" tab set the paper size, orientation and margins as desired.
-        - Select the "Units" tab and set the "Main Drawing Unit".  (Note the "Length" and "Angle" configure the format of the :ref:`status bar <statusbar>` and not the dimensions that appear on the drawing.)
+        - Select the "Units" tab and set the "Main Drawing Unit".  (Note the "Length" and "Angle" settings configure the :ref:`status bar <statusbar>` format and not the dimensioning format that appear on the drawing.)
         - Click the "Dimensions" tab and adjust the values.  Refer to :ref:`Dimensions <dimn-prefs>` in **Drawing Preferences** for details.
         - Check the remaining tabs and adjust those settings as necessary.
         - Click "OK" when done.
 
-    - Add the layers and other drawing elements as required.  Refer to :ref:`Layers <su-layers>` for details on using layers and setting the attributes.
-    - Save the temmplate as a "dxf", e.g. "myTemplate.dxf", to any location with read / write permissions.
+    - Add the layers and other drawing elements as required.  See :ref:`Layers <ug-layers>` for details on using layers and setting the attributes.
+    - Save the template as a "dxf", e.g. "myTemplate.dxf", to any location with read / write permissions.
 
-As an alternative to the default template, a user-defined template can be configured in the :ref:`Application Preferences <app-prefs>` on the **Paths** tab.  The specified template is used instead of the default LibreCAD template when the application is launched and for new drawings.
+As an alternative to the default template, a user-defined template can be configured in the :ref:`Application Preferences <app-prefs>` on the "Paths" tab.  The specified template is used instead of the default LibreCAD template when the application is launched and for new drawings.
 
 
 ..  Icon mapping:
