@@ -15,7 +15,7 @@ As with many programs, there are a multitude of ways to generate the desired res
 This section of the User Guide brings together many other parts of the LibreCAD manual and will show how to use a variety tools to *create* and *modify* drawings.  Be sure to read through the **Reference** section, particularly the :ref:`Fundamentals <fundamentals>`, the :ref:`Drawing Tools <tools>` and the :ref:`Snapping <snaps>` sections to obtain an understanding of the basic operation of LibreCAD and its various tools.
 
 .. note::
-   The examples below use both the the command line and the mouse for input.  In cases where the command line is used and additional input is required because of a **Tool Option** (see Drawing Tools) see the *note* below the command text.  Where the mouse is the primary form of input, the instruction are provided in bullet point form.
+   The examples below use both the the command line and the mouse for input.  In cases where the command line is used and additional input is required because of a **Tool Option** (see **Drawing Tools**) see the *note* below the command text.  Where the mouse is the primary form of input, the instruction are provided in bullet point form.
 
 
 Creating Entities
@@ -23,7 +23,7 @@ Creating Entities
 
 Creating new geometric entities all use similar methods.  Generally,  creating an entity requires placement of a minimum of two points (Well, unless the entity being drawn is a point), or a single point and an additional parameter such as length or radius.  In some case the same result can be obtained using several different methods.  For example, drawing a vertical line can be done via keyboard entry using the :ref:`command line<widget-cmdLine>` to select a tool and then define two points with the *absolute* or *relative* *Cartesian* coordinates:
 
-Absolute Cartesian coordinates::
+Using absolute Cartesian coordinates::
 
 	li
 	10,10
@@ -32,14 +32,14 @@ Absolute Cartesian coordinates::
 
 The first set of coordinates place the starting point of the line at 10 units horizontally and 10 units vertically from the origin (0,0).  The second set places the end point of the line at 10 units horizontally and 60 units vertically from the origin (0,0), resulting in a vertical line 50 units long.
 
-Or, relative Cartesian coordinates::
+Or, using relative Cartesian coordinates::
 
 	li
 	10,10
 	@0,50
 	k
 
-The "**@**" designates **relative coordinates**.  The *@0,50* relative Cartesian coordinates places the next point 0 units horizontally (X axis) and 50 units vertically (Y axis) from the point previously placed at 10,10.
+The "**@**" designates *relative coordinates*.  The *@0,50* relative Cartesian coordinates places the next point 0 units horizontally (X axis) and 50 units vertically (Y axis) from the point previously placed at 10,10.
 
 It can also be done with relative *polar* coordinates::
 
@@ -68,7 +68,7 @@ Other tools can also be used achieve the same result:
 .. note::
    Ensure the *Length* is set to "50" and the *Snap Point:* is "Start" in the **Tool Options** text box.
 
-The tool and method used is entirely up to the user to obtain the desired results. The use of a particular tool may be determined by the next operation that allows the drawing to be quickly extended.  A good understanding of the available tools allows the user to select the appropriate tool for the current operation.
+All the above examples create a line of the same length with the same start and end points.  These example help illustrate the the maultiple ways to do the same thing and helps show that the tool and method used is entirely up to the user to obtain the desired results.  The use of a particular tool may be determined by the next operation that allows the drawing to be quickly extended.  A good understanding of the available tools allows the user to select the appropriate tool for the current operation.
 
 While the above example always start at *10,10*, the initial point can be placed anywhere::
 

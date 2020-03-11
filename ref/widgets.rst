@@ -41,6 +41,7 @@ As an alternative to the **Tools** menu, the Dock widgets provide more convenien
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
 
+
 .. _widget-dockAreas:
 
 Dock Widget Areas
@@ -70,6 +71,7 @@ In addition, dock widgets can be resized by clicking and dragging the edge of th
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
 
+
 .. _widget-blockList:
 
 Block List Dock
@@ -83,7 +85,7 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
     :scale: 67
     :alt: Block List Dock
 
-    Block List dock example - 4 blocks
+    Block List dock example - 3 blocks
 
 .. actual image size 260px x 340px
 
@@ -104,7 +106,7 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
     |icon17|, "”Save the active block to a file” - Saves the highlighted block to a file."
     |icon18|, "”Insert the active block”. - Inserts the highlighted block in the current drawing at the specified reference point"
 
-The lower portion of the dock shows a list of blocks in the current drawing.  The blocks in the above example are named "a3", "d1", "d2", and "d4".  More details on creating and using :ref:`blocks <blocks>` can be found in the **User Guides**.
+The lower portion of the dock shows a list of blocks in the current drawing.  The blocks in the above example are named "a3", "d1", and "d3".  More details on creating and using :ref:`blocks <blocks>` can be found in the **User Guides**.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -190,10 +192,10 @@ The icons on the top of the layer list allow operations to the entire list of la
     "Icon", "Function", "Description"
     |icon10|, "Show all layers", "Makes all the layers in the current drawing visible."
     |icon11|, "Hide all layers", "Hides all layers in the current drawing."
-    |icon20|, "Unlock layer", "Unlock, or ”Defreeze”, all layers to allow changes to the entities in the layer. (\*)"
-    |icon21|, "Lock layer", "Lock, or ”Freeze”, all layers to prevent unintentional changes. (\*)"
+    |icon20|, "Unlock all layer", "Unlock, or ”Defreeze”, all layers to allow changes to the entities in the layer. (\*)"
+    |icon21|, "Lock all layer", "Lock, or ”Freeze”, all layers to prevent unintentional changes. (\*)"
     |icon13|, "Add a layer", "Add a new layer to the list. (Shortcut [Ctrl]+[L]) (\*)"
-    |icon14|, "Remove the current layer", "Remove the highlighted layer from the list. (\*)"
+    |icon14|, "Remove layer", "Remove the highlighted layer from the list. (\*)"
     |icon15|, "Modify layer attributes / rename", "Modify the selected layer's attributes and / or rename the layer. (\*)"
 
 The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used for general drawing purposes.
@@ -212,6 +214,8 @@ Icons to the left of each layer act on the layers individually.  The layer opera
     "|icon22| / |icon23|", "Print / don't print the selected layer. (\*)"
     "|icon24| / |icon25|", "Toggle construction lines. (\*)  A layer designated as a ”Construction Layer” is special layer used to create reference geometry to help align other drawing entities.  Construction lines are intended as temporary guide lines and drawn to ”infinity”."
     "|icon26|", "Shows the layer's assigned color (the default is Black)."
+
+.. Multiple layer can be selected and then deleted with [Shift]-[left-mouse-button] to select a contiguous group of layers.  Use [Ctrl]-[left-mouse-button] to select individual layers in a noncontiguous group.  After making a selection, click the "Remove layer" icon |icon14|.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -291,6 +295,7 @@ LibreCAD includes several libraries and additional libraries can be specified by
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
+
 
 .. _widget-penWiz:
 
