@@ -25,7 +25,7 @@ Drawing Unit
 During the initial setup, the default :ref:`unit of measure <measurements>` was set (defaulting to *millimeter*).  The unit of measure should be set to the unit most frequently used as it is used for all new drawings and doesn't need to be changed.  If necessary, the default unit of measure can be changed in the :ref:`Application Preferences <app-prefs>` or overridden for a single drawing in the Drawing Preferences.
 
 
-.. _su-scale:
+.. _ug-scale:
 
 Scale
 -----
@@ -50,7 +50,7 @@ The paper format, orientation, and margins to be used is an important to conside
    While any scale can be used when printing a drawing there are commonly used scales for different types of drawings.  Refer to  :ref:`Scales <scales>` in the appendix for some examples.
 
 
-.. _su-layers:
+.. _ug-layers:
 
 Using Layers
 ------------
@@ -114,7 +114,7 @@ Layers are displayed in alpha-numeric order in the layer list.  However, the ord
     "lower after entity", "[Page Down]",  "Moves the selected entity *down* one relative position."
 
 
-.. _su-templates:
+.. _ug-templates:
 
 Templates
 ---------

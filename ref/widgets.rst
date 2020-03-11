@@ -179,9 +179,6 @@ The Layer List Dock provides a list of layers in the current drawing and the fun
 
 The list filter is the input box at the top of the dock.  It provides the ability to filter a long list of layer names to help locate a layer.  Enter a text string, the name or partial name of a layer, in the input box to filter the layer or layers.  Wildcards ("\*" or "?") can be used to filter the list to locate similar layer names (e.g. "\*01" would show all names ending by "01").
 
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
-
 The icons on the top of the layer list allow operations to the entire list of layers.  Those operations include:
 
 .. csv-table:: 
@@ -213,7 +210,7 @@ Icons to the left of each layer act on the layers individually.  The layer opera
     "|icon10| / |icon11|", "Show / hide the selected layer. (\*)"
     "|icon20| / |icon21|", "Lock / unlock the selected layer. (”Freeze” / ”Defreeze”)"
     "|icon22| / |icon23|", "Print / don't print the selected layer. (\*)"
-    "|icon24| / |icon25|", "Toggle construction lines. (\*)  A layer designated as a ”Construction Layer” is special layer used to create reference geometry to help align other drawing entities."
+    "|icon24| / |icon25|", "Toggle construction lines. (\*)  A layer designated as a ”Construction Layer” is special layer used to create reference geometry to help align other drawing entities.  Construction lines are intended as temporary guide lines and drawn to ”infinity”."
     "|icon26|", "Shows the layer's assigned color (the default is Black)."
 
 .. Force end of left / right text wrap
@@ -227,7 +224,7 @@ Icons to the left of each layer act on the layers individually.  The layer opera
 
 .. actual image size 219px x 186px
 
-Layer list or individual layer operations can also be accessed by right-clicking on a layer.  Right-clicking on a layer name opens a popup menu that provides equivalent operations to the item marked with an asterisk (*).
+Layer list or individual layer operations can also be accessed by right-clicking on a layer.  Right-clicking in the list window opens a popup menu that provides equivalent operations to the item marked with an asterisk (*).
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -240,7 +237,7 @@ Layer list or individual layer operations can also be accessed by right-clicking
 
 .. actual image size 276px x 258px
 
-Clicking the *Attribute* icon allows users to change the :ref:`pen attributes <entity-pen>` of all entities on the selected layer.  Entities that have their own pen attribute set differently will override the layer's attributes.
+Clicking the *Attribute* icon |icon15| allows users to change the :ref:`pen attributes <entity-pen>` of all entities on the selected layer.  Entities that have their own pen attribute set differently will override the layer's attributes.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -260,8 +257,7 @@ The attributes include:
     |                      |  sequence number appended.  Layers are sorted in the list alpha-         |
     |                      |  numerically.                                                            |
     +----------------------+--------------------------------------------------------------------------+
-    | Construction Layer   |  Toggle the construction lines off / on.  Construction lines are         |
-    |                      |  intended as temporary lines and drawn to ”infinity”".                   |
+    | Construction Layer   |  Toggle the construction lines off / on.                                 |
     +----------------------+--------------------------------------------------------------------------+
     | Default Pen:         |  - Color: Select from default or custom colors.                          |
     |                      |  - Width: Select from predefined line widths from 0.00 to 2.11 mm.       |
@@ -271,8 +267,7 @@ The attributes include:
     +----------------------+--------------------------------------------------------------------------+
 
 
-More details on creating and using :ref:`layers <su-layers>` can be found in the "Drawing Setup" section of the **User Guides**.
-
+More details on creating and using :ref:`layers <ug-layers>` can be found in the "Drawing Setup" section of the **User Guides**.
 
 
 .. _widget-libBrowser:
