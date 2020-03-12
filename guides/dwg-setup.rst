@@ -122,11 +122,13 @@ Templates
 
 Having to set the unit, page size and scale and layers each time a new drawing is created can be avoided by using *templates*.  Templates are *prototype* drawings that provide the means to save basic parameters and settings so a drawing does not have to be configured each time a new one is started.  The parameters and settings include the settings defined in the **Drawing Preferences**, such as the page size, main unit of measure, and the dimensioning format.  Templates can also include layers and layer attributes (line type, thickness, pen color) and other drawing elements such as a border. These settings are inherited by the new drawings created from the template.
 
-When LibreCAD is launched it creates a new drawing using a *default template*.  The default template is also used when a new drawing is created within LibreCAD by selecting **File -> New** or clicking the **New** icon |icon02|.  The new document is initially called "unnamed document 1".  Any addition new drawings created while LibreCAD is still open will be number sequentially; "unnamed document 1", "unnamed document 2", and so on.  New drawings do not take the template's name as a file name, but only the template drawing contents.  Users are prompted for a file name when saving the drawing.
+When LibreCAD is launched it creates a new drawing using a *default template*.  The default template is also used when a new drawing is created within LibreCAD by selecting **File -> New** or clicking the **New** icon |icon02|.  
 
-The default template, "empty.dxf", is installed with LibreCAD in the resources directory.  If only a single template is used, the default can be modified as needed.  The path to the default template depends on the operating system.  See the :ref:`Download and Install <install>` in the **Getting Started** section for the default installation locations.
+*User-defined* templates can be created to suit various purposes such as different page sizes or orientation, unit of measure, etc.  User-defined templates can be used by selecting **File -> New From Template** or clicking the **New from Template** icon |icon03| and then selecting the desired template file.
 
-User-defined templates can be created to suit various purposes such as different page sizes or orientation, unit of measure, etc.  User-defined templates can be used by selecting **File -> New From Template** or clicking the **New from Template** icon |icon03| and then selecting the desired template file.
+The new document is initially called "unnamed document 1".  Any addition new drawings created while LibreCAD is still open will be number sequentially; "unnamed document 1", "unnamed document 2", and so on.  New drawings inherit the template drawing contents , but do not take the template's name as a file name.  Users are prompted for a file name when saving the drawing.
+
+LibreCAD's installation includes a default template, "empty.dxf", found in resources directory.  While the default template can be modified to suit user requirements, the modified template would be over-written when LibreCAD is updated.  A better approach is to create a user-defined template and configure LibreCAD to use that template when it is launched.  The user-defined template is specified in the :ref:`Application Preferences <app-prefs>` on the "Paths" tab.  The specified template is used instead of the default LibreCAD template when the application is launched and for new drawings.
 
 
 Creating Templates
@@ -142,10 +144,11 @@ Templates are created by creating a new drawing, setting the desired :ref:`Drawi
         - Check the remaining tabs and adjust those settings as necessary.
         - Click "OK" when done.
 
-    - Add the layers and other drawing elements as required.  See :ref:`Layers <ug-layers>` for details on using layers and setting the attributes.
+    - Add any layers as needed.  See :ref:`Layers <ug-layers>` for details on using layers and setting the attributes.
+    - Add any other drawing elements (borders, title boxes, etc) as required.
     - Save the template as a "dxf", e.g. "myTemplate.dxf", to any location with read / write permissions.
 
-As an alternative to the default template, a user-defined template can be configured in the :ref:`Application Preferences <app-prefs>` on the "Paths" tab.  The specified template is used instead of the default LibreCAD template when the application is launched and for new drawings.
+LibreCAD supports the use of multiple templates.  A user that plans on creating similar drawings may require only a default template created to suit their needs.  Users that create several different types of drawings may desire multiple templates.  For example, templates can be created for each paper size available and / or for each paper orientation.
 
 
 ..  Icon mapping:
