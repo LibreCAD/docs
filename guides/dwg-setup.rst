@@ -120,7 +120,7 @@ Layers are displayed in alpha-numeric order in the layer list.  However, the ord
 Templates
 ---------
 
-Having to set the unit, page size, layers, etc. each time a new drawing is created can be avoided by using *templates*.  Templates are *prototype* drawings that provide a method to save a drawing's configuration so it does not need to be defined each time a new drawing is started.  A template's configuration can include the settings defined in the **Drawing Preferences**, such as the page size, main unit of measure, and the dimensioning format.  Templates can also include layers and other drawing elements such as a border and / or a title block. These settings and drawing elements are inherited by a new drawings created from the template.
+Having to set the unit, page size, layers, etc. each time a new drawing is created can be avoided by using *templates*.  Templates are *prototype* drawings that provide a method to save a drawing's configuration so it does not need to be defined each time a new drawing is started.  A template's configuration can include the settings defined in the **Drawing Preferences**, such as the page size, unit of measure, and the dimensioning format.  Templates can also include layers and other drawing elements such as a border and / or a title block. These settings and drawing elements are inherited by a new drawings created from the template.
 
 When LibreCAD is launched it creates a new drawing using a *default template*.  The default template is also used when a new drawing is created within LibreCAD by selecting **File -> New** or clicking the **New** icon |icon02|.  The new document is initially called "unnamed document 1".  Any addition new drawings created while LibreCAD is still open will be number sequentially; "unnamed document 1", "unnamed document 2", and so on.  New drawings inherit the template drawing contents , but do not take the template's name as a file name.  Users are prompted for a file name when saving the drawing.
 
@@ -152,5 +152,11 @@ LibreCAD supports the use of multiple templates.  A user that plans on creating 
 ..  Icon mapping:
 
 .. |icon01| image:: /images/icons/add.svg
+            :height: 24
+            :width: 24
+.. |icon02| image:: /images/icons/new.svg
+            :height: 24
+            :width: 24
+.. |icon03| image:: /images/icons/new_from_template.svg
             :height: 24
             :width: 24
