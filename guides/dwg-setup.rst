@@ -152,11 +152,11 @@ LibreCAD supports the use of multiple templates.  A user that plans on creating 
 ..  Icon mapping:
 
 .. |icon01| image:: /images/icons/add.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon02| image:: /images/icons/new.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon03| image:: /images/icons/new_from_template.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
