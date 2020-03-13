@@ -9,9 +9,9 @@
 Setting up a Drawing
 ====================
 
-As with other software; word processors, spreadsheets, etc, there are many ways a user can to setup or configure a new document.  With LibreCAD, that document is a drawing.  Some of the preferences for a drawing will be governed by drafting conventions, some will be determined by organizational requirements, and others might just be personal preferences.  The drawing's setup is largely determined by the :ref:`Drawing Preferences <draw-prefs>`.
+As with other software; word processors, spreadsheets, etc, there are many ways a user can to setup or configure preferences for a new document.  With LibreCAD, that document is a drawing.  Some of the preferences for a drawing will be governed by drafting conventions, some will be determined by organizational requirements, and others might just be personal preferences.  The drawing's configuration is largely determined by the :ref:`Drawing Preferences <draw-prefs>`.
 
-Under normal circumstances, after the initial installation and :ref:`configuration <configure>`, little if any configuration needs to done when starting a new drawing.  There are a many drawing parameters to be considered to suit the drawing requirements and final appearance.  The majority of these settings can be left as the defaults as LibreCAD's defaults reflect normal drafting conventions and practices, such as the "Text Height" of 2.5 mm / .10" / 3/32", etc.  Other preferences and attributes, such as layer, line thickness and type, pen colors, etc. can also be changed to suit users' requirements.
+Under normal circumstances, after the initial installation and :ref:`configuration <configure>` of the application, little if any additional configuration needs to done.  However, there are a many drawing parameters that can be changed to suit the user requirements and the drawing's final appearance.  The majority of these settings can be left as the defaults as LibreCAD's defaults reflect normal drafting conventions and practices, such as the "Text Height" of 2.5 mm / .10" / 3/32", etc.  Other preferences and attributes, such as layer, line thickness and type, pen colors, etc. can also be set to suit users' requirements.
 
 Some of the key considerations for setting up the drawing include:
 
