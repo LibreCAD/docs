@@ -57,11 +57,7 @@ The paper format, orientation, and margins to be used is an important to conside
 Layers
 ------
 
-One of LibreCAD's key features is the ability to use layers.  Layers help organize drawings by allowing users to place and manage related entities.  Traditional manual drafting used a similar approach.  The layers were often drawn on separate transparent sheets of paper. These sheets were then overlaid one on top of another to produce final drawings.  
-
-Whether for engineering, architectural, construction, manufacturing or other types, layers were used to show different aspects on the drawing.  Layers could be added to show centre lines or dimensions on an engineering or manufacturing drawings, or to show different building systems on architectural drawings such as exterior walls, partitions, electrical, HVAC, grid lines, etc.  While one layer can contain multiple entities, every entity in a drawing can only be associated with single layer.  Typically entities with common *functions* or attributes are put on the same layer.  For example, all the walls in a floor plan drawing would be put on a layer named "Walls".  
-
-Layers have an added advantage that all the :ref:`pen <entity-pen>` attributes can be assigned to a layer.  Every entity on that layer will adopt the attributes that have been assigned to that layer.  However, the attributes assigned by the layer can be overridden for entities if necessary.  In the above example a line thickness can applied to all entities on the "Walls" layer by changing the "Layer Settings" for that layer.
+Use layers to organize the drawings by allowing users to place and manage related entities.  Layers have an added advantage that all the :ref:`pen <entity-pen>` attributes can be assigned to a layer.  Every entity on that layer will adopt the attributes that have been assigned to that layer.  However, the attributes assigned by the layer can be overridden for entities if necessary.  In the above example a line thickness can applied to all entities on the "Walls" layer by changing the "Layer Settings" for that layer.
 
 .. Note::
 
@@ -74,9 +70,9 @@ Using the Layer List Dock
 In LibreCAD, layers are managed using the :ref:`Layer List Dock <widget-layerList>`.  Use the Layer List Dock to add and remove, show and hide and modify the layer's attributes.  Creating a layer is simple:
 
     - Click the **Add a layer** icon |icon01|.
-	- Specify a *Layer Name*.
-	- Optionally specify the Pen Color, Width and Line Type for the layer.
-	- Click **Ok**.
+    - Specify a *Layer Name*.
+    - Optionally specify the Pen Color, Width and Line Type for the layer.
+    - Click **Ok**.
 
 The first layer added defaults to the layer name "noname", but the name can be replace with any alpha-numeric text.  Additional layers add will adopt the name of the currently selected layer and append a sequential number, but can also be renamed.  
 
@@ -86,36 +82,10 @@ The first layer added defaults to the layer name "noname", but the name can be r
 
     Layers that have been completed can be *locked*.  Locking layers prevents accidental changes and can improve the performance when working with very large complex drawings.
 
+    Use "Construction Layer" to create reference geometry to help align other drawing entities
     Hiding layers while drawing reduces the *visual complexity* and makes it easier to focus on the current drawing efforts.
 
-Refer to the :ref:`Dock Widgets <widgets>` in the **Reference** section for additional details on using other functions of the "Layer List Dock".
-
-
-Construction Layers
-```````````````````
-
-A layer designated as a "Construction Layer" is special layer used to create reference geometry to help align other drawing entities.  A construction layer:
-
-    - contains lines that are an infinite length, and
-    - won't appear on printed drawings.
-
-
-Ordering Layers and Entities
-````````````````````````````
-
-Layers are displayed in alpha-numeric order in the layer list.  However, the order of the layers do not relate to the order that entities appear in the drawing.  Each entity can be raised, *moved up*, or lowered, *moved down*, with respect to others.  Each layer can contain entities that are at different points.  Use the commands in **Tools -> Modify -> Order** to move entities up or down.
-
-.. csv-table:: 
-    :widths: 25, 25, 75
-    :header-rows: 1
-    :stub-columns: 0
-    :class: table-fix-width
-
-    "Action", "Key", "Result"
-    "move to top", "[Home]", "Moves the selected entity to the *top* most position."
-    "move to bottom", "[End]",  "Moves the selected entity to the *bottom* most position."
-    "raise over entity", "[Page Up]",  "Moves the selected entity *up* one relative position."
-    "lower after entity", "[Page Down]",  "Moves the selected entity *down* one relative position."
+Refer to :ref:`Layers <entity-layers>` in **Fundamentals** and the :ref:`Layer List Dock <widget-layerList>` under **Dock Widgets** in the **Reference** section for additional details on using layers.
 
 
 .. _ug-templates:

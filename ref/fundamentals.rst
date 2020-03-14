@@ -228,11 +228,11 @@ An entity is a geometric shape; a line, circle, arc, etc.  A collection of entit
 Layers
 ~~~~~~
 
-A basic feature of CAD is the use of layers to organize a drawing. Every entity in a drawing is on exactly one layer, however one layer can contain multiple entities. Typically entities with a common 'function' or common attributes are put on the same layer. For example, it might be might necessary to put all axis in a drawing on a layer named 'axis'.  Each layer can be defined with a "Default Pen" (see :ref:`Pens <entity-pen>` below). Each entity can have its own attributes or have its attributes defined by the layer it is placed on. In the latter case for example you can change the colour of all the entities on the "axes" layer by setting the colour (red for example) for that layer.
+One of LibreCAD’s key features is the ability to use layers. Layers help organize drawings by allowing users to place and manage related entities. Traditional manual drafting used a similar approach. The layers were often drawn on separate transparent sheets of paper. These sheets were then overlaid one on top of another to produce final drawings.
 
-In traditional manual drafting, a similar approach was used. Whether for Engineering, Architectural or Construction drawing etc. layers were used to show different aspects of a drawing — for example this could be a layer set up for showing centre lines on an engineering drawing or to show different building systems, such as wiring and air conditioning. The layers were often drawn on separate transparent sheets of paper. These sheets were then overlaid one on top of another to produce final drawings.
+Whether for engineering, architectural, construction, manufacturing or other types, layers were used to show different aspects on the drawing. Layers could be added to show centre lines or dimensions on an engineering or manufacturing drawings, or to show different building systems on architectural drawings such as exterior walls, partitions, electrical, HVAC, grid lines, etc. While one layer can contain multiple entities, every entity in a drawing can only be associated with single layer. Typically entities with common functions or attributes are put on the same layer. For example, all the walls in a floor plan drawing would be put on a layer named “Walls”.
 
-Layers are displayed in alpha-numerical order in the layer list.  However this is does not relate to the order that each entity appears on the z-axis of the drawing.  Each entity can be raised or lowered with respect to others, and each layer can contain entities that are at different points on the z-axis.  Use the four Draw Order commands (under the **Tools -> Modify -> Order menu**) to move entities up or down the z-axis. 
+Layers have an added advantage that all the pen attributes can be assigned to a layer. Every entity on that layer will adopt the attributes that have been assigned to that layer. However, the attributes assigned by the layer can be overridden for entities if necessary. In the above example a line thickness can applied to all entities on the “Walls” layer by changing the “Layer Settings” for that layer.
 
 Creating a Layer
 ````````````````
@@ -405,8 +405,6 @@ Using a Mouse
 
 Entities' coordinates can also be located graphically using a mouse or other pointing device.  Using a mouse is less precise, but may be acceptable for rough sketches or other freehand work.  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps <snaps>`.  
 
-.. _keyboard: 
-
 Using the Keyboard
 ``````````````````
 
@@ -415,7 +413,6 @@ The keyboard can be used to select tools and enter coordinates using the *comman
 LibreCAD offers an additional method for entering *relative coordinates* when using the numeric keypad; type two decimal points ("**..**") in lieu of the comma between the X and Y values.  For example, "10..20" is equivalent to typing "@10,20".  Refer to the **User Guides** for more details on using the :ref:`command line <cmdline>`.
 
 Text input may also be required for **Tool Options** where distance, angle, etc. are needed with some of the **Drawing Tools**.
-
 
 Selecting Entities
 ~~~~~~~~~~~~~~~~~~
@@ -433,7 +430,6 @@ Selecting entities allow them to be modified or deleted.  Some operations can be
 Deselect selected entities by typing “tn” at the command line or pressing [Esc].  Note that it might be might be necessary to press [Esc] twice if a command it active.
 
 Also see the :ref:`Select<tool-select>` tools for additional methods to select and deselect entities.
-
 
 Entity Handles
 ~~~~~~~~~~~~~~
@@ -467,6 +463,22 @@ Selected entities display “handles”.  Handles allow the entities to be manip
    - A circle can be increased or decreased in size.
    - The end points of the edges of a polygon can be repositioned.
    - Dimension text and lines can be repositioned
+
+Ordering Entities
+`````````````````
+Entities are drawn on a 2D plane, but can overlay each other and have levels that are independent of layers.  Entity can be raised, *moved up*, or lowered, *moved down*, with respect to other entities.  Each layer can contain entities that are at different levels.  Use the commands in **Tools -> Modify -> Order** to move entities up or down.
+
+.. csv-table:: 
+    :widths: 25, 25, 75
+    :header-rows: 1
+    :stub-columns: 0
+    :class: table-fix-width
+
+    "Action", "Key", "Result"
+    "move to top", "[Home]", "Moves the selected entity to the *top* most position."
+    "move to bottom", "[End]",  "Moves the selected entity to the *bottom* most position."
+    "raise over entity", "[Page Up]",  "Moves the selected entity *up* one relative position."
+    "lower after entity", "[Page Down]",  "Moves the selected entity *down* one relative position."
 
 
 .. _isometric:
