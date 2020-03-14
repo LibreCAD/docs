@@ -59,10 +59,6 @@ Layers
 
 Use layers to organize the drawings and assign :ref:`pen <entity-pen>` attributes to the entities on the layer.
 
-.. Note::
-
-    Layer **0** is a special layer and should not be used for general drawing purposes.  Create at least one additional layer for the drawing.
-
 In LibreCAD, layers are managed using the :ref:`Layer List Dock <widget-layerList>`.  Use the Layer List Dock to add and remove, show and hide and modify the layer's attributes.  Creating a layer is simple:
 
     - Click the **Add a layer** icon |icon01|.
@@ -74,11 +70,14 @@ The first layer added defaults to the layer name "noname", but the name can be r
 
 .. tip::
 
+    Layer **0** is a special layer and should not be used for general drawing purposes.  Create at least one additional layer for the drawing.
+
     Prefix the layer name with a sequential number when naming the layer to help sort the layers in the dock list.  Layers are listed in alpha-numeric order, e.g. 1a, 1b, 2a, 2b, etc.
+
+    Use "Construction Layer" to create reference geometry to help align other drawing entities.
 
     Layers that have been completed can be *locked*.  Locking layers prevents accidental changes and can improve the performance when working with very large complex drawings.
 
-    Use "Construction Layer" to create reference geometry to help align other drawing entities
     Hiding layers while drawing reduces the *visual complexity* and makes it easier to focus on the current drawing efforts.
 
 Refer to :ref:`Layers <entity-layers>` in **Fundamentals** and the :ref:`Layer List Dock <widget-layerList>` under **Dock Widgets** in the **Reference** section for additional details on using layers.
