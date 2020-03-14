@@ -57,7 +57,7 @@ The paper format, orientation, and margins to be used is an important to conside
 Layers
 ------
 
-Use layers to organize the drawings by allowing users to place and manage related entities.  Layers have an added advantage that all the :ref:`pen <entity-pen>` attributes can be assigned to a layer.  Every entity on that layer will adopt the attributes that have been assigned to that layer.  However, the attributes assigned by the layer can be overridden for entities if necessary.  In the above example a line thickness can applied to all entities on the "Walls" layer by changing the "Layer Settings" for that layer.
+Use layers to organize the drawings and assign :ref:`pen <entity-pen>` attributes to the entities on the layer.
 
 .. Note::
 
