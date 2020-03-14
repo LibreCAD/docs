@@ -57,7 +57,7 @@ The paper format, orientation, and margins to be used is an important to conside
 Layers
 ------
 
-Use layers to organize the drawings and assign :ref:`pen <entity-pen>` attributes to the entities on the layer and is an important concept.  Refer to :ref:`Layers <entity-layers>` in **Fundamentals** and the :ref:`Layer List Dock <widget-layerList>` under **Dock Widgets** in the **Reference** section for additional details on using layers.
+Using layers to organize drawings and assign :ref:`pen <entity-pen>` attributes to the entities on the layer is an important concept.  Refer to :ref:`Layers <entity-layers>` in **Fundamentals** and the :ref:`Layer List Dock <widget-layerList>` under **Dock Widgets** in the **Reference** section for additional details on using layers.
 
 In LibreCAD, layers are managed using the **Layer List Dock**.  Use the **Layer List Dock** to add and remove, show and hide and modify the layer's attributes.  Creating a layer is simple:
 
