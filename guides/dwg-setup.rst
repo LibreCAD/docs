@@ -15,9 +15,10 @@ Under normal circumstances, after the initial installation and configuration of 
 
 Some of the key considerations for setting up the drawing include:
 
-    - Units, text and scale
-    - Layers
-    - Line color, width and type
+    - Drawing units
+    - Page size
+    - Scale and dimensioning format
+    - Layers; line color, width and type
 
 
 Drawing Unit
@@ -28,8 +29,8 @@ During the initial setup, the default :ref:`unit of measure <measurements>` was 
 
 .. _ug-scale:
 
-Scale
------
+Scale and Dimensioning
+----------------------
 
 Setting the scale of a drawing is the easy part, drawings should be created *full-scale* (1:1)!  The zooming abilities of LibreCAD will make the whole drawing fit in the drawing window or magnify sections to view fine detail.  On the other hand, when producing output the drawing will need to be adjusted in size to fit the *page size*.  Generally, output is a printed page, but it can also be a pdf, or :ref:`exported to another image format <file>`.  
 
