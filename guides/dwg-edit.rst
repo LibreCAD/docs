@@ -4,7 +4,7 @@
 .. include:: /inclFiles/notice.rst
 
 
-.. _draw-edit:
+.. _drawing-edit:
 
 Creating and Editing Entities
 =============================
@@ -15,7 +15,7 @@ As with many programs, there are a multitude of ways to generate the desired res
 This section of the User Guide brings together many other parts of the LibreCAD manual and will show how to use a variety tools to *create* and *modify* drawings.  Be sure to read through the **Reference** section, particularly the :ref:`Fundamentals <fundamentals>`, the :ref:`Drawing Tools <tools>` and the :ref:`Snapping <snaps>` sections to obtain an understanding of the basic operation of LibreCAD and its various tools.
 
 .. note::
-   The examples below use both the the command line and the mouse for input.  In cases where the command line is used and additional input is required because of a **Tool Option** (see Drawing Tools) see the *note* below the command text.  Where the mouse is the primary form of input, the instruction are provided in bullet point form.
+   The examples below use both the the command line and the mouse for input.  In cases where the command line is used and additional input is required because of a **Tool Option** (see **Drawing Tools**) see the *note* below the command text.  Where the mouse is the primary form of input, the instruction are provided in bullet point form.
 
 
 Creating Entities
@@ -23,48 +23,40 @@ Creating Entities
 
 Creating new geometric entities all use similar methods.  Generally,  creating an entity requires placement of a minimum of two points (Well, unless the entity being drawn is a point), or a single point and an additional parameter such as length or radius.  In some case the same result can be obtained using several different methods.  For example, drawing a vertical line can be done via keyboard entry using the :ref:`command line<widget-cmdLine>` to select a tool and then define two points with the *absolute* or *relative* *Cartesian* coordinates:
 
-Absolute Cartesian coordinates:
+Using absolute Cartesian coordinates::
 
-::
+	li
+	10,10
+	10,60
+	k
 
-   li
-   0,0
-   0,500
-   k
+The first set of coordinates place the starting point of the line at 10 units horizontally and 10 units vertically from the origin (0,0).  The second set places the end point of the line at 10 units horizontally and 60 units vertically from the origin (0,0), resulting in a vertical line 50 units long.
 
+Or, using relative Cartesian coordinates::
 
-Or, relative Cartesian coordinates: 
+	li
+	10,10
+	@0,50
+	k
 
-::
+The "**@**" designates *relative coordinates*.  The *@0,50* relative Cartesian coordinates places the next point 0 units horizontally (X axis) and 50 units vertically (Y axis) from the point previously placed at 10,10.
 
-   li
-   0,0
-   @0,500
-   k
+It can also be done with relative *polar* coordinates::
 
-.. note::
+	li
+	10,10
+	@50<90
+	k
 
-   "@" designates **relative coordinates**.  The *@0,500* relative Cartesian coordinates places the next point 0 units horizontally (X axis) and 500 units vertically (Y axis) from the previously placed point.
-
-It can also be done with relative *polar* coordinates:
-
-::
-
-   li
-   0,0
-   500<90
-   k
-
-.. note::
-
-       "<" designates a **polar coordinate**.  The *500<90* polar coordinate places the next point 500 units 90 degrees from the X axis of the previously placed point.
+The "**<**" designates a **polar coordinate**.  The *@50<90* polar coordinate places the next point 500 units 90 degrees from the X axis of the point previously placed at 10,10.
 
 
 The same line can also be drawn using just the mouse.  With **Snap on Grid** |icon03| enabled:
 
-   - Select the **2 Points** line tool [icon]
-   - Click at *0,0* and then
-   - Click at *0,500* (use the **Status Bar** to locate the correct coordinates).
+   - Select the **2 Points** line tool |icon01|
+   - Click at *10,10* (use the :ref:`Status Bar <statusbar>` to locate the absolute coordinates)
+   - Click at *10,60*
+   - Press [Esc] or right-click twice to exit the command.
 
 Other tools can also be used achieve the same result:
 
@@ -74,28 +66,24 @@ Other tools can also be used achieve the same result:
    0,0
 
 .. note::
-   Ensure the *Length* is set to "500" and the *Snap Point:* is "Start" in the **Tool Options** text box.
+   Ensure the *Length* is set to "50" and the *Snap Point:* is "Start" in the **Tool Options** text box.
 
-The tool and method used is entirely up to the user to obtain the desired results. The use of a particular tool may be determined by the next operation that allows the drawing to be quickly extended.  A good understanding of the available tools allows the user to select the appropriate tool for the current operation.
+All the above examples create a line of the same length with the same start and end points.  These example help illustrate the the maultiple ways to do the same thing and helps show that the tool and method used is entirely up to the user to obtain the desired results.  The use of a particular tool may be determined by the next operation that allows the drawing to be quickly extended.  A good understanding of the available tools allows the user to select the appropriate tool for the current operation.
 
-While the above example always start at *0,0*, the initial point can be placed anywhere:
+While the above example always start at *10,10*, the initial point can be placed anywhere::
 
-::
+	li
+	10,60
+	10,10
+	k
 
-   li
-   0,500
-   0,0
-   k
-
-Drawings are generally created with multiple lines segments with the end of one segment being the start of another.  Lines can be drawn with multiple connected segments by using the end of the current segment as the starting point and defining the end point of the next segment.  Further, additional points can be defined using any of the methods previously shown:
-
-::
+Drawings are generally created with multiple lines segments with the end of one segment being the start of another.  Lines can be drawn with multiple connected segments by using the end of the current segment as the starting point and defining the end point of the next segment.  Further, additional points can be defined using any of the methods previously shown::
 
    li
-   0,500
-   0,0
-   @600,0
-   @300<90
+   10,60
+   10,10
+   @60,0
+   @30<90
    k
 
 .. figure:: /images/widget00.png
@@ -108,8 +96,8 @@ Drawings are generally created with multiple lines segments with the end of one 
 Using the mouse, or another pointing device, along with the "Snaps" provide an alternative to using the command line for creating drawings.  As with the command line, there are multiple line tools that can be used to produce the same result.  For example, adding the to the the previous example, a horizontal line can be added using various methods:
 
    - Click the **2 Points** line tool icon.
-   - Enable the "Snap on Endpoints" snap tool and click close to the end of the line at *absolute coordinate* 0,500.
-   - Drag the mouse to the right and, with the "Snap on Grid" snap enabled, place a point at 400,500.  Clicking the mouse should result in a horizontal line ending at precisely at 400,500.
+   - Enable the "Snap on Endpoints" snap tool and click close to the end of the line at *absolute coordinate* 10,60.
+   - Drag the mouse to the right and, with the "Snap on Grid" snap enabled, place a point at 50,60.  Clicking the mouse should result in a horizontal line ending at precisely at 50,60.
    - Press [Esc] to exit the complete the command.
 
 .. hint::
@@ -357,6 +345,9 @@ Also, the properties of a specific entity type, e.g. line, does not vary even if
                                                 rotation angle, array rows / columns and spacing"
 
 ..  Icon mapping:
+.. |icon01| image:: /images/icons/line_2p.svg
+            :height: 24
+            :width: 24
 .. |icon03| image:: /images/icons/snap_grid.svg
             :height: 24
             :width: 24

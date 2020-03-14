@@ -27,7 +27,7 @@ Section | Initial Draft | Review / Edit | Update for GA release | Comment
    Drawing Preferences | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
    Customizing | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Including Style Sheets.
 **User Guides** |   |   |   | Generic instructions on how to do a few things with LibreCAD.
-   Drawing Setup | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | Scale, layers and templates.
+   Drawing Setup | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Scale, layers and templates.
    Drawing and Modifying | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
    Blocks | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
    Dimensioning & Text | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 

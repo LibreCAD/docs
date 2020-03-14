@@ -41,6 +41,7 @@ As an alternative to the **Tools** menu, the Dock widgets provide more convenien
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
 
+
 .. _widget-dockAreas:
 
 Dock Widget Areas
@@ -70,6 +71,7 @@ In addition, dock widgets can be resized by clicking and dragging the edge of th
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
 
+
 .. _widget-blockList:
 
 Block List Dock
@@ -83,7 +85,7 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
     :scale: 67
     :alt: Block List Dock
 
-    Block List dock example - 4 blocks
+    Block List dock example - 3 blocks
 
 .. actual image size 260px x 340px
 
@@ -104,7 +106,7 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
     |icon17|, "”Save the active block to a file” - Saves the highlighted block to a file."
     |icon18|, "”Insert the active block”. - Inserts the highlighted block in the current drawing at the specified reference point"
 
-The lower portion of the dock shows a list of blocks in the current drawing.  The blocks in the above example are named "a3", "d1", "d2", and "d4".  More details on creating and using :ref:`blocks <blocks>` can be found in the **User Guides**.
+The lower portion of the dock shows a list of blocks in the current drawing.  The blocks in the above example are named "a3", "d1", and "d3".  More details on creating and using :ref:`blocks <blocks>` can be found in the **User Guides**.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -167,31 +169,69 @@ Layer List Dock
     :scale: 67
     :alt: Layer List Dock
 
-    Layer List dock example - 4 layers
+    Layer List dock example with 4 layers
 
 .. actual image size 260px x 340px
 
-The Layer List Dock provides the functions to manage layers and a list of layers in the current drawing. The entry line on top of the dock allows to filter by layer names (e.g. "\*01" would show all names ending by "01").
+The Layer List Dock provides a list of layers in the current drawing and the functions required to manage them.  There are three sections in the dock:
 
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
+    - the list filter,
+    - the list operators and functions, and 
+    - the layer operators and functions.
 
-Layer functions include:
+The list filter is the input box at the top of the dock.  It provides the ability to filter a long list of layer names to help locate a layer.  Enter a text string, the name or partial name of a layer, in the input box to filter the layer or layers.  Wildcards ("\*" or "?") can be used to filter the list to locate similar layer names (e.g. "\*01" would show all names ending by "01").
+
+The icons on the top of the layer list allow operations to the entire list of layers.  Those operations include:
 
 .. csv-table:: 
-    :widths: 10, 90
+    :widths: 10, 25, 65
+    :header-rows: 1
+    :stub-columns: 0
+    :class: table-fix-width
+
+    "Icon", "Function", "Description"
+    |icon10|, "Show all layers", "Makes all the layers in the current drawing visible."
+    |icon11|, "Hide all layers", "Hides all layers in the current drawing."
+    |icon20|, "Unlock all layer", "Unlock, or ”Defreeze”, all layers to allow changes to the entities in the layer. (\*)"
+    |icon21|, "Lock all layer", "Lock, or ”Freeze”, all layers to prevent unintentional changes. (\*)"
+    |icon13|, "Add a layer", "Add a new layer to the list. (Shortcut [Ctrl]+[L]) (\*)"
+    |icon14|, "Remove layer", "Remove the highlighted layer from the list. (\*)"
+    |icon15|, "Modify layer attributes / rename", "Modify the selected layer's attributes and / or rename the layer. (\*)"
+
+The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used for general drawing purposes.
+
+Icons to the left of each layer act on the layers individually.  The layer operations are:
+
+.. csv-table:: 
+    :widths: 15, 85
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
 
     "Icon", "Description"
-    |icon10|, "”Show all layers” - Makes all the layers in the current drawing visible. (\*: ”Freeze”)"
-    |icon11|, "”Hide all layers” - Hides all layers in the active drawing.  (\*: ”Defreeze”)"
-    |icon13|, "”Add a layer” - Add a new layer. * (Shortcut [Ctrl]+[L])"
-    |icon14|, "”Remove the current layer” - Remove the highlighted layer. *"
-    |icon15|, "”Modify layer attributes / rename” - Modify the layer's attributes and / or rename the layer. *"
+    "|icon10| / |icon11|", "Show / hide the selected layer. (\*)"
+    "|icon20| / |icon21|", "Lock / unlock the selected layer. (”Freeze” / ”Defreeze”)"
+    "|icon22| / |icon23|", "Print / don't print the selected layer. (\*)"
+    "|icon24| / |icon25|", "Toggle construction lines. (\*)  A layer designated as a ”Construction Layer” is special layer used to create reference geometry to help align other drawing entities.  Construction lines are intended as temporary guide lines and drawn to ”infinity”."
+    "|icon26|", "Shows the layer's assigned color (the default is Black)."
 
-The lower portion of the dock shows a list of layers in the current drawing and are listed in alpha-numeric order.  In the example above the layers are named "Layer01", "Layer02", and "Layer03".  Note that layer **0** is a special layer and should not be used.
+.. Multiple layer can be selected and then deleted with [Shift]-[left-mouse-button] to select a contiguous group of layers.  Use [Ctrl]-[left-mouse-button] to select individual layers in a noncontiguous group.  After making a selection, click the "Remove layer" icon |icon14|.
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
+.. figure:: /images/dock-layerContextMenu.png
+    :figwidth: 200px
+    :align: right
+    :scale: 67
+    :alt: Layer Context Menu
+
+.. actual image size 219px x 186px
+
+Layer list or individual layer operations can also be accessed by right-clicking on a layer.  Right-clicking in the list window opens a popup menu that provides equivalent operations to the item marked with an asterisk (*).
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 ..  figure:: /images/layerSettings01.png
     :figwidth: 200px
@@ -201,10 +241,12 @@ The lower portion of the dock shows a list of layers in the current drawing and 
 
 .. actual image size 276px x 258px
 
-Clicking the *Attribute* icon allows users to change the attributes of all entities on the selected layer.  The attribute include:
+Clicking the *Attribute* icon |icon15| allows users to change the :ref:`pen attributes <entity-pen>` of all entities on the selected layer.  Entities that have their own pen attribute set differently will override the layer's attributes.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
+
+The attributes include:
 
 .. table::
     :align: center
@@ -219,8 +261,7 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
     |                      |  sequence number appended.  Layers are sorted in the list alpha-         |
     |                      |  numerically.                                                            |
     +----------------------+--------------------------------------------------------------------------+
-    | Construction Layer   |  Toggle the construction lines off / on.  Construction lines are         |
-    |                      |  intended as temporary lines and drawn to ”infinity”".                   |
+    | Construction Layer   |  Toggle the construction lines off / on.                                 |
     +----------------------+--------------------------------------------------------------------------+
     | Default Pen:         |  - Color: Select from default or custom colors.                          |
     |                      |  - Width: Select from predefined line widths from 0.00 to 2.11 mm.       |
@@ -229,40 +270,8 @@ Clicking the *Attribute* icon allows users to change the attributes of all entit
     |                      |    "large").                                                             |
     +----------------------+--------------------------------------------------------------------------+
 
-Icons to the left of each layer act on the layers individually.  The layer operations are:
 
-.. csv-table:: 
-    :widths: 20, 80
-    :header-rows: 1
-    :stub-columns: 0
-    :class: table-fix-width
-
-    "Icon", "Description"
-    "|icon10| / |icon11|", "Show / hide layer. *"
-    "|icon20| / |icon21|", "Lock / unlock layer."
-    "|icon22| / |icon23|", "Print / don't print layer. *"
-    "|icon24| / |icon25|", "Toggle construction lines. *"
-    "|icon26|", "Shows the current layer color (Default is Black)."
-
-.. See icon mapping a eof
-
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
-
-.. figure:: /images/dock-layerContextMenu.png
-    :figwidth: 200px
-    :align: right
-    :scale: 67
-    :alt: Layer Context Menu
-
-.. actual image size 219px x 186px
-
-Right-clicking on a layer opens a popup menu that provides equivalent operations to the item marked with an asterisk (*).
-
-More details on creating and using :ref:`layers <su-layers>` can be found in the :ref:`Drawing Setup <drawing-setup>` section of the **User Guides**.
-
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
+More details on creating and using :ref:`layers <ug-layers>` can be found in the "Drawing Setup" section of the **User Guides**.
 
 
 .. _widget-libBrowser:
@@ -286,6 +295,7 @@ LibreCAD includes several libraries and additional libraries can be specified by
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
+
 
 .. _widget-penWiz:
 

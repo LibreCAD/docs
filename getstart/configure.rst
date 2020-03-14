@@ -50,6 +50,7 @@ The user interface consists of several major elements:
 - *Status bar*: displays information about current drawing operation. (See below.)
 - *Drawing window*: displays the active drawing.
 
+.. _statusbar: 
 
 Status Bar
 ~~~~~~~~~~
