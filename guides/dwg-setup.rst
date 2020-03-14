@@ -18,13 +18,13 @@ Some of the key considerations for setting up the drawing include:
     - Drawing units
     - Page size
     - Scale and dimensioning format
-    - Layers; line color, width and type
+    - Layers and "pens"
 
 
 Drawing Unit
 ------------
 
-During the initial setup, the default :ref:`unit of measure <measurements>` was set (defaulting to *millimeter*).  The unit of measure should be set to the unit most frequently used as it is used for all new drawings and doesn't need to be changed.  If necessary, the default unit of measure can be changed in the :ref:`Application Preferences <app-prefs>` or overridden for a single drawing in the **Drawing Preferences**.
+During the initial setup, the default :ref:`unit of measure <measurements>` was set (defaulting to *millimeter*).  The unit of measure should be set to the unit most frequently used as it is used for all new drawings and doesn't need to be changed.  If necessary, the default unit of measure can be changed in the :ref:`Application Preferences <app-prefs>` or overridden for a single drawing in the :ref:`Drawing Preferences <draw-prefs>`.
 
 
 .. _ug-scale:
@@ -34,22 +34,22 @@ Scale and Dimensioning
 
 Setting the scale of a drawing is the easy part, drawings should be created *full-scale* (1:1)!  The zooming abilities of LibreCAD will make the whole drawing fit in the drawing window or magnify sections to view fine detail.  On the other hand, when producing output the drawing will need to be adjusted in size to fit the *page size*.  Generally, output is a printed page, but it can also be a pdf, or :ref:`exported to another image format <file>`.  
 
-As an example, for an annotated drawing of a floor plan to appear correctly when the drawing is reduced in size, or *scaled down*, to print on an "A4" page (210 x 297 mm), the dimension text would need to be proportional to the floor plan itself prior to being reduced to fit the page.  Trying to determine the dimension text size for scaling such a large object would be tedious at best, but a feature of LibreCAD makes it simple.  The "General Scale" is used to adjust the dimension text, arrows and related parameters to the sizes suitable for the required page size.  Both the page size, and the dimensioning parameters - including the "General Scale" - are configured in the **Drawing Preferences**.
+As an example, for an annotated drawing of a floor plan to appear correctly when the drawing is reduced in size, or *scaled down*, to print on an "A4" page (210 x 297 mm), the dimension text would need to be proportional to the floor plan itself prior to being reduced to fit the page.  Trying to determine the dimension text size for scaling such a large object would be tedious at best, but a feature of LibreCAD makes it simple.  The "General Scale" is used to adjust the dimension text, arrows and related parameters to the sizes suitable for the required page size.  Both the page size, and the dimensioning parameters - including the "General Scale" - are configured in the :ref:`Drawing Preferences <draw-prefs>`.
 
-There are two tabs in **Drawing Preferences**, "Paper" and "Dimensions", that require attention when starting a new drawing.  Specifically the tabs that need to be addressed are:
+There are two tabs in **Drawing Preferences**, "Paper" and "Dimensions", that require attention for a new drawing.  Specifically the items that need to be addressed are:
 
-      1. The "Paper" tab: Selecting a paper size and orientation will determine the *print scale* used for final output.  The print scale is used to determine the "General Scale" mentioned above.
-      2. The "General Scale" on the "Dimensions" tab: Setting the "General Scale" will adjust the dimension text and related parameters to suit the page size after establishing the page size.
+      1. On the "Paper" tab: Selecting a paper size and orientation will determine the *print scale* used for final output.  The print scale is used to determine the "General Scale".
+      2. On the "Dimensions" tab: Setting the "General Scale" will adjust the dimension text and related parameters to suit the page size.
 
-The paper format, orientation, and margins to be used is an important to consideration when setting the drawing preferences.  The page size is entirely up to the user to determine, based on what is available (depending on the printer or printing service that is being used).  While it can be done at anytime, establishing the page size sooner than later will help determine the "General Scale".
+The paper format, orientation, and margins to be used is an important to consideration when setting the drawing preferences.  The page size is entirely up to the user to determine based on what is available (depending on the printer or printing service that is being used).  While it can be done at anytime, establishing the page size sooner than later will help determine the "General Scale".
 
 .. tip::
 
-   If multiple options are available for the paper size, setting the paper size *after drawing the object but prior to dimensioning a drawing* will help determine the print scale, the "General scale", and subsequently the appropriate line spacing for dimensions.  See :ref:`Dimensioning <dimensioning>` for additional information.
+   If multiple options are available for the paper size, setting the paper size *after drawing the object but prior to dimensioning the drawing* will help determine the print scale, the "General scale", and subsequently the appropriate line spacing for dimensions.  See :ref:`Dimensioning <dimensioning>` for additional information.
 
    While any scale can be used when printing a drawing there are commonly used scales for different types of drawings.  Refer to  :ref:`Scales <scales>` in the appendix for some examples.
 
-   Be sure to allow room on the drawing for dimension lines and text when determining the print scale.  More details on printing a drawing are found in the :ref:`Printing Guide <printing-guide>` for more details.
+   Be sure to allow room on the drawing for dimension lines and text when determining the print scale.  More details on printing a drawing are found in the :ref:`Printing Guide <printing-guide>`.
 
 
 .. _ug-layers:
@@ -57,13 +57,15 @@ The paper format, orientation, and margins to be used is an important to conside
 Layers
 ------
 
-One of LibreCAD's basic features is the ability to use layers.  Layers help organize drawings by allowing users to place and manage related entities.  Traditional manual drafting used a similar approach.  Whether for engineering, architectural, construction, manufacturing or other types, layers were used to show different aspects on the drawing.  Layers could be added to show centre lines or dimensions on an engineering or manufacturing drawings, or to show different building systems on architectural drawings such as exterior walls, partitions, electrical, HVAC, grid lines, etc.  The layers were often drawn on separate transparent sheets of paper. These sheets were then overlaid one on top of another to produce final drawings.  While one layer can contain multiple entities, every entity in a drawing can only be associated with single layer.  Typically entities with common *functions* or attributes are put on the same layer. For example, all the walls in a floor plan drawing would be put on a layer named "Walls".  
+One of LibreCAD's key features is the ability to use layers.  Layers help organize drawings by allowing users to place and manage related entities.  Traditional manual drafting used a similar approach.  The layers were often drawn on separate transparent sheets of paper. These sheets were then overlaid one on top of another to produce final drawings.  
 
-Layers have an added advantage that all the :ref:`pen <entity-pen>` attributes can be assigned to a layer.  Every entity on that layer will adopt the attributes that have been assigned to the layer.  However, the attributes assigned by the layer can be overridden for entities if necessary.  In the above example a line thickness can applied to all entities on the "Walls" layer by changing the "Layer Settings" for that layer.
+Whether for engineering, architectural, construction, manufacturing or other types, layers were used to show different aspects on the drawing.  Layers could be added to show centre lines or dimensions on an engineering or manufacturing drawings, or to show different building systems on architectural drawings such as exterior walls, partitions, electrical, HVAC, grid lines, etc.  While one layer can contain multiple entities, every entity in a drawing can only be associated with single layer.  Typically entities with common *functions* or attributes are put on the same layer.  For example, all the walls in a floor plan drawing would be put on a layer named "Walls".  
 
-.. tip::
+Layers have an added advantage that all the :ref:`pen <entity-pen>` attributes can be assigned to a layer.  Every entity on that layer will adopt the attributes that have been assigned to that layer.  However, the attributes assigned by the layer can be overridden for entities if necessary.  In the above example a line thickness can applied to all entities on the "Walls" layer by changing the "Layer Settings" for that layer.
 
-    Note that layer **0** is a special layer and should not be used for general drawing purposes.  Create at least one additional layer for the drawing.
+.. Note::
+
+    Layer **0** is a special layer and should not be used for general drawing purposes.  Create at least one additional layer for the drawing.
 
 
 Using the Layer List Dock
@@ -73,18 +75,18 @@ In LibreCAD, layers are managed using the :ref:`Layer List Dock <widget-layerLis
 
     - Click the **Add a layer** icon |icon01|.
 	- Specify a *Layer Name*.
-	- Optionally specify the Color, Width and Line Type for the layer.
+	- Optionally specify the Pen Color, Width and Line Type for the layer.
 	- Click **Ok**.
 
-The first layer added defaults to the layer name "noname", but the name can be replace with any alpha-numeric text.  Additional layers add will adopt the name of the currently selected layer and append a sequential number.  
+The first layer added defaults to the layer name "noname", but the name can be replace with any alpha-numeric text.  Additional layers add will adopt the name of the currently selected layer and append a sequential number, but can also be renamed.  
 
 .. tip::
 
-    Prefix the layer name with a sequential number when naming the layer to help organize the layers in the dock list.  Layers are listed in alpha-numeric order, e.g. 1a, 1b, 2a, 2b, etc.
+    Prefix the layer name with a sequential number when naming the layer to help sort the layers in the dock list.  Layers are listed in alpha-numeric order, e.g. 1a, 1b, 2a, 2b, etc.
 
-Layers that have been completed can be *locked*.  Locking layers prevents accidental changes and can improve the performance when working with very large complex drawings.
+    Layers that have been completed can be *locked*.  Locking layers prevents accidental changes and can improve the performance when working with very large complex drawings.
 
-Hiding layers while drawing reduces the *visual complexity* and makes it easier to focus on the current drawing efforts.
+    Hiding layers while drawing reduces the *visual complexity* and makes it easier to focus on the current drawing efforts.
 
 Refer to the :ref:`Dock Widgets <widgets>` in the **Reference** section for additional details on using other functions of the "Layer List Dock".
 
