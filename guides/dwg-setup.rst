@@ -63,10 +63,6 @@ Use layers to organize the drawings and assign :ref:`pen <entity-pen>` attribute
 
     Layer **0** is a special layer and should not be used for general drawing purposes.  Create at least one additional layer for the drawing.
 
-
-Using the Layer List Dock
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
 In LibreCAD, layers are managed using the :ref:`Layer List Dock <widget-layerList>`.  Use the Layer List Dock to add and remove, show and hide and modify the layer's attributes.  Creating a layer is simple:
 
     - Click the **Add a layer** icon |icon01|.
