@@ -117,6 +117,23 @@ Default Template
 LibreCAD includes a default template, "empty.dxf", that is installed with the application and found in the resources directory.  It is used initially as the default template for all new drawings.  A user-defined template can be used instead of the default by specifying the new template in the :ref:`Application Preferences <app-prefs>`.  From the  **Options** menu select **Application Preferences** and click on the "Paths" tab.  Enter the path and filename of the template to be used as the default.  The specified template is used instead of the default LibreCAD template when the application is launched and for new drawings.
 
 
+.. admonition:: Excercise #1
+
+    Create a new drawing with the following:
+
+        - Confirm the defaults on the "Paper", "Units" and "Dimensions" are as shown on the :ref:`Drawing Preferences <draw-prefs>`
+            - Paper: "A4" and "Landscape".
+            - Units: The "Main Unit" is "Millimeter".
+            - 
+            - 
+
+        - Create 3 layers
+
+            - 
+            - 
+            - 
+
+
 ..  Icon mapping:
 
 .. |icon01| image:: /images/icons/add.svg
