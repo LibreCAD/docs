@@ -159,6 +159,11 @@ This option will result in a image similar to what is shown above, but with the 
 
 .. admonition:: Alternate Approach
 
+
+
+.. sidebar:: Alternate Approach
+    :subtitle: Optional Sidebar Subtitle
+
     All of the above examples create the object by drawing individual lines.  A completely different approach is to start   with a *rectangle*:
 
     ::
@@ -168,7 +173,7 @@ This option will result in a image similar to what is shown above, but with the 
         @125,100
         k
 
-    .. figure:: /images/doohickeyAlt.png
+    .. figure:: /images/doohickeyAlt01.png
         :align: center
         :scale: 67
         :alt: Doohickey Example - Alternate Approach
@@ -226,21 +231,6 @@ A rounded corner can be added to the drawing's the lower left corner with the **
 - select the second entity (the left vertical line of the rectangle).
 - Press [Esc] to exit the command.
 
-.. admonition:: Alternate Approach
-
-   Continuing with the previous example - starting with a rectangle - the shape can be modified as required with the **Bevel** (or "chamfer") tool.  Its operation is similar to the fillet tool:
-
-   ::
-
-      ch
-
-   .. note::
-      Ensure with "Trim" is checked and "Length 1" and "Length 2" is set at "200" in the **Tool Options**.
-
-   - As prompted on the Status Bar, select the first entity (the top horizontal line of the rectangle), and then
-   - the second entity (the right vertical line of the rectangle).
-   - Press [Esc] to exit the command.
-
 The drawing should appear as:
 
 .. figure:: /images/doohickey05.png
@@ -251,7 +241,6 @@ The drawing should appear as:
     Example #5
 
 .. actual image size 490px x 365px
-
 
 A previous example above left a diagonal line that is too long.  The length can be easily trimmed:
 
