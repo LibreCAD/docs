@@ -12,7 +12,7 @@ Creating and Editing Entities
 Drawing geometric shapes, or *entities* is familiar to many people that have used drawing and paint programs.  
 As with many programs, there are a multitude of ways to generate the desired results.  LibreCAD is the same - there are many ways to obtain the same results in a completed drawing - far too many to be able document an example for each one in a User Guide.  For users it is important know what tools are available and how to apply them.
 
-This section of the User Guide brings together many other parts of the LibreCAD manual and will show how to use a variety tools to *create* and *modify* drawings.  Be sure to read through the **Reference** section, particularly the :ref:`Fundamentals <fundamentals>`, the :ref:`Drawing Tools <tools>` and the :ref:`Snapping <snaps>` sections to obtain an understanding of the basic operation of LibreCAD and its various tools.
+This section of the **User Guide** brings together many other parts of the LibreCAD manual and will show how to use a variety tools to *create* and *modify* drawings.  Be sure to read through the **Reference** section, particularly the :ref:`Fundamentals <fundamentals>`, the :ref:`Drawing Tools <tools>` and the :ref:`Snapping <snaps>` sections to obtain an understanding of the basic operation of LibreCAD and its various tools.  It is also helpful to understand the different :ref:`View <view>` tools and commands.
 
 .. note::
     The examples below use both the the command line and the mouse for input.  In cases where the command line is used and additional input is required because of a **Tool Option** (see **Drawing Tools**) see the *note* below the command text.  Where the mouse is the primary form of input, the instructions are provided in bullet form.
@@ -30,7 +30,7 @@ Using absolute Cartesian coordinates::
 	10,110
 	k
 
-The first set of coordinates place the starting point of the line at 10 units horizontally and 10 units vertically from the origin (0,0).  The second set places the end point of the line at 10 units horizontally and 60 units vertically from the origin (0,0), resulting in a vertical line 50 units long.
+The first set of coordinates place the starting point of the line at 10 units horizontally and 10 units vertically from the origin (0,0).  The second set places the end point of the line at 10 units horizontally and 110 units vertically from the origin (0,0), resulting in a vertical line 100 units long.
 
 Or, using relative Cartesian coordinates::
 
@@ -39,7 +39,7 @@ Or, using relative Cartesian coordinates::
 	@0,100
 	k
 
-The "**@**" designates *relative coordinates*.  The *@0,50* relative Cartesian coordinates places the next point 0 units horizontally (X axis) and 50 units vertically (Y axis) from the point previously placed at 10,10.
+The "**@**" designates *relative coordinates*.  The *@0,100* relative Cartesian coordinates places the next point 0 units horizontally (X axis) and 100 units vertically (Y axis) from the point previously placed at 10,10.
 
 It can also be done with relative *polar* coordinates::
 
@@ -48,13 +48,13 @@ It can also be done with relative *polar* coordinates::
 	@100<90
 	k
 
-The "**<**" designates a **polar coordinate**.  The *@50<90* polar coordinate places the next point 500 units 90 degrees from the X axis of the point previously placed at 10,10.
+The "**<**" designates a **polar coordinate**.  The *@100<90* polar coordinate places the next point 100 units 90 degrees from the X axis of the point previously placed at 10,10.
 
 The same line can also be drawn using just the mouse.  With **Snap on Grid** |icon03| enabled:
 
     - Select the **2 Points** line tool |icon01|
     - Click at *10,10* (use the :ref:`Status Bar <statusbar>` to locate the absolute coordinates)
-    - Click at *10,100*
+    - Click at *10,110*
     - Press [Esc] or right-click twice to exit the command.
 
 Other tools can also be used achieve the same result::
@@ -65,7 +65,7 @@ Other tools can also be used achieve the same result::
 .. note::
     Ensure the *Length* is set to "100" and the *Snap Point:* is "Start" in the **Tool Options** text box.
 
-All the above examples create a line of the same length with the same start and end points.  These example help illustrate the the maultiple ways to do the same thing and helps show that the tool and method used is entirely up to the user to obtain the desired results.  The use of a particular tool may be determined by the next operation that allows the drawing to be quickly extended.  A good understanding of the available tools allows the user to select the appropriate tool for the current operation.
+All the above examples create a line of the same length with the same start and end points.  These examples help illustrate the multiple ways to achieve the same result.  The use of a particular tool may be determined by the next operation that allows the drawing to be quickly extended.  A good understanding of the available tools allows the user to select the appropriate tool for the current operation.
 
 While the above example always start at *10,10*, the initial point can be placed anywhere::
 
@@ -223,7 +223,7 @@ There are a variety of tools that can be used to edit and modify existing entiti
 
     .. actual image size 490px x 365px
 
-    Continuing with the previous example - starting with a rectangle - the shape can be modified as required with the **Bevel** (or "chamfer") tool.  Its operation is similar to the fillet tool::
+    Continuing with the alternate example - starting with a rectangle - the shape can be modified as required with the **Bevel** (or "chamfer") tool.  Its operation is similar to the fillet tool::
 
         ch
 
@@ -321,22 +321,22 @@ Geometry (Properties)
 The **Proprieties** tool also allows the *geometry* of an entity to be changed.  The geometry is the information used to describe the entity.  The geometry available depends on the type of entity, for example:
 
 .. figure:: /images/propLine.png
-    :width: 550px
-    :height: 291px
     :align: left
     :scale: 50
     :alt: Properties - Line
 
     Properties - Line
 
+.. actual image size 550px x 291px
+
 .. figure:: /images/propMText.png
-    :width: 693px
-    :height: 478px
     :align: right
     :scale: 50
     :alt: Properties - MText
 
     Properties - MText
+
+.. actual image size 693px x 478px
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -368,20 +368,40 @@ Also, the properties of a specific entity type, e.g. line, does not vary even if
     "Blocks", "Block List, Library Browser", "| Insertion point X/Y coordinates, scale X/Y,
                                                 rotation angle, array rows / columns and spacing"
 
+
+Drawing an Isometric View
+-------------------------
+
+.. figure:: /images/doohickeyIso.png
+    :align: right
+    :scale: 67
+    :alt: Doohickey - Isometric View
+
+    Doohickey - Isometric View
+
+Creating and modifying :ref:`Isometric Drawings <isometric>` uses the same tools and techniques as an orthographic drawings, but places the three axes (X, Y, Z) at 120 degree allowing 3 dimensions to be shown in a 2D view.  Isometric drafting is beyond the scope of the **User Manual**, but many resources and examples are available on the web.
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
+
+.. actual image size 515px x 515px
+
+
 ..  Icon mapping:
 .. |icon01| image:: /images/icons/line_2p.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon03| image:: /images/icons/snap_grid.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon76| image:: /images/icons/trim.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon84| image:: /images/icons/properties.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon85| image:: /images/icons/attributes.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 
