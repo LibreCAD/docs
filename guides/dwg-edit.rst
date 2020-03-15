@@ -157,13 +157,6 @@ This option will result in a image similar to what is shown above, but with the 
 
 .. admonition:: Alternate Approach
 
-    All of the above examples create the object by drawing individual lines.  A completely different approach is to start with a *rectangle*::
-
-        rec
-        10,10
-        @125,100
-        k
-
     .. figure:: /images/doohickeyAlt01.png
         :align: right
         :scale: 50
@@ -172,6 +165,13 @@ This option will result in a image similar to what is shown above, but with the 
         Alternate Approach
 
     .. actual image size 490px x 365px
+
+    All of the above examples create the object by drawing individual lines.  A completely different approach is to start with a *rectangle*::
+
+        rec
+        10,10
+        @125,100
+        k
 
     And then modify it with the "Bevel" tool (**see below**).
 
@@ -214,13 +214,6 @@ There are a variety of tools that can be used to edit and modify existing entiti
 
 .. admonition:: Alternate Approach
 
-    Continuing with the previous example - starting with a rectangle - the shape can be modified as required with the **Bevel** (or "chamfer") tool.  Its operation is similar to the fillet tool::
-
-        ch
-
-    .. note::
-        Ensure with "Trim" is checked and "Length 1" and "Length 2" is set at "50" in the **Tool Options**.
-
     .. figure:: /images/doohickeyAlt02.png
         :align: right
         :scale: 50
@@ -229,6 +222,13 @@ There are a variety of tools that can be used to edit and modify existing entiti
         Alternate Approach - with the circle
 
     .. actual image size 490px x 365px
+
+    Continuing with the previous example - starting with a rectangle - the shape can be modified as required with the **Bevel** (or "chamfer") tool.  Its operation is similar to the fillet tool::
+
+        ch
+
+    .. note::
+        Ensure with "Trim" is checked and "Length 1" and "Length 2" is set at "50" in the **Tool Options**.
 
     - As prompted on the Status Bar, select the first entity (the top horizontal line of the rectangle), and then
     - the second entity (the right vertical line of the rectangle).
