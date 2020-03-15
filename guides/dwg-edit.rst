@@ -159,16 +159,25 @@ This option will result in a image similar to what is shown above, but with the 
 
 .. admonition:: Alternate Approach
 
-   All of the above examples create the object by drawing individual lines.  A completely different approach is to start   with a *rectangle*:
+    All of the above examples create the object by drawing individual lines.  A completely different approach is to start   with a *rectangle*:
 
-   ::
+    ::
 
-      rec
-      0,0
-      600,500
-      k
+        rec
+        10,10
+        @125,100
+        k
 
-   And then modify it with the "Bevel" tool (**see below**).
+    .. figure:: /images/doohickeyAlt.png
+        :align: center
+        :scale: 67
+        :alt: Doohickey Example - Alternate Approach
+
+        Alternate Approach
+
+    .. actual image size 490px x 365px
+
+    And then modify it with the "Bevel" tool (**see below**).
 
 Circles can be added in a similar fashion.  It can be drawn by specifying the coordinates of the centre and of a point on the circumference:
 
