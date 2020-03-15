@@ -379,7 +379,7 @@ Drawing an Isometric View
 
     Doohickey - Isometric View
 
-Creating and modifying :ref:`Isometric Drawings <isometric>` uses the same tools and techniques as an orthographic drawings, but places the three axes (X, Y, Z) at 120 degree allowing 3 dimensions to be shown in a 2D view.  Isometric drafting is beyond the scope of the **User Manual**, but many resources and examples are available on the web.
+Creating and modifying :ref:`Isometric Drawings <isometric>` uses the same tools as an orthographic drawings, but places the three axes (X, Y, Z) at 120 degree allowing 3 dimensions to be shown in a 2D view.  Isometric drafting is beyond the scope of the **User Manual**, but many resources and examples are available on the web.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
