@@ -157,7 +157,7 @@ This option will result in a image similar to what is shown above, but with the 
 
 .. actual image size 490px x 365px
 
-.. sidebar:: Alternate Approach
+.. admonition:: Alternate Approach
 
     All of the above examples create the object by drawing individual lines.  A completely different approach is to start with a *rectangle*:
 
@@ -171,13 +171,15 @@ This option will result in a image similar to what is shown above, but with the 
     .. figure:: /images/doohickeyAlt01.png
         :align: center
         :scale: 33
-        :alt: Doohickey Example - Alternate Approach
+        :alt: Doohickey Example #1 - Alternate Approach
 
         Alternate Approach
 
     .. actual image size 490px x 365px
 
     And then modify it with the "Bevel" tool (**see below**).
+
+.. eo-admonition
 
 Circles can be added in a similar fashion.  It can be drawn by specifying the coordinates of the centre and of a point on the circumference:
 
@@ -213,7 +215,7 @@ Modifying Entities
 
 There are a variety of tools that can be used to edit and modify existing entities.  The tools are found in the **Tools -> Modify** menu or as a drawing tool :ref:`dock widget <widgets>`.  These tools allow entities, depending on the type, to be moved, rotated, scaled, mirrored, lengths increased or decreased, divided (i.e. split), etc.  A complete list and descriptions of the tools can be found in the :ref:`Drawing Tools - Modify <tool-modify>` reference section.
 
-.. sidebar:: Alternate Approach
+.. admonition:: Alternate Approach
 
     Continuing with the previous example - starting with a rectangle - the shape can be modified as required with the **Bevel** (or "chamfer") tool.  Its operation is similar to the fillet tool:
 
@@ -231,13 +233,13 @@ There are a variety of tools that can be used to edit and modify existing entiti
     .. figure:: /images/doohickeyAlt02.png
         :align: center
         :scale: 33
-        :alt: Doohickey Example - Alternate Approach
+        :alt: Doohickey Example #2 - Alternate Approach
 
         Alternate Approach
 
     .. actual image size 490px x 365px
 
-.. eoSidebar
+.. eo-admonition
 
 A rounded corner can be added to the drawing's the lower left corner with the **Fillets** tool:
 
