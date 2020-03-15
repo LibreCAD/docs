@@ -63,7 +63,7 @@ Other tools can also be used achieve the same result::
     10,10
 
 .. note::
-   Ensure the *Length* is set to "100" and the *Snap Point:* is "Start" in the **Tool Options** text box.
+    Ensure the *Length* is set to "100" and the *Snap Point:* is "Start" in the **Tool Options** text box.
 
 All the above examples create a line of the same length with the same start and end points.  These example help illustrate the the maultiple ways to do the same thing and helps show that the tool and method used is entirely up to the user to obtain the desired results.  The use of a particular tool may be determined by the next operation that allows the drawing to be quickly extended.  A good understanding of the available tools allows the user to select the appropriate tool for the current operation.
 
@@ -165,7 +165,7 @@ This option will result in a image similar to what is shown above, but with the 
         k
 
     .. figure:: /images/doohickeyAlt01.png
-        :align: left
+        :align: right
         :scale: 50
         :alt: Doohickey Example #1 - Alternate Approach
 
@@ -214,18 +214,12 @@ There are a variety of tools that can be used to edit and modify existing entiti
 
 .. admonition:: Alternate Approach
 
-    Continuing with the previous example - starting with a rectangle - the shape can be modified as required with the **Bevel** (or "chamfer") tool.  Its operation is similar to the fillet tool:
-
-    ::
+    Continuing with the previous example - starting with a rectangle - the shape can be modified as required with the **Bevel** (or "chamfer") tool.  Its operation is similar to the fillet tool::
 
         ch
 
     .. note::
         Ensure with "Trim" is checked and "Length 1" and "Length 2" is set at "50" in the **Tool Options**.
-
-    - As prompted on the Status Bar, select the first entity (the top horizontal line of the rectangle), and then
-    - the second entity (the right vertical line of the rectangle).
-    - Press [Esc] to exit the command.
 
     .. figure:: /images/doohickeyAlt02.png
         :align: right
@@ -236,19 +230,21 @@ There are a variety of tools that can be used to edit and modify existing entiti
 
     .. actual image size 490px x 365px
 
+    - As prompted on the Status Bar, select the first entity (the top horizontal line of the rectangle), and then
+    - the second entity (the right vertical line of the rectangle).
+    - Press [Esc] to exit the command.
+
     .. Force end of left / right text wrap
     .. include:: /inclFiles/eoWrap.rst
 
 .. eo-admonition
 
-A rounded corner can be added to the drawing's the lower left corner with the **Fillet** tool:
-
-::
+A rounded corner can be added to the drawing's the lower left corner with the **Fillet** tool::
 
    fi
 
 .. note::
-   Ensure with "Trim" is checked and "Radius" is set at "10" in the **Tool Options**.
+    Ensure with "Trim" is checked and "Radius" is set at "10" in the **Tool Options**.
 
 - As prompted in the "Command Line" dock, and on the Status Bar, select the first entity (the bottom horizontal line of the rectangle), and then 
 - select the second entity (the left vertical line of the rectangle).
