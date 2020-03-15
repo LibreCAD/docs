@@ -179,6 +179,9 @@ This option will result in a image similar to what is shown above, but with the 
 
     And then modify it with the "Bevel" tool (**see below**).
 
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
 .. eo-admonition
 
 Circles can be added in a similar fashion.  It can be drawn by specifying the coordinates of the centre and of a point on the circumference:
@@ -231,13 +234,16 @@ There are a variety of tools that can be used to edit and modify existing entiti
     - Press [Esc] to exit the command.
 
     .. figure:: /images/doohickeyAlt02.png
-        :align: left
+        :align: right
         :scale: 50
         :alt: Doohickey Example #2 - Alternate Approach
 
         Alternate Approach - with the circle
 
     .. actual image size 490px x 365px
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 .. eo-admonition
 
