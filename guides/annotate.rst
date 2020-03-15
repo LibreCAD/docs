@@ -98,11 +98,14 @@ Examples
 ````````
 
 .. figure:: /images/dimnEg.png
-    :width: 948px
-    :height: 492px
     :align: center
     :scale: 75
     :alt: Dimension example
+
+    Dimension example
+
+.. actual image size 1225px x 540px
+
 
 Leaders
 -------
