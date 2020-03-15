@@ -15,7 +15,7 @@ As with many programs, there are a multitude of ways to generate the desired res
 This section of the User Guide brings together many other parts of the LibreCAD manual and will show how to use a variety tools to *create* and *modify* drawings.  Be sure to read through the **Reference** section, particularly the :ref:`Fundamentals <fundamentals>`, the :ref:`Drawing Tools <tools>` and the :ref:`Snapping <snaps>` sections to obtain an understanding of the basic operation of LibreCAD and its various tools.
 
 .. note::
-   The examples below use both the the command line and the mouse for input.  In cases where the command line is used and additional input is required because of a **Tool Option** (see **Drawing Tools**) see the *note* below the command text.  Where the mouse is the primary form of input, the instructions are provided in bullet form.
+    The examples below use both the the command line and the mouse for input.  In cases where the command line is used and additional input is required because of a **Tool Option** (see **Drawing Tools**) see the *note* below the command text.  Where the mouse is the primary form of input, the instructions are provided in bullet form.
 
 
 Creating Entities
@@ -52,17 +52,15 @@ The "**<**" designates a **polar coordinate**.  The *@50<90* polar coordinate pl
 
 The same line can also be drawn using just the mouse.  With **Snap on Grid** |icon03| enabled:
 
-   - Select the **2 Points** line tool |icon01|
-   - Click at *10,10* (use the :ref:`Status Bar <statusbar>` to locate the absolute coordinates)
-   - Click at *10,100*
-   - Press [Esc] or right-click twice to exit the command.
+    - Select the **2 Points** line tool |icon01|
+    - Click at *10,10* (use the :ref:`Status Bar <statusbar>` to locate the absolute coordinates)
+    - Click at *10,100*
+    - Press [Esc] or right-click twice to exit the command.
 
-Other tools can also be used achieve the same result:
+Other tools can also be used achieve the same result::
 
-::
-
-   ver   
-   10,10
+    ver   
+    10,10
 
 .. note::
    Ensure the *Length* is set to "100" and the *Snap Point:* is "Start" in the **Tool Options** text box.
@@ -78,12 +76,12 @@ While the above example always start at *10,10*, the initial point can be placed
 
 Drawings are generally created with multiple lines segments with the end of one segment being the start of another.  Lines can be drawn with multiple connected segments by using the end of the current segment as the starting point and defining the end point of the next segment.  Further, additional points can be defined using any of the methods previously shown::
 
-   li
-   10,110
-   10,10
-   @125,0
-   @50<90
-   k
+    li
+    10,110
+    10,10
+    @125,0
+    @50<90
+    k
 
 .. figure:: /images/doohickey01.png
     :align: center
@@ -96,22 +94,22 @@ Drawings are generally created with multiple lines segments with the end of one 
 
 Using the mouse, or another pointing device, along with the "Snaps" provide an alternative to using the command line for creating drawings.  As with the command line, there are multiple line tools that can be used to produce the same result.  For example, adding the to the the previous example, a horizontal line can be added using various methods:
 
-   - Click the **2 Points** line tool icon.
-   - Enable the "Snap on Endpoints" snap tool and click close to the end of the line at *absolute coordinate* 10,100.
-   - Drag the mouse to the right and, with the "Snap on Grid" snap enabled, place a point at 85,110.  Clicking the mouse should result in a horizontal line ending at precisely at 85,110.
-   - Press [Esc] to exit the complete the command.
+    - Click the **2 Points** line tool icon.
+    - Enable the "Snap on Endpoints" snap tool and click close to the end of the line at *absolute coordinate* 10,100.
+    - Drag the mouse to the right and, with the "Snap on Grid" snap enabled, place a point at 85,110.  Clicking the mouse should result in a horizontal line ending at precisely at 85,110.
+    - Press [Esc] to exit the complete the command.
 
 .. hint::
-   It may be necessary to "Zoom In" to ensure the grid is at the correct resolution to be able to accurately place a line's start or end point.
+    It may be necessary to "Zoom In" to ensure the grid is at the correct resolution to be able to accurately place a line's start or end point.
 
 A combination of the **2 Points** line tool the "Restrict Horizontal" snap tool can also be use as an alternative to "Snap on Grid". 
 
 Alternatively, a horizontal line can be added:
 
-   - Click the **Horizontal** line tool icon.
-   - On the "Tool Options" tool bar specify a length of 75 units and the "Snap Point" at the "Start".
-   - With the "Snap on Endpoints" enabled click close to the end of the line at *absolute coordinate* 10,110.  Clicking the mouse should result in a horizontal line ending at 85,110.
-   - Press [Esc] to exit the complete the command.
+    - Click the **Horizontal** line tool icon.
+    - On the "Tool Options" tool bar specify a length of 75 units and the "Snap Point" at the "Start".
+    - With the "Snap on Endpoints" enabled click close to the end of the line at *absolute coordinate* 10,110.  Clicking the mouse should result in a horizontal line ending at 85,110.
+    - Press [Esc] to exit the complete the command.
 
 .. figure:: /images/doohickey02.png
     :align: center
@@ -124,10 +122,10 @@ Alternatively, a horizontal line can be added:
 
 Being that the end points of the existing lines have been established, the outline can be  completed quickly with the addition of a line:
 
-   - Click the **2 Points** line tool icon.
-   - Enable the "Snap on Endpoints" snap tool and click close to the end of the line at *absolute coordinate* 400,500.
-   - Drag the mouse to the right and down and place a point close to 600,300.  Clicking the mouse should result in a line angled down and to the right, closing the object's outline.
-   - Press [Esc] to exit the command.
+    - Click the **2 Points** line tool icon.
+    - Enable the "Snap on Endpoints" snap tool and click close to the end of the line at *absolute coordinate* 400,500.
+    - Drag the mouse to the right and down and place a point close to 600,300.  Clicking the mouse should result in a line angled down and to the right, closing the object's outline.
+    - Press [Esc] to exit the command.
 
 Whichever of the above methods is used, the result should be similar to:
 
@@ -142,9 +140,9 @@ Whichever of the above methods is used, the result should be similar to:
 
 Another option is to draw the line at the desired angle:
 
-   - Click the **Angle** line tool icon.
-   - On the "Tool Options" tool bar specify an *Angle* of "135", a *Length* of "300" units and the *Snap Point* at the "Start".
-   - With the "Snap on Endpoints" enabled, click close to the end of the line at *absolute coordinate* 600,300.  Clicking the mouse should result in a line angled up and to the left.
+    - Click the **Angle** line tool icon.
+    - On the "Tool Options" tool bar specify an *Angle* of "135", a *Length* of "300" units and the *Snap Point* at the "Start".
+    - With the "Snap on Endpoints" enabled, click close to the end of the line at *absolute coordinate* 600,300.  Clicking the mouse should result in a line angled up and to the left.
 
 This option will result in a image similar to what is shown above, but with the diagonal line being a bit too long.  The line can be *trimmed* to suit (see "*Modifying Entities*" below):
 
@@ -159,9 +157,7 @@ This option will result in a image similar to what is shown above, but with the 
 
 .. admonition:: Alternate Approach
 
-    All of the above examples create the object by drawing individual lines.  A completely different approach is to start with a *rectangle*:
-
-    ::
+    All of the above examples create the object by drawing individual lines.  A completely different approach is to start with a *rectangle*::
 
         rec
         10,10
@@ -179,27 +175,25 @@ This option will result in a image similar to what is shown above, but with the 
 
     And then modify it with the "Bevel" tool (**see below**).
 
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
+    .. Force end of left / right text wrap
+    .. include:: /inclFiles/eoWrap.rst
 
 .. eo-admonition
 
-Circles can be added in a similar fashion.  It can be drawn by specifying the coordinates of the centre and of a point on the circumference:
+Circles can be added in a similar fashion.  It can be drawn by specifying the coordinates of the centre and of a point on the circumference::
 
-::
-
-   ci
-   50,70
-   @0,20
-   k
+    ci
+    50,70
+    @0,20
+    k
 
 
 A circle of a given size can also be drawn with a known radius:
 
-   - Click the *Circle, Radius* tool icon.
-   - On the "Tool Options" tool bar specify a *Radius* of "100".
-   - With the "Snap on grid" place the centre of the circle at *absolute coordinate* 200,300.
-   - Press [Esc] to exit the command, or click the right mouse button once.
+    - Click the *Circle, Radius* tool icon.
+    - On the "Tool Options" tool bar specify a *Radius* of "100".
+    - With the "Snap on grid" place the centre of the circle at *absolute coordinate* 200,300.
+    - Press [Esc] to exit the command, or click the right mouse button once.
 
 The drawing should now appear as: 
 
@@ -242,8 +236,8 @@ There are a variety of tools that can be used to edit and modify existing entiti
 
     .. actual image size 490px x 365px
 
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
+    .. Force end of left / right text wrap
+    .. include:: /inclFiles/eoWrap.rst
 
 .. eo-admonition
 
