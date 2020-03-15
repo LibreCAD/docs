@@ -169,8 +169,8 @@ This option will result in a image similar to what is shown above, but with the 
         k
 
     .. figure:: /images/doohickeyAlt01.png
-        :align: center
-        :scale: 33
+        :align: left
+        :scale: 50
         :alt: Doohickey Example #1 - Alternate Approach
 
         Alternate Approach
@@ -231,17 +231,17 @@ There are a variety of tools that can be used to edit and modify existing entiti
     - Press [Esc] to exit the command.
 
     .. figure:: /images/doohickeyAlt02.png
-        :align: center
-        :scale: 33
+        :align: left
+        :scale: 50
         :alt: Doohickey Example #2 - Alternate Approach
 
-        Alternate Approach
+        Alternate Approach - with the circle
 
     .. actual image size 490px x 365px
 
 .. eo-admonition
 
-A rounded corner can be added to the drawing's the lower left corner with the **Fillets** tool:
+A rounded corner can be added to the drawing's the lower left corner with the **Fillet** tool:
 
 ::
 
@@ -265,7 +265,7 @@ The drawing should appear as:
 
 .. actual image size 490px x 365px
 
-A previous example above left a diagonal line that is too long.  The length can be easily trimmed:
+*Example 3a* above left a diagonal line that is too long.  The length can be easily trimmed:
 
    - Click the "Trim" icon |icon76|
    - Click the top horizontal line.  This line is the "limiting entity" that determines where the second line is going to be trimmed to.
