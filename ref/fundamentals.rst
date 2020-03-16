@@ -488,14 +488,14 @@ Isometric Drawings
 
 .. figure:: /images/isometric.png
     :align: right
-    :scale: 50
+    :scale: 67
     :alt: Isometric Axes
 
     Isometric X, Y ,Z Axes
 
 .. actual image size 365px x 273px
 
-LibreCAD can also be used to create drawings with an *isometric perspective*.  Creating isometric drawings is similar to creating orthogonal drawings, but with an additional consideration towards combining multiple views in a single perspective.  Instead of the two axes (X,Y) used with orthogonal drawings, isometric drawing are represented on three axes (X,Y,Z) with 120 |deg| in a two dimensional drawing.
+LibreCAD can also be used to create drawings with an *isometric perspective*.  Creating isometric drawings is similar to creating orthogonal drawings, but with an additional consideration towards combining multiple views in a single perspective.  Instead of the two axes (X,Y) used with orthogonal drawings, isometric drawing are represented in a two dimensional drawing on three axes (X,Y,Z) with 120 |deg| between each axis.
 
 See :ref:`Drawing an Isometric View <dwg-iso>` in **Drawing and Editing** section of the **User Guide** for details on configuring LibreCAD for isometric drafting.  Isometric drafting does require some techniques unique to an isometric projection and is beyond the scope of the **LibreCAD User Manual**, but many resources and examples are available on the web.
 
