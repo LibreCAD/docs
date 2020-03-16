@@ -388,6 +388,9 @@ Orthogonal drawings include additional views that allow a complete description o
 
 Orthogonal drafting beyond the scope of the **LibreCAD User Manual**, but many resources and examples are available on the web.
 
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
 
 .. _dwg-isometric:
 
@@ -408,7 +411,6 @@ Isometric drawings uses the same tools for creating, modifying and changing attr
 In addition to setting the grid for isometric drawings, the "Snap indicator lines" on the **Appearance** tab of :ref:`Application Preferences <app-prefs>` can be set to "Isometric" to assist in with locating entities on the grid.  The "Isometric" crosshairs can be configured to Left, Top or Right to further aid in locating points on the grid.
 
 Isometric drafting does require some techniques unique to isometric projection and is beyond the scope of the **LibreCAD User Manual**, but many resources and examples are available on the web.
-
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
