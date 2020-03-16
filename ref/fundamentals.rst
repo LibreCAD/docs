@@ -405,6 +405,8 @@ Using a Mouse
 
 Entities' coordinates can also be located graphically using a mouse or other pointing device.  Using a mouse is less precise, but may be acceptable for rough sketches or other freehand work.  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps <snaps>`.  
 
+.. _keyboard:
+
 Using the Keyboard
 ``````````````````
 
@@ -451,7 +453,7 @@ Selected entities display “handles”.  Handles allow the entities to be manip
         :scale: 50
         :alt: Entity Handles
 
-.. actual image size 7684px x 341px
+.. actual image size 768px x 341px
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -486,7 +488,26 @@ Entities are drawn on a 2D plane, but can overlay each other and have levels tha
 Isometric Drawings
 ------------------
 
-LibreCAD can also be used to create drawings with an **isometric** projection.  Creating isometric drawings is similar to creating orthogonal drawings, but with an additional consideration towards the perspective of the drawing.  The **Grid** tab of :ref:`Drawing Preferences <draw-prefs>` allows users to set the grid to suit isometric drawings.  Setting the "Snap Indicator Lines" on the **Appearance** tab on the :ref:`Application Preferences <app-prefs>` to *Isometric* will also assist in with locating entities.
+.. figure:: /images/isometric.png
+    :align: right
+    :scale: 67
+    :alt: Isometric Axes
+
+    Isometric X, Y ,Z Axes
+
+.. actual image size 365px x 273px
+
+LibreCAD can also be used to create drawings with an *isometric perspective*.  Creating isometric drawings is similar to creating orthogonal drawings, but with an additional consideration towards combining multiple views in a single perspective.  Instead of the two axes (X,Y) used with orthogonal drawings, isometric drawing are represented in a two dimensional drawing on three axes (X,Y,Z) with 120 |deg| between each axis.
+
+See :ref:`Drawing an Isometric View <dwg-isometric>` in **Drawing and Editing** section of the **User Guide** for details on configuring LibreCAD for isometric drafting.
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
+
+.. Symbols
+
+.. |deg| unicode:: U+00B0
 
 
 ..  Icon mapping:
