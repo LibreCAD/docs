@@ -48,11 +48,12 @@ It can also be done with relative *polar* coordinates::
 	@100<90
 	k
 
-The "**<**" designates a **polar coordinate**.  The *@100<90* polar coordinate places the next point 100 units 90 degrees from the X axis of the point previously placed at 10,10.
+The "**<**" designates a *polar coordinate*.  The *@100<90* polar coordinate places the next point 100 units 90 degrees from the X axis of the point previously placed at 10,10.
 
-The same line can also be drawn using just the mouse.  With **Snap on Grid** |icon03| enabled:
+The same line can also be drawn using just the mouse:
 
-    - Select the **2 Points** line tool |icon01|
+    - Enabled **Snap on Grid** |icon03a|.
+    - Select the **2 Points** line tool |icon01|.
     - Click at *10,10* (use the :ref:`Status Bar <statusbar>` to locate the absolute coordinates)
     - Click at *10,110*
     - Press [Esc] or right-click twice to exit the command.
@@ -63,7 +64,7 @@ Other tools can also be used achieve the same result::
     10,10
 
 .. note::
-    Ensure the *Length* is set to "100" and the *Snap Point:* is "Start" in the **Tool Options** text box.
+    Ensure the *Length* is set to "100" and the *Snap Point:* is "Start" in the "Tool Options" text box.
 
 All the above examples create a line of the same length with the same start and end points.  These examples help illustrate the multiple ways to achieve the same result.  The use of a particular tool may be determined by the next operation that allows the drawing to be quickly extended.  A good understanding of the available tools allows the user to select the appropriate tool for the current operation.
 
@@ -92,24 +93,26 @@ Drawings are generally created with multiple lines segments with the end of one 
 
 .. actual image size 490px x 365px
 
-Using the mouse, or another pointing device, along with the "Snaps" provide an alternative to using the command line for creating drawings.  As with the command line, there are multiple line tools that can be used to produce the same result.  For example, adding the to the the previous example, a horizontal line can be added using various methods:
+Using the mouse, or another pointing device, along with the snapping tools provide an alternative to using the command line for creating drawings.  As with the command line, there are multiple line tools that can be used to produce the same result.  For example, adding the to the the previous example, a horizontal line can be added using various methods:
 
     - Click the **2 Points** line tool icon.
-    - Enable the "Snap on Endpoints" snap tool and click close to the end of the line at *absolute coordinate* 10,100.
-    - Drag the mouse to the right and, with the "Snap on Grid" snap enabled, place a point at 85,110.  Clicking the mouse should result in a horizontal line ending at precisely at 85,110.
-    - Press [Esc] to exit the complete the command.
+    - Enable the **Snap on Endpoints** |icon04| and click close to the end of the line at *absolute coordinate* 10,110.
+    - Drag the mouse to the right and, with the **Snap on Grid** enabled, place a point at *absolute coordinate* 85,110.  Clicking the mouse should result in a horizontal line ending at precisely at 85,110.
+    - Press [Esc] or right-click to exit the command.
+
 
 .. hint::
     It may be necessary to "Zoom In" to ensure the grid is at the correct resolution to be able to accurately place a line's start or end point.
 
-A combination of the **2 Points** line tool the "Restrict Horizontal" snap tool can also be use as an alternative to "Snap on Grid". 
+A combination of the **2 Points** line tool the **Restrict Horizontal** tool |icon10| can also be use as an alternative to **Snap on Grid**. 
 
 Alternatively, a horizontal line can be added:
 
-    - Click the **Horizontal** line tool icon.
+    - Click the **Horizontal** line tool icon |icon03|.
     - On the "Tool Options" tool bar specify a length of 75 units and the "Snap Point" at the "Start".
-    - With the "Snap on Endpoints" enabled click close to the end of the line at *absolute coordinate* 10,110.  Clicking the mouse should result in a horizontal line ending at 85,110.
-    - Press [Esc] to exit the complete the command.
+    - With the **Snap on Endpoints** enabled click close to the end of the line at *absolute coordinate* 10,110.  Clicking the mouse should result in a horizontal line ending at 85,110.
+    - Press [Esc] or right-click to exit the command.
+
 
 .. figure:: /images/doohickey02.png
     :align: center
@@ -123,9 +126,10 @@ Alternatively, a horizontal line can be added:
 Being that the end points of the existing lines have been established, the outline can be  completed quickly with the addition of a line:
 
     - Click the **2 Points** line tool icon.
-    - Enable the "Snap on Endpoints" snap tool and click close to the end of the line at *absolute coordinate* 400,500.
-    - Drag the mouse to the right and down and place a point close to 600,300.  Clicking the mouse should result in a line angled down and to the right, closing the object's outline.
-    - Press [Esc] to exit the command.
+    - Enable the **Snap on Endpoints** and click close to the end of the line at *absolute coordinate* 85,110.
+    - Drag the mouse to the right and down and place a point close to 135,60.  Clicking the mouse should result in a line angled down and to the right, closing the object's outline.
+    - Press [Esc] or right-click twice to exit the command.
+
 
 Whichever of the above methods is used, the result should be similar to:
 
@@ -140,9 +144,10 @@ Whichever of the above methods is used, the result should be similar to:
 
 Another option is to draw the line at the desired angle:
 
-    - Click the **Angle** line tool icon.
-    - On the "Tool Options" tool bar specify an *Angle* of "135", a *Length* of "300" units and the *Snap Point* at the "Start".
-    - With the "Snap on Endpoints" enabled, click close to the end of the line at *absolute coordinate* 600,300.  Clicking the mouse should result in a line angled up and to the left.
+    - Click the **Angle** line tool icon |icon02|.
+    - On the "Tool Options" tool bar specify an *Angle* of "135", a *Length* of "80" units and the *Snap Point* at the "Start".
+    - With the **Snap on Endpoints** enabled, click close to the end of the line at *absolute coordinate* 135,60.  Clicking the mouse should result in a line angled up and to the left.
+    - Press [Esc] to exit the command.
 
 This option will result in a image similar to what is shown above, but with the diagonal line being a bit too long.  The line can be *trimmed* to suit (see "*Modifying Entities*" below):
 
@@ -180,7 +185,7 @@ This option will result in a image similar to what is shown above, but with the 
 
 .. eo-admonition
 
-Circles can be added in a similar fashion.  It can be drawn by specifying the coordinates of the centre and of a point on the circumference::
+Circles can be added in a similar fashion.  It can be drawn with the "Center, Point" tool by specifying the coordinates for the centre of the circle and of a point on the circumference::
 
     ci
     50,70
@@ -190,10 +195,10 @@ Circles can be added in a similar fashion.  It can be drawn by specifying the co
 
 A circle of a given size can also be drawn with a known radius:
 
-    - Click the *Circle, Radius* tool icon.
-    - On the "Tool Options" tool bar specify a *Radius* of "100".
-    - With the "Snap on grid" place the centre of the circle at *absolute coordinate* 200,300.
-    - Press [Esc] to exit the command, or click the right mouse button once.
+    - Click the *Circle, Radius* tool icon |icon19|.
+    - On the "Tool Options" tool bar specify a *Radius* of "40".
+    - With the **Snap on Grid** place the centre of the circle at *absolute coordinate* 50,70.
+    - Press [Esc] or right-click to exit the command.
 
 The drawing should now appear as: 
 
@@ -231,12 +236,11 @@ There are a variety of tools that can be used to edit and modify existing entiti
     .. include:: /inclFiles/eoWrap.rst
 
     .. note::
-        Ensure with "Trim" is checked and "Length 1" and "Length 2" is set at "50" in the **Tool Options**.
+        Ensure with "Trim" is checked, and "Length 1" and "Length 2" is set at "50" in the "Tool Options".
 
     - As prompted on the Status Bar, select the first entity (the top horizontal line of the rectangle), and then
     - the second entity (the right vertical line of the rectangle).
-    - Press [Esc] to exit the command.
-
+    - Press [Esc] or right-click to exit the command.
 
 .. eo-admonition
 
@@ -245,11 +249,11 @@ A rounded corner can be added to the drawing's the lower left corner with the **
    fi
 
 .. note::
-    Ensure with "Trim" is checked and "Radius" is set at "10" in the **Tool Options**.
+    Ensure with "Trim" is checked and "Radius" is set at "10" in the "Tool Options".
 
-- As prompted in the "Command Line" dock, and on the Status Bar, select the first entity (the bottom horizontal line of the rectangle), and then 
-- select the second entity (the left vertical line of the rectangle).
-- Press [Esc] to exit the command.
+    - As prompted in the "Command Line" dock, and on the Status Bar, select the first entity (the bottom horizontal line of the rectangle), and then 
+    - Select the second entity (the left vertical line of the rectangle).
+    - Press [Esc] or right-click to exit the command.
 
 The drawing should appear as:
 
@@ -264,10 +268,10 @@ The drawing should appear as:
 
 *Example 3a* above left a diagonal line that is too long.  The length can be easily trimmed:
 
-   - Click the "Trim" icon |icon76|
-   - Click the top horizontal line.  This line is the "limiting entity" that determines where the second line is going to be trimmed to.
-   - Click the line to be trimmed, the "entity to trim" anywhere along the line that is to be kept (below the top horizontal line).
-   - Press [Esc] to exit the command.
+    - Click the "Trim" icon |icon76|
+    - Click the top horizontal line.  This line is the "limiting entity" that determines where the second line is going to be trimmed to.
+    - Click the line to be trimmed, the "entity to trim" anywhere along the line that is to be kept (below the top horizontal line).
+    - Press [Esc] or right-click to exit the command.
 
 .. important:: 
    These examples do not provide an example of every tool available in LibreCAD, but is intended to show the basic operation of some of the drawing and modifications tools.  Most of the other drawing and modifying tools work in a similar manner.  Being familiar with the :ref:`Drawing <tools>` and :ref:`Modify <tool-modify>` tools in the **Reference** section will help determine what tool can be used in a particular situation.
@@ -280,10 +284,10 @@ Changing Attributes and Properties
 
 As shown in the :ref:`Entities <entities>` section in **Fundamentals**, an entity consists of "Pens" (color, width, line type) and "Layers".  These *attributes* can be changed using one of two :ref:`Modify <tool-modify>` tools:
 
-   - **Attributes**: allows the "Pen" or "Layers" to be modified for one or more entities.
-   - **Properties**: allows the "Pen", "Layers" or geometry *of a single entity* to be modified.
+    - **Attributes**: allows the "Pen" or "Layers" to be modified for one or more entities.
+    - **Properties**: allows the "Pen", "Layers" or geometry *of a single entity* to be modified.
 
-Both tools operate in a similar fashion and for similar purposes, but there are a couple of key differences.  The **Attributes** tool allows a change to the attributes to be applied to *one or more selected entities* while the **Proprieties** tool can only be used for a *single entity*.  In addition, the **Properties** tool allows the *geometry* to be edited.  The geometry of an entity will vary be the type of entity.  For example a line's geometry consist of the X and Y coordinates of the endpoints, while a circles geometry consists of the X /Y coordinates of the centre of the circle and its radius.  
+Both tools operate in a similar fashion and for similar purposes, but there are a couple of key differences.  The **Attributes** tool allows a change to the attributes to be applied to *one or more selected entities* while the **Proprieties** tool can only be used for a *single entity*.  In addition, the **Properties** tool allows the *geometry* to be edited.  The geometry of an entity will vary be the type of entity.  For example a line's geometry consist of the X and Y coordinates of the endpoints, while a circles geometry consists of the X/Y coordinates of the centre of the circle and its radius.  
 
 
 Layers and Pens
@@ -293,27 +297,27 @@ Change an entity's layer is similar with both the **Attributes** and **Proprieti
 
 Using the **Attributes** to change an entity's layer:
 
-	- Select the entity (or entities) to be moved to a different layer.
+    - Select the entity (or entities) to be moved to a different layer.
 	- From the menu select **Tools -> Modify -> Attributes**, or click the **Attributes** icon |icon85|.
-	- In the *Attributes* dialog, select the desired layer from the drop-down *Layer* selection box.
-	- Click **Ok**.
+    - In the *Attributes* dialog, select the desired layer from the drop-down *Layer* selection box.
+    - Click **Ok**.
 
 .. hint::
    Entities can also be moved from one layer to another by selecting one or more entities and then selecting the new *destination* layer in the **Layer List** dock.  To use this method the *Modify layer of selected entities, at layer activation* option on the **Application Preferences** **Defaults** tab must be enabled.
 
 In a similar manner the color, width and/or line type can be changed:
 
-	- Select the entity (or entities) to be moved to a different layer.
-	- From the menu select **Tools -> Modify -> Attributes**, or click the **Attributes** icon |icon85|.
-	- In the *Attributes* dialog, select the desired pen attribute from the drop-down *Color, Width* and/or *Line type* selection box.
-	- Click **Ok**.
+    - Select the entity (or entities) to be moved to a different layer.
+    - From the menu select **Tools -> Modify -> Attributes**, or click the **Attributes** icon |icon85|.
+    - In the *Attributes* dialog, select the desired pen attribute from the drop-down *Color, Width* and/or *Line type* selection box.
+    - Click **Ok**.
 
 The **Proprieties** tool operates in a similar manner, but the tool need to be selected *before* selecting an entity:
 
-	- From the menu select **Tools -> Modify -> Proprieties**, or click the **Proprieties** icon |icon84|.
-	- Select the entity.
-	- In the *Proprieties* dialog, select the desired layer or pen attribute from the appropriate selection box.
-	- Click **Ok**.
+    - From the menu select **Tools -> Modify -> Proprieties**, or click the **Proprieties** icon |icon84|.
+    - Select the entity.
+    - In the *Proprieties* dialog, select the desired layer or pen attribute from the appropriate selection box.
+    - Click **Ok**.
 
 
 Geometry (Properties)
@@ -423,7 +427,22 @@ Isometric drafting does require some techniques unique to isometric projection a
 .. |icon01| image:: /images/icons/line_2p.svg
             :height: 18
             :width: 18
-.. |icon03| image:: /images/icons/snap_grid.svg
+.. |icon02| image:: /images/icons/line_angle.svg
+            :height: 18
+            :width: 18
+.. |icon03| image:: /images/icons/line_horizontal.svg
+            :height: 18
+            :width: 18
+.. |icon03a| image:: /images/icons/snap_grid.svg
+            :height: 18
+            :width: 18
+.. |icon04| image:: /images/icons/snap_endpoints.svg
+            :height: 18
+            :width: 18
+.. |icon10| image:: /images/icons/restr_hor.svg
+            :height: 18
+            :width: 18
+.. |icon19| image:: /images/icons/circle_center_radius.svg
             :height: 18
             :width: 18
 .. |icon76| image:: /images/icons/trim.svg
