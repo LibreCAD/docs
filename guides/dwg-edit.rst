@@ -177,7 +177,6 @@ This option will result in a image similar to what is shown above, but with the 
         k
 
     And then modify it with the "Bevel" tool (**see below**).
-
     .. Force end of left / right text wrap
     .. include:: /inclFiles/eoWrap.rst
 
@@ -231,7 +230,6 @@ There are a variety of tools that can be used to edit and modify existing entiti
     - As prompted on the Status Bar, select the first entity (the top horizontal line of the rectangle), and then
     - the second entity (the right vertical line of the rectangle).
     - Press [Esc] or right-click to exit the command.
-
     .. Force end of left / right text wrap
     .. include:: /inclFiles/eoWrap.rst
 
@@ -371,7 +369,7 @@ Drawing an Orthogonal View
 
 .. figure:: /images/doohickeyOrtho.png
     :align: right
-    :scale: 67
+    :scale: 52
     :alt: Doohickey - Orthogonal View
 
     Doohickey - Orthogonal View with Construction Lines (blue)
@@ -408,9 +406,6 @@ Isometric drafting does require some techniques unique to isometric projection a
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
-
-
-.. actual image size 515px x 515px
 
 
 ..  Icon mapping:
