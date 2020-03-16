@@ -451,7 +451,7 @@ Selected entities display “handles”.  Handles allow the entities to be manip
         :scale: 50
         :alt: Entity Handles
 
-.. actual image size 7684px x 341px
+.. actual image size 768px x 341px
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -486,7 +486,26 @@ Entities are drawn on a 2D plane, but can overlay each other and have levels tha
 Isometric Drawings
 ------------------
 
-LibreCAD can also be used to create drawings with an **isometric** projection.  Creating isometric drawings is similar to creating orthogonal drawings, but with an additional consideration towards the perspective of the drawing.  The **Grid** tab of :ref:`Drawing Preferences <draw-prefs>` allows users to set the grid to suit isometric drawings.  Setting the "Snap Indicator Lines" on the **Appearance** tab on the :ref:`Application Preferences <app-prefs>` to *Isometric* will also assist in with locating entities.
+.. figure:: /images/isometric.png
+    :align: right
+    :scale: 50
+    :alt: Isometric Axes
+
+    Isometric X, Y ,Z Axes
+
+.. actual image size 365px x 273px
+
+LibreCAD can also be used to create drawings with an *isometric perspective*.  Creating isometric drawings is similar to creating orthogonal drawings, but with an additional consideration towards combining multiple views in a single perspective.  Instead of the two axes (X,Y) used with orthogonal drawings, isometric drawing are represented on three axes (X,Y,Z) with 120 |deg| in a two dimensional drawing.
+
+See :ref:`Drawing an Isometric View <dwg-iso>` in **Drawing and Editing** section of the **User Guide** for details on configuring LibreCAD for isometric drafting.  Isometric drafting does require some techniques unique to an isometric projection and is beyond the scope of the **LibreCAD User Manual**, but many resources and examples are available on the web.
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
+
+.. Symbols
+
+.. |deg| unicode:: U+00B0
 
 
 ..  Icon mapping:

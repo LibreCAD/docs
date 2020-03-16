@@ -4,7 +4,7 @@
 .. include:: /inclFiles/notice.rst
 
 
-.. _drawing-edit:
+.. _dwg-edit:
 
 Creating and Editing Entities
 =============================
@@ -227,6 +227,9 @@ There are a variety of tools that can be used to edit and modify existing entiti
 
         ch
 
+    .. Force end of left / right text wrap
+    .. include:: /inclFiles/eoWrap.rst
+
     .. note::
         Ensure with "Trim" is checked and "Length 1" and "Length 2" is set at "50" in the **Tool Options**.
 
@@ -234,8 +237,6 @@ There are a variety of tools that can be used to edit and modify existing entiti
     - the second entity (the right vertical line of the rectangle).
     - Press [Esc] to exit the command.
 
-    .. Force end of left / right text wrap
-    .. include:: /inclFiles/eoWrap.rst
 
 .. eo-admonition
 
@@ -368,6 +369,7 @@ Also, the properties of a specific entity type, e.g. line, does not vary even if
     "Blocks", "Block List, Library Browser", "| Insertion point X/Y coordinates, scale X/Y,
                                                 rotation angle, array rows / columns and spacing"
 
+.. _dwg-iso:
 
 Drawing an Isometric View
 -------------------------
@@ -379,7 +381,10 @@ Drawing an Isometric View
 
     Doohickey - Isometric View
 
-Creating and modifying :ref:`Isometric Drawings <isometric>` uses the same tools as an orthographic drawings, but places the three axes (X, Y, Z) at 120 degree allowing 3 dimensions to be shown in a 2D view.  Isometric drafting is beyond the scope of the **User Manual**, but many resources and examples are available on the web.
+Isometric drawings uses the same tools for creating, modifying and changing attributes as an orthographic drawings, but on a grid configuration specific for an isometric perspective.  Set the grid to suit an isometric perspective on the **Grid** tab of :ref:`Drawing Preferences <draw-prefs>`.  Selecting "Isometric Grid" displays the grid on three axes (X, Y, Z) allowing 3 dimensional drawings to be shown in a 2D view.
+
+In addition to setting the grid for isometric drawings, the "Snap indicator lines" on the **Appearance** tab of :ref:`Application Preferences <app-prefs>` can be set to "Isometric" to assist in with locating entities on the grid.  The "Isometric" crosshairs can be cofigured to Left, Top or Right to further aid in locationg points on the grid.
+
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
