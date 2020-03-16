@@ -27,7 +27,7 @@ File
 
     "Menu Item", "Icon", "Short-cut", "Description"
     "New", |icon01|, "[Ctrl]+n", "Creates a new drawing file."
-    "New from Template", |icon02|, "", "Creates a new drawing file from a template.  See :ref:`Templates <templates>` in **User Guides** for details."
+    "New from Template", |icon02|, "", "Creates a new drawing file from a template.  See :ref:`Templates <ug-templates>` in **User Guides** for details."
     "Open", |icon03|, "[Ctrl]+o", "Open existing drawing file."
     "Save", |icon04|, "[Ctrl]+s", "Save current drawing file."
     "Save as", |icon05|, "[Ctrl] [Shift]+s ", "Save current drawing file to a different location or with a new file name."

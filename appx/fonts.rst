@@ -44,7 +44,7 @@ Fonts
     "romand", "romand.lff", "Sans Serif", " ", |font29|
     "romanp", "romanp.lff", "Serif", " ", |font30|
     "romansi", "romansi.lff", "Sans Serif ","X", |font31|
-    "romans", "romans.lff", "Sans Serif ","X", |font032
+    "romans", "romans.lff", "Sans Serif ","X", |font032|
     "romant", "romant.lff", "Serif", " ", |font33|
     "scriptc", "scriptc.lff", "Formal Script", " ", |font34|
     "scripts", "scripts.lff", "Formal Script", " ", |font35|
