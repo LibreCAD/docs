@@ -108,8 +108,7 @@ A combination of the **2 Points** line tool |icon01| the **Restrict Horizontal**
 
 Alternatively, a horizontal line can be added:
 
-    - Click the **Horizontal** line tool icon |icon03|.
-    - On the "Tool Options" tool bar specify a length of 75 units and the "Snap Point" at the "Start".
+    - Click the **Horizontal** line tool icon |icon03|.  On the "Tool Options" tool bar specify a length of 75 units and the "Snap Point" at the "Start".
     - With the **Snap on Endpoints** |icon04| enabled click close to the end of the line at *absolute coordinate* 10,110.  Clicking the mouse should result in a horizontal line ending at 85,110.
     - Press [Esc] or right-click to exit the command.
 
@@ -144,8 +143,7 @@ Whichever of the above methods is used, the result should be similar to:
 
 Another option is to draw the line at the desired angle:
 
-    - Click the **Angle** line tool icon |icon02|.
-    - On the "Tool Options" tool bar specify an *Angle* of "135", a *Length* of "80" units and the *Snap Point* at the "Start".
+    - Click the **Angle** line tool icon |icon02|.  On the "Tool Options" tool bar specify an *Angle* of "135", a *Length* of "80" units and the *Snap Point* at the "Start".
     - With the **Snap on Endpoints** |icon04| enabled, click close to the end of the line at *absolute coordinate* 135,60.  Clicking the mouse should result in a line angled up and to the left.
     - Press [Esc] to exit the command.
 
@@ -195,9 +193,8 @@ Circles can be added in a similar fashion.  It can be drawn with the "Center, Po
 
 A circle of a given size can also be drawn with a known radius:
 
-    - Click the *Circle, Radius* tool icon |icon19|.
-    - On the "Tool Options" tool bar specify a *Radius* of "40".
-    - With the **Snap on Grid** |icon03a| enabled place the centre of the circle at *absolute coordinate* 50,70.
+    - Click the *Circle, Radius* tool icon |icon19|.  On the "Tool Options" tool bar specify a *Radius* of "40".
+    - With the **Snap on Grid** |icon03a| enabled, place the centre of the circle at *absolute coordinate* 50,70.
     - Press [Esc] or right-click to exit the command.
 
 The drawing should now appear as: 
@@ -230,26 +227,19 @@ There are a variety of tools that can be used to edit and modify existing entiti
 
     Continuing with the alternate example - starting with a rectangle - the shape can be modified as required with the **Bevel** (or "chamfer") tool.  Its operation is similar to the fillet tool::
 
-        ch
-
-    .. Force end of left / right text wrap
-    .. include:: /inclFiles/eoWrap.rst
-
-    .. note::
-        Ensure with "Trim" is checked, and "Length 1" and "Length 2" is set at "50" in the "Tool Options".
-
+    - Click the **Bevel** tool icon |icon80|.  Ensure with "Trim" is checked, and "Length 1" and "Length 2" is set at "50" in the "Tool Options".
     - As prompted on the Status Bar, select the first entity (the top horizontal line of the rectangle), and then
     - the second entity (the right vertical line of the rectangle).
     - Press [Esc] or right-click to exit the command.
+
+    .. Force end of left / right text wrap
+    .. include:: /inclFiles/eoWrap.rst
 
 .. eo-admonition
 
 A rounded corner can be added to the drawing's the lower left corner with the **Fillet** tool::
 
-   fi
-
-.. note::
-    Ensure with "Trim" is checked and "Radius" is set at "10" in the "Tool Options".
+    - Click the **Fillet** tool icon |icon81|.  Ensure with "Trim" is checked and "Radius" is set at "10" in the "Tool Options".
 
     - As prompted in the "Command Line" dock, and on the Status Bar, select the first entity (the bottom horizontal line of the rectangle), and then 
     - Select the second entity (the left vertical line of the rectangle).
@@ -446,6 +436,12 @@ Isometric drafting does require some techniques unique to isometric projection a
             :height: 18
             :width: 18
 .. |icon76| image:: /images/icons/trim.svg
+            :height: 18
+            :width: 18
+.. |icon80| image:: /images/icons/bevel.svg
+            :height: 18
+            :width: 18
+.. |icon81| image:: /images/icons/fillet.svg
             :height: 18
             :width: 18
 .. |icon84| image:: /images/icons/properties.svg
