@@ -369,7 +369,7 @@ Also, the properties of a specific entity type, e.g. line, does not vary even if
     "Blocks", "Block List, Library Browser", "| Insertion point X/Y coordinates, scale X/Y,
                                                 rotation angle, array rows / columns and spacing"
 
-.. _dwg-iso:
+.. _dwg-isometric:
 
 Drawing an Isometric View
 -------------------------
@@ -381,7 +381,7 @@ Drawing an Isometric View
 
     Doohickey - Isometric View
 
-Isometric drawings uses the same tools for creating, modifying and changing attributes as an orthographic drawings, but on a grid configuration specific for an isometric perspective.  Set the grid to suit an isometric perspective on the **Grid** tab of :ref:`Drawing Preferences <draw-prefs>`.  Selecting "Isometric Grid" displays the grid on three axes (X, Y, Z) allowing 3 dimensional drawings to be shown in a 2D view.
+Isometric drawings uses the same tools for creating, modifying and changing attributes as an orthographic drawings, but on a grid configuration specific for an isometric perspective.  Set the grid to suit an isometric perspective on the **Grid** tab of :ref:`Drawing Preferences <draw-prefs>`.  Selecting "Isometric Grid" displays the grid on three axes (X,Y,Z) allowing 3 dimensional drawings to be drawn in a 2D view.
 
 In addition to setting the grid for isometric drawings, the "Snap indicator lines" on the **Appearance** tab of :ref:`Application Preferences <app-prefs>` can be set to "Isometric" to assist in with locating entities on the grid.  The "Isometric" crosshairs can be cofigured to Left, Top or Right to further aid in locationg points on the grid.
 
