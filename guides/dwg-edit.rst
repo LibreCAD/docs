@@ -382,7 +382,7 @@ Drawing an Orthogonal View
 
     Doohickey - Orthogonal View with Construction Lines
 
-.. actual image size 693px x 478px
+.. actual image size 670px x 555px
 
 Orthogonal drawings include additinal views that allow a complete description of the object.  Normally a front (the most complex view), top and right view are added to the drawing.  Additional views; back, left and bottom can be added if necessary.
 
