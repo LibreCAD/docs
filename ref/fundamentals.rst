@@ -405,6 +405,8 @@ Using a Mouse
 
 Entities' coordinates can also be located graphically using a mouse or other pointing device.  Using a mouse is less precise, but may be acceptable for rough sketches or other freehand work.  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps <snaps>`.  
 
+.. _keyboard:
+
 Using the Keyboard
 ``````````````````
 
