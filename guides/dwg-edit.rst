@@ -380,11 +380,11 @@ Drawing an Orthogonal View
     :scale: 67
     :alt: Doohickey - Orthogonal View
 
-    Doohickey - Orthogonal View with Construction Lines
+    Doohickey - Orthogonal View with Construction Lines (blue)
 
 .. actual image size 670px x 555px
 
-Orthogonal drawings include additinal views that allow a complete description of the object.  Normally a front (the most complex view), top and right view are added to the drawing.  Additional views; back, left and bottom can be added if necessary.
+Orthogonal drawings include additional views that allow a complete description of the object.  Normally a front (the most complex view), top and right view are added to the drawing.  Additional views; back, left and bottom can be added if necessary.
 
 Orthogonal drafting beyond the scope of the **LibreCAD User Manual**, but many resources and examples are available on the web.
 
@@ -405,7 +405,7 @@ Drawing an Isometric View
 
 Isometric drawings uses the same tools for creating, modifying and changing attributes as an orthogonal drawings, but on a grid configuration specific for an isometric perspective.  Set the grid to suit an isometric perspective on the **Grid** tab of :ref:`Drawing Preferences <draw-prefs>`.  Selecting "Isometric Grid" displays the grid on three axes (X,Y,Z) allowing 3 dimensional drawings to be drawn in a 2D view.
 
-In addition to setting the grid for isometric drawings, the "Snap indicator lines" on the **Appearance** tab of :ref:`Application Preferences <app-prefs>` can be set to "Isometric" to assist in with locating entities on the grid.  The "Isometric" crosshairs can be cofigured to Left, Top or Right to further aid in locationg points on the grid.
+In addition to setting the grid for isometric drawings, the "Snap indicator lines" on the **Appearance** tab of :ref:`Application Preferences <app-prefs>` can be set to "Isometric" to assist in with locating entities on the grid.  The "Isometric" crosshairs can be configured to Left, Top or Right to further aid in locating points on the grid.
 
 Isometric drafting does require some techniques unique to isometric projection and is beyond the scope of the **LibreCAD User Manual**, but many resources and examples are available on the web.
 
