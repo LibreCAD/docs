@@ -95,22 +95,22 @@ Drawings are generally created with multiple lines segments with the end of one 
 
 Using the mouse, or another pointing device, along with the snapping tools provide an alternative to using the command line for creating drawings.  As with the command line, there are multiple line tools that can be used to produce the same result.  For example, adding the to the the previous example, a horizontal line can be added using various methods:
 
-    - Click the **2 Points** line tool icon.
+    - Click the **2 Points** line tool icon |icon01|.
     - Enable the **Snap on Endpoints** |icon04| and click close to the end of the line at *absolute coordinate* 10,110.
-    - Drag the mouse to the right and, with the **Snap on Grid** enabled, place a point at *absolute coordinate* 85,110.  Clicking the mouse should result in a horizontal line ending at precisely at 85,110.
+    - Drag the mouse to the right and, with the **Snap on Grid** |icon03a| enabled, place a point at *absolute coordinate* 85,110.  Clicking the mouse should result in a horizontal line ending at precisely at 85,110.
     - Press [Esc] or right-click to exit the command.
 
 
 .. hint::
     It may be necessary to "Zoom In" to ensure the grid is at the correct resolution to be able to accurately place a line's start or end point.
 
-A combination of the **2 Points** line tool the **Restrict Horizontal** tool |icon10| can also be use as an alternative to **Snap on Grid**. 
+A combination of the **2 Points** line tool |icon01| the **Restrict Horizontal** tool |icon10| can also be use as an alternative to **Snap on Grid** |icon03a|. 
 
 Alternatively, a horizontal line can be added:
 
     - Click the **Horizontal** line tool icon |icon03|.
     - On the "Tool Options" tool bar specify a length of 75 units and the "Snap Point" at the "Start".
-    - With the **Snap on Endpoints** enabled click close to the end of the line at *absolute coordinate* 10,110.  Clicking the mouse should result in a horizontal line ending at 85,110.
+    - With the **Snap on Endpoints** |icon04| enabled click close to the end of the line at *absolute coordinate* 10,110.  Clicking the mouse should result in a horizontal line ending at 85,110.
     - Press [Esc] or right-click to exit the command.
 
 
@@ -125,8 +125,8 @@ Alternatively, a horizontal line can be added:
 
 Being that the end points of the existing lines have been established, the outline can be  completed quickly with the addition of a line:
 
-    - Click the **2 Points** line tool icon.
-    - Enable the **Snap on Endpoints** and click close to the end of the line at *absolute coordinate* 85,110.
+    - Click the **2 Points** line tool icon |icon01|.
+    - Enable the **Snap on Endpoints** |icon04| and click close to the end of the line at *absolute coordinate* 85,110.
     - Drag the mouse to the right and down and place a point close to 135,60.  Clicking the mouse should result in a line angled down and to the right, closing the object's outline.
     - Press [Esc] or right-click twice to exit the command.
 
@@ -146,7 +146,7 @@ Another option is to draw the line at the desired angle:
 
     - Click the **Angle** line tool icon |icon02|.
     - On the "Tool Options" tool bar specify an *Angle* of "135", a *Length* of "80" units and the *Snap Point* at the "Start".
-    - With the **Snap on Endpoints** enabled, click close to the end of the line at *absolute coordinate* 135,60.  Clicking the mouse should result in a line angled up and to the left.
+    - With the **Snap on Endpoints** |icon04| enabled, click close to the end of the line at *absolute coordinate* 135,60.  Clicking the mouse should result in a line angled up and to the left.
     - Press [Esc] to exit the command.
 
 This option will result in a image similar to what is shown above, but with the diagonal line being a bit too long.  The line can be *trimmed* to suit (see "*Modifying Entities*" below):
@@ -197,7 +197,7 @@ A circle of a given size can also be drawn with a known radius:
 
     - Click the *Circle, Radius* tool icon |icon19|.
     - On the "Tool Options" tool bar specify a *Radius* of "40".
-    - With the **Snap on Grid** enabled place the centre of the circle at *absolute coordinate* 50,70.
+    - With the **Snap on Grid** |icon03a| enabled place the centre of the circle at *absolute coordinate* 50,70.
     - Press [Esc] or right-click to exit the command.
 
 The drawing should now appear as: 
