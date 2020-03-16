@@ -63,8 +63,8 @@ Other tools can also be used achieve the same result::
     ver   
     10,10
 
-    .. note::
-        Ensure the *Length* is set to "100" and the *Snap Point:* is "Start" in the "Tool Options" text box.
+.. note::
+    Ensure the *Length* is set to "100" and the *Snap Point:* is "Start" in the "Tool Options" text box.
 
 All the above examples create a line of the same length with the same start and end points.  These examples help illustrate the multiple ways to achieve the same result.  The use of a particular tool may be determined by the next operation that allows the drawing to be quickly extended.  A good understanding of the available tools allows the user to select the appropriate tool for the current operation.
 
