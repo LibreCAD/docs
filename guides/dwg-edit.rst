@@ -225,7 +225,7 @@ There are a variety of tools that can be used to edit and modify existing entiti
 
     .. actual image size 490px x 365px
 
-    Continuing with the alternate example - starting with a rectangle - the shape can be modified as required with the **Bevel** (or "chamfer") tool.  Its operation is similar to the fillet tool::
+    Continuing with the alternate example - starting with a rectangle - the shape can be modified as required with the **Bevel** (or "chamfer") tool.  Its operation is similar to the fillet tool:
 
     - Click the **Bevel** tool icon |icon80|.  Ensure with "Trim" is checked, and "Length 1" and "Length 2" is set at "50" in the "Tool Options".
     - As prompted on the Status Bar, select the first entity (the top horizontal line of the rectangle), and then
@@ -237,7 +237,7 @@ There are a variety of tools that can be used to edit and modify existing entiti
 
 .. eo-admonition
 
-A rounded corner can be added to the drawing's the lower left corner with the **Fillet** tool::
+A rounded corner can be added to the drawing's the lower left corner with the **Fillet** tool:
 
     - Click the **Fillet** tool icon |icon81|.  Ensure with "Trim" is checked and "Radius" is set at "10" in the "Tool Options".
 
