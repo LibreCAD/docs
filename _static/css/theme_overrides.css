@@ -57,7 +57,7 @@ table.docutils div.line-block {
 
 /* Table for layout purposes; no border or shading */
 /*  Add ":class: table-no-borders" to table definition */
-.table-no-borders table, th, td {
+div.table-no-borders table, th, td {
    /* Wrap text */
    white-space: normal;
    /* Remove ALL table borders */
