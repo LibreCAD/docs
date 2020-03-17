@@ -270,7 +270,7 @@ The drawing should appear as:
 
 
 Changing Attributes and Properties
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As shown in the :ref:`Entities <entities>` section in **Fundamentals**, an entity consists of "Pens" (color, width, line type) and "Layers".  These *attributes* can be changed using one of two :ref:`Modify <tool-modify>` tools:
 
@@ -281,7 +281,7 @@ Both tools operate in a similar fashion and for similar purposes, but there are 
 
 
 Layers and Pens
-~~~~~~~~~~~~~~~
+```````````````
 
 Change an entity's layer is similar with both the **Attributes** and **Proprieties** tools.
 
@@ -311,7 +311,7 @@ The **Proprieties** tool operates in a similar manner, but the tool need to be s
 
 
 Geometry (Properties)
-~~~~~~~~~~~~~~~~~~~~~
+`````````````````````
 
 The **Proprieties** tool also allows the *geometry* of an entity to be changed.  The geometry is the information used to describe the entity.  The geometry available depends on the type of entity, for example:
 
