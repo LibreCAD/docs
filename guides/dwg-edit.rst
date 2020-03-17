@@ -343,9 +343,6 @@ The **Proprieties** tool also allows the *geometry* of an entity to be changed. 
 
 .. actual image size 693px x 478px
 
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
-
 
 Some entities, such as a polyline, have limited properties available that can be changed.  Other entities, such as Text, have many properties that can be changes (including the text itself).
 
@@ -381,6 +378,7 @@ Drawing an Orthogonal View
 
 .. figure:: /images/doohickeyOrtho.png
     :align: right
+    :figwidth: 350
     :scale: 52
     :alt: Doohickey - Orthogonal View
 
@@ -403,6 +401,7 @@ Drawing an Isometric View
 
 .. figure:: /images/doohickeyIso.png
     :align: right
+    :figwidth: 350
     :scale: 67
     :alt: Doohickey - Isometric View
 
