@@ -1,5 +1,5 @@
 @import url("//media.readthedocs.org/css/sphinx_rtd_theme.css");
-/* @import "theme.css"; */
+@import "theme.css";
 
 /* https://stackoverflow.com/questions/32079200/how-do-i-set-up-custom-styles-for-restructuredtext-sphinx-readthedocs-etc */
 

@@ -59,6 +59,7 @@ As with many other aspects of a :ref:`drawing's setup <drawing-setup>`, there ar
 
 .. csv-table:: 
     :widths: 40, 20, 20, 20
+    :align: center
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -78,7 +79,7 @@ As with many other aspects of a :ref:`drawing's setup <drawing-setup>`, there ar
     Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
 
 
-.. topic:: Rules for Dimensioning
+.. tip:: Rules for Dimensioning
 
     A few rules will help to ensure dimensions are accurate, legible and complete:
 
