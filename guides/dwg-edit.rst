@@ -321,20 +321,18 @@ The **Proprieties** tool also allows the *geometry* of an entity to be changed. 
    :widths: auto
    :class: table-no-borders
    
-   +----------+----------+
-   | |01L|    | |01R|    |
-   +----------+----------+
+   +-----------+-----------+
+   | |01Lprop| | |01Rprop| |
+   +-----------+-----------+
 
-.. |01L| image:: /images/propLine.png
-    :scale: 50
-    :alt: Properties - Line
-    .. Properties - Line
+.. |01Lprop| image:: /images/propLine.png
+        :scale: 50
+        :alt: Properties - Line
 .. actual image size 550px x 291px
 
-.. |01R| image:: /images/propMText.png
-    :scale: 50
-    :alt: Properties - MText
-    .. Properties - MText
+.. |01Rprop| image:: /images/propMText.png
+        :scale: 50
+        :alt: Properties - MText
 .. actual image size 693px x 478px
 
 Some entities, such as a polyline, have limited properties available that can be changed.  Other entities, such as Text, have many properties that can be changes (including the text itself).

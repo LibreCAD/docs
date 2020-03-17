@@ -315,15 +315,15 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
    :class: table-no-borders
    
    +----------+----------+
-   | |01L|    | |01R|    |
+   | |01Lcol| | |01Rcol| |
    +----------+----------+
 
-.. |01L| image:: /images/coloursCustom.png
+.. |01Lcol| image:: /images/coloursCustom.png
          :scale: 67
          :alt: Custom colors
 .. actual image size 490px x 295px
 
-.. |01R| image:: /images/colourCustom.png
+.. |01Rcol| image:: /images/colourCustom.png
          :scale: 67
          :alt: Custom color selector
 .. actual image size 436px x 426px
