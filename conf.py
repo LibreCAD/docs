@@ -143,6 +143,7 @@ html_static_path = ['_static']
 html_css_files = [
     'css/theme_overrides.css',
 ]
+
 ## Added LibreCAD icon
 html_logo = 'images/librecad64X64.png'
 html_favicon = 'images/icons/librecad.ico'

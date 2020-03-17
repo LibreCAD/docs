@@ -1,0 +1,84 @@
+@import url("//media.readthedocs.org/css/sphinx_rtd_theme.css");
+@import "theme.css";
+
+/* Change RtD theme colour to LibreCAD's colours */
+
+/* Sidebar header (and topbar for mobile) */
+.wy-side-nav-search, .wy-nav-top {
+   background: #466522 !important;
+}
+
+/* Sidebar */
+.wy-nav-side {
+   background: #547a29 !important;
+   color: #000000;
+}
+
+/* Sidebar menu */
+.wy-menu-vertical a:hover {
+   background-color: #7eb63d !important;
+}
+
+/* Sidebar menu options 
+.wy-nav .wy-menu-vertical {
+    header
+        color: #7eb63d;
+    a
+        color: #f8fbf4;
+    &:hover;
+        background-color: #f8fbf4;
+        color: #000000;
+}*/
+
+/* Adjusts indent in tables when forcing line break: https://stackoverflow.com/questions/34194728/csv-table-formatting-in-python-docstrings-sphinx-multiple-lines-in-one-cell */
+table.docutils div.line-block {
+    margin-left: 2px !important;
+/*    padding-left: 0px !important;*/
+}
+
+
+/* Wrap text in table instead of scollbars: http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
+/*  Add ":class: table-fix-width" to table definitions */
+.table-fix-width table, th, td {
+   /* Wrap text */
+   white-space: normal !important;
+   /* Set table borders */
+   border: 1px solid lightgrey !important;
+   /* Adjust padding for tables; top / right / bottom / left */
+   padding: 4px 2px 4px 2px !important;
+   /* Striped table */
+   tr: nth-child(even){
+      background-color: #f2f2f2 !important;
+   }
+}
+
+
+/* Table for layout purposes; no border or shading */
+/*  Add ":class: table-no-borders" to table definition */
+.table-no-borders table, th, td {
+   /* Wrap text */
+   white-space: normal;
+   /* Remove ALL table borders */
+   border: 0px solid white;
+   /* Adjust padding for tables; top / right / bottom / left */
+   padding: 4px 2px 4px 2px !important;
+   /* Remove table shading */
+   background-color: white !important;
+   /* Align text to top left */
+   vertical-align: top;
+}
+
+
+/* Two column for image presentation */
+/* https://stackoverflow.com/questions/4550021/working-example-of-floating-image-in-restructured-text/12988688 */
+
+div.leftside {
+    width: 400px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+
+div.rightside {
+    margin-left: 400px;
+}
+
