@@ -66,6 +66,8 @@ s with many other aspects of a :ref:`drawing's setup <drawing-setup>`, there are
 .. note::
     The size of each dimension component: "Text Height", "Arrow size", etc. should be set to the desired "real world" size in the configuration.  That is to say if the desired text height is 2.5 mm when printed, the "Text Height" should remain set as 2.5 mm.  If the drawing is printed full scale (1:1) the dimension text will appear correctly.  However if the drawing is scaled up or down the "General Scale" needs to be adjusted accordingly.  The "General Scale" is set to the *inverse* of the printing scale.  For example, if the printed scale is determined to be 1:4, the "General Scale" should be set to 4 (4:1).
 
+   The minimum spacing between dimension lines needs to be scaled with the drawing.  For example, if the drawing is 1:10, the spacing will need to be adjusted to 60 mm between dimension lines and 100 mm from the entity.
+
     Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
 
 
@@ -89,16 +91,13 @@ s with many other aspects of a :ref:`drawing's setup <drawing-setup>`, there are
         - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines (*).
         - Use arrow heads or slash marks at the end of the dimension lines.
 
-.. note::
-   The minimum spacing between dimension lines needs to be scaled with the drawing.  For example, if the drawing is 1:10, the spacing will need to be adjusted to 60 mm between dimension lines and 100 mm from the entity.
-
 
 Examples
 ````````
 
 .. figure:: /images/dimnEg.png
     :align: center
-    :scale: 75
+    :scale: 100
     :alt: Dimensioning example
 
     Dimension example
@@ -112,10 +111,8 @@ Leaders
 While leaders do not dimension an entity, they are closely related to dimensioning as they are important for annotating and adding clarity to entities.  Leaders provide the ability to place pointers to identify a specific area of interest when adding a note and linking it to a particulate object.  Leaders take their settings from the :ref:`Dimensions <dimn-prefs>`.
 
 .. figure:: /images/leaderEg.png
-    :width: 748px
-    :height: 278px
     :align: center
-    :scale: 75
+    :scale: 67
     :alt: Leader example
 
 .. actual image size 768px x 324px
@@ -222,24 +219,6 @@ Both tools proved several options for the appearance and placement of text, howe
 
 ..  Icon mapping:
 
-.. |i00| image:: /images/icons/librecad.png
-            :height: 24
-            :width: 24
-.. |i01| image:: /images/icons/new.svg
-            :height: 24
-            :width: 24
-.. |i02| image:: /images/icons/open.svg
-            :height: 24
-            :width: 24
-.. |i03| image:: /images/icons/save.svg
-            :height: 24
-            :width: 24
-.. |i04| image:: /images/icons/cut.svg
-            :height: 24
-            :width: 24
-.. |i05| image:: /images/icons/copy.svg
-            :height: 24
-            :width: 24
-.. |i06| image:: /images/icons/paste.svg
+.. |icon00| image:: /images/icons/librecad.png
             :height: 24
             :width: 24
