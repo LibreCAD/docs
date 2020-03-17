@@ -315,7 +315,17 @@ Geometry (Properties)
 
 The **Proprieties** tool also allows the *geometry* of an entity to be changed.  The geometry is the information used to describe the entity.  The geometry available depends on the type of entity, for example:
 
-.. figure:: /images/propLine.png
+
+.. table::
+   :align: center
+   :widths: auto
+   :class: table-no-borders
+   
+   +----------+----------+
+   | |01L|    | |01R|    |
+   +----------+----------+
+
+.. |01L| figure:: /images/propLine.png
     :align: left
     :scale: 50
     :alt: Properties - Line
@@ -324,7 +334,7 @@ The **Proprieties** tool also allows the *geometry* of an entity to be changed. 
 
 .. actual image size 550px x 291px
 
-.. figure:: /images/propMText.png
+.. |01R| figure:: /images/propMText.png
     :align: right
     :scale: 50
     :alt: Properties - MText
