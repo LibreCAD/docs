@@ -133,22 +133,23 @@ Text
 
 Adding text to a drawing provides addition information; build notes, drawing title and related details, and so forth.  Text can be added using either of the two types of text tools:
 
-	- Text: Single line of text
-	- MText: Multi-line text
-
 .. figure:: /images/textText.png
-    :width: 557px
-    :height: 462px
     :align: left
     :scale: 50
     :alt: Text dialogue
 
+    Text dialogue
+
+.. actual image size 557px x 462px
+
 .. figure:: /images/textMText.png
-    :width: 621px
-    :height: 475px
     :align: right
     :scale: 50
     :alt: MText (multi-line) dialogue
+
+    MText (multi-line) dialogue
+
+.. actual image size 621px x 475px
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -159,70 +160,66 @@ Both tools proved several options for the appearance and placement of text, howe
     :widths: 30, 50, 10, 10
     :class: table-fix-width
 
-    +------------------------+------------------------------------------------+-------+-------+
-    | Option                 | Description                                    | Text  | MText |
-    +========================+================================================+=======+=======+
-    | **Font Settings:**                                                                      |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - Font                 | Select font for text                           |   X   |   X   |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - Height               | Set font height                                |   X   |   X   |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - Angle                | Places text at specified :ref:`angle <angles>` |   X   |   X   |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - Oblique              | *Inactive*                                     |   X   |   X   |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - Width factor         |                                                |   X   |   X   |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - Default line spacing | Use default line spacing for specified font    |   X   |   X   |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - Line spacing         |                                                |   X   |   X   |
-    +------------------------+------------------------------------------------+-------+-------+
-    | **Alignment:**                                                                          | 
-    +------------------------+------------------------------------------------+-------+-------+
-    |                        | Place text aligned to *handle*:                | |     | |     |
-    |                        |                                                | |     | |     |
-    |                        | - top, left/center/right                       | | X   | | X   |
-    |                        | - middle, left/center/right                    | | X   | | X   |
-    |                        | - baseline, left/center/right                  | | X   |       |
-    |                        | - bottom, left/center/right                    | | X   | | X   |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - *Fit*                | | Places text between specified points while   |   X   |   X   |
-    |                        | | maintaining set height                       |       |       |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - *Aligned*            | | Places text between specified points while   |   X   |   X   |
-    |                        | | maintaining width to height ratio (scales    |       |       |
-    |                        | | text)                                        |       |       |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - *Middle*             | | Places text with equidistant above and       |   X   |   X   |
-    |                        | | below, left and right of text as defined by  |       |       |
-    |                        | | text box                                     |       |       |
-    +------------------------+------------------------------------------------+-------+-------+
-    | Insert symbol          | | Insert predefined symbol (Diameter, Degree,  |   X   |   X   |
-    |                        | | Plus / Minus, At, Hash, Dollar, Copyright,   |       |       |
-    |                        | | Registered, Paragraph, Pi, Pound, Yen, Times,|       |       |
-    |                        | | Division)                                    |       |       |
-    +------------------------+------------------------------------------------+-------+-------+
-    | **Insert Unicode:**                                                                     |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - Page                 | Select Unicode page to select character from   |   X   |   X   |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - Char                 | Select character to insert into text           |   X   |   X   |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - **Insert** button    | | Click button to insert Unicode character     |   X   |   X   |
-    |                        | | into text input field                        |       |       |
-    +------------------------+------------------------------------------------+-------+-------+
-    | **Icons:**                                                                              |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - Clear text           | Clear text field   |i01|                       |   X   |   X   |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - Load Text From File  | | Select text file and insert contents into    |   X   |   X   |
-    |                        | | field   |i02|                                |       |       |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - Save Text To File    | Save text in text field to file   |i03|        |   X   |   X   |
-    +------------------------+------------------------------------------------+-------+-------+
-    | - Edit                 | Cut  |i04| / Copy  |i05| / Paste  |i06|        |   X   |   X   |
-    +------------------------+------------------------------------------------+-------+-------+
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | Option                 | Description                                              | Text  | MText |
+    +========================+==========================================================+=======+=======+
+    | **Font Settings:**                                                                                |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - Font                 | Select font for text                                     |   X   |   X   |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - Height               | Set font height                                          |   X   |   X   |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - Angle                | Places text at specified :ref:`angle <angles>`           |   X   |   X   |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - Oblique              | *Inactive*                                               |   X   |   X   |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - Width factor         |                                                          |   X   |   X   |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - Default line spacing | Use default line spacing for specified font              |   X   |   X   |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - Line spacing         |                                                          |   X   |   X   |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | **Alignment:**                                                                                    | 
+    +------------------------+----------------------------------------------------------+-------+-------+
+    |                        | Place text aligned to *handle*:                          | |     | |     |
+    |                        |                                                          | |     | |     |
+    |                        | - top, left/center/right                                 | | X   | | X   |
+    |                        | - middle, left/center/right                              | | X   | | X   |
+    |                        | - baseline, left/center/right                            | | X   |       |
+    |                        | - bottom, left/center/right                              | | X   | | X   |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - *Fit*                | | Places text between specified points while maintaining |   X   |   X   |
+    |                        | |  set height                                            |       |       |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - *Aligned*            | | Places text between specified points while maintaining |   X   |   X   |
+    |                        | |  width to height ratio (scales text)                   |       |       |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - *Middle*             | | Places text with equidistant above and below, left and |   X   |   X   |
+    |                        | | right of text as defined by text box                   |       |       |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | Insert symbol          | | Insert predefined symbol (Diameter, Degree, Plus /     |   X   |   X   |
+    |                        | | Minus, At, Hash, Dollar, Copyright, Registered,        |       |       |
+    |                        | | Paragraph, Pi, Pound, Yen, Times, Division)            |       |       |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | **Insert Unicode:**                                                                               |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - Page                 | Select Unicode page to select character from             |   X   |   X   |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - Char                 | Select character to insert into text                     |   X   |   X   |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - **Insert** button    | | Click button to insert Unicode character into text     |   X   |   X   |
+    |                        | | input field                                            |       |       |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | **Icons:**                                                                                        |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - Clear text           | Clear text field   |i01|                                 |   X   |   X   |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - Load Text From File  | | Select text file and insert contents into field |i02|  |   X   |   X   |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - Save Text To File    | Save text in text field to file   |i03|                  |   X   |   X   |
+    +------------------------+----------------------------------------------------------+-------+-------+
+    | - Edit                 | Cut  |i04| / Copy  |i05| / Paste  |i06|                  |   X   |   X   |
+    +------------------------+----------------------------------------------------------+-------+-------+
 
 
 ..  Icon mapping:
