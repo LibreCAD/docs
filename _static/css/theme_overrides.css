@@ -1,5 +1,7 @@
 @import url("//media.readthedocs.org/css/sphinx_rtd_theme.css");
-@import "theme.css";
+/* @import "theme.css"; */
+
+/* https://stackoverflow.com/questions/32079200/how-do-i-set-up-custom-styles-for-restructuredtext-sphinx-readthedocs-etc */
 
 /* Change RtD theme colour to LibreCAD's colours */
 
@@ -61,9 +63,9 @@ table.docutils div.line-block {
    /* Remove ALL table borders */
    border: 0px solid white;
    /* Adjust padding for tables; top / right / bottom / left */
-   padding: 4px 2px 4px 2px !important;
+   padding: 4px 2px 4px 2px;
    /* Remove table shading */
-   background-color: white !important;
+   background-color: white;
    /* Align text to top left */
    vertical-align: top;
 }
