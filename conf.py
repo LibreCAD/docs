@@ -131,14 +131,18 @@ html_static_path = ['_static']
 
 ### Theme overrides
 ## Theme overrides defined in _static/theme_overrides.css
-def setup(app):
-   app.add_stylesheet('theme_overrides.css')
+##def setup(app):
+##   app.add_stylesheet('theme_overrides.css')
+##
 ##   app.add_css_file('theme_overrides.css')  [app.add_css_file(...) as app. add_stylesheet(...) has been deprecated] <- Wrong!
+##
 ## or
 ##html_style = 'theme_overrides.css'
 ## or
-##html_css_files = ['theme_overrides.css']
-
+## https://docs.readthedocs.io/en/stable/guides/adding-custom-css.html
+html_css_files = [
+    'css/theme_overrides.css',
+]
 ## Added LibreCAD icon
 html_logo = 'images/librecad64X64.png'
 html_favicon = 'images/icons/librecad.ico'
