@@ -314,9 +314,9 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
    :widths: auto
    :class: table-no-borders
    
-   +----------+----------+
-   | |01Lcol| | |01Rcol| |
-   +----------+----------+
+   +----------+-----+----------+
+   | |01Lcol| |     | |01Rcol| |
+   +----------+-----+----------+
 
 .. |01Lcol| image:: /images/coloursCustom.png
          :scale: 67

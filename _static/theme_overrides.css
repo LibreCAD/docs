@@ -60,8 +60,10 @@ table.docutils div.line-block {
    white-space: normal;
    /* Remove ALL table borders */
    border: 0px solid white;
+   /* Adjust padding for tables; top / right / bottom / left */
+   padding: 4px 2px 4px 2px !important;
    /* Remove table shading */
-   background-color: white;
+   background-color: white !important;
    /* Align text to top left */
    vertical-align: top;
 }

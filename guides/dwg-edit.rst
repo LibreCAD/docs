@@ -321,9 +321,9 @@ The **Proprieties** tool also allows the *geometry* of an entity to be changed. 
    :widths: auto
    :class: table-no-borders
    
-   +-----------+---+-----------+
-   | |01Lprop| |   | |01Rprop| |
-   +-----------+---+-----------+
+   +-----------+-----+-----------+
+   | |01Lprop| |     | |01Rprop| |
+   +-----------+-----+-----------+
 
 .. |01Lprop| image:: /images/propLine.png
         :scale: 50
