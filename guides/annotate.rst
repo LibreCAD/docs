@@ -30,14 +30,21 @@ Types of Dimensions
 ~~~~~~~~~~~~~~~~~~~
 LibreCAD supports the following types of dimensions:
 
-    - Aligned - parallel to a line
-    - Linear - distance between two points from any angle of interest.  The default is 0 (horizontal) and is changed via "Properties" toolbar
-    - Horizontal - horizontal distance between two points.
-    - Vertical - vertical distance between two points.
-    - Radial - radius of an arc.
-    - Diametric - diameter of a circle.
-    - Angular - angle between two lines or linear parts of objects.
-    - Leader - not a dimension per se, but used for notes in drawings.
+.. csv-table:: 
+    :widths: 20, 80
+    :header-rows: 1
+    :stub-columns: 0
+    :class: table-fix-width
+
+    Type, Description
+    Aligned, parallel to a line.
+    Linear, distance between two points from any angle of interest.  The default is 0 (horizontal) and is changed via "Tool Options" toolbar.
+    Horizontal, horizontal distance between two points.
+    Vertical, vertical distance between two points.
+    Radial, radius of an arc.
+    Diametric, diameter of a circle.
+    Angular, angle between two lines or linear parts of objects.
+    Leader, not a dimension per se, but used for notes in drawings.
 
 The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-prefs>` tab in the **Drawing Preferences**.  A dimension consists of several parts:
 
@@ -48,7 +55,7 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
 
 .. actual image size 768px x 288px
 
-s with many other aspects of a :ref:`drawing's setup <drawing-setup>`, there are some generally accepted values for dimensioning:
+As with many other aspects of a :ref:`drawing's setup <drawing-setup>`, there are some generally accepted values for dimensioning:
 
 .. csv-table:: 
     :widths: 40, 20, 20, 20
@@ -219,6 +226,24 @@ Both tools proved several options for the appearance and placement of text, howe
 
 ..  Icon mapping:
 
-.. |icon00| image:: /images/icons/librecad.png
-            :height: 24
-            :width: 24
+.. |i00| image:: /images/icons/librecad.png
+            :height:18
+            :width:18
+.. |i01| image:: /images/icons/new.svg
+            :height:18
+            :width:18
+.. |i02| image:: /images/icons/open.svg
+            :height:18
+            :width:18
+.. |i03| image:: /images/icons/save.svg
+            :height:18
+            :width:18
+.. |i04| image:: /images/icons/cut.svg
+            :height:18
+            :width:18
+.. |i05| image:: /images/icons/copy.svg
+            :height:18
+            :width:18
+.. |i06| image:: /images/icons/paste.svg
+            :height:18
+            :width:18
