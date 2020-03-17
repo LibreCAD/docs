@@ -39,16 +39,16 @@ LibreCAD supports the following types of dimensions:
     - Angular - angle between two lines or linear parts of objects.
     - Leader - not a dimension per se, but used for notes in drawings.
 
-A dimension consists of several parts:
+The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-prefs>` tab in the **Drawing Preferences**.  A dimension consists of several parts:
 
-.. figure:: /images/dimnDesc.png
-    :width: 1441px
-    :height: 504px
-    :align: right
-    :scale: 50
+.. figure:: /images/dimnPrefDesc.png
+    :align: center
+    :scale: 67
     :alt: Dimension parts
 
-The appearance of the dimensions are configured on the :ref:`Dimensions <dimn-prefs>` tab in the **Drawing Preferences** and as with many other aspects of a :ref:`drawing's setup <drawing-setup>`, there are some generally accepted values for dimensioning:
+.. actual image size 768px x 288px
+
+s with many other aspects of a :ref:`drawing's setup <drawing-setup>`, there are some generally accepted values for dimensioning:
 
 .. csv-table:: 
     :widths: 40, 20, 20, 20
@@ -69,26 +69,25 @@ The appearance of the dimensions are configured on the :ref:`Dimensions <dimn-pr
     Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
 
 
-Rules for Dimensioning
-~~~~~~~~~~~~~~~~~~~~~~
+.. topic:: Rules for Dimensioning
 
-A few rules will help to ensure dimensions are accurate, legible and complete:
+    A few rules will help to ensure dimensions are accurate, legible and complete:
 
-   - There should be only one way to interpret any one dimension.
-   - Dimension and extension lines should not cross.
-   - Extension lines and entity lines should not overlap.
-   - Provide space between dimensions to ensure legibility.
-   - The view that best shows an entity is the view that should be dimensioned.
-   - Each entity on the drawing should be dimensioned and dimensioned only once.
-   - There is no need to calculate or scale a dimension of an entity.
-   - A dimension should be referenced to a logical origin point.
-   - When there are multiple lines of dimensions, the longer dimensions are to be placed outside of shorter ones.
-   - Except for large circles and arcs, all dimensions should be placed outside the part and spaced 10mm / 3/8" from the entity (*).
-   - Dimensioned circles diameters and arcs with radiuses.
-   - Center lines or center marks should be used on all circles and arcs.
-   - Extended a circle's or arc's center lines and use as extensions line when possible.
-   - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines (*).
-   - Use arrow heads or slash marks at the end of the dimension lines.
+        - There should be only one way to interpret any one dimension.
+        - Dimension and extension lines should not cross.
+        - Extension lines and entity lines should not overlap.
+        - Provide space between dimensions to ensure legibility.
+        - The view that best shows an entity is the view that should be dimensioned.
+        - Each entity on the drawing should be dimensioned and dimensioned only once.
+        - There is no need to calculate or scale a dimension of an entity.
+        - A dimension should be referenced to a logical origin point.
+        - When there are multiple lines of dimensions, the longer dimensions are to be placed outside of shorter ones.
+        - Except for large circles and arcs, all dimensions should be placed outside the part and spaced 10mm / 3/8" from the entity (*).
+        - Dimensioned circles diameters and arcs with radiuses.
+        - Center lines or center marks should be used on all circles and arcs.
+        - Extended a circle's or arc's center lines and use as extensions line when possible.
+        - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines (*).
+        - Use arrow heads or slash marks at the end of the dimension lines.
 
 .. note::
    The minimum spacing between dimension lines needs to be scaled with the drawing.  For example, if the drawing is 1:10, the spacing will need to be adjusted to 60 mm between dimension lines and 100 mm from the entity.
@@ -100,11 +99,11 @@ Examples
 .. figure:: /images/dimnEg.png
     :align: center
     :scale: 75
-    :alt: Dimension example
+    :alt: Dimensioning example
 
     Dimension example
 
-.. actual image size 1225px x 540px
+.. actual image size 768px x 360px
 
 
 Leaders
@@ -118,6 +117,8 @@ While leaders do not dimension an entity, they are closely related to dimensioni
     :align: center
     :scale: 75
     :alt: Leader example
+
+.. actual image size 768px x 324px
 
 
 .. _text:
@@ -144,16 +145,8 @@ Adding text to a drawing provides addition information; build notes, drawing tit
     :scale: 50
     :alt: MText (multi-line) dialogue
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 Both tools proved several options for the appearance and placement of text, however a couple are unique to the single-line **Text** tool, as shown below:
 
