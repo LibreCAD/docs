@@ -22,13 +22,15 @@ The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/
          | - Hatching
          | - Reference line", 
         "0.00 mm"
-    "Thin", "**0.13**, 0.15, **0.18**, 0.20, **0.25**", "- Outlines", "0.18 mm"
-    "", "", "- Center lines", ""
-    "", "", "- Dimension lines", ""
-    "", "", "- Leader and extension", ""
-    "", "", "- Phantom lines", ""
-    "", "", "- Grid lines", ""
-    "", "", "- Text", ""
+    "Thin", "**0.13**, 0.15, **0.18**, 0.20, **0.25**",
+        "| - Outlines
+         | - Center lines
+         | - Dimension lines
+         | - Leader and extension
+         | - Phantom lines
+         | - Grid lines
+         | - Text",
+        "0.18 mm"
     "Medium", "0.30, **0.35**, 0.40, **0.50**", "- Hidden lines", "0.35 mm"
     "", "", "- Text normal (0.30 mm)", ""
     "", "", "- Text - sub-headings (0.50 mm)", ""
