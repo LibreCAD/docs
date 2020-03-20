@@ -144,15 +144,13 @@ Adding text to a drawing provides addition information; build notes, drawing tit
    +-----------+-----+-----------+
 
 .. |01Ltext| figure:: /images/textText.png
-    :align: left
     :scale: 50
     :alt: Text dialogue
     .. actual image size 557px x 462px
 
     "Text" dialogue
 
-.. |01Ltext| figure:: /images/textMText.png
-    :align: right
+.. |01Rtext| figure:: /images/textMText.png
     :scale: 50
     :alt: MText (multi-line) dialogue
     .. actual image size 621px x 475px
