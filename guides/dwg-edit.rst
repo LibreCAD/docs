@@ -361,11 +361,19 @@ Also, the properties of a specific entity type, e.g. line, does not vary even if
     "Blocks", "Block List, Library Browser", "| Insertion point X/Y coordinates, scale X/Y,
                                                 rotation angle, array rows / columns and spacing"
 
+Drawing Views
+-------------
+
+LibreCAD supports two drawing views to represent three-dimensional objects:
+
+    - Orthogonal: Uses multiple two-dimensional views.
+    - Isometric: Represents a three-dimensional view in two dimensions.
+
 
 .. _dwg-orthogonal:
 
-Drawing an Orthogonal View
---------------------------
+Orthogonal View
+~~~~~~~~~~~~~~~
 
 .. figure:: /images/doohickeyOrtho.png
     :align: right
@@ -377,7 +385,7 @@ Drawing an Orthogonal View
 
 .. actual image size 670px x 555px
 
-Orthogonal drawings include additional views that allow a complete description of the object.  Normally a front (the most complex view), top and right view are added to the drawing.  Additional views; back, left and bottom can be added if necessary.
+Orthogonal drawings use multiple views to provide a complete description of an object.  Each view of an orthogonal drawing is parallel to the axes.  Normally a front (the most complex view), top and right view are added to the drawing.  Additional views; back, left and bottom can be added if necessary.
 
 Orthogonal drafting beyond the scope of the **LibreCAD User Manual**, but many resources and examples are available on the web.
 
@@ -387,8 +395,8 @@ Orthogonal drafting beyond the scope of the **LibreCAD User Manual**, but many r
 
 .. _dwg-isometric:
 
-Drawing an Isometric View
--------------------------
+Isometric View
+~~~~~~~~~~~~~~
 
 .. figure:: /images/doohickeyIso.png
     :align: right
@@ -400,7 +408,7 @@ Drawing an Isometric View
 
 .. actual image size 515px x 515px
 
-Isometric drawings uses the same tools for creating, modifying and changing attributes as an orthogonal drawings, but on a grid configuration specific for an isometric perspective.  Set the grid to suit an isometric perspective on the **Grid** tab of :ref:`Drawing Preferences <draw-prefs>`.  Selecting "Isometric Grid" displays the grid on three axes (X,Y,Z) allowing 3 dimensional drawings to be drawn in a 2D view.
+:ref:`Isometric <isometric>` drawings represent an object on three axes in a two-dimensional drawing.  Isometric drawings uses the same tools for creating, modifying and changing attributes as an orthogonal drawings, but on a grid configuration specific for an isometric perspective.  Set the grid to suit an isometric perspective on the **Grid** tab of :ref:`Drawing Preferences <draw-prefs>`.  Selecting "Isometric Grid" displays the grid on three axes (X,Y,Z) allowing 3 dimensional drawings to be drawn in a 2D view.
 
 In addition to setting the grid for isometric drawings, the "Snap indicator lines" on the **Appearance** tab of :ref:`Application Preferences <app-prefs>` can be set to "Isometric" to assist in with locating entities on the grid.  The "Isometric" crosshairs can be configured to Left, Top or Right to further aid in locating points on the grid.
 
