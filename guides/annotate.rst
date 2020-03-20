@@ -183,17 +183,17 @@ Both tools proved several options for the appearance and placement of text, howe
     | **Alignment:**                                                                                    | 
     +------------------------+----------------------------------------------------------+-------+-------+
     |                        | Place text aligned to *handle*:                          | |     | |     |
-    |                        |                                                          | |     | |     |
+    |                        |                                                          |       |       |
     |                        | - top, left/center/right                                 | | X   | | X   |
     |                        | - middle, left/center/right                              | | X   | | X   |
     |                        | - baseline, left/center/right                            | | X   |       |
     |                        | - bottom, left/center/right                              | | X   | | X   |
     +------------------------+----------------------------------------------------------+-------+-------+
     | - *Fit*                | | Places text between specified points while maintaining |   X   |   X   |
-    |                        | |  set height                                            |       |       |
+    |                        | | set height                                             |       |       |
     +------------------------+----------------------------------------------------------+-------+-------+
     | - *Aligned*            | | Places text between specified points while maintaining |   X   |   X   |
-    |                        | |  width to height ratio (scales text)                   |       |       |
+    |                        | | width to height ratio (scales text)                    |       |       |
     +------------------------+----------------------------------------------------------+-------+-------+
     | - *Middle*             | | Places text with equidistant above and below, left and |   X   |   X   |
     |                        | | right of text as defined by text box                   |       |       |
