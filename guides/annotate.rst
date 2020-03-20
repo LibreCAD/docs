@@ -105,6 +105,8 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
         - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines (*).
         - Use arrow heads or slash marks at the end of the dimension lines.
     
+    **Dimensioning Example**
+    
     .. image:: /images/dimnEg.png
         :align: center
         :scale: 100
@@ -132,26 +134,30 @@ Text
 
 Adding text to a drawing provides addition information; build notes, drawing title and related details, and so forth.  Text can be added using either of the two types of text tools:
 
-.. figure:: /images/textText.png
+.. table::
+   :align: center
+   :widths: auto
+   :class: table-no-borders
+   
+   +-----------+-----+-----------+
+   | |01Ltext| |     | |01Rtext| |
+   +-----------+-----+-----------+
+
+.. |01Ltext| figure:: /images/textText.png
     :align: left
     :scale: 50
     :alt: Text dialogue
+    .. actual image size 557px x 462px
 
-    Text dialogue
+    "Text" dialogue
 
-.. actual image size 557px x 462px
-
-.. figure:: /images/textMText.png
+.. |01Ltext| figure:: /images/textMText.png
     :align: right
     :scale: 50
     :alt: MText (multi-line) dialogue
+    .. actual image size 621px x 475px
 
-    MText (multi-line) dialogue
-
-.. actual image size 621px x 475px
-
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
+    "MText" (multi-line) dialogue
 
 Both tools proved several options for the appearance and placement of text, however a couple are unique to the single-line **Text** tool, as shown below:
 
