@@ -296,32 +296,32 @@ Line width or thickness have a particular purpose and should be considered when 
 
 .. list-table::
    :align: center
-   :widths: 20, 20
+   :widths: 50, 50
 
-    *  - 0.00mm
-       - 0.05mm
-    *  - 0.09mm
-       - 0.13mm (ISO)
-    *  - 0.15mm
-       - 0.18mm (ISO)
-    *  - 0.20mm
-       - 0.25mm (ISO)
-    *  - 0.30mm
-       - 0.35mm (ISO)
-    *  - 0.40mm
-       - 0.50mm (ISO)
-    *  - 0.53mm
-       - 0.60mm
-    *  - 0.70mm (ISO)
-       - 0.80mm
-    *  - 0.90mm
-       - 1.00mm (ISO)
-    *  - 1.06mm
-       - 1.20mm
-    *  - 1.40mm (ISO)
-       - 1.58mm
-    *  - 2.00mm (ISO)
-       - 2.11mm
+   *  - 0.00mm
+      - 0.05mm
+   *  - 0.09mm
+      - 0.13mm (ISO)
+   *  - 0.15mm
+      - 0.18mm (ISO)
+   *  - 0.20mm
+      - 0.25mm (ISO)
+   *  - 0.30mm
+      - 0.35mm (ISO)
+   *  - 0.40mm
+      - 0.50mm (ISO)
+   *  - 0.53mm
+      - 0.60mm
+   *  - 0.70mm (ISO)
+      - 0.80mm
+   *  - 0.90mm
+      - 1.00mm (ISO)
+   *  - 1.06mm
+      - 1.20mm
+   *  - 1.40mm (ISO)
+      - 1.58mm
+   *  - 2.00mm (ISO)
+      - 2.11mm
 
 Refer to :ref:`Line widths <lineWidths>` in the appendix for common line widths for use with a particular a page size.
 
