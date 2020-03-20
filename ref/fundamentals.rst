@@ -212,55 +212,16 @@ Entities
 
 An entity is a geometric shape; a line, circle, arc, etc.  A collection of entities is what forms a drawing.  In addition to the basic information that describes the geometry of an entity, there are two more *attributes* that further define an entity:
 
-    - :ref:`Layers <entity-layers>` provide a means to organize drawing and manage the properties of multiple entities.
     - :ref:`Pens <entity-pen>` describes the appearance of an entity, either on screen or in printed output with three additional properties:
 
         - Color
         - Width
         - Line Type
 
+    - :ref:`Layers <entity-layers>` provide a means to organize drawing and manage the properties of multiple entities.
+
 .. note::
    *Pen* or *Layers* properties *can* have a specific meaning, but vary by industry or an organization's standards and a complete description is beyond the scope of this manual.
-
-
-.. _entity-layers:
-
-Layers
-~~~~~~
-
-One of LibreCAD’s key features is the ability to use layers. Layers help organize drawings by allowing users to place and manage related entities. Traditional manual drafting used a similar approach. The layers were often drawn on separate transparent sheets of paper. These sheets were then overlaid one on top of another to produce final drawings.
-
-Whether for engineering, architectural, construction, manufacturing or other types, layers were used to show different aspects on the drawing. Layers could be added to show centre lines or dimensions on an engineering or manufacturing drawings, or to show different building systems on architectural drawings such as exterior walls, partitions, electrical, HVAC, grid lines, etc. While one layer can contain multiple entities, every entity in a drawing can only be associated with single layer. Typically entities with common functions or attributes are put on the same layer. For example, all the walls in a floor plan drawing would be put on a layer named “Walls”.
-
-Layers have an added advantage that all the pen attributes can be assigned to a layer. Every entity on that layer will adopt the attributes that have been assigned to that layer. However, the attributes assigned by the layer can be overridden for entities if necessary. In the above example a line thickness can applied to all entities on the “Walls” layer by changing the “Layer Settings” for that layer.
-
-Creating a Layer
-````````````````
-
-Layers are usually created to hold entities with common attributes. Creating a layer is simple:
-
-     - Click the **Add a layer** icon |icon01|.
-     - Specify a *Layer Name*.
-     - Optionally specify the Color, Width and Line Type for the layer.
-     - Click **Ok**. 
-
-
-Construction Layers
-```````````````````
-
-A construction layer is designed to hold geometry construction lines:
-
-     - A construction layer won't appear on printout.
-     - All lines of a construction layer are infinite in length.
-
-You can toggle between construction and normal mode three ways:
-
-     - When creating or modifying a layer, click the *Construction Layer* checkbox in the *Layer Settings* dialog.
-     - Right-click on a named layer in the *Layer List* and choose "Toggle Construction Layer".
-     - Click the "Toggle construction lines" icon |icon04| / |icon05| in the *Layer List*.
-
-For more details on hiding, locking and deleting layers, refer to :ref:`Layer List Dock <widget-layerList>` in the Dock Widgets Reference section.
-
 
 .. _entity-pen:
 
@@ -333,34 +294,34 @@ Width
 `````
 Line width or thickness have a particular purpose and should be considered when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  Line widths vary by drawing type; mechanical, architectural, etc, and by drawing size; larger drawings utilize thicker lines.  LibreCAD has the following line thicknesses:
 
-.. list-table:: List Table
+.. list-table::
    :widths: 15, 15
    :header-rows: 0
 
-    * 0.00mm
-      0.05mm
-      0.09mm
-      0.13mm (ISO)
-      0.15mm
-      0.18mm (ISO)
-      0.20mm
-      0.25mm (ISO)
-      0.30mm
-      0.35mm (ISO)
-      0.40mm
-      0.50mm (ISO)
-    * 0.53mm
-      0.60mm
-      0.70mm (ISO)
-      0.80mm
-      0.90mm
-      1.00mm (ISO)
-      1.06mm
-      1.20mm
-      1.40mm (ISO)
-      1.58mm
-      2.00mm (ISO)
-      2.11mm
+    * - 0.00mm
+      - 0.05mm
+    * - 0.09mm
+      - 0.13mm (ISO)
+    * - 0.15mm
+      - 0.18mm (ISO)
+    * - 0.20mm
+      - 0.25mm (ISO)
+    * - 0.30mm
+      - 0.35mm (ISO)
+    * - 0.40mm
+      - 0.50mm (ISO)
+    * - 0.53mm
+      - 0.60mm
+    * - 0.70mm (ISO)
+      - 0.80mm
+    * - 0.90mm
+      - 1.00mm (ISO)
+    * - 1.06mm
+      - 1.20mm
+    * - 1.40mm (ISO)
+      - 1.58mm
+    * - 2.00mm (ISO)
+      - 2.11mm
 
 Refer to :ref:`Line widths <lineWidths>` in the appendix for common line widths for use with a particular a page size.
 
@@ -389,6 +350,45 @@ Other than ”Continuous”, the other non-continuous lines are available in def
 
 .. Note::
    Intervals for non-continuous line types with white spaces remain constant when scaled.  ”Tiny” should be used in most cases.
+
+
+.. _entity-layers:
+
+Layers
+~~~~~~
+
+One of LibreCAD’s key features is the ability to use layers. Layers help organize drawings by allowing users to place and manage related entities. Traditional manual drafting used a similar approach. The layers were often drawn on separate transparent sheets of paper. These sheets were then overlaid one on top of another to produce final drawings.
+
+Whether for engineering, architectural, construction, manufacturing or other types, layers were used to show different aspects on the drawing. Layers could be added to show centre lines or dimensions on an engineering or manufacturing drawings, or to show different building systems on architectural drawings such as exterior walls, partitions, electrical, HVAC, grid lines, etc. While one layer can contain multiple entities, every entity in a drawing can only be associated with single layer. Typically entities with common functions or attributes are put on the same layer. For example, all the walls in a floor plan drawing would be put on a layer named “Walls”.
+
+Layers have an added advantage that all the pen attributes can be assigned to a layer. Every entity on that layer will adopt the attributes that have been assigned to that layer. However, the attributes assigned by the layer can be overridden for entities if necessary. In the above example a line thickness can applied to all entities on the “Walls” layer by changing the “Layer Settings” for that layer.
+
+Creating a Layer
+````````````````
+
+Layers are usually created to hold entities with common attributes. Creating a layer is simple:
+
+     - Click the **Add a layer** icon |icon01|.
+     - Specify a *Layer Name*.
+     - Optionally specify the Color, Width and Line Type for the layer.
+     - Click **Ok**. 
+
+
+Construction Layers
+```````````````````
+
+A construction layer is designed to hold geometry construction lines:
+
+     - A construction layer won't appear on printout.
+     - All lines of a construction layer are infinite in length.
+
+You can toggle between construction and normal mode three ways:
+
+     - When creating or modifying a layer, click the *Construction Layer* checkbox in the *Layer Settings* dialog.
+     - Right-click on a named layer in the *Layer List* and choose "Toggle Construction Layer".
+     - Click the "Toggle construction lines" icon |icon04| / |icon05| in the *Layer List*.
+
+For more details on hiding, locking and deleting layers, refer to :ref:`Layer List Dock <widget-layerList>` in the Dock Widgets Reference section.
 
 
 Drawing and Editing Entities
