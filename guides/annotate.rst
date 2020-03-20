@@ -105,14 +105,7 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
         - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines (*).
         - Use arrow heads or slash marks at the end of the dimension lines.
     
-    |dimnEg00|
-
     .. image:: /images/dimnEg.png
-        :scale: 50
-        :alt: Dimensioning example
-    .. actual image size 768px x 360px
-    
-.. |dimnEg00| image:: /images/dimnEg.png
         :align: center
         :scale: 100
         :alt: Dimensioning example
