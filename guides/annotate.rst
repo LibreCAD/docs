@@ -144,17 +144,14 @@ Adding text to a drawing provides addition information; build notes, drawing tit
    | "Text" dialogue               |     | "MText" (multi-line) dialogue |
    +-------------------------------+-----+-------------------------------+
 
-.. |01Ltext| figure:: /images/textText.png
+.. |01Ltext| image:: /images/textText.png
     :scale: 50
     :alt: Text dialogue
 .. actual image size 557px x 462px
 
-.. |01Rtext| figure:: /images/textMText.png
+.. |01Rtext| image:: /images/textMText.png
     :scale: 50
     :alt: MText (multi-line) dialogue
-
-    
-
 .. actual image size 621px x 475px
 
 Both tools proved several options for the appearance and placement of text, however a couple are unique to the single-line **Text** tool, as shown below:
