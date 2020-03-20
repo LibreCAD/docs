@@ -17,10 +17,10 @@ The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/
     :class: table-fix-width
 
     "Line Weights", "Pen Size (mm)", "Purpose", "Recommended"
-    "Extra Thin", "0.00, 0.05, 0.09", "
-        | - Hidden lines
-        | - Hatching
-        | - Reference line
+    "Extra Thin", "0.00, 0.05, 0.09",
+        "| - Hidden lines
+         | - Hatching
+         | - Reference line", 
         "0.00 mm"
     "Thin", "**0.13**, 0.15, **0.18**, 0.20, **0.25**", "- Outlines", "0.18 mm"
     "", "", "- Center lines", ""
