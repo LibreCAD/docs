@@ -139,10 +139,10 @@ Adding text to a drawing provides addition information; build notes, drawing tit
    :widths: auto
    :class: table-no-borders
    
-   +-------------------------------+-----+-------------------------------+
-   | |01Ltext|                     |     | |01Rtext|                     |
-   | "Text" dialogue               |     | "MText" (multi-line) dialogue |
-   +-------------------------------+-----+-------------------------------+
+   +---------------------------------+-----+---------------------------------+
+   | |01Ltext|                       |     | |01Rtext|                       |
+   | | "Text" dialogue               |     | | "MText" (multi-line) dialogue |
+   +---------------------------------+-----+---------------------------------+
 
 .. |01Ltext| image:: /images/textText.png
     :scale: 50
