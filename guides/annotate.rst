@@ -189,18 +189,18 @@ Both tools proved several options for the appearance and placement of text, howe
     |                        | - baseline, left/center/right                            | | X   |       |
     |                        | - bottom, left/center/right                              | | X   | | X   |
     +------------------------+----------------------------------------------------------+-------+-------+
-    | - *Fit*                | | Places text between specified points while maintaining |   X   |   X   |
-    |                        | | set height                                             |       |       |
+    | - *Fit*                | | Places text between specified points while             |   X   |   X   |
+    |                        | maintaining set height                                   |       |       |
     +------------------------+----------------------------------------------------------+-------+-------+
-    | - *Aligned*            | | Places text between specified points while maintaining |   X   |   X   |
-    |                        | | width to height ratio (scales text)                    |       |       |
+    | - *Aligned*            | | Places text between specified points while             |   X   |   X   |
+    |                        | maintaining width to height ratio (scales text)          |       |       |
     +------------------------+----------------------------------------------------------+-------+-------+
     | - *Middle*             | | Places text with equidistant above and below, left and |   X   |   X   |
-    |                        | | right of text as defined by text box                   |       |       |
+    |                        | right of text as defined by text box                     |       |       |
     +------------------------+----------------------------------------------------------+-------+-------+
     | Insert symbol          | | Insert predefined symbol (Diameter, Degree, Plus /     |   X   |   X   |
-    |                        | | Minus, At, Hash, Dollar, Copyright, Registered,        |       |       |
-    |                        | | Paragraph, Pi, Pound, Yen, Times, Division)            |       |       |
+    |                        | Minus, At, Hash, Dollar, Copyright, Registered,          |       |       |
+    |                        | Paragraph, Pi, Pound, Yen, Times, Division)              |       |       |
     +------------------------+----------------------------------------------------------+-------+-------+
     | **Insert Unicode:**                                                                               |
     +------------------------+----------------------------------------------------------+-------+-------+
@@ -209,13 +209,13 @@ Both tools proved several options for the appearance and placement of text, howe
     | - Char                 | Select character to insert into text                     |   X   |   X   |
     +------------------------+----------------------------------------------------------+-------+-------+
     | - **Insert** button    | | Click button to insert Unicode character into text     |   X   |   X   |
-    |                        | | input field                                            |       |       |
+    |                        | input field                                              |       |       |
     +------------------------+----------------------------------------------------------+-------+-------+
     | **Icons:**                                                                                        |
     +------------------------+----------------------------------------------------------+-------+-------+
     | - Clear text           | Clear text field   |i01|                                 |   X   |   X   |
     +------------------------+----------------------------------------------------------+-------+-------+
-    | - Load Text From File  | | Select text file and insert contents into field |i02|  |   X   |   X   |
+    | - Load Text From File  | Select text file and insert contents into field |i02|    |   X   |   X   |
     +------------------------+----------------------------------------------------------+-------+-------+
     | - Save Text To File    | Save text in text field to file   |i03|                  |   X   |   X   |
     +------------------------+----------------------------------------------------------+-------+-------+
