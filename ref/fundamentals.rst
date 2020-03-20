@@ -331,45 +331,44 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
 
 Width
 `````
+Line width or thickness have a particular purpose and should be considered when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  Line widths vary by drawing type; mechanical, architectural, etc, and by drawing size; larger drawings utilize thicker lines.  LibreCAD has the following line thicknesses:
 
-Line width or thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, architectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/C paper sizes:
+.. list-table:: List Table
+   :widths: 15, 15
+   :header-rows: 0
 
-.. csv-table:: 
-    :widths: 15, 20, 40, 25
-    :header-rows: 1
-    :stub-columns: 0
-    :class: table-fix-width
+    * 0.00mm
+      0.05mm
+    * 0.09mm
+      0.13mm (ISO)
+    * 0.15mm
+      0.18mm (ISO)
+    * 0.20mm
+      0.25mm (ISO)
+    * 0.30mm
+      0.35mm (ISO)
+    * 0.40mm
+      0.50mm (ISO)
+    * 0.53mm
+      0.60mm
+    * 0.70mm (ISO)
+      0.80mm
+    * 0.90mm
+      1.00mm (ISO)
+    * 1.06mm
+      1.20mm
+    * 1.40mm (ISO)
+      1.58mm
+    * 2.00mm (ISO)
+      2.11mm
 
-    "Line Weights", "Pen Size (mm)", "Purpose", "Recommended"
-    "Extra Thin", "0.00, 0.05, 0.09", "- Hidden lines", "0.00 mm"
-    "", "", "- Hatching", ""
-    "", "", "- Reference line", ""
-    "Thin", "**0.13**, 0.15, **0.18**, 0.20, **0.25**", "- Outlines", "0.18 mm"
-    "", "", "- Center lines", ""
-    "", "", "- Dimension lines", ""
-    "", "", "- Leader and extension", ""
-    "", "", "- Phantom lines", ""
-    "", "", "- Grid lines", ""
-    "", "", "- Text", ""
-    "Medium", "0.30, **0.35**, 0.40, **0.50**", "- Hidden lines", "0.35 mm"
-    "", "", "- Text normal (0.30 mm)", ""
-    "", "", "- Text - sub-headings (0.50 mm)", ""
-    "", "", "- Visible object outlines", ""
-    "Thick", "**0.70**", "- Cutting lines", "0.70 mm"
-    "", "", "- Match lines", ""
-    "", "", "- Section lines", ""
-    "", "", "- Text - titles/major headings", ""
-    "", "", "- Viewing planes", ""
-    "Extra Thick", "**1.00**", "- Title sheet border", ""
-
-
-Note: Pen sizes shown in **bold** are ISO standard sizes.
+Refer to :ref:`Line widths <lineWidths>` in the appendix for common line widths for use with a particular a page size.
 
 
 Line Type
 `````````
 
-Different types of lines are used for different purposes.  LibreCAD includes several commonly used line types:
+LibreCAD includes several commonly used line types:
 
 .. csv-table:: 
     :widths: 15, 30, 55
@@ -386,7 +385,7 @@ Different types of lines are used for different purposes.  LibreCAD includes sev
     "Center", |image25|, "Marks center of circle, arc or any symmetrical object."
     "Border", |image26|, "Used for drawing border around perimeter of sheet."
 
-Other than ”Continuous”, the other non-continuous lines are available in default, ”tiny” (1/6x default), ”small” (1/2x) and ”large (2x)”.  A complete list of :ref:`line types <lineTypes>` are shown in the appendix.
+Other than ”Continuous”, the other non-continuous lines are available in default, ”tiny” (1/6x default), ”small” (1/2x) and ”large (2x)”.  As with line thickness, different types of lines are used for different purposes.  A complete list of :ref:`line types <lineTypes>` are shown in the appendix.
 
 .. Note::
    Intervals for non-continuous line types with white spaces remain constant when scaled.  ”Tiny” should be used in most cases.

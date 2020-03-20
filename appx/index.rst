@@ -13,7 +13,7 @@ Appendices
    :maxdepth: 1
 
     Online Resources <resources>
-    Line Types <lineTypes>
+    Line Types <lines>
     Hatches <hatches>
     Fonts <fonts>
     Drawing Scales <scales>
