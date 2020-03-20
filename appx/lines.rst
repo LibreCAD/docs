@@ -16,10 +16,6 @@ The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/
     :stub-columns: 0
     :class: table-fix-width
 
-
-        | Apply dimension lines and text aligned to an existing entity by selecting start and end points on a line segment and placement point for the text.
-        | 
-
     "Line Weights", "Pen Size (mm)", "Purpose", "Recommended"
     "Extra Thin", "0.00, 0.05, 0.09", "
         | - Hidden lines

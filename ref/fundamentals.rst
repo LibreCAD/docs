@@ -296,7 +296,7 @@ Line width or thickness have a particular purpose and should be considered when 
 
 .. list-table::
    :align: center
-   :widths: 20, 20, 20, 20
+   :widths: 25, 25, 25, 25
 
    *  - 0.00mm
       - 0.05mm
