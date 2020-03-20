@@ -18,29 +18,30 @@ The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/
 
     "Line Weights", "Pen Size (mm)", "Purpose", "Recommended"
     "Extra Thin", "0.00, 0.05, 0.09", "
-        | - Hidden lines
-        | - Hatching
-        | - Reference line", "0.00 mm"
+        | Hidden lines
+        | Hatching
+        | Reference line", "0.00 mm"
     "Thin", "**0.13**, 0.15, **0.18**, 0.20, **0.25**", "
-        | - Outlines
-        | - Center lines
-        | - Dimension lines
-        | - Leader and extension
-        | - Phantom lines
-        | - Grid lines
-        | - Text", "0.18 mm"
+        | Outlines
+        | Center lines
+        | Dimension lines
+        | Leader and extension
+        | Phantom lines
+        | Grid lines
+        | Text", "0.18 mm"
     "Medium", "0.30, **0.35**, 0.40, **0.50**", "
-        | - Hidden lines
-        | - Text normal (0.30 mm)
-        | - Text - sub-headings (0.50 mm)
-        | - Visible object outlines", "0.35 mm"
+        | Hidden lines
+        | Text normal (0.30 mm)
+        | Text - sub-headings (0.50 mm)
+        | Visible object outlines", "0.35 mm"
     "Thick", "**0.70**", "
-        | - Cutting lines
-        | - Match lines
-        | - Section lines
-        | - Text - titles/major headings
-        | - Viewing planes", "0.70 mm"
-    "Extra Thick", "**1.00**", "- Title sheet border", ""
+        | Cutting lines
+        | Match lines
+        | Section lines
+        | Text - titles/major headings
+        | Viewing planes", "0.70 mm"
+    "Extra Thick", "**1.00**", "
+        | Title sheet border", ""
 
 
 Note: Pen sizes shown in **bold** are ISO standard sizes.
