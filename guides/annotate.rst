@@ -2,7 +2,7 @@
 
 .. Default include
 .. include:: /inclFiles/notice.rst
- 
+
 
 .. _annotate:
 
@@ -31,7 +31,8 @@ Types of Dimensions
 LibreCAD supports the following types of dimensions:
 
 .. csv-table:: 
-    :widths: 20, 80
+    :widths: 15, 75
+    :align: center
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -104,7 +105,9 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
         - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines (*).
         - Use arrow heads or slash marks at the end of the dimension lines.
 
-   .. figure:: /images/dimnEg.png
+   |dimnEg|
+
+.. |dimnEg| figure:: /images/dimnEg.png
         :align: center
         :scale: 100
         :alt: Dimensioning example
