@@ -9,9 +9,9 @@
 Annotating a Drawing
 ====================
 
-A drawing in and of itself provides an image of what the object might look like, but it doesn’t provide a complete description of the object. Knowing how big the object is also very important, thus the need to provide the measurements and other textual information to describe the drawn object.  Together, dimensions and text is called *annotating* a drawing.
+A drawing in and of itself provides an image of what the object might look like, but it doesn’t provide a complete description of the object. Knowing the size of the object is also very important.  The size of the drawn object is shown with measurements, *dimensioning*, and other textual information to describe the drawn object.  Together, dimensions and text is called *annotating* a drawing.
 
-Dimensioning an object on a drawing provides the information necessary to be able to interpret the object and ultimately produce the it, whether it be a building or a widget.  Other textual information in the form of notes, call-outs, etc. provide further details for the drawn object.
+Dimensioning an object on a drawing provides the information necessary to be able to interpret the object and ultimately create it, whether it be a building or a *doohickey*.  Other textual information in the form of notes, symbols, call-outs, etc. provide further details for the object drawn.
 
 
 .. _dimensioning:
@@ -36,17 +36,22 @@ LibreCAD supports the following types of dimensions:
     :stub-columns: 0
     :class: table-fix-width
 
-    Type, Description
-    Aligned, parallel to a line.
-    Linear, distance between two points from any angle of interest.  The default is 0 (horizontal) and is changed via "Tool Options" toolbar.
-    Horizontal, horizontal distance between two points.
-    Vertical, vertical distance between two points.
-    Radial, radius of an arc.
-    Diametric, diameter of a circle.
-    Angular, angle between two lines or linear parts of objects.
-    Leader, not a dimension per se, but used for notes in drawings.
+    Type", "Description"
+    "Aligned", "Parallel to a line."
+    "Linear", "Distance between two points from any angle of interest.  The default is 0 (horizontal) and is changed via ”Tool Options” toolbar."
+    "Horizontal", "Horizontal distance between two points."
+    "Vertical", "Vertical distance between two points."
+    "Radial", "Radius of an arc."
+    "Diametric", "Diameter of a circle."
+    "Angular", "Angle between two lines or linear parts of objects."
+    "Leader", "Not a dimension per se, but used for notes in drawings."
 
-The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-prefs>` tab in the **Drawing Preferences**.  A dimension consists of several parts:
+A complete description of the :ref:`dimensioning tools and related options <tool-dimension>` is found in **Drawing Tools** of the **Reference** section.
+
+Dimensioning Appearance
+~~~~~~~~~~~~~~~~~~~~~~~
+
+A dimension consists of several parts:
 
 .. figure:: /images/dimnPrefDesc.png
     :align: center
@@ -55,7 +60,7 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
 
 .. actual image size 768px x 288px
 
-As with many other aspects of a :ref:`drawing's setup <drawing-setup>`, there are some generally accepted values for dimensioning:
+The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-prefs>` tab in the **Drawing Preferences**.  As with many other aspects of a :ref:`drawing's setup <drawing-setup>`, there are some generally accepted values for dimensioning:
 
 .. csv-table:: 
     :widths: 40, 20, 20, 20
@@ -79,7 +84,7 @@ As with many other aspects of a :ref:`drawing's setup <drawing-setup>`, there ar
     Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
 
 
-.. tip:: Rules for Dimensioning
+.. admonition:: Tip - Rules for Dimensioning
 
     A few rules will help to ensure dimensions are accurate, legible and complete:
 
@@ -99,18 +104,14 @@ As with many other aspects of a :ref:`drawing's setup <drawing-setup>`, there ar
         - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines (*).
         - Use arrow heads or slash marks at the end of the dimension lines.
 
+   .. figure:: /images/dimnEg.png
+        :align: center
+        :scale: 100
+        :alt: Dimensioning example
 
-Examples
-````````
+        Dimension example
 
-.. figure:: /images/dimnEg.png
-    :align: center
-    :scale: 100
-    :alt: Dimensioning example
-
-    Dimension example
-
-.. actual image size 768px x 360px
+    .. actual image size 768px x 360px
 
 
 Leaders
@@ -225,23 +226,23 @@ Both tools proved several options for the appearance and placement of text, howe
 ..  Icon mapping:
 
 .. |i00| image:: /images/icons/librecad.png
-            :height:18
-            :width:18
+            :height: 18
+            :width: 18
 .. |i01| image:: /images/icons/new.svg
-            :height:18
-            :width:18
+            :height: 18
+            :width: 18
 .. |i02| image:: /images/icons/open.svg
-            :height:18
-            :width:18
+            :height: 18
+            :width: 18
 .. |i03| image:: /images/icons/save.svg
-            :height:18
-            :width:18
+            :height: 18
+            :width: 18
 .. |i04| image:: /images/icons/cut.svg
-            :height:18
-            :width:18
+            :height: 18
+            :width: 18
 .. |i05| image:: /images/icons/copy.svg
-            :height:18
-            :width:18
+            :height: 18
+            :width: 18
 .. |i06| image:: /images/icons/paste.svg
-            :height:18
-            :width:18
+            :height: 18
+            :width: 18
