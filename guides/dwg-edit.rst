@@ -288,7 +288,7 @@ Change an entity's layer is similar with both the **Attributes** and **Proprieti
 Using the **Attributes** to change an entity's layer:
 
     - Select the entity (or entities) to be moved to a different layer.
-	- From the menu select **Tools -> Modify -> Attributes**, or click the **Attributes** icon |icon85|.
+    - From the menu select **Tools -> Modify -> Attributes**, or click the **Attributes** icon |icon85|.
     - In the *Attributes* dialog, select the desired layer from the drop-down *Layer* selection box.
     - Click **Ok**.
 

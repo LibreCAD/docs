@@ -3,6 +3,9 @@
 
 .. _lines:
 
+Line Attributes
+===============
+
 .. _lineWidths:
 
 Common Line Widths
