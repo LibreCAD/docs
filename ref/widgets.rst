@@ -241,6 +241,8 @@ Layer list or individual layer operations can also be accessed by right-clicking
 
 .. actual image size 276px x 258px
 
+.. _widget-layerList-attributes:
+
 Clicking the *Attribute* icon |icon15| allows users to change the :ref:`pen attributes <entity-pen>` of all entities on the selected layer.  Entities that have their own pen attribute set differently will override the layer's attributes.
 
 .. Force end of left / right text wrap
