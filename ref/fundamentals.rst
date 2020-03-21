@@ -298,7 +298,7 @@ Width
     :scale: 100
     :alt: Line Widths
 
-    Line Widths (Attributes)
+    Available Line Widths (Attributes)
 
 .. actual image size 143px x 642px
 
@@ -307,10 +307,12 @@ The LibreCAD default line thickness is 0.00 mm (hairline) and range up to 2.11 m
     - \- Unchanged \-: Leave the line width as previously selected.
     - By Layer: Adopts the line width set in the :ref:`layer's attributes <widget-layerList-attributes>`.
     - By Block: Adopts the line width used when the :ref:`block <blocks>` was created.
-    - Default: TBD
+    - Default: Returns the line width to the default (0.00 mm). 
 
 Refer to :ref:`Common Line Widths <lineWidths>` in the appendix for examples of line thickness by purpose.
 
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 Line Type
 `````````
