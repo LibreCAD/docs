@@ -9,16 +9,14 @@
 Blocks
 ======
 
-*Blocks* are a small reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *instances* or *inserts*, are composed of geometric shapes (lines, arcs, etc.), but can also include text and dimensions.  Blocks can be created in the current drawing used repeatedly within the drawing, inserted from the block library, or they can also be imported from a separate drawing file.
+*Blocks* are reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *instances* or *inserts*, are composed of geometric shapes (lines, arcs, etc.), but can also include text and dimensions.  Blocks can be created in the current drawing used repeatedly within the drawing, inserted from the block library, or they can also be imported from a separate drawing file.
 
 .. figure:: /images/doohickeyPrintPrev.png
     :align: center
     :scale: 67
     :alt: Doohickey Example with Blocks
 
-    Doohickey Example (Print Preview) with Blocks
-
-    The blocks include the page border from the **Library Browser** ("sheets -> A4H") and an imported block (isometric view).
+    Example of the Doohickey drawing (print preview) with blocks, including the page border from the **Library Browser** ("sheets -> A4H") and a block imported from a drawing file (isometric view).
 
 .. actual image size 1102px x 782px
 
@@ -44,7 +42,7 @@ There are two dock widgets for managing blocks.  The :ref:`Block List <widget-bl
       - Each block can be placed at a different location, rotation angle and/or scale.
       - Blocks inserted multiple times will create a new instance of the block in the **Block List** each time it is inserted.  After the initial insertion, the blocks will numbered sequentially (e.g. *BlockName*, *BlockName-0*, *BlockName-1*, ...)  The inserted blocks will be independent of each other.
 
-Blocks can also be inserted from menu-bar by selecting **File -> Import -> Block**.  An imported block appears in the **Block List**.  If the same block is imported, a new instance of the block is created in the **Block List**.
+Blocks can also be imported from a separate file and will appear in the **Block List**.  Drawing files imported multiple times will create a new instance of the block in the **Block List** and be numbered sequentially. 
 
 
 .. _ugBlocksList:
