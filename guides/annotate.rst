@@ -37,11 +37,11 @@ LibreCAD supports the following types of dimensions:
     :stub-columns: 0
     :class: table-fix-width
 
-    Type", "Description"
-    "Aligned", "Parallel to a line."
-    "Linear", "Distance between two points from any angle of interest.  The default is 0 (horizontal) and is changed via ”Tool Options” toolbar."
-    "Horizontal", "Horizontal distance between two points."
-    "Vertical", "Vertical distance between two points."
+    "Type", "Description"
+    "Aligned", "Places the dimension parallel to a line between the two endpoints of the dimension."
+    "Linear", "Dimension between two points from any angle of interest.  The default is 0 (horizontal) and is changed via **Tool Options** toolbar."
+    "Horizontal", "Horizontal Dimension between two points."
+    "Vertical", "Vertical Dimension between two points."
     "Radial", "Radius of an arc."
     "Diametric", "Diameter of a circle."
     "Angular", "Angle between two lines or linear parts of objects."
@@ -118,7 +118,7 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
 Leaders
 -------
 
-While leaders do not dimension an entity, they are closely related to dimensioning as they are important for annotating and adding clarity to entities.  Leaders provide the ability to place pointers to identify a specific area of interest when adding a note and linking it to a particulate object.  Leaders take their settings from the :ref:`Dimensions <dimn-prefs>`.
+While leaders do not dimension an entity, they are closely related to dimensioning as they are important for annotating and adding clarity to entities.  Leaders provide the ability to place pointers to identify a specific area of interest when adding a note and linking it to a particulate object.  Leaders take their settings from the :ref:`dimension settings <dimn-prefs>` in **Drawing Preferences**.
 
 .. figure:: /images/leaderEg.png
     :align: center
@@ -155,7 +155,7 @@ Adding text to a drawing provides addition information; build notes, drawing tit
     :alt: MText (multi-line) dialogue
 .. actual image size 621px x 475px
 
-Both tools proved several options for the appearance and placement of text, however a couple are unique to the single-line **Text** tool, as shown below:
+Both tools proved several options for the appearance and placement of text, however a couple are unique to the single-line **Text** tool as shown below:
 
 .. table::
     :widths: 30, 50, 10, 10
