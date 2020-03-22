@@ -421,6 +421,9 @@ Deselect selected entities by typing “tn” at the command line or pressing [E
 
 Also see the :ref:`Select<tool-select>` tools for additional methods to select and deselect entities.
 
+
+.. _entity-handles:
+
 Entity Handles
 ~~~~~~~~~~~~~~
 

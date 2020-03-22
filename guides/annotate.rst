@@ -96,16 +96,19 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
         - Provide space between dimensions to ensure legibility.
         - The view that best shows an entity is the view that should be dimensioned.
         - Each entity on the drawing should be dimensioned and dimensioned only once.
-        - There is no need to calculate or scale a dimension of an entity.
+        - There should be no need to calculate or scale a dimension of an entity.
         - A dimension should be referenced to a logical origin point.
         - When there are multiple lines of dimensions, the longer dimensions are to be placed outside of shorter ones.
-        - Except for large circles and arcs, all dimensions should be placed outside the part and spaced 10mm / 3/8" from the entity (*).
-        - Dimensioned circles diameters and arcs with radiuses.
+        - Except for large circles and arcs, all dimensions should be placed outside the part and spaced 10mm / 3/8" from the entity.
+        - Dimension circles with diameters and arcs with radiuses.
         - Center lines or center marks should be used on all circles and arcs.
         - Extended a circle's or arc's center lines and use as extensions line when possible.
-        - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines (*).
+        - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines (see note above).
         - Use arrow heads or slash marks at the end of the dimension lines.
-    
+
+    To improve legiblity, make corrections, or make adjustments after scaling a drawing, dimension labels, dimension lines and extension lines can be repositioned using :ref:`Entity Handles <entity-handles>`.
+
+
     **Dimensioning Example**
     
     .. image:: /images/dimnEg.png

@@ -54,18 +54,15 @@ For example, when using the **2 Points** line tool the first prompt shows "Speci
    close
 
 .. tip::
-   In addition to the comma separated coordinates, :ref:`relative* coordinates<coordinates>` can also be entered using the numeric keypad using the format *X..Y*, i.e. typing *10..20* is equivalent to *@10,20*.  Using the two decimals is faster than typing the comma.
-
-   The *Keycode Mode* permits the use of **two letter** commands and eliminates the need to press [Enter] after typing the command. 
-
-   Pressing the [Space bar] is an alternative to pressing [Enter] after each command.
-
-   Pressing [c] or [u] followed by [Enter] can be used instead of typing "close" or "undo".
+    - In addition to the comma separated coordinates, :ref:`relative coordinates<coordinates>` can also be entered using the numeric keypad using the format *X..Y*, i.e. typing *10..20* is equivalent to *@10,20*.  Using the two decimals is faster than typing the comma.
+    - The *Keycode Mode* permits the use of **two letter** commands and eliminates the need to press [Enter] after typing the command. 
+    - Pressing the [Space bar] is an alternative to pressing [Enter] after each command.
+    - Pressing [c] or [u] followed by [Enter] can be used instead of typing "close" or "undo".
 
 
-*Tab completion* can be used on the command line when entering commands.  Enter a partial command such as "cir" followed by press [Tab] will complete the command to "circle".  If text entered is not unique to a single command the command output will show all the possible commands starting with the text provided.  For example, typing [c] and pressing [Tab] will list "circle", "circle2", "circle3", "circlecr" and "cut" in the command output.
+*Tab completion* can be used on the command line when entering commands.  Enter a partial command such as "cir" followed by [Tab] will complete the command to "circle".  If text entered is not unique to a single command the command output will show all the possible commands starting with the text provided.  For example, typing [c] and pressing [Tab] will list "circle", "circle2", "circle3", "circlecr" and "cut" in the command output.
 
-The available commands are shown in the :ref:`Tools<tools>` reference.  Many of the commands have multiple forms.  For example the *2 Points* line tools can be selected on the command line by typing "l", "li" or "line".  Many tools display the **Tool Options** toolbar when selected.  Some tools will also provide command line prompts in addition to the **Tool Options**.  For example the "Parallel" line tools displays:
+The available commands are shown in the :ref:`Tools <tools>` reference.  Many of the commands have multiple forms.  For example the *2 Points* line tools can be selected on the command line by typing "l", "li" or "line".  Many tools display the **Tool Options** toolbar when selected.  Some tools will also provide command line prompts in addition to the **Tool Options**.  For example the "Parallel" line tools displays:
 
    - a command prompt: ``Specify Distance <10> or select entity or [through]``
    - a **Tool Options** toolbar: |tlopt12|
@@ -78,7 +75,7 @@ The command output window displays the command history, error messages, and othe
 Multi-Command Input
 -------------------
 
-Command input can be combined and entered on a single line by separating the commands and other input with semicolons.  Entering ``li;0,0;10..0;0..10;-10..0;c;k`` on the command line will draw a 10 x 10 square.  A list of commands, separated by a newline (return), can be copied and pasted using **Past multiple commands** from the command line button (lower right corner of the **Command Line Dock**).
+Command input can be combined and entered on a single line by separating the commands and other input with semicolons.  Entering ``li;0,0;10..0;0..10;-10..0;c;k`` on the command line will draw a 10 x 10 square.  A list of commands, separated by a newline (return), can be copied and pasted using **Paste multiple commands** from the command line button (lower right corner of the **Command Line Dock**).
 
 Command input can also be loaded from text files.  Entering the commands and other input into a text file separating each with a newline.  For example, create a text file and enter the following commands::
 
@@ -121,7 +118,9 @@ Aliases can be added or modified to suit users' preferences.  The file is found 
    - **Windows**: C:\\Users\\ *{UserName}*\\AppData\\Local\\LibreCAD\\librecad.alias
    - **macOS**: $HOME/Library/Application Support/LibreCAD/librecad.alias
 
-.. note:: Only change the alias and *not* the long *untranslated* form.
+.. important::
+
+    Only change the alias and *not* the long *untranslated* form.
 
 
 Calculator
@@ -140,11 +139,10 @@ A complete list of operators and functions can be found in the :ref:`appendix <c
 .. note:: 
 
     The constant pi is defined in LibreCAD as 3.14159265359.
-
     Trigonometric functions use radians (radians = degrees*pi/180).
 
 
-.. images:
+..  Image / Icon mapping:
 
 .. |tlopt12| image:: /images/toolOptions/toLineParlOff.png
             :height: 32
