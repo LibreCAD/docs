@@ -24,13 +24,15 @@ There are two dock widgets for managing blocks.  The :ref:`Block List <widget-bl
 
    - Blocks inserted from the **Block List**:
 
-      #. A block can be placed at a different locations, scale, and/or rotation angle, and also be placed in an array.
-      #. Blocks inserted from the same block in the **Block List** is called an *instance*.  If a block is inserted from the same block multiple times all *instances* of the block are linked.  **Changes to one instance of the block will be reflected in all instances of that block.**
+      - A block can be placed at a different locations, scale, and/or rotation angle, and also be placed in an array.
+      - Blocks inserted from the same block in the **Block List** is called an *instance*.  If a block is inserted from the same block multiple times all *instances* of the block are linked.  **Changes to one instance of the block will be reflected in all instances of that block.**
 
    - Blocks inserted from the **Library Browser**:
 
-      #. Each block can be placed at a different location, rotation angle and/or scale.
-      #. Blocks inserted multiple times will create a new instance of the block in the **Block List** each time it is inserted.  After the initial insertion, the blocks will numbered sequentially (e.g. *BlockName*, *BlockName-0*, *BlockName-1*, ...)  The inserted blocks will be independent of each other.
+      - Each block can be placed at a different location, rotation angle and/or scale.
+      - Blocks inserted multiple times will create a new instance of the block in the **Block List** each time it is inserted.  After the initial insertion, the blocks will numbered sequentially (e.g. *BlockName*, *BlockName-0*, *BlockName-1*, ...)  The inserted blocks will be independent of each other.
+
+Blocks can also be inserted from menu-bar by selecting **File -> Import -> Block**.  An imported block appears in the **Block List**.  If the same block is imported, a new instance of the block is created in the **Block List**.
 
 
 .. _ugBlocksList:
@@ -160,12 +162,12 @@ Inserting Blocks
 
 .. admonition:: Recommendation
 
-    When using blocks from the library, insert a *single* *insert* from the **Library Browser** and then insert subsequent *instances* from the **Block List**.  Inserting the block from the **Block List** retains the link between instances of the same block insert.  If a block is edited from the **Block List**, all instances of the block will show the changes.
+    When using blocks from the library, insert a *single insert* from the **Library Browser** and then insert subsequent *instances* from the **Block List**.  Inserting the block from the **Block List** retains the link between instances of the same block insert.  If a block is edited from the **Block List**, all instances of the block will show the changes.
 
     Only insert multiple *inserts* of a block from the **Library Browser** if they are to be independent.
 
 
-To use blocks from the :ref:`Block Library <widget-libBrowser>`, select the block from the tree view and insert it in the drawing.  Blocks inserted from the library can be rotated and scaled through the *Tool Option* bar. The rotation angle and the scale factor behave as they do for a block inserted from the **Block List**.
+To use blocks from the :ref:`Block Library <widget-libBrowser>`, select the block from the tree view and insert it in the drawing.  Blocks inserted from the library can be rotated and scaled through the **Tool Option** bar. The rotation angle and the scale factor behave as they do for a block inserted from the **Block List**.
 
 .. figure:: /images/toolOptions/toBlockLib.png
     :width: 317px
@@ -189,7 +191,7 @@ Adding a User-defined Library
 
 Additional parts and libraries can be added for blocks created by users, libraries downloaded from the LibreCAD wiki (https://wiki.librecad.org/index.php?title=Part_Libraries) or from other internet resources.  LibreCAD can be configured to show user-defined blocks in the library browser *in addition* to the blocks included with LibreCAD.  
 
-The easiest method of installation, which does not require or Linux Root privileges or Windows Administrator access, is to create a new directory such as "PartsLibrary" in the home directory or "Documents" folder.  The path to this directory would be something similar to "/home/*{Username}*/PartsLibrary/" or "C:\\Users\\ *{Username}*\\Documents\\PartsLibrary\\ ".  Blocks and libraries can then be placed under the parent "PartsLibrary" directory.  The sub-directories will create categories that will appear in the tree view of the **Library Browser**.  
+The easiest method of installation, which does not require or Linux Root privileges or Windows Administrator access, is to create a new directory such as "Parts_Library" in the home directory or "Documents" folder.  The path to this directory would be something similar to "/home/*{Username}*/Parts_Library/" or "C:\\Users\\ *{Username}*\\Documents\\Parts_Library\\ ".  Blocks and libraries can then be placed under the parent "Parts_Library" directory.  The sub-directories will create categories that will appear in the tree view of the **Library Browser**.  
 
 .. important::
 
@@ -209,7 +211,7 @@ Blocks can also be inserted from as a file from other sources.  With an open dra
     - Place the block at the desired location within the drawing.
     - Adjust the options as needed and place additional copies of the block or press [Esc] to exit the command.
 
-As with inserting a block from the **Library Browser**, inserting a block multiple times will create a new instance of the block in the **Block List** each time it is inserted, each with a sequentially numbered block name after the initial block insert.  When using blocks from external files the same layer criteria applies (i.e. layer "0", ...)
+As with inserting a block from the **Library Browser**, importing a block multiple times will create a new instance of the block in the **Block List** each time it is imported, each with a sequentially numbered block name after the initial block insert.  When using blocks from external files the same layer criteria applies (i.e. layer "0", ...)
 
 
 
