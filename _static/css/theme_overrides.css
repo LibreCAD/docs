@@ -39,6 +39,8 @@ table.docutils div.line-block {
 }
 
 
+/* Overrides are not restricted to table where the class is applied, but seem to affect all tables.  ?? */
+
 /* Wrap text in table instead of scollbars: http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
 /*  Add ":class: table-fix-width" to table definitions */
 .table-fix-width table, th, td {
@@ -65,7 +67,7 @@ table.docutils div.line-block {
    white-space: normal;
    /* Align text to top center */
    vertical-align: top;
-   text-align: center;
+   /* text-align: center; */
    /* Remove ALL table borders */
    border: 0px solid white;
    /* Adjust padding for tables; top / right / bottom / left */
