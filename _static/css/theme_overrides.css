@@ -66,8 +66,9 @@ div.table-no-borders table, th, td {
    padding: 4px 2px 4px 2px;
    /* Remove table shading */
    background-color: white;
-   /* Align text to top left */
+   /* Align text to top center */
    vertical-align: top;
+   text-align: center;
 }
 
 

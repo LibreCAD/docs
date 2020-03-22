@@ -302,7 +302,7 @@ Width
 
 .. actual image size 143px x 642px
 
-The LibreCAD default line thickness is 0.00 mm (hairline) and range up to 2.11 mm (left).  The range include ISO standard width lines.  Line widths vary by purpose; outline, hidden, section, etc., and by drawing size; larger drawings utilize thicker lines.  In anddition to the line widths, four additional options will show on the drop-down list:
+The LibreCAD default line thickness is 0.00 mm (hairline) and range up to 2.11 mm.  The range include ISO standard width lines.  Line widths vary by purpose; outline, hidden, section, etc., and by drawing size; larger drawings utilize thicker lines.  In anddition to the line widths, four additional options will show on the drop-down list:
 
     - \- Unchanged \-: Leave the line width as previously selected.
     - By Layer: Adopts the line width set in the :ref:`layer's attributes <widget-layerList-attributes>`.
