@@ -9,16 +9,28 @@
 Blocks
 ======
 
-*Blocks* are a small reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *instances* or *inserts*, are composed of geometric shapes (lines, arcs, etc.), but can also include text and dimensions.  Blocks can be created in the current drawing used repeatedly within the drawing, they can also be imported from a separate drawing file, or inserted from the block library.
+*Blocks* are a small reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *instances* or *inserts*, are composed of geometric shapes (lines, arcs, etc.), but can also include text and dimensions.  Blocks can be created in the current drawing used repeatedly within the drawing, inserted from the block library, or they can also be imported from a separate drawing file.
 
-.. figure:: /images/blockSample.png
-    :width: 677px
-    :height: 423px
+.. figure:: /images/doohickeyPrintPrev.png
     :align: center
-    :scale: 75
-    :alt: Block sample
+    :scale: 67
+    :alt: Doohickey Example with Blocks
 
-    Block sample (Library Browser -> misc -> t-part)
+    Doohickey Example (Print Preview) with Blocks
+
+    The blocks include the page border from the **Library Browser** ("sheets -> A4H") and an imported block (isometric view).
+
+.. actual image size 1102px x 782px
+
+    ..
+    .. figure:: /images/blockSample.png
+        :align: center
+        :scale: 75
+        :alt: Block sample
+
+        Block sample (Library Browser -> misc -> t-part)
+
+    .. actual image size 677px x 423px
 
 There are two dock widgets for managing blocks.  The :ref:`Block List <widget-blockList>` dock for managing blocks *within the current drawing* and the :ref:`Library Browser <widget-libBrowser>` dock that displays a *collection of  blocks* in the library.  Both widgets allow users to insert blocks into the current drawing, but there are a couple of important differences:
 
