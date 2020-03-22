@@ -427,7 +427,7 @@ Also see the :ref:`Select<tool-select>` tools for additional methods to select a
 Entity Handles
 ~~~~~~~~~~~~~~
 
-Selected entities display “handles”.  Handles allow the entities to be manipulated; lengthened, moved or enlarged depending on the type of entity:
+Selected entities display “handles”.  Left-clicking on and dragging a handles allow the entities to be manipulated; lengthened, moved or enlarged depending on the type of entity:
 
 
 .. only:: html
@@ -449,13 +449,13 @@ Selected entities display “handles”.  Handles allow the entities to be manip
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
 
-- Entities that consist of a single segment, such as lines, arcs and polyline segments, have a start handle and an end handle.  Either handle can be clicked and dragged into a new position.
-- Handles on circles or other entities that consist of multiple segments allow it to be manipulated in a variety of ways depending on the type of entity.  For example:
+- Entities that consist of a single segment, such as lines, arcs and polyline segments, have a start handle and an end handle.  Either handle can be clicked on and dragged into a new position.
+- Handles on circles or other entities that consist of multiple segments allow it to be manipulated in a variety of ways depending on the type of entity.  For example: 
 
-   - A rectangle’s corner can be dragged to a new position creating other quadrilaterals.
-   - A circle can be increased or decreased in size.
-   - The end points of the edges of a polygon can be repositioned.
-   - Dimension text and lines can be repositioned
+   - A rectangle’s corner handle can be dragged to a new position creating other quadrilaterals.
+   - A circle's perimeter handle can be dragged to increase or decrease the diameter.
+   - The end points on the edges of a polygon can be repositioned.
+   - Dimension text can be moved, or dimension and extension lines can be repositioned by dragging a handle.
 
 Ordering Entities
 `````````````````
