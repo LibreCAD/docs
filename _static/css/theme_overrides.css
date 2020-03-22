@@ -44,6 +44,9 @@ table.docutils div.line-block {
 .table-fix-width table, th, td {
    /* Wrap text */
    white-space: normal !important;
+   /* Align text to top left */
+   vertical-align: top;
+   text-align: left;
    /* Set table borders */
    border: 1px solid lightgrey !important;
    /* Adjust padding for tables; top / right / bottom / left */
@@ -57,18 +60,18 @@ table.docutils div.line-block {
 
 /* Table for layout purposes; no border or shading */
 /*  Add ":class: table-no-borders" to table definition */
-div.table-no-borders table, th, td {
+.table-no-borders table, th, td {
    /* Wrap text */
    white-space: normal;
+   /* Align text to top center */
+   vertical-align: top;
+   text-align: center;
    /* Remove ALL table borders */
    border: 0px solid white;
    /* Adjust padding for tables; top / right / bottom / left */
    padding: 4px 2px 4px 2px;
    /* Remove table shading */
    background-color: white;
-   /* Align text to top center */
-   vertical-align: top;
-   text-align: center;
 }
 
 

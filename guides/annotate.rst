@@ -47,7 +47,7 @@ LibreCAD supports the following types of dimensions:
     "Angular", "Angle between two lines or linear parts of objects."
     "Leader", "Not a dimension per se, but used for notes in drawings."
 
-A complete description of the :ref:`dimensioning tools and related options <tool-dimension>` is found in **Drawing Tools** of the **Reference** section.
+Complete descriptions of the :ref:`dimensioning tools and related options <tool-dimension>` are found in **Drawing Tools** of the **Reference** section.
 
 Dimensioning Appearance
 ~~~~~~~~~~~~~~~~~~~~~~~
