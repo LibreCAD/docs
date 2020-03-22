@@ -212,15 +212,133 @@ Entities
 
 An entity is a geometric shape; a line, circle, arc, etc.  A collection of entities is what forms a drawing.  In addition to the basic information that describes the geometry of an entity, there are two more *attributes* that further define an entity:
 
-    - :ref:`Layers <entity-layers>` provide a means to organize drawing and manage the properties of multiple entities.
     - :ref:`Pens <entity-pen>` describes the appearance of an entity, either on screen or in printed output with three additional properties:
 
         - Color
         - Width
         - Line Type
 
+    - :ref:`Layers <entity-layers>` provide a means to organize drawing and manage the properties of multiple entities.
+
 .. note::
    *Pen* or *Layers* properties *can* have a specific meaning, but vary by industry or an organization's standards and a complete description is beyond the scope of this manual.
+
+.. _entity-pen:
+
+Pen
+~~~
+
+As with many other aspects of drafting line color, thickness and type assigned to an entity, such as a line or circle are determined by drafting conventions or common practices.  Within LibreCAD, the three attributes are grouped together as a "Pen":
+
+    - **Color** - LibreCAD has 16 default colors, but supports the RGB color space (#000000 to #FFFFFF or 16,777,215 colors).  The initial color for entities is black.
+    - **Width** - The default line width is 0.00mm.  Line widths of up to 2.11mm are supported.
+    - **Line Type** - The default line type is "Continuous" (e.g. solid).  Other line types included with LibreCAD are Dot, Dash, Divide, Center, and Border.
+
+The pen attributes can be defined for a single entity (via the *Properties* tool) , by a group of selected entities (via the *Attribute* tool), or by layer.
+
+.. note::
+   Just as with entities, "pens" can also be applied to layers.  See :ref:`Layer List Dock <widget-layerList>` for details on setting a layer's attributes.
+
+
+Color
+`````
+
+.. only:: html
+
+	.. figure:: /images/coloursStd.png
+		:align: right
+		:scale: 100
+		:alt: Standard color selector
+
+.. only:: latex
+
+	.. figure:: /images/coloursStd.png
+		:align: right
+		:scale: 67
+		:alt: Standard color selector
+
+.. actual image size 140px x 439px
+
+The color for an entity can be selected from the ”Color” selection drop-down menu.  The drop-down menu allows the color to be selected ”By Layer”, ”By Block”, from the ”Custom” color selector, or chosen quickly from one of the 16 pre-defined colors: 
+
+Selecting ”By Layer” will assign the color that was defined for the layer (see above) to the entity.  If the layer's selected color is subsequently changed all entities on the layer will be assigned the layer's color.
+
+When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the color that was defined for the block to the added entity.  If the block's color is subsequently changed all entities in the block will be assigned the block's color.
+
+Selecting ”Custom” will allow a selection from a palette of 36 colors and shades of grey or from a user defined colors.  User defined colors are created by clicking the Add button |image10| and then selecting the *hue* and *value* from the color selection tool.  User defined colors can be modified by right-clicking on a user defined color and selecting a new *hue* and *value*.  A maximum of eight user defined colors can be added.
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
+.. table::
+   :align: center
+   :widths: auto
+   :class: table-no-borders
+   
+   +----------+-----+----------+
+   | |01Lcol| |     | |01Rcol| |
+   +----------+-----+----------+
+
+.. |01Lcol| image:: /images/coloursCustom.png
+         :scale: 67
+         :alt: Custom colors
+.. actual image size 490px x 295px
+
+.. |01Rcol| image:: /images/colourCustom.png
+         :scale: 67
+         :alt: Custom color selector
+.. actual image size 436px x 426px
+
+
+Width
+`````
+
+.. figure:: /images/lineWidthsAll.png
+    :align: right
+    :scale: 100
+    :alt: Line Widths
+
+    Available Line 
+    Widths (Attributes)
+
+.. actual image size 143px x 642px
+
+The LibreCAD default line thickness is 0.00 mm (hairline) and range up to 2.11 mm.  The range include ISO standard width lines.  Line widths vary by purpose; outline, hidden, section, etc., and by drawing size; larger drawings utilize thicker lines.  In addition to the line widths, four additional options will show on the drop-down list:
+
+    - \- Unchanged \-: Leave the line width as previously selected.
+    - By Layer: Adopts the line width set in the :ref:`layer's attributes <widget-layerList-attributes>`.
+    - By Block: Adopts the line width used when the :ref:`block <blocks>` was created.
+    - Default: Returns the line width to the default (0.00 mm). 
+
+Refer to :ref:`Common Line Widths <lineWidths>` in the appendix for examples of line thickness by purpose.
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
+Line Type
+`````````
+
+LibreCAD includes several commonly used line types:
+
+.. csv-table:: 
+    :widths: 15, 30, 55
+    :header-rows: 1
+    :stub-columns: 0
+    :class: table-fix-width
+
+    "Line Type", "Example", "Purpose"
+    "Continuous", |image20|, "Object or visible, dimension, extension and construction lines."
+    "Dot", |image21|, ""
+    "Dash", |image22|, "Hidden lines and phantom lines (long dash)."
+    "Dash Dot", |image23|, ""
+    "Divide", |image24|, "Marks location (cross) section of object."
+    "Center", |image25|, "Marks center of circle, arc or any symmetrical object."
+    "Border", |image26|, "Used for drawing border around perimeter of sheet."
+
+Other than ”Continuous”, the other non-continuous lines are available in default, ”tiny” (1/6x default), ”small” (1/2x) and ”large (2x)”.  As with line thickness, different types of lines are used for different purposes.  A complete list of :ref:`line types <lineTypes>` are shown in the appendix.
+
+.. Note::
+   Intervals for non-continuous line types with white spaces remain constant when scaled.  ”Tiny” should be used in most cases.
 
 
 .. _entity-layers:
@@ -260,136 +378,6 @@ You can toggle between construction and normal mode three ways:
      - Click the "Toggle construction lines" icon |icon04| / |icon05| in the *Layer List*.
 
 For more details on hiding, locking and deleting layers, refer to :ref:`Layer List Dock <widget-layerList>` in the Dock Widgets Reference section.
-
-
-.. _entity-pen:
-
-Pen
-~~~
-
-As with many other aspects of drafting line color, thickness and type assigned to an entity, such as a line or circle are determined by drafting conventions or common practices.  Within LibreCAD, the three attributes are grouped together as a "Pen":
-
-    - **Color** - LibreCAD has 16 default colors, but supports the RGB color space (#000000 to #FFFFFF or 16,777,215 colors).  The initial color for entities is black.
-    - **Width** - The default line width is 0.00mm.  Line widths of up to 2.11mm are supported.
-    - **Line Type** - The default line type is "Continuous" (e.g. solid).  Other line types included with LibreCAD are Dot, Dash, Divide, Center, and Border.
-
-The pen attributes can be defined for a single entity (via the *Properties* tool) , by a group of selected entities (via the *Attribute* tool), or by layer.
-
-.. note::
-   Just as with entities, "pens" can also be applied to layers.  See :ref:`Layer List Dock <widget-layerList>` for details on setting a layer's attributes.
-
-
-Color
-`````
-
-.. only:: html
-
-	.. image:: /images/coloursStd.png
-		:align: right
-		:scale: 100
-		:alt: Standard color selector
-
-.. only:: latex
-
-	.. image:: /images/coloursStd.png
-		:align: right
-		:scale: 67
-		:alt: Standard color selector
-
-.. actual image size 140px x 439px
-
-The color for an entity can be selected from the ”Color” selection drop-down menu.  The drop-down menu allows the color to be selected ”By Layer”, ”By Block”, from the ”Custom” color selector, or chosen quickly from one of the 16 pre-defined colors: 
-
-Selecting ”By Layer” will assign the color that was defined for the layer (see above) to the entity.  If the layer's selected color is subsequently changed all entities on the layer will be assigned the layer's color.
-
-When editing a :ref:`block <blocks>`, selecting ”By Block” will assign the color that was defined for the block to the added entity.  If the block's color is subsequently changed all entities in the block will be assigned the block's color.
-
-Selecting ”Custom” will allow a selection from a palette of 36 colors and shades of grey or from a user defined colors.  User defined colors are created by clicking the Add button |image10| and then selecting the *hue* and *value* from the color selection tool.  User defined colors can be modified by right-clicking on a user defined color and selecting a new *hue* and *value*.  A maximum of eight user defined colors can be added.
-
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
-
-.. table::
-   :align: center
-   :widths: auto
-   :class: table-no-borders
-   
-   +----------+----------+
-   | |01L|    | |01R|    |
-   +----------+----------+
-
-.. |01L| image:: /images/coloursCustom.png
-         :scale: 67
-         :alt: Custom colors
-.. actual image size 490px x 295px
-
-.. |01R| image:: /images/colourCustom.png
-         :scale: 67
-         :alt: Custom color selector
-.. actual image size 436px x 426px
-
-
-Width
-`````
-
-Line width or thickness should also be addressed when creating a new drawing.  The default line thickness is 0.00mm and results in a hairline on a printed page.  General practices may vary by drawing type; technical, architectural, etc, and by drawing size; larger drawings utilize thicker lines.  A variety of sources can be found on the internet by searching for "CAD standards".  The following table provides suggested line widths for ISO A4/A3/A2 or ANSI A/B/C paper sizes:
-
-.. csv-table:: 
-    :widths: 15, 20, 40, 25
-    :header-rows: 1
-    :stub-columns: 0
-    :class: table-fix-width
-
-    "Line Weights", "Pen Size (mm)", "Purpose", "Recommended"
-    "Extra Thin", "0.00, 0.05, 0.09", "- Hidden lines", "0.00 mm"
-    "", "", "- Hatching", ""
-    "", "", "- Reference line", ""
-    "Thin", "**0.13**, 0.15, **0.18**, 0.20, **0.25**", "- Outlines", "0.18 mm"
-    "", "", "- Center lines", ""
-    "", "", "- Dimension lines", ""
-    "", "", "- Leader and extension", ""
-    "", "", "- Phantom lines", ""
-    "", "", "- Grid lines", ""
-    "", "", "- Text", ""
-    "Medium", "0.30, **0.35**, 0.40, **0.50**", "- Hidden lines", "0.35 mm"
-    "", "", "- Text normal (0.30 mm)", ""
-    "", "", "- Text - sub-headings (0.50 mm)", ""
-    "", "", "- Visible object outlines", ""
-    "Thick", "**0.70**", "- Cutting lines", "0.70 mm"
-    "", "", "- Match lines", ""
-    "", "", "- Section lines", ""
-    "", "", "- Text - titles/major headings", ""
-    "", "", "- Viewing planes", ""
-    "Extra Thick", "**1.00**", "- Title sheet border", ""
-
-
-Note: Pen sizes shown in **bold** are ISO standard sizes.
-
-
-Line Type
-`````````
-
-Different types of lines are used for different purposes.  LibreCAD includes several commonly used line types:
-
-.. csv-table:: 
-    :widths: 15, 30, 55
-    :header-rows: 1
-    :stub-columns: 0
-    :class: table-fix-width
-
-    "Line Type", "Example", "Purpose"
-    "Continuous", |image20|, "Object or visible, dimension, extension and construction lines."
-    "Dot", |image21|, ""
-    "Dash", |image22|, "Hidden lines and phantom lines (long dash)."
-    "Dash Dot", |image23|, ""
-    "Divide", |image24|, "Marks location (cross) section of object."
-    "Center", |image25|, "Marks center of circle, arc or any symmetrical object."
-    "Border", |image26|, "Used for drawing border around perimeter of sheet."
-
-Other than ”Continuous”, the other non-continuous lines are available in default, ”tiny” (1/6x default), ”small” (1/2x) and ”large (2x)”.  A complete list of :ref:`line types <lineTypes>` are shown in the appendix.
-
-.. Note::
-   Intervals for non-continuous line types with white spaces remain constant when scaled.  ”Tiny” should be used in most cases.
 
 
 Drawing and Editing Entities

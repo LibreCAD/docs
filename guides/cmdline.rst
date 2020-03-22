@@ -16,9 +16,9 @@ LibreCAD's command line offers users an alternative to using the mouse to select
 
 The command line is displayed in its own :ref:`dock widget <widget-cmdLine>` and consists of three components
 
-   1. Command prompt.
-   2. Command output window.
-   3. Button that displays a drop-down menu that includes:
+   #. Command prompt.
+   #. Command output window.
+   #. Button that displays a drop-down menu that includes:
 
       - Toggle *Keycode Mode* off or on.
       - Load a Command file.
@@ -30,18 +30,16 @@ Command Line Functions
 
 The commands available to use are shown in the :ref:`Drawing Tools <tools>` reference.  The command line is activated by in a variety of ways:
 
-   1. Start typing any command, e.g. li, rect, etc. and then [Enter] or the [Space bar].
-   2. Press the [Space bar], type any command and then [Enter] or the [Space bar].
-   3. Press [Ctrl + M], any command and then [Enter] or the [Space bar].
-   4. Press [Shift], any command and then [Enter] or the [Space bar].
-   5. Press [F1], any command and then [Enter] or the [Space bar].
-   6. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.  Pressing [Enter] is not required. 
+   - Start typing any command, e.g. li, rect, etc. and then [Enter] or the [Space bar].
+   - Press the [Space bar], type any command and then [Enter] or the [Space bar].
+   - Press [Ctrl + M], any command and then [Enter] or the [Space bar].
+   - Press [Shift], any command and then [Enter] or the [Space bar].
+   - Press [F1], any command and then [Enter] or the [Space bar].
+   - With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.  Pressing [Enter] is not required. 
 
 When the command line is activated the prompt above the input text box, initially showing "Command:" in black text, turns blue.  After typing a command the prompt will indicate the next input required, such as coordinates or the next action available.  Pressing [Esc] will cancel the current action and pressing it a second time will cancel the operation.
 
-For example, when using the **2 Points** line tool the first prompt shows "Specify first point" and the second "Specify next point".  After drawing at least two segments of a line the next prompt reads "Specify next point or [close/undo]".  LibreCAD is expecting another set of coordinates to be entered, or the shape (with a minimum of two segments) can be closed or the last actions can be reversed.  "Close" or "undo" can be entered on the command line or by clicking on buttons on the :ref:`Tool Options<tools>` toolbar.  For example, to draw a square using the "2 Points line" tool from the command line:
-
-::
+For example, when using the **2 Points** line tool the first prompt shows "Specify first point" and the second "Specify next point".  After drawing at least two segments of a line the next prompt reads "Specify next point or [close/undo]".  LibreCAD is expecting another set of coordinates to be entered, or the shape (with a minimum of two segments) can be closed or the last actions can be reversed.  "Close" or "undo" can be entered on the command line or by clicking on buttons on the :ref:`Tool Options<tools>` toolbar.  For example, to draw a square using the "2 Points line" tool from the command line::
 
    Command:
    li
@@ -82,9 +80,7 @@ Multi-Command Input
 
 Command input can be combined and entered on a single line by separating the commands and other input with semicolons.  Entering ``li;0,0;10..0;0..10;-10..0;c;k`` on the command line will draw a 10 x 10 square.  A list of commands, separated by a newline (return), can be copied and pasted using **Past multiple commands** from the command line button (lower right corner of the **Command Line Dock**).
 
-Command input can also be loaded from text files.  Entering the commands and other input into a text file separating each with a newline.  For example, create a text file and enter the following commands:
-
-::
+Command input can also be loaded from text files.  Entering the commands and other input into a text file separating each with a newline.  For example, create a text file and enter the following commands::
 
    li
    0,0
@@ -96,9 +92,7 @@ Command input can also be loaded from text files.  Entering the commands and oth
 
 Save the file as "multiCmd.txt". In LibreCAD select "Load Command File" from the the drop-down menu by clicking the command line button.  Locate the file and click the **Open** button.  The above commands will draw a 10 x 10 square.
 
-Multi-command input can be assigned to a variable and variables can also contain other variables (they are read recursively):
-
-::
+Multi-command input can be assigned to a variable and variables can also contain other variables (they are read recursively)::
 
    a=ci;0,0;10
    b=ci;10,0;10
@@ -114,9 +108,7 @@ Command Aliases
 ---------------
 
 As previously noted many of the commands in LibreCAD have multiple forms.  The long *untranslated* form is the native command and the short forms are *aliases* to the long form.  For example, "l" and "li" are aliases to "line".  The aliases are defined in the ``librecad.alias`` configuration file.
-The format of the configuration file is ``<alias>[Tab]<command-untranslated>``.  The default aliases for the **2 Points** line appears as:
-
-::
+The format of the configuration file is ``<alias>[Tab]<command-untranslated>``.  The default aliases for the **2 Points** line appears as::
 
    ...
    l	line
@@ -143,11 +135,13 @@ LibreCAD includes a built-in calculator that uses the command line interface.  T
 
 If the cal mode is *off* entering a math expression will result in an error message such as ``Unknown command: 1+1``.
 
-A complete list of operators and functions can be found in the :ref:`appendix<calc>`.
+A complete list of operators and functions can be found in the :ref:`appendix <calc>`.
 
-.. note:: The constant pi is defined in LibreCAD as 3.14159265359.
+.. note:: 
 
-.. note:: Trigonometric functions use radians (radians = degrees*pi/180).
+    The constant pi is defined in LibreCAD as 3.14159265359.
+
+    Trigonometric functions use radians (radians = degrees*pi/180).
 
 
 .. images:

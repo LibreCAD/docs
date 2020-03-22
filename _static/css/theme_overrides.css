@@ -1,6 +1,8 @@
 @import url("//media.readthedocs.org/css/sphinx_rtd_theme.css");
 @import "theme.css";
 
+/* https://stackoverflow.com/questions/32079200/how-do-i-set-up-custom-styles-for-restructuredtext-sphinx-readthedocs-etc */
+
 /* Change RtD theme colour to LibreCAD's colours */
 
 /* Sidebar header (and topbar for mobile) */
@@ -37,17 +39,22 @@ table.docutils div.line-block {
 }
 
 
+/* Overrides are not restricted to table where the class is applied, but seem to affect all tables.  ?? */
+
 /* Wrap text in table instead of scollbars: http://knowyourtoolset.com/2018/02/controlling-the-width-of-a-table-with-read-the-docs/ */
 /*  Add ":class: table-fix-width" to table definitions */
 .table-fix-width table, th, td {
    /* Wrap text */
    white-space: normal !important;
+   /* Align text to top left */
+   vertical-align: top;
+   text-align: left;
    /* Set table borders */
    border: 1px solid lightgrey !important;
    /* Adjust padding for tables; top / right / bottom / left */
    padding: 4px 2px 4px 2px !important;
    /* Striped table */
-   tr: nth-child(even){
+   tr: nth-child(odd){
       background-color: #f2f2f2 !important;
    }
 }
@@ -58,12 +65,15 @@ table.docutils div.line-block {
 .table-no-borders table, th, td {
    /* Wrap text */
    white-space: normal;
+   /* Align text to top center */
+   vertical-align: top;
+   /* text-align: center; */
    /* Remove ALL table borders */
    border: 0px solid white;
+   /* Adjust padding for tables; top / right / bottom / left */
+   padding: 4px 2px 4px 2px;
    /* Remove table shading */
    background-color: white;
-   /* Align text to top left */
-   vertical-align: top;
 }
 
 

@@ -9,28 +9,44 @@
 Blocks
 ======
 
-*Blocks* are a small reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *instances* or *inserts*, are composed of geometric shapes (lines, arcs, etc.), but can also include text and dimensions.  Blocks can be created in the current drawing used repeatedly within the drawing, they can also be imported from a separate drawing file, or inserted from the block library.
+*Blocks* are reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *instances* or *inserts*, are composed of geometric shapes (lines, arcs, etc.), but can also include text and dimensions.  Blocks can be created in the current drawing, inserted from the block library, or imported from a separate drawing file, Once inserted blocks can be used repeatedly within the drawing.
 
-.. figure:: /images/blockSample.png
-    :width: 677px
-    :height: 423px
+.. figure:: /images/doohickeyPrintPrev.png
     :align: center
-    :scale: 75
-    :alt: Block sample
+    :scale: 67
+    :alt: Doohickey Example with Blocks
 
-    Block sample (Library Browser -> misc -> t-part)
+    Example of the Doohickey drawing (print preview) with blocks, including the page border from the **Library Browser** ("sheets -> A4H") and a block imported from a drawing file (isometric view).
+
+.. actual image size 1102px x 782px
+
+    ..
+    .. figure:: /images/blockSample.png
+        :align: center
+        :scale: 75
+        :alt: Block sample
+
+        Block sample (Library Browser -> misc -> t-part)
+
+    .. actual image size 677px x 423px
+
+
+Working with Blocks
+-------------------
 
 There are two dock widgets for managing blocks.  The :ref:`Block List <widget-blockList>` dock for managing blocks *within the current drawing* and the :ref:`Library Browser <widget-libBrowser>` dock that displays a *collection of  blocks* in the library.  Both widgets allow users to insert blocks into the current drawing, but there are a couple of important differences:
 
    - Blocks inserted from the **Block List**:
 
-      #. A block can be placed at a different locations, scale, and/or rotation angle, and also be placed in an array.
-      #. Blocks inserted from the same block in the **Block List** is called an *instance*.  If a block is inserted from the same block multiple times all *instances* of the block are linked.  **Changes to one instance of the block will be reflected in all instances of that block.**
+      - A block can be placed at a different locations, scale, and/or rotation angle, and also be placed in an array.
+      - Blocks inserted from the same block in the **Block List** is called an *instance*.  If a block is inserted from the same block multiple times all *instances* of the block are linked.  **Changes to one instance of the block will be reflected in all instances of that block.**
 
    - Blocks inserted from the **Library Browser**:
 
-      #. Each block can be placed at a different location, rotation angle and/or scale.
-      #. Blocks inserted multiple times will create a new instance of the block in the **Block List** each time it is inserted.  After the initial insertion, the blocks will numbered sequentially (e.g. *BlockName*, *BlockName-0*, *BlockName-1*, ...)  The inserted blocks will be independent of each other.
+      - Each block can be placed at a different location, rotation angle and/or scale.
+      - Blocks inserted multiple times will create a new instance of the block in the **Block List** each time it is inserted.  After the initial insertion, the blocks will numbered sequentially (e.g. *BlockName*, *BlockName-0*, *BlockName-1*, ...)  The inserted blocks will be independent of each other.
+
+Blocks can also be imported from a separate file and will appear in the **Block List**.  Drawing files imported multiple times will create a new instances in the **Block List** and be numbered sequentially as with blocks inserted from the **Library Browser**. 
 
 
 .. _ugBlocksList:
@@ -43,7 +59,7 @@ Creating a Block
 
 Blocks can be created in the current drawing for use within the drawing.  There are two ways to create a block:
 
-   #. From an existing object:
+   - From an existing object:
 
         - Ensure the all entities for the object to be made into a block are on layer "0".
         - Select all the entities that make up the object.
@@ -52,7 +68,7 @@ Blocks can be created in the current drawing for use within the drawing.  There 
         - Provide a unique name for the new block and click **OK**.  The new block will appear in the **Block List**.
         - The original object can be deleted from layer "0".  The new block remains available in the **Block List**.
 
-   #. From an empty block:
+   - From an empty block:
 
         - Click on the **Add an empty block** icon |icon13|.  Provide a unique name for the new block and click **OK**.  The new empty block will appear in the **Block List**.
         - Select the new block in the **Block List** and click the **Edit the active block in a separate window** icon |icon16|.
@@ -66,9 +82,9 @@ Blocks can be created in the current drawing for use within the drawing.  There 
 
     Pay particular attention to the :ref:`Attributes <attributes>` when creating blocks.  In addition to the specific attributes, pen attributes (Color, Width, Line Type) also include "By Layer" and "By Block".
 
-    #. Blocks with specific attributes (e.g. color set to blue, width set to 0.18 mm, etc) will retain those attributes when inserted into a drawing.  The block needs to be edited to change any of the attributes.
-    #. Blocks with the attributes set to "By Layer" will adopt the attributes of the layer they are inserted in to.  The block's attributes will change if the layer's attributes are changed.
-    #. Blocks with the attributes set to "By Block" will initially adopt the attributes assigned to the layer.  The attributes can be changed with the **Attribute** tool.
+    - Blocks with specific attributes (e.g. color set to blue, width set to 0.18 mm, etc) will retain those attributes when inserted into a drawing.  The block needs to be edited to change any of the attributes.
+    - Blocks with the attributes set to "By Layer" will adopt the attributes of the layer they are inserted in to.  The block's attributes will change if the layer's attributes are changed.
+    - Blocks with the attributes set to "By Block" will initially adopt the attributes assigned to the layer.  The attributes can be changed with the **Attribute** tool.
 
 
 Inserting Blocks
@@ -160,12 +176,12 @@ Inserting Blocks
 
 .. admonition:: Recommendation
 
-    When using blocks from the library, insert a *single* *insert* from the **Library Browser** and then insert subsequent *instances* from the **Block List**.  Inserting the block from the **Block List** retains the link between instances of the same block insert.  If a block is edited from the **Block List**, all instances of the block will show the changes.
+    When using blocks from the library, insert a *single insert* from the **Library Browser** and then insert subsequent *instances* from the **Block List**.  Inserting the block from the **Block List** retains the link between instances of the same block insert.  If a block is edited from the **Block List**, all instances of the block will show the changes.
 
     Only insert multiple *inserts* of a block from the **Library Browser** if they are to be independent.
 
 
-To use blocks from the :ref:`Block Library <widget-libBrowser>`, select the block from the tree view and insert it in the drawing.  Blocks inserted from the library can be rotated and scaled through the *Tool Option* bar. The rotation angle and the scale factor behave as they do for a block inserted from the **Block List**.
+To use blocks from the :ref:`Block Library <widget-libBrowser>`, select the block from the tree view and insert it in the drawing.  Blocks inserted from the library can be rotated and scaled through the **Tool Option** bar. The rotation angle and the scale factor behave as they do for a block inserted from the **Block List**.
 
 .. figure:: /images/toolOptions/toBlockLib.png
     :width: 317px
@@ -189,7 +205,7 @@ Adding a User-defined Library
 
 Additional parts and libraries can be added for blocks created by users, libraries downloaded from the LibreCAD wiki (https://wiki.librecad.org/index.php?title=Part_Libraries) or from other internet resources.  LibreCAD can be configured to show user-defined blocks in the library browser *in addition* to the blocks included with LibreCAD.  
 
-The easiest method of installation, which does not require or Linux Root privileges or Windows Administrator access, is to create a new directory such as "PartsLibrary" in the home directory or "Documents" folder.  The path to this directory would be something similar to "/home/*{Username}*/PartsLibrary/" or "C:\\Users\\ *{Username}*\\Documents\\PartsLibrary\\ ".  Blocks and libraries can then be placed under the parent "PartsLibrary" directory.  The sub-directories will create categories that will appear in the tree view of the **Library Browser**.  
+The easiest method of installation, which does not require or Linux Root privileges or Windows Administrator access, is to create a new directory such as "Parts_Library" in the home directory or "Documents" folder.  The path to this directory would be something similar to "/home/*{Username}*/Parts_Library/" or "C:\\Users\\ *{Username}*\\Documents\\Parts_Library\\ ".  Blocks and libraries can then be placed under the parent "Parts_Library" directory.  The sub-directories will create categories that will appear in the tree view of the **Library Browser**.  
 
 .. important::
 
@@ -209,7 +225,7 @@ Blocks can also be inserted from as a file from other sources.  With an open dra
     - Place the block at the desired location within the drawing.
     - Adjust the options as needed and place additional copies of the block or press [Esc] to exit the command.
 
-As with inserting a block from the **Library Browser**, inserting a block multiple times will create a new instance of the block in the **Block List** each time it is inserted, each with a sequentially numbered block name after the initial block insert.  When using blocks from external files the same layer criteria applies (i.e. layer "0", ...)
+As with inserting a block from the **Library Browser**, importing a block multiple times will create a new instance of the block in the **Block List** each time it is imported, each with a sequentially numbered block name after the initial block insert.  When using blocks from external files the same layer criteria applies (i.e. layer "0", ...)
 
 
 
