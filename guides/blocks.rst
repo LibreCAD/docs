@@ -30,6 +30,10 @@ Blocks
 
     .. actual image size 677px x 423px
 
+
+Working with Blocks
+-------------------
+
 There are two dock widgets for managing blocks.  The :ref:`Block List <widget-blockList>` dock for managing blocks *within the current drawing* and the :ref:`Library Browser <widget-libBrowser>` dock that displays a *collection of  blocks* in the library.  Both widgets allow users to insert blocks into the current drawing, but there are a couple of important differences:
 
    - Blocks inserted from the **Block List**:
