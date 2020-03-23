@@ -234,39 +234,46 @@ As with inserting a block from the **Library Browser**, importing a block multip
 .. image:: /images/blockExploded.png
     :align: right
     :scale: 100
-    :alt: Exploded Block
+    :alt: Selected block entities
+
+    Selected block entities
+
 .. actual image size 415px x 200px
 
-Once a block has been inserted into a drawing, it is treated a a single entity.  Select any one entity within the block selects the entire block.  Blocks can be disassembled, or *exploded*, and once exploded individual entities making up the block can be edited.
-
+Once a block has been inserted into a drawing, it is treated a a single entity.  Select any one entity within the block selects the entire block and blocks can only manipulated as a single entity.  Blocks can be disassembled, or *exploded*, and once exploded, the individual entities making up the block can be edited.  
+ 
+**Explode** icon |icon20|
 
 ..  Icon mapping:
 
 .. |icon10| image:: /images/icons/visible.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon11| image:: /images/icons/invisible.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon12| image:: /images/icons/create_block.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon13| image:: /images/icons/add.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon14| image:: /images/icons/remove.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon15| image:: /images/icons/rename_active_block.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon16| image:: /images/icons/properties.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon17| image:: /images/icons/save.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
 .. |icon18| image:: /images/icons/insert_active_block.svg
-            :height: 24
-            :width: 24
+            :height: 18
+            :width: 18
+.. |icon20| image:: /images/icons/explode.svg
+            :height: 18
+            :width: 18
 
