@@ -90,7 +90,7 @@ Blocks can be created in the current drawing for use within the drawing.  There 
 Inserting Blocks
 ~~~~~~~~~~~~~~~~
 
-Blocks can be inserted from the **Block List** or from the **Library Browser** (see :ref:`below <ugLibBrowser>`).  More  options are available when inserting blocks from the **Block List**:
+Blocks can be inserted from the **Block List** or from the **Library Browser** (see :ref:`below <ugLibBrowser>`).  When inserting a block from the **Block List**, the **Block List Tool Options** toolbar is displayed:
 
 .. figure:: /images/toolOptions/toBlockInsert.png
     :align: center
@@ -98,10 +98,8 @@ Blocks can be inserted from the **Block List** or from the **Library Browser** (
     :alt: Block List insertion tool options
 .. actual image size 617px x 34px
 
-..
-
-    - Block can be rotated by the specified *Angle* and scaled by the *Factor*.
-    - A pattern of blocks can be created by specifying the number of columns and rows in the *Array* and *Spacing* between the columns and rows.
+- Block can be rotated by the specified *Angle* and scaled by the *Factor*.
+- A pattern of blocks can be created by specifying the number of columns and rows in the *Array* and *Spacing* between the columns and rows.
 
 To insert a single block:
 
@@ -180,7 +178,7 @@ Inserting Blocks
     Only insert multiple *inserts* of a block from the **Library Browser** if they are to be independent.
 
 
-To use blocks from the :ref:`Block Library <widget-libBrowser>`, select the block from the tree view and insert it in the drawing.  Blocks inserted from the library can be rotated and scaled through the **Tool Option** bar. The rotation angle and the scale factor behave as they do for a block inserted from the **Block List**.
+To use blocks from the :ref:`Block Library <widget-libBrowser>`, select the block from the tree view and insert it in the drawing.  Blocks inserted from the library can be rotated and scaled through the **Library Browser Tool Option** toolbar. The rotation angle and the scale factor behave as they do for a block inserted from the **Block List**.
 
 .. figure:: /images/toolOptions/toBlockLib.png
     :align: center

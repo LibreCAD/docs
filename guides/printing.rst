@@ -9,24 +9,28 @@
 Printing Guide
 ==============
 
-There are multiple approaches to printing a completed drawing.  Drawings can be printed to fir the page (without regard for scale) or be printed to scale, and with or without a border/title block.  LibreCAD also has the ability to print drawings across several pages using *tiled printing*, allowing a large format page to be printed on smaller paper.
+There are multiple approaches to printing a completed drawing.  Drawings can be printed (without regard for scale) or be printed to scale, and with or without a border/title block.  LibreCAD also has the ability to print drawings across several pages using *tiled printing*, allowing a large format page to be printed on smaller paper.
 
-While a drawing can be printed directly from the file menu, **File -> Print**, the recommended approach is to print drawings from the *Print Preview* window.  Using Print Preview allows 
+While a drawing can be printed directly from the file menu using **File -> Print**, the recommended approach is to print drawings from the *Print Preview* window.  Select **File -> Print Preview** or click the Print Preview icon |icon02| to display the print preview window: 
     
-.. image:: /images/LC-PrintPreview.png
+.. figure:: /images/LC-PrintPreview.png
     :align: center
     :scale: 50
-    :alt: LibreCAD's Print Preview
+    :alt: LibreCAD's Print Preview window
 
     LibreCAD's Print Preview window
 
 .. actual image size 1280px x 960px
 
-.. image:: /images/toolBars/tbPrintPreview.png
+The print preview window replaces the drawing window with an image of the page and displays the **Print Preview Tool Options** tool bar:
+
+.. figure:: /images/toolBars/tbPrintPreview.png
     :align: center
     :scale: 100
     :alt: Print Preview Toolbar
 .. actual image size 388px x 35px
+
+The page options for printing a drawing are included with the Drawing Preferences on the "Paper" tab
 
 
 These steps for printing assume the drawing to be printed was drawn full-scale (1:1).
