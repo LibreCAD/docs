@@ -231,7 +231,7 @@ As with inserting a block from the **Library Browser**, importing a block multip
 "Exploding" Blocks
 ------------------
  
-.. image:: /images/blockExploded.png
+.. figure:: /images/blockExploded.png
     :align: right
     :scale: 100
     :alt: Selected block entities

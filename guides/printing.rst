@@ -8,6 +8,19 @@
 
 Printing Guide
 ==============
+    
+.. image:: /images/LC-PrintPreview.png
+    :align: center
+    :scale: 50
+    :alt: LibreCAD's Print Preview
+.. actual image size 1280px x 960px
+
+.. image:: /images/toolBars/tbPrintPreview.png
+    :align: center
+    :scale: 100
+    :alt: Print Preview Toolbar
+.. actual image size 388px x 35px
+
 
 These steps for printing assume the drawing to be printed was drawn full-scale (1:1).
 
