@@ -15,6 +15,8 @@ Blocks
     :align: center
     :scale: 67
     :alt: Doohickey Example with Blocks
+.. actual image size 1102px x 782px
+
 
     Example of the Doohickey drawing (print preview) with blocks, including the page border from the **Library Browser** ("sheets -> A4H") and a block imported from a drawing file (isometric view).
 
@@ -93,11 +95,10 @@ Inserting Blocks
 Blocks can be inserted from the **Block List** or from the **Library Browser** (see :ref:`below <ugLibBrowser>`).  More  options are available when inserting blocks from the **Block List**:
 
 .. figure:: /images/toolOptions/toBlockInsert.png
-    :width: 617px
-    :height: 34px
     :align: center
     :scale: 75
     :alt: Block List insertion tool options
+.. actual image size 617px x 34px
 
 ..
 
@@ -184,11 +185,10 @@ Inserting Blocks
 To use blocks from the :ref:`Block Library <widget-libBrowser>`, select the block from the tree view and insert it in the drawing.  Blocks inserted from the library can be rotated and scaled through the **Tool Option** bar. The rotation angle and the scale factor behave as they do for a block inserted from the **Block List**.
 
 .. figure:: /images/toolOptions/toBlockLib.png
-    :width: 317px
-    :height: 33px
     :align: center
     :scale: 75
     :alt: Library Browser insertion tool options
+.. actual image size 317px x 33px
 
 To insert a block:
 
@@ -226,6 +226,20 @@ Blocks can also be inserted from as a file from other sources.  With an open dra
     - Adjust the options as needed and place additional copies of the block or press [Esc] to exit the command.
 
 As with inserting a block from the **Library Browser**, importing a block multiple times will create a new instance of the block in the **Block List** each time it is imported, each with a sequentially numbered block name after the initial block insert.  When using blocks from external files the same layer criteria applies (i.e. layer "0", ...)
+
+
+"Exploding" Blocks
+------------------
+
+Once a block has been inserted into a drawing, it is treated a a single entity.  Select any one entity within the block selects the entire block.  Blocks can be disassembled or *exploded*.  Once a block has been exploded individual entities making up the block can be edited.
+
+ 
+.. image:: /images/blockExploded.png
+    :align: right
+    :scale: 100
+    :alt: Exploded Block
+.. actual image size 416px x 312px
+
 
 
 
