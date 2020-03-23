@@ -15,8 +15,6 @@ Blocks
     :align: center
     :scale: 67
     :alt: Doohickey Example with Blocks
-.. actual image size 1102px x 782px
-
 
     Example of the Doohickey drawing (print preview) with blocks, including the page border from the **Library Browser** ("sheets -> A4H") and a block imported from a drawing file (isometric view).
 
@@ -235,8 +233,6 @@ As with inserting a block from the **Library Browser**, importing a block multip
     :align: right
     :scale: 100
     :alt: Selected block entities
-
-    Selected block entities
 
 .. actual image size 415px x 200px
 
