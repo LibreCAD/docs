@@ -235,7 +235,7 @@ As with inserting a block from the **Library Browser**, importing a block multip
     :align: right
     :scale: 100
     :alt: Exploded Block
-.. actual image size 416px x 312px
+.. actual image size 415px x 200px
 
 Once a block has been inserted into a drawing, it is treated a a single entity.  Select any one entity within the block selects the entire block.  Blocks can be disassembled, or *exploded*, and once exploded individual entities making up the block can be edited.
 
