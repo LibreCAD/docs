@@ -240,9 +240,15 @@ As with inserting a block from the **Library Browser**, importing a block multip
 
 .. actual image size 415px x 200px
 
-Once a block has been inserted into a drawing, it is treated a a single entity.  Select any one entity within the block selects the entire block and blocks can only manipulated as a single entity.  Blocks can be disassembled, or *exploded*, and once exploded, the individual entities making up the block can be edited.  
- 
-**Explode** icon |icon20|
+Once a block has been inserted into a drawing, it is treated a single entity and can only manipulated (moved, scaled, etc.) as a single entity.  Select any one entity within the block selects the entire block.  However, blocks can be disassembled, or *exploded*, and once exploded the individual entities making up the block can be edited.  To explode a block:
+
+    - Select a block.
+    - Click on the **Explode** icon |icon20|.
+
+.. note::
+
+    Once a block has been exploded it is no longer a block and cannot be treated as a single entity.  If it is necessary to recreate the block refer to **Creating a Block** above.
+
 
 ..  Icon mapping:
 
