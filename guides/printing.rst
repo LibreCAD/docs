@@ -8,11 +8,18 @@
 
 Printing Guide
 ==============
+
+There are multiple approaches to printing a completed drawing.  Drawings can be printed to fir the page (without regard for scale) or be printed to scale, and with or without a border/title block.  LibreCAD also has the ability to print drawings across several pages using *tiled printing*, allowing a large format page to be printed on smaller paper.
+
+While a drawing can be printed directly from the file menu, **File -> Print**, the recommended approach is to print drawings from the *Print Preview* window.  Using Print Preview allows 
     
 .. image:: /images/LC-PrintPreview.png
     :align: center
     :scale: 50
     :alt: LibreCAD's Print Preview
+
+    LibreCAD's Print Preview window
+
 .. actual image size 1280px x 960px
 
 .. image:: /images/toolBars/tbPrintPreview.png
@@ -39,7 +46,7 @@ To print a drawing without a drawing border / title block template or a specific
     b. Set format as desired, e.g. A4, Landscape, and click **OK**.
     c. The page is represented by the shadowed rectangle in the print preview.
 
-3. Click the **Fit to Page** button |icon05| on the toolbar.  This ensure the drawing is scaled to fit and centered on the page.
+3. Click the **Fit to Page** button |icon13| on the toolbar.  This ensure the drawing is scaled to fit and centered on the page.
 4. Select **File -> Print** or click the **Print** button |icon01|.
 5. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** button.  Adjust the properties if necessary and then click **OK**.
 6. Click the **Print** button.
@@ -59,9 +66,9 @@ To print a drawing without a drawing border / title block template but to a spec
     b. Set format as desired, e.g. A4, Landscape, and click **OK**.
     c. The page is represented by the shadowed rectangle in the print preview.
 
-3. Click the **Fit to Page** button |icon05| on the tool bar.  This establish the largest scale the can be used for the paper size defined in step 2 above.
+3. Click the **Fit to Page** button |icon13| on the tool bar.  This establish the largest scale the can be used for the paper size defined in step 2 above.
 4. Select the desired scaled from the drop-down box on the toolbar.
-5. Click the **Center to Page** button |icon04| from the toolbar.  
+5. Click the **Center to Page** button |icon12| from the toolbar.  
 6. The drawing can be re-positioned on the page by moving the page behind the drawing.  Click and hold anywhere in the drawing space and drag the paper to the desired position.  Pressing [Shift] allows only *horizontal* movements of paper and pressing [Ctrl] allows only *vertical* movements.
 7. Select **File -> Print** or click the **Print** button |icon01|.
 8. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** button.  Adjust the properties if necessary and then click **OK.**
@@ -104,7 +111,7 @@ Specifically, the process is as follows.  Starting with a full-scale (1:1) drawi
 
 3. To establish the largest scale the can be used for the paper size:
 
-    a. Click the **Fit to Page** button |icon05| on the tool bar and note the drawing scale shown in the drop-down box on the toolbar.  The is the largest scale that can be used for the current paper size.
+    a. Click the **Fit to Page** button |icon13| on the tool bar and note the drawing scale shown in the drop-down box on the toolbar.  The is the largest scale that can be used for the current paper size.
     b. Adjust the scale to ensure the drawing will fit on the printed page and accommodate a border that will be added in a later step. For example, if the *Fit to Page* ratio is 1:1.5, adjust the ratio to 1:2.
     c. Fix the scale by clicking the *Fixed* checkbox.
     d. Close *Print Preview* (click the **Print Preview** button  |icon01| ) and return to the drawing window.
@@ -119,7 +126,7 @@ Specifically, the process is as follows.  Starting with a full-scale (1:1) drawi
 
     a. Click the **Print Preview** button |icon02|.
     b. Reset the scale to the ratio determined in step 3b, i.e. 1:2.
-    c. Click the **Center to Page** button |icon04|.
+    c. Click the **Center to Page** button |icon12|.
 
 6. Select **File -> Print** or click the **Print** button |icon01|.
 7. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** button.  Adjust the properties if necessary and then click **OK**.
@@ -141,7 +148,7 @@ To print a drawing to the specific scale that greater than an available paper, u
     c. The page is represented by the shadowed rectangle in the print preview.
 
 3. Select the desired scale from the drop-down box on the toolbar.
-4. Click the **Calculate number of pages...** button |icon07| from the toolbar.  In print preview will be shown the multiple pages placed side by side and the drawing in the center of it.  Note: *Number of pages* may be changed through **Options -> Current Drawing Preferences** on *Paper* tab.
+4. Click the **Calculate number of pages...** button |icon15| from the toolbar.  In print preview will be shown the multiple pages placed side by side and the drawing in the center of it.  Note: *Number of pages* may be changed through **Options -> Current Drawing Preferences** on *Paper* tab.
 5. The drawing can be re-positioned on the pages by moving the pages behind the drawing.  Click and hold anywhere in the drawing space and drag the paper to the desired position. Pressing [Shift] allows only *horizontal* movements of paper and pressing [Ctrl] allows only *vertical* movements.
 6. Select **File -> Print** or click the **Print** button |icon01|.
 7. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** button.  Adjust the properties if necessary and then click **OK**.
@@ -169,18 +176,22 @@ The sequence of the output is from bottom left page to top right page.  In the p
 .. |icon02| image:: /images/icons/print_preview.svg
             :height: 18
             :width: 18
-.. |icon03| image:: /images/icons/printbw.png
+
+.. |icon10| image:: /images/icons/scaleLineWidth.svg
             :height: 18
             :width: 18
-.. |icon04| image:: /images/icons/printcenter.png
+.. |icon11| image:: /images/icons/printbw.png
             :height: 18
             :width: 18
-.. |icon05| image:: /images/icons/printfit.png
+.. |icon12| image:: /images/icons/printcenter.png
             :height: 18
             :width: 18
-.. |icon06| image:: /images/icons/printscale.png
+.. |icon13| image:: /images/icons/printfit.png
             :height: 18
             :width: 18
-.. |icon07| image:: /images/icons/multi_pages.svg
+.. |icon14| image:: /images/icons/printscale.png
+            :height: 18
+            :width: 18
+.. |icon15| image:: /images/icons/multi_pages.svg
             :height: 18
             :width: 18
