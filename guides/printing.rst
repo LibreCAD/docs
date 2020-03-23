@@ -184,18 +184,15 @@ The sequence of the output is from bottom left page to top right page.  In the p
 .. |icon10| image:: /images/icons/scaleLineWidth.svg
             :height: 18
             :width: 18
-.. |icon11| image:: /images/icons/printbw.png
+.. |icon11| image:: /images/icons/black_n_white_mode.svg
             :height: 18
             :width: 18
-.. |icon12| image:: /images/icons/printcenter.png
+.. |icon12| image:: /images/icons/center_to_page.svg
             :height: 18
             :width: 18
-.. |icon13| image:: /images/icons/printfit.png
+.. |icon13| image:: /images/icons/fit_to_page.svg
             :height: 18
             :width: 18
-.. |icon14| image:: /images/icons/printscale.png
-            :height: 18
-            :width: 18
-.. |icon15| image:: /images/icons/multi_pages.svg
+.. |icon14| image:: /images/icons/multi_pages.svg
             :height: 18
             :width: 18

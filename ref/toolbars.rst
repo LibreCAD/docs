@@ -153,10 +153,11 @@ The **Print Preview** toolbar is used to set up the print output as desired rega
     
     "Option Item", "Icon", "Description"
     "Scale", , "Displays the scale of the drawing based on its size and the paper size selected in :ref:`Drawing Preferences <draw-prefs>`. It is also possible to adjust the scale to a specific value to a value in the drop down  list or enter a custom values separated by the colon (:). Checking the *fixed* checkbox locks the scale to the set value."
-    "Toggle Black/White", |icon01|, "Toggles the colors of all entities from color to black/white."
-    "Center to page", |icon02|, "Centers the drawing to the paper size selected in *Drawing Preferences*."
-    "Fit to page", |icon03|, "Fits the drawing to the paper size selected."
-    "Multipages", |icon04|, "Determines the number of pages needed to print the drawing based on the defined scale and the paper size selected in *Drawing Preferences*."
+    "Apply Print Scale to line width", |icon01|, "When enabled, line width is scaled on reduced drawings (drawings reduced in size to fit a smaller page)."
+    "Toggle Black/White", |icon02|, "Toggles the colors of all entities from color to black/white."
+    "Center to page", |icon03|, "Centers the drawing to the paper size selected in *Drawing Preferences*."
+    "Fit to page", |icon04|, "Fits the drawing to the paper size selected. (Not available when ”fixed” is selected.)"
+    "Multipages", |icon05|, "Determines the number of pages needed to print the drawing based on the defined scale and the paper size selected in *Drawing Preferences*."
 
 
 .. _blk-insert-toolopt:
@@ -219,16 +220,19 @@ Inserting a block from a library can be enhanced through the *Tool Option* bar f
 
 ..  Icon mapping:
 
-.. |icon01| image:: /images/icons/black_n_white_mode.svg
+.. |icon01| image:: /images/icons/scaleLineWidth.svg
              :height: 24
              :width: 24        
-.. |icon02| image:: /images/icons/center_to_page.svg
+.. |icon02| image:: /images/icons/black_n_white_mode.svg
+             :height: 24
+             :width: 24        
+.. |icon03| image:: /images/icons/center_to_page.svg
              :height: 24
              :width: 24           
-.. |icon03| image:: /images/icons/fit_to_page.svg
+.. |icon04| image:: /images/icons/fit_to_page.svg
              :height: 24
              :width: 24   
-.. |icon04| image:: /images/icons/multi_pages.svg
+.. |icon05| image:: /images/icons/multi_pages.svg
              :height: 24
              :width: 24
 

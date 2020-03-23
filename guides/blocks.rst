@@ -178,13 +178,15 @@ Inserting Blocks
     Only insert multiple *inserts* of a block from the **Library Browser** if they are to be independent.
 
 
-To use blocks from the :ref:`Block Library <widget-libBrowser>`, select the block from the tree view and insert it in the drawing.  Blocks inserted from the library can be rotated and scaled through the **Library Browser Tool Option** toolbar. The rotation angle and the scale factor behave as they do for a block inserted from the **Block List**.
+To use blocks from the :ref:`Block Library <widget-libBrowser>`, select the block from the tree view and insert it in the drawing.  Blocks inserted from the library can be rotated and scaled through the **Library Browser Tool Option** toolbar:
 
 .. figure:: /images/toolOptions/toBlockLib.png
     :align: center
     :scale: 75
     :alt: Library Browser insertion tool options
 .. actual image size 317px x 33px
+
+- The rotation angle and the scale factor behave as they do for a block inserted from the **Block List**.
 
 To insert a block:
 
