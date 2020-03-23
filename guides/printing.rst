@@ -13,7 +13,7 @@ There are multiple approaches to printing a completed drawing.  Drawings can be 
 
 While a drawing can be printed directly from the file menu using **File -> Print**, the recommended approach is to print drawings from the *Print Preview* window.  Select **File -> Print Preview** or click the **Print Preview** icon |icon02| to display the print preview window: 
     
-.. figure:: /images/LC-PrintPreview.png
+.. figure:: /images/doohickeyPrintPreview.png
     :align: center
     :scale: 50
     :alt: LibreCAD's Print Preview window
@@ -24,7 +24,7 @@ While a drawing can be printed directly from the file menu using **File -> Print
 
 The print preview window replaces the drawing window and displays the **Print Preview Tool Options** tool-bar:
 
-.. figure:: /images/toolBars/tbPrintPreview.png
+.. figure:: /images/toolOptions/toPrintPreview.png
     :align: center
     :scale: 100
     :alt: Print Preview Toolbar
