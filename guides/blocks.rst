@@ -231,7 +231,7 @@ As with inserting a block from the **Library Browser**, importing a block multip
  
 .. figure:: /images/blockExploded.png
     :align: right
-    :scale: 100
+    :scale: 67
     :alt: Selected block entities
 
 .. actual image size 415px x 200px
@@ -240,6 +240,9 @@ Once a block has been inserted into a drawing, it is treated a single entity and
 
     - Select a block.
     - Click on the **Explode** icon |icon20|.
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
 
 .. note::
 
