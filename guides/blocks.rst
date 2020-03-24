@@ -11,14 +11,14 @@ Blocks
 
 *Blocks* are reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *instances* or *inserts*, are composed of geometric shapes (lines, arcs, etc.), but can also include text and dimensions.  Blocks can be created in the current drawing, inserted from the block library, or imported from a separate drawing file, Once inserted blocks can be used repeatedly within the drawing.
 
-.. figure:: /images/doohickeyPrint.png
+.. figure:: /images/doohickeyDrawing.png
     :align: center
     :scale: 67
-    :alt: Doohickey Example with Blocks
+    :alt: Doohickey drawing with blocks inserted
 
-    Example of the Doohickey drawing (print preview) with blocks, including the page border from the **Library Browser** ("sheets -> A4H") and a block imported from a drawing file (isometric view).
+    Example of the Doohickey drawing with blocks, including the page border from the **Library Browser** ("sheets -> A4H") and a block imported from a drawing file (isometric view).
 
-.. actual image size 1102px x 782px
+.. actual image size 938px x 728px
 
     ..
     .. figure:: /images/blockSample.png
