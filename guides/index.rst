@@ -21,6 +21,6 @@ The example drawings in the **User Guides** use LibreCAD's default configuration
     Drawing and Editing <dwg-edit>
     Using Blocks <blocks>
     Dimensioning and Text <annotate>
-    Printing <printing>
+    Completion and Printing <completion>
     Using the Command Line <cmdline>
 
