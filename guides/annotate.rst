@@ -108,6 +108,8 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
 
     To improve legiblity, make corrections, or make adjustments after scaling a drawing, dimension labels, dimension lines and extension lines can be repositioned using :ref:`Entity Handles <entity-handles>`.
 
+    Dimensioning drawings is beyond the scope of the **LibreCAD User Manual**, but additional resources and examples are available in `LibreCAD's wiki <https://dokuwiki.librecad.org/`_ or elsewhere on the web.
+
 
     **Dimensioning Example**
     
@@ -125,7 +127,7 @@ While leaders do not dimension an entity, they are closely related to dimensioni
 
 .. figure:: /images/leaderEg.png
     :align: center
-    :scale: 67
+    :scale: 50
     :alt: Leader example
 
 .. actual image size 768px x 324px
