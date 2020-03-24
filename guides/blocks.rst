@@ -11,7 +11,7 @@ Blocks
 
 *Blocks* are reusable drawings of commonly used objects such as bolts, furniture, electronic components, title blocks, etc.  Inserted blocks, also called *instances* or *inserts*, are composed of geometric shapes (lines, arcs, etc.), but can also include text and dimensions.  Blocks can be created in the current drawing, inserted from the block library, or imported from a separate drawing file, Once inserted blocks can be used repeatedly within the drawing.
 
-.. figure:: /images/doohickeyDrawing.png
+.. figure:: /images/doohickeyComplete.png
     :align: center
     :scale: 67
     :alt: Doohickey drawing with blocks inserted
@@ -246,7 +246,7 @@ Once a block has been inserted into a drawing, it is treated a single entity and
 
 .. note::
 
-    Once a block has been exploded it is no longer a block and cannot be treated as a single entity.  If it is necessary to recreate the block refer to **Creating a Block** above.
+    Once a block has been exploded it is no longer a block and cannot be treated as a single entity.  If it is necessary to recreate the block, refer to **Creating a Block** above.
 
 
 ..  Icon mapping:
