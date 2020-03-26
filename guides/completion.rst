@@ -9,31 +9,32 @@
 Completing and Printing
 =======================
 
-There are multiple approaches to printing a drawing.  Finished drawings are normally printed to scale, or they can be printed to fit page without regard for scale.  LibreCAD also has the ability to print drawings across several pages using *tiled printing*, allowing a large format page to be printed on smaller paper.
+Completed drawings are normally printed to scale and include a border and title block, but they can be printed to fit page without regard for scale.  LibreCAD also has the ability to print drawings across several pages using *tiled printing*, allowing a large format page to be printed on smaller paper.
 
-.. sidebar:: Using Border and Title Blocks
+Preparing a drawing and making it ready for printing includes a few steps:
+
+    - Finalizing the page size and drawing scale.
+    - Adjusting the dimensions.
+    - Adding page border and title block (if required).
+
+.. admonition:: Tip - Using Border and Title Blocks
 
     Adding a border provides a finished look and title blocks include important information for the drawing. Title blocks vary widely in content and layout, but can include:
 
     - Drawing name
-    - Date
-    - Revision
+    - Project name
     - Scale
     - Drawing perspective
-    - Paper size
+    - Date
+    - Revision
     - Page number
-    - Organization
-    - Draftsperson name
-    - Approval 
-    - etc.
+    - Paper size
+    - Name of organization
+    - Name of Draftsperson, Approvers, etc
+    - Others as required
 
-Creating a finished drawing and making ready for printing includes several steps:
 
-    - Finalizing the page size and drawing scale.
-    - Adjusting the dimensions.
-    - Adding borders and title block (if required).
-
-While a drawing can be printed directly from the file menu using **File -> Print**, the recommended approach is to print drawings from the *Print Preview* window.  Select **File -> Print Preview** or click the **Print Preview** icon |icon02| to display the print preview window: 
+Select **File -> Print Preview** or click the **Print Preview** icon |icon02| to display the print preview window: 
     
 .. figure:: /images/doohickeyPrintPreview.png
     :align: center
@@ -54,10 +55,13 @@ The print preview window replaces the drawing window and displays the **Print Pr
 
 The print preview window shows an white rectangle with a black border and a drop shadow on a grey background.  The black border represents the paper format as it is configured in the settings from the :ref:`dimension settings <dimn-prefs>` in **Drawing Preferences** on the "Paper" tab.  If margins are specified, they are shown as a darker grey border.
 
-.. Note:
+
+Completion
+----------
+
+.. important::
 
     These steps for printing assume the drawing to be printed was drawn full-scale (1:1).
-
 
 #. Switch to the print preview window by clicking the **Print Preview** icon |icon02| or selecting **File -> Print Preview**.
 #. Click the **Fit to Page** icon |icon13| on the toolbar.  This ensure the drawing is scaled to fit and centered on the page.
@@ -78,10 +82,54 @@ Insert border / title block from the Library Browser
    Explode border block and add/modify text
 Open PrintPreview
     Click Fit to Page or Zoom All
-Select **File -> Print** or click the **Print** button |icon01|.
-    #. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** button.  Adjust the properties if necessary and then click **OK**.
-    #. Click the **Print** button.
 
+
+
+
+Printing
+--------
+
+While a drawing can be printed directly from the file menu using **File -> Print**, the recommended approach is to print drawings from the *Print Preview* window.  
+
+Select **File -> Print** or click the **Print** icon |icon01|.
+    #. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** icon.  Adjust the properties if necessary and then click **OK**.
+
+    #. Click the **Print** icon.
+
+
+.. _print-tiled:
+
+Tiled Printing
+~~~~~~~~~~~~~~
+
+To print a drawing to the specific scale that greater than an available paper, use so-called "tiled printing".  In this case, the drawing is outputted in parts that can be assembled into a full-sized drawing.  With a drawing opened in LibreCAD:
+
+1. Select **File -> Print Preview** or click the **Print Preview** button |icon02|.
+2. Set or confirm the paper layout for the current drawing:
+
+    a. Select **Options -> Current Drawing Preferences**.
+    b. Set format as desired, e.g. A4, Landscape, and click **OK**.
+    c. The page is represented by the shadowed rectangle in the print preview.
+
+3. Select the desired scale from the drop-down box on the toolbar.
+4. Click the **Calculate number of pages...** button |icon15| from the toolbar.  In print preview will be shown the multiple pages placed side by side and the drawing in the center of it.  Note: *Number of pages* may be changed through **Options -> Current Drawing Preferences** on *Paper* tab.
+5. The drawing can be re-positioned on the pages by moving the pages behind the drawing.  Click and hold anywhere in the drawing space and drag the paper to the desired position. Pressing [Shift] allows only *horizontal* movements of paper and pressing [Ctrl] allows only *vertical* movements.
+6. Select **File -> Print** or click the **Print** button |icon01|.
+7. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** button.  Adjust the properties if necessary and then click **OK**.
+8. Click the **Print** button.
+
+In case when a page has the margins (margins > 0) the print preview takes on a special look.  Namely the margins between a neighbor pages aren't shown.  It makes possible to represent the printable areas of all pages as one whole area and to show an undivided drawing.  Or in other words, the print preview looks like the drawing was outputted and glued together without excess margins.
+
+Next example shows the print preview (left) and the output of tiled printing with the margins (right):
+
+.. figure:: /images/tiledPrint.png
+    :align: center
+    :scale: 100
+    :alt: Tiled print preview and output
+
+.. actual image size 650px x 300px
+
+The sequence of the output is from bottom left page to top right page.  In the picture above the order of the output is marked by numbers.
 
 .. OLD STUFF
 
