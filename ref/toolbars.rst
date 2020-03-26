@@ -13,6 +13,10 @@ Toolbars provide an alternative to the menus for accessing application functions
 
 Toolbars can be moved any where on the display and left floating, or docked to any of the four sides of the drawing window, similar to :ref:`Dock Widgets <widgets>`.  Unlike Dock Widgets, icons on a Toolbar are a single row when floating or docked to the top or bottom of the drawing window and verticle when docked to either side.  Also, Toolbars cannot be resized.
 
+
+Drawing Tools Toolbars
+----------------------
+
 .. csv-table:: 
     :widths: 20, 80
     :header-rows: 1
@@ -131,10 +135,10 @@ Other Toolbars
 
 .. _print-preview-toolopt:
 
-Print Preview
-~~~~~~~~~~~~~
+Print Preview Tool Options
+--------------------------
 
-The **Print Preview** toolbar is used to set up the print output as desired regardless of output format (pdf or paper). The print preview can be configured after selecting **File -> Print Preview** through the menu.  A combination of scale value, color status and drawing position relative to paper allows customed print output. The steps are detailed in :ref:`printing guide <printing-guide>`.
+The **Print Preview Tool Options** toolbar is used to set up the print output regardless of output format (pdf or paper). The toolbar is displayed after clicking the **Print Preview** icon |icon00| or selecting **File -> Print Preview** from the menu.  A combination of scale value, color status and drawing position relative to paper allows for customized print output. The steps are detailed in :ref:`printing guide <complete&print>`.
 
 
 .. figure:: /images/toolOptions/toPrintPreview.png
@@ -152,24 +156,25 @@ The **Print Preview** toolbar is used to set up the print output as desired rega
     :class: table-fix-width
     
     "Option Item", "Icon", "Description"
-    "Scale", , "Displays the scale of the drawing based on its size and the paper size selected in :ref:`Drawing Preferences <draw-prefs>`. It is also possible to adjust the scale to a specific value to a value in the drop down  list or enter a custom values separated by the colon (:). Checking the *fixed* checkbox locks the scale to the set value."
+    "Scale", , "Displays the current scale of the drawing.  The scale can also be changed to a predefined value selected from the drop-down list, or entered as a custom ratio."
+    "”fixed”", , "Checking the ”fixed” checkbox locks the scale to value shown in the text-box."
     "Apply Print Scale to line width", |icon01|, "When enabled, line width is scaled on *reduced* drawings (drawings reduced in size to fit a smaller page)."
     "Toggle Black/White", |icon02|, "Toggles the colors of all entities from color to black/white."
-    "Center to page", |icon03|, "Centers the drawing to the paper size selected in *Drawing Preferences*."
-    "Fit to page", |icon04|, "Fits the drawing to the paper size selected. (Not available when ”fixed” is selected.)"
+    "Center to page", |icon03|, "Centers the drawing and paper to the Print Preview window."
+    "Fit to page", |icon04|, "Fits the drawing to the margins of the paper and centers page to the Print Preview window. (Not available when ”fixed” is selected.)"
     "Multipages", |icon05|, "Determines the number of pages needed to print the drawing based on the defined scale and the paper size selected in *Drawing Preferences*."
 
 
 .. _blk-insert-toolopt:
 
-Inserting Blocks
-~~~~~~~~~~~~~~~~
+Block Tool Options
+------------------
 
 There are two block insert operations with corresponding Tool Option toolbars.  For further details on using blocks refer to :ref:`Blocks <blocks>` in the User Guides.
 
 
 From Block List
-```````````````
+~~~~~~~~~~~~~~~
 
 The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. 
 
@@ -195,7 +200,7 @@ The **Block Insert** capability can be expanded through the *Tool Option* bar fe
 
 
 From Block Library
-``````````````````
+~~~~~~~~~~~~~~~~~~
 
 Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted.
 
@@ -219,6 +224,10 @@ Inserting a block from a library can be enhanced through the *Tool Option* bar f
 
 
 ..  Icon mapping:
+
+.. |icon00| image:: /images/icons/print_preview.svg
+            :height: 18
+            :width: 18
 
 .. |icon01| image:: /images/icons/scaleLineWidth.svg
              :height: 24

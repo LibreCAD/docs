@@ -49,7 +49,7 @@ The paper format, orientation, and margins to be used is an important to conside
 
     While any scale can be used when printing a drawing there are commonly used scales for different types of drawings.  Refer to  :ref:`Scales <scales>` in the appendix for some examples.
 
-    Be sure to allow room on the drawing for dimension lines and text when determining the print scale.  More details on printing a drawing are found in the :ref:`Printing Guide <printing-guide>`.
+    Be sure to allow room on the drawing for dimension lines and text when determining the print scale.  More details on printing a drawing are found in the :ref:`Printing Guide <complete&print>`.
 
 
 .. _ug-layers:

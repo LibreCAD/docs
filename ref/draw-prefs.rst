@@ -43,7 +43,7 @@ Orientation can be selected for any page size and is either *Landscape* (long ed
 
 Margins determine the printable area of a page.  Specified fields at the edges of the page are marked with gray color and always stay empty on the output.
 
-If tiled printing is used to output the drawing, use *Number of pages* section to set a horizontal and a vertical number of pages.  For more details about the tiled printing see :ref:`Printing Guide <printing-guide>`.
+If tiled printing is used to output the drawing, use *Number of pages* section to set a horizontal and a vertical number of pages.  For more details about the tiled printing see :ref:`Printing Guide <complete&print>`.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst

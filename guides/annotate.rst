@@ -83,7 +83,7 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
 
     The minimum spacing between dimension lines needs to be scaled with the drawing.  For example, if the drawing is 1:10, the spacing will need to be adjusted to 60 mm between dimension lines and 100 mm from the entity.
 
-    Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
+    Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <complete&print>` guides.
 
 
 .. admonition:: Tip - Rules for Dimensioning
