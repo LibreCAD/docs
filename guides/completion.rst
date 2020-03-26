@@ -37,7 +37,7 @@ Preparing a drawing and making it ready for printing includes a few steps:
 Print Preview Window
 --------------------
 
-Open LibreCAD's print preview window by clicking the **Print Preview** icon |icon02| or select **File -> Print Preview** to display the print preview window: 
+LibreCAD's **Print Preview** displays the drawing on a virtual piece of paper.  It allows adjustments to the drawing and paper prior to committing the drawing to paper.  Open the print preview window by clicking the **Print Preview** icon |icon02| or selecting **File -> Print Preview**: 
     
 .. figure:: /images/doohickeyPrintPreview.png
     :align: center
@@ -56,9 +56,7 @@ The print preview window replaces the drawing window and displays the :ref:`Prin
     :alt: Print Preview Toolbar
 .. actual image size 388px x 35px
 
-
-
-The print preview window shows an white rectangle with a black border and a drop shadow on a grey background.  The black border represents the paper format as it is configured in the settings from the :ref:`dimension settings <dimn-prefs>` in **Drawing Preferences** on the "Paper" tab.  If margins are specified, they are shown as a darker grey border.
+The print preview window shows the virtual paper as a white rectangle with a black border and a drop shadow on a grey background.  The black border represents the paper format and orientation as it is configured on the "Paper" tab of the :ref:`Drawing Preferences <draw-prefs>`.  If margins are specified on the "Paper" tab, they are shown as a darker grey border.
 
 
 Completing the Drawing
@@ -66,27 +64,28 @@ Completing the Drawing
 
 .. important::
 
-    These steps for printing assume the drawing to be printed was drawn full-scale (1:1).
+    These steps assume a drawing that is drawn to full-scale (1:1).
 
-#. Switch to the print preview window by clicking the **Print Preview** icon |icon02| or selecting **File -> Print Preview**.
-#. Click the **Fit to Page** icon |icon13| on the toolbar.  This ensure the drawing is scaled to fit and centered on the page.
-#. Adjust for a scaled drawing.
+#. Starting with the drawing open in the drawing window, switch to print preview window by clicking the **Print Preview** icon |icon02|.  The drawing will automatically adjust to "fit the page" as it is currently configured.
+#. Open the **Drawing Preferences** (**Options -> Current Drawing Preferences**) and check the paper layout ("Format", "Orientation" and "Margins") for the current drawing as desired: e.g. A4, Landscape, Top, Bottom Left and Right Margins and click **OK**.  Adjust the layout if necessary.
+#. Click the **Fit to Page** icon |icon13| on the toolbar.  This will ensure the drawing is scaled to fit the current paper format and centered on the page.  Note the scale in the text-box of the print preview tool-bar.
+#. If required, adjust the scale using a *smaller* ratio than the "Fit to Page" scale, e.g. use "1:2" if "1.18" is the calculated scale, for the drawing by:
 
-    - Use the predefined :ref:`scales <scales>`, or
-    - Enter the required scale in the text-box.
+    - Selecting a predefined scale from the drop-down, or
+    - Type the required scale in the text-box and press [Enter].
 
-#. Open the **Options -> Current Drawing Preferences**
+#. Adjust the position of the drawing image on the paper by:
 
-        a. Select **Options -> Current Drawing Preferences**.
-        b. Set or confirm the paper layout for the current drawing: Set format as desired, e.g. A4, Landscape, and click **OK**.
+    - Clicking the **Center to Page** icon |icon12|, or
+    - Repositioning the paper by dragging it as needed (the drawing stays centered on the screen).
 
-#. Exit the print preview window by clicking the **Print Preview** icon |icon02|.
-#. Adjust Dimension line placement as necessary.  Refer to :ref:`Dimensioning <dimensioning>` for details.
-#. Insert border / title block from the **Library Browser**:
+#. Close the print preview window by clicking the **Print Preview** icon |icon02|.
+#. If necessary, adjust dimension line placement.  Refer to :ref:`Dimensioning <dimensioning>` for details.
+#. If using a border / title page block, insert the block from the **Library Browser**:
 
-    - Insert a *sheet* that matches the paper format and orientation, e.g. "A4H" for a landscape A4 page.
-    - Scale to suit the 
-    - Explode border block and add/modify text
+    - Insert a block from *sheets* that matches the paper format and orientation, e.g. "A4H" for a landscape A4 page.
+    - Set the blocks scale "Factor" suit the scale determined above, e.g. "2" for a drawing scale of 1:2.  See  **Inserting Blocks** in :ref:`Using the Library Browser <ugLibBrowser>` for details.
+    - "Explode" the border block and add/modify text using the "Properties" tool.  Refer to the :ref:`Modify <tool-modify> tools.
 
 #. Switch to the print preview window and check the completed drawing. Click Fit to Page or Zoom All if necessary
 
@@ -94,12 +93,11 @@ Completing the Drawing
 Printing
 --------
 
-While a drawing can be printed directly from the file menu using **File -> Print**, the recommended approach is to print drawings from the *Print Preview* window.  
+While a drawing can be printed directly from the file menu using **File -> Print**, the recommended approach is to print drawings from the **Print Preview** window.
 
-Select **File -> Print** or click the **Print** icon |icon01|.
-    #. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** icon.  Adjust the properties if necessary and then click **OK**.
-
-    #. Click the **Print** icon.
+#. Click the **Print** icon |icon01| or select **File -> Print**
+#. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** icon.  Adjust the properties if necessary and then click **OK**.
+#. Click the **Print** icon.
 
 
 .. _print-tiled:
