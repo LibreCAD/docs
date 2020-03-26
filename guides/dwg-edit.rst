@@ -263,10 +263,11 @@ The drawing should appear as:
     - Click the line to be trimmed, the "entity to trim" anywhere along the line that is to be kept (below the top horizontal line).
     - Press [Esc] or right-click to exit the command.
 
-.. important:: 
-   These examples do not provide an example of every tool available in LibreCAD, but is intended to show the basic operation of some of the drawing and modifications tools.  Most of the other drawing and modifying tools work in a similar manner.  Being familiar with the :ref:`Drawing <tools>` and :ref:`Modify <tool-modify>` tools in the **Reference** section will help determine what tool can be used in a particular situation.
+.. important::
 
-   These examples also illustrate that there are multiple ways to achieve the same result using a variety of methods.  There is no one best method.  The particular method used may depend on the state of the drawing and how existing entities can be used to build on, or perhaps it is a simple matter of using a preferred drawing / modifying tool.
+    These examples do not provide an example of every tool available in LibreCAD, but is intended to show the basic operation of some of the drawing and modifications tools.  Most of the other drawing and modifying tools work in a similar manner.  Being familiar with the :ref:`Drawing <tools>` and :ref:`Modify <tool-modify>` tools in the **Reference** section will help determine what tool can be used in a particular situation.
+
+    These examples also illustrate that there are multiple ways to achieve the same result using a variety of methods.  There is no one best method.  The particular method used may depend on the state of the drawing and how existing entities can be used to build on, or perhaps it is a simple matter of using a preferred drawing / modifying tool.
 
 
 Changing Attributes and Properties
@@ -293,7 +294,8 @@ Using the **Attributes** to change an entity's layer:
     - Click **Ok**.
 
 .. hint::
-   Entities can also be moved from one layer to another by selecting one or more entities and then selecting the new *destination* layer in the **Layer List** dock.  To use this method the *Modify layer of selected entities, at layer activation* option on the **Application Preferences** **Defaults** tab must be enabled.
+
+    Entities can also be moved from one layer to another by selecting one or more entities and then selecting the new *destination* layer in the **Layer List** dock.  To use this method the *Modify layer of selected entities, at layer activation* option on the **Application Preferences** **Defaults** tab must be enabled.
 
 In a similar manner the color, width and/or line type can be changed:
 

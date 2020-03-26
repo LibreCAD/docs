@@ -9,7 +9,7 @@
 Completing and Printing
 =======================
 
-Completed drawings are normally printed to scale and include a border and title block, but they can be printed to fit page without regard for scale.  LibreCAD also has the ability to print drawings across several pages using *tiled printing*, allowing a large format page to be printed on smaller paper.  *"Printing"* a drawing can also include exporting the file to a pdf or saving it as a bitmapped image.
+Completed drawings are normally printed to scale and include a border and title block, although printing without regard for scale or a border can be useful for sketches, drafts, exporting, and so on.  LibreCAD also has the ability to print drawings across several pages using *tiled printing*, allowing a large format page to be printed on smaller paper.  *"Printing"* a drawing can also include exporting the file to a pdf or saving it as a bitmapped image.
 
 Preparing a drawing and making it ready for printing includes a few steps:
 
@@ -34,7 +34,10 @@ Preparing a drawing and making it ready for printing includes a few steps:
     - Others as required
 
 
-Select **File -> Print Preview** or click the **Print Preview** icon |icon02| to display the print preview window: 
+Print Preview Window
+--------------------
+
+Open LibreCAD's print preview window by clicking the **Print Preview** icon |icon02| or select **File -> Print Preview** to display the print preview window: 
     
 .. figure:: /images/doohickeyPrintPreview.png
     :align: center
@@ -45,13 +48,15 @@ Select **File -> Print Preview** or click the **Print Preview** icon |icon02| to
 
 .. actual image size 1280px x 960px
 
-The print preview window replaces the drawing window and displays the **Print Preview Tool Options** tool-bar:
+The print preview window replaces the drawing window and displays the :ref:`Print Preview Tool Options <print-preview-toolopt>` tool-bar:
 
 .. figure:: /images/toolOptions/toPrintPreview.png
     :align: center
     :scale: 100
     :alt: Print Preview Toolbar
 .. actual image size 388px x 35px
+
+
 
 The print preview window shows an white rectangle with a black border and a drop shadow on a grey background.  The black border represents the paper format as it is configured in the settings from the :ref:`dimension settings <dimn-prefs>` in **Drawing Preferences** on the "Paper" tab.  If margins are specified, they are shown as a darker grey border.
 

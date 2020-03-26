@@ -43,13 +43,13 @@ There are two tabs in **Drawing Preferences**, "Paper" and "Dimensions", that re
 
 The paper format, orientation, and margins to be used is an important to consideration when setting the drawing preferences.  The page size is entirely up to the user to determine based on what is available (depending on the printer or printing service that is being used).  While it can be done at anytime, establishing the page size sooner than later will help determine the "General Scale".
 
-.. tip::
+.. admonition:: Tip - Determining Scale
 
-   If multiple options are available for the paper size, setting the paper size *after drawing the object but prior to dimensioning the drawing* will help determine the print scale, the "General scale", and subsequently the appropriate line spacing for dimensions.  See :ref:`Dimensioning <dimensioning>` for additional information.
+    If multiple options are available for the paper size, setting the paper size *after drawing the object but prior to dimensioning the drawing* will help determine the print scale, the "General scale", and subsequently the appropriate line spacing for dimensions.  See :ref:`Dimensioning <dimensioning>` for additional information.
 
-   While any scale can be used when printing a drawing there are commonly used scales for different types of drawings.  Refer to  :ref:`Scales <scales>` in the appendix for some examples.
+    While any scale can be used when printing a drawing there are commonly used scales for different types of drawings.  Refer to  :ref:`Scales <scales>` in the appendix for some examples.
 
-   Be sure to allow room on the drawing for dimension lines and text when determining the print scale.  More details on printing a drawing are found in the :ref:`Printing Guide <printing-guide>`.
+    Be sure to allow room on the drawing for dimension lines and text when determining the print scale.  More details on printing a drawing are found in the :ref:`Printing Guide <printing-guide>`.
 
 
 .. _ug-layers:
@@ -68,7 +68,7 @@ In LibreCAD, layers are managed using the **Layer List Dock**.  Use the **Layer 
 
 The first layer added defaults to the layer name "noname", but the name can be replace with any alpha-numeric text.  Additional layers add will adopt the name of the currently selected layer and append a sequential number, but can also be renamed.  
 
-.. tip::
+.. admonition:: Tip - Using Layers
 
     Layer **0** is a special layer and should not be used for general drawing purposes.  Create at least one additional layer for the drawing.
 
