@@ -9,7 +9,7 @@
 Completing and Printing
 =======================
 
-Completed drawings are normally printed to scale and include a border and title block, but they can be printed to fit page without regard for scale.  LibreCAD also has the ability to print drawings across several pages using *tiled printing*, allowing a large format page to be printed on smaller paper.
+Completed drawings are normally printed to scale and include a border and title block, but they can be printed to fit page without regard for scale.  LibreCAD also has the ability to print drawings across several pages using *tiled printing*, allowing a large format page to be printed on smaller paper.  *"Printing"* a drawing can also include exporting the file to a pdf or saving it as a bitmapped image.
 
 Preparing a drawing and making it ready for printing includes a few steps:
 
@@ -56,8 +56,8 @@ The print preview window replaces the drawing window and displays the **Print Pr
 The print preview window shows an white rectangle with a black border and a drop shadow on a grey background.  The black border represents the paper format as it is configured in the settings from the :ref:`dimension settings <dimn-prefs>` in **Drawing Preferences** on the "Paper" tab.  If margins are specified, they are shown as a darker grey border.
 
 
-Completion
-----------
+Completing the Drawing
+----------------------
 
 .. important::
 
@@ -75,15 +75,15 @@ Completion
         a. Select **Options -> Current Drawing Preferences**.
         b. Set or confirm the paper layout for the current drawing: Set format as desired, e.g. A4, Landscape, and click **OK**.
 
-#. Exit by clicking the **Print Preview** icon |icon02|.
-Adjust Dimension line placement as necessary
-Insert border / title block from the Library Browser
-   Scale to suit
-   Explode border block and add/modify text
-Open PrintPreview
-    Click Fit to Page or Zoom All
+#. Exit the print preview window by clicking the **Print Preview** icon |icon02|.
+#. Adjust Dimension line placement as necessary.  Refer to :ref:`Dimensioning <dimensioning>` for details.
+#. Insert border / title block from the **Library Browser**:
 
+    - Insert a *sheet* that matches the paper format and orientation, e.g. "A4H" for a landscape A4 page.
+    - Scale to suit the 
+    - Explode border block and add/modify text
 
+#. Switch to the print preview window and check the completed drawing. Click Fit to Page or Zoom All if necessary
 
 
 Printing
