@@ -115,7 +115,7 @@ Drawing Tools Toolbars
         | **Toolbar:** 
         | |tlbar18|"
     "Tool Options",  "
-        | Displays input boxes for the parameters required by the currently selected tool.  **This option should always be enabled.**
+        | Displays input boxes for the parameters required by the currently selected tool.  See **Tool Options** below.  **This option should always be enabled.**
         |
         | **Toolbar:** 
         | Varies by tool selected.  See :ref:`Drawing Tools <tools>`."
@@ -126,17 +126,23 @@ Drawing Tools Toolbars
         | |tlbar19|"
 
 
-Other Toolbars
---------------
+.. _tool-options:
 
- .. important::
-    Print Preview and Block operations require the use of the **Tool Options** toolbar as there are no menu or command line equivalencies. Ensure the Tool Option toolbar is enabled (**Widgets -> Toolbars** and check **Tool Options**).
+Tool Options
+------------
+
+A variety of LibreCAD's tools require additional parameters or have options that are shown on the **Tool Options** toolbar.  Several drawing tools use tool options.  Those toolbars are shown in the :ref:`Drawing Tools <tools>` reference.  Two additional operations that require the use of the **Tool Options** toolbar are **Print Preview** and block operations.
+
+.. important::
+    Print Preview and Block operations require the use of the **Tool Options** toolbar as there are no menu or command line equivalencies. Ensure the Tool Option toolbar is enabled.
+
+The **Tool Options** toolbar should always be enabled.  If the tool options do not appear, from the menu select **Widgets -> Toolbar** and enable **Tool Options** (place checkmark in checkbox).  If using the :ref:`command line <cmdline>`, the same tool options are available via a command line prompt or the **Tool Options** toolbar.
 
 
 .. _print-preview-toolopt:
 
 Print Preview Tool Options
---------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The **Print Preview Tool Options** toolbar is used to set up the print output regardless of output format (pdf or paper). The toolbar is displayed after clicking the **Print Preview** icon |icon00| or selecting **File -> Print Preview** from the menu.  A combination of scale value, color status and drawing position relative to paper allows for customized print output. The steps are detailed in :ref:`printing guide <complete&print>`.
 
@@ -167,14 +173,14 @@ The **Print Preview Tool Options** toolbar is used to set up the print output re
 
 .. _blk-insert-toolopt:
 
-Block Tool Options
-------------------
+Block Operations Tool Options
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There are two block insert operations with corresponding Tool Option toolbars.  For further details on using blocks refer to :ref:`Blocks <blocks>` in the User Guides.
 
 
 From Block List
-~~~~~~~~~~~~~~~
+```````````````
 
 The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. 
 
@@ -200,7 +206,7 @@ The **Block Insert** capability can be expanded through the *Tool Option* bar fe
 
 
 From Block Library
-~~~~~~~~~~~~~~~~~~
+``````````````````
 
 Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted.
 

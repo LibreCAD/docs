@@ -9,7 +9,7 @@
 Completing and Printing
 =======================
 
-Completed drawings are normally printed to scale and include a border and title block, although printing without regard for scale or a border can be useful for sketches, drafts, exporting to a bitmapped image, and so on.  LibreCAD also has the ability to print drawings across several pages using *tiled printing*, allowing a large format page to be printed on smaller paper.  *"Printing"* a drawing also includes exporting the drawing to a pdf or saving it as a bitmapped image.
+Completed drawings are normally printed to scale and include a border and title block, although printing without regard for scale or a border can be useful for sketches, drafts, exporting to CNC software, exporting a bitmapped image, and so on.  LibreCAD also has the ability to print drawings across several pages using *tiled printing*, allowing a large format page to be printed on smaller paper.  *"Printing"* a drawing also includes exporting the drawing to a pdf or saving it as a bitmapped image.
 
 Preparing a drawing and making it ready for printing includes a few steps:
 
@@ -117,7 +117,7 @@ While a drawing can be printed directly from the file menu using **File -> Print
 Tiled Printing
 ~~~~~~~~~~~~~~
 
-To print a drawing to the specific scale that greater than an available paper, use so-called "tiled printing".  In this case, the drawing is outputted in parts that can be assembled into a full-sized drawing.  With a drawing opened in LibreCAD:
+To print a drawing to the specific scale that greater than an available paper, use so-called *tiled printing*.  In this case, the drawing is outputted in parts that can be assembled into a full-sized drawing.  With a drawing opened in LibreCAD:
 
 1. Select **File -> Print Preview** or click the **Print Preview** button |icon02|.
 2. Set or confirm the paper layout for the current drawing:
