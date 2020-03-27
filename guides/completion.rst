@@ -105,9 +105,10 @@ A finished drawing will include a border / title block and have the scale specif
 Printing
 --------
 
-While a drawing can be printed directly from the file menu using **File -> Print**, the recommended approach is to print drawings from the **Print Preview** window.
+While a drawing can be printed directly by clicking the **Print** icon |icon01| or selecting  **File -> Print**, the recommended approach is to print drawings from the **Print Preview** window:
 
-#. Click the **Print** icon |icon01| or select **File -> Print**
+#. Starting with the drawing open in the drawing window, switch to print preview window by clicking the **Print Preview** icon |icon02|.  The drawing will automatically adjust to "fit the page" as it is currently configured.
+#. Click the **Print** icon |icon01| or select **File -> Print**.
 #. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** icon.  Adjust the properties if necessary and then click **OK**.
 #. Click the **Print** icon.
 
@@ -117,7 +118,11 @@ While a drawing can be printed directly from the file menu using **File -> Print
 Tiled Printing
 ~~~~~~~~~~~~~~
 
-To print a drawing to the specific scale that greater than an available paper, use so-called *tiled printing*.  In this case, the drawing is outputted in parts that can be assembled into a full-sized drawing.  With a drawing opened in LibreCAD:
+*Tiled printing* provides the ability to print a scaled drawing that is larger than the available paper.  It uses the paper as defined by the "Format" and "Orientation", and lays it out in a grid defined by pattern defined by "Number of pages".  As an example, an portrait A4 page with 2 pages horizontally and 1 vertically would result in a *page space* of 420 x 297 mm, or landscape A4 in a 2 x 2 pattern would be a page space of 594 x 420 mm.  Both examples use a margin of 0.  If a margin is defined the page space would be reduced the margin width on the edge of the paper where they are assembled.
+
+In this case, the drawing is outputted in parts that can be assembled into a full-sized drawing.  
+
+With a drawing opened in LibreCAD:
 
 1. Select **File -> Print Preview** or click the **Print Preview** button |icon02|.
 2. Set or confirm the paper layout for the current drawing:
@@ -127,7 +132,7 @@ To print a drawing to the specific scale that greater than an available paper, u
     c. The page is represented by the shadowed rectangle in the print preview.
 
 3. Select the desired scale from the drop-down box on the toolbar.
-4. Click the **Calculate number of pages...** button |icon15| from the toolbar.  In print preview will be shown the multiple pages placed side by side and the drawing in the center of it.  Note: *Number of pages* may be changed through **Options -> Current Drawing Preferences** on *Paper* tab.
+4. Click the **Calculate number of pages...** button |icon14| from the toolbar.  In print preview will be shown the multiple pages placed side by side and the drawing in the center of it.  Note: *Number of pages* may be changed through **Options -> Current Drawing Preferences** on *Paper* tab.
 5. The drawing can be re-positioned on the pages by moving the pages behind the drawing.  Click and hold anywhere in the drawing space and drag the paper to the desired position. Pressing [Shift] allows only *horizontal* movements of paper and pressing [Ctrl] allows only *vertical* movements.
 6. Select **File -> Print** or click the **Print** button |icon01|.
 7. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** button.  Adjust the properties if necessary and then click **OK**.
