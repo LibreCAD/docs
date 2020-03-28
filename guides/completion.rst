@@ -9,13 +9,13 @@
 Completing and Printing
 =======================
 
-Completed drawings are normally printed to scale and include a border and title block, although printing without regard for scale or a border can be useful for sketches, drafts, exporting to CNC software, exporting a bitmapped image, and so on.  LibreCAD also has the ability to print drawings across several pages using *tiled printing*, allowing a large format page to be printed on smaller paper.  *"Printing"* a drawing also includes exporting the drawing to a pdf or saving it as a bitmapped image.
+Completed drawings are normally printed to scale and include a border and title block, although printing without regard for scale or a border can be useful for sketches, drafts, exporting to CNC software, exporting a bitmapped image, and so on.  LibreCAD also has the ability to print drawings across several pages using *tiled printing*, allowing a drawing to be printed on smaller paper and assembled into a larger format.
 
 Preparing a drawing and making it ready for printing includes a few steps:
 
     - Finalizing the page size and drawing scale, 
     - Adjusting the dimensions, and
-    - if required, adding page border and title block.
+    - adding page border and title block as required.
 
 .. admonition:: Tip - Using Border and Title Blocks
 
