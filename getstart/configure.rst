@@ -30,17 +30,21 @@ The user interface consists of several major elements:
 
 .. only:: html
 
-   .. figure:: /images/LC_defaultAnnotated.png
-       :align: center
-       :scale: 50
-       :alt: LibreCAD Application Window
+    .. figure:: /images/LC_defaultAnnotated.png
+        :align: center
+        :scale: 50
+        :alt: LibreCAD Application Window
+
+    LibreCAD's default applications window
 
 .. only:: latex
 
-   .. figure:: /images/LC_defaultAnnotated.png
-       :align: center
-       :scale: 50
-       :alt: LibreCAD Application Window
+    .. figure:: /images/LC_defaultAnnotated.png
+        :align: center
+        :scale: 50
+        :alt: LibreCAD Application Window
+
+    LibreCAD's default applications window
 
 .. actual image size 1280px x 960px
 
@@ -58,25 +62,25 @@ Status Bar
 There are five sections in the status bar.  Those sections displays information about current drawing operation and include coordinates, prompts for the next action, information about the selected entity or entities, and the grid status.
 
 .. csv-table:: 
-    :widths: 20, 80
-    :header-rows: 1
-    :stub-columns: 0
-    :class: table-fix-width
+     :widths: 20, 80
+     :header-rows: 1
+     :stub-columns: 0
+     :class: table-fix-width
 
-    "Section", "Description"
-    "Coordinates", "Displays the absolute coordinates (left) and the relative coordinates (right) of the cross-hair / cursor.  Cartesian coordinates are shown on top and and polar coordinates are bottom.  Refer to :ref:`Coordinates <coordinates>` in **Fundamentals** of the **Reference** section for more details on the type of coordinates.
+     "Section", "Description"
+     "Coordinates", "Displays the absolute coordinates (left) and the relative coordinates (right) of the cross-hair / cursor.  Cartesian coordinates are shown on top and and polar coordinates are bottom.  Refer to :ref:`Coordinates <coordinates>` in **Fundamentals** of the **Reference** section for more details on the type of coordinates.
      
      |statbar01|"
-    "Next Action", "Displays a prompt for the next action required for the current command; e.g. ”Specify next point”, ”Specify center”, etc.  Prompts to the left of the mouse icon represent left mouse button actions and the right represent right mouse button actions.
+     "Next Action", "Displays a prompt for the next action required for the current command; e.g. ”Specify next point”, ”Specify center”, etc.  Prompts to the left of the mouse icon represent left mouse button actions and the right represent right mouse button actions.
         
         |statbar02|"
-    "Selected", "Display the total number and the combined lengths of one or more selected entities.
+     "Selected", "Display the total number and the combined lengths of one or more selected entities.
         
         |statbar03|"
-    "Current Layer", "Displays the active layer.  Refer to :ref:`Layers <entity-layers>` in **Fundamentals** of the **Reference** section for more details.
+     "Current Layer", "Displays the active layer.  Refer to :ref:`Layers <entity-layers>` in **Fundamentals** of the **Reference** section for more details.
         
         |statbar04|"
-    "Grid", "Displays the minor and major grid spacing for the X and Y axes.  Minor grid spacing is represented by dots, and the major by dotted lines.
+     "Grid", "Displays the minor and major grid spacing for the X and Y axes.  Minor grid spacing is represented by dots, and the major by dotted lines.
         
         |statbar05|"
 
@@ -95,17 +99,21 @@ LibreCAD's layout and appearance is highly configurable:
 
 .. only:: html
 
-   .. figure:: /images/LC_customAnnotated.png
-       :align: center
-       :scale: 50
-       :alt: LibreCAD Application Window - custom layout
+    .. figure:: /images/LC_customAnnotated.png
+        :align: center
+        :scale: 50
+        :alt: LibreCAD Application Window - custom layout
+
+        LibreCAD applications window - custom layout
 
 .. only:: latex
 
-   .. figure:: /images/LC_customAnnotated.png
-       :align: center
-       :scale: 33
-       :alt: LibreCAD Application Window - custom layout
+    .. figure:: /images/LC_customAnnotated.png
+        :align: center
+        :scale: 33
+        :alt: LibreCAD Application Window - custom layout
+
+        LibreCAD applications window - custom layout
 
 .. actual image size 1280px x 960px
 
@@ -186,17 +194,17 @@ Defaults
 
 .. only:: html
 
-   .. figure:: /images/appPref3.png
-       :align: right
-       :scale: 50
-       :alt: LibreCAD Application Window - Defaults
+    .. figure:: /images/appPref3.png
+        :align: right
+        :scale: 50
+        :alt: LibreCAD Application Window - Defaults
 
 .. only:: latex
 
-   .. figure:: /images/appPref3.png
-       :align: right
-       :scale: 33
-       :alt: LibreCAD Application Window - Defaults
+    .. figure:: /images/appPref3.png
+        :align: right
+        :scale: 33
+        :alt: LibreCAD Application Window - Defaults
 
 .. actual image size 785px x 623px
 
@@ -215,29 +223,29 @@ Drawing Defaults
 Program Defaults
 ````````````````
 
-    - *Auto backup*: When checked, a backup will be created when closing the file.  Backup files are saved to the same directory as the drawing file with a tilde (~) appended to the file name.
-    - *Auto save time*: The time in minutes to perform an automatic save of the open files.  Auto files are saved to the same directory as the drawing file with a hash symbol (#) prefixed to the file name.
-    - *Don't use native OS file open dialog*: When checked, LibreCAD's file open dialog is displayed when opening files.
-    - *Modify layer of selected entities, at layer activation*: If checked, entities can be assigned to a layer by selecting the entities and then selecting the destination layer. 
+     - *Auto backup*: When checked, a backup will be created when closing the file.  Backup files are saved to the same directory as the drawing file with a tilde (~) appended to the file name.
+     - *Auto save time*: The time in minutes to perform an automatic save of the open files.  Auto files are saved to the same directory as the drawing file with a hash symbol (#) prefixed to the file name.
+     - *Don't use native OS file open dialog*: When checked, LibreCAD's file open dialog is displayed when opening files.
+     - *Modify layer of selected entities, at layer activation*: If checked, entities can be assigned to a layer by selecting the entities and then selecting the destination layer. 
 
 
 Clear Settings
 ``````````````
 LibreCAD's configuration can be partially or entirely reset back to a defaults:
 
-    - *Layout*: Resets the application window *layout* to the default configuration.
-    - *All*: Resets the application to the default configuration.  Window layout, color settings, custom menus and toolbars, etc. are all reset.  The "Welcome" dialog will be displayed next time the application is launched.
+     - *Layout*: Resets the application window *layout* to the default configuration.
+     - *All*: Resets the application to the default configuration.  Window layout, color settings, custom menus and toolbars, etc. are all reset.  The "Welcome" dialog will be displayed next time the application is launched.
 
 
 Startup
 ```````
 When checked the following items will:
 
-    - *Display loading screen*: LibreCAD's load screen (e.g. splash screen) is displayed when launching the application.
-    - *Start in tab mode*: the drawing window is tabbed (same as selecting Drawings -> Tab mode from the main menu).
-    - *Start with main window maximized*: LibreCAD will start with the application window full screen. 
-    - *Enable CAD dockwidgets*: show drawing tools (Circle, Curve, etc.) in the widget menu (Widgets -> Dockwidgets)  
-    - *Enable CAD toolbars*: show drawing tools (Circle, Curve, etc.) in the toolbar menu (Widgets -> Toolbars)
+     - *Display loading screen*: LibreCAD's load screen (e.g. splash screen) is displayed when launching the application.
+     - *Start in tab mode*: the drawing window is tabbed (same as selecting Drawings -> Tab mode from the main menu).
+     - *Start with main window maximized*: LibreCAD will start with the application window full screen. 
+     - *Enable CAD dockwidgets*: show drawing tools (Circle, Curve, etc.) in the widget menu (Widgets -> Dockwidgets)  
+     - *Enable CAD toolbars*: show drawing tools (Circle, Curve, etc.) in the toolbar menu (Widgets -> Toolbars)
 
 
 ..  Statusbar mapping:
@@ -262,5 +270,4 @@ When checked the following items will:
             :height: 56
             :width: 104
             :scale: 75
-
 
