@@ -30,14 +30,14 @@ The user interface consists of several major elements:
 
 .. only:: html
 
-   .. figure:: /images/LC_default_annotated.png
+   .. figure:: /images/LC_defaultAnnotated.png
        :align: center
        :scale: 50
        :alt: LibreCAD Application Window
 
 .. only:: latex
 
-   .. figure:: /images/LC_default_annotated.png
+   .. figure:: /images/LC_defaultAnnotated.png
        :align: center
        :scale: 50
        :alt: LibreCAD Application Window
@@ -95,14 +95,14 @@ LibreCAD's layout and appearance is highly configurable:
 
 .. only:: html
 
-   .. figure:: /images/LC_everything2.png
+   .. figure:: /images/LC_customAnnotated.png
        :align: center
        :scale: 50
        :alt: LibreCAD Application Window - custom layout
 
 .. only:: latex
 
-   .. figure:: /images/LC_everything2.png
+   .. figure:: /images/LC_customAnnotated.png
        :align: center
        :scale: 33
        :alt: LibreCAD Application Window - custom layout
