@@ -157,8 +157,8 @@ Drawings
     :class: table-fix-width
 
     "Menu Item", "Icon", "Short-cut", "Description"
-    "Tab mode", , "", "When selected each open drawing is in its own tabbed drawing or preview window.  Tabbed windows are  cannot be moved, resized or otherwise  arranged with in the LibreCAD application window.  The selected tab is the active window."
-    "Window mode", , "", "When selected each open drawing is in its own independent drawing or preview window that can be moved, resized or  otherwise arranged (see below).  ”Window mode” is the default mode when configuring LibreCAD."
+    "Tab mode", , "", "When selected, each open drawing is in its own tabbed drawing or preview window.  Tabbed windows cannot be moved, resized or arranged with in the LibreCAD application window.  The selected tab is the active window."
+    "Window mode", , "", "When selected, each open drawing is in its own independent drawing or preview window that can be moved, resized or otherwise arranged (see below).  ”Window mode” is the default mode."
     "Layout", , "", "*Tab mode only*.  Allows the selection of the tab's appearance (”Rounded” or ”Triangular”) and the location of the drawing windows tab (”North”, ”South”, ”East” or ”West” (top, bottom, right, or left respectively))."
     "Arrange", , "", "*Window mode only*.  Drawing windows can be ”Maximize”, ”Cascade”, ”Tiled”,  ”Tiled Vertically”, ”Tiled Horizontally”"
     "*Currently opened drawings*", , "", "List the current open drawing(s).  The item with the checked box is the active drawing."
