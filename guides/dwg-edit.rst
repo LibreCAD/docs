@@ -389,7 +389,7 @@ Orthogonal View
 
 Orthogonal drawings use multiple views to provide a complete description of an object.  Each view of an orthogonal drawing is parallel to the axes.  Normally a front (the most complex view), top and right view are added to the drawing.  Additional views; back, left and bottom can be added if necessary.
 
-Orthogonal drafting beyond the scope of the **LibreCAD User Manual**, but additional resources and examples are available in `LibreCAD's wiki <https://dokuwiki.librecad.org/`_ or elsewhere on the web.
+Orthogonal drafting beyond the scope of the **LibreCAD User Manual**, but additional resources and examples are available in LibreCAD's `wiki <https://dokuwiki.librecad.org/`_ or elsewhere on the web.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
@@ -414,7 +414,7 @@ Isometric View
 
 In addition to setting the grid for isometric drawings, the "Snap indicator lines" on the **Appearance** tab of :ref:`Application Preferences <app-prefs>` can be set to "Isometric" to assist in with locating entities on the grid.  The "Isometric" crosshairs can be configured to Left, Top or Right to further aid in locating points on the grid.
 
-Isometric drafting does require some techniques unique to isometric projection and is beyond the scope of the **LibreCAD User Manual**, but additional resources and examples are available in `LibreCAD's wiki <https://dokuwiki.librecad.org/`_ or elsewhere on the web.
+Isometric drafting does require some techniques unique to isometric projection and is beyond the scope of the **LibreCAD User Manual**, but additional resources and examples are available in LibreCAD's `wiki <https://dokuwiki.librecad.org/`_ or elsewhere on the web.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst

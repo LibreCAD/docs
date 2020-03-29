@@ -156,7 +156,7 @@ Starting with the drawing open in the drawing window:
 
     - Insert a block from *sheets* that matches the paper format and orientation, e.g. "A4H" for a landscape A4 page.
     - Set the blocks scale "Factor" suit the scale determined above, e.g. "2" for a drawing scale of 1:2.  See  **Inserting Blocks** in :ref:`Using the Library Browser <ug-LibBrowser>` for details.
-    - "Explode" the border block and add/modify text using the "Properties" tool.  Refer to the :ref:`Modify <tool-modify> tools.
+    - "Explode" the border block and add/modify text using the "Properties" tool.  Refer to the :ref:`Modify <tool-modify>` tools.
 
 #. Switch to the print preview window and check the completed drawing.  If necessary, click "Zoom All" and then "Fit to Page" to align the drawing to the paper.
 #. Click the **Print** icon |icon01| or select **File -> Print**.
