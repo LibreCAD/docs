@@ -241,7 +241,11 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 
 
 .. Force page break in PDF
-.. include:: /inclFiles/pdfPageBreak.rst
+.. raw:: latex
+
+   \newpage
+
+.. include[[ /inclFiles/pdfPageBreak.rst
 
 
 Color
@@ -295,7 +299,11 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
 
 
 .. Force page break in PDF
-.. include:: /inclFiles/pdfPageBreak.rst
+.. raw:: latex
+
+   \newpage
+
+.. include[[ /inclFiles/pdfPageBreak.rst
 
 
 Width
@@ -307,8 +315,7 @@ Width
         :scale: 100
         :alt: Line Widths
 
-        Available Line 
-        Widths (Attributes)
+        Available Line Widths (Attributes)
 
 .. only:: latex
 
@@ -317,8 +324,7 @@ Width
         :scale: 50
         :alt: Line Widths
 
-        Available Line 
-        Widths (Attributes)
+        Available Line Widths (Attributes)
 
 .. actual image size 143px x 642px
 
