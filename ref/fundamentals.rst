@@ -294,6 +294,10 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
 .. actual image size 436px x 426px
 
 
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
+
 .. Force page break in PDF
 .. include:: /inclFiles/pdfPageBreak.rst
 
@@ -335,7 +339,7 @@ Refer to :ref:`Common Line Widths <lineWidths>` in the appendix for examples of 
 
 
 .. Force page break in PDF
-.. include:: /inclFiles/pdfPageBreak.rst
+.. include[[ /inclFiles/pdfPageBreak.rst
 
 
 Line Type
