@@ -77,7 +77,9 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
     "Extension line - Enlarge", "3", ".125", "1/8"
     "Arrow size", "3", ".125", "1/8"
 
-.. note::
+.. _adjust-dim:
+
+.. admonition:: Note - Adjusting Dimensions for Printing
 
     The size of each dimension component: "Text Height", "Arrow size", etc. should be set to the desired "real world" size in the configuration.  That is to say if the desired text height is 2.5 mm when printed, the "Text Height" should remain set as 2.5 mm.  If the drawing is printed full scale (1:1) the dimension text will appear correctly.  However if the drawing is scaled up or down the "General Scale" needs to be adjusted accordingly.  The "General Scale" is set to the *inverse* of the printing scale.  For example, if the printed scale is determined to be 1:4, the "General Scale" should be set to 4 (4:1).
 
