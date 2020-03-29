@@ -309,6 +309,7 @@ Width
     .. figure:: /images/lineWidthsAll.png
         :align: right
         :scale: 100
+        :figwidth: 150
         :alt: Line Widths
 
         Available Line Widths (Attributes)
@@ -318,6 +319,7 @@ Width
     .. figure:: /images/lineWidthsAll.png
         :align: right
         :scale: 50
+        :figwidth: 75
         :alt: Line Widths
 
         Available Line Widths (Attributes)
