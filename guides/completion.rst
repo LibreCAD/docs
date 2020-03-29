@@ -9,13 +9,14 @@
 Completing and Printing
 =======================
 
-Completed drawings are normally printed to scale and include a border and title block, although printing without regard for scale or a border can be useful for sketches, drafts, exporting to CNC software, exporting a bitmapped image, and so on.  LibreCAD also has the ability to print drawings across several pages using *tiled printing*, allowing a drawing to be printed on smaller paper and assembled into a larger format.
+Completed drawings are normally printed to scale and include a border and title block, although drawings without a border can be useful for sketches, drafts, exporting to CNC software, exporting a bitmapped image, and so on. LibreCAD also has the ability to print drawings across several pages using tiled printing, allowing a drawing to be printed on smaller paper and assembled into a large format print.
 
-Preparing a drawing and making it ready for printing includes a few steps:
+Completing a drawing and making it ready for printing includes a few steps:
 
-    - Finalizing the page size and drawing scale, 
-    - Adjusting the dimensions, and
+    - Finalizing the page size and drawing scale,
+    - adjusting the dimensions and spacing, and
     - adding page border and title block as required.
+
 
 .. admonition:: Tip - Using Border and Title Blocks
 
@@ -39,8 +40,9 @@ Preparing a drawing and making it ready for printing includes a few steps:
 Print Preview Window
 --------------------
 
-LibreCAD's **Print Preview** displays the drawing on a virtual piece of paper.  It allows adjustments to the layout prior to committing the drawing to paper.  Open the print preview window by clicking the **Print Preview** icon |icon02| or selecting **File -> Print Preview**: 
-    
+LibreCAD’s **Print Preview** displays the drawing on a virtual piece of paper.  It allows adjustments to the layout prior to committing the drawing to paper.  Open the print preview window by clicking the **Print Preview** icon |icon02| or by selecting **File -> Print Preview** and the print preview window is opened:
+
+   
 .. figure:: /images/doohickeyPrintPreview.png
     :align: center
     :scale: 50
@@ -50,7 +52,8 @@ LibreCAD's **Print Preview** displays the drawing on a virtual piece of paper.  
 
 .. actual image size 1280px x 960px
 
-The print preview window replaces the drawing window, and displays the :ref:`Print Preview Tool Options <print-preview-toolopt>` tool-bar:
+
+Opening the **Print Preview** also displays the :ref:`Print Preview Tool Options <print-preview-toolopt>` toolbar:
 
 .. figure:: /images/toolOptions/toPrintPreview.png
     :align: center
@@ -70,7 +73,7 @@ A drawing can be printed directly without setting the scale or adding title bloc
 Completing the Drawing
 ----------------------
 
-A finished drawing will include a border / title block and have the scale specified.   
+A finished drawing will include a border / title block and be scaled to suit the paper format and orientation.
 
 .. important::
 
