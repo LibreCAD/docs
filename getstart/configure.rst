@@ -24,9 +24,7 @@ LibreCAD then starts with its default configuration and is ready use.  Additiona
 
 
 .. Force page break in PDF
-.. raw:: latex
-
-   \newpage
+.. include:: /inclFiles/pdfPageBreak.rst
 
 
 User Interface
@@ -92,9 +90,7 @@ There are five sections in the status bar.  Those sections displays information 
 
 
 .. Force page break in PDF
-.. raw:: latex
-
-   \newpage
+.. include:: /inclFiles/pdfPageBreak.rst
 
 
 .. _app-layout:

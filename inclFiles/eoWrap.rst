@@ -4,11 +4,6 @@
 
     .. image:: /images/whiteLine.png
 
-.. Commented out
-    .. raw:: html
-        <div class="clearWrap"></div>
-
-
 .. only:: latex
 
 .. no good solution
