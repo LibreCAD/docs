@@ -241,7 +241,8 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 
 
 .. raw:: latex
-    \newpage
+
+   \newpage
 
 
 Color
