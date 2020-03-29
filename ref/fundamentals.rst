@@ -239,9 +239,10 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 .. note::
    Just as with entities, "pens" can also be applied to layers.  See :ref:`Layer List Dock <widget-layerList>` for details on setting a layer's attributes.
 
-.. only:: latex
 
+.. only:: latex
     \pagebreak
+
 
 Color
 `````
