@@ -241,7 +241,7 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 
 
 .. only:: latex
-    \pagebreak
+    \newpage
 
 
 Color

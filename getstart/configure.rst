@@ -24,8 +24,8 @@ LibreCAD then starts with its default configuration and is ready use.  Additiona
 
 
 .. only:: latex
+    \newpage
 
-    \pagebreak
 
 User Interface
 --------------
