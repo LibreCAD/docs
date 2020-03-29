@@ -242,6 +242,7 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 
 .. Force page break in PDF
 .. raw:: latex
+
    \newpage
 
 
@@ -297,6 +298,7 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
 
 .. Force page break in PDF
 .. raw:: latex
+
    \newpage
 
 

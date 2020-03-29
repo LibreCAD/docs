@@ -23,8 +23,8 @@ LibreCAD's "Welcome" dialog is shown the first time LibreCAD is launched after i
 LibreCAD then starts with its default configuration and is ready use.  Additional configuration as required can be completed by changing the **Application Preferences** as shown :ref:`below <app-prefs>`.
 
 
+.. Force page break in PDF
 .. raw:: latex
-
    \newpage
 
 
@@ -90,8 +90,8 @@ There are five sections in the status bar.  Those sections displays information 
         |statbar05|"
 
 
+.. Force page break in PDF
 .. raw:: latex
-
    \newpage
 
 
