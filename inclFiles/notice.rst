@@ -3,9 +3,9 @@
    .. include:: /inclFiles/notice.rst
 
 
-.. admonition:: ** DRAFT ** LibreCAD v2.2.0 - User Manual ** DRAFT **
+.. admonition:: LibreCAD v2.2.0 - User Manual
 
-    *This is the initial* **DRAFT** *of the* **LibreCAD User Manual** *and is subject to change.*  
+    *This is an* **interim release** *of the of the* **LibreCAD User Manual** *and is subject to change.*  
 
-    The manual is based on LibreCAD v2.2.0-rc1 (with a few additions).  If you are using another version of LibreCAD, your mileage may vary.
+    The manual is based on LibreCAD v2.2.0-rc1 with a few additions.  If you are using another version of LibreCAD, your mileage may vary.
 

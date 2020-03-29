@@ -239,6 +239,9 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 .. note::
    Just as with entities, "pens" can also be applied to layers.  See :ref:`Layer List Dock <widget-layerList>` for details on setting a layer's attributes.
 
+.. only:: latex
+
+    \pagebreak
 
 Color
 `````
@@ -292,14 +295,25 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
 
 Width
 `````
+.. only:: html
 
-.. figure:: /images/lineWidthsAll.png
-    :align: right
-    :scale: 100
-    :alt: Line Widths
+    .. figure:: /images/lineWidthsAll.png
+        :align: right
+        :scale: 100
+        :alt: Line Widths
 
-    Available Line 
-    Widths (Attributes)
+        Available Line 
+        Widths (Attributes)
+
+.. only:: latex
+
+    .. figure:: /images/lineWidthsAll.png
+        :align: right
+        :scale: 67
+        :alt: Line Widths
+
+        Available Line 
+        Widths (Attributes)
 
 .. actual image size 143px x 642px
 
