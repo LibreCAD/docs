@@ -67,10 +67,23 @@ The print preview window shows the virtual paper as a white rectangle with a bla
 A drawing can be printed directly without setting the scale or adding title block by confirming the layout in the print preview and then continuing with :ref:`Printing <print>`.
 
 
-.. _completion: 
+.. _print:
 
-Completing the Drawing
-----------------------
+Printing
+--------
+
+While a drawing can be printed directly by clicking the **Print** icon |icon01| or selecting  **File -> Print**, the recommended approach is to print drawings from the **Print Preview** window:
+
+#. Starting with the drawing open in the drawing window, switch to print preview window by clicking the **Print Preview** icon |icon02|.  
+#. Click the **Fit to Page** icon |icon13| on the toolbar.  This will ensure the drawing displayed correctly in the print preview.  Note that "fixed" needs to be *unchecked*.
+#. Click the **Print** icon |icon01| or select **File -> Print**.
+#. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** icon.  Adjust the properties if necessary and then click the **Print** button.
+
+
+.. _print-complete: 
+
+Completing and Printing a Drawing
+---------------------------------
 
 A finished drawing will include a border / title block and be scaled to suit the paper format and orientation.  See :ref:`Scale and Dimensioning <ug-scale>` in the **Drawing Setup** for more details on determining the suitable scale for a drawing.
 
@@ -100,20 +113,9 @@ A finished drawing will include a border / title block and be scaled to suit the
     - Set the blocks scale "Factor" suit the scale determined above, e.g. "2" for a drawing scale of 1:2.  See  **Inserting Blocks** in :ref:`Using the Library Browser <ug-LibBrowser>` for details.
     - "Explode" the border block and add/modify text using the "Properties" tool.  Refer to the :ref:`Modify <tool-modify> tools.
 
-#. Switch to the print preview window and check the completed drawing.  If necessary, click "Fit to Page" to align the drawing to the paper.
-
-
-.. _print:
-
-Printing
---------
-
-While a drawing can be printed directly by clicking the **Print** icon |icon01| or selecting  **File -> Print**, the recommended approach is to print drawings from the **Print Preview** window:
-
-#. Starting with the drawing open in the drawing window, switch to print preview window by clicking the **Print Preview** icon |icon02|.  The drawing will automatically adjust to "fit the page" as it is currently configured.
+#. Switch to the print preview window and check the completed drawing.  If necessary, click "Zoom All" and then "Fit to Page" to align the drawing to the paper.
 #. Click the **Print** icon |icon01| or select **File -> Print**.
-#. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** icon.  Adjust the properties if necessary and then click **OK**.
-#. Click the **Print** icon.
+#. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** icon.  Adjust the properties if necessary and then click the **Print** button.
 
 
 .. _print-tiled:
@@ -121,27 +123,28 @@ While a drawing can be printed directly by clicking the **Print** icon |icon01| 
 Tiled Printing
 ~~~~~~~~~~~~~~
 
-*Tiled printing* provides the ability to print a scaled drawing that is larger than the available paper.  It uses the paper as defined by the "Format" and "Orientation", and lays it out in a grid defined by pattern defined by "Number of pages".  As an example, an portrait A4 page with 2 pages horizontally and 1 vertically would result in a *page space* of 420 x 297 mm, or landscape A4 in a 2 x 2 pattern would be a page space of 594 x 420 mm.  Both examples use a margin of 0.  If a margin is defined the page space would be reduced the margin width on the edge of the paper where they are assembled.
+*Tiled printing* provides the ability to print a drawing that is larger than a printer's available paper format.  The drawing is printed across several pages and assembled into a full-sized drawing
 
-In this case, the drawing is outputted in parts that can be assembled into a full-sized drawing.  
+Tile printing uses "Format" and "Orientation" on the "Paper" tab, and lays the pages in a grid defined by "Number of pages".  For example, an portrait A4 page with 2 pages horizontally and 1 vertically would result in a *page* of 420 x 297 mm, or a landscape A4 in a 2 x 2 pattern would be a *page* of 594 x 420 mm.  Both examples use a margin of 0.  If a margin is defined, the assembled document is reduced by the margin widths on the edge of the paper where they are .
+
 
 With a drawing opened in LibreCAD:
 
-1. Select **File -> Print Preview** or click the **Print Preview** button |icon02|.
-2. Set or confirm the paper layout for the current drawing:
+#. Select **File -> Print Preview** or click the **Print Preview** button |icon02|.
+#. Set or confirm the paper layout for the current drawing:
 
-    a. Select **Options -> Current Drawing Preferences**.
-    b. Set format as desired, e.g. A4, Landscape, and click **OK**.
-    c. The page is represented by the shadowed rectangle in the print preview.
+    #. Select **Options -> Current Drawing Preferences**.
+    #. Set format as desired, e.g. A4, Landscape, and click **OK**.
+    #. The page is represented by the shadowed rectangle in the print preview.
 
-3. Select the desired scale from the drop-down box on the toolbar.
-4. Click the **Calculate number of pages...** button |icon14| from the toolbar.  In print preview will be shown the multiple pages placed side by side and the drawing in the center of it.  Note: *Number of pages* may be changed through **Options -> Current Drawing Preferences** on *Paper* tab.
-5. The drawing can be re-positioned on the pages by moving the pages behind the drawing.  Click and hold anywhere in the drawing space and drag the paper to the desired position. Pressing [Shift] allows only *horizontal* movements of paper and pressing [Ctrl] allows only *vertical* movements.
-6. Select **File -> Print** or click the **Print** button |icon01|.
-7. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** button.  Adjust the properties if necessary and then click **OK**.
-8. Click the **Print** button.
+#. Select the desired scale from the drop-down box on the toolbar.
+#. Click the **Calculate number of pages...** button |icon14| from the toolbar.  In print preview will be shown the multiple pages placed side by side and the drawing in the center of it.  Note: *Number of pages* may be changed through **Options -> Current Drawing Preferences** on *Paper* tab.
+#. The drawing can be re-positioned on the pages by moving the pages behind the drawing.  Click and hold anywhere in the drawing space and drag the paper to the desired position. Pressing [Shift] allows only *horizontal* movements of paper and pressing [Ctrl] allows only *vertical* movements.
+#. Select **File -> Print** or click the **Print** button |icon01|.
+#. Select the printer on the *Print* dialogue and confirm the properties by clicking the **Properties** button.  Adjust the properties if necessary and then click **OK**.
+#. Click the **Print** button.
 
-In case when a page has the margins (margins > 0) the print preview takes on a special look.  Namely the margins between a neighbor pages aren't shown.  It makes possible to represent the printable areas of all pages as one whole area and to show an undivided drawing.  Or in other words, the print preview looks like the drawing was outputted and glued together without excess margins.
+In case when a page has the margins (margins > 0) the print preview takes on a special look.  Namely the margins between a neighboring pages aren't shown.  It makes possible to represent the printable areas of all pages as one whole area and to show an undivided drawing.  Or in other words, the print preview looks like the drawing was outputted and glued together without excess margins.
 
 Next example shows the print preview (left) and the output of tiled printing with the margins (right):
 
