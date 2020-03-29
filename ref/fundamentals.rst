@@ -240,7 +240,7 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
    Just as with entities, "pens" can also be applied to layers.  See :ref:`Layer List Dock <widget-layerList>` for details on setting a layer's attributes.
 
 
-.. only:: latex
+.. raw:: latex
     \newpage
 
 
