@@ -333,6 +333,11 @@ Refer to :ref:`Common Line Widths <lineWidths>` in the appendix for examples of 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
 
+
+.. Force page break in PDF
+.. include:: /inclFiles/pdfPageBreak.rst
+
+
 Line Type
 `````````
 
@@ -510,8 +515,13 @@ LibreCAD can also be used to create drawings with an *isometric perspective*.  C
 
 See :ref:`Drawing an Isometric View <dwg-isometric>` in **Drawing and Editing** section of the **User Guide** for details on configuring LibreCAD for isometric drafting.
 
+
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
+
+
+.. Force page break in PDF
+.. include:: /inclFiles/pdfPageBreak.rst
 
 
 .. Symbols
