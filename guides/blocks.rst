@@ -49,7 +49,7 @@ There are two dock widgets for managing blocks.  The :ref:`Block List <widget-bl
 Blocks can also be imported from a separate file and will appear in the **Block List**.  Drawing files imported multiple times will create a new instances in the **Block List** and be numbered sequentially as with blocks inserted from the **Library Browser**. 
 
 
-.. _ugBlocksList:
+.. _ug-BlockList:
 
 Using the Block List
 --------------------
@@ -90,7 +90,7 @@ Blocks can be created in the current drawing for use within the drawing.  There 
 Inserting Blocks
 ~~~~~~~~~~~~~~~~
 
-Blocks can be inserted from the **Block List** or from the **Library Browser** (see :ref:`below <ugLibBrowser>`).  When inserting a block from the **Block List**, the **Block List Tool Options** toolbar is displayed:
+Blocks can be inserted from the **Block List** or from the **Library Browser** (see :ref:`below <ug-LibBrowser>`).  When inserting a block from the **Block List**, the **Block List Tool Options** toolbar is displayed:
 
 .. figure:: /images/toolOptions/toBlockInsert.png
     :align: center
@@ -160,7 +160,7 @@ Blocks can be saved to a separate file and used in other drawings or added to a 
     When saving blocks to be added to the library it is recommended that the block's entities be placed on **layer "0"** and layer "0" is the *only layer* in the drawing.  Any additional layers in the block's drawing will be added to the new drawing when the block is inserted.  The additional layers may have unintended consequences.
 
 
-.. _ugLibBrowser:
+.. _ug-LibBrowser:
 
 Using the Library Browser
 -------------------------
