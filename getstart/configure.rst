@@ -90,6 +90,11 @@ There are five sections in the status bar.  Those sections displays information 
         |statbar05|"
 
 
+.. raw:: latex
+
+   \newpage
+
+
 .. _app-layout:
 
 Layout

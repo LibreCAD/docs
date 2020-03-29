@@ -240,8 +240,8 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
    Just as with entities, "pens" can also be applied to layers.  See :ref:`Layer List Dock <widget-layerList>` for details on setting a layer's attributes.
 
 
+.. Force page break in PDF
 .. raw:: latex
-
    \newpage
 
 
@@ -276,7 +276,7 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
 .. include:: /inclFiles/eoWrap.rst
 
 .. table::
-   :align: center
+   :align: left
    :widths: auto
    :class: table-no-borders
    
@@ -285,14 +285,19 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
    +----------+-----+----------+
 
 .. |01Lcol| image:: /images/coloursCustom.png
-         :scale: 67
+         :scale: 50
          :alt: Custom colors
 .. actual image size 490px x 295px
 
 .. |01Rcol| image:: /images/colourCustom.png
-         :scale: 67
+         :scale: 50
          :alt: Custom color selector
 .. actual image size 436px x 426px
+
+
+.. Force page break in PDF
+.. raw:: latex
+   \newpage
 
 
 Width
