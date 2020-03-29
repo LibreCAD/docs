@@ -241,11 +241,7 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
 
 
 .. Force page break in PDF
-.. raw:: latex
-
-   \newpage
-
-.. include[[ /inclFiles/pdfPageBreak.rst
+.. include:: /inclFiles/pdfPageBreak.rst
 
 
 Color
@@ -299,11 +295,7 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
 
 
 .. Force page break in PDF
-.. raw:: latex
-
-   \newpage
-
-.. include[[ /inclFiles/pdfPageBreak.rst
+.. include:: /inclFiles/pdfPageBreak.rst
 
 
 Width
@@ -337,9 +329,6 @@ The LibreCAD default line thickness is 0.00 mm (hairline) and range up to 2.11 m
 
 Refer to :ref:`Common Line Widths <lineWidths>` in the appendix for examples of line thickness by purpose.
 
-
-.. Force page break in PDF
-.. include:: /inclFiles/pdfPageBreak.rst
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
