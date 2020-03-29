@@ -319,7 +319,7 @@ Width
     .. figure:: /images/lineWidthsAll.png
         :align: right
         :scale: 50
-        :figwidth: 75
+        :figwidth: 150
         :alt: Line Widths
 
         Available Line Widths (Attributes)
@@ -341,7 +341,7 @@ Refer to :ref:`Common Line Widths <lineWidths>` in the appendix for examples of 
 
 
 .. Force page break in PDF
-.. include[[ /inclFiles/pdfPageBreak.rst
+.. include:: /inclFiles/pdfPageBreak.rst
 
 
 Line Type
