@@ -112,15 +112,13 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
 
     Dimensioning drawings is beyond the scope of the **LibreCAD User Manual**, but additional resources and examples are available in LibreCAD's `wiki <https://dokuwiki.librecad.org/>`_ or elsewhere on the web.
 
-`web site <http://librecad.org>`_
-
     **Dimensioning Example**
     
-    .. image:: /images/dimnEg.png
+    .. image:: /images/doohickeyDimnEg.png
         :align: center
         :scale: 100
         :alt: Dimensioning example
-    .. actual image size 768px x 360px
+    .. actual image size 800px x 366px
 
 
 Leaders
