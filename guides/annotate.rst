@@ -116,7 +116,7 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
     
     .. image:: /images/doohickeyDimnEg.png
         :align: center
-        :scale: 100
+        :scale: 85
         :alt: Dimensioning example
     .. actual image size 800px x 366px
 
