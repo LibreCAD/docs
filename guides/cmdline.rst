@@ -11,8 +11,8 @@ The Command Line
 
 LibreCAD's command line offers users an alternative to using the mouse to select tools and draw.  Using the keyboard to select tools and enter coordinates can provide greater speed and accuracy when creating drawings.  The command line provides other useful features not available using the mouse:
 
-   - Multi-command input
-   - A calculator
+    - Multi-command input
+    - A calculator
 
 The command line is displayed in its own :ref:`dock widget <widget-cmdLine>` and consists of three components
 
@@ -30,12 +30,12 @@ Command Line Functions
 
 The commands available to use are shown in the :ref:`Drawing Tools <tools>` reference.  The command line is activated by in a variety of ways:
 
-    - Start typing any command, e.g. li, rect, etc. and then [Enter] or the [Space bar].
-    - Press the [Space bar], type any command and then [Enter] or the [Space bar].
-    - Press [Ctrl + M], any command and then [Enter] or the [Space bar].
-    - Press [Shift], any command and then [Enter] or the [Space bar].
-    - Press [F1], any command and then [Enter] or the [Space bar].
-    - With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.  Pressing [Enter] is not required. 
+    #. Start typing any command, e.g. li, rect, etc. and then [Enter] or the [Space bar].
+    #. Press the [Space bar], type any command and then [Enter] or the [Space bar].
+    #. Press [Ctrl + M], any command and then [Enter] or the [Space bar].
+    #. Press [Shift], any command and then [Enter] or the [Space bar].
+    #. Press [F1], any command and then [Enter] or the [Space bar].
+    #. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.  Pressing [Enter] is not required. 
 
 When the command line is activated the prompt above the input text-box, initially showing "Command:" in black text, turns blue.  After typing a command, the prompt will indicate the next input required, such as coordinates or the next action available.  Pressing [Esc] will cancel the current action and pressing it a second time will cancel the operation.  For example, when using the **2 Points** line tool the first prompt shows "Specify first point" and the second "Specify next point".  After drawing at least two segments of a line the next prompt reads "Specify next point or [close/undo]".  LibreCAD is expecting another set of coordinates to be entered, or the shape (with a minimum of two segments) can be closed or the last actions can be reversed.  "Close" or "undo" can be entered on the command line or by clicking on buttons on the :ref:`Tool Options<tools>` toolbar.  For example, to draw a square using the **2 Points** line tool from the command line::
 

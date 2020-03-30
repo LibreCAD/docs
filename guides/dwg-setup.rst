@@ -61,10 +61,10 @@ Using layers to organize drawings and assign :ref:`pen <entity-pen>` attributes 
 
 In LibreCAD, layers are managed using the **Layer List Dock**.  Use the **Layer List Dock** to add and remove, show and hide and modify the layer's attributes.  Creating a layer is simple:
 
-    - Click the **Add a layer** icon |icon01|.
-    - Specify a *Layer Name*.
-    - Optionally specify the Pen Color, Width and Line Type for the layer.
-    - Click **Ok**.
+    #. Click the **Add a layer** icon |icon01|.
+    #. Specify a *Layer Name*.
+    #. Optionally specify the Pen Color, Width and Line Type for the layer.
+    #. Click **Ok**.
 
 The first layer added defaults to the layer name "noname", but the name can be replace with any alpha-numeric text.  Additional layers add will adopt the name of the currently selected layer and append a sequential number, but can also be renamed.  
 
@@ -97,17 +97,17 @@ Creating Templates
 
 Templates are created starting with a new drawing, setting the desired :ref:`Drawing Preferences <draw-prefs>`, and adding any required drawing elements (e.g. layers, borders, etc).  To create a template, starting with a blank drawing:
 
-    - Set the the drawing preferences by selecting **Edit** from the menu bar and then **Current Drawing Preferences**.
+    #. Set the the drawing preferences by selecting **Edit** from the menu bar and then **Current Drawing Preferences**.
 
-        - On the "Paper" tab set the paper size, orientation and margins as desired.
-        - Select the "Units" tab and set the "Main Drawing Unit".  (Note the "Length" and "Angle" settings configure the :ref:`status bar <statusbar>` format and not the dimensioning format that appear on the drawing.)
-        - Click the "Dimensions" tab and adjust the values.
-        - Check the remaining tab, "Grid" and "Splines" and adjust those settings if necessary.
-        - Click "OK" when done.
+        #. On the "Paper" tab set the paper size, orientation and margins as desired.
+        #. Select the "Units" tab and set the "Main Drawing Unit".  (Note the "Length" and "Angle" settings configure the :ref:`status bar <statusbar>` format and not the dimensioning format that appear on the drawing.)
+        #. Click the "Dimensions" tab and adjust the values.
+        #. Check the remaining tab, "Grid" and "Splines" and adjust those settings if necessary.
+        #. Click "OK" when done.
 
-    - Add any layers as needed.  See :ref:`Layers <ug-layers>` for details on using layers and setting the attributes.
-    - Add any other drawing elements (borders, title boxes, etc) as required.
-    - Save the template as a "dxf", e.g. "myTemplate.dxf", to any location with read / write permissions.
+    #. Add any layers as needed.  See :ref:`Layers <ug-layers>` for details on using layers and setting the attributes.
+    #. Add any other drawing elements (borders, title boxes, etc) as required.
+    #. Save the template as a "dxf", e.g. "myTemplate.dxf", to any location with read / write permissions.
 
 LibreCAD supports the use of multiple templates.  A user that plans on creating similar drawings may require only a default template created to suit their needs.  Users that create several different types of drawings may desire multiple templates.  For example, templates can be created for each paper size available and / or for each paper orientation.
 

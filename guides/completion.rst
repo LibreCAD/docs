@@ -35,7 +35,7 @@ Completing a drawing and making it ready for printing includes a few steps:
     - Others as required
 
 
-.. _print-preview: 
+.. _page-preview: 
 
 Print Preview Window
 --------------------
@@ -96,8 +96,8 @@ To print a tiled document, starting with the drawing open in the drawing window:
 #. Open the **Drawing Preferences** (**Options -> Current Drawing Preferences**) and check the paper layout ("Format", "Orientation" and "Margins") for the current drawing: e.g. A4, Landscape, Top, Bottom Left and Right Margins each at 10.  Adjust the values if necessary and click **OK**.  (The "Number of Pages" will be calculated below.)
 #. Adjust the scale as desired.  Change the print scale by:
 
-    - Selecting a predefined scale ratio from the drop-down, or type the required scale ratio in the text-box and press [Enter].
-    - Lock the print scale by placing a checkmark in the "fixed" checkbox.
+    #. Selecting a predefined scale ratio from the drop-down, or type the required scale ratio in the text-box and press [Enter].
+    #. Lock the print scale by placing a checkmark in the "fixed" checkbox.
 
 #. Click the **Calculate number of pages...** icon |icon14| on the toolbar.  The print preview will show a grid of pages with the drawing placed in the center.  The *Number of pages* on the "Paper" tab will be updated to reflect the number of pages shown in the print preview.
 #. Adjust the position of the drawing image on the page by repositioning the paper by dragging it as needed (the drawing stays centered on the screen).  Click and hold anywhere in the drawing space and drag the paper to the desired position.  Pressing [Shift] allows only *horizontal* movements of paper and pressing [Ctrl] allows only *vertical* movements.
@@ -142,21 +142,21 @@ Starting with the drawing open in the drawing window:
 #. Click the **Fit to Page** icon |icon13| on the toolbar.  This will ensure the drawing is scaled to fit the current paper format and centered on the page.  Note the scale in the text-box of the print preview toolbar.
 #. Adjust the scale using a *smaller* ratio than the "Fit to Page" scale.  For example use "1:2" if "1:1.18" is the calculated scale.  Change the print scale by:
 
-    - Selecting a predefined scale ratio from the drop-down, or type the required scale ratio in the text-box and press [Enter].
-    - Lock the print scale by placing a checkmark in the "fixed" checkbox.
+    #. Selecting a predefined scale ratio from the drop-down, or type the required scale ratio in the text-box and press [Enter].
+    #. Lock the print scale by placing a checkmark in the "fixed" checkbox.
 
 #. Adjust the position of the drawing image on the page by:
 
-    - Clicking the **Center to Page** icon |icon12|, or 
-    - repositioning the paper by dragging it as needed (the drawing stays centered on the screen).  Click and hold anywhere in the drawing space and drag the paper to the desired position.  Pressing [Shift] allows only *horizontal* movements of paper and pressing [Ctrl] allows only *vertical* movements.
+    #. Clicking the **Center to Page** icon |icon12|, or 
+    #. repositioning the paper by dragging it as needed (the drawing stays centered on the screen).  Click and hold anywhere in the drawing space and drag the paper to the desired position.  Pressing [Shift] allows only *horizontal* movements of paper and pressing [Ctrl] allows only *vertical* movements.
 
 #. Close the print preview window by clicking the **Print Preview** icon |icon02|.
 #. If necessary, adjust the dimensions "General Scale" and dimension line placement.  Refer to :ref:`Adjusting Dimensions for Printing <adjust-dim>` in **Dimensioning and Text** for details.
 #. If using a border / title page block, insert the block from the **Library Browser**:
 
-    - Insert a block from *sheets* that matches the paper format and orientation, e.g. "A4H" for a landscape A4 page.
-    - Set the blocks scale "Factor" suit the scale determined above, e.g. "2" for a drawing scale of 1:2.  See  **Inserting Blocks** in :ref:`Using the Library Browser <ug-LibBrowser>` for details.
-    - "Explode" the border block and add/modify text using the "Properties" tool.  Refer to the :ref:`Modify <tool-modify>` tools.
+    #. Insert a block from *sheets* that matches the paper format and orientation, e.g. "A4H" for a landscape A4 page.
+    #. Set the blocks scale "Factor" suit the scale determined above, e.g. "2" for a drawing scale of 1:2.  See  **Inserting Blocks** in :ref:`Using the Library Browser <ug-LibBrowser>` for details.
+    #. "Explode" the border block and add/modify text using the "Properties" tool.  Refer to the :ref:`Modify <tool-modify>` tools.
 
 #. Switch to the print preview window and check the completed drawing.  If necessary, click "Zoom All" and then "Fit to Page" to align the drawing to the paper.
 #. Click the **Print** icon |icon01| or select **File -> Print**.

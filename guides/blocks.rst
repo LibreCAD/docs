@@ -61,19 +61,19 @@ Blocks can be created in the current drawing for use within the drawing.  There 
 
    - From an existing object:
 
-        - Ensure the all entities for the object to be made into a block are on layer "0".
-        - Select all the entities that make up the object.
-        - Click on the **Create Block** icon |icon12|.
-        - Specify the reference point for the block.  The reference point is used to locate the object when it is inserted into the drawing.
-        - Provide a unique name for the new block and click **OK**.  The new block will appear in the **Block List**.
-        - The original object can be deleted from layer "0".  The new block remains available in the **Block List**.
+        #. Ensure the all entities for the object to be made into a block are on layer "0".
+        #. Select all the entities that make up the object.
+        #. Click on the **Create Block** icon |icon12|.
+        #. Specify the reference point for the block.  The reference point is used to locate the object when it is inserted into the drawing.
+        #. Provide a unique name for the new block and click **OK**.  The new block will appear in the **Block List**.
+        #. The original object can be deleted from layer "0".  The new block remains available in the **Block List**.
 
    - From an empty block:
 
-        - Click on the **Add an empty block** icon |icon13|.  Provide a unique name for the new block and click **OK**.  The new empty block will appear in the **Block List**.
-        - Select the new block in the **Block List** and click the **Edit the active block in a separate window** icon |icon16|.
-        - Ensure layer "0" is selected and draw the object.  The drawing's origin (0, 0) will become the reference point for the block.
-        - Close the new block's drawing window and the new block will be saved.
+        #. Click on the **Add an empty block** icon |icon13|.  Provide a unique name for the new block and click **OK**.  The new empty block will appear in the **Block List**.
+        #. Select the new block in the **Block List** and click the **Edit the active block in a separate window** icon |icon16|.
+        #. Ensure layer "0" is selected and draw the object.  The drawing's origin (0, 0) will become the reference point for the block.
+        #. Close the new block's drawing window and the new block will be saved.
 
 
 .. important::
@@ -103,29 +103,26 @@ Blocks can be inserted from the **Block List** or from the **Library Browser** (
 
 To insert a single block:
 
-    - Select a layer for the inserted blocks.
-    - Select a block in the **Block List**.
-    - Click on the **Insert the active block** icon |icon18|.
-    - Set the rotation angle in the *Angle* field and the scale factor in the *Factor* field as required.  (See :ref:`Angles <angles>` in **Fundamentals** and "Scale" in :ref:`Modify <tool-modify>` tools for more information.) 
-
-        - The *Array* values remain as "1" and *Spacing* values remain as "1.0".
-
-    - Place the block at the desired location within the drawing.
-    - Adjust the rotation angle and scale as needed and place additional copies of the block, or press [Esc] to exit the command.
+    #. Select a layer for the inserted blocks.
+    #. Select a block in the **Block List**.
+    #. Click on the **Insert the active block** icon |icon18|.
+    #. Set the rotation angle in the *Angle* field and the scale factor in the *Factor* field as required.  (See :ref:`Angles <angles>` in **Fundamentals** and "Scale" in :ref:`Modify <tool-modify>` tools for more information.)  Note: Leave the *Array* values as "1" and *Spacing* values remain as "1.0".
+    #. Place the block at the desired location within the drawing.
+    #. Adjust the rotation angle and scale as needed and place additional copies of the block, or press [Esc] to exit the command.
 
 Transformations (rotation, scale) and an array can be combined in a single block insertion.  The the scale and spacing is applied to the individual blocks within the array, however the rotation angle is applied to the entire array.
 
 To insert an array of blocks:
 
-    - Select a layer for the inserted blocks.
-    - Select a block in the **Block List**.
-    - Click on the **Insert the active block** icon |icon18|.
-    - Set the rotation angle and scale factor as needed.
-    - Set the numbers of columns and rows in *Array* to create the required pattern.
-    - Set the *column spacing*. This is the distance between the insertion point of two blocks in adjacent columns.
-    - Set the *row spacing*. This is the distance between the insertion point of two blocks in adjacent rows. 
-    - Place the block at the desired location within the drawing. The insertion point of the array is the insertion point of the lower-left item in the array (at 0 degrees rotation).
-    - Adjust the options as needed and place additional copies of the block, or press [Esc] to exit the command.
+    #. Select a layer for the inserted blocks.
+    #. Select a block in the **Block List**.
+    #. Click on the **Insert the active block** icon |icon18|.
+    #. Set the rotation angle and scale factor as needed.
+    #. Set the numbers of columns and rows in *Array* to create the required pattern.
+    #. Set the *column spacing*. This is the distance between the insertion point of two blocks in adjacent columns.
+    #. Set the *row spacing*. This is the distance between the insertion point of two blocks in adjacent rows. 
+    #. Place the block at the desired location within the drawing. The insertion point of the array is the insertion point of the lower-left item in the array (at 0 degrees rotation).
+    #. Adjust the options as needed and place additional copies of the block, or press [Esc] to exit the command.
 
 .. note::
 
@@ -141,9 +138,9 @@ To insert an array of blocks:
 Editing a Block
 ~~~~~~~~~~~~~~~
 
-    - Select a block in the **Block List** and click the **Edit the active block in a separate window** icon |icon16|.
-    - Edit the block as necessary.
-    - Close the block's drawing window and the block will be saved and all instances of the block will be updated in the current drawing.
+    #. Select a block in the **Block List** and click the **Edit the active block in a separate window** icon |icon16|.
+    #. Edit the block as necessary.
+    #. Close the block's drawing window and the block will be saved and all instances of the block will be updated in the current drawing.
 
 
 Saving Blocks
@@ -151,9 +148,9 @@ Saving Blocks
 
 Blocks can be saved to a separate file and used in other drawings or added to a user-defined library.  To save the block:
 
-    - Select a block in the **Block List**.
-    - Click the **Save the active block to a file** icon |icon17|.
-    - Select a file location, specify a file name and click **Save**.
+    #. Select a block in the **Block List**.
+    #. Click the **Save the active block to a file** icon |icon17|.
+    #. Select a file location, specify a file name and click **Save**.
 
 .. admonition:: Recommendation
 
@@ -190,12 +187,12 @@ To use blocks from the :ref:`Block Library <widget-libBrowser>`, select the bloc
 
 To insert a block:
 
-    - Select a layer for the inserted blocks.
-    - Select a block in the **Library Browser**.
-    - Click on the **Insert** button.
-    - Set the rotation angle and scale as needed. 
-    - Place the block at the desired location within the drawing.
-    - Adjust the options as needed and place additional copies of the block or press [Esc] to exit the command.
+    #. Select a layer for the inserted blocks.
+    #. Select a block in the **Library Browser**.
+    #. Click on the **Insert** button.
+    #. Set the rotation angle and scale as needed. 
+    #. Place the block at the desired location within the drawing.
+    #. Adjust the options as needed and place additional copies of the block or press [Esc] to exit the command.
 
 
 Adding a User-defined Library
@@ -217,11 +214,11 @@ Importing Blocks
 
 Blocks can also be inserted from as a file from other sources.  With an open drawing:
 
-    - Select **File -> Import -> Block**.
-    - Locate and select the block drawing file and click "Open".
-    - Set the rotation angle and scale as needed. 
-    - Place the block at the desired location within the drawing.
-    - Adjust the options as needed and place additional copies of the block or press [Esc] to exit the command.
+    #. Select **File -> Import -> Block**.
+    #. Locate and select the block drawing file and click "Open".
+    #. Set the rotation angle and scale as needed. 
+    #. Place the block at the desired location within the drawing.
+    #. Adjust the options as needed and place additional copies of the block or press [Esc] to exit the command.
 
 As with inserting a block from the **Library Browser**, importing a block multiple times will create a new instance of the block in the **Block List** each time it is imported, each with a sequentially numbered block name after the initial block insert.  When using blocks from external files the same layer criteria applies (i.e. layer "0", ...)
 
@@ -238,8 +235,8 @@ As with inserting a block from the **Library Browser**, importing a block multip
 
 Once a block has been inserted into a drawing, it is treated a single entity and can only manipulated (moved, scaled, etc.) as a single entity.  Select any one entity within the block selects the entire block.  However, blocks can be disassembled, or *exploded*, and once exploded the individual entities making up the block can be edited.  To explode a block:
 
-    - Select a block.
-    - Click on the **Explode** icon |icon20|.
+    #. Select a block.
+    #. Click on the **Explode** icon |icon20|.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
