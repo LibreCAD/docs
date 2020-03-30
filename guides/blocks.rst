@@ -183,7 +183,7 @@ To use blocks from the :ref:`Block Library <widget-libBrowser>`, select the bloc
     :alt: Library Browser insertion tool options
 .. actual image size 317px x 33px
 
-- The rotation angle and the scale factor behave as they do for a block inserted from the **Block List**.
+The rotation angle and the scale factor behave as they do for a block inserted from the **Block List**.
 
 To insert a block:
 
