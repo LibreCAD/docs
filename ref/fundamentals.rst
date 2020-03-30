@@ -240,6 +240,10 @@ The pen attributes can be defined for a single entity (via the *Properties* tool
    Just as with entities, "pens" can also be applied to layers.  See :ref:`Layer List Dock <widget-layerList>` for details on setting a layer's attributes.
 
 
+.. Force page break in PDF
+.. include:: /inclFiles/pdfPageBreak.rst
+
+
 Color
 `````
 
@@ -271,7 +275,7 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
 .. include:: /inclFiles/eoWrap.rst
 
 .. table::
-   :align: center
+   :align: left
    :widths: auto
    :class: table-no-borders
    
@@ -280,26 +284,45 @@ Selecting ”Custom” will allow a selection from a palette of 36 colors and sh
    +----------+-----+----------+
 
 .. |01Lcol| image:: /images/coloursCustom.png
-         :scale: 67
+         :scale: 50
          :alt: Custom colors
 .. actual image size 490px x 295px
 
 .. |01Rcol| image:: /images/colourCustom.png
-         :scale: 67
+         :scale: 50
          :alt: Custom color selector
 .. actual image size 436px x 426px
 
 
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
+
+.. Force page break in PDF
+.. include:: /inclFiles/pdfPageBreak.rst
+
+
 Width
 `````
+.. only:: html
 
-.. figure:: /images/lineWidthsAll.png
-    :align: right
-    :scale: 100
-    :alt: Line Widths
+    .. figure:: /images/lineWidthsAll.png
+        :align: right
+        :scale: 100
+        :figwidth: 150
+        :alt: Line Widths
 
-    Available Line 
-    Widths (Attributes)
+        Available Line Widths (Attributes)
+
+.. only:: latex
+
+    .. figure:: /images/lineWidthsAll.png
+        :align: right
+        :scale: 50
+        :figwidth: 150
+        :alt: Line Widths
+
+        Available Line Widths (Attributes)
 
 .. actual image size 143px x 642px
 
@@ -312,8 +335,14 @@ The LibreCAD default line thickness is 0.00 mm (hairline) and range up to 2.11 m
 
 Refer to :ref:`Common Line Widths <lineWidths>` in the appendix for examples of line thickness by purpose.
 
+
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
+
+
+.. Force page break in PDF
+.. include:: /inclFiles/pdfPageBreak.rst
+
 
 Line Type
 `````````
@@ -421,10 +450,13 @@ Deselect selected entities by typing “tn” at the command line or pressing [E
 
 Also see the :ref:`Select<tool-select>` tools for additional methods to select and deselect entities.
 
+
+.. _entity-handles:
+
 Entity Handles
 ~~~~~~~~~~~~~~
 
-Selected entities display “handles”.  Handles allow the entities to be manipulated; lengthened, moved or enlarged depending on the type of entity:
+Selected entities display “handles”.  Left-clicking on and dragging a handles allow the entities to be manipulated; lengthened, moved or enlarged depending on the type of entity:
 
 
 .. only:: html
@@ -446,13 +478,13 @@ Selected entities display “handles”.  Handles allow the entities to be manip
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
 
-- Entities that consist of a single segment, such as lines, arcs and polyline segments, have a start handle and an end handle.  Either handle can be clicked and dragged into a new position.
-- Handles on circles or other entities that consist of multiple segments allow it to be manipulated in a variety of ways depending on the type of entity.  For example:
+- Entities that consist of a single segment, such as lines, arcs and polyline segments, have a start handle and an end handle.  Either handle can be clicked on and dragged into a new position.
+- Handles on circles or other entities that consist of multiple segments allow it to be manipulated in a variety of ways depending on the type of entity.  For example: 
 
-   - A rectangle’s corner can be dragged to a new position creating other quadrilaterals.
-   - A circle can be increased or decreased in size.
-   - The end points of the edges of a polygon can be repositioned.
-   - Dimension text and lines can be repositioned
+   - A rectangle’s corner handle can be dragged to a new position creating other quadrilaterals.
+   - A circle's perimeter handle can be dragged to increase or decrease the diameter.
+   - The end points on the edges of a polygon can be repositioned.
+   - Dimension text can be moved, or dimension and extension lines can be repositioned by dragging a handle.
 
 Ordering Entities
 `````````````````
@@ -489,8 +521,13 @@ LibreCAD can also be used to create drawings with an *isometric perspective*.  C
 
 See :ref:`Drawing an Isometric View <dwg-isometric>` in **Drawing and Editing** section of the **User Guide** for details on configuring LibreCAD for isometric drafting.
 
+
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
+
+
+.. Force page break in PDF
+.. include:: /inclFiles/pdfPageBreak.rst
 
 
 .. Symbols

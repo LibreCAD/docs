@@ -77,13 +77,15 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
     "Extension line - Enlarge", "3", ".125", "1/8"
     "Arrow size", "3", ".125", "1/8"
 
-.. note::
+.. _adjust-dim:
+
+.. admonition:: Note - Adjusting Dimensions for Printing
 
     The size of each dimension component: "Text Height", "Arrow size", etc. should be set to the desired "real world" size in the configuration.  That is to say if the desired text height is 2.5 mm when printed, the "Text Height" should remain set as 2.5 mm.  If the drawing is printed full scale (1:1) the dimension text will appear correctly.  However if the drawing is scaled up or down the "General Scale" needs to be adjusted accordingly.  The "General Scale" is set to the *inverse* of the printing scale.  For example, if the printed scale is determined to be 1:4, the "General Scale" should be set to 4 (4:1).
 
     The minimum spacing between dimension lines needs to be scaled with the drawing.  For example, if the drawing is 1:10, the spacing will need to be adjusted to 60 mm between dimension lines and 100 mm from the entity.
 
-    Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <printing-guide>` guides.
+    Additional information can be found in the :ref:`Drawing Setup <drawing-setup>` and :ref:`Printing <complete&print>` guides.
 
 
 .. admonition:: Tip - Rules for Dimensioning
@@ -96,23 +98,27 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
         - Provide space between dimensions to ensure legibility.
         - The view that best shows an entity is the view that should be dimensioned.
         - Each entity on the drawing should be dimensioned and dimensioned only once.
-        - There is no need to calculate or scale a dimension of an entity.
+        - There should be no need to calculate or scale a dimension of an entity.
         - A dimension should be referenced to a logical origin point.
         - When there are multiple lines of dimensions, the longer dimensions are to be placed outside of shorter ones.
-        - Except for large circles and arcs, all dimensions should be placed outside the part and spaced 10mm / 3/8" from the entity (*).
-        - Dimensioned circles diameters and arcs with radiuses.
+        - Except for large circles and arcs, all dimensions should be placed outside the part and spaced 10mm / 3/8" from the entity.
+        - Dimension circles with diameters and arcs with radiuses.
         - Center lines or center marks should be used on all circles and arcs.
         - Extended a circle's or arc's center lines and use as extensions line when possible.
-        - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines (*).
+        - Multiple lines of dimensions are spaced uniformly with a minimum of 6mm / 1/4” between dimension lines (see note above).
         - Use arrow heads or slash marks at the end of the dimension lines.
-    
+
+    To improve legiblity, make corrections, or make adjustments after scaling a drawing, dimension labels, dimension lines and extension lines can be repositioned using :ref:`Entity Handles <entity-handles>`.
+
+    Dimensioning drawings is beyond the scope of the **LibreCAD User Manual**, but additional resources and examples are available in LibreCAD's `wiki <https://dokuwiki.librecad.org/>`_ or elsewhere on the web.
+
     **Dimensioning Example**
     
-    .. image:: /images/dimnEg.png
+    .. image:: /images/doohickeyDimnEg.png
         :align: center
-        :scale: 100
+        :scale: 85
         :alt: Dimensioning example
-    .. actual image size 768px x 360px
+    .. actual image size 800px x 366px
 
 
 Leaders
@@ -122,7 +128,7 @@ While leaders do not dimension an entity, they are closely related to dimensioni
 
 .. figure:: /images/leaderEg.png
     :align: center
-    :scale: 67
+    :scale: 50
     :alt: Leader example
 
 .. actual image size 768px x 324px

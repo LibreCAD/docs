@@ -9,15 +9,15 @@ The documentation is created using a markup language called "reStructuredText" (
 ## Status 
 
 
-Section | Initial Draft | Review / Edit | Update for GA release | Comment
+Section | Initial Draft :heavy_check_mark: | Review / Edit - Interim :heavy_check_mark: | Update for GA release  :white_check_mark: | Comment
 --- | --- | --- | --- | ---
-**About** |   |   |   | All about LibreCAD and the User Manual.
+**About** | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | All about LibreCAD and the User Manual.
    Copyright | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
    Contributors | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
-**Getting Started** |   |   |   | Downloading, installing and configuring LibreCAD.
+**Getting Started** | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Downloading, installing and configuring LibreCAD.
    Install | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
    Configure | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
-**References** |   |   |   | Technical descriptions of the tools, functions, widgets, etc.
+**References** | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Technical descriptions of the tools, functions, widgets, etc.
    Fundamentals | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Including "The Coordinate System".
    Application Menu | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
    Drawing Tools | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
@@ -26,14 +26,14 @@ Section | Initial Draft | Review / Edit | Update for GA release | Comment
    Dock Widgets | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
    Drawing Preferences | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
    Customizing | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Including Style Sheets.
-**User Guides** |   |   |   | Generic instructions on how to do a few things with LibreCAD.
+**User Guides** | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Generic instructions on how to do a few things with LibreCAD.
    Drawing Setup | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Scale, layers and templates.
    Drawing and Editing | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
-   Dimensioning & Text | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Using the Command Line | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
    Using Blocks | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
-   Using the Command Line | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
-   Printing Guide | :heavy_check_mark: | :white_check_mark: | :white_check_mark: | 
-**Appendices** |   |   |   | Miscellaneous information about LibreCAD.
+   Dimensioning & Text | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+   Completion and Printing | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
+**Appendices** | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Miscellaneous information about LibreCAD.
    Online Resources | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | Web site, forum, wiki
    Line Types | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
    Hatches | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 

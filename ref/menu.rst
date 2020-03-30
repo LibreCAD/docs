@@ -33,7 +33,7 @@ File
     "Save as", |icon05|, "[Ctrl] [Shift]+s ", "Save current drawing file to a different location or with a new file name."
     "Import", |icon06|, "", "Import a :ref:`block <blocks>`, or bit mapped or vector images into the current drawing.  Supported bit mapped formats include: bmp, cur, gif, ico, jpeg, pbm, pgm, png, ppm, xbm, and xpm.  Vector images supported include svg, and svgz."
     "Export", |icon07|, "", "Export the current drawing as a CAM, pdf or image file. Supported bitmapped formats include: cur, jpeg, pbm, pgm, png, ppm, bmp, ico, xbm, and xpm.  Vector images supported include svg, and svgz.  Use the ''CAM'' export to save SVG (Scalable Vector Graphics) suitable for MakerCAM, EleskCAM, LaserWeb, ..."
-    "Print", |icon08|, "[Ctrl]+p  ", "Produce output of the current drawing.  See :ref:`Printing <printing-guide>` in the **User Guides** section."
+    "Print", |icon08|, "[Ctrl]+p  ", "Produce output of the current drawing.  See :ref:`Printing <complete&print>` in the **User Guides** section."
     "Print Preview", |icon09|, "", "View output on screen of the current drawing."
     "Close", |icon10|, "[Ctrl]+w", "Close the active drawing."
     "Quit", |icon11|, "[Ctrl]+q", "Close the application."
@@ -157,8 +157,13 @@ Drawings
     :class: table-fix-width
 
     "Menu Item", "Icon", "Short-cut", "Description"
-    "Tab mode", , "", "Toggles LibreCAD to a tabbed drawing space.  Each open drawing is on its own tabbed drawing window when the tabbed mode is active (checked)."
+    "Tab mode", , "", "When selected, each open drawing is in its own tabbed drawing or preview window.  Tabbed windows cannot be moved, resized or arranged with in the LibreCAD application window.  The selected tab is the active window."
+    "Window mode", , "", "When selected, each open drawing is in its own independent drawing or preview window that can be moved, resized or otherwise arranged (see below).  ”Window mode” is the default mode."
+    "Layout", , "", "*Tab mode only*.  Allows the selection of the tab's appearance (”Rounded” or ”Triangular”) and the location of the drawing windows tab (”North”, ”South”, ”East” or ”West” (top, bottom, right, or left respectively))."
+    "Arrange", , "", "*Window mode only*.  Drawing windows can be ”Maximize”, ”Cascade”, ”Tiled”,  ”Tiled Vertically”, ”Tiled Horizontally”"
     "*Currently opened drawings*", , "", "List the current open drawing(s).  The item with the checked box is the active drawing."
+
+
 
 
 Help

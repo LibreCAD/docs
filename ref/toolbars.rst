@@ -13,6 +13,10 @@ Toolbars provide an alternative to the menus for accessing application functions
 
 Toolbars can be moved any where on the display and left floating, or docked to any of the four sides of the drawing window, similar to :ref:`Dock Widgets <widgets>`.  Unlike Dock Widgets, icons on a Toolbar are a single row when floating or docked to the top or bottom of the drawing window and verticle when docked to either side.  Also, Toolbars cannot be resized.
 
+
+Drawing Tools Toolbars
+----------------------
+
 .. csv-table:: 
     :widths: 20, 80
     :header-rows: 1
@@ -111,7 +115,7 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | **Toolbar:** 
         | |tlbar18|"
     "Tool Options",  "
-        | Displays input boxes for the parameters required by the currently selected tool.  **This option should always be enabled.**
+        | Displays input boxes for the parameters required by the currently selected tool.  See **Tool Options** below.  **This option should always be enabled.**
         |
         | **Toolbar:** 
         | Varies by tool selected.  See :ref:`Drawing Tools <tools>`."
@@ -122,22 +126,28 @@ Toolbars can be moved any where on the display and left floating, or docked to a
         | |tlbar19|"
 
 
-Other Toolbars
---------------
+.. _tool-options:
 
- .. important::
-    Print Preview and Block operations require the use of the **Tool Options** toolbar as there are no menu or command line equivalencies. Ensure the Tool Option toolbar is enabled (**Widgets -> Toolbars** and check **Tool Options**).
+Tool Options
+------------
 
+A variety of LibreCAD's tools require additional parameters or have options that are shown on the **Tool Options** toolbar.  Several drawing tools use tool options.  Those toolbars are shown in the :ref:`Drawing Tools <tools>` reference.  Two additional operations that require the use of the **Tool Options** toolbar are **Print Preview** and block operations.
 
-.. _print-preview-toolopt:
+.. important::
+    Print Preview and Block operations require the use of the **Tool Options** toolbar as there are no menu or command line equivalencies. Ensure the Tool Option toolbar is enabled.
 
-Print Preview
-~~~~~~~~~~~~~
-
-The **Print Preview** toolbar is used to set up the print output as desired regardless of output format (pdf or paper). The print preview can be configured after selecting **File -> Print Preview** through the menu.  A combination of scale value, color status and drawing position relative to paper allows customed print output. The steps are detailed in :ref:`printing guide <printing-guide>`.
+The **Tool Options** toolbar should always be enabled.  If the tool options do not appear, from the menu select **Widgets -> Toolbar** and enable **Tool Options** (place checkmark in checkbox).  If using the :ref:`command line <cmdline>`, the same tool options are available via a command line prompt or the **Tool Options** toolbar.
 
 
-.. figure:: /images/toolOptions/toPrtPreview.png
+.. _page-preview-toolopt:
+
+Print Preview Tool Options
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The **Print Preview Tool Options** toolbar is used to set up the print output regardless of output format (pdf or paper). The toolbar is displayed after clicking the **Print Preview** icon |icon00| or selecting **File -> Print Preview** from the menu.  A combination of scale value, color status and drawing position relative to paper allows for customized print output. The steps are detailed in :ref:`printing guide <complete&print>`.
+
+
+.. figure:: /images/toolOptions/toPrintPreview.png
     :width: 316px
     :height: 35px
     :align: center
@@ -152,17 +162,19 @@ The **Print Preview** toolbar is used to set up the print output as desired rega
     :class: table-fix-width
     
     "Option Item", "Icon", "Description"
-    "Scale", , "Displays the scale of the drawing based on its size and the paper size selected in :ref:`Drawing Preferences <draw-prefs>`. It is also possible to adjust the scale to a specific value to a value in the drop down  list or enter a custom values separated by the colon (:). Checking the *fixed* checkbox locks the scale to the set value."
-    "Toggle Black/White", |icon01|, "Toggles the colors of all entities from color to black/white."
-    "Center to page", |icon02|, "Centers the drawing to the paper size selected in *Drawing Preferences*."
-    "Fit to page", |icon03|, "Fits the drawing to the paper size selected."
-    "Multipages", |icon04|, "Determines the number of pages needed to print the drawing based on the defined scale and the paper size selected in *Drawing Preferences*."
+    "Scale", , "Displays the current scale of the drawing.  The scale can also be changed to a predefined value selected from the drop-down list, or entered as a custom ratio."
+    "”fixed”", , "Checking the ”fixed” checkbox locks the scale to value shown in the text-box."
+    "Apply Print Scale to line width", |icon01|, "When enabled, line width is scaled on *reduced* drawings (drawings reduced in size to fit a smaller page)."
+    "Toggle Black/White", |icon02|, "Toggles the colors of all entities from color to black/white."
+    "Center to page", |icon03|, "Centers the drawing and paper to the Print Preview window."
+    "Fit to page", |icon04|, "Fits the drawing to the margins of the paper and centers page to the Print Preview window. (Not available when ”fixed” is selected.)"
+    "Multipages", |icon05|, "Determines the number of pages needed to print the drawing based on the defined scale and the paper size selected in *Drawing Preferences*."
 
 
 .. _blk-insert-toolopt:
 
-Inserting Blocks
-~~~~~~~~~~~~~~~~
+Block Operations Tool Options
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There are two block insert operations with corresponding Tool Option toolbars.  For further details on using blocks refer to :ref:`Blocks <blocks>` in the User Guides.
 
@@ -219,16 +231,23 @@ Inserting a block from a library can be enhanced through the *Tool Option* bar f
 
 ..  Icon mapping:
 
-.. |icon01| image:: /images/icons/black_n_white_mode.svg
+.. |icon00| image:: /images/icons/print_preview.svg
+            :height: 18
+            :width: 18
+
+.. |icon01| image:: /images/icons/scaleLineWidth.svg
              :height: 24
              :width: 24        
-.. |icon02| image:: /images/icons/center_to_page.svg
+.. |icon02| image:: /images/icons/black_n_white_mode.svg
+             :height: 24
+             :width: 24        
+.. |icon03| image:: /images/icons/center_to_page.svg
              :height: 24
              :width: 24           
-.. |icon03| image:: /images/icons/fit_to_page.svg
+.. |icon04| image:: /images/icons/fit_to_page.svg
              :height: 24
              :width: 24   
-.. |icon04| image:: /images/icons/multi_pages.svg
+.. |icon05| image:: /images/icons/multi_pages.svg
              :height: 24
              :width: 24
 
