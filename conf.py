@@ -141,6 +141,7 @@ def setup(app):
 ##
 ## or
 ##html_style = 'theme_overrides.css'
+##
 ## or
 ##html_css_files = [
 ##    'css/theme_overrides.css',
