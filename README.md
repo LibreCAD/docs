@@ -9,7 +9,7 @@ The documentation is created using a markup language called "reStructuredText" (
 ## Status 
 
 
-Section | Initial Draft | Review / Edit - Interim | Update for GA release | Comment
+Section | Initial Draft :heavy_check_mark: | Review / Edit - Interim :heavy_check_mark: | Update for GA release  :white_check_mark: | Comment
 --- | --- | --- | --- | ---
 **About** | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | All about LibreCAD and the User Manual.
    Copyright | :heavy_check_mark: | :heavy_check_mark: | :white_check_mark: | 
