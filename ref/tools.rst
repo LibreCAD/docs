@@ -249,6 +249,12 @@ Polyline
 
 Select
 ------
+IMPORTANT NOTE:
+When the pointer is in the shape of an arrow, i.e. no tool selected, it is, by default, in a select mode.
+One can select single or multiple entities by clicking on them or select multiple entities by mean of a window:
+    • Drawn from left to right, it will select all entities fully included in it.
+    • Drawn fro right to left it will select all entities inside it or crossing it.
+Deselecting can be done by pressing the Escape key.
 .. csv-table:: 
     :widths: 15, 7, 15, 63
     :header-rows: 1
