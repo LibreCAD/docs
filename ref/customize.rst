@@ -9,7 +9,7 @@
 Customizing LibreCAD's Interface
 ================================
 
-In addition to be able to :ref:`move and reorganize menus and toolbars <app-layout>`, LibreCAD can be customized with user-defined pop-up menus, custom toolbars and alternative "window decoratons".
+In addition to be able to :ref:`move and reorganize menus and toolbars <app-layout>`, LibreCAD can be customized with user-defined pop-up menus, custom toolbars and alternative "window decorations".
 
 
 .. _menu-creator:
