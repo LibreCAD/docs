@@ -277,13 +277,13 @@ As shown in the :ref:`Entities <entities>` section in **Fundamentals**, an entit
     - **Attributes**: allows the "Pen" or "Layers" to be modified for one or more entities.
     - **Properties**: allows the "Pen", "Layers" or geometry *of a single entity* to be modified.
 
-Both tools operate in a similar fashion and for similar purposes, but there are a couple of key differences.  The **Attributes** tool allows a change to the attributes to be applied to *one or more selected entities* while the **Proprieties** tool can only be used for a *single entity*.  In addition, the **Properties** tool allows the *geometry* to be edited.  The geometry of an entity will vary be the type of entity.  For example a line's geometry consist of the X and Y coordinates of the endpoints, while a circles geometry consists of the X/Y coordinates of the centre of the circle and its radius.  
+Both tools operate in a similar fashion and for similar purposes, but there are a couple of key differences.  The **Attributes** tool allows a change to the attributes to be applied to *one or more selected entities* while the **Properties** tool can only be used for a *single entity*.  In addition, the **Properties** tool allows the *geometry* to be edited.  The geometry of an entity will vary be the type of entity.  For example a line's geometry consist of the X and Y coordinates of the endpoints, while a circles geometry consists of the X/Y coordinates of the centre of the circle and its radius.  
 
 
 Layers and Pens
 ```````````````
 
-Change an entity's layer is similar with both the **Attributes** and **Proprieties** tools.
+Change an entity's layer is similar with both the **Attributes** and **Properties** tools.
 
 Using the **Attributes** to change an entity's layer:
 
@@ -303,18 +303,18 @@ In a similar manner the color, width and/or line type can be changed:
     #. In the *Attributes* dialog, select the desired pen attribute from the drop-down *Color, Width* and/or *Line type* selection box.
     #. Click **Ok**.
 
-The **Proprieties** tool operates in a similar manner, but the tool need to be selected *before* selecting an entity:
+The **Properties** tool operates in a similar manner, but the tool need to be selected *before* selecting an entity:
 
-    #. From the menu select **Tools -> Modify -> Proprieties**, or click the **Proprieties** icon |icon84|.
+    #. From the menu select **Tools -> Modify -> Properties**, or click the **Properties** icon |icon84|.
     #. Select the entity.
-    #. In the *Proprieties* dialog, select the desired layer or pen attribute from the appropriate selection box.
+    #. In the *Properties* dialog, select the desired layer or pen attribute from the appropriate selection box.
     #. Click **Ok**.
 
 
 Geometry (Properties)
 `````````````````````
 
-The **Proprieties** tool also allows the *geometry* of an entity to be changed.  The geometry is the information used to describe the entity.  The geometry available depends on the type of entity, for example:
+The **Properties** tool also allows the *geometry* of an entity to be changed.  The geometry is the information used to describe the entity.  The geometry available depends on the type of entity, for example:
 
 
 .. table::
