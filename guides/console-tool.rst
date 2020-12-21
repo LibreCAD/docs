@@ -15,4 +15,6 @@ LibreCAD's console tool gives users certain functionality without having to open
 DXF2PDF Tool
 ----------------------
 
-LibreCAD allows convertion of DXF drawings to PDF in console without any need to run the GUI. To do so, users can run ``librecad dxf2pdf [options] ...`` in their command line or terminal. This tool has its own set of options and its own help option which can be obtained by running `librecad dxf2pdf --help`` or `librecad dxf2pdf -h`` (or `librecad dxf2pdf`` with no options at all).
+LibreCAD allows convertion of DXF drawings to PDF in console without any need to run the GUI. To do so, users can run ``librecad dxf2pdf [options] ...`` in their command line or terminal. This tool has its own set of options and its own help option which can be obtained by running `librecad dxf2pdf --help`` or ``librecad dxf2pdf -h`` (or simply ``librecad dxf2pdf`` with no options at all).
+
+In a nutshell, users can use it to convert a DXF file or multiple DXF files to a single multi-page PDF or multiple PDFs.
