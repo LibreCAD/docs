@@ -19,9 +19,8 @@ LibreCAD allows convertion of DXF drawings to PDF in console without any need to
 
 In a nutshell, users can use it to convert a DXF file or multiple DXF files to a single multi-page PDF or multiple PDFs. It can be done without specifying any options other than the input filename: ``librecad dxf2pdf file_name.dxf``. The output file is saved in the executable folder under the name of ``file_name.pdf``. If multiple (N) DXF files are selecred (``librecad dxf2pdf file_name1.dxf file_name2.dxf ... file_nameN.dxf``) then N PDF files are made. It is also possible to convert DXF files to PDF and put the results in a single multipage PDF ``outfile.pdf`` as follows: ``librecad dxf2pdf -o outfile.pdf file_name1.dxf file_name2.dxf ... file_nameN.dxf``. The same approach can be used if there is a single DXF file input but the outpit filename needs specification.
 
-There are other options available which can be obtained by running ``librecad dxf2pdf --help`` and at this stage include
+There are other options available which can be obtained by running ``librecad dxf2pdf --help`` and at this stage include::
 
-``
   -h, --help                  Displays help.
   -v, --version               Displays version information.
   -a, --fit                   Auto fit and center drawing to page.
@@ -35,4 +34,3 @@ There are other options available which can be obtained by running ``librecad dx
   -z, --pages <HxV>           Print on multiple pages (Horiz. x Vert.).
   -o, --outfile <file>        Output PDF file.
   -t, --directory <path>      Target output directory.
-``
