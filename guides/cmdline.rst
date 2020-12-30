@@ -35,7 +35,7 @@ The commands available to use are shown in the :ref:`Drawing Tools <tools>` refe
     #. Press [Ctrl + M], any command and then [Enter] or the [Space bar].
     #. Press [Shift], any command and then [Enter] or the [Space bar].
     #. Press [F1], any command and then [Enter] or the [Space bar].
-    #. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.  Pressing [Enter] is not required. 
+    #. With the *Keycode Mode* on, type a **two letter** command, e.g. li, ci.  Pressing [Enter] is not required.
 
 When the command line is activated the prompt above the input text-box, initially showing "Command:" in black text, turns blue.  After typing a command, the prompt will indicate the next input required, such as coordinates or the next action available.  Pressing [Esc] will cancel the current action and pressing it a second time will cancel the operation.  For example, when using the **2 Points** line tool the first prompt shows "Specify first point" and the second "Specify next point".  After drawing at least two segments of a line the next prompt reads "Specify next point or [close/undo]".  LibreCAD is expecting another set of coordinates to be entered, or the shape (with a minimum of two segments) can be closed or the last actions can be reversed.  "Close" or "undo" can be entered on the command line or by clicking on buttons on the :ref:`Tool Options<tools>` toolbar.  For example, to draw a square using the **2 Points** line tool from the command line::
 
@@ -54,7 +54,7 @@ When the command line is activated the prompt above the input text-box, initiall
 .. admonition:: Tip - Using the Command Line
 
     - In addition to the comma separated coordinates, :ref:`relative coordinates <coordinates>` can also be entered using the numeric keypad using the format *X..Y*, i.e. typing *10..20* is equivalent to *@10,20*.  Using the two decimals is faster than typing the comma.
-    - The *Keycode Mode* permits the use of **two letter** commands and eliminates the need to press [Enter] after typing the command. 
+    - The *Keycode Mode* permits the use of **two letter** commands and eliminates the need to press [Enter] after typing the command.
     - Pressing the [Space-bar] is an alternative to pressing [Enter] after each command.
     - Pressing [c] or [u] followed by [Enter] can be used instead of typing "close" or "undo".
     - *Tab completion* can be used on the command line when entering commands.  Enter a partial command such as "cir" followed by [Tab] will complete the command to "circle".  If text entered is not unique to a single command the command output will show all the possible commands starting with the text provided.  For example, typing [c] and pressing [Tab] will list "circle", "circle2", "circle3", "circlecr" and "cut" in the command output.
@@ -95,7 +95,7 @@ Multi-command input can be assigned to a variable and variables can also contain
 
 Enter each line of the text above on the command line.  When \\c is entered, two overlapping circles with a radius of 10 units are drawn.  The "\\" character is an escape character that allows the command line to interpret the variable name as an action.  In the above example \\c expands to "ci;0,0;10;ci;10,0;10;kill".
 
-A "variable file" can be set to load at startup via :ref:`Application Preferences <app-prefs>` **-> Paths -> Variable File**.  Save the first three line of the above example to a text file and configure the path to the text file.  Restart LibreCAD and when \\c is entered at the command line the two circles are drawn.
+A "variable file" can be set to load at startup via :ref:`Application Preferences <app-prefs>` **-> Paths -> Variable File**.  Save the first three line of the above example to a text file and configure the path to the text file.  Restart LibreCAD and when \\c is entered at the command line the two circles are drawn.  Note that "\#" character defines a comment so everything following this will not be considered by LibreCAD.
 
 
 Command Aliases
@@ -105,8 +105,8 @@ As previously noted many of the commands in LibreCAD have multiple forms.  The l
 The format of the configuration file is ``<alias>[Tab]<command-untranslated>``.  The default aliases for the **2 Points** line appears as::
 
     ...
-    l	line
-    li	line
+    l   line
+    li  line
     ...
 
 Aliases can be added or modified to suit users' preferences.  The file is found in the following locations:
@@ -133,7 +133,7 @@ If the cal mode is *off* entering a math expression will result in an error mess
 
 A complete list of operators and functions can be found in the :ref:`appendix <calc>`.
 
-.. note:: 
+.. note::
 
     The constant pi is defined in LibreCAD as 3.14159265359.
     Trigonometric functions use radians (radians = degrees*pi/180).
