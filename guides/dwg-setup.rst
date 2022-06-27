@@ -97,7 +97,7 @@ Creating Templates
 
 Templates are created starting with a new drawing, setting the desired :ref:`Drawing Preferences <draw-prefs>`, and adding any required drawing elements (e.g. layers, borders, etc).  To create a template, starting with a blank drawing:
 
-    #. Set the the drawing preferences by selecting **Edit** from the menu bar and then **Current Drawing Preferences**.
+    #. Set the the drawing preferences by selecting **Options** from the menu bar and then **Current Drawing Preferences**.
 
         #. On the "Paper" tab set the paper size, orientation and margins as desired.
         #. Select the "Units" tab and set the "Main Drawing Unit".  (Note the "Length" and "Angle" settings configure the :ref:`status bar <statusbar>` format and not the dimensioning format that appear on the drawing.)
