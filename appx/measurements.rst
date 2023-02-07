@@ -23,7 +23,7 @@ LibreCAD supports a large number of measurement systems/units:
     "Meter", "m", "SI", "nm", ""
     "Kilometer", "km", "SI", "", "Sigh, SI units are not funny..."
     "Microinch", "µin", "Imperial", "", ""
-    "Mil", "mil", "Imperial", "1/100 of an inch", "Replaced with ''thou'' (but not ''you'')."
+    "Mil", "mil", "Imperial", "1/1000 of an inch", "Replaced with ''thou'' (but not ''you'')."
     "Yard", "yd", "imperial", "3 foots", "Measure ale!"
     "Angstrom", "å", "", "≈ one ten-billionth of a meter", "Zoom to a parsec - I dare you."
     "Nanometer", "nm", "SI", "1 E−9 m", "the UoM formerly known as the ''millimicrometre'' and ''mµ''."
