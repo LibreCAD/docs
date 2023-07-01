@@ -57,26 +57,6 @@ LibreCAD can be found in Ubuntu's "Software Center" for Ubuntu 11.04 (Natty) and
    $ sudo apt-get install librecad
 
 
-Daily and Stable Builds in Ubuntu PPA
-`````````````````````````````````````
-For those users who want a more current version of LibreCAD you can use the Stable or Daily Build PPAs, available for Ubuntu 10.10 (Maverick) and later.
-
-For those that want to be more up to date than the distribution packages can install the stable build.  First add the "stable" repository via the command line::
-
-   $ sudo add-apt-repository ppa:librecad-dev/librecad-stable
-
-And then update the software sources and install LibreCAD::
-
-   $ sudo apt-get update
-   $ sudo apt-get install librecad
-
-For those that want to live on the bleeding edge and try out the newest features as they are made available from the GitHub repository, use a same method with the "daily" repository::
-
-   $ sudo add-apt-repository ppa:librecad-dev/librecad-daily
-   $ sudo apt-get update
-   $ sudo apt-get install librecad
-
-
 Debian
 ~~~~~~
 
