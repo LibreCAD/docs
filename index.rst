@@ -1,9 +1,9 @@
-.. User Manual, LibreCAD v2.2.x
+.. Kullanıcı Kılavuzu, LibreCAD v2.2.x
 
 
-====================
-LibreCAD User Manual
-====================
+===========================
+LibreCAD Kullanıcı Kılavuzu
+===========================
 
 .. Default include
 .. include:: /inclFiles/notice.rst
@@ -17,9 +17,9 @@ LibreCAD User Manual
     :align: center
     :alt: LibreCAD Splash
 
-**LibreCAD** is a free Open Source Computer Aided Drafting (CAD) application licensed under GPLv2.
+**LibreCAD** GPLv2 kapsamında lisanslanan, açık kaynak kodlu ve ücretsiz Bilgisayar Destekli Çizim (CAD) uygulamasıdır.
 
-The latest information about LibreCAD can be found at `librecad.org <http://librecad.org>`_.
+LibreCAD hakkındaki en son bilgilere `librecad.org <http://librecad.org>` adresinden ulaşılabilir.
 
 .. only:: latex
 
