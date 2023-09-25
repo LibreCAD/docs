@@ -415,7 +415,7 @@ Drawing and Editing Entities
 Creating Entities
 ~~~~~~~~~~~~~~~~~
 
-There are two methods for defining coordinates when drawing entities in LibreCAD.  Users can use either use a mouse or other pointing devices, or the keyboard and enter coordinates.
+There are two methods for defining coordinates when drawing entities in LibreCAD.  Users can either use a mouse or other pointing devices, or the keyboard and enter coordinates.
 
 Using a Mouse
 `````````````
