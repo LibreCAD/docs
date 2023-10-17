@@ -20,6 +20,7 @@ Typing "cal" at the command line will toggle the calculator mode on and off.
     "\*", "multiplication", "x*y"
     "/", "division", "x/y"
     "^", "raise x to the power of y", "x^y"
+    **Note:** trigonometric functions use radians (radians = degrees*pi/180).
     "sin", "sine function", "sin(x)"
     "cos", "cosine function", "cos(x)"
     "tan", "tangens function", "tan(x)"
@@ -32,6 +33,7 @@ Typing "cal" at the command line will toggle the calculator mode on and off.
     "asinh", "hyperbolic arcus sine function", "asinh(x)"
     "acosh", "hyperbolic arcus tangens function", "acosh(x)"
     "atanh", "hyperbolic arcur tangens function", "atanh(x)"
+    "pi", "3.14159265359"
     "log2", "logarithm to the base 2", "log2(x)"
     "log10", "logarithm to the base 10", "log10(x)"
     "log", "logarithm to base e (2.71828...)", "log(x)"
