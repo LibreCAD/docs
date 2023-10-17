@@ -67,7 +67,7 @@ Edit
     :class: table-fix-width
 
     "Menu Item", "Icon", "Short-cut / *Command*", "Description"
-    "Selection Pointer", |icon18|, "[Esc] / *k, kill*", "Reverts from current operation to the selection pointer (e.g. cancels the current operation)"
+    "Selection Pointer", |icon18|, "[Esc] / *k, kill*", "Select entity or kill current command."
     "Undo", |icon19|, "[Ctrl]+z / *u, undo, oo*", "Sequentially reverses the previous operations."
     "Redo", |icon20|, "[Ctrl]+[Shift]+z / *r, redo, uu*", "Sequentially reverses the previously reversed operations."
     "Cut", |icon21|, "[Ctrl]+x", "Removes the selected entity (or entities) and places it in temporary memory, e.g. ''clipboard'' for later recall.  A reference point needs to be placed for subsequent paste operations."
