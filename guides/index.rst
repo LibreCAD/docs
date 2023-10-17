@@ -20,6 +20,7 @@ The example drawings in the **User Guides** use LibreCAD's default configuration
     Drawing Setup <dwg-setup>
     Drawing and Editing <dwg-edit>
     Using the Command Line <cmdline>
+    Using the Console Tool <console-tool>
     Using Blocks <blocks>
     Dimensioning and Text <annotate>
     Completion and Printing <completion>
