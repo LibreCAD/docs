@@ -118,7 +118,7 @@ Circle
         | |tlopt01|"
     "3 Points", |icon22|, "c3, circle3", "
         | Draw a circle assigning three points on the circumference."
-    "Centre, Radius", |icon19|, "", "
+    "Centre, Radius", |icon19|, "circlecr", "
         | Draw a circle with a given radius centred at an assigned point on the circumference.
         | 
         | **Tool Options:** 
