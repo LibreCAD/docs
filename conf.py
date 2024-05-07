@@ -133,7 +133,7 @@ html_static_path = ['_static']
 ## Theme overrides defined in _static/css/theme_overrides.css 
 ## https://docs.readthedocs.io/en/stable/guides/adding-custom-css.html
 def setup(app):
-   app.add_stylesheet("css/theme_overrides.css")
+   app.add_css_file("css/theme_overrides.css")
 ##   app.add_stylesheet('css/theme_overrides.css')
 ##
 ## Alternate approaches
