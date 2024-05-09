@@ -12,7 +12,7 @@ LibreCAD and the GPLv2
 
 LibreCAD is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 (GPLv2) as published by the Free Software Foundation.  
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the :ref:`GNU General Public License <gpl-license>` for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the :ref:`GNU General Public License <license-gpl>` for more details.
 
 The GPLv2 can also be found in the `licenses` folder as `gpl-2.0.txt`.  
 

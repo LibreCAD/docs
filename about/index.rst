@@ -38,7 +38,7 @@ LibreCAD has the following features:
    - highly customizable user interface
    - plugin system
 
-As free software you can redistribute it and/or modify it under the terms of the see :ref:`GNU General Public License <gpl-license>` version 2 (GPLv2) as published by the Free Software Foundation.
+As free software you can redistribute it and/or modify it under the terms of the see :ref:`GNU General Public License <license-gpl>` version 2 (GPLv2) as published by the Free Software Foundation.
 
 
 The User Manual

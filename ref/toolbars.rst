@@ -139,7 +139,7 @@ A variety of LibreCAD's tools require additional parameters or have options that
 The **Tool Options** toolbar should always be enabled.  If the tool options do not appear, from the menu select **Widgets -> Toolbar** and enable **Tool Options** (place checkmark in checkbox).  If using the :ref:`command line <cmdline>`, the same tool options are available via a command line prompt or the **Tool Options** toolbar.
 
 
-.. _page-preview-toolopt:
+.. _print-preview-toolopt:
 
 Print Preview Tool Options
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
