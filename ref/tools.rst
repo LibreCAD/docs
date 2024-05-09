@@ -169,12 +169,12 @@ Curve
         | Draw an open or closed spline (curve) by assigning control points and a given degree of freedom (1 - 3).
         | 
         | **Tool Options:** 
-        | |tlopt22|"
+        | |tlopt21|"
     "Spline through points", |icon42|, "stp, spline2", "
         | Draw an open or closed spline (curve) by defining points on the spline.
         | 
         | **Tool Options:** 
-        | |tlopt23|"
+        | |tlopt22|"
     "Ellipse Arc (Axis)", |icon36|, "", "
         | N/A"
     "Freehand Line", |icon05|, "fhl, free", "
@@ -439,12 +439,12 @@ Others
         | Insert multi-line text into drawing at a specified base point.  Optionally define font, text height, angle, width factor, alignment, angle, special symbols and character set.
         | 
         | **Tool Options:** 
-        | |tlopt24|"
+        | |tlopt23|"
     ":ref:`Text <text>`", |icon96|, "txt, text", "
         | Insert single-line text into drawing at a specified base point.  Optionally define font, text height,  alignment, angle, special symbols and character set.
         | 
         | **Tool Options:** 
-        | |tlopt24|"
+        | |tlopt23|"
     "Hatch", |icon97|, "ha, hatch", "
         | Fill a closed entity (polygon, circle, polyline, etc) with a defined pattern or a solid fill.  Optionally define scale and angle."
     "Points", |icon99|, "po, point", "
@@ -804,15 +804,12 @@ Others
 .. |tlopt20| image:: /images/toolOptions/toPoly2.png
             :height: 32
             :width: 192
-.. |tlopt21| image:: /images/toolOptions/toPrtPreview.png
-            :height: 32
-            :width: 289
-.. |tlopt22| image:: /images/toolOptions/toSpline1.png
+.. |tlopt21| image:: /images/toolOptions/toSpline1.png
             :height: 32
             :width: 261
-.. |tlopt23| image:: /images/toolOptions/toSpline2.png
+.. |tlopt22| image:: /images/toolOptions/toSpline2.png
             :height: 32
             :width: 231
-.. |tlopt24| image:: /images/toolOptions/toText.png
+.. |tlopt23| image:: /images/toolOptions/toText.png
             :height: 32
             :width: 307

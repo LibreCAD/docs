@@ -1,7 +1,8 @@
 .. User Manual, LibreCAD v2.2.x
 
+:orphan:
 
-.. _gpl-license:
+.. _license-gpl:
 
 GNU GENERAL PUBLIC LICENSE
 ==========================
