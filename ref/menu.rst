@@ -11,8 +11,13 @@ Main Menu
 
 Most of LibreCAD's commands are accessible through the menu bar.  Drop-down menus provides access to file and print operations, application and drawing configurations, drawing and editing tools, and other functions.
 
-The drop-down menus can be changed into a floating menu.  Each drop-down menu has a dashed line at the top.  Clicking the dashed line allows the menu to be "torn off" and moved to another location anywhere on-screen.  Clicking the 'x' on the upper right corner of the floating menu closes it.
+The drop-down menus can be changed into a floating menu.  Each drop-down menu has a dashed line at the top.  Clicking the dashed line allows the menu to be "torn off" and moved to another location anywhere on-screen.  Clicking the ``x`` on the upper right corner of the floating menu closes it.
 
+.. hint::
+    | The windows top bar is created and handled by your operating system.
+    | Thus appearance and handling may vary.
+    | If just click doesn't work, try to drag the dashed line to create the floating menu.
+    | The ``x`` may be any other symbol and it may also be on the left side, just follow your intuition and close the menu like any other window on your system.
 
 .. _file:
 
