@@ -154,8 +154,7 @@ The next point can also be placed *relative to the previously placed* point.  Th
 For example, when using cartesian coordinates to set a point 75 units to the right and 65 units above of the previous point, use "@75,65".  In the example shown, the previous point was set at 25 units horizontally and 35 vertically (25,35) from the origin (0,0).  The next point can be set @75,65 from the Relative Zero point at 25,35, resulting in a point at 100,100 absolute (100 units horizontally and 100 vertically from the origin).
 
 .. hint::
-
-   Relative coordinates can also be entered using the "*x..y*" format.  This format is equivalent to prefixing the coordinates with the "@" symbol, but allows for :ref:`numeric keypad <keyboard>` input when using the :ref:`command line<widget-cmdLine>`.  As an example, entering coordinates as "75..65" is equivalent to "@75,65".
+   Relative coordinates can also be entered using the ``x..y`` format.  This format is equivalent to prefixing the coordinates with the ``@`` symbol, but allows for :ref:`numeric keypad <keyboard>` input when using the :ref:`command line<widget-cmdLine>`.  As an example, entering coordinates as ``75..65`` is equivalent to ``@75,65``.
 
 .. only:: html
 
@@ -427,9 +426,12 @@ Entities' coordinates can also be located graphically using a mouse or other poi
 Using the Keyboard
 ``````````````````
 
-The keyboard can be used to select tools and enter coordinates using the *command line*.  Tools can be selected by typing a command and then entering the coordinate values.  The commands are shown in the :ref:`Drawing Tools <tools>`.  Coordinates can be entered at the command line after selecting a drawing tool using the formats as shown previously; "100,75" (:ref:`Cartesian <cartesian-coords>`) or "100<45" (:ref:`polar <polar-coords>`), :ref:`absolute <absolute>` or :ref:`relative <relative>` (prefixed with "@").
+The keyboard can be used to select tools and enter coordinates using the *command line*.  Tools can be selected by typing a command and then entering the coordinate values.  The commands are shown in the :ref:`Drawing Tools <tools>`.  Coordinates can be entered at the command line after selecting a drawing tool using the formats as shown previously; ``100,75`` (:ref:`Cartesian <cartesian-coords>`) or ``100<45`` (:ref:`polar <polar-coords>`), :ref:`absolute <absolute>` or :ref:`relative <relative>` (prefixed with ``@``).
 
-LibreCAD offers an additional method for entering *relative coordinates* when using the numeric keypad; type two decimal points ("**..**") in lieu of the comma between the X and Y values.  For example, "10..20" is equivalent to typing "@10,20".  Refer to the **User Guides** for more details on using the :ref:`command line <cmdline>`.
+LibreCAD offers an additional method for entering *relative coordinates* when using the numeric keypad; type two decimal points ``..`` in lieu of the comma between the X and Y values.  For example, ``10..20`` is equivalent to typing ``@10,20``.  Refer to the **User Guides** for more details on using the :ref:`command line <cmdline>`.
+
+.. hint::
+    The command line also accepts arithmetic expressions in coordinate values; e.g. ``100<45+15`` is a valid input for a 60° polar coordinate. For more details see :ref:`The Command Line <calculator-cmd>` section or :ref:`Calculator <calc>` appendix.
 
 Text input may also be required for **Tool Options** where distance, angle, etc. are needed with some of the **Drawing Tools**.
 

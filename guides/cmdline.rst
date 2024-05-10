@@ -62,6 +62,7 @@ For example, to draw a square using the **2 Points** line tool from the command 
     - Pressing the [Space-bar] is an alternative to pressing [Enter] after each command.
     - Typing ``c`` or ``u`` followed by [Enter] can be used instead of typing ``close`` or ``undo``.
     - *Tab completion* can be used on the command line when entering commands.  Typing a partial command such as ``cir`` followed by [Tab] will complete the command to ``circle``.  If the partial text is not unique to a single command, the command output will show all the possible commands starting with the text provided.  For example, typing ``c`` and pressing [Tab] will list ``circle``, ``circle2``, ``circle3``, ``circlecr``, and ``cut`` in the command output.
+    - Coordinates can be expressed in arithmetic expressions. See :ref:`Calculator <calculator-cmd>` section or :ref:`Calculator <calc>` appendix.
 
 The available commands are shown in the :ref:`Tools <tools>` reference.  Many of the commands have multiple forms.  For example the *2 Points* line tools can be selected on the command line by typing ``l``, ``li``, or ``line``.  Many tools display the **Tool Options** toolbar when selected.  Some tools will also provide command line prompts in addition to the **Tool Options**.  For example the "Parallel" line tools displays:
 
@@ -125,6 +126,7 @@ Aliases can be added or modified to suit users' preferences.  The file is found 
 
     Only change the alias and *not* the long *untranslated* form.
 
+.. _calculator-cmd:
 
 Calculator
 ----------
