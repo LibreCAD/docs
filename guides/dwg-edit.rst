@@ -263,11 +263,14 @@ The drawing should appear as:
     #. Press [Esc] or right-click to exit the command.
 
 .. important::
-
     These examples do not provide an example of every tool available in LibreCAD, but is intended to show the basic operation of some of the drawing and modifications tools.  Most of the other drawing and modifying tools work in a similar manner.  Being familiar with the :ref:`Drawing <tools>` and :ref:`Modify <tool-modify>` tools in the **Reference** section will help determine what tool can be used in a particular situation.
 
     These examples also illustrate that there are multiple ways to achieve the same result using a variety of methods.  There is no one best method.  The particular method used may depend on the state of the drawing and how existing entities can be used to build on, or perhaps it is a simple matter of using a preferred drawing / modifying tool.
 
+.. hint::
+  | Working on *circle* and *arc* with the ``Trim`` command can be confusing, and not working in the way we wish. At certain constellations it might work, at others it doesn't.
+  | *Circles* and *arcs* have running directions, usually counterclockwise from starting to ending point. For a *circle* start/end are both at 0 degree (center in +X direction).
+  | It's generally easier to cut them up with ``Divide`` at the desired points and ``Delete`` the unwanted parts.
 
 Changing Attributes and Properties
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
