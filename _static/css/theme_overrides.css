@@ -53,10 +53,6 @@ table.docutils div.line-block {
    border: 1px solid lightgrey !important;
    /* Adjust padding for tables; top / right / bottom / left */
    padding: 4px 2px 4px 2px !important;
-   /* Striped table */
-   tr: nth-child(odd){
-      background-color: #f2f2f2 !important;
-   }
 }
 
 
@@ -107,4 +103,4 @@ div.rightside {
 	.wy-nav-content{padding:1.618em}
 	.wy-nav-content-wrap.shift{position:fixed;min-width:100%;left:35%;top:0;height:100%;overflow:hidden}
 }
-/**/
+
