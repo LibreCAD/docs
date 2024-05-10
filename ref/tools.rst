@@ -670,7 +670,7 @@ Others
 .. |icon70| image:: /images/icons/move_rotate.svg
             :height: 24
             :width: 24
-.. |icon71| image:: /images/icons/rotate2.svg
+.. |icon71| image:: /images/icons/scale.svg
             :height: 24
             :width: 24
 .. |icon72| image:: /images/icons/mirror.svg
