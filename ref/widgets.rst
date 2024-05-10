@@ -96,8 +96,8 @@ The Block List Dock provides the functions to manage blocks and a list of blocks
     :class: table-fix-width
 
     "Icon", "Description"
-    |icon10|, "”Show all blocks” - Makes all the blocks in the current drawing visible."
-    |icon11|, "”Hide all blocks” - Hides all blocks in the active drawing."
+    |icon10|, "”Show all blocks” - *Defreeze*, makes all the blocks in the current drawing visible."
+    |icon11|, "”Hide all blocks” - *Freeze*, hides all blocks in the active drawing."
     |icon12|, "”Create a block” - Creates a block from the selected items."
     |icon13|, "”Add an empty block” - Creates an empty block that can then be edited is a separate window (see below)."
     |icon14|, "”Remove the active block” - Deletes the highlighted block."
@@ -190,10 +190,10 @@ The icons on the top of the layer list allow operations to the entire list of la
     :class: table-fix-width
 
     "Icon", "Function", "Description"
-    |icon10|, "Show all layers", "Makes all the layers in the current drawing visible."
-    |icon11|, "Hide all layers", "Hides all layers in the current drawing."
-    |icon20|, "Unlock all layer", "Unlock, or ”Defreeze”, all layers to allow changes to the entities in the layer. (\*)"
-    |icon21|, "Lock all layer", "Lock, or ”Freeze”, all layers to prevent unintentional changes. (\*)"
+    |icon10|, "Show all layers", "*Defreeze*, makes all the layers in the current drawing visible."
+    |icon11|, "Hide all layers", "*Freeze*, hides all layers in the current drawing."
+    |icon20|, "Unlock all layer", "Unlock all layers to allow changes to the entities in the layer. (\*)"
+    |icon21|, "Lock all layer", "Lock all layers to prevent unintentional changes. (\*)"
     |icon13|, "Add a layer", "Add a new layer to the list. (Shortcut [Ctrl]+[L]) (\*)"
     |icon14|, "Remove layer", "Remove the highlighted layer from the list. (\*)"
     |icon15|, "Modify layer attributes / rename", "Modify the selected layer's attributes and / or rename the layer. (\*)"
@@ -209,8 +209,8 @@ Icons to the left of each layer act on the layers individually.  The layer opera
     :class: table-fix-width
 
     "Icon", "Description"
-    "|icon10| / |icon11|", "Show / hide the selected layer. (\*)"
-    "|icon20| / |icon21|", "Lock / unlock the selected layer. (”Freeze” / ”Defreeze”)"
+    "|icon10| / |icon11|", "Show / hide the selected layer. (*Defreeze* / *Freeze*)"
+    "|icon20| / |icon21|", "Lock / unlock the selected layer. (\*)"
     "|icon22| / |icon23|", "Print / don't print the selected layer. (\*)"
     "|icon24| / |icon25|", "Toggle construction lines. (\*)  A layer designated as a ”Construction Layer” is special layer used to create reference geometry to help align other drawing entities.  Construction lines are intended as temporary guide lines and drawn to ”infinity”."
     "|icon26|", "Shows the layer's assigned color (the default is Black)."
