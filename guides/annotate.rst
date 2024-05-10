@@ -120,6 +120,10 @@ The appearance of the dimensions are configured in the :ref:`Dimensions <dimn-pr
         :alt: Dimensioning example
     .. actual image size 800px x 366px
 
+.. hint::
+    | Modifying a dimension label prohibits the automatic adjustment of the value when the dimension is changed.
+    | There is the placeholder ``<>`` for dimension values, that can be used to keep this functionality.
+    | Thus to add a unit to a dimension, you can modify the label via ``Properties`` and enter the label text ``<> mm``. This will show the label as ``100 mm``, and when the dimension is lengthen, it may show ``120 mm`` automatically.
 
 Leaders
 -------
