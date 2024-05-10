@@ -18,31 +18,27 @@ There are 2 types of installation packages depending on code maturity: first the
 A build is an interim state of LibreCAD development with additional improvements yet not mature enough to provide a new release. Note that a build may be less stable than an official release.
 
 .. table::
-    :widths: 25, 75
+    :widths: 37, 63
     :class: table-fix-width
 
-    +---------------------------------+-----------------------------------------------------------------------------------+
-    | Operating System                | URL                                                                               |
-    +=================================+===================================================================================+
-    | | MS Windows\:                  | |                                                                                 |
-    | | - GitHub                      | | https://GitHub.com/LibreCAD/LibreCAD/releases                                   |
-    | | - SourceForge : all releases  | | https://sourceforge.net/projects/librecad/files/Windows/                        |
-    | | - SourceForge : last build    | | https://sourceforge.net/projects/librecad/files/Windows/NightlyBuilds/master/   |
-    +---------------------------------+-----------------------------------------------------------------------------------+
-    | | OSX\:                         | |                                                                                 |
-    | | - GitHub                      | | https://GitHub.com/LibreCAD/LibreCAD/releases                                   |
-    | | - SourceForge                 | | https://sourceforge.net/projects/librecad/files/OSX/                            |
-    +---------------------------------+-----------------------------------------------------------------------------------+
-    | | Linux Distributions\:         | |                                                                                 |
-    | | - Debian (Stable)             | | https://packages.debian.org/stable/graphics/librecad                            |
-    | | - Debian (UnStable)           | | https://packages.debian.org/unstable/graphics/librecad                          |
-    | | - Ubuntu (Stable)             | | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-stable             |
-    | | - Ubuntu (Daily)              | | https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-daily              |
-    | | - Arch Linux                  | | https://www.archlinux.org/packages/community/x86_64/librecad/                   |
-    | | - Fedora                      | | https://apps.fedoraproject.org/packages/librecad                                |
-    | | - Gentoo                      | | https://packages.gentoo.org/packages/media-gfx/librecad                         |
-    | | - OpenSUSE                    | | https://software.opensuse.org/package/librecad                                  |
-    +---------------------------------+-----------------------------------------------------------------------------------+
+    +-----------------------------------+-----------------------------------------------------------------------------+
+    | Operating System                  | URL                                                                         |
+    +===================================+=============================================================================+
+    | | MS Windows\:                    | |                                                                           |
+    | | - GitHub                        | | https://GitHub.com/LibreCAD/LibreCAD/releases                             |
+    +-----------------------------------+-----------------------------------------------------------------------------+
+    | | OSX\:                           | |                                                                           |
+    | | - GitHub                        | | https://GitHub.com/LibreCAD/LibreCAD/releases                             |
+    +-----------------------------------+-----------------------------------------------------------------------------+
+    | | Linux Distributions\:           | |                                                                           |
+    | | - AppImage (runs on most Linux) | | https://GitHub.com/LibreCAD/LibreCAD/releases                             |
+    | | - Debian/Ubuntu (Stable)        | | https://packages.debian.org/stable/graphics/librecad                      |
+    | | - Debian/Ubuntu (UnStable)      | | https://packages.debian.org/unstable/graphics/librecad                    |
+    | | - Arch Linux                    | | https://www.archlinux.org/packages/community/x86_64/librecad/             |
+    | | - Fedora                        | | https://apps.fedoraproject.org/packages/librecad                          |
+    | | - Gentoo                        | | https://packages.gentoo.org/packages/media-gfx/librecad                   |
+    | | - OpenSUSE                      | | https://software.opensuse.org/package/librecad                            |
+    +-----------------------------------+-----------------------------------------------------------------------------+
 
 
 .. _help:
