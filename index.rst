@@ -5,8 +5,13 @@
 LibreCAD User Manual
 ====================
 
-.. Default include
-.. include:: /inclFiles/notice.rst
+.. important::
+
+    This manual is for LibreCAD's stable release version 2.2.0.
+
+    For newer versions switch the manual version to ``latest`` in the flyout menu.
+
+    Information about pre 2.2.0 versions can be found in our `Wiki <http://dokuwiki.librecad.org>`_, or in the `Forum <http://forum.librecad.org>`_.
 
 .. Show the LibreCAD's splash screen
 
