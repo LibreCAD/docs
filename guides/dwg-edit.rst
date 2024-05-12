@@ -1,4 +1,4 @@
-.. User Manual, LibreCAD v2.2.x
+.. User Manual, LibreCAD v2.2.0
 
 .. Default include
 .. include:: /inclFiles/notice.rst
