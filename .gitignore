@@ -1,2 +1,6 @@
 _build/*
 _templates/*
+
+# ignore VSCode settings
+.vscode/*
+
