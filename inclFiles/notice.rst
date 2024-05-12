@@ -1,11 +1,13 @@
-..
-   Notice / banner to include at top of every page via "include" command
-   .. include:: /inclFiles/notice.rst
+.. User Manual, LibreCAD v2.2.x
+
+.. Notice / banner to include at top of every page via "include" command
 
 
-.. admonition:: LibreCAD v2.2.0 - User Manual
+.. admonition:: LibreCAD's latest build - User Manual
 
-    *This is an* **interim release** *of the of the* **LibreCAD User Manual** *and is subject to change.*  
+    *This is the* LibreCAD User Manual *for* **latest pre release builds.**
 
-    The manual is based on LibreCAD v2.2.0-rc1 with a few additions.  If you are using another version of LibreCAD, your mileage may vary.
+    The manual is **work in progress**, and probably not up to date with the latest build application.
+
+    Any help is welcome to add new features and modifications to this documentation, to close the gap and make the manual more complete.
 
