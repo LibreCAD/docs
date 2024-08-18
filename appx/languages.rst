@@ -20,7 +20,7 @@ Danish                           Korean                           Spanish; Casti
 Dutch; Flemish                   Latvian                          Swedish
 English (Australia)              Macedonian                       Tamil
 Estonian                         Norwegian                        Turkish
-Finnish                          Panjabi; Punjabi                 Ukraine
+Finnish                          Panjabi; Punjabi                 Ukrainian
 French                           Polish	
 Galician                         Portuguese	
 =============================    =============================    =============================
