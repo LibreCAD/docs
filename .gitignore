@@ -3,4 +3,5 @@ _templates/*
 
 # ignore VSCode settings
 .vscode/*
+*.code-workspace
 
