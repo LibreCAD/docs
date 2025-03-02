@@ -448,7 +448,7 @@ Selecting entities allow them to be modified or deleted.  Some operations can be
 
    -  type “sa” at the command line to select all entities.
 
-Deselect selected entities by typing “tn” at the command line or pressing [Esc].  Note that it might be might be necessary to press [Esc] twice if a command it active.
+Deselect selected entities by typing “tn” at the command line or pressing [Esc].  Note that it might be necessary to press [Esc] twice if a command is active.
 
 Also see the :ref:`Select<tool-select>` tools for additional methods to select and deselect entities.
 
