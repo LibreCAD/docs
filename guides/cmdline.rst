@@ -118,9 +118,9 @@ The format of the configuration file is ``<alias>[Tab]<command-untranslated>``. 
 
 Aliases can be added or modified to suit users' preferences.  The file is found in the following locations:
 
-   - **Linux**: $HOME/.local/share/LibreCAD/LibreCAD/librecad.alias
-   - **Windows**: C:\\Users\\ *{UserName}*\\AppData\\Local\\LibreCAD\\librecad.alias
-   - **macOS**: $HOME/Library/Application Support/LibreCAD/librecad.alias
+   - **Linux**: :file:`$HOME/.local/share/LibreCAD/LibreCAD/librecad.alias`
+   - **Windows**: :file:`C:\\Users\\ *{UserName}*\\AppData\\Local\\LibreCAD\\librecad.alias`
+   - **macOS**: :file:`$HOME/Library/Application Support/LibreCAD/librecad.alias`
 
 .. important::
 
