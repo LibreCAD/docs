@@ -35,6 +35,7 @@ The commands available to use are shown in the :ref:`Drawing Tools <tools>` refe
     #. Press [Ctrl + M], any command, and then [Enter] or the [Space bar].
     #. Press [Shift], any command, and then [Enter] or the [Space bar].
     #. Press [F1], any command, and then [Enter] or the [Space bar].
+    #. Press [Shift + Space bar] to force focus on the command prompt, any command, and then [Enter] or the [Space bar].
     #. With the *Keycode Mode* on, type a **two letter** command (e.g. ``li``, ``ci``); pressing [Enter] is not required. 
 
 When the command line is activated, the prompt above the input text-box (initially showing "Command:" in black text) turns blue.  After typing a command, the prompt will indicate the next input required, such as coordinates or the next action available.  
